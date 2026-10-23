@@ -1,0 +1,22 @@
+# Archivio privato e ambienti locali
+.DS_Store
+__pycache__/
+.venv*/
+.env
+.env.*
+!.env.example
+archivio/
+condivisione/
+pubblicazione/
+.openai/
+.sites*/
+*.part
+*.ytdl
+# Output rigenerabili; docs/ è la copia destinata a GitHub Pages
+sito/.build.lock
+sito/anteprima*.html
+sito/dist/*.html
+sito/dist/video/
+sito/dist/data/pagine.json
+proposte/*/sito/
+proposte/*/preparazione.json

@@ -1,0 +1,3967 @@
+[
+  {
+    "id": "destra-e-sinistra-conversa",
+    "title": "Destra e sinistra",
+    "subtitle": "Saggio politico irriverente per delusi e smarriti",
+    "author": "Domenico Conversa",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore presenti nei sottotitoli italiani a 00:05–00:11; sottotitolo dell’opera a 00:54–01:00. Dati bibliografici riscontrati presso l’editore; ascolto di controllo ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore",
+        "url": "https://store.youcanprint.it/destra-e-sinistra-saggio-politico-irriverente-per-delusi-e-smarriti/b/f6e9c23a-23b7-5c0a-924a-c10ac52db3ad"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "WzF2KJ1swVE",
+        "seconds": 5,
+        "title_seconds": 6,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore presenti nei sottotitoli italiani a 00:05–00:11; sottotitolo dell’opera a 00:54–01:00. Dati bibliografici riscontrati presso l’editore; ascolto di controllo ancora da completare.",
+        "video_title": "Sul libro \"Destra e Sinistra\" di Domenico Conversa."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/destra-e-sinistra-conversa.jpg",
+      "edition_label": "Youcanprint, 2025",
+      "isbn": "9791224034452",
+      "image_url": "https://www.ibs.it/images/9791224034452_0_0_0_0_0.jpg",
+      "source_page": "https://www.ibs.it/destra-sinistra-saggio-politico-irriverente-libro-domenico-conversa/e/9791224034452",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "destra-e-sinistra-bobbio",
+    "title": "Destra e sinistra",
+    "subtitle": "Ragioni e significati di una distinzione politica",
+    "author": "Norberto Bobbio",
+    "status": "citazione_esplicita",
+    "source": "Autore presente a 00:21, titolo a 00:33. Il sottotitolo è un’integrazione bibliografica, non una frase attribuita al video. Ascolto di controllo ancora da completare.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario",
+        "url": "https://www.librinlinea.it/titolo/destra-e-sinistra-ragioni-e-significat/RAV0233051"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "WzF2KJ1swVE",
+        "seconds": 21,
+        "title_seconds": 33,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore presente a 00:21, titolo a 00:33. Il sottotitolo è un’integrazione bibliografica, non una frase attribuita al video. Ascolto di controllo ancora da completare.",
+        "video_title": "Sul libro \"Destra e Sinistra\" di Domenico Conversa."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/destra-e-sinistra-bobbio.jpg",
+      "edition_label": "Donzelli, 2023",
+      "isbn": "9788855224659",
+      "image_url": "https://www.libraccio.it/images/9788855224659_0_350_0_75.jpg",
+      "source_page": "https://www.libraccio.it/libro/9788855224659/norberto-bobbio/destra-e-sinistra.-ragioni-e-significati-di-una-distinzione-politica.html",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "crepuscolo-horkheimer",
+    "title": "Crepuscolo",
+    "subtitle": "Appunti presi in Germania, 1926–1931",
+    "original_title": "Dämmerung",
+    "author": "Max Horkheimer",
+    "status": "identificazione_probabile",
+    "source": "Nome di Horkheimer e titolo tedesco deformato a 4:08–4:17. Anche il riconoscimento vocale locale restituisce una forma foneticamente vicina a Dämmerung. L’identificazione con Crepuscolo resta probabile; ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Catalogo Braidense · MIL0119876",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&fname=none&format=unimarc&from=50&nentries=1&resultForward=opac%2Fbraidense%2Ffull_simili.jsp&rpnlabel=+Codice+Classificazione+Dewey+%3D+303+&rpnquery=%40attrset+bib-1++%40attr+1%3D13+%40attr+4%3D1+%22303%22&searchForm=opac%2Fbraidense%2Ferror.jsp&select_db=solr_braidense&simili_id=MIL0119876&totalResult=62"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "WzF2KJ1swVE",
+        "seconds": 248,
+        "title_seconds": 257,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore menzionato intorno a 04:08; a 04:17 i sottotitoli riportano un titolo tedesco deformato. Probabile riferimento a Dämmerung, pubblicato in italiano come Crepuscolo. Da confermare tramite ascolto.",
+        "video_title": "Sul libro \"Destra e Sinistra\" di Domenico Conversa."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/crepuscolo-horkheimer.jpg",
+      "edition_label": "Originale tedesco, 1934",
+      "display_title": "Dämmerung",
+      "isbn": null,
+      "image_url": "https://pictures.abebooks.com/inventory/32249811353.jpg",
+      "source_page": "https://www.abebooks.com/D%C3%A4mmerung-Notizen-Deutschland-Heinrich-Regius-d.i/32249811353/bd",
+      "note": "Foto dell’edizione Oprecht & Helbling, pubblicata con lo pseudonimo Heinrich Regius.",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "questione-della-colpa-jaspers",
+    "title": "La questione della colpa",
+    "subtitle": "Sulla responsabilità politica della Germania",
+    "original_title": "Die Schuldfrage",
+    "author": "Karl Jaspers",
+    "status": "citazione_esplicita",
+    "source": "Titolo italiano e richiamo al titolo tedesco presenti intorno a 10:51–10:57. Il nome dell’autore è deformato nei sottotitoli; l’identificazione è coerente con la scheda dell’editore. Ascolto di controllo ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore",
+        "url": "https://www.raffaellocortina.it/scheda-libro/karl-jaspers/la-questione-della-colpa-9788870784183-442.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "rtmt9_Mzdkw",
+        "seconds": 648,
+        "title_seconds": 651,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo italiano e richiamo al titolo tedesco presenti intorno a 10:51–10:57. Il nome dell’autore è deformato nei sottotitoli; l’identificazione è coerente con la scheda dell’editore. Ascolto di controllo ancora da completare.",
+        "video_title": "Una chiacchierata su cultura e libri alla Buchmesse di Francoforte."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/questione-della-colpa-jaspers.jpg",
+      "edition_label": "Raffaello Cortina",
+      "isbn": "9788870784183",
+      "image_url": "https://www.libraccio.it/images/9788870784183_0_350_0_75.jpg",
+      "source_page": "https://www.raffaellocortina.it/scheda-libro/karl-jaspers/la-questione-della-colpa-9788870784183-442.html",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "fuga-dalla-liberta-fromm",
+    "title": "Fuga dalla libertà",
+    "author": "Erich Fromm",
+    "status": "citazione_esplicita",
+    "source": "Nuovo riscontro esplicito di autore e titolo nel video su Šalamov a 16:01. Nella conversazione di Francoforte il titolo resta probabile: anche il controllo vocale locale restituisce una preposizione diversa. Il nuovo riscontro non conferma retroattivamente quel passaggio. Ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario",
+        "url": "https://www.librinlinea.it/search/public/appl/dettaglio.php?bid=SBL0375420"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "rtmt9_Mzdkw",
+        "seconds": 1252,
+        "title_seconds": 1261,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore richiamato a 20:52; espressione vicina al titolo a 21:01. I sottotitoli hanno una preposizione diversa: l’associazione all’opera è probabile e richiede ascolto. Titolo canonico riscontrato nel catalogo bibliotecario.",
+        "video_title": "Una chiacchierata su cultura e libri alla Buchmesse di Francoforte."
+      },
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 958,
+        "title_seconds": 961,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fromm e il titolo Fuga dalla libertà sono accostati nel medesimo segmento a 961.40–963.76 secondi.",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fuga-dalla-liberta-fromm.jpg",
+      "edition_label": "Mondadori, 2022",
+      "isbn": "9788804753759",
+      "image_url": "https://www.libraccio.it/images/9788804753759_0_350_0_75.jpg",
+      "source_page": "https://www.mondadoristore.it/fuga-dalla-liberta-erich-fromm/p/9788804753759",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "concerto-dei-pesci-laxness",
+    "title": "Il concerto dei pesci",
+    "subtitle": "Citato in inglese come The Fish Can Sing",
+    "original_title": "Brekkukotsannáll",
+    "author": "Halldór Laxness",
+    "status": "titolo_nella_trascrizione",
+    "source": "Il titolo inglese The Fish Can Sing compare a 2:53 nella trascrizione vocale locale dell’intervista a Carson, dopo la domanda su Laxness. Titolo italiano riscontrato presso Iperborea; ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Edizione italiana · Iperborea",
+        "url": "https://iperborea.com/titolo/158/il-concerto-dei-pesci/"
+      },
+      {
+        "label": "Titolo inglese · Penguin Random House",
+        "url": "https://www.penguinrandomhouse.com/books/98747/the-fish-can-sing-by-halldor-laxness-introduction-by-jane-smiley-translated-by-magnus-magnusson/9780307389343/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "bcjZdrAct5U",
+        "seconds": 158,
+        "title_seconds": 173,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo inglese The Fish Can Sing compare a 2:53, dopo la domanda su Laxness. Il titolo italiano è riscontrato presso Iperborea; non è nominato un libro di Anne Carson.",
+        "video_title": "Anne Carson: recipient of the 2026 Nobel Prize in Literature."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/concerto-dei-pesci-laxness.jpg",
+      "edition_label": "Iperborea",
+      "isbn": "9788870911589",
+      "image_url": "https://image-resize.webstorage-4sigma.it/saCgDwOH3SyE1MWUZ2O48pSPNSE=/fit-in/1200x1200/filters:format(jpeg):quality(80):no_upscale()/4sigma-storage.fra1.cdn.digitaloceanspaces.com/iperborea-907/media/files_intranet/apps/librocatalogo/cover/000158/20200130131925_il_concerto_dei_pesci.jpg",
+      "source_page": "https://iperborea.com/titolo/158/il-concerto-dei-pesci/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "ideologia-del-lupo-caldarella",
+    "title": "L’ideologia del lupo",
+    "author": "Sergio Caldarella",
+    "subtitle": "Saggio sul potere nelle società storiche",
+    "status": "citazione_esplicita",
+    "source": "Opera nominata nel titolo del video e nei sottotitoli automatici italiani a 00:07–00:13. Autore e sottotitolo riscontrati nella presentazione dell’autore; il minutaggio deriva dai sottotitoli. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Presentazione dell’autore",
+        "url": "https://drdivagoscave.blogspot.com/2024/08/lideologia-del-lupo-saggio-sul-potere.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4,
+        "title_seconds": 7,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo all’inizio, sottotitolo nei segmenti 9–13 secondi e autore indicato a 00:28 e 01:00; è l’opera oggetto della conversazione.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ideologia-del-lupo-caldarella.png",
+      "edition_label": "Presentazione dell’autore, 2024",
+      "isbn": null,
+      "source_page": "https://drdivagoscave.blogspot.com/2024/08/lideologia-del-lupo-saggio-sul-potere.html",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV87W4T_Miln6TzXA_QJQmhfVZAOYirgWTeKcnT7wSGaXPTJDHdbTjXxg4svaL9BFdOBzVSwb448emUn4VMCTE7WIM7QjYWFynnWshU0tH4dc9hsbvccf6HFY2i53mM2BMZF9mfOnqjKECvXcQjilQ55BsJMqwFd1RkOZXZY00rJLvnrFCX0RMNAGBYAs/w583-h809/Screenshot%202024-08-26%20at%206.01.45%20PM.png"
+    }
+  },
+  {
+    "id": "libri-della-mia-vita-salamov",
+    "title": "I libri della mia vita",
+    "author": "Varlam Šalamov",
+    "status": "citazione_esplicita",
+    "source": "Autore a 46.93 secondi, editore Ibis a 50.12 secondi e titolo a 53.91–66.76 secondi. A 89.10–98.319 secondi si precisa la presenza del secondo saggio, Tavola di moltiplicazione per giovani poeti. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Ibis",
+        "url": "https://www.ibisedizioni.it/prodotto/i-libri-della-mia-vita-tavola-di-moltiplicazione-per-giovani-poeti/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 50,
+        "title_seconds": 53,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore a 46.93 secondi, editore Ibis a 50.12 secondi e titolo a 53.91–66.76 secondi. A 89.10–98.319 secondi si precisa la presenza del secondo saggio, Tavola di moltiplicazione per giovani poeti.",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/libri-della-mia-vita-salamov.jpg",
+      "edition_label": "Ibis, 2012",
+      "isbn": "9788871643502",
+      "source_page": "https://www.ibisedizioni.it/prodotto/i-libri-della-mia-vita-tavola-di-moltiplicazione-per-giovani-poeti/",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.ibisedizioni.it/wp-content/uploads/2019/02/9788871643502-1.jpeg"
+    }
+  },
+  {
+    "id": "sulla-stupidita-musil",
+    "title": "Sulla stupidità",
+    "author": "Robert Musil",
+    "status": "citazione_esplicita",
+    "source": "Il titolo apre i sottotitoli a 4.92 secondi; l’autore segue a 4.93 secondi. Il resto del contributo è una lettura della conferenza. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Catalogo dell’editore · La Vita Felice",
+        "url": "https://www.lavitafelice.it/la-vita-felice/libri-collana-il-piacere-di-leggere-letteratura-50-p7.html"
+      },
+      {
+        "label": "Edizione di riferimento · Libraccio",
+        "url": "https://www.libraccio.it/libro/9788877994851/robert-musil/sulla-stupidita-testo-tedesco-a-fronte.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "_1yAbIy2FOA",
+        "seconds": 4,
+        "title_seconds": 4,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo apre i sottotitoli a 4.92 secondi; l’autore segue a 4.93 secondi. Il resto del contributo è una lettura della conferenza.",
+        "video_title": "Lettura di \"Sulla stupidità\", di Robert Musil."
+      },
+      {
+        "video_id": "TzjX1YcaLGA",
+        "seconds": 7,
+        "title_seconds": 12,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore e titolo sono presentati nei primi segmenti; il testo è ripreso e letto durante tutto il video.",
+        "role": "opera_principale",
+        "video_title": "Robert Musil, Sulla stupidità"
+      },
+      {
+        "video_id": "zZWRZxv7GdM",
+        "seconds": 473,
+        "title_seconds": 476,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore sono nominati a 07:53–08:00 come confronto con la funzione sociale della stupidità.",
+        "video_title": "Albert Caraco, Il breviario del caos"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/sulla-stupidita-musil.jpg",
+      "edition_label": "La Vita Felice, 2013",
+      "isbn": "9788877994851",
+      "source_page": "https://www.libraccio.it/libro/9788877994851/robert-musil/sulla-stupidita-testo-tedesco-a-fronte.html",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.libraccio.it/images/9788877994851_0_350_0_75.jpg"
+    }
+  },
+  {
+    "id": "avvenire-nostre-scuole-nietzsche",
+    "title": "Sull’avvenire delle nostre scuole",
+    "author": "Friedrich Nietzsche",
+    "status": "citazione_esplicita",
+    "source": "Il titolo italiano è leggibile a 202.019–207.879 secondi. L’autore è stato nominato a 173.549 secondi. A circa quattro minuti viene indicata un’edizione Newton Compton curata da Luca Crescenzi. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845977831"
+      },
+      {
+        "label": "Edizione cartacea · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845901751"
+      },
+      {
+        "label": "Scheda dell’editore citato · Newton Compton",
+        "url": "https://www.newtoncompton.it/libro/sullavvenire-delle-nostre-scuole"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 199,
+        "title_seconds": 202,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo italiano è leggibile a 202.019–207.879 secondi. L’autore è stato nominato a 173.549 secondi. A circa quattro minuti viene indicata un’edizione Newton Compton curata da Luca Crescenzi.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/avvenire-nostre-scuole-nietzsche.jpg",
+      "edition_label": "Adelphi, 1975",
+      "isbn": "9788845901751",
+      "source_page": "https://www.adelphi.it/libro/9788845977831",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.libraccio.it/images/9788845901751_0_350_0_75.jpg"
+    }
+  },
+  {
+    "id": "beffe-e-beffatori-caldarella",
+    "title": "Beffe e beffatori in nome di una crisi",
+    "author": "Sergio Caldarella",
+    "status": "citazione_esplicita",
+    "source": "Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Lulu",
+        "url": "https://www.lulu.com/en/us/shop/sergio-caldarella/beffe-e-beffatori-in-nome-di-una-crisi/paperback/product-6dmzd2.html"
+      },
+      {
+        "label": "Presentazione dell’autore",
+        "url": "https://drdivagoscave.blogspot.com/2021/06/beffe-e-beffatori-in-nome-di-una-crisi.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qG6ZHgkpIa0",
+        "seconds": 7,
+        "title_seconds": 7,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verified": false,
+        "video_title": "Lettura del cap. I del libro \"Beffe e Beffatori in Nome di una Crisi\".",
+        "verification": "riscontro_testuale",
+        "human_audio_review": false,
+        "note": "L’annuncio della lettura è seguito a 00:07–00:15 da un titolo deformato dai sottotitoli, riconoscibile nel suo riferimento a beffatori e crisi.",
+        "role": "opera_principale",
+        "previous_evidence": {
+          "video_id": "qG6ZHgkpIa0",
+          "seconds": null,
+          "title_seconds": null,
+          "evidence": "video_title",
+          "verified": false,
+          "video_title": "Lettura del cap. I del libro \"Beffe e Beffatori in Nome di una Crisi\"."
+        }
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/beffe-e-beffatori-caldarella.jpg",
+      "edition_label": "Lulu, 2021",
+      "isbn": "9781008968851",
+      "source_page": "https://www.lulu.com/en/us/shop/sergio-caldarella/beffe-e-beffatori-in-nome-di-una-crisi/paperback/product-6dmzd2.html",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://assets.lulu.com/cover_thumbs/6/d/6dmzd2-front-shortedge-384.jpg"
+    }
+  },
+  {
+    "id": "cade-ancora-neve-caldarella",
+    "title": "Cade ancora neve",
+    "author": "Sergio Caldarella",
+    "status": "citazione_esplicita",
+    "source": "Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Bibliografia dell’autore · Liber Liber",
+        "url": "https://liberliber.it/autori/autori-c/sergio-caldarella/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "vJCWBoIqHNk",
+        "seconds": 3,
+        "title_seconds": 3,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verified": false,
+        "video_title": "Postfazione al libro \"Cade ancora neve\".",
+        "verification": "riscontro_testuale",
+        "human_audio_review": false,
+        "note": "Titolo a 00:03–00:04, seguito dall’annuncio della postfazione e del suo titolo.",
+        "role": "opera_principale",
+        "previous_evidence": {
+          "video_id": "vJCWBoIqHNk",
+          "seconds": null,
+          "title_seconds": null,
+          "evidence": "video_title",
+          "verified": false,
+          "video_title": "Postfazione al libro \"Cade ancora neve\"."
+        }
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/cade-ancora-neve-caldarella.svg",
+      "edition_label": "Oros Edizioni · copertina fotografata nel video dell’autore",
+      "isbn": null,
+      "image_url": "https://i.ytimg.com/vi/vJCWBoIqHNk/hqdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=vJCWBoIqHNk",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.642953+00:00",
+      "image_note": "Riquadro della fotografia della copertina nella miniatura originale del video; anno e ISBN non accertati."
+    }
+  },
+  {
+    "id": "algebra-degli-scacchi-caldarella",
+    "title": "L’algebra degli scacchi",
+    "author": "Sergio Caldarella",
+    "subtitle": "Aforemi",
+    "status": "citazione_esplicita",
+    "source": "Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Presentazione dell’autore",
+        "url": "https://drdivagoscave.blogspot.com/2009/"
+      },
+      {
+        "label": "Scheda del distributore · Diest",
+        "url": "https://www.diestlibri.com/zambon/400--lalgebra-degli-scacchi-aforemi-.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 4,
+        "title_seconds": 4,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verified": false,
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva.",
+        "verification": "riscontro_testuale",
+        "human_audio_review": false,
+        "note": "Titolo nel segmento iniziale a 00:04–00:08, con annuncio della lettura della digressione di apertura.",
+        "role": "opera_principale",
+        "previous_evidence": {
+          "video_id": "Qvl1lwOSEF0",
+          "seconds": null,
+          "title_seconds": null,
+          "evidence": "video_title",
+          "verified": false,
+          "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+        }
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/algebra-degli-scacchi-caldarella.jpg",
+      "edition_label": "Zambon, 2008",
+      "isbn": "9788887826463",
+      "source_page": "https://www.ibs.it/algebra-degli-scacchi-aforemi-libro-sergio-caldarella/e/9788887826463",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.ibs.it/images/9788887826463_0_0_0_0_0.jpg"
+    }
+  },
+  {
+    "id": "metafisiche-del-mondo-caldarella",
+    "title": "Metafisiche del mondo",
+    "author": "Sergio Caldarella",
+    "status": "citazione_esplicita",
+    "source": "Titolo nominato con scambio fra i due interlocutori a 1:07:50–1:07:56 come precedente testo dell’ospite. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Bibliografia dell’autore · Liber Liber",
+        "url": "https://liberliber.it/autori/autori-c/sergio-caldarella/"
+      },
+      {
+        "label": "Profilo di ricerca dell’autore",
+        "url": "https://independent.academia.edu/CaldarellaSergio/Libri%20pubblicati"
+      },
+      {
+        "label": "Elenco dei libri nel profilo dell’autore",
+        "url": "https://independent.academia.edu/CaldarellaSergio/Libri%20pubblicati"
+      },
+      {
+        "label": "Edizione illustrata · fonte della copertina",
+        "url": "https://domenicoconversa.it/consiglio-di-lettura-metafisiche-del-mondo-di-sergio-caldarella/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "9gSF5aeXZjc",
+        "seconds": 5,
+        "title_seconds": 5,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verified": false,
+        "video_title": "\"Metafisiche del Mondo\", lettura della prefazione.",
+        "verification": "riscontro_testuale",
+        "human_audio_review": false,
+        "note": "Titolo nel segmento iniziale a 00:05–00:09, preceduto dall’annuncio della lettura della prefazione.",
+        "role": "opera_principale",
+        "previous_evidence": {
+          "video_id": "9gSF5aeXZjc",
+          "seconds": null,
+          "title_seconds": null,
+          "evidence": "video_title",
+          "verified": false,
+          "video_title": "\"Metafisiche del Mondo\", lettura della prefazione."
+        }
+      },
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4065,
+        "title_seconds": 4070,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo nominato con scambio fra i due interlocutori a 1:07:50–1:07:56 come precedente testo dell’ospite.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/metafisiche-del-mondo-caldarella.jpg",
+      "edition_label": "Copertina riprodotta nella recensione di Domenico Conversa",
+      "isbn": null,
+      "image_url": "https://domenicoconversa.it/wp-content/uploads/2025/08/61xaAzTe7zL._SY342_.jpg",
+      "source_page": "https://domenicoconversa.it/consiglio-di-lettura-metafisiche-del-mondo-di-sergio-caldarella/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.298065+00:00"
+    }
+  },
+  {
+    "id": "saggio-arte-di-strisciare-holbach",
+    "title": "Saggio sull’arte di strisciare",
+    "author": "Paul Henri Thiry d’Holbach",
+    "subtitle": "Ad uso dei cortigiani",
+    "status": "citazione_esplicita",
+    "source": "Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Catalogo della Biblioteca cantonale di Lugano",
+        "url": "https://www.sbt.ti.ch/biblioteche-sbt/biblioteca-cantonale-lugano/selezioni-tematiche?cHash=33af5d64cb2f2dafe2efe51cde1204f1&tx_tichsbt_sbt%5BacquisizioneID%5D=160974&tx_tichsbt_sbt%5Baction%5D=temiacq&tx_tichsbt_sbt%5Bcontroller%5D=Sbt"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "kELdKNzwJQk",
+        "seconds": 19,
+        "title_seconds": 28,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verified": false,
+        "video_title": "Comunicazione vuota o svuotata? Il \"Saggio sull'arte di strisciare\" del Barone d'Holbach.",
+        "verification": "riscontro_testuale",
+        "human_audio_review": false,
+        "note": "Titolo, autore e editore il melangolo sono presentati all’apertura; dalla parte intorno a 48:45 seguono numerose letture commentate.",
+        "role": "opera_principale",
+        "previous_evidence": {
+          "video_id": "kELdKNzwJQk",
+          "seconds": null,
+          "title_seconds": null,
+          "evidence": "video_title",
+          "verified": false,
+          "video_title": "Comunicazione vuota o svuotata? Il \"Saggio sull'arte di strisciare\" del Barone d'Holbach."
+        }
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/saggio-arte-di-strisciare-holbach.jpg",
+      "edition_label": "Il Melangolo, 2009",
+      "isbn": "9788870187540",
+      "source_page": "https://www.sbt.ti.ch/biblioteche-sbt/biblioteca-cantonale-lugano/selezioni-tematiche?cHash=33af5d64cb2f2dafe2efe51cde1204f1&tx_tichsbt_sbt%5BacquisizioneID%5D=160974&tx_tichsbt_sbt%5Baction%5D=temiacq&tx_tichsbt_sbt%5Bcontroller%5D=Sbt",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www2.sbt.ti.ch/all/vetrina/160974.jpg"
+    }
+  },
+  {
+    "id": "saggio-sulla-liberta-mill",
+    "title": "Saggio sulla libertà",
+    "author": "John Stuart Mill",
+    "status": "citazione_esplicita",
+    "source": "Opera presentata con il titolo originale On Liberty e autore nell’apertura; le pagine vengono commentate nel seguito. Edizione non determinata. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Il Saggiatore",
+        "url": "https://www.ilsaggiatore.com/libro/saggio-sulla-liberta-2"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 8,
+        "title_seconds": 8,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Opera presentata con il titolo originale On Liberty e autore nell’apertura; le pagine vengono commentate nel seguito. Edizione non determinata.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/saggio-sulla-liberta-mill.jpg",
+      "edition_label": "Il Saggiatore",
+      "isbn": "9788842832560",
+      "source_page": "https://www.ilsaggiatore.com/libro/saggio-sulla-liberta-2",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.ilsaggiatore.com/storage/app/uploads/public/641/b1e/ee4/641b1eee41c99961100046.jpg"
+    }
+  },
+  {
+    "id": "lanterna-del-filosofo-ceronetti",
+    "title": "La lanterna del filosofo",
+    "author": "Guido Ceronetti",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore espliciti in apertura, seguiti da letture e commenti. Adelphi e 2005 sono detti nel video, ma non verificati visivamente sull’esemplare. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845919602"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "hrP8dnxQStk",
+        "seconds": 10,
+        "title_seconds": 13,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore espliciti in apertura, seguiti da letture e commenti. Adelphi e 2005 sono detti nel video, ma non verificati visivamente sull’esemplare.",
+        "video_title": "Guido Ceronetti, La Lanterna del Filosofo"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/lanterna-del-filosofo-ceronetti.jpg",
+      "edition_label": "Adelphi, 2005",
+      "isbn": "9788845919602",
+      "source_page": "https://www.adelphi.it/libro/9788845919602",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://www.libraccio.it/images/9788845919602_0_350_0_75.jpg"
+    }
+  },
+  {
+    "id": "consolazione-della-filosofia-boezio",
+    "title": "La consolazione della filosofia",
+    "author": "Severino Boezio",
+    "status": "citazione_esplicita",
+    "source": "Titolo latino, traduzione italiana e autore espliciti in apertura; opera letta e commentata per l’intero contributo. Minutaggio riscontrato nei sottotitoli automatici; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/la-consolazione-della-filosofia-9788830100183"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "PsM1VSs08k4",
+        "seconds": 6,
+        "title_seconds": 13,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo latino, traduzione italiana e autore espliciti in apertura; opera letta e commentata per l’intero contributo.",
+        "video_title": "Boezio, La Consolazione della Filosofia"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/consolazione-della-filosofia-boezio.jpg",
+      "edition_label": "Bompiani, 2019",
+      "isbn": "9788830100183",
+      "source_page": "https://www.bompiani.it/catalogo/la-consolazione-della-filosofia-9788830100183",
+      "edition_confirmed_in_video": false,
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B08929&type=P"
+    }
+  },
+  {
+    "id": "disagio-della-civilta-freud",
+    "title": "Il disagio della civiltà",
+    "author": "Sigmund Freud",
+    "status": "citazione_esplicita",
+    "source": "Autore e titolo riconoscibili nei sottotitoli automatici italiani a 01:31–01:34. L’identità bibliografica è riscontrata presso un editore dell’opera; la copertina illustrativa usa la variante Il disagio nella civiltà. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · opera inclusa nel volume",
+        "url": "https://www.newtoncompton.it/libro/lavvenire-di-unillusione-il-disagio-della-civilta"
+      },
+      {
+        "label": "Edizione della copertina · Einaudi, 2010",
+        "url": "https://www.libraccio.it/libro/9788806202088/sigmund-freud/il-disagio-della-civilt%C3%A0.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 91,
+        "title_seconds": 93,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Prima delle due opere attribuite a Freud all’avvio del colloquio.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/disagio-della-civilta-freud.jpg",
+      "edition_label": "Einaudi, 2010",
+      "display_title": "Il disagio nella civiltà",
+      "isbn": "9788806202088",
+      "image_url": "https://www.libraccio.it/images/9788806202088_0_350_0_75.jpg",
+      "source_page": "https://www.libraccio.it/libro/9788806202088/sigmund-freud/il-disagio-della-civilt%C3%A0.html",
+      "edition_confirmed_in_video": false
+    },
+    "search_aliases": [
+      "Il disagio nella civiltà"
+    ]
+  },
+  {
+    "id": "psicologia-delle-masse-freud",
+    "title": "Psicologia delle masse e analisi dell’Io",
+    "author": "Sigmund Freud",
+    "status": "identificazione_probabile",
+    "source": "Seconda opera di Freud nominata a 1:34 nella conversazione sul Lupo. Il riconoscimento locale, come i sottotitoli, restituisce un titolo abbreviato senza analisi. Titolo canonico riscontrato bibliograficamente; identificazione probabile, ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · BiblioToscana",
+        "url": "https://biblio.toscana.it/catalogo/record/a_psicologia_delle_masse_e_analisi_dell_io_freud_sigmund_2013_einaudi_piccola_biblioteca_einaudi_nuova_serie-massa_TM-104955"
+      },
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.com/libro/psicologia-delle-masse-e-analisi-dellio"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 91,
+        "title_seconds": 94,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Seconda opera di Freud; i sottotitoli collegano Psicologia delle masse e Io, omettendo analisi.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/psicologia-delle-masse-freud.jpg",
+      "edition_label": "Einaudi, 2013",
+      "isbn": "9788806210663",
+      "image_url": "https://www.libraccio.it/images/9788806210663_0_350_0_75.jpg",
+      "source_page": "https://www.libraccio.it/libro/9788806210663/sigmund-freud/psicologia-delle-masse-e-analisi-dell%27io.html",
+      "edition_confirmed_in_video": false
+    },
+    "search_aliases": [
+      "Psicologia delle masse"
+    ]
+  },
+  {
+    "id": "nel-ventre-della-balena-orwell",
+    "title": "Nel ventre della balena",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Il volume Nel ventre della balena è nominato a 25:24 e introduce una lettura. È una raccolta: il brano non viene attribuito automaticamente al saggio omonimo. Titolo e autore riscontrati nei sottotitoli; ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/nel-ventre-della-balena-9788845273056"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 1522,
+        "title_seconds": 1524,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo della raccolta nominato prima di una lettura; Orwell indicato nel seguito.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/nel-ventre-della-balena-orwell.jpg",
+      "edition_label": "Bompiani, 2013",
+      "isbn": "9788845273056",
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B07899&type=P",
+      "source_page": "https://www.bompiani.it/catalogo/nel-ventre-della-balena-9788845273056",
+      "edition_confirmed_in_video": false
+    },
+    "search_aliases": [
+      "Nel ventre della balena"
+    ]
+  },
+  {
+    "id": "il-tradimento-del-se-gruen",
+    "title": "Il tradimento del sé",
+    "subtitle": "La paura dell’autonomia nell’uomo e nella donna",
+    "author": "Arno Gruen",
+    "status": "riscontro_audio_automatico",
+    "source": "Il controllo vocale locale del passaggio 39:15–39:54 chiarisce il titolo Il tradimento del sé, insieme al nome di Gruen e al tema dell’autonomia. Identità bibliografica riscontrata nei cataloghi; ascolto umano ancora da completare.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · WorldCat",
+        "url": "https://search.worldcat.org/de/title/Il-tradimento-del-se-%3A-la-paura-dell%27autonomia-nell%27uomo-e-nella-donna/oclc/60248574"
+      },
+      {
+        "label": "Biblioteca sociale · scheda bibliografica",
+        "url": "https://www.comunitadicapodarco.it/biblioteca-sociale/il_tradimento_del_se/"
+      },
+      {
+        "label": "Biblioteca nazionale Braidense · risultati per l’autore, record LO10072195",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A1003%3ANomi%3A%3A%40frase%40=+Gruen%2C+Arno&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 2363,
+        "title_seconds": 2366,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nome e titolo sono riconoscibili nel controllo vocale locale a 39:21–39:28; il seguito tratta lo sviluppo dell’autonomia. Ascolto umano da completare.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/il-tradimento-del-se-gruen.jpg",
+      "edition_label": "Feltrinelli, 1992",
+      "isbn": "8807081040",
+      "image_url": "https://www.ossidiane.it/immag/copertine/978880708104.jpg",
+      "source_page": "https://www.ossidiane.it/il-tradimento-del-se-la-paura-dellautonomia-nelluomo-e-nella-donna/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "minima-moralia-adorno",
+    "title": "Minima moralia",
+    "subtitle": "Meditazioni della vita offesa",
+    "author": "Theodor W. Adorno",
+    "status": "citazione_esplicita",
+    "source": "Autore e titolo riconoscibili a 44:04–44:07 nei sottotitoli automatici italiani. Titolo completo e identità bibliografica riscontrati nel catalogo bibliotecario; il sottotitolo è un’integrazione bibliografica. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · BiblioToscana",
+        "url": "https://biblio.toscana.it/catalogo/record/a_minima_moralia_adorno_theodor_w_2015_einaudi_et-pisa_630297"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 2641,
+        "title_seconds": 2644,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore e titolo nominati a 44:04 nel discorso sull’individuo ferito; segue una parafrasi del sottotitolo tedesco.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/minima-moralia-adorno.jpg",
+      "edition_label": "Einaudi, 2015",
+      "isbn": "9788806228606",
+      "image_url": "https://www.libraccio.it/images/9788806228606_0_350_0_75.jpg",
+      "source_page": "https://www.ibs.it/minima-moralia-meditazioni-della-vita-libro-theodor-w-adorno/e/9788806228606",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "breviario-del-caos-caraco",
+    "title": "Breviario del caos",
+    "author": "Albert Caraco",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore riconoscibili nei sottotitoli automatici italiani a 52:31–52:34. L’identità bibliografica è riscontrata presso l’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845913822"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 3146,
+        "title_seconds": 3151,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore espliciti prima della lettura di un breve passaggio.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      },
+      {
+        "video_id": "zZWRZxv7GdM",
+        "seconds": 10,
+        "title_seconds": 14,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore e titolo aprono il video; numerosi passaggi del volume sono letti e commentati.",
+        "role": "opera_principale",
+        "video_title": "Albert Caraco, Il breviario del caos"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/breviario-del-caos-caraco.jpg",
+      "edition_label": "Adelphi, 1998",
+      "isbn": "9788845913822",
+      "image_url": "https://www.libraccio.it/images/9788845913822_0_350_0_75.jpg",
+      "source_page": "https://www.libraccio.it/libro/9788845913822/albert-caraco/breviario-del-caos.html",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "fare-squadra-malaguti",
+    "title": "Fare squadra",
+    "author": "Daniele Malaguti",
+    "status": "citazione_esplicita",
+    "source": "Manuale presentato a 12:59, cognome e titolo a 13:04–13:10, seguito dalla lettura di due definizioni. Titolo, cognome e anno 2007 sono espliciti. La piattaforma editoriale Darwinbooks conferma autore, titolo, sottotitolo e pubblicazione a stampa 2007. Non trasformare il commento polemico degli interlocutori in una valutazione redazionale del manuale.",
+    "references": [
+      {
+        "label": "Piattaforma editoriale · il Mulino / Darwinbooks",
+        "url": "https://www.darwinbooks.it/darwin/book/index/BookRelease/Darwin%3ABOOK_RELEASE%3A1570"
+      },
+      {
+        "label": "Catalogo dell’editore, 2012",
+        "url": "https://www.mulino.it/edizioni/volumi/novita_folder/2012_catalogo.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 779,
+        "title_seconds": 784,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Manuale presentato a 12:59, cognome e titolo a 13:04–13:10, seguito dalla lettura di due definizioni.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "subtitle": "Psicologia dei gruppi di lavoro",
+    "cover": {
+      "src": "assets/copertine/fare-squadra-malaguti.png",
+      "edition_label": "il Mulino, 2018",
+      "isbn": "9788815279729",
+      "image_url": "https://static09.mulino.it/sitomulino/9788815279729/bookCoverSizeBig/ef9527bcover27972.jpeg",
+      "source_page": "https://www.mulino.it/isbn/9788815279729",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "fattoria-degli-animali-orwell",
+    "title": "La fattoria degli animali",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Nominato insieme a 1984 come esempio di rappresentazione allegorica. Titolo esplicito in un passaggio interamente dedicato a Orwell; identità bibliografica verificata presso Mondadori Education. Edizione non identificata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Mondadori Education",
+        "url": "https://www.mondadorieducation.it/catalogo/la-fattoria-degli-animali-0083116/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 1748,
+        "title_seconds": 1750,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nominato insieme a 1984 come esempio di rappresentazione allegorica.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      },
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 20,
+        "title_seconds": 29,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Presentata fra le due opere più note di Orwell; ritorna a 5014 secondi nel commento alla rivoluzione degli animali e alla figura di Clover.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "edition_label": "A. Mondadori Scuola · edizione scolastica",
+      "isbn": "9791220434065",
+      "image_url": "https://www.mondadorieducation.it/media/img/120900083116HIG.jpg",
+      "source_page": "https://www.mondadorieducation.it/catalogo/la-fattoria-degli-animali-0083116/",
+      "src": "assets/copertine/fattoria-degli-animali-orwell.jpg",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "1984-orwell",
+    "title": "1984",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Nominato immediatamente dopo La fattoria degli animali. Titolo esplicito nel confronto sulle opere di Orwell; la scheda dell’editore lo annovera fra le sue opere. Edizione non identificata.",
+    "references": [
+      {
+        "label": "Profilo dell’autore nella scheda Mondadori Education",
+        "url": "https://www.mondadorieducation.it/catalogo/la-fattoria-degli-animali-0083116/"
+      },
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.it/libro/1984"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 1748,
+        "title_seconds": 1754,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nominato immediatamente dopo La fattoria degli animali.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      },
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 1777,
+        "title_seconds": 1782,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Orwell è riconoscibile a 1777.82 secondi e il titolo numerico, trascritto con una cifra iniziale mancante, a 1782.99–1788.86 secondi nel discorso sulla manipolazione delle parole.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      },
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 20,
+        "title_seconds": 31,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo nominato dopo La fattoria degli animali; il condizionamento di Winston, la neolingua e il controllo del passato ricorrono più avanti.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "edition_label": "Newton Compton · edizione illustrativa",
+      "isbn": "9788822796028",
+      "image_url": "https://www.newtoncompton.it/files/cache/bookimages/19178/1984-x600.jpg",
+      "source_page": "https://www.newtoncompton.it/libro/1984",
+      "src": "assets/copertine/1984-orwell.jpg",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "ballata-del-vecchio-marinaio-coleridge",
+    "title": "La ballata del vecchio marinaio",
+    "author": "Samuel Taylor Coleridge",
+    "status": "identificazione_probabile",
+    "source": "Gli interlocutori nominano il vecchio marinaio di Coleridge e raccontano l’incontro iniziale del poema. Autore, titolo abbreviato e situazione narrativa convergono. Il titolo italiano esteso è un’integrazione bibliografica; l’edizione è ignota. Il riassunto della trama pronunciato non va riproposto come dato corretto senza verifica sul testo.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli",
+        "url": "https://www.rizzolilibri.it/libri/la-ballata-del-vecchio-marinaio/"
+      },
+      {
+        "label": "Scheda dell’editore · Newton Compton, raccolta contenente il poema",
+        "url": "https://www.newtoncompton.com/libro/la-ballata-del-vecchio-marinaio-e-altre-poesie"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 3474,
+        "title_seconds": 3478,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Gli interlocutori nominano il vecchio marinaio di Coleridge e raccontano l’incontro iniziale del poema.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      },
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 454,
+        "title_seconds": 454,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Da 07:34 il testo nomina Coleridge e una forma deformata del titolo inglese The Rime of the Ancient Mariner, prima della citazione sull’invisibile.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ballata-del-vecchio-marinaio-coleridge.webp",
+      "edition_label": "BUR Rizzoli · illustrazioni di Gustave Doré",
+      "isbn": "9788817143493",
+      "image_url": "https://www.rizzolilibri.it/content/uploads/2019/11/978881714349HIG.webp",
+      "source_page": "https://www.rizzolilibri.it/libri/la-ballata-del-vecchio-marinaio/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.298719+00:00"
+    }
+  },
+  {
+    "id": "perche-la-guerra-einstein-freud",
+    "title": "Perché la guerra?",
+    "author": "Albert Einstein e Sigmund Freud",
+    "status": "identificazione_probabile",
+    "source": "Riferimento esplicito a Einstein e alla lettera a Freud, seguito dalla domanda sulla minoranza che mobilita la massa per la guerra. L’opera è identificabile dal carteggio e dal contenuto della domanda; il titolo nei sottotitoli è deformato. Titolo normalizzato dalla pubblicazione, senza dedurre l’edizione citata.",
+    "references": [
+      {
+        "label": "Edizione dell’opera · Entheos",
+        "url": "https://entheosedizioni.com/perche-la-guerra-einstein-e-freud/"
+      },
+      {
+        "label": "Materiale didattico dell’editore · Zanichelli, estratto con attribuzione",
+        "url": "https://www.zanichelli.it/download/media/ngzn/Traccia%201%20%28tipo_B%29%20-%20Perch%C3%A9%20la%20guerra.pdf"
+      },
+      {
+        "label": "Edizione illustrata · fonte della copertina",
+        "url": "https://www.feltrinellieditore.it/opera/perche-la-guerra/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4117,
+        "title_seconds": 4120,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Riferimento esplicito a Einstein e alla lettera a Freud, seguito dalla domanda sulla minoranza che mobilita la massa per la guerra.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/perche-la-guerra-einstein-freud.jpg",
+      "edition_label": "Feltrinelli, 2026 · Perché la guerra? e altri scritti",
+      "isbn": "9788807092138",
+      "image_url": "https://www.feltrinellieditore.it/media/copertina/quarta/38/9788807092138_quarta.jpg.800x800_q75.jpg",
+      "source_page": "https://www.feltrinellieditore.it/opera/perche-la-guerra/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.381258+00:00",
+      "display_title": "Perché la guerra? e altri scritti"
+    }
+  },
+  {
+    "id": "aut-aut-kierkegaard",
+    "title": "Aut-Aut",
+    "author": "Søren Kierkegaard",
+    "status": "identificazione_probabile",
+    "source": "L’intervistatore dice di aver iniziato a leggere Kierkegaard e un titolo reso foneticamente dai sottotitoli come out out. Nome, titolo fonetico e contesto di lettura convergono. Adelphi conferma che Enten-Eller è nota in Italia come Aut-Aut. Non attribuire una specifica selezione, traduzione o volume.",
+    "references": [
+      {
+        "label": "Catalogo dell’editore · Adelphi, rapporto fra Enten-Eller e Aut-Aut",
+        "url": "https://www.adelphi.it/catalogo/autore/591"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4185,
+        "title_seconds": 4191,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "L’intervistatore dice di aver iniziato a leggere Kierkegaard e un titolo reso foneticamente dai sottotitoli come out out.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/aut-aut-kierkegaard.jpg",
+      "edition_label": "Adelphi · Enten-Eller, I (volume di riferimento)",
+      "isbn": "9788845901935",
+      "image_url": "https://www.adelphi.it/spool/i__id11684_mw1000__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845901935",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.476692+00:00",
+      "display_title": "Enten-Eller, I",
+      "edition_note": "La copertina illustra il primo volume della traduzione Adelphi di Enten-Eller, opera nota come Aut-Aut. Il volume effettivamente citato non è identificato."
+    }
+  },
+  {
+    "id": "critica-del-giudizio-kant",
+    "title": "Critica del giudizio",
+    "author": "Immanuel Kant",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore nominati nella riflessione conclusiva sul giudizio autonomo. Titolo esplicito e ripetuto nel medesimo passaggio. La spiegazione degli interlocutori sulla genesi e sulla funzione dell’opera non è stata verificata e non va ripresa come fatto bibliografico.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/critica-del-giudizio-testo-tedesco-a-fronte-B07409"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4794,
+        "title_seconds": 4797,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore nominati nella riflessione conclusiva sul giudizio autonomo.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "edition_label": "Bompiani, 2015",
+      "isbn": "9788845233241",
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B07409&size=medium&type=P",
+      "source_page": "https://www.bompiani.it/catalogo/critica-del-giudizio-testo-tedesco-a-fronte-B07409",
+      "src": "assets/copertine/critica-del-giudizio-kant.jpg",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "critica-della-ragion-pratica-kant",
+    "title": "Critica della ragion pratica",
+    "author": "Immanuel Kant",
+    "status": "citazione_esplicita",
+    "source": "Titolo nominato a 1:20:10–1:20:13 nel confronto con la Critica del giudizio. Titolo completo esplicito. Edizione non identificata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/critica-della-ragion-pratica-9788845290312"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qr7vi4Mgd_0",
+        "seconds": 4807,
+        "title_seconds": 4810,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo nominato a 1:20:10–1:20:13 nel confronto con la Critica del giudizio.",
+        "video_title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\"."
+      }
+    ],
+    "cover": {
+      "edition_label": "Bompiani, 2000",
+      "isbn": "9788845290312",
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B06673&size=medium&type=P",
+      "source_page": "https://www.bompiani.it/catalogo/critica-della-ragion-pratica-9788845290312",
+      "src": "assets/copertine/critica-della-ragion-pratica-kant.jpg",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "elogio-della-follia-erasmo",
+    "title": "Elogio della follia",
+    "author": "Erasmo da Rotterdam",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore nei sottotitoli della lettura di Musil a 05:09–05:13. Citazione interna all’opera letta; ascolto umano ancora da svolgere.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Feltrinelli",
+        "url": "https://www.feltrinellieditore.it/opera/elogio-della-follia-1/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "_1yAbIy2FOA",
+        "seconds": 305,
+        "title_seconds": 309,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore compaiono consecutivamente fra 309.49 e 313.63 secondi all’interno del testo di Musil che viene letto.",
+        "citation_context": "lettura_del_testo_di_Musil",
+        "video_title": "Lettura di \"Sulla stupidità\", di Robert Musil."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/elogio-della-follia-erasmo.jpg",
+      "edition_label": "Feltrinelli · edizione di riferimento",
+      "isbn": "9788807901133",
+      "image_url": "https://www.feltrinellieditore.it/media/copertina/quarta/33/9788807901133_quarta.jpg.800x800_q75.jpg",
+      "source_page": "https://www.feltrinellieditore.it/opera/elogio-della-follia-1/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "mondo-volonta-rappresentazione-schopenhauer",
+    "title": "Il mondo come volontà e rappresentazione",
+    "author": "Arthur Schopenhauer",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore presenti nei sottotitoli a 06:11–06:19; ascolto umano da completare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.it/libro/il-mondo-come-volonta-e-rappresentazione"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 371,
+        "title_seconds": 377,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Schopenhauer è nominato da 371.01 secondi; il titolo, distribuito su due segmenti, compare a 377.43–379.70 secondi.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/mondo-volonta-rappresentazione-schopenhauer.jpg",
+      "edition_label": "Newton Compton · edizione di riferimento",
+      "isbn": "9788854175020",
+      "image_url": "https://www.newtoncompton.it/files/cache/bookimages/4342/il-mondo-come-volonta-e-rappresentazione-x600.jpg",
+      "source_page": "https://www.newtoncompton.it/libro/il-mondo-come-volonta-e-rappresentazione",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "pensieri-educazione-locke",
+    "title": "Pensieri sull’educazione",
+    "original_title": "Some Thoughts Concerning Education",
+    "author": "John Locke",
+    "status": "identificazione_probabile",
+    "source": "A 08:28–08:42 i sottotitoli nominano Locke, l’educazione e il 1693; il titolo inglese risulta fortemente deformato. Identificazione da confermare con ascolto.",
+    "references": [
+      {
+        "label": "Testo edito da Cambridge University Press",
+        "url": "https://www.cambridge.org/core/books/abs/the-educational-writings-of-john-locke/some-thoughts-concerning-education/9D3040AECCC157E0EEC477B7AFFDD0EC"
+      },
+      {
+        "label": "Catalogo bibliotecario · Pensieri sull’educazione, Locke",
+        "url": "https://www.librinlinea.it/search/public/appl/dettaglio.php?bid=PUV0603041&clean_cron_search=y"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 508,
+        "title_seconds": 520,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fra 508.99 e 522.90 secondi si nomina Locke, un testo sull’educazione del 1693 e un titolo inglese fortemente deformato dai sottotitoli.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/pensieri-educazione-locke.jpg",
+      "edition_label": "Carlo Signorelli, 1966 · fotografia di un esemplare",
+      "isbn": null,
+      "image_url": "https://www.comprovendolibri.it/copertine/2019/08/25/2019082514513856.JPG",
+      "source_page": "https://www.comprovendolibri.it/ordina.asp?db=&id=67340552&tt=PENSIERI+SULL%E2%80%99+EDUCAZIONE",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.577629+00:00"
+    }
+  },
+  {
+    "id": "emilio-rousseau",
+    "title": "Emilio, o dell’educazione",
+    "author": "Jean-Jacques Rousseau",
+    "status": "citazione_esplicita",
+    "source": "Prima menzione a 08:58; il titolo è poi chiarito a 09:46–09:54. Il relatore lo nomina in francese; nessuna edizione italiana è identificata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Laterza",
+        "url": "https://www.laterza.it/scheda-libro/?isbn=9788842070290"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 538,
+        "title_seconds": 538,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il primo riferimento al titolo e a Rousseau è a 538.45–549.05 secondi, con errori ASR. Il titolo francese e la parte sull’educazione sono chiariti a 586.42–594.92 secondi.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/emilio-rousseau.jpg",
+      "edition_label": "Laterza · edizione di riferimento",
+      "isbn": "9788842070290",
+      "image_url": "https://www.laterza.it/immagini/copertine-big/9788842070290.jpg",
+      "source_page": "https://www.laterza.it/scheda-libro/?isbn=9788842070290",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "lentezza-kundera",
+    "title": "La lentezza",
+    "author": "Milan Kundera",
+    "status": "identificazione_probabile",
+    "source": "A 13:17–13:30 il relatore nomina Kundera e il suo libro in francese; il titolo è deformato dai sottotitoli. Identificazione da confermare tramite ascolto.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845985478"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 797,
+        "title_seconds": 801,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fra 797.10 e 810.80 secondi il relatore nomina Kundera e il suo libro in francese. La prima resa del titolo è deformata, poi compare un riferimento alla lentezza.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/lentezza-kundera.jpg",
+      "edition_label": "Adelphi eBook, 2022",
+      "isbn": "9788845985478",
+      "image_url": "https://www.adelphi.it/spool/i__id11113_mw1000__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845985478",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.669452+00:00"
+    }
+  },
+  {
+    "id": "riflessioni-cause-liberta-oppressione-weil",
+    "title": "Riflessioni sulle cause della libertà e dell’oppressione sociale",
+    "author": "Simone Weil",
+    "status": "identificazione_probabile",
+    "source": "Autrice e titolo abbreviato sulle cause dell’oppressione sociale nei sottotitoli a 32:27–32:35. Il titolo completo resta un’identificazione probabile da ascoltare.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845977237"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qKlSuwo9Rpo",
+        "seconds": 1947,
+        "title_seconds": 1950,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Weil è nominata a 1947.919 secondi; segue un titolo abbreviato sulle cause dell’oppressione sociale, a 1950.289–1955.86 secondi.",
+        "video_title": "Nietzsche e l'avvenire delle nostre scuole."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/riflessioni-cause-liberta-oppressione-weil.jpg",
+      "edition_label": "Adelphi eBook, 2015",
+      "isbn": "9788845977237",
+      "image_url": "https://www.adelphi.it/spool/i__id10646_mw1000__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845977237",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.761057+00:00"
+    }
+  },
+  {
+    "id": "visera-salamov",
+    "title": "Višera",
+    "subtitle": "Antiromanzo",
+    "author": "Varlam Šalamov",
+    "status": "identificazione_probabile",
+    "source": "A 03:00–03:12 il relatore parla di uno scritto dal nome del primo campo di prigionia. La resa ASR del titolo è incoerente; bibliografia e contesto suggeriscono Višera. Ascolto necessario per confermare.",
+    "references": [
+      {
+        "label": "Catalogo dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/catalogo/autore/891/varlam-salamov"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 175,
+        "title_seconds": 184,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dopo il richiamo al primo campo di prigionia, a 180.69–192.50 secondi viene nominato uno scritto dal medesimo nome, reso in modo incoerente dai sottotitoli.",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/visera-salamov.jpg",
+      "edition_label": "Adelphi · Biblioteca Adelphi, 560",
+      "isbn": "9788845924910",
+      "image_url": "https://www.adelphi.it/spool/i__id11771_mw300__1x.jpg",
+      "source_page": "https://www.adelphi.it/catalogo/autore/891/varlam-salamov",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.841675+00:00"
+    }
+  },
+  {
+    "id": "quarta-vologda-salamov",
+    "title": "La quarta Vologda",
+    "author": "Varlam Šalamov",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicito nei sottotitoli a 04:04–04:10; ascolto umano non svolto.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845916229"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 244,
+        "title_seconds": 244,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo è leggibile a 244.79–250.52 secondi nel richiamo autobiografico all’autore presentato.",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/quarta-vologda-salamov.jpg",
+      "edition_label": "Adelphi · edizione di riferimento",
+      "isbn": "9788845916229",
+      "image_url": "https://www.adelphi.it/spool/i__id2245_mw1000__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845916229",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "demoni-dostoevskij",
+    "title": "I demoni",
+    "author": "Fëdor Dostoevskij",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore leggibili a 37:48–37:52 nel brano di Šalamov sulla biblioteca. Citazione interna al testo letto; ascolto umano non svolto.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Feltrinelli",
+        "url": "https://www.feltrinellieditore.it/opera/i-demoni-1/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 2265,
+        "title_seconds": 2268,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nel brano letto sulla biblioteca, Dostoevskij e I demoni compaiono a 2268.20–2272.09 secondi.",
+        "citation_context": "lettura_del_testo_di_Salamov",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/demoni-dostoevskij.jpg",
+      "edition_label": "Feltrinelli · edizione di riferimento",
+      "isbn": "9788807902475",
+      "image_url": "https://www.feltrinellieditore.it/media/copertina/quarta/75/9788807902475_quarta.jpg.800x800_q75.jpg",
+      "source_page": "https://www.feltrinellieditore.it/opera/i-demoni-1/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "diario-scrittore-dostoevskij",
+    "title": "Diario di uno scrittore",
+    "author": "Fëdor Dostoevskij",
+    "status": "citazione_esplicita",
+    "source": "Titolo leggibile a 37:52–37:53, attribuito a Dostoevskij dalla frase precedente. Citazione interna al brano di Šalamov letto dal relatore.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/diario-di-uno-scrittore-9788845258060"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1BOOpIWLGjU",
+        "seconds": 2268,
+        "title_seconds": 2272,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo segue immediatamente I demoni nel medesimo elenco di opere di Dostoevskij, a 2272.10–2273.38 secondi.",
+        "citation_context": "lettura_del_testo_di_Salamov",
+        "video_title": "Varlam Šalamov, I libri della mia vita."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/diario-scrittore-dostoevskij.jpg",
+      "edition_label": "Bompiani · edizione di riferimento",
+      "isbn": "9788845258060",
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B07634&size=medium&type=P",
+      "source_page": "https://www.bompiani.it/catalogo/diario-di-uno-scrittore-9788845258060",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "origine-delle-specie-darwin",
+    "title": "L’origine delle specie",
+    "author": "Charles Darwin",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore riconoscibili nei sottotitoli automatici a 00:25–00:29, nel confronto tra opere pubblicate nel 1859. L’identità bibliografica è riscontrata in un testo dell’editore Zanichelli. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Editore Zanichelli · riferimento a titolo e autore",
+        "url": "https://staticmy.zanichelli.it/catalogo/assets/9788808391131_04_CAP.pdf"
+      },
+      {
+        "label": "Edizione illustrata · fonte della copertina",
+        "url": "https://www.ibs.it/origine-delle-specie-libro-charles-darwin/e/9788833922577"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 22,
+        "title_seconds": 25,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore espliciti nel confronto tra due pubblicazioni del 1859.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/origine-delle-specie-darwin.jpg",
+      "edition_label": "Bollati Boringhieri · I grandi pensatori",
+      "isbn": "9788833922577",
+      "image_url": "https://www.ibs.it/images/9788833922577_0_0_0_0_0.jpg",
+      "source_page": "https://www.ibs.it/origine-delle-specie-libro-charles-darwin/e/9788833922577",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:50.925787+00:00"
+    }
+  },
+  {
+    "id": "capitale-marx",
+    "title": "Il capitale",
+    "author": "Karl Marx",
+    "status": "citazione_esplicita",
+    "source": "Il primo libro del Capitale è nominato esplicitamente a 17:18, dopo la discussione del giudizio di Marx su Mill e Bentham. Identità bibliografica riscontrata nel catalogo di Editori Riuniti. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Editori Riuniti",
+        "url": "https://editoririuniti.it/products/il-capitale-libro-primo"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 1027,
+        "title_seconds": 1038,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Marx è nominato nel contesto; viene indicato esplicitamente il primo libro del Capitale, capitolo 22.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/capitale-marx.jpg",
+      "edition_label": "Editori Riuniti · Libro primo",
+      "isbn": "9788835981008",
+      "image_url": "https://editoririuniti.it/cdn/shop/products/Il_capitale_karl_marx_editori_riuniti.jpg?v=1497445069&width=1024",
+      "source_page": "https://editoririuniti.it/products/il-capitale-libro-primo",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "macchina-del-tempo-wells",
+    "title": "La macchina del tempo",
+    "author": "H. G. Wells",
+    "status": "citazione_esplicita",
+    "source": "Titolo riconoscibile a 28:53; il nome dell’autore è deformato dal riconoscimento automatico. Il seguito su Eloi e Morlock coincide con la descrizione dell’opera fornita dall’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Feltrinelli",
+        "url": "https://www.feltrinellieditore.it/opera/la-macchina-del-tempo/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 1725,
+        "title_seconds": 1733,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo esplicito; il nome dell’autore è deformato dal riconoscimento. Il successivo riferimento agli Eloi e ai Morlock coincide con la descrizione dell’editore, senza determinare l’edizione.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/macchina-del-tempo-wells.jpg",
+      "edition_label": "Feltrinelli · Universale Economica, I classici",
+      "isbn": "9788807903748",
+      "image_url": "https://www.feltrinellieditore.it/media/copertina/quarta/48/9788807903748_quarta.jpg.800x800_q75.jpg",
+      "source_page": "https://www.feltrinellieditore.it/opera/la-macchina-del-tempo/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.010068+00:00"
+    }
+  },
+  {
+    "id": "ricerche-liberta-umana-schelling",
+    "title": "Ricerche filosofiche sull’essenza della libertà umana",
+    "author": "Friedrich Wilhelm Joseph Schelling",
+    "status": "citazione_esplicita",
+    "source": "Titolo e Schelling sono riconoscibili a 44:34–44:45 nel confronto tra libertà civile e riflessione metafisica. Il riconoscimento deforma essenza in assenza; il titolo è normalizzato sulla scheda dell’editore Mursia, che include l’opera in una raccolta. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Editore Mursia · opera inclusa nella raccolta",
+        "url": "https://www.mursia.com/products/21303"
+      },
+      {
+        "label": "Edizione illustrata · fonte della copertina",
+        "url": "https://www.libreriauniversitaria.it/ricerche-filosofiche-sull-essenza-liberta/libro/9788845259364"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 2671,
+        "title_seconds": 2679,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Schelling e il titolo sono riconoscibili nel confronto con Mill; essenza è deformata in assenza nei sottotitoli. Titolo normalizzato sulla fonte dell’editore; ascolto ancora necessario.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ricerche-liberta-umana-schelling.jpg",
+      "edition_label": "Bompiani, 2007 · testo tedesco a fronte",
+      "isbn": "9788845259364",
+      "image_url": "https://www.ibs.it/images/9788845259364_0_0_0_0_0.jpg",
+      "source_page": "https://www.libreriauniversitaria.it/ricerche-filosofiche-sull-essenza-liberta/libro/9788845259364",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.086978+00:00"
+    }
+  },
+  {
+    "id": "democrazia-in-america-tocqueville",
+    "title": "La democrazia in America",
+    "author": "Alexis de Tocqueville",
+    "status": "citazione_esplicita",
+    "source": "Tocqueville e il titolo sono riconoscibili nei sottotitoli a 46:18–46:34. Identità bibliografica riscontrata presso l’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · UTET",
+        "url": "https://www.utetlibri.it/costellazioni-utet/istruzioni-per-abitare-il-presente/libro/la-democrazia-in-america/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "n3vROvmuJ1g",
+        "seconds": 2778,
+        "title_seconds": 2784,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore e titolo espliciti durante la digressione sulla teoria economica di Mill.",
+        "video_title": "Saggio sulla libertà di John Stuart Mill."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/democrazia-in-america-tocqueville.jpg",
+      "edition_label": "UTET · Classici del pensiero",
+      "isbn": null,
+      "image_url": "https://www.utetlibri.it/uploads/2016/04/Tocqueville_ebcb188e466b80b48ffde3ff25b11be3.jpg",
+      "source_page": "https://www.utetlibri.it/costellazioni-utet/istruzioni-per-abitare-il-presente/libro/la-democrazia-in-america/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.163108+00:00"
+    }
+  },
+  {
+    "id": "cosiddetti-sani-fromm",
+    "title": "I cosiddetti sani",
+    "subtitle": "La patologia della normalità",
+    "author": "Erich Fromm",
+    "status": "citazione_esplicita",
+    "source": "Fromm, Rainer Funk e il titolo sono riconoscibili a 02:10–02:26. I successivi richiami alla Patologia della normalità corrispondono al sottotitolo della stessa opera nel catalogo bibliotecario regionale; non sono un secondo libro. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario regionale · Librinlinea",
+        "url": "https://www.librinlinea.it/search/public/appl/dettaglio.php?bid=UM10027007"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "hrP8dnxQStk",
+        "seconds": 121,
+        "title_seconds": 143,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fromm, il curatore Rainer Funk e il titolo sono espliciti. La patologia della normalità, richiamata a 527 e 904 secondi, è il sottotitolo della stessa opera secondo il catalogo bibliotecario: nessun doppione.",
+        "video_title": "Guido Ceronetti, La Lanterna del Filosofo"
+      }
+    ],
+    "search_aliases": [
+      "La patologia della normalità",
+      "I cosiddetti sani ovvero la patologia della normalità"
+    ],
+    "cover": {
+      "src": "assets/copertine/cosiddetti-sani-fromm.jpg",
+      "edition_label": "Mondadori, 1997 · Oscar saggi",
+      "isbn": "9788804423584",
+      "image_url": "https://www.ibs.it/images/9788804423584_0_0_0_0_0.jpg",
+      "source_page": "https://www.librinlinea.it/search/public/appl/dettaglio.php?bid=UM10027007",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.238468+00:00"
+    }
+  },
+  {
+    "id": "difesa-della-luna-ceronetti",
+    "title": "Difesa della luna e altri argomenti di miseria terrestre",
+    "author": "Guido Ceronetti",
+    "status": "citazione_esplicita",
+    "source": "Il titolo abbreviato in difesa della luna è riferito esplicitamente a un libro di Ceronetti a 07:19–07:23. Il titolo completo è un’integrazione dal catalogo della Biblioteca Universitaria di Pisa, che documenta anche la forma breve Difesa della luna. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Biblioteca Universitaria di Pisa · record RAV0086983",
+        "url": "https://opac.bibliotecauniversitaria.pi.it/opacpisa/opaclib?brief=brief&db=solr_pisa&do_cmd=search_show_cmd&fname=none&from=1&nentries=50&resultForward=opac%2Fpisa%2Ffull.jsp&rpnlabel=+Nomi+%3D++Ceronetti%2C+Guido+&rpnquery=%40attrset+bib-1++%40attr+1%3D1003+%40attr+4%3D1+%22+Ceronetti%2C+Guido%22&searchForm=opac%2Fpisa%2Ferror.jsp&select_db=solr_pisa&totalResult=44"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "hrP8dnxQStk",
+        "seconds": 434,
+        "title_seconds": 439,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il video lo presenta in forma abbreviata come in difesa della luna, tra i libri di Ceronetti. Il catalogo della Biblioteca Universitaria di Pisa riscontra titolo completo e autore.",
+        "video_title": "Guido Ceronetti, La Lanterna del Filosofo"
+      }
+    ],
+    "search_aliases": [
+      "Difesa della luna",
+      "In difesa della luna"
+    ],
+    "cover": {
+      "src": "assets/copertine/difesa-della-luna-ceronetti.jpg",
+      "edition_label": "Rusconi, 1971 · fotografia di un esemplare",
+      "isbn": null,
+      "image_url": "https://www.ibs.it/images/2570030465714_0_0_0_0_0.jpg",
+      "source_page": "https://www.ibs.it/ceronetti-guido-difesa-della-luna-libri-vintage-guido-ceronetti/e/2570030465714",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.361404+00:00"
+    }
+  },
+  {
+    "id": "uomo-morale-societa-immorale-niebuhr",
+    "title": "Uomo morale e società immorale",
+    "author": "Reinhold Niebuhr",
+    "status": "citazione_esplicita",
+    "source": "Autore e titolo riconoscibili nel passaggio 10:58–11:24; il riconoscimento automatico deforma il nome e rende la congiunzione del titolo come in una. Titolo normalizzato e autore riscontrati nel catalogo della Biblioteca Braidense. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Biblioteca nazionale Braidense · record PUV1504224",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&fname=none&format=unimarc&from=18&nentries=1&resultForward=opac%2Fbraidense%2Ffull_simili.jsp&rpnlabel=+Collezione+%3D+pensiero+moderno+&rpnquery=%40attrset+bib-1+%40and++%40attr+1%3D5+%40attr+4%3D2+%22pensiero%22++%40attr+1%3D5+%40attr+4%3D2+%22moderno%22&searchForm=opac%2Fbraidense%2Ferror.jsp&select_db=solr_braidense&simili_id=PUV0161089&totalResult=132"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "hrP8dnxQStk",
+        "seconds": 658,
+        "title_seconds": 677,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore riconoscibile sebbene deformato e titolo esplicito; la congiunzione e è normalizzata sulla scheda bibliotecaria.",
+        "video_title": "Guido Ceronetti, La Lanterna del Filosofo"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/uomo-morale-societa-immorale-niebuhr.jpg",
+      "edition_label": "Jaca Book · Figure del pensiero moderno",
+      "isbn": "9788816306158",
+      "image_url": "https://www.ibs.it/images/9788816306158_0_0_0_0_0.jpg",
+      "source_page": "https://www.ibs.it/uomo-morale-societa-immorale-libro-reinhold-niebuhr/e/9788816306158",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.453776+00:00"
+    }
+  },
+  {
+    "id": "zibaldone-leopardi",
+    "title": "Zibaldone di pensieri",
+    "author": "Giacomo Leopardi",
+    "status": "citazione_esplicita",
+    "source": "Leopardi e Zibaldone sono espliciti a 12:48–12:50 nel confronto tra prosatori. Il titolo esteso è riscontrato nel catalogo dell’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Feltrinelli",
+        "url": "https://www.feltrinellieditore.it/opera/zibaldone-di-pensieri/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "hrP8dnxQStk",
+        "seconds": 747,
+        "title_seconds": 768,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Leopardi e Zibaldone sono nominati nel confronto tra grandi prosatori; di pensieri è completamento bibliografico, senza attribuzione di edizione.",
+        "video_title": "Guido Ceronetti, La Lanterna del Filosofo"
+      }
+    ],
+    "search_aliases": [
+      "Zibaldone"
+    ],
+    "cover": {
+      "src": "assets/copertine/zibaldone-leopardi.jpg",
+      "edition_label": "Feltrinelli · Universale Economica, I classici",
+      "isbn": "9788807903243",
+      "image_url": "https://www.feltrinellieditore.it/media/copertina/quarta/43/9788807903243_quarta.jpg.800x800_q75.jpg",
+      "source_page": "https://www.feltrinellieditore.it/opera/zibaldone-di-pensieri/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.549750+00:00"
+    }
+  },
+  {
+    "id": "elementi-euclide",
+    "title": "Gli elementi",
+    "author": "Euclide",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore riconoscibili a 01:38–01:42 nell’accenno agli studi di Boezio. Identità bibliografica riscontrata nel catalogo bibliotecario regionale. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario regionale · Librinlinea",
+        "url": "https://www.librinlinea.it/titolo/gli-elementi-euclides-euclide-frajese-a/SBL0365366"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "PsM1VSs08k4",
+        "seconds": 90,
+        "title_seconds": 98,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e autore espliciti nell’accenno agli studi matematici di Boezio; è un richiamo, non un libro mostrato o recensito.",
+        "video_title": "Boezio, La Consolazione della Filosofia"
+      }
+    ],
+    "search_aliases": [
+      "Elementi",
+      "Gli elementi di Euclide"
+    ],
+    "cover": {
+      "src": "assets/copertine/elementi-euclide.jpg",
+      "edition_label": "Bompiani · Tutte le opere, raccolta contenente Gli elementi",
+      "isbn": "9788845259753",
+      "image_url": "https://www.ibs.it/images/9788845259753_0_0_0_0_0.jpg",
+      "source_page": "https://www.uc.pt/site/assets/files/1519503/2019-10.pdf",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-22T12:48:51.642435+00:00",
+      "display_title": "Tutte le opere (contiene Gli elementi)",
+      "edition_note": "La copertina illustra la raccolta Tutte le opere, che include Gli elementi; non è attribuita al video."
+    }
+  },
+  {
+    "id": "convivio-dante",
+    "title": "Convivio",
+    "author": "Dante Alighieri",
+    "status": "citazione_esplicita",
+    "source": "Dante e Convivio sono riconoscibili a 01:56–02:00 e ripresi a 02:27–02:38. Identità bibliografica riscontrata nel catalogo dell’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli BUR",
+        "url": "https://www.rizzolilibri.it/libri/convivio/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "PsM1VSs08k4",
+        "seconds": 113,
+        "title_seconds": 116,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dante e Convivio espliciti nel richiamo alla ricezione di Boezio, ripresi a 147–158 secondi.",
+        "video_title": "Boezio, La Consolazione della Filosofia"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/convivio-dante.webp",
+      "edition_label": "BUR · a cura di Giorgio Inglese",
+      "image_url": "https://www.rizzolilibri.it/content/uploads/1993/05/978881716917HIG.webp",
+      "source_page": "https://www.rizzolilibri.it/libri/convivio/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "georgiche-virgilio",
+    "title": "Georgiche",
+    "author": "Publio Virgilio Marone",
+    "status": "citazione_esplicita",
+    "source": "Virgilio e il secondo libro delle Georgiche sono riconoscibili a 12:17–12:27 nel confronto con un passo della Consolazione. Identità bibliografica riscontrata presso l’editore. Ascolto di controllo ancora da completare; edizione citata non determinata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli BUR",
+        "url": "https://www.rizzolilibri.it/libri/georgiche/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "PsM1VSs08k4",
+        "seconds": 737,
+        "title_seconds": 741,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo, autore e libro secondo sono espliciti nel confronto tra un passo di Boezio e il verso virgiliano.",
+        "video_title": "Boezio, La Consolazione della Filosofia"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/georgiche-virgilio.webp",
+      "edition_label": "BUR, 1983",
+      "isbn": "9788817124478",
+      "image_url": "https://www.rizzolilibri.it/content/uploads/1983/10/978881712447HIG.webp",
+      "source_page": "https://www.rizzolilibri.it/libri/georgiche/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "contratto-sociale-rousseau",
+    "title": "Il contratto sociale",
+    "author": "Jean-Jacques Rousseau",
+    "status": "citazione_esplicita",
+    "source": "Titolo riconoscibile a 08:18 e citazione iniziale nel capitolo di Beffe e beffatori; il nome di Rousseau è deformato dai sottotitoli. Identità dell’opera confermata dalla scheda Rizzoli, che riporta anche l’incipit richiamato. Edizione usata non identificata.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli",
+        "url": "https://www.rizzolilibri.it/libri/il-contratto-sociale/"
+      },
+      {
+        "label": "Edizione di riferimento e copertina · Laterza",
+        "url": "https://www.laterza.it/scheda-libro/?isbn=9788842052500"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "qG6ZHgkpIa0",
+        "seconds": 492,
+        "title_seconds": 498,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nel testo letto il riferimento al preambolo del Contratto sociale è seguito a 08:22 dall’incipit sulla libertà dell’essere umano e sulle catene.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "Lettura del cap. I del libro \"Beffe e Beffatori in Nome di una Crisi\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/contratto-sociale-rousseau.jpg",
+      "edition_label": "Laterza · Economica · ristampa 2023 · edizione di riferimento",
+      "isbn": "9788842052500",
+      "image_url": "https://www.laterza.it/immagini/copertine-big/9788842052500.jpg",
+      "source_page": "https://www.laterza.it/scheda-libro/?isbn=9788842052500",
+      "image_note": "Copertina autentica tratta dalla scheda ufficiale Laterza e controllata visivamente; non identifica l’edizione citata nel video.",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:39:02.906696+00:00"
+    }
+  },
+  {
+    "id": "divina-commedia-dante",
+    "title": "Divina Commedia",
+    "author": "Dante Alighieri",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicito a 04:30–04:35 nella digressione introduttiva di L’algebra degli scacchi. L’attribuzione a Dante Alighieri è un’integrazione bibliografica riscontrata presso Giunti; nessuna edizione è attribuita al video.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Giunti",
+        "url": "https://giunti.it/products/divina-commedia-alighieri-dante-9788809908598"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 270,
+        "title_seconds": 273,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo riconoscibile tra i segmenti 04:30–04:35, nell’elenco di opere che consentono più livelli di lettura.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/divina-commedia-dante.jpg",
+      "edition_label": "Giunti Barbera · Passepartout, 2021 · edizione di riferimento",
+      "isbn": "9788809908598",
+      "image_url": "https://giunti.it/cdn/shop/files/20260830_34e52f92b94d41a3899eeb6596d77ba6.jpg?v=1788051129&width=800",
+      "source_page": "https://giunti.it/products/divina-commedia-alighieri-dante-9788809908598",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:36:10.011743+00:00",
+      "image_note": "Copertina autentica scaricata dalla pagina ufficiale dell’editore e controllata visivamente; edizione di riferimento per la biblioteca, non identificata come quella citata o usata nel video."
+    }
+  },
+  {
+    "id": "don-chisciotte-cervantes",
+    "title": "Don Chisciotte della Mancia",
+    "author": "Miguel de Cervantes",
+    "status": "citazione_esplicita",
+    "source": "Titolo abbreviato riconoscibile a 04:33–04:35 nella digressione introduttiva di L’algebra degli scacchi. Titolo esteso e autore riscontrati presso l’editore Newton Compton e la Fondazione Carlo e Marise Bo. Nessuna edizione identificata nel video.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.it/libro/don-chisciotte-della-mancha"
+      },
+      {
+        "label": "Indicazioni bibliografiche · Fondazione Carlo e Marise Bo, Università di Urbino",
+        "url": "https://fondazionebo.uniurb.it/fondazione/testi-di-carlo-bo/indicazioni-bibliografiche-su-don-chisciotte/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 273,
+        "title_seconds": 273,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo abbreviato a 04:33–04:35 nello stesso elenco di opere.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/don-chisciotte-cervantes.jpg",
+      "edition_label": "Newton Compton · Vintage · edizione di riferimento",
+      "isbn": "9791224205302",
+      "image_url": "https://www.newtoncompton.it/files/cache/bookimages/20039/don-chisciotte-della-mancha-x600.jpg",
+      "source_page": "https://www.newtoncompton.it/libro/don-chisciotte-della-mancha",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:36:10.011815+00:00",
+      "image_note": "Copertina autentica scaricata dalla pagina ufficiale dell’editore e controllata visivamente; edizione di riferimento per la biblioteca, non identificata come quella citata o usata nel video."
+    }
+  },
+  {
+    "id": "fratelli-karamazov-dostoevskij",
+    "title": "I fratelli Karamazov",
+    "author": "Fëdor Dostoevskij",
+    "status": "citazione_esplicita",
+    "source": "Titolo citato a 04:35 in L’algebra degli scacchi e a 14:34 nella postfazione a Cade ancora neve, dove segue una lettura sulla responsabilità di chi giudica. Identità bibliografica riscontrata presso Newton Compton e Rizzoli. Conservare entrambi i video come riferimenti; edizioni non identificate.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.com/libro/i-fratelli-karamazov"
+      },
+      {
+        "label": "Scheda dell’editore · Rizzoli",
+        "url": "https://www.rizzolilibri.it/libri/i-fratelli-karamazov-2/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 273,
+        "title_seconds": 275,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo comincia nel segmento 04:33 e prosegue a 04:35 con il cognome dei fratelli.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      },
+      {
+        "video_id": "vJCWBoIqHNk",
+        "seconds": 838,
+        "title_seconds": 873,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dostoevskij è nominato a 13:58; la citazione sulla responsabilità del giudice prosegue fino al titolo I fratelli Karamazov a 14:33–14:41.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "Postfazione al libro \"Cade ancora neve\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fratelli-karamazov-dostoevskij.jpg",
+      "edition_label": "Newton Compton · I Mammut Gold · edizione di riferimento",
+      "isbn": "9788822700421",
+      "image_url": "https://www.newtoncompton.com/files/cache/bookimages/8666/i-fratelli-karamazov-x600.jpg",
+      "source_page": "https://www.newtoncompton.com/libro/i-fratelli-karamazov",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:36:10.011817+00:00",
+      "image_note": "Copertina autentica scaricata dalla pagina ufficiale dell’editore e controllata visivamente; edizione di riferimento per la biblioteca, non identificata come quella citata o usata nel video."
+    }
+  },
+  {
+    "id": "processo-kafka",
+    "title": "Il processo",
+    "author": "Franz Kafka",
+    "status": "citazione_esplicita",
+    "source": "Titolo riconoscibile a 04:35–04:38 nell’elenco di opere della digressione di L’algebra degli scacchi, con attribuzione kafkiana nel contesto immediato. Autore e titolo riscontrati presso Adelphi. Nessuna edizione identificata nel video.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845934674"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 275,
+        "title_seconds": 275,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo nel segmento a 04:35–04:38, seguito dall’attribuzione kafkiana nel contesto immediato.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/processo-kafka.jpg",
+      "edition_label": "Adelphi · gli Adelphi, 2020 · edizione di riferimento",
+      "isbn": "9788845934674",
+      "image_url": "https://www.adelphi.it/spool/social__id8830_w1200__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845934674",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:36:10.011818+00:00",
+      "image_note": "Copertina autentica scaricata dalla pagina ufficiale dell’editore e controllata visivamente; edizione di riferimento per la biblioteca, non identificata come quella citata o usata nel video."
+    }
+  },
+  {
+    "id": "bibbia",
+    "title": "Bibbia",
+    "author": "Autori vari",
+    "status": "citazione_esplicita",
+    "source": "Opera nominata a 04:28 e ripresa da 08:06 nella digressione di L’algebra degli scacchi; il testo richiama anche Giovanni e Genesi. Scheda unica per il corpus, senza creare duplicati per i singoli libri biblici. La fonte CEI documenta le diverse versioni; nessuna è attribuita al video. La Bibbia è un corpus di testi, non una monografia attribuita a un singolo autore; Autori vari è un’etichetta descrittiva redazionale.",
+    "references": [
+      {
+        "label": "Presentazione del progetto BibbiaEDU · Conferenza Episcopale Italiana",
+        "url": "https://servizioinformatico.chiesacattolica.it/bibbiaedu-si-rinnova/"
+      },
+      {
+        "label": "Edizione di riferimento e copertina · Edizioni San Paolo",
+        "url": "https://www.edizionisanpaolo.it/religione_1/bibbia/bibbia-anttestamento-t/libro/la-bibbia_29361.aspx"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "Qvl1lwOSEF0",
+        "seconds": 268,
+        "title_seconds": 268,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "La Bibbia è nominata nell’elenco di opere a 04:28, poi richiamata a 08:06; seguono riferimenti al Vangelo secondo Giovanni da 09:53 e a Genesi da 12:33.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "L'Algebra degli scacchi. Lettura della digressione introduttiva."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/bibbia.jpg",
+      "edition_label": "San Paolo, 2014 · Nuova Versione dai Testi Antichi · edizione di riferimento",
+      "isbn": "9788821593246",
+      "image_url": "https://www.edizionisanpaolo.it/Allegati/2020/3/9788821593246_383037.jpg",
+      "source_page": "https://www.edizionisanpaolo.it/religione_1/bibbia/bibbia-anttestamento-t/libro/la-bibbia_29361.aspx",
+      "image_note": "Copertina autentica controllata visivamente sulla scheda ufficiale San Paolo. L’immagine fornita dall’editore è piccola (128 × 200 pixel); conservata senza ingrandimenti o ricostruzioni. La versione e l’edizione non sono identificate come quelle citate nel video.",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:39:02.906796+00:00"
+    }
+  },
+  {
+    "id": "memorie-del-sottosuolo-dostoevskij",
+    "title": "Memorie del sottosuolo",
+    "author": "Fëdor Dostoevskij",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore riconoscibili a 16:05–16:13 nella postfazione di Cade ancora neve. Identità bibliografica riscontrata nel catalogo del Sistema Bibliotecario di Ivrea e Canavese; edizione e traduzione del testo letto non identificate.",
+    "references": [
+      {
+        "label": "Catalogo del Sistema Bibliotecario di Ivrea e Canavese",
+        "url": "https://ivrea.erasmo.it/~/Opac/EsameTitolo.aspx?IDTIT=DjVkvYv6ZnzGkJhhCCcg8Q%3D%3D"
+      },
+      {
+        "label": "Edizione di riferimento e copertina · Edizioni Theoria",
+        "url": "https://edizionitheoria.it/index.php?id=330&r=catalog%2Fview"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "vJCWBoIqHNk",
+        "seconds": 965,
+        "title_seconds": 969,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il cognome Dostoevskij è seguito a 16:09–16:13 dal titolo Memorie del sottosuolo.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "Postfazione al libro \"Cade ancora neve\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/memorie-del-sottosuolo-dostoevskij.jpg",
+      "edition_label": "Theoria · Futuro Anteriore, 2022 · edizione di riferimento",
+      "isbn": "9788854982482",
+      "image_url": "https://www.edizionitheoria.it/images/covers/9788854982482.jpg",
+      "source_page": "https://edizionitheoria.it/index.php?id=330&r=catalog%2Fview",
+      "image_note": "Copertina autentica tratta dalla scheda ufficiale Theoria e controllata visivamente. Il catalogo scrive Memorie dal sottosuolo mentre la copertina riporta Memorie del sottosuolo: varianti dello stesso titolo italiano. L’edizione del video resta indeterminata.",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:39:02.906810+00:00"
+    }
+  },
+  {
+    "id": "diari-kafka",
+    "title": "Diari",
+    "author": "Franz Kafka",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore espliciti a 25:11–25:17 nella postfazione di Cade ancora neve, al termine di una citazione sul rapporto tra annotazione scritta e sensazione. La bibliografia editoriale Feltrinelli conferma l’opera; volume ed edizione del passo non identificati. La voce rappresenta l’opera diaristica nel suo insieme, senza trasformare la singola annotazione in una pubblicazione autonoma.",
+    "references": [
+      {
+        "label": "Profilo dell’autore e bibliografia · Feltrinelli Editore",
+        "url": "https://www.feltrinellieditore.it/autori/kafka-franz/"
+      },
+      {
+        "label": "Edizione tedesca di riferimento e immagine editoriale · S. Fischer",
+        "url": "https://www.fischerverlage.de/buch/franz-kafka-tagebuecher-9783100381507"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "vJCWBoIqHNk",
+        "seconds": 1495,
+        "title_seconds": 1514,
+        "evidence": "sottotitoli_automatici_youtube",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il passo sullo scritto e sulla sensazione comincia a 24:55; l’attribuzione a Franz Kafka e ai Diari è esplicita a 25:11–25:17.",
+        "role": "citazione_nel_testo_letto",
+        "video_title": "Postfazione al libro \"Cade ancora neve\"."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/diari-kafka.jpg",
+      "edition_label": "S. Fischer, 2008 · Tagebücher · edizione tedesca di riferimento con commento",
+      "isbn": "9783100381507",
+      "image_url": "https://cdn.holtzbrinck-buchverlage.de/fischer/public/5fzx1zlbBIoV3u3X4X7eyUKOo2GegPKfg0qw5PzBHW6/U1_978-3-10-038150-7.png?width=1200&fit=crop&quality=85&format=jpg",
+      "source_page": "https://www.fischerverlage.de/buch/franz-kafka-tagebuecher-9783100381507",
+      "image_note": "Immagine editoriale autentica del cofanetto tedesco Tagebücher con volume di commento, verificata visivamente sulla scheda S. Fischer. È un’edizione di riferimento del testo originale; non identifica la traduzione italiana o l’edizione usata nella lettura.",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:39:02.906823+00:00"
+    }
+  },
+  {
+    "id": "uomo-senza-qualita-musil",
+    "title": "L’uomo senza qualità",
+    "author": "Robert Musil",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicito in un discorso dedicato a Musil. Identità dell’opera confermata dalla scheda dell’editore; l’edizione citata resta ignota.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.com/libro/luomo-senza-qualita"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "TzjX1YcaLGA",
+        "seconds": 185,
+        "title_seconds": 192,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il romanzo è nominato a 03:12 e nuovamente a 07:27; segue il commento alla Cacania. Titolo esplicito in un discorso dedicato a Musil. Identità dell’opera confermata dalla scheda dell’editore; l’edizione citata resta ignota.",
+        "video_title": "Robert Musil, Sulla stupidità"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/uomo-senza-qualita-musil.jpg",
+      "edition_label": "Newton Compton · eBook di riferimento",
+      "isbn": "9788854148932",
+      "image_url": "https://www.newtoncompton.com/files/cache/bookimages/5380/luomo-senza-qualita-x600.jpg",
+      "source_page": "https://www.newtoncompton.com/libro/luomo-senza-qualita",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "nietzsche-heidegger",
+    "title": "Nietzsche",
+    "author": "Martin Heidegger",
+    "status": "identificazione_probabile",
+    "source": "Il titolo Nietzsche è una ricostruzione probabile: l’editore attesta l’opera di Heidegger curata da Franco Volpi. La convergenza bibliografica non sostituisce il controllo audio del titolo pronunciato.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Adelphi",
+        "url": "https://www.adelphi.it/libro/9788845932533"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "TzjX1YcaLGA",
+        "seconds": 933,
+        "title_seconds": 936,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nella digressione su Volpi sono nominati una traduzione, Heidegger e Adelphi; il titolo è fortemente deformato nei sottotitoli. Il titolo Nietzsche è una ricostruzione probabile: l’editore attesta l’opera di Heidegger curata da Franco Volpi. La convergenza bibliografica non sostituisce il controllo audio del titolo pronunciato.",
+        "video_title": "Robert Musil, Sulla stupidità"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/nietzsche-heidegger.jpg",
+      "edition_label": "Adelphi, 2018 · edizione di riferimento",
+      "isbn": "9788845932533",
+      "image_url": "https://www.adelphi.it/spool/social__id7541_w1200__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845932533",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "dizionario-opere-filosofiche-volpi",
+    "title": "Dizionario delle opere filosofiche",
+    "author": "Franco Volpi",
+    "status": "citazione_esplicita",
+    "source": "Titolo e attribuzione sono riscontrati nel catalogo Braidense, record RAV0669486, che segnala la collaborazione di Guido Boffi. Il numero dei volumi indicato nel parlato non basta a stabilire l’edizione.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · Braidense, record RAV0669486",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A21%3ASoggetti%3A%3A%40frase%40=FILOSOFI+-+OPERE+-+DIZIONARI&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "TzjX1YcaLGA",
+        "seconds": 915,
+        "title_seconds": 966,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il nome di Volpi introduce la digressione; il titolo del dizionario è esplicito a 16:06–16:09. Titolo e attribuzione sono riscontrati nel catalogo Braidense, record RAV0669486, che segnala la collaborazione di Guido Boffi. Il numero dei volumi indicato nel parlato non basta a stabilire l’edizione.",
+        "video_title": "Robert Musil, Sulla stupidità"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/dizionario-opere-filosofiche-volpi.jpg",
+      "edition_label": "Bruno Mondadori, 2009",
+      "isbn": "9788861592681",
+      "image_url": "https://immagini.libroco.it/copertine/IMMAGINI/3813/1906870.jpg",
+      "source_page": "https://www.libroco.it/dl/Volpi-Franco/Bruno-Mondadori/9788861592681/Dizionario-delle-Opere-Filosofiche/cw471561906870138.html",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "fini-e-mezzi-huxley",
+    "title": "Fini e mezzi",
+    "author": "Aldous Huxley",
+    "status": "identificazione_probabile",
+    "source": "L’ordine delle parole nel parlato risulta invertito. Titolo canonico e autore sono riscontrati nei cataloghi delle biblioteche di Firenze e Bocconi; il riconoscimento della menzione resta probabile e non determina l’edizione.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · Università Bocconi, Fondo Fasiani",
+        "url": "https://www.unibocconi.it/sites/default/files/media/attachments/lea-CatalogoFasiani.pdf"
+      },
+      {
+        "label": "Catalogo bibliotecario · Firenze, biblioteca Ernesto Balducci",
+        "url": "https://flore.unifi.it/retrieve/e398c378-cfe6-179a-e053-3705fe0a4cff/Catalogo%20della%20biblioteca%20privata%20di%20padre%20Ernesto%20Balducci.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "zZWRZxv7GdM",
+        "seconds": 731,
+        "title_seconds": 736,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore annuncia una futura discussione di un libro sui mezzi e fini, attribuendolo a un nome reso foneticamente dai sottotitoli. L’ordine delle parole nel parlato risulta invertito. Titolo canonico e autore sono riscontrati nei cataloghi delle biblioteche di Firenze e Bocconi; il riconoscimento della menzione resta probabile e non determina l’edizione.",
+        "video_title": "Albert Caraco, Il breviario del caos"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fini-e-mezzi-huxley.jpg",
+      "edition_label": "Mondadori, 1947",
+      "image_url": "https://files.scaldasolebooks.it/1413_min.jpg",
+      "source_page": "https://www.scaldasolebooks.it//catalogo-libri?q%5Bs%5D=title+asc",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "chi-e-uomo-heschel",
+    "title": "Chi è l’uomo?",
+    "author": "Abraham Joshua Heschel",
+    "status": "identificazione_probabile",
+    "source": "Titolo, nome fonetico e distinzione concettuale convergono su Heschel. Il catalogo della biblioteca universitaria dell’Insubria e quello della Biblioteca Borghi confermano identità e titolo originale Who is Man?. Nessun riscontro audio umano.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario · Università dell’Insubria, Fondo Guido Bersellini",
+        "url": "https://www.dista.uninsubria.it/centrocattaneopreti/allegati/Biblioteca_Guido_Bersellini.pdf"
+      },
+      {
+        "label": "Catalogo della Biblioteca Libertaria Armando Borghi · record SBL0374019",
+        "url": "https://www.bibliotecaborghi.org/wp/wp-content/uploads/2023/08/TURO_catalogo_oriz_01.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "zZWRZxv7GdM",
+        "seconds": 1019,
+        "title_seconds": 1030,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il nome dell’autore è mal riconosciuto; il relatore esplicita il titolo come domanda su chi sia l’uomo, contrapposta a che cosa sia. Titolo, nome fonetico e distinzione concettuale convergono su Heschel. Il catalogo della biblioteca universitaria dell’Insubria e quello della Biblioteca Borghi confermano identità e titolo originale Who is Man?. Nessun riscontro audio umano.",
+        "video_title": "Albert Caraco, Il breviario del caos"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/chi-e-uomo-heschel.jpg",
+      "edition_label": "SE, 2023",
+      "isbn": "9788867238118",
+      "image_url": "https://img2.libreriauniversitaria.it/BIT/500/811/9788867238118.jpg",
+      "source_page": "https://www.libreriauniversitaria.it/chi-uomo-heschel-abraham-joshua/libro/9788867238118",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "sistema-della-natura-holbach",
+    "title": "Sistema della natura",
+    "author": "Paul Henri Thiry d’Holbach",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicito nel contesto dedicato all’autore. L’identità italiana è confermata dal catalogo bibliografico CiNii Books; la fonte non identifica l’edizione citata nel video.",
+    "references": [
+      {
+        "label": "Catalogo bibliografico istituzionale · CiNii Books, record BA33668055",
+        "url": "https://ci.nii.ac.jp/ncid/BA33668055"
+      },
+      {
+        "label": "Catalogo della Pontificia Università Gregoriana · originale francese",
+        "url": "https://oseegenius.unigre.it/pug/resource?uri=207872BIB&v=l"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "kELdKNzwJQk",
+        "seconds": 2025,
+        "title_seconds": 2034,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e anno 1770 compaiono nella presentazione del materialismo di d’Holbach; l’opera è richiamata ancora a 44:44. Titolo esplicito nel contesto dedicato all’autore. L’identità italiana è confermata dal catalogo bibliografico CiNii Books; la fonte non identifica l’edizione citata nel video.",
+        "video_title": "Comunicazione vuota o svuotata? Il \"Saggio sull'arte di strisciare\" del Barone d'Holbach."
+      }
+    ]
+  },
+  {
+    "id": "vestiti-nuovi-imperatore-andersen",
+    "title": "I vestiti nuovi dell’imperatore",
+    "author": "Hans Christian Andersen",
+    "status": "citazione_esplicita",
+    "source": "Titolo e autore espliciti, confermati dal catalogo dell’editore. La ricostruzione della genesi e del finale sostenuta dal relatore non è stata verificata e non è riproposta come dato di storia letteraria.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli",
+        "url": "https://www.rizzolilibri.it/libri/i-vestiti-nuovi-dellimperatore-2/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "kELdKNzwJQk",
+        "seconds": 2208,
+        "title_seconds": 2216,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore nomina Andersen e la fiaba con il suo titolo durante la digressione sul bambino che riconosce l’imperatore nudo. Titolo e autore espliciti, confermati dal catalogo dell’editore. La ricostruzione della genesi e del finale sostenuta dal relatore non è stata verificata e non è riproposta come dato di storia letteraria.",
+        "video_title": "Comunicazione vuota o svuotata? Il \"Saggio sull'arte di strisciare\" del Barone d'Holbach."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/vestiti-nuovi-imperatore-andersen.webp",
+      "edition_label": "Rizzoli, 2014 · eBook di riferimento",
+      "isbn": "9788858669839",
+      "image_url": "https://www.rizzolilibri.it/content/uploads/2014/07/978885866983HIG.webp",
+      "source_page": "https://www.rizzolilibri.it/libri/i-vestiti-nuovi-dellimperatore-2/",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "papa-giulio-scacciato-cieli-erasmo",
+    "title": "Papa Giulio scacciato dai cieli",
+    "author": "Erasmo da Rotterdam",
+    "status": "identificazione_probabile",
+    "source": "Nome dell’autore, elementi del titolo e contesto della critica al papato convergono sull’opera. Titolo normalizzato sulla scheda della recensione conservata nel repertorio istituzionale dell’Università di Torino. La menzione resta probabile e l’edizione citata non è identificata.",
+    "references": [
+      {
+        "label": "Repertorio istituzionale dell’Università di Torino · recensione dell’opera",
+        "url": "https://iris.unito.it/handle/2318/22674"
+      },
+      {
+        "label": "Recensione coeva · L’Indice dei libri del mese, settembre 1999, p. 42",
+        "url": "https://www.byterfly.eu/islandora/object/librib%3A493476/datastream/PDF/content/librib_493476.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "kELdKNzwJQk",
+        "seconds": 2379,
+        "title_seconds": 2387,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Erasmo è nominato prima di un titolo che i sottotitoli rendono con il participio caduto anziché scacciato. Nome dell’autore, elementi del titolo e contesto della critica al papato convergono sull’opera. Titolo normalizzato sulla scheda della recensione conservata nel repertorio istituzionale dell’Università di Torino. La menzione resta probabile e l’edizione citata non è identificata.",
+        "video_title": "Comunicazione vuota o svuotata? Il \"Saggio sull'arte di strisciare\" del Barone d'Holbach."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/papa-giulio-scacciato-cieli-erasmo.jpg",
+      "edition_label": "Argo, 1998",
+      "isbn": "9788886211253",
+      "image_url": "https://img2.libreriauniversitaria.it/BIT/500/125/9788886211253.jpg",
+      "source_page": "https://www.libreriauniversitaria.it/papa-giulio-scacciato-cieli-erasmo/libro/9788886211253",
+      "edition_confirmed_in_video": false
+    }
+  },
+  {
+    "id": "disobbedienza-problema-psicologico-morale-fromm",
+    "title": "La disobbedienza come problema psicologico e morale",
+    "author": "Erich Fromm",
+    "status": "citazione_esplicita",
+    "source": "Nome dell’autore e titolo completi all’avvio della lettura; il resto del contributo segue il percorso del saggio. L’inventario del Fromm Institut identifica il saggio Disobedience as a Psychological and Moral Problem (1963d), poi incluso in On Disobedience and Other Essays. Il riferimento qui è al saggio, non alla raccolta intera; edizione italiana letta non identificata.",
+    "references": [
+      {
+        "label": "Inventario delle opere · Erich Fromm Institut",
+        "url": "https://fromm-online.org/wp-content/uploads/Bestandslisten/f-Fromm-Titel_language-web.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "9DTPti7JDxU",
+        "seconds": 6,
+        "title_seconds": 6,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nome dell’autore e titolo completi all’avvio della lettura; il resto del contributo segue il percorso del saggio. L’inventario del Fromm Institut identifica il saggio Disobedience as a Psychological and Moral Problem (1963d), poi incluso in On Disobedience and Other Essays. Il riferimento qui è al saggio, non alla raccolta intera; edizione italiana letta non identificata.",
+        "video_title": "Erich Fromm: La disobbedienza come problema psicologico e morale (versione italiana)."
+      }
+    ],
+    "original_title": "Disobedience as a Psychological and Moral Problem",
+    "work_type": "saggio"
+  },
+  {
+    "id": "missione-del-dotto-fichte",
+    "title": "La missione del dotto",
+    "author": "Johann Gottlieb Fichte",
+    "status": "citazione_esplicita",
+    "source": "Fichte è nominato a 158 secondi, subito prima del richiamo alla missione del dotto. Titolo riconoscibile nel contesto dell’intellettuale e dell’istruzione; il catalogo dell’editore attesta l’opera. Nessuna edizione citata è determinata.",
+    "references": [
+      {
+        "label": "Scheda editoriale · Giunti / Bompiani",
+        "url": "https://giunti.it/products/missione-del-dotto-testo-tedesco-a-fronte-fichte-johann-gottlieb-9788845272387"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "O4LAnTnhNpc",
+        "seconds": 158,
+        "title_seconds": 161,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fichte è nominato a 158 secondi, subito prima del richiamo alla missione del dotto. Titolo riconoscibile nel contesto dell’intellettuale e dell’istruzione; il catalogo dell’editore attesta l’opera. Nessuna edizione citata è determinata.",
+        "video_title": "Un appunto sulla pensosità (Nachdenklichkeit)."
+      }
+    ],
+    "cover": {
+      "image_url": "https://giunti.it/cdn/shop/files/20260108_6fbcdce6d32447a6b29af2bb50fceb13B07927.jpg?v=1767853192&width=800",
+      "source_page": "https://giunti.it/products/missione-del-dotto-testo-tedesco-a-fronte-fichte-johann-gottlieb-9788845272387",
+      "edition_label": "Bompiani, 2013 · Testi a fronte · edizione di riferimento",
+      "isbn": "9788845272387",
+      "src": "assets/copertine/missione-del-dotto-fichte.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "che-cosa-significa-pensare-heidegger",
+    "title": "Che cosa significa pensare?",
+    "author": "Martin Heidegger",
+    "status": "citazione_esplicita",
+    "source": "Heidegger introduce il riferimento a Was heißt Denken?, seguito dalla resa italiana Cosa significa pensare a 206–210 secondi. Titolo e autore sono riconoscibili. Il relatore parla di una conferenza: il rinvio identifica il nucleo testuale Was heißt Denken?, senza decidere quale pubblicazione o redazione sia stata usata. La BnF attesta il titolo uniforme e l’editore il titolo italiano.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · SugarCo",
+        "url": "https://www.sugarcoedizioni.it/che-cosa-significa-pensaremartin-heidegger/"
+      },
+      {
+        "label": "Titolo uniforme · Bibliothèque nationale de France",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb18163591x"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "O4LAnTnhNpc",
+        "seconds": 196,
+        "title_seconds": 206,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Heidegger introduce il riferimento a Was heißt Denken?, seguito dalla resa italiana Cosa significa pensare a 206–210 secondi. Titolo e autore sono riconoscibili. Il relatore parla di una conferenza: il rinvio identifica il nucleo testuale Was heißt Denken?, senza decidere quale pubblicazione o redazione sia stata usata. La BnF attesta il titolo uniforme e l’editore il titolo italiano.",
+        "video_title": "Un appunto sulla pensosità (Nachdenklichkeit)."
+      }
+    ],
+    "original_title": "Was heißt Denken?",
+    "cover": {
+      "image_url": "https://www.sugarcoedizioni.it/contentwp/wp-content/uploads/2016/12/heidegger_pensare.gif",
+      "source_page": "https://www.sugarcoedizioni.it/che-cosa-significa-pensaremartin-heidegger/",
+      "edition_label": "SugarCo · Tasco · edizione di riferimento",
+      "isbn": "9788871983981",
+      "src": "assets/copertine/che-cosa-significa-pensare-heidegger.gif",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "utopia-moro",
+    "title": "Utopia",
+    "author": "Tommaso Moro",
+    "status": "citazione_esplicita",
+    "source": "Il relatore indica l’Utopia di Moro nella panoramica iniziale dei testi da accostare a Orwell. Titolo e autore espliciti. La scheda di Giunti attesta l’identità bibliografica, senza identificare l’esemplare mostrato.",
+    "references": [
+      {
+        "label": "Scheda editoriale · Giunti / Demetra",
+        "url": "https://giunti.it/products/utopia-moro-tommaso-9788844037949"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 201,
+        "title_seconds": 205,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore indica l’Utopia di Moro nella panoramica iniziale dei testi da accostare a Orwell. Titolo e autore espliciti. La scheda di Giunti attesta l’identità bibliografica, senza identificare l’esemplare mostrato.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "image_url": "https://giunti.it/cdn/shop/files/20260108_2a0a5e533caf499c8a7ed2b84785fd8f52434N.jpg?v=1767846597&width=800",
+      "source_page": "https://giunti.it/products/utopia-moro-tommaso-9788844037949",
+      "edition_label": "Demetra, 2010 · edizione di riferimento",
+      "isbn": "9788844037949",
+      "src": "assets/copertine/utopia-moro.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "tramonto-occidente-spengler",
+    "title": "Il tramonto dell’Occidente",
+    "author": "Oswald Spengler",
+    "status": "citazione_esplicita",
+    "source": "Il tramonto dell’Occidente e Spengler sono nominati come ulteriore testo di confronto. Titolo e cognome espliciti; il catalogo editoriale di Aragno conferma opera e autore. Il volume mostrato non è identificato.",
+    "references": [
+      {
+        "label": "Catalogo dell’editore · Nino Aragno",
+        "url": "https://www.ninoaragnoeditore.it/opera/il-tramonto-dell-occidente-ii"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 215,
+        "title_seconds": 219,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il tramonto dell’Occidente e Spengler sono nominati come ulteriore testo di confronto. Titolo e cognome espliciti; il catalogo editoriale di Aragno conferma opera e autore. Il volume mostrato non è identificato.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/tramonto-occidente-spengler.jpg",
+      "edition_label": "Nino Aragno, 2019 · volume II, seconda parte · edizione di riferimento",
+      "isbn": "9788884199881",
+      "image_url": "https://www.ninoaragnoeditore.it/storage/opera/November2019/sMKUnLkikcNX1bScN0nC.jpg",
+      "source_page": "https://www.ninoaragnoeditore.it/opera/il-tramonto-dell-occidente-ii",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092289+00:00",
+      "image_note": "Copertina autentica del solo volume II dell’edizione Aragno, acquisita dalla scheda ufficiale e controllata visivamente. Rappresenta la seconda parte dell’opera, non il testo completo in un volume; il volume o l’edizione citati nel video non sono identificati."
+    }
+  },
+  {
+    "id": "martyrdom-of-man-reade",
+    "title": "The Martyrdom of Man",
+    "author": "William Winwood Reade",
+    "status": "citazione_probabile",
+    "source": "Fra gli autori che hanno influenzato Orwell, le captions deformano il nome e il titolo inglese in corrispondenza di 281–287 secondi; segue il richiamo al rapporto con Darwin. L’accostamento fra le forme riconoscibili di Winwood Reade e Martyrdom of Man permette un’identificazione probabile, non un titolo dichiarato verificato all’ascolto. Il catalogo della Lilly Library attesta autore e opera.",
+    "references": [
+      {
+        "label": "Catalogo bibliografico · Lilly Library, Indiana University",
+        "url": "https://collections.libraries.indiana.edu/lilly/exhibitions/items/show/2396"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 265,
+        "title_seconds": 281,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fra gli autori che hanno influenzato Orwell, le captions deformano il nome e il titolo inglese in corrispondenza di 281–287 secondi; segue il richiamo al rapporto con Darwin. L’accostamento fra le forme riconoscibili di Winwood Reade e Martyrdom of Man permette un’identificazione probabile, non un titolo dichiarato verificato all’ascolto. Il catalogo della Lilly Library attesta autore e opera.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/martyrdom-of-man-reade.jpg",
+      "edition_label": "Creative Media Partners, 2022 · edizione inglese di riferimento",
+      "isbn": "9781016430364",
+      "image_url": "https://www.ibs.it/images/9781016430364_0_0_0_0_0.jpg",
+      "source_page": "https://www.orellfuessli.ch/shop/home/artikeldetails/A1067342325",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092385+00:00",
+      "image_note": "Copertina reale dell’edizione in lingua inglese identificata dall’ISBN nel catalogo della libreria Orell Füssli; immagine acquisita dal catalogo librario IBS per lo stesso ISBN e controllata visivamente. Il volume citato nel video non è stato identificato."
+    }
+  },
+  {
+    "id": "private-papers-henry-ryecroft-gissing",
+    "title": "The Private Papers of Henry Ryecroft",
+    "author": "George Gissing",
+    "status": "citazione_probabile",
+    "source": "George Gissing è nominato; il titolo inglese è fortemente deformato nelle captions a 338–344 secondi. Segue la descrizione del ritiro in campagna di un amante dei libri. Autore, porzione riconoscibile del titolo e descrizione consentono un’identificazione probabile. Il catalogo della Morgan Library conferma l’opera; le affermazioni biografiche del parlante non sono convalidate.",
+    "references": [
+      {
+        "label": "Catalogo bibliografico · The Morgan Library & Museum",
+        "url": "https://www.themorgan.org/printed-books/78424"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 329,
+        "title_seconds": 338,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "George Gissing è nominato; il titolo inglese è fortemente deformato nelle captions a 338–344 secondi. Segue la descrizione del ritiro in campagna di un amante dei libri. Autore, porzione riconoscibile del titolo e descrizione consentono un’identificazione probabile. Il catalogo della Morgan Library conferma l’opera; le affermazioni biografiche del parlante non sono convalidate.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/private-papers-henry-ryecroft-gissing.jpg",
+      "edition_label": "Mint Editions, 2021 · edizione inglese di riferimento",
+      "isbn": "9781513205731",
+      "image_url": "https://assets.unsw.press/media/images/9781513205731.original.jpg",
+      "source_page": "https://newsouthbooks.com.au/books/the-private-papers-of-henry-ryecroft/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092398+00:00",
+      "image_note": "Copertina autentica in lingua inglese, acquisita dal collegamento Download Cover Image della scheda del distributore editoriale NewSouth Books e controllata visivamente. Riferimento all’edizione rilegata Mint Editions del 16 novembre 2021; non identifica l’edizione citata nel video."
+    }
+  },
+  {
+    "id": "such-such-were-the-joys-orwell",
+    "title": "Such, Such Were the Joys",
+    "author": "George Orwell",
+    "status": "citazione_probabile",
+    "source": "Il titolo inglese è deformato dalle captions; il racconto di St Cyprian’s, delle punizioni scolastiche e del senso di colpa occupa il seguito fino a 1375 secondi. Identificazione sostenuta dal contesto specifico e dalla biografia della Orwell Foundation, che collega il saggio a St Cyprian’s. Il titolo trascritto non è integro: mantenuta identificazione probabile e nessuna raccolta dedotta.",
+    "references": [
+      {
+        "label": "Biografia e identificazione del saggio · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 1128,
+        "title_seconds": 1139,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo inglese è deformato dalle captions; il racconto di St Cyprian’s, delle punizioni scolastiche e del senso di colpa occupa il seguito fino a 1375 secondi. Identificazione sostenuta dal contesto specifico e dalla biografia della Orwell Foundation, che collega il saggio a St Cyprian’s. Il titolo trascritto non è integro: mantenuta identificazione probabile e nessuna raccolta dedotta.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "senza-un-soldo-parigi-londra-orwell",
+    "title": "Senza un soldo a Parigi e a Londra",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Titolo inglese Down and Out in Paris and London e sua resa italiana sono richiamati dopo la descrizione della vita di Orwell a Parigi. Titolo e contenuto espliciti; Newton Compton attesta il titolo italiano canonico. Il titolo non viene normalizzato dalla sola narrazione biografica, perché qui è nominato.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.com/libro/senza-un-soldo-a-parigi-e-a-londra"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 1547,
+        "title_seconds": 1554,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo inglese Down and Out in Paris and London e sua resa italiana sono richiamati dopo la descrizione della vita di Orwell a Parigi. Titolo e contenuto espliciti; Newton Compton attesta il titolo italiano canonico. Il titolo non viene normalizzato dalla sola narrazione biografica, perché qui è nominato.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "Down and Out in Paris and London",
+    "cover": {
+      "image_url": "https://www.newtoncompton.com/files/cache/bookimages/16210/senza-un-soldo-a-parigi-e-a-londra-x600.jpg",
+      "source_page": "https://www.newtoncompton.com/libro/senza-un-soldo-a-parigi-e-a-londra",
+      "edition_label": "Newton Compton · edizione di riferimento",
+      "src": "assets/copertine/senza-un-soldo-parigi-londra-orwell.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "why-i-write-orwell",
+    "title": "Why I Write",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Il saggio è introdotto come Why I Write, Perché scrivo; segue la lettura sulla vocazione alla scrittura fin dall’infanzia. La pagina della Orwell Foundation riporta lo stesso saggio e il medesimo nucleo autobiografico. Non viene attribuita una raccolta particolare.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 1624,
+        "title_seconds": 1629,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il saggio è introdotto come Why I Write, Perché scrivo; segue la lettura sulla vocazione alla scrittura fin dall’infanzia. La pagina della Orwell Foundation riporta lo stesso saggio e il medesimo nucleo autobiografico. Non viene attribuita una raccolta particolare.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "search_aliases": [
+      "Perché scrivo"
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "giorni-in-birmania-orwell",
+    "title": "Giorni in Birmania",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Il libro sull’esperienza birmana è richiamato con il titolo inglese deformato e con Giorni burmesi, seguito dal commento al personaggio Flory. Identità confermata dall’ambientazione e dal personaggio citati; Newton Compton attesta il titolo italiano Giorni in Birmania. La variante orale non è una seconda opera.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Newton Compton",
+        "url": "https://www.newtoncompton.com/libro/giorni-in-birmania"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 2023,
+        "title_seconds": 2030,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il libro sull’esperienza birmana è richiamato con il titolo inglese deformato e con Giorni burmesi, seguito dal commento al personaggio Flory. Identità confermata dall’ambientazione e dal personaggio citati; Newton Compton attesta il titolo italiano Giorni in Birmania. La variante orale non è una seconda opera.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "Burmese Days",
+    "search_aliases": [
+      "Giorni burmesi"
+    ],
+    "cover": {
+      "image_url": "https://www.newtoncompton.com/files/cache/bookimages/16208/giorni-in-birmania-x600.jpg",
+      "source_page": "https://www.newtoncompton.com/libro/giorni-in-birmania",
+      "edition_label": "Newton Compton · edizione di riferimento",
+      "src": "assets/copertine/giorni-in-birmania-orwell.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "shooting-an-elephant-orwell",
+    "title": "Shooting an Elephant",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Il titolo inglese è nominato nel gruppo dei saggi legati all’esperienza birmana, con deformazioni automatiche. Titolo inglese riconoscibile nel contesto dell’imperialismo; la Orwell Foundation conferma autore e testo. Il successivo episodio del condannato riguarda A Hanging e resta distinto.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/shooting-an-elephant/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 2039,
+        "title_seconds": 2041,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo inglese è nominato nel gruppo dei saggi legati all’esperienza birmana, con deformazioni automatiche. Titolo inglese riconoscibile nel contesto dell’imperialismo; la Orwell Foundation conferma autore e testo. Il successivo episodio del condannato riguarda A Hanging e resta distinto.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "a-hanging-orwell",
+    "title": "A Hanging",
+    "author": "George Orwell",
+    "status": "citazione_probabile",
+    "source": "La conversazione passa all’esecuzione di un condannato e, a 2143–2181 secondi, al gesto con cui evita una pozzanghera mentre va al patibolo; il titolo inglese non è pronunciato in forma riconoscibile. Il particolare narrativo è riscontrabile nel testo A Hanging pubblicato dalla Orwell Foundation. È un’identificazione del brano da contenuto specifico, mantenuta probabile in assenza di titolo leggibile e ascolto umano.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-hanging/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 2049,
+        "title_seconds": 2055,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "La conversazione passa all’esecuzione di un condannato e, a 2143–2181 secondi, al gesto con cui evita una pozzanghera mentre va al patibolo; il titolo inglese non è pronunciato in forma riconoscibile. Il particolare narrativo è riscontrabile nel testo A Hanging pubblicato dalla Orwell Foundation. È un’identificazione del brano da contenuto specifico, mantenuta probabile in assenza di titolo leggibile e ascolto umano.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "figlia-del-reverendo-orwell",
+    "title": "La figlia del reverendo",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "A Clergyman’s Daughter è introdotto attraverso il titolo inglese deformato e diverse rese italiane; seguono Dorothy, l’amnesia e la scuola privata. Autore, titolo inglese riconoscibile e trama coincidono con l’opera presentata dalla Orwell Foundation. Il titolo italiano è attestato nel catalogo della Biblioteca di Caprarola; nessuna traduzione citata viene attribuita.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/a-clergymans-daughter/"
+      },
+      {
+        "label": "Catalogo bibliotecario · Biblioteca di Caprarola",
+        "url": "https://www.bibliotecadicaprarola.it/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 2493,
+        "title_seconds": 2498,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A Clergyman’s Daughter è introdotto attraverso il titolo inglese deformato e diverse rese italiane; seguono Dorothy, l’amnesia e la scuola privata. Autore, titolo inglese riconoscibile e trama coincidono con l’opera presentata dalla Orwell Foundation. Il titolo italiano è attestato nel catalogo della Biblioteca di Caprarola; nessuna traduzione citata viene attribuita.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "A Clergyman’s Daughter",
+    "cover": {
+      "src": "assets/copertine/figlia-del-reverendo-orwell.jpg",
+      "edition_label": "Alma Classics, 2023 · A Clergyman’s Daughter · edizione inglese di riferimento",
+      "isbn": "9781847499097",
+      "image_url": "https://www.ibs.it/images/9781847499097_0_0_0_0_0.jpg",
+      "source_page": "https://www.bloomsbury.com/uk/clergymans-daughter-9781847499097/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092409+00:00",
+      "image_note": "Copertina reale in lingua inglese, verificata visivamente sul titolo A Clergyman’s Daughter. Edizione annotata Alma Classics del 25 ottobre 2023, documentata dal catalogo editoriale Bloomsbury; immagine dal catalogo librario IBS per lo stesso ISBN. Non identifica una traduzione italiana o l’edizione citata nel video."
+    }
+  },
+  {
+    "id": "fiorira-aspidistra-orwell",
+    "title": "Fiorirà l’aspidistra",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Dopo il titolo inglese, il titolo italiano è esplicito a 2781 secondi. Gordon Comstock, il denaro e l’aspidistra sono discussi a lungo da 3856 secondi. Titolo e personaggio espliciti. Il catalogo regionale Librinlinea collega Fiorirà l’aspidistra al titolo uniforme Keep the Aspidistra Flying; l’edizione presente nel contributo non è identificata.",
+    "references": [
+      {
+        "label": "Catalogo bibliotecario regionale · Librinlinea",
+        "url": "https://www.librinlinea.it/search/public/appl/dettaglio.php?bid=LO10055275"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 2732,
+        "title_seconds": 2781,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dopo il titolo inglese, il titolo italiano è esplicito a 2781 secondi. Gordon Comstock, il denaro e l’aspidistra sono discussi a lungo da 3856 secondi. Titolo e personaggio espliciti. Il catalogo regionale Librinlinea collega Fiorirà l’aspidistra al titolo uniforme Keep the Aspidistra Flying; l’edizione presente nel contributo non è identificata.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "Keep the Aspidistra Flying",
+    "cover": {
+      "src": "assets/copertine/fiorira-aspidistra-orwell.jpg",
+      "edition_label": "Santelli · Classici · copertina ufficiale dell’edizione di riferimento",
+      "isbn": "9788892923195",
+      "image_url": "https://www.santellieditore.it/wp-content/uploads/2026/04/cover26-scaled.jpg",
+      "source_page": "https://www.santellieditore.it/product/fiorira-laspidistra/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092420+00:00",
+      "image_note": "Copertina autentica in italiano, acquisita dalla scheda ufficiale Santelli e controllata visivamente. La scheda dell’editore consultata riporta l’ISBN 9788892923195 e data di uscita 19 maggio 2026; non attribuire al video questa edizione o veste grafica."
+    }
+  },
+  {
+    "id": "in-front-of-your-nose-orwell",
+    "title": "In Front of Your Nose",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Dopo la discussione sul criterio di autorità, il saggio è chiamato Di fronte al naso; segue il titolo inglese e la riflessione sulla difficoltà di vedere i fatti. Il titolo inglese e l’argomento della lettura coincidono con il testo della Orwell Foundation. Non confondere questo saggio con un’eventuale raccolta omonima.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/in-front-of-your-nose/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 3418,
+        "title_seconds": 3445,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dopo la discussione sul criterio di autorità, il saggio è chiamato Di fronte al naso; segue il titolo inglese e la riflessione sulla difficoltà di vedere i fatti. Il titolo inglese e l’argomento della lettura coincidono con il testo della Orwell Foundation. Non confondere questo saggio con un’eventuale raccolta omonima.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "search_aliases": [
+      "Di fronte al naso",
+      "Davanti al naso"
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "favola-delle-api-mandeville",
+    "title": "La favola delle api",
+    "author": "Bernard Mandeville",
+    "status": "citazione_esplicita",
+    "source": "Dal richiamo a vizi privati e pubbliche virtù, il relatore nomina La favola delle api a 4092 secondi come riferimento del confronto su Orwell. Titolo esplicito; l’autore è un’integrazione bibliografica attestata dalla scheda Laterza. Il video non attribuisce l’edizione né usa il sottotitolo editoriale completo.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Laterza",
+        "url": "https://www.laterza.it/scheda-libro/?isbn=9788842065692"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 4072,
+        "title_seconds": 4092,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dal richiamo a vizi privati e pubbliche virtù, il relatore nomina La favola delle api a 4092 secondi come riferimento del confronto su Orwell. Titolo esplicito; l’autore è un’integrazione bibliografica attestata dalla scheda Laterza. Il video non attribuisce l’edizione né usa il sottotitolo editoriale completo.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "cover": {
+      "image_url": "https://www.laterza.it/immagini/copertine-big/9788842065692.jpg",
+      "source_page": "https://www.laterza.it/scheda-libro/?isbn=9788842065692",
+      "edition_label": "Laterza · Economica Laterza · edizione di riferimento",
+      "isbn": "9788842065692",
+      "src": "assets/copertine/favola-delle-api-mandeville.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "omaggio-catalogna-orwell",
+    "title": "Omaggio alla Catalogna",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Omaggio alla Catalogna è nominato prima del commento all’esperienza di Orwell nella guerra di Spagna. Titolo e autore espliciti; la scheda Bompiani conferma l’opera. La scheda del video riassume l’interpretazione del relatore, senza assumere come accertata ogni ricostruzione storica.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Bompiani",
+        "url": "https://www.bompiani.it/catalogo/omaggio-alla-catalogna-9788830118348"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 4163,
+        "title_seconds": 4167,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Omaggio alla Catalogna è nominato prima del commento all’esperienza di Orwell nella guerra di Spagna. Titolo e autore espliciti; la scheda Bompiani conferma l’opera. La scheda del video riassume l’interpretazione del relatore, senza assumere come accertata ogni ricostruzione storica.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "Homage to Catalonia",
+    "cover": {
+      "image_url": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B0116A&size=medium&type=P",
+      "source_page": "https://www.bompiani.it/catalogo/omaggio-alla-catalogna-9788830118348",
+      "edition_label": "Bompiani, 2022 · edizione di riferimento",
+      "isbn": "9788830118348",
+      "src": "assets/copertine/omaggio-catalogna-orwell.jpg",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23"
+    }
+  },
+  {
+    "id": "looking-back-spanish-war-orwell",
+    "title": "Looking Back on the Spanish War",
+    "author": "George Orwell",
+    "status": "citazione_probabile",
+    "source": "È indicato un saggio di riflessioni sulla guerra di Spagna; seguono le domande sulle scelte delle potenze europee e sul ruolo britannico. Argomento e domande richiamate coincidono con Looking Back on the Spanish War nella Orwell Foundation. La formula italiana orale è descrittiva e non permette di attribuire un’edizione o una traduzione precisa.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/looking-back-on-the-spanish-war/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 4227,
+        "title_seconds": 4233,
+        "evidence": "sottotitoli_automatici",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "È indicato un saggio di riflessioni sulla guerra di Spagna; seguono le domande sulle scelte delle potenze europee e sul ruolo britannico. Argomento e domande richiamate coincidono con Looking Back on the Spanish War nella Orwell Foundation. La formula italiana orale è descrittiva e non permette di attribuire un’edizione o una traduzione precisa.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "strada-wigan-pier-orwell",
+    "title": "La strada di Wigan Pier",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "The Road to Wigan Pier e la resa italiana La strada verso Wigan Pier sono nominati introducendo l’indagine nell’Inghilterra industriale. Il catalogo della Orwell Foundation elenca l’opera; il titolo italiano è attestato dall’intervento del prefatore Wu Ming 4 sulla nuova edizione. Nessun esemplare è identificato.",
+    "references": [
+      {
+        "label": "Catalogo delle opere · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/"
+      },
+      {
+        "label": "Presentazione del prefatore · Wu Ming Foundation",
+        "url": "https://www.wumingfoundation.com/giap/2021/10/la-strada-di-wigan-pier/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 4433,
+        "title_seconds": 4440,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "The Road to Wigan Pier e la resa italiana La strada verso Wigan Pier sono nominati introducendo l’indagine nell’Inghilterra industriale. Il catalogo della Orwell Foundation elenca l’opera; il titolo italiano è attestato dall’intervento del prefatore Wu Ming 4 sulla nuova edizione. Nessun esemplare è identificato.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "original_title": "The Road to Wigan Pier",
+    "search_aliases": [
+      "La strada verso Wigan Pier"
+    ],
+    "cover": {
+      "src": "assets/copertine/strada-wigan-pier-orwell.jpg",
+      "edition_label": "Alma Classics, 2024 · The Road to Wigan Pier · edizione inglese di riferimento",
+      "isbn": "9781847499196",
+      "image_url": "https://www.ibs.it/images/9781847499196_0_0_0_0_0.jpg",
+      "source_page": "https://www.bloomsbury.com/uk/road-to-wigan-pier-9781847499196/",
+      "edition_confirmed_in_video": false,
+      "visual_checked_at": "2026-10-23T06:46:57.092433+00:00",
+      "image_note": "Copertina reale in lingua inglese, verificata visivamente sul titolo The Road to Wigan Pier. Edizione annotata Alma Classics del 25 luglio 2024, documentata dal catalogo editoriale Bloomsbury; immagine dal catalogo librario IBS per lo stesso ISBN. Non identifica una traduzione italiana o l’edizione citata nel video."
+    }
+  },
+  {
+    "id": "some-thoughts-common-toad-orwell",
+    "title": "Some Thoughts on the Common Toad",
+    "author": "George Orwell",
+    "status": "citazione_esplicita",
+    "source": "Titolo inglese deformato, immediatamente seguito dalla resa Alcuni pensieri sul rospo comune; lunga lettura sul piacere della primavera e sul rapporto con la natura. Titolo, data di pubblicazione richiamata e contenuto coincidono con il saggio riportato dalla Orwell Foundation. Non attribuita una raccolta specifica.",
+    "references": [
+      {
+        "label": "Opera e risorse · The Orwell Foundation",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "02Ss_HMOObU",
+        "seconds": 5133,
+        "title_seconds": 5139,
+        "evidence": "sottotitoli_automatici",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo inglese deformato, immediatamente seguito dalla resa Alcuni pensieri sul rospo comune; lunga lettura sul piacere della primavera e sul rapporto con la natura. Titolo, data di pubblicazione richiamata e contenuto coincidono con il saggio riportato dalla Orwell Foundation. Non attribuita una raccolta specifica.",
+        "video_title": "George Orwell"
+      }
+    ],
+    "search_aliases": [
+      "Alcuni pensieri sul rospo comune"
+    ],
+    "work_type": "saggio"
+  },
+  {
+    "id": "qatar-papers-chesnot-malbrunot",
+    "title": "Qatar Papers",
+    "subtitle": "Comment l’émirat finance l’islam de France et d’Europe",
+    "author": "Christian Chesnot e Georges Malbrunot",
+    "status": "identificazione_probabile",
+    "source": "A 2:46 il relatore cita in inglese il titolo Qatar Papers e lo collega ai finanziamenti di progetti europei; gli autori non sono pronunciati. Identità bibliografica riscontrata nel catalogo municipale di Grenoble e presso Seifert Verlag. Edizione e lingua dell’esemplare citato non identificate.",
+    "references": [
+      {
+        "label": "Catalogo delle biblioteche municipali di Grenoble",
+        "url": "https://bm-grenoble.fr/doc/SYRACUSE/839856"
+      },
+      {
+        "label": "Scheda dell’editore della traduzione tedesca · Seifert Verlag",
+        "url": "https://seifertverlag.at/liest/christian-chesnot-georges-malbrunot-qatar-papers/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "6fxkWxcxDuQ",
+        "seconds": 166,
+        "title_seconds": 166,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il segmento 166,51–172,07 nomina espressamente il libro Qatar Papers e gli attribuisce una documentazione dei finanziamenti a progetti collegati ai Fratelli musulmani.",
+        "video_title": "The most plausible explanation is always money..."
+      }
+    ],
+    "work_type": "libro_inchiesta"
+  },
+  {
+    "id": "introduzione-vita-non-fascista-foucault",
+    "title": "Introduzione alla vita non fascista",
+    "author": "Michel Foucault",
+    "work_type": "raccolta_di_testi",
+    "status": "identificazione_probabile",
+    "source": "Titolo pronunciato nel video naPocS7MPiE a 00:10; attribuzione a Foucault indicata dal titolo della clip e verificata nel catalogo ufficiale Feltrinelli. La scheda riguarda il volume, senza dedurre l’edizione citata o identificare automaticamente un singolo saggio omonimo.",
+    "references": [
+      {
+        "label": "Scheda ufficiale dell’editore · Feltrinelli",
+        "url": "https://www.feltrinellieditore.it/opera/introduzione-alla-vita-non-fascista/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "naPocS7MPiE",
+        "seconds": 10,
+        "title_seconds": 10,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo è pronunciato nel segmento 10,30–13,30; il titolo della clip richiama Foucault. Il catalogo dell’editore conferma il rapporto fra titolo e autore.",
+        "video_title": "Foucault e Galimberti: non potrebbe esservi accoppiata migliore."
+      }
+    ]
+  },
+  {
+    "id": "foundation-asimov",
+    "title": "Foundation",
+    "original_title": "Foundation",
+    "search_aliases": [
+      "Fondazione",
+      "Prima fondazione",
+      "Cronache della galassia"
+    ],
+    "author": "Isaac Asimov",
+    "work_type": "romanzo",
+    "status": "citazione_esplicita",
+    "source": "Titolo inglese e autore riconoscibili nell’ASR di X97ofj78H20 a 00:01, prima di una lettura narrativa. Titolo originale verificato presso Penguin Random House; Prima fondazione è collegato a Foundation dal catalogo Braidense. L’opera resta distinta dall’intero ciclo e dagli omnibus.",
+    "references": [
+      {
+        "label": "Scheda ufficiale dell’editore · Penguin Random House",
+        "url": "https://www.penguinrandomhouse.com/books/5655/foundation-by-isaac-asimov/paperback/"
+      },
+      {
+        "label": "Catalogo Biblioteca nazionale Braidense · corrispondenza titoli nel record BVE0088649",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&fname=none&from=18&item%3A1003%3ANomi%3A%3A%40frase%40=+Asimov%2C+Isaac&nentries=1&resultForward=opac%2Fbraidense%2Ffull.jsp&saveparams=false&searchForm=opac%2Fbraidense%2Ferror.jsp"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "X97ofj78H20",
+        "seconds": 1,
+        "title_seconds": 1,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore e titolo inglese pronunciati nel segmento 1,26–17,52, prima della lettura della favola del cavallo, dell’uomo e del lupo.",
+        "video_title": "C’è una vecchia favola che dovremmo riuscire ad evitare..."
+      }
+    ]
+  },
+  {
+    "id": "o-me-o-life-whitman",
+    "title": "O Me! O Life!",
+    "author": "Walt Whitman",
+    "status": "citazione_esplicita",
+    "work_type": "poesia",
+    "source": "Autore nominato a 29,17 secondi e recitazione selettiva dal primo verso a 32,67 secondi; identità del componimento confrontata con il testo pubblicato dall’Academy of American Poets.",
+    "references": [
+      {
+        "label": "Testo del poema e attribuzione · Academy of American Poets",
+        "url": "https://poets.org/poem/o-me-o-life/print"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "lB8_aVrXnqM",
+        "seconds": 29,
+        "title_seconds": 32,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il parlante annuncia una citazione di Whitman a 29,17 secondi e recita l’incipit e la risposta conclusiva del poema.",
+        "video_title": "What will your verse be?"
+      }
+    ]
+  },
+  {
+    "id": "corano",
+    "title": "Corano",
+    "author": "Autori vari",
+    "status": "citazione_esplicita",
+    "source": "Riferimento esplicito al primo capitolo nel racconto letto in vOaDLFpifAQ a 12,86 secondi. Identità dell’opera riscontrata presso Rizzoli / BUR; nessuna edizione identificata nel video.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · Rizzoli / BUR",
+        "url": "https://www.rizzolilibri.it/libri/il-corano-edizione-aggiornata-2022/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "vOaDLFpifAQ",
+        "seconds": 12,
+        "title_seconds": 12,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nel segmento 12,86–24,30 il racconto dice che il mistico recita il primo capitolo del Corano.",
+        "video_title": "Il mistico ed il leone."
+      },
+      {
+        "video_id": "lSoOMzkr0_g",
+        "seconds": 46,
+        "title_seconds": 46,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il segmento 46,12–49,44 nomina Quran; il seguito discute il lessico coniugale e a 110,68–121,52 richiama un’altra formulazione del testo.",
+        "video_title": "Know the facts: This speech is so vulgar and grotesque at the same time...."
+      }
+    ],
+    "work_type": "testo_religioso"
+  },
+  {
+    "id": "pessoa-biography-zenith",
+    "title": "Pessoa: A Biography",
+    "author": "Richard Zenith",
+    "status": "identificazione_probabile",
+    "work_type": "biografia",
+    "source": "Richiamo alla biografia di Pessoa di «Zenit» a 79,58 secondi in zcoDIHsVH1Y; titolo e nome completo normalizzati dalla scheda dell’editore. Identificazione da mantenere probabile in attesa di ascolto.",
+    "references": [
+      {
+        "label": "Scheda dell’editore · W. W. Norton/Liveright",
+        "url": "https://wwnorton.co.uk/books/9780871404718-pessoa-17090166-8c3f-466d-84a3-4a44100bcb6b"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "zcoDIHsVH1Y",
+        "seconds": 79,
+        "title_seconds": 79,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 79,58 secondi il parlante segnala la biografia di Pessoa e un autore reso dall’ASR come «Zenit».",
+        "video_title": "Nessuna traccia di H. P. Lovecraft a pochi metri dal luogo in cui è nato."
+      }
+    ]
+  },
+  {
+    "id": "paradiso-perduto-milton",
+    "title": "Paradiso perduto",
+    "author": "John Milton",
+    "status": "identificazione_probabile",
+    "work_type": "poema",
+    "source": "Milton, Satana e il brano sulla libertà nell’inferno in apertura di 0KY5lB8Tw4A; identità ricostruita dal confronto col testo del libro I, non da un titolo esplicito.",
+    "references": [
+      {
+        "label": "Testo del libro I · John Milton Reading Room, Dartmouth",
+        "url": "https://milton.host.dartmouth.edu/reading_room/pl/book_1/text.shtml"
+      },
+      {
+        "label": "Titolo italiano e autore · Newton Compton",
+        "url": "https://www.newtoncompton.it/libro/paradiso-perduto"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "0KY5lB8Tw4A",
+        "seconds": 0,
+        "title_seconds": 6,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Milton e la caduta di Satana sono richiamati all’inizio; a 6,96 secondi viene riportata la frase sulla libertà nell’inferno.",
+        "video_title": "The year is 1971, the debate is intelligent and calm, and the audience understands it well."
+      }
+    ]
+  },
+  {
+    "id": "cieli-traboccanti-rilke",
+    "title": "Überfließende Himmel verschwendeter Sterne",
+    "author": "Rainer Maria Rilke",
+    "status": "identificazione_probabile",
+    "source": "Lettura italiana riconoscibile dall’incipit sui cieli e le stelle e dal successivo invito a volgere in alto il pianto. L’incipit tedesco e l’appartenenza ai Gedichte an die Nacht sono riscontrati nel repertorio editoriale Wallstein e nel catalogo della Biblioteca nazionale svizzera. La traduzione e l’edizione lette non sono identificate.",
+    "references": [
+      {
+        "label": "Repertorio delle opere di Rilke · Wallstein, voce 101, p. 189",
+        "url": "https://www.wallstein-verlag.de/openaccess/9783835380318.pdf#page=196"
+      },
+      {
+        "label": "Biblioteca nazionale svizzera · catalogo Ouwehand, voce 453",
+        "url": "https://ead.nb.admin.ch/pdf/ouwehand.pdf#page=88"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "EapUFrebPfg",
+        "seconds": 15,
+        "title_seconds": 15,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "La lettura italiana inizia con cieli traboccanti di stelle e affanni umani, poi invita a volgere in alto il pianto e a respirare la notte: sequenza specifica del componimento.",
+        "video_title": "Rainer Maria Rilke, Poesia alla notte."
+      }
+    ],
+    "work_type": "poesia"
+  },
+  {
+    "id": "little-dog-angel-holland",
+    "title": "The Little Dog-Angel",
+    "author": "Norah M. Holland",
+    "status": "identificazione_probabile",
+    "source": "Il testo letto per ricordare Molly coincide nella sequenza narrativa con la poesia attribuita a Norah M. Holland dalla biblioteca digitale dell’Università della Pennsylvania, con adattamenti lessicali e di genere. Titolo e autrice integrati dalla fonte primaria; nessuna edizione attribuita al video.",
+    "references": [
+      {
+        "label": "Testo e attribuzione · University of Pennsylvania Digital Library",
+        "url": "https://digital.library.upenn.edu/women/holland/spindrift/angel.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "1QaVGT-FYTw",
+        "seconds": 3,
+        "title_seconds": 3,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dopo la dedica a Molly, il testo descrive il cane alle porte del paradiso, l’attesa dell’amico umano, il richiamo ricordato sulla terra e il conforto del ricongiungimento.",
+        "video_title": "In loving memory, Molly (2010 - May 9, 2025)."
+      }
+    ],
+    "work_type": "poesia"
+  },
+  {
+    "id": "ninna-nanna-guerra-trilussa",
+    "title": "Ninna nanna della guerra",
+    "author": "Trilussa",
+    "status": "citazione_esplicita",
+    "work_type": "poesia",
+    "source": "Titolo e autore annunciati prima della lettura, con riscontro nel testo dell’Università di Firenze.",
+    "references": [
+      {
+        "label": "Testo e attribuzione · Università di Firenze, reading 2023, p. 13",
+        "url": "https://www.forlilpsi.unifi.it/upload/sub/Public_Engagement_div/_BozzaLibretto_6giugno23%20%282%29.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "LFHgs0csZjU",
+        "seconds": 3,
+        "title_seconds": 3,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Apertura con titolo, autore e data 1914; segue la recitazione del componimento.",
+        "video_title": "Trilussa: Ninna nanna della guerra."
+      }
+    ]
+  }
+]

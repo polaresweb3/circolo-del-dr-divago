@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="L’archivio delle divagazioni — Circolo del Dr Divago: libri e storia delle idee per comprendere il presente e pensare insieme.">
+  <meta name="color-scheme" content="light">
+  <title>L’archivio delle divagazioni — Circolo del Dr Divago</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body id="inizio" data-page="video" data-root="" data-featured-books="libri-della-mia-vita-salamov,minima-moralia-adorno,nel-ventre-della-balena-orwell">
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header class="header wrap">
+    <a class="wordmark" href="index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE</span></a>
+    <nav aria-label="Navigazione principale"><a href="index.html">Home</a><a href="video.html" aria-current="page">Video</a><a href="biblioteca.html">Biblioteca</a><a href="eventi.html">Eventi</a><a href="progetto.html">Progetto Editoriale</a></nav>
+  </header>
+  <div class="breadcrumb wrap" aria-label="Percorso"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Video</span></div>
+  <main id="contenuto"><section id="archivio" class="section wrap">
+      <div class="section-head page-heading"><div><h1>L’archivio delle <em>divagazioni.</em></h1></div></div>
+      <div class="archive-tools"><label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Cerca video, argomento, libro o autore…" aria-label="Cerca tra i video"></label><label class="select-label"><span>Mostra</span><select id="filter"><option value="all">Tutti i video</option><option value="sheets">Con approfondimento</option><option value="long">Oltre 20 minuti</option><option value="saved">Con audio salvato</option></select></label></div>
+      <div class="results-line"><span id="results" role="status" aria-live="polite">Caricamento del catalogo…</span><span>ORDINE DEL CANALE · PIÙ RECENTI PRIMA</span></div>
+      <div id="videos" class="video-grid"></div>
+      <div class="pagination"><button id="previous" class="small-button" disabled>← Precedenti</button><span id="page-label"></span><button id="next" class="small-button" disabled>Successivi →</button></div>
+      <noscript><p>Attiva JavaScript per cercare nel catalogo. Puoi sempre visitare <a href="https://www.youtube.com/@DrDivago/videos">il canale YouTube</a>.</p></noscript>
+    </section>
+</main>
+  <footer class="wrap footer"><a class="footer-wordmark" href="index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="progetto.html">Progetto Editoriale</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
+  <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>

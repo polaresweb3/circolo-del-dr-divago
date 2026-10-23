@@ -1,0 +1,316 @@
+"""Genera le pagine del sito e le corrispondenti anteprime offline collegate."""
+import base64
+import fcntl
+from copy import deepcopy
+import html
+import json
+import mimetypes
+import posixpath
+import re
+from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
+
+PAGES = {
+    "home": ("index.html", "Home", "Le idee del passato per comprendere il presente", ["catalogo.json", "libri.json", "schede.json"]),
+    "video": ("video.html", "Video", "L’archivio delle divagazioni", ["catalogo.json", "schede.json"]),
+    "biblioteca": ("biblioteca.html", "Biblioteca", "La biblioteca citata", ["libri.json"]),
+    "eventi": ("eventi.html", "Eventi", "Gli incontri del Circolo", []),
+    "progetto": ("progetto.html", "Progetto Editoriale", "Progetto Editoriale", []),
+}
+FEATURED_BOOKS = ["libri-della-mia-vita-salamov", "minima-moralia-adorno", "nel-ventre-della-balena-orwell"]
+
+
+def preview_name(page):
+    return "anteprima.html" if page == "home" else f"anteprima-{page}.html"
+
+
+def document(title, current, main, prefix="", featured=(), pages=None):
+    pages = pages or PAGES
+    nav = "".join(
+        f'<a href="{prefix}{filename}"' + (' aria-current="page"' if key == current else "")
+        + (' class="nav-featured"' if key == "completate" else "")
+        + f'>{html.escape(label)}</a>'
+        for key, (filename, label, _, _) in pages.items())
+    breadcrumb = "" if current == "home" else (
+        f'<div class="breadcrumb wrap" aria-label="Percorso"><a href="{prefix}index.html">Home</a>'
+        f'<span aria-hidden="true">/</span><span>{html.escape(pages[current][1])}</span></div>')
+    return f'''<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="{html.escape(title, quote=True)} — Circolo del Dr Divago: libri e storia delle idee per comprendere il presente e pensare insieme.">
+  <meta name="color-scheme" content="light">
+  <title>{html.escape(title)} — Circolo del Dr Divago</title>
+  <link rel="stylesheet" href="{prefix}styles.css">
+  <script src="{prefix}app.js" defer></script>
+</head>
+<body id="inizio" data-page="{current}" data-root="{prefix}" data-featured-books="{html.escape(','.join(featured), quote=True)}">
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header class="header wrap">
+    <a class="wordmark" href="{prefix}index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE</span></a>
+    <nav aria-label="Navigazione principale">{nav}</nav>
+  </header>
+  {breadcrumb}
+  <main id="contenuto">{main}</main>
+  <footer class="wrap footer"><a class="footer-wordmark" href="{prefix}index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="{prefix}progetto.html">Progetto Editoriale</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
+  <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
+'''
+
+
+def article_content(post):
+    title = html.escape(post["title"])
+    paragraphs = "".join(f'<p>{html.escape(p)}</p>' for p in post["paragraphs"])
+    return ('<article class="section wrap article-page"><a class="text-link" href="../blog.html">← Tutte le note</a>'
+            f'<header class="article-heading"><p class="eyebrow">{html.escape(post["category"])}</p>'
+            f'<h1>{title}</h1><p class="article-byline">{html.escape(post["author"])}'
+            f' · {html.escape(post["status"])}</p></header><div class="article-body">{paragraphs}</div>'
+            '<footer class="article-end"><a class="text-link" href="../blog.html">Torna al blog ↗</a>'
+            '<a class="text-link" href="../progetto.html">Scopri il progetto ↗</a></footer></article>')
+
+
+def timestamp(value):
+    if value is None:
+        return "Durata non disponibile"
+    value = int(value)
+    hours, rest = divmod(value, 3600)
+    minutes, secs = divmod(rest, 60)
+    return f"{hours}:{minutes:02}:{secs:02}" if hours else f"{minutes}:{secs:02}"
+
+
+def completed_cards(cards, bibliography):
+    """Raccoglie soltanto le schede redatte, consultabili anche senza JavaScript."""
+    books = {book["id"]: book for book in bibliography}
+    output = []
+    for card in cards:
+        ident = card["video_id"]
+        related = [books[m["book_id"]] for m in card["books"]]
+        search = " ".join([card["title"], *card["topics"], *[b["title"] + " " + b["author"] for b in related]])
+        title = html.escape(card["title"])
+        target = f"video/{ident}.html"
+        excerpt = re.split(r'(?<=\.)\s+', card["summary"], maxsplit=1)[0]
+        topics = "".join(f'<li>{html.escape(topic)}</li>' for topic in card["topics"][:3])
+        book_count = "1 opera collegata" if len(related) == 1 else f"{len(related)} opere collegate"
+        output.append(
+            f'<article class="completed-card" data-completed-card data-search="{html.escape(search, quote=True)}">'
+            f'<a class="completed-card-image" href="{target}" aria-label="Leggi la scheda: {html.escape(card["title"], quote=True)}">'
+            f'<img src="https://i.ytimg.com/vi/{ident}/hqdefault.jpg" alt="" width="480" height="270" loading="lazy">'
+            f'<span class="duration">{timestamp(card["duration_seconds"])}</span></a>'
+            '<div class="completed-card-copy"><p class="eyebrow">SCHEDA EDITORIALE PRONTA</p>'
+            f'<h2><a href="{target}">{title}</a></h2><p class="completed-excerpt">{html.escape(excerpt)}</p>'
+            f'<ul class="topic-tags" aria-label="Argomenti">{topics}</ul>'
+            f'<p class="completed-card-meta">{book_count} · {len(card["passages"])} passaggi tematici</p>'
+            f'<a class="text-link" href="{target}">Leggi la scheda →</a></div></article>')
+    return "".join(output)
+
+
+def video_content(card, bibliography):
+    """Schede editoriali leggibili anche senza JavaScript o file sorgente integrale."""
+    esc = html.escape
+    ident = card["video_id"]
+    def watch(seconds=None):
+        return "https://www.youtube.com/watch?v=" + ident + ("&t=" + str(int(seconds)) if seconds is not None else "")
+    passages = "".join(
+        f'<li><a href="{esc(watch(p["seconds"]), quote=True)}" target="_blank" rel="noopener noreferrer">'
+        f'<span class="passage-time">{timestamp(p["seconds"])}</span><span><strong>{esc(p["label"])}</strong>'
+        f'<span>{esc(p.get("description", ""))}</span></span><span aria-hidden="true">↗</span></a></li>'
+        for p in card["passages"])
+    books = []
+    for mention in card["books"]:
+        book = next(b for b in bibliography if b["id"] == mention["book_id"])
+        cover = book.get("cover") or {}
+        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="Copertina di {esc(cover.get("display_title") or book["title"], quote=True)}" '
+                 'width="72" height="108" loading="lazy">') if cover.get("src") else '<span class="card-book-no-cover" aria-hidden="true">↗</span>'
+        edition = (f'<p class="card-book-edition">Copertina: {esc(cover["edition_label"])}</p>') if cover.get('edition_label') else ''
+        if cover.get('edition_note'):
+            edition += f'<p class="card-book-edition">{esc(cover["edition_note"])}</p>'
+        status = mention.get("confidence", "riscontro_testuale")
+        label = "Identificazione probabile" if status == "identificazione_probabile" else ""
+        status_note = f'<p class="card-book-status">{esc(label)}</p>' if label else ""
+        moment = mention.get("title_seconds") or mention.get("seconds")
+        books.append(f'<article class="card-book">{image}<div><h3><a href="../biblioteca.html#book-{esc(book["id"])}">'
+                     f'{esc(book["title"])}</a></h3><p class="card-book-author">{esc(book["author"])}</p>'
+                     f'{status_note}{edition}<p>{esc(mention.get("evidence", ""))}</p>'
+                     f'<a class="text-link" href="{esc(watch(moment), quote=True)}" target="_blank" rel="noopener noreferrer">'
+                     f'Passaggio {timestamp(moment)} ↗</a> · <a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro ↗</a></div></article>')
+    return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
+            f'<header class="sheet-heading"><p class="eyebrow">{timestamp(card["duration_seconds"])} · {len(books)} OPERE</p>'
+            f'<h1>{esc(card["title"])}</h1></header>'
+            f'<div class="sheet-layout"><div>{video_player(ident, card["title"])}<section class="sheet-summary" aria-labelledby="sintesi"><h2 id="sintesi">Il filo del discorso</h2>'
+            f'<p>{esc(card["summary"])}</p><div class="sheet-actions">'
+            f'<a class="text-link" href="{esc(watch(), quote=True)}" target="_blank" rel="noopener noreferrer">Apri su YouTube ↗</a>'
+            '<a class="text-link" href="#passaggi">Vai ai passaggi ↓</a></div></section>'
+            f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">I libri nel discorso</h2>{"".join(books)}</section></div>'
+            f'<aside class="sheet-passages" aria-labelledby="passaggi"><h2 id="passaggi">Passaggi</h2>'
+            f'<ol>{passages}</ol></aside></div>'
+            '<p class="source-note">Minutaggi ricavati da testi automatici, da riascoltare. '
+            'Le identificazioni probabili sono segnalate accanto ai libri.</p></article>')
+
+
+def video_player(ident, title):
+    return (f'<div class="sheet-player"><button class="sheet-play" data-play-video="{html.escape(ident)}" '
+            f'aria-label="Riproduci: {html.escape(title, quote=True)}">'
+            f'<img src="https://i.ytimg.com/vi/{html.escape(ident)}/hqdefault.jpg" alt="" width="480" height="270" decoding="async">'
+            '<span class="sheet-play-label"><span aria-hidden="true">▶</span> Riproduci il video</span></button></div>')
+
+
+def catalog_video_content(video, bibliography):
+    """Pagina del contributo; distingue i riferimenti disponibili dalle analisi ancora da fare."""
+    esc = html.escape
+    ident = video['id']
+    related = [book for book in bibliography if any(m['video_id'] == ident for m in book['mentions'])]
+    book_rows = []
+    for book in related:
+        cover = book.get('cover') or {}
+        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="Copertina di {esc(cover.get("display_title") or book["title"], quote=True)}" width="72" height="108" loading="lazy">') if cover.get('src') else ''
+        edition = f'<p class="card-book-edition">Copertina: {esc(cover["edition_label"])}</p>' if cover.get('edition_label') else ''
+        mentions = [m for m in book['mentions'] if m['video_id'] == ident]
+        links = []
+        for mention in mentions:
+            moment = mention.get('title_seconds') if mention.get('title_seconds') is not None else mention.get('seconds')
+            if moment is not None:
+                links.append(f'<a class="text-link" href="https://www.youtube.com/watch?v={ident}&amp;t={int(moment)}" target="_blank" rel="noopener noreferrer">Passaggio {timestamp(moment)} ↗</a>')
+            else:
+                links.append('<p class="card-book-status">Riferimento nel titolo del video; contenuto da verificare.</p>')
+        book_rows.append(f'<article class="card-book">{image}<div><h3><a href="../biblioteca.html#book-{esc(book["id"])}">{esc(book["title"])}</a></h3>'
+                         f'<p class="card-book-author">{esc(book["author"])}</p>{edition}{"".join(links)}'
+                         f'<a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro →</a></div></article>')
+    references = ('<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">Riferimenti già collegati</h2>'
+                  + ''.join(book_rows) + '</section>') if related else ''
+    return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
+            f'<header class="sheet-heading"><p class="eyebrow">DALL’ARCHIVIO DEL CANALE · {timestamp(video.get("duration"))}</p><h1>{esc(video["title"])}</h1></header>'
+            f'<div class="sheet-layout"><div>{video_player(ident, video["title"])}'
+            f'<p class="sheet-original"><a class="text-link" href="https://www.youtube.com/watch?v={ident}" target="_blank" rel="noopener noreferrer">Apri il video su YouTube ↗</a></p>{references}</div>'
+            '<aside class="sheet-work-state"><p class="source-note">Approfondimento in preparazione.</p></aside></div></article>')
+
+
+def embed_cover(source, cover):
+    if not cover or not cover.get("src"):
+        return
+    asset = (source / cover["src"]).resolve()
+    if not asset.is_relative_to(source.resolve()) or not asset.is_file():
+        raise ValueError("Copertina locale non valida: " + cover["src"])
+    mime = mimetypes.guess_type(asset.name)[0] or "image/jpeg"
+    cover["src"] = "data:" + mime + ";base64," + base64.b64encode(asset.read_bytes()).decode("ascii")
+
+
+def offline_links(page, filename, mapping):
+    def replace(match):
+        parts = urlsplit(html.unescape(match[1]))
+        if parts.scheme or parts.netloc or not parts.path:
+            return match[0]
+        target = posixpath.normpath(posixpath.join(posixpath.dirname(filename), parts.path))
+        if target not in mapping:
+            return match[0]
+        url = urlunsplit(("", "", mapping[target], parts.query, parts.fragment))
+        return 'href="' + html.escape(url, quote=True) + '"'
+    return re.sub(r'href="([^"]+)"', replace, page)
+
+
+def build_site(root, pages=None):
+    root = Path(root)
+    if not (root / 'sito/templates').exists():
+        return
+    # Anche il processo di archiviazione aggiorna i dati: serializziamo le generazioni.
+    with (root / 'sito/.build.lock').open('a+') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        return _build_site(root, pages)
+
+
+def _build_site(root, pages=None):
+    pages = pages or PAGES
+    source = root / "sito/dist"
+    templates = root / "sito/templates"
+    if not templates.exists():
+        return
+    previous = json.loads((source / 'data/pagine.json').read_text()) if (source / 'data/pagine.json').exists() else {'pages': []}
+    data = {name: json.loads((source / "data" / name).read_text(encoding="utf-8"))
+            for name in ("catalogo.json", "libri.json", "blog.json", "ricerca.json", "schede.json")
+            if (source / "data" / name).exists()}
+    bibliography = data.get("libri.json", [])
+    ids = [book["id"] for book in bibliography]
+    featured = [ident for ident in FEATURED_BOOKS if ident in ids]
+    featured += [ident for ident in ids if ident not in featured]
+    featured = featured[:3]
+    mapping = {filename: preview_name(key) for key, (filename, _, _, _) in pages.items()}
+    documents = []
+    cards = data.get("schede.json", [])
+    for key, (filename, _, title, datasets) in pages.items():
+        main = (templates / (key + ".html")).read_text(encoding="utf-8")
+        main = main.replace("{{completed_count}}", str(len(cards)))
+        if key == "completate":
+            main = main.replace("{{completed_grid}}", completed_cards(cards, bibliography))
+            main = main.replace("{{completed_books}}", str(len({m["book_id"] for c in cards for m in c["books"]})))
+            main = main.replace("{{completed_passages}}", str(sum(len(c["passages"]) for c in cards)))
+        page = document(title, key, main, featured=featured, pages=pages)
+        documents.append((key, filename, page, datasets))
+    seen = set()
+    for post in (data.get("blog.json", []) if 'blog' in pages else []):
+        ident = post["id"]
+        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ident) or ident in seen:
+            raise ValueError("Identificativo articolo non valido o duplicato.")
+        seen.add(ident)
+        filename = f"articoli/{ident}.html"
+        mapping[filename] = f"anteprima-articolo-{ident}.html"
+        page = document(post["title"], "blog", article_content(post), prefix="../", pages=pages)
+        page = page.replace('data-page="blog"', 'data-page="articolo"')
+        documents.append(("articolo", filename, page, []))
+    card_lookup = {card['video_id']: card for card in cards}
+    seen_cards = set()
+    for video in data.get('catalogo.json', {}).get('videos', []):
+        ident = video['id']
+        if not re.fullmatch(r"[A-Za-z0-9_-]{11}", ident) or ident in seen_cards:
+            raise ValueError("Identificativo scheda non valido o duplicato.")
+        seen_cards.add(ident)
+        filename = f"video/{ident}.html"
+        mapping[filename] = f"anteprima-scheda-{ident}.html"
+        card = card_lookup.get(ident)
+        content = video_content(card, bibliography) if card else catalog_video_content(video, bibliography)
+        page = document(video['title'], 'video', content, prefix='../', pages=pages)
+        page = page.replace('data-page="video"', 'data-page="scheda"')
+        documents.append(("scheda", filename, page, []))
+    style = (source / "styles.css").read_text(encoding="utf-8")
+    script = (source / "app.js").read_text(encoding="utf-8")
+    for key, filename, page, datasets in documents:
+        target = source / filename
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(page, encoding="utf-8")
+        embedded = {"data/" + name: deepcopy(data[name]) for name in datasets if name in data}
+        for book in embedded.get("data/libri.json", []):
+            if key == "biblioteca" or (key == "home" and book["id"] in featured):
+                embed_cover(source, book.get("cover"))
+        safe_json = json.dumps(embedded, ensure_ascii=False).replace("<", "\\u003c")
+        prefix = "../" if key in ("articolo", "scheda") else ""
+        page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', "<style>" + style + "</style>")
+        page = page.replace(f'<script src="{prefix}app.js" defer></script>', "")
+        page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
+        page = offline_links(page, filename, mapping)
+        if key in {"scheda", "home"}:
+            # Anche le copertine statiche della Home restano autonome offline.
+            for book in bibliography:
+                cover = deepcopy(book.get("cover"))
+                if cover and f'{prefix}{cover["src"]}' in page:
+                    embed_cover(source, cover)
+                    page = page.replace('src="' + prefix + book["cover"]["src"] + '"', 'src="' + cover["src"] + '"')
+        page = page.replace("</body>", '<script id="embedded-data" type="application/json">' + safe_json
+                            + "</script><script>" + script + "</script></body>")
+        (root / "sito" / mapping[filename]).write_text(page, encoding="utf-8")
+    manifest = {"pages": [{"page": key, "path": filename, "preview": mapping[filename]}
+                          for key, filename, _, _ in documents]}
+    active = {item['path'] for item in manifest['pages']}
+    for item in previous['pages']:
+        if item['path'] not in active:
+            for base, name in ((source, item['path']), (root / 'sito', item['preview'])):
+                obsolete = (base / name).resolve()
+                if obsolete.is_relative_to(base.resolve()):
+                    obsolete.unlink(missing_ok=True)
+    (source / "data/pagine.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return manifest
+
+
+if __name__ == "__main__":
+    result = build_site(Path(__file__).resolve().parent)
+    print(f"Generate {len(result['pages'])} pagine e anteprime offline.")

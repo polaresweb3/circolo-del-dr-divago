@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="La biblioteca citata — Circolo del Dr Divago: libri e storia delle idee per comprendere il presente e pensare insieme.">
+  <meta name="color-scheme" content="light">
+  <title>La biblioteca citata — Circolo del Dr Divago</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body id="inizio" data-page="biblioteca" data-root="" data-featured-books="libri-della-mia-vita-salamov,minima-moralia-adorno,nel-ventre-della-balena-orwell">
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header class="header wrap">
+    <a class="wordmark" href="index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE</span></a>
+    <nav aria-label="Navigazione principale"><a href="index.html">Home</a><a href="video.html">Video</a><a href="biblioteca.html" aria-current="page">Biblioteca</a><a href="eventi.html">Eventi</a><a href="progetto.html">Progetto Editoriale</a></nav>
+  </header>
+  <div class="breadcrumb wrap" aria-label="Percorso"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Biblioteca</span></div>
+  <main id="contenuto"><section id="biblioteca" class="library-section"><div class="wrap section"><div class="section-head page-heading"><div><h1>La biblioteca <em>citata.</em></h1></div></div><div class="library-intro"><p>Libri citati nei video, con i passaggi e le fonti bibliografiche.</p><span class="review-label" id="book-count"></span></div><div class="library-tools"><label class="book-search"><span>Cerca nella biblioteca</span><input id="book-search" type="search" placeholder="Titolo o autore…"></label><label class="select-label"><span>Riscontro</span><select id="book-filter"><option value="all">Tutte le opere</option><option value="text">Nel testo automatico</option><option value="title">Nel titolo del video</option><option value="probable">Identificazioni probabili</option></select></label><label class="select-label"><span>Ordina</span><select id="book-sort"><option value="author">Autore A–Z</option><option value="title">Titolo A–Z</option></select></label></div><p id="book-results" class="source-note" role="status" aria-live="polite"></p><div id="books"></div><div class="pagination"><button id="book-previous" class="small-button" disabled>← Precedenti</button><span id="book-page"></span><button id="book-next" class="small-button" disabled>Successivi →</button></div><p class="source-note">Le citazioni da testi automatici richiedono un riascolto. Le copertine mostrano edizioni di riferimento.</p></div></section>
+</main>
+  <footer class="wrap footer"><a class="footer-wordmark" href="index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="progetto.html">Progetto Editoriale</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
+  <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
