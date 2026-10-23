@@ -54,7 +54,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
   </header>
   {breadcrumb}
   <main id="contenuto">{main}</main>
-  <footer class="wrap footer"><a class="footer-wordmark" href="{prefix}index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="{prefix}progetto.html">Progetto Editoriale</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
+  <footer class="wrap footer"><a class="footer-wordmark" href="{prefix}index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
   <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
 </body>
 </html>
