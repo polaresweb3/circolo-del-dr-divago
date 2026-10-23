@@ -8,7 +8,7 @@ import shutil
 from urllib.parse import urlsplit
 import zipfile
 
-from sito_pages import PAGES, build_site
+from sito_pages import PAGES, LEGAL_PAGES, build_site
 
 ROOT = Path(__file__).resolve().parent
 PROPOSAL = ROOT / 'proposte/editoriale'
@@ -127,7 +127,7 @@ def create(proposal=PROPOSAL, source=SOURCE, label='PROPOSTA EDITORIALE',
             checked = References(html)
             if checked.h1_count != 1 or len(checked.ids) != len(set(checked.ids)):
                 raise ValueError('Struttura della pagina non valida: ' + name)
-            if checked.nav_count != len(pages) or checked.nav_current != 1:
+            if checked.nav_count != len(pages) or checked.nav_current != (0 if item['page'] in LEGAL_PAGES else 1):
                 raise ValueError('Navigazione della pagina non valida: ' + name)
             for relative in checked.paths:
                 target = (file.parent / relative).resolve()

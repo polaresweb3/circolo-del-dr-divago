@@ -306,6 +306,13 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .article-body { max-width: 44rem; }
 .article-body p { max-width: 65ch; margin-bottom: 1.5rem; font: 1.1875rem/1.95 var(--serif); }
 .article-body h3 { font-size: 1.6rem; margin-block: 2rem 1rem; }
+.legal-page h2 { font-size: 1.6rem; margin-block: 2rem 1rem; }
+.legal-page a, .player-privacy a { text-decoration: underline; text-underline-offset: .2em; }
+.legal-page { overflow-wrap: anywhere; }
+.legal-draft { padding: 1rem 1.25rem; border-left: 3px solid var(--accent); background: var(--accent-soft); margin-bottom: 2rem; }
+.player-privacy { font-size: .8125rem; line-height: 1.8; color: var(--muted); margin-bottom: 1rem; }
+.player-disable { background: transparent; border: 0; padding: .75rem 0; margin-bottom: 1rem; cursor: pointer; }
+.player-disable[hidden] { display: none; }
 .article-end { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
 .project-lead { max-width: 53rem; margin-block: 2rem 3rem; color: var(--green); font: 1.5rem/1.8 var(--serif); }
 .project-manifesto { max-width: 61rem; margin-block: 2.5rem 3.5rem; padding: 2rem 2.5rem; border-left: 3px solid var(--accent); background: #eeebe1; }

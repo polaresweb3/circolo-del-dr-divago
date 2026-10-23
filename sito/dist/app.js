@@ -5,7 +5,7 @@ const page = document.body.dataset.page || 'home';
 const offline = document.body.dataset.preview === 'true';
 const rootPath = document.body.dataset.root || '';
 function siteUrl(name) {
-  const routes = {home: 'index.html', video: 'video.html', biblioteca: 'biblioteca.html', eventi: 'eventi.html', progetto: 'progetto.html'};
+  const routes = {home: 'index.html', video: 'video.html', biblioteca: 'biblioteca.html', eventi: 'eventi.html', progetto: 'progetto.html', privacy: 'privacy.html', crediti: 'crediti.html'};
   if (!(name in routes)) throw new Error('Pagina sconosciuta');
   return offline ? (name === 'home' ? 'anteprima.html' : `anteprima-${name}.html`) : rootPath + routes[name];
 }
@@ -78,7 +78,17 @@ function playInlineVideo(button) {
   frame.referrerPolicy = 'strict-origin-when-cross-origin';
   frame.allowFullscreen = true;
   frame.src = youtubeEmbedUrl(id);
+  const container = button.closest('.video-consent');
+  const disable = container.querySelector('.player-disable');
   button.replaceWith(frame);
+  disable.hidden = false;
+  disable.onclick = () => {
+    frame.replaceWith(button);
+    disable.hidden = true;
+    disable.onclick = null;
+    button.focus();
+  };
+  frame.focus();
 }
 function videoCard(video) {
   const card = node('article', 'video-card');
@@ -295,6 +305,15 @@ async function start() {
   }
   if (page === 'scheda') {
     document.querySelectorAll('[data-play-video]').forEach(button => {
+      if (!canEmbedYouTube()) {
+        button.querySelector('.sheet-play-label').textContent = 'Apri su YouTube ↗';
+        button.setAttribute('aria-label', 'Apri su YouTube: ' + document.querySelector('h1').textContent);
+        const notice = document.getElementById('player-privacy');
+        notice.textContent = 'Questa anteprima apre il video sul sito di YouTube, dove si applica l’informativa del servizio. ';
+        const link = node('a', '', 'Privacy');
+        link.href = siteUrl('privacy');
+        notice.append(link);
+      }
       button.addEventListener('click', () => playInlineVideo(button));
     });
   }

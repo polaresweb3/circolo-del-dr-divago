@@ -26,6 +26,16 @@
       "preview": "anteprima-progetto.html"
     },
     {
+      "page": "privacy",
+      "path": "privacy.html",
+      "preview": "anteprima-privacy.html"
+    },
+    {
+      "page": "crediti",
+      "path": "crediti.html",
+      "preview": "anteprima-crediti.html"
+    },
+    {
       "page": "scheda",
       "path": "video/LqExtiXIf_Y.html",
       "preview": "anteprima-scheda-LqExtiXIf_Y.html"

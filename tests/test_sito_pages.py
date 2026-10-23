@@ -6,7 +6,7 @@ import posixpath
 import unittest
 from urllib.parse import urlsplit
 
-from sito_pages import PAGES, offline_links
+from sito_pages import PAGES, LEGAL_PAGES, offline_links
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,7 +55,9 @@ class MultipageTests(unittest.TestCase):
                 self.assertEqual(len(page.ids), len(set(page.ids)))
                 self.assertEqual(len(page.nav), len(PAGES))
                 selected = [link for link in page.nav if link.get('aria-current') == 'page']
-                self.assertEqual(len(selected), 1)
+                self.assertEqual(len(selected), 0 if item['page'] in LEGAL_PAGES else 1)
+                if item['page'] in LEGAL_PAGES:
+                    continue
                 expected = {'articolo': 'blog', 'scheda': 'video'}.get(item['page'], item['page'])
                 self.assertTrue(selected[0]['href'].endswith(PAGES[expected][0]))
 

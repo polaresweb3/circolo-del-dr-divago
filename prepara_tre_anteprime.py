@@ -6,19 +6,22 @@ import shutil
 
 from crea_proposta_editoriale import create, book_cards
 from prepara_versione_online import prepare, References
+from verifica_copertine import verify_covers
 
 ROOT = Path(__file__).resolve().parent
 
 
 def main():
+    covers = verify_covers(ROOT / 'sito/dist')
+    print('Copertine locali verificate:', covers['works_checked'])
     destination = prepare()
     # Mantiene funzionanti anche i collegamenti alle pagine del sito precedente.
-    originals = list(destination.iterdir())
+    originals = [p for p in destination.iterdir() if p.name != '.DS_Store']
     original = destination / 'originale'
     original.mkdir()
     for path in originals:
         if path.is_dir():
-            shutil.copytree(path, original / path.name)
+            shutil.copytree(path, original / path.name, ignore=shutil.ignore_patterns('.DS_Store'))
         else:
             shutil.copyfile(path, original / path.name)
     create()
@@ -27,13 +30,16 @@ def main():
            slug='sala-lettura', reference='Biblioteche storiche e circoli letterari',
            book_renderer=book_cards, home_page='salotto')
     for slug in ['editoriale', 'sala-lettura']:
-        shutil.copytree(ROOT / 'proposte' / slug / 'sito/dist', destination / slug)
+        shutil.copytree(ROOT / 'proposte' / slug / 'sito/dist', destination / slug,
+                        ignore=shutil.ignore_patterns('.DS_Store'))
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'versioni.html')
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'index.html')
     images = destination / 'assets/anteprime'
     images.mkdir(exist_ok=True)
     for slug in ['originale', 'editoriale', 'sala-lettura']:
         shutil.copyfile(ROOT / 'sito/anteprime-stili' / (slug + '.jpg'), images / (slug + '.jpg'))
+    for metadata in destination.rglob('.DS_Store'):
+        metadata.unlink()
     for page in destination.rglob('*.html'):
         text = page.read_text()
         if '<meta name="robots"' not in text:
@@ -54,7 +60,8 @@ def main():
     report = {'status': 'prepared_not_published', 'pages': len(list(destination.rglob('*.html'))),
               'files': len(files), 'bytes': sum(p.stat().st_size for p in files),
               'comparison': 'index.html', 'versions': ['originale/index.html', 'editoriale/index.html', 'sala-lettura/index.html'],
-              'internal_links_checked': True, 'local_media_included': False, 'full_transcripts_included': False}
+              'internal_links_checked': True, 'local_media_included': False,
+              'full_transcripts_included': False, 'covers': covers}
     (destination.parent / 'tre-anteprime.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))
 

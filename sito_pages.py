@@ -18,6 +18,10 @@ PAGES = {
     "progetto": ("progetto.html", "Progetto Editoriale", "Progetto Editoriale", []),
 }
 FEATURED_BOOKS = ["libri-della-mia-vita-salamov", "minima-moralia-adorno", "nel-ventre-della-balena-orwell"]
+LEGAL_PAGES = {
+    "privacy": ("privacy.html", "Privacy", "Privacy", []),
+    "crediti": ("crediti.html", "Crediti e diritti", "Crediti e diritti", []),
+}
 
 
 def preview_name(page):
@@ -26,6 +30,7 @@ def preview_name(page):
 
 def document(title, current, main, prefix="", featured=(), pages=None):
     pages = pages or PAGES
+    labels = pages | LEGAL_PAGES
     nav = "".join(
         f'<a href="{prefix}{filename}"' + (' aria-current="page"' if key == current else "")
         + (' class="nav-featured"' if key == "completate" else "")
@@ -33,7 +38,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
         for key, (filename, label, _, _) in pages.items())
     breadcrumb = "" if current == "home" else (
         f'<div class="breadcrumb wrap" aria-label="Percorso"><a href="{prefix}index.html">Home</a>'
-        f'<span aria-hidden="true">/</span><span>{html.escape(pages[current][1])}</span></div>')
+        f'<span aria-hidden="true">/</span><span>{html.escape(labels[current][1])}</span></div>')
     return f'''<!doctype html>
 <html lang="it">
 <head>
@@ -54,7 +59,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
   </header>
   {breadcrumb}
   <main id="contenuto">{main}</main>
-  <footer class="wrap footer"><a class="footer-wordmark" href="{prefix}index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
+  <footer class="wrap footer"><a class="footer-wordmark" href="{prefix}index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="{prefix}privacy.html">Privacy</a><a href="{prefix}crediti.html">Crediti e diritti</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
   <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
 </body>
 </html>
@@ -151,10 +156,16 @@ def video_content(card, bibliography):
 
 
 def video_player(ident, title):
-    return (f'<div class="sheet-player"><button class="sheet-play" data-play-video="{html.escape(ident)}" '
-            f'aria-label="Riproduci: {html.escape(title, quote=True)}">'
+    return ('<div class="video-consent"><p class="player-privacy" id="player-privacy">'
+            'Il video usa un player esterno. Con “Accetta e riproduci” autorizzi il caricamento di YouTube, '
+            'che riceverà dati di navigazione e potrà usare cookie o memoria locale. '
+            '<a href="../privacy.html#youtube">Privacy del player</a>. '
+            'Puoi leggere la scheda senza attivarlo.</p>'
+            f'<div class="sheet-player"><button class="sheet-play" data-play-video="{html.escape(ident)}" '
+            f'aria-describedby="player-privacy" aria-label="Accetta e riproduci: {html.escape(title, quote=True)}">'
             f'<img src="https://i.ytimg.com/vi/{html.escape(ident)}/hqdefault.jpg" alt="" width="480" height="270" decoding="async">'
-            '<span class="sheet-play-label"><span aria-hidden="true">▶</span> Riproduci il video</span></button></div>')
+            '<span class="sheet-play-label"><span aria-hidden="true">▶</span> Accetta e riproduci</span></button></div>'
+            '<button type="button" class="text-link player-disable" hidden>Disattiva player YouTube</button></div>')
 
 
 def catalog_video_content(video, bibliography):
@@ -235,10 +246,11 @@ def _build_site(root, pages=None):
     featured = [ident for ident in FEATURED_BOOKS if ident in ids]
     featured += [ident for ident in ids if ident not in featured]
     featured = featured[:3]
-    mapping = {filename: preview_name(key) for key, (filename, _, _, _) in pages.items()}
+    all_pages = pages | LEGAL_PAGES
+    mapping = {filename: preview_name(key) for key, (filename, _, _, _) in all_pages.items()}
     documents = []
     cards = data.get("schede.json", [])
-    for key, (filename, _, title, datasets) in pages.items():
+    for key, (filename, _, title, datasets) in all_pages.items():
         main = (templates / (key + ".html")).read_text(encoding="utf-8")
         main = main.replace("{{completed_count}}", str(len(cards)))
         if key == "completate":
