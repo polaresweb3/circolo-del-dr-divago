@@ -24,19 +24,18 @@ def main():
             shutil.copytree(path, original / path.name, ignore=shutil.ignore_patterns('.DS_Store'))
         else:
             shutil.copyfile(path, original / path.name)
-    create()
     salon = ROOT / 'proposte/sala-lettura'
     create(proposal=salon, source=salon / 'sorgenti', label='SALA DI LETTURA',
            slug='sala-lettura', reference='Biblioteche storiche e circoli letterari',
            book_renderer=book_cards, home_page='salotto')
-    for slug in ['editoriale', 'sala-lettura']:
+    for slug in ['sala-lettura']:
         shutil.copytree(ROOT / 'proposte' / slug / 'sito/dist', destination / slug,
                         ignore=shutil.ignore_patterns('.DS_Store'))
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'versioni.html')
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'index.html')
     images = destination / 'assets/anteprime'
     images.mkdir(exist_ok=True)
-    for slug in ['originale', 'editoriale', 'sala-lettura']:
+    for slug in ['originale', 'sala-lettura']:
         shutil.copyfile(ROOT / 'sito/anteprime-stili' / (slug + '.jpg'), images / (slug + '.jpg'))
     for metadata in destination.rglob('.DS_Store'):
         metadata.unlink()
@@ -59,7 +58,7 @@ def main():
                 raise ValueError('Percorso privato: ' + str(path))
     report = {'status': 'prepared_not_published', 'pages': len(list(destination.rglob('*.html'))),
               'files': len(files), 'bytes': sum(p.stat().st_size for p in files),
-              'comparison': 'index.html', 'versions': ['originale/index.html', 'editoriale/index.html', 'sala-lettura/index.html'],
+              'comparison': 'index.html', 'versions': ['originale/index.html', 'sala-lettura/index.html'],
               'internal_links_checked': True, 'local_media_included': False,
               'full_transcripts_included': False, 'covers': covers}
     (destination.parent / 'tre-anteprime.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
