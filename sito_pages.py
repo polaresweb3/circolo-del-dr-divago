@@ -127,9 +127,9 @@ def video_content(card, bibliography):
     for mention in card["books"]:
         book = next(b for b in bibliography if b["id"] == mention["book_id"])
         cover = book.get("cover") or {}
-        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="Copertina di {esc(cover.get("display_title") or book["title"], quote=True)}" '
+        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="{esc(cover.get("alt") or (cover.get("image_label", "Copertina") + " di " + (cover.get("display_title") or book["title"])), quote=True)}" '
                  'width="72" height="108" loading="lazy">') if cover.get("src") else '<span class="card-book-no-cover" aria-hidden="true">↗</span>'
-        edition = (f'<p class="card-book-edition">Copertina: {esc(cover["edition_label"])}</p>') if cover.get('edition_label') else ''
+        edition = (f'<p class="card-book-edition">{esc(cover.get("image_label", "Copertina"))}: {esc(cover["edition_label"])}</p>') if cover.get('edition_label') else ''
         if cover.get('edition_note'):
             edition += f'<p class="card-book-edition">{esc(cover["edition_note"])}</p>'
         status = mention.get("confidence", "riscontro_testuale")
@@ -176,8 +176,8 @@ def catalog_video_content(video, bibliography):
     book_rows = []
     for book in related:
         cover = book.get('cover') or {}
-        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="Copertina di {esc(cover.get("display_title") or book["title"], quote=True)}" width="72" height="108" loading="lazy">') if cover.get('src') else ''
-        edition = f'<p class="card-book-edition">Copertina: {esc(cover["edition_label"])}</p>' if cover.get('edition_label') else ''
+        image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="{esc(cover.get("alt") or (cover.get("image_label", "Copertina") + " di " + (cover.get("display_title") or book["title"])), quote=True)}" width="72" height="108" loading="lazy">') if cover.get('src') else ''
+        edition = f'<p class="card-book-edition">{esc(cover.get("image_label", "Copertina"))}: {esc(cover["edition_label"])}</p>' if cover.get('edition_label') else ''
         mentions = [m for m in book['mentions'] if m['video_id'] == ident]
         links = []
         for mention in mentions:

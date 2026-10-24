@@ -131,12 +131,15 @@ function filterVideos() {
   state.page = 0;
   renderVideos();
 }
+function coverAlt(book) {
+  return book.cover.alt || `${book.cover.image_label || 'Copertina'} di ${book.cover.display_title || book.title}, ${book.author}`;
+}
 function showBookCover(book) {
   const heading = node('h2', 'dialog-title', book.title);
   heading.id = 'dialog-title';
   const image = node('img', 'book-cover-large');
   image.src = book.cover.src;
-  image.alt = `Copertina di ${book.cover.display_title || book.title}, ${book.author}`;
+  image.alt = coverAlt(book);
   const caption = node('p', 'dialog-description', `${book.author} · ${book.cover.edition_label}`);
   const link = node('a', 'text-link', 'Fonte della copertina ↗');
   link.href = book.cover.source_page;
@@ -158,30 +161,32 @@ function renderBooks(books) {
     const cover = node('figure', 'book-cover');
     if (book.cover && book.cover.src) {
       const button = node('button', 'book-cover-button');
-      button.setAttribute('aria-label', `Ingrandisci la copertina di ${book.title}, ${book.author}`);
+      button.setAttribute('aria-label', `Ingrandisci: ${coverAlt(book)}`);
       const image = node('img');
       image.src = book.cover.src;
-      image.alt = `Copertina di ${book.cover.display_title || book.title}, ${book.author}`;
+      image.alt = coverAlt(book);
       image.loading = 'lazy'; image.width = 84; image.height = 126;
       image.addEventListener('error', () => {
         button.replaceWith(node('span', 'cover-missing', 'Copertina non disponibile'));
       }, {once: true});
       button.append(image);
       button.addEventListener('click', () => showBookCover(book));
-      cover.append(button, node('figcaption', '', book.cover.edition_label));
+      const caption = `${book.cover.container_title ? `Raccolta: ${book.cover.container_title} · ` : ''}${book.cover.edition_label}`;
+      cover.append(button, node('figcaption', '', caption));
     } else {
       const workLabel = {saggio: 'Saggio', poesia: 'Poesia'}[book.work_type];
       cover.append(node('span', 'cover-missing', workLabel || 'Copertina non disponibile'));
     }
     const text = node('div');
     const title = node('h3', '', book.title);
-    const labels = {verificato: 'VERIFICATO', citazione_esplicita: 'TITOLO NEL TESTO AUTOMATICO', riscontro_audio_automatico: 'RISCONTRO VOCALE AUTOMATICO', titolo_nella_trascrizione: 'TITOLO NELLA TRASCRIZIONE', titolo_nel_video: 'NEL TITOLO DEL VIDEO', identificazione_probabile: 'IDENTIFICAZIONE PROBABILE', da_riascoltare: 'DA RIASCOLTARE'};
+    const labels = {verificato: 'VERIFICATO', citazione_esplicita: 'RISCONTRO NEL TESTO AUTOMATICO', riscontro_audio_automatico: 'RISCONTRO VOCALE AUTOMATICO', titolo_nella_trascrizione: 'TITOLO NELLA TRASCRIZIONE', titolo_nel_video: 'NEL TITOLO DEL VIDEO', identificazione_probabile: 'IDENTIFICAZIONE PROBABILE', da_riascoltare: 'DA RIASCOLTARE'};
     title.append(node('span', 'book-state', labels[book.status] || 'DA VERIFICARE'));
     text.append(title);
     if (book.subtitle) text.append(node('p', 'book-subtitle', book.subtitle));
     text.append(node('p', 'book-author', book.author), node('p', 'book-source', book.source));
     if (book.work_type === 'saggio') text.append(node('p', 'book-work-type', 'Saggio · testo distinto dalle raccolte'));
     if (book.work_type === 'poesia') text.append(node('p', 'book-work-type', 'Poesia · testo distinto dalle raccolte'));
+    if (book.work_type === 'articolo') text.append(node('p', 'book-work-type', 'Articolo · testo distinto dal periodico'));
     const videoCount = new Set(book.mentions.map(mention => mention.video_id)).size;
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
     row.append(cover, text);
@@ -267,7 +272,7 @@ function renderHome() {
     link.href = `${siteUrl('biblioteca')}#book-${encodeURIComponent(book.id)}`;
     const visual = node('div', 'home-book-image');
     if (book.cover?.src) {
-      const image = node('img'); image.src = book.cover.src; image.alt = `Copertina di ${book.title}`;
+      const image = node('img'); image.src = book.cover.src; image.alt = coverAlt(book);
       image.loading = 'lazy'; image.width = 100; image.height = 150; visual.append(image);
     }
     const copy = node('div');
