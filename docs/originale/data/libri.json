@@ -1689,6 +1689,18 @@
         "note": "Titolo esplicito di Adorno nel confronto fra lettura critica e manualistica.",
         "role": "riferimento",
         "video_title": "Perché i Greci non parlano mai dell'individuo contemporaneo?"
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 2380,
+        "title_seconds": 2380,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Adorno e MinimaMoralia espliciti; parafrasi sull’evidenza logica non localizzata con numero di aforisma verificato.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -2338,6 +2350,30 @@
         "note": "1984 esplicito fra i due libri consigliati nel marzo dell’anno precedente.",
         "role": "riferimento",
         "video_title": "C'erano una volta scienza e coscienza..."
+      },
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 2149,
+        "title_seconds": 2149,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "1984 di George Orwell esplicito; a 2180 secondi lettura del passo di parte I, capitolo 7.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      },
+      {
+        "video_id": "b7QDQnhlMTQ",
+        "seconds": 663,
+        "title_seconds": 663,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "1984 di Orwell esplicitamente nominato; lettura del passo sulla razione di cioccolata nella prima parte, capitolo5, da circa726secondi.",
+        "role": "riferimento",
+        "video_title": "Venti grammi di cioccolata."
       }
     ],
     "cover": {
@@ -2850,6 +2886,18 @@
         "note": "Schopenhauer e Il mondo come volontà e rappresentazione espliciti.",
         "role": "riferimento",
         "video_title": "La candela scioglie la cera, almeno così si spera."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 1118,
+        "title_seconds": 1118,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Schopenhauer e The World as Will and Representation espliciti; titolo tedesco deteriorato nella fonte.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -4495,6 +4543,30 @@
         "note": "Lasciate ogni speranza, allusione alla porta dell’Inferno, cantoIII.",
         "role": "riferimento",
         "video_title": "Per carità, non si invochi la libertà."
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 1468,
+        "title_seconds": 1468,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Divina Commedia esplicita nell’esempio della distanza linguistica e culturale, senza canto o passo specificato.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 2538,
+        "title_seconds": 2538,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Divine Comedy esplicita nell’elenco finale; nessuna cantica o edizione identificata.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -4588,6 +4660,18 @@
         "note": "Cervantes, Don Chisciotte, bacinella del barbiere interpretata come elmo e scena dell’osteria.",
         "role": "riferimento",
         "video_title": "Aspetti dell'epoca della conoscenza."
+      },
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 1919,
+        "title_seconds": 1919,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cervantes e Don Chisciotte espliciti come esempio di creazione originale, senza un capitolo letto.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
       }
     ],
     "cover": {
@@ -4717,6 +4801,30 @@
         "note": "Dostoevskij, Ivan Karamazov e formula sul tutto permesso espliciti, senza certificare la parafrasi come battuta letterale.",
         "role": "riferimento",
         "video_title": "L'ordine delle cose."
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 891,
+        "title_seconds": 891,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dostoevskij, Karamazov e il Grande Inquisitore espliciti; episodio del libro V, capitolo 5, senza edizione confermata.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 2450,
+        "title_seconds": 2450,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dostoevskij, Karamazov e GrandeInquisitore espliciti; l’ipotesi di un modello biografico non è una attribuzione certificata.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -5614,6 +5722,54 @@
         "note": "Antico e Nuovo Testamento espliciti come corpus di riferimento.",
         "role": "riferimento",
         "video_title": "Il deserto nella teologia biblica."
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 170,
+        "title_seconds": 170,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Bibbia esplicita, con Genesi 2, dono di Giacobbe a Esaù in Genesi 32, pesca di Giovanni 21 e allusione al numero di Apocalisse 13:18. Nessuna specifica traduzione confermata.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 312,
+        "title_seconds": 312,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Mosè, nome divino ed ego sum qui sum: localizzazione redazionale in Esodo3, soprattutto13–14. Il riferimento all’immagine divina rinvia inoltre a Genesi1.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
+      },
+      {
+        "video_id": "-BdfuSB8dq4",
+        "seconds": 2513,
+        "title_seconds": 2513,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Albero della conoscenza del bene e del male richiamato metaforicamente; probabile Genesi2–3, senza lettura di versetti.",
+        "role": "riferimento",
+        "video_title": "I crimini di Julian Assange."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 852,
+        "title_seconds": 852,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dio domanda ad Adamo dove sia: richiamo riconoscibile a Genesi 3,9, interpretato dal relatore.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -8882,6 +9038,18 @@
         "note": "Richiamo a Kant e all’orientarsi nel pensiero, con formulazione corrispondente al testo.",
         "role": "riferimento",
         "video_title": "Una realtà arroventata dalla pazzia."
+      },
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 699,
+        "title_seconds": 699,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Kant e il problema di orientarsi nel pensiero; titolo riconoscibile senza edizione specifica.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
       }
     ],
     "work_type": "saggio",
@@ -9161,6 +9329,18 @@
         "note": "Dialettica dell’illuminismo esplicita nella discussione sull’industria culturale.",
         "role": "riferimento",
         "video_title": "La violenza proviene dall'irrazionale: considerazioni sull'attacco ad Israele."
+      },
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 2254,
+        "title_seconds": 2254,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Adorno e la formula iniziale dell’Industria culturale sulla somiglianza; rinvio probabile al capitolo di Dialettica dell’illuminismo, scritto con Horkheimer, titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
       }
     ],
     "cover": {
@@ -9970,6 +10150,18 @@
         "human_audio_review": false,
         "note": "Il segmento 2,13–14,09 pronuncia Di fronte alla legge, di Franz Kafka e avvia il racconto del guardiano.",
         "video_title": "Franz Kafka, Di fronte alla Legge."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 814,
+        "title_seconds": 814,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Parabola dell’uomo e del guardiano davanti alla legge richiamata per discutere le soglie del sapere.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "work_type": "racconto",
@@ -10504,6 +10696,30 @@
         "note": "Marcuse e discorso monodimensionale: collegamento probabile al libro, titolo completo non pronunciato.",
         "role": "riferimento",
         "video_title": "Come rispondere alla censura del pensiero nella nostra epoca?"
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 285,
+        "title_seconds": 285,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "One Dimensional Man e Marcuse espliciti, con deformazione Marcus nell’ASR; nessuna edizione identificata.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
+      },
+      {
+        "video_id": "b7QDQnhlMTQ",
+        "seconds": 555,
+        "title_seconds": 555,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Individuo a una dimensione come probabile allusione al saggio di Marcuse; autore non pronunciato nel passo.",
+        "role": "riferimento",
+        "video_title": "Venti grammi di cioccolata."
       }
     ],
     "cover": {
@@ -12186,6 +12402,42 @@
         "note": "Politeia esplicita e virtù senza padrone: libro X, 617e nel mito di Er.",
         "role": "riferimento",
         "video_title": "Modernità e modelli di condizionamento sociale."
+      },
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 325,
+        "title_seconds": 325,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Platone e i filosofi al governo, poi le vite orientate a sapienza, onore e guadagno; probabili Repubblica V e IX, senza libro e passi pronunciati per esteso.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      },
+      {
+        "video_id": "-BdfuSB8dq4",
+        "seconds": 931,
+        "title_seconds": 931,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Trasimaco e rapporto fra giustizia e potere: probabile RepubblicaI, titolo non pronunciato nel passo.",
+        "role": "riferimento",
+        "video_title": "I crimini di Julian Assange."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 432,
+        "title_seconds": 432,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Paideia e governanti riluttanti al potere: probabile richiamo alla Repubblica, senza titolo esplicito nel passo.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -12395,6 +12647,18 @@
         "note": "Sofocle e formula polla ta deina riconoscibili; titolo probabile dall’ode corale dell’Antigone.",
         "role": "riferimento",
         "video_title": "La prospettiva culturale."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 2368,
+        "title_seconds": 2368,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Sofocle, Antigone e polla ta deina riconoscibili: coro332 e seguenti, localizzazione redazionale.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -12875,6 +13139,18 @@
         "note": "Daodejing, incipit sul Dao e sul nome; secondo richiamo al capitolo 37.",
         "role": "riferimento",
         "video_title": "Il sermone del fiore: il dicibile nell’indicibile."
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 316,
+        "title_seconds": 316,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Tao tê ching esplicito, reso Dao de Ching nell’ASR; nessun passo preciso letto.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
       }
     ],
     "cover": {
@@ -13235,6 +13511,18 @@
         "note": "Odissea come secondo esempio nel medesimo esperimento astratto; non recensione.",
         "role": "riferimento",
         "video_title": "Perché c’è bisogno della cosiddetta \"crisi dei migranti\"?"
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 2535,
+        "title_seconds": 2535,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Odyssey esplicita fra le realizzazioni artistiche finali; nessun episodio, traduzione o volume letto.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -13651,6 +13939,18 @@
         "note": "Metodo storico di Tucidide e racconto degli eventi: probabile riferimento all’opera storica, titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "Cos'ha ancora da dirci la \"Storia della Grecia\" di William Mitford?"
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1911,
+        "title_seconds": 1911,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Tucidide e guerra del Peloponneso espliciti; Corcira/Corinto libroI32–45 e successivo richiamo a Pericle.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -13871,6 +14171,18 @@
         "note": "Brave New World e Huxley espliciti, con il nome dell’autore deformato dall’ASR.",
         "role": "riferimento",
         "video_title": "C'erano una volta scienza e coscienza..."
+      },
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 2149,
+        "title_seconds": 2149,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Brave New World di Aldous Huxley esplicito, con nome deformato dall’ASR.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
       }
     ],
     "cover": {
@@ -15254,6 +15566,18 @@
         "note": "Il Cratilo è annunciato nella discussione della parola aletheia.",
         "role": "riferimento",
         "video_title": "Amare Platone di Livio Garzanti"
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 1065,
+        "title_seconds": 1065,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cratilo di Platone esplicito, richiamo al rapporto fra nomi ed etimologia senza una lettura di passi.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
       }
     ],
     "cover": {
@@ -16303,6 +16627,18 @@
         "note": "Simposio di Platone esplicito; generazione nel bello e successivo mito delle due metà.",
         "role": "riferimento",
         "video_title": "La scelta in Amore"
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 688,
+        "title_seconds": 688,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Socrate paragonato ai Sileni che racchiudono immagini divine: probabile Simposio 215a–b.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -17446,6 +17782,18 @@
         "note": "Le moi haïssable di Pascal riconoscibile nell’ASR; richiamo a Pensieri, titolo non pronunciato e numero non attribuito.",
         "role": "riferimento",
         "video_title": "Sentire comune e decisione politica."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 1225,
+        "title_seconds": 1225,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Pascal e le moi est haïssable, localizzato nei Pensieri; titolo e numerazione non pronunciati.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -19374,6 +19722,18 @@
         "note": "Neil Postman, Amusing Ourselves to Death, esplicito; il relatore ricorda con incertezza la traduzione italiana.",
         "role": "riferimento",
         "video_title": "Augias ed i pifferai del radioso presente."
+      },
+      {
+        "video_id": "b7QDQnhlMTQ",
+        "seconds": 2264,
+        "title_seconds": 2264,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Neil Postman e Amusing Ourselves to Death esplicitamente nominati e consigliati.",
+        "role": "riferimento",
+        "video_title": "Venti grammi di cioccolata."
       }
     ],
     "cover": {
@@ -20008,6 +20368,18 @@
         "note": "Il secondo saggio della Filosofia della civiltà è richiamato insieme al primo; si mantengono le due voci già presenti senza creare una terza voce omonima.",
         "role": "riferimento",
         "video_title": "È evidente?"
+      },
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 1438,
+        "title_seconds": 1438,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Reverenza per la vita di Schweitzer e definizione finale dell’etica; rinvio tematico probabile a Kultur und Ethik, senza titolo pronunciato.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
       }
     ],
     "cover": {
@@ -22993,6 +23365,18 @@
         "note": "Fedro nominato nel passaggio su scrittura dei discorsi e paura di essere chiamati sofisti.",
         "role": "riferimento",
         "video_title": "Noi preferiamo di no."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 1324,
+        "title_seconds": 1324,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Socrate impara dagli uomini e non dagli alberi: probabile Fedro 230d, titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -23972,6 +24356,18 @@
         "note": "Kant, saggio che cos’è l’Illuminismo e invito al coraggio dell’intelletto espliciti.",
         "role": "riferimento",
         "video_title": "Un omaggio ed un ricordo su Hans Küng."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 1541,
+        "title_seconds": 1541,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Kant, illuminazione e maturità attraverso il pensare con il proprio intelletto: probabile rinvio al saggio sull’Illuminismo.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -28402,6 +28798,18 @@
         "note": "Le Bon e il saggio sulla psicologia delle masse, fine Ottocento, espliciti; opera già presente, nessun nuovo doppione.",
         "role": "riferimento",
         "video_title": "La collaborazione dello Stato nella soppressione della libertà di espressione."
+      },
+      {
+        "video_id": "mJiID0CaL90",
+        "seconds": 2440,
+        "title_seconds": 2440,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Le Bon e il rapporto fra istruzione e manipolazione delle folle; probabile rinvio all’opera già presente, senza capitolo o edizione.",
+        "role": "riferimento",
+        "video_title": "Razionalità e coerenza."
       }
     ],
     "cover": {
@@ -29797,6 +30205,18 @@
         "note": "Pinocchio esplicito nel confronto fra classici per bambini.",
         "role": "riferimento",
         "video_title": "Winnie-the-Pooh ed il viaggio intorno al cuore."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 945,
+        "title_seconds": 945,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Pinocchio e Grillo Parlante richiamati come figure narrative della coscienza.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -30021,6 +30441,18 @@
         "note": "Socrate senza denaro sufficiente per una ammenda, con amici disposti a garantirla: episodio compatibile con Apologia 38b, titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "Un omaggio ed un ricordo su Hans Küng."
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1718,
+        "title_seconds": 1718,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Responso di Delfi sulla sapienza di Socrate e ricerca presso chi presume di sapere: probabile Apologia20e–23b, non tutti gli esempi provengono dallo stesso dialogo.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -30411,6 +30843,18 @@
         "note": "Il passo sulla logica e le molte possibilità della vita è riconoscibile nel discorso di Razumichin, parte III capitolo V; titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "La ragione dominante."
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 931,
+        "title_seconds": 931,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Raskolnikov e il confronto con l’investigatore richiamati come esempio di coscienza.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -32173,6 +32617,18 @@
         "note": "Dialoghi dei morti e Luciano di Samosata sono annunciati.",
         "role": "riferimento",
         "video_title": "Il dialogo della cultura"
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 651,
+        "title_seconds": 651,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Luciano di Samosata e Dialogues of the Dead espliciti, episodio di Elena riconoscibile nel dialogo Menippo/Ermes.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -32371,6 +32827,18 @@
         "note": "Manzoni e la conversione dell’Innominato rimandano probabilmente ai Promessi sposi, titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "Primo Levi e la ferita della Shoa"
+      },
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 2077,
+        "title_seconds": 2077,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Bravi e don Abbondio: allusione riconoscibile ai Promessi sposi, con sovrapposizione del rapporto fra i personaggi.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
       }
     ],
     "cover": {
@@ -33747,6 +34215,18 @@
         "note": "Edward Bernays, Propaganda, titolo esplicito; passi riconoscibili nei capitoli I, II e IV.",
         "role": "riferimento",
         "video_title": "Edward Bernays, Propaganda."
+      },
+      {
+        "video_id": "atmqnrE1uQQ",
+        "seconds": 21,
+        "title_seconds": 21,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Edward Bernays, Propaganda, 1928 espliciti; citazione di apertura sul governo delle opinioni.",
+        "role": "riferimento",
+        "video_title": "Polemiche a Pisa."
       }
     ],
     "cover": {
@@ -34578,6 +35058,18 @@
         "note": "Jacques Ellul, studio sulla propaganda: identificazione di Propagandes dal contesto, senza titolo pronunciato in modo distinto.",
         "role": "riferimento",
         "video_title": "Edward Bernays, Propaganda."
+      },
+      {
+        "video_id": "mJiID0CaL90",
+        "seconds": 2440,
+        "title_seconds": 2440,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Jacques Ellul e istruzione come possibile veicolo della propaganda; probabile rinvio al testo già censito, titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Razionalità e coerenza."
       }
     ],
     "cover": {
@@ -36071,6 +36563,18 @@
         "note": "Bhagavadgītā nominata nel richiamo alla frase di Oppenheimer sulla distruzione dei mondi.",
         "role": "riferimento",
         "video_title": "G .E .M.  Anscombe e la laurea honoris causa ad Henry Truman"
+      },
+      {
+        "video_id": "lueS4G7IXmU",
+        "seconds": 290,
+        "title_seconds": 290,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Bhagavadgītā esplicita nel confronto fra tradizioni di lettura, senza citazione di versi o edizione.",
+        "role": "riferimento",
+        "video_title": "La numerologia nella Bibbia."
       }
     ],
     "cover": {
@@ -37593,6 +38097,18 @@
         "note": "Mc Luhan e formula il mezzo è il messaggio: collegamento probabile a Understanding Media, titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "Noi preferiamo di no."
+      },
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 154,
+        "title_seconds": 154,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "McLuhan e il mezzo come messaggio; probabile riferimento al libro già censito, senza titolo o edizione letti.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
       }
     ],
     "cover": {
@@ -44420,6 +44936,18 @@
         "note": "Costituzione degli Ateniesi e Aristotele nell’elenco dei precedenti del discorso sullo Stato.",
         "role": "riferimento",
         "video_title": "Appunti per una ricostruzione dello Stato di diritto."
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 205,
+        "title_seconds": 205,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Ricostruzione di riforme, iscrizione nei demi, consiglio e dokimasia: probabile fonte istituzionale Ath.Pol., titolo e autore non letti.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -44476,6 +45004,18 @@
         "note": "Pseudo-Senofonte deformato nell’ASR; probabile rinvio all’omonimo pamphlet sulla costituzione ateniese.",
         "role": "riferimento",
         "video_title": "Appunti per una ricostruzione dello Stato di diritto."
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1050,
+        "title_seconds": 1050,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Vecchio Oligarca e passo sulla condizione degli schiavi in Atene, compatibile con I10–12; titolo non letto.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -49568,6 +50108,18 @@
         "note": "Platone, Gorgia e tiranno Archelao espliciti; racconto del dialogo in 470d–471d.",
         "role": "riferimento",
         "video_title": "Modernità e modelli di condizionamento sociale."
+      },
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 2510,
+        "title_seconds": 2510,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Platone e Gorgia espliciti; scena del medico, cuoco e bambini localizzata redazionalmente a521e–522a.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
       }
     ],
     "cover": {
@@ -51538,6 +52090,18 @@
         "note": "Riefenstahl, titolo del film e raduno del partito nazista a Norimberga espliciti.",
         "role": "riferimento",
         "video_title": "L'ordine delle cose."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 1135,
+        "title_seconds": 1135,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Leni Riefenstahl e Triumph of the Will espliciti; il film è distinto dai libri filosofici accostati.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -52434,6 +52998,18 @@
         "note": "Kafka e irraggiungibilità del castello: riferimento al romanzo per metafora, senza lettura di un passo.",
         "role": "riferimento",
         "video_title": "Mark Fisher: dal postmodernismo cyberpunk al postcapitalismo."
+      },
+      {
+        "video_id": "-BdfuSB8dq4",
+        "seconds": 571,
+        "title_seconds": 571,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Kafka e castello come immagine dell’apparato giudiziario: allusione probabile, non lettura o edizione identificata.",
+        "role": "riferimento",
+        "video_title": "I crimini di Julian Assange."
       }
     ],
     "cover": {
@@ -53762,6 +54338,18 @@
         "note": "Aristotele e titolo espliciti, passo sulla scelta di agire o non agire inIII5,1113b.",
         "role": "riferimento",
         "video_title": "Modernità e modelli di condizionamento sociale."
+      },
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 111,
+        "title_seconds": 111,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Aristotele ed Etica Nicomachea sono espliciti nella fonte, con deformazione fonetica del titolo nell’ASR.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
       }
     ],
     "cover": {
@@ -58644,6 +59232,18 @@
         "note": "La frase sulla natura umana come una fra più manifestazioni, anche patologiche, corrisponde a The Sane Society, capitolo 2; titolo non pronunciato in forma esatta.",
         "role": "riferimento",
         "video_title": "Modernità e modelli di condizionamento sociale."
+      },
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 2354,
+        "title_seconds": 2354,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fromm e il passo sulla convalida consensuale, riscontrato in The Sane Society, capitolo 2, pagine 14–15; titolo del libro non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
       }
     ],
     "cover": {
@@ -62071,6 +62671,18 @@
         "note": "Famosa frase del Talmud su chi distrugge una vita come un mondo intero, collegata ad Adamo creato solo. Passo riscontrato in Mishnah Sanhedrin 4:5; numerazione non pronunciata.",
         "role": "riferimento",
         "video_title": "La violenza proviene dall'irrazionale: considerazioni sull'attacco ad Israele."
+      },
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 2201,
+        "title_seconds": 2201,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Talmud, vita come mondo e Adamo creato solo: probabile MishnahSanhedrin4:5, ripresa in Sanhedrin37a; numerazione non letta.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
       }
     ],
     "cover": {
@@ -62745,6 +63357,2015 @@
         "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
       },
       "isbn": "9780676978018"
+    }
+  },
+  {
+    "id": "encomio-elena-gorgia",
+    "title": "Encomio di Elena",
+    "author": "Gorgia",
+    "work_type": "discorso sofistico",
+    "status": "citazione_esplicita",
+    "source": "Gorgia di Leontini e l’elogio di Elena sono espliciti nel confronto con la retorica contemporanea; opera distinta dal dialogo Gorgia di Platone.",
+    "references": [
+      {
+        "label": "La Vita Felice · scheda editoriale",
+        "url": "https://www.lavitafelice.it/scheda-libro/gorgia/encomio-di-elena-9788893465564-618551.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 702,
+        "title_seconds": 702,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Gorgia di Leontini, Elena e il suo elogio sono espliciti; distinta l’opera dal Gorgia di Platone.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/encomio-elena-gorgia.jpg",
+      "image_url": "https://lavitafelice.mediabiblos.it/copertine/lavitafelice/encomio-di-elena-618551.jpg",
+      "source_page": "https://www.lavitafelice.it/scheda-libro/gorgia/encomio-di-elena-9788893465564-618551.html",
+      "edition_label": "La Vita Felice, Piccola Biblioteca della Felicità 29, 2021, a cura di Riccardo Pezzano, testo greco a fronte, 64 pagine.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "89a5fd97918a01db539b43e2ae06175acb3ab7c21b4f7943ea148c10f64f65e5",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 564,
+        "height": 800,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788893465564"
+    }
+  },
+  {
+    "id": "spaccio-bruno",
+    "title": "Spaccio de la bestia trionfante",
+    "author": "Giordano Bruno",
+    "work_type": "dialogo filosofico",
+    "status": "citazione_esplicita",
+    "source": "Bruno e il titolo sono espliciti; normalizzata la prima esitazione bestione nell’ASR, subito corretta dallo stesso relatore.",
+    "references": [
+      {
+        "label": "Rizzoli Libri · BUR",
+        "url": "https://www.rizzolilibri.it/libri/spaccio-de-la-bestia-trionfante/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 2076,
+        "title_seconds": 2076,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Giordano Bruno e Spaccio de la bestia trionfante espliciti, con immediata autocorrezione di bestione nella fonte automatica.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/spaccio-bruno.webp",
+      "image_url": "https://www.rizzolilibri.it/content/uploads/1985/09/978881716525HIG.webp",
+      "source_page": "https://www.rizzolilibri.it/libri/spaccio-de-la-bestia-trionfante/",
+      "edition_label": "BUR Classici, catalogo cartaceo datato 12 settembre 1985, introduzione e commento di Michele Ciliberto, ISBN 9788817165259. Opera originale 1584.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "7fb03a2d9c288375a69cc424ea35f71d8665a220c63f0092e61a71e6ca9846b4",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 460,
+        "height": 700,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788817165259"
+    }
+  },
+  {
+    "id": "beyond-freedom-dignity-skinner",
+    "title": "Beyond Freedom and Dignity (Oltre la libertà e la dignità)",
+    "author": "B. F. Skinner",
+    "work_type": "saggio di psicologia e filosofia sociale",
+    "status": "citazione_esplicita",
+    "source": "Skinner e il titolo inglese sono pronunciati e seguiti dalla traduzione italiana; il relatore ne propone una lettura critica.",
+    "references": [
+      {
+        "label": "Hackett Publishing · edizione 2002",
+        "url": "https://hackettpublishing.com/beyond-freedom-and-dignity"
+      },
+      {
+        "label": "B. F. Skinner Foundation · bibliografia originale 1971",
+        "url": "https://www.bfskinner.org/publications/books"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 2208,
+        "title_seconds": 2208,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Skinner e Beyond Freedom and Dignity espliciti; segue la traduzione Oltre la libertà e la dignità.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/beyond-freedom-dignity-skinner.png",
+      "image_url": "https://hackettpublishing.com/media/catalog/product/cache/c65e0e17dae7692cc57629e92960e909/s/k/skinner_beyondfreedom_165x260_2_1.png",
+      "source_page": "https://hackettpublishing.com/beyond-freedom-and-dignity",
+      "edition_label": "Hackett Publishing, ristampa 2002, 240 pagine nel catalogo dell’editore, cartaceo ISBN 9780872206274; originale Knopf 1971.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica fornita dall’editore, piccola ma interamente leggibile, 165 × 260 pixel: titolo rosso e nero e nome B. F. Skinner. Nessun ingrandimento artificiale o attribuzione di questa ristampa al video.",
+      "asset_sha256": "7b054379944d0d55b025a206bcfb4e3d9032e62841d15ada42ab29788f8e6d1c",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 165,
+        "height": 260,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780872206274"
+    }
+  },
+  {
+    "id": "doing-good-badly-plant",
+    "title": "Doing Good Badly? Philosophical Issues Related to Effective Altruism",
+    "author": "Michael Plant",
+    "work_type": "tesi di dottorato",
+    "status": "identificazione_probabile",
+    "source": "Il relatore esamina la tesi di dottorato di Michael Plant senza pronunciarne il titolo. Identificazione probabile attraverso la tesi originale resa pubblica dall’autore.",
+    "references": [
+      {
+        "label": "Sito dell’autore · tesi originale",
+        "url": "https://www.plantinghappiness.co.uk/wp-content/uploads/2019/11/M-Plant-Doing-Good-Badly.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 949,
+        "title_seconds": 949,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Tesi di dottorato di Michael Plant esplicita, titolo non pronunciato; identificazione probabile con il PDF dell’autore del 2019.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/doing-good-badly-plant.jpg",
+      "image_url": "https://www.plantinghappiness.co.uk/wp-content/uploads/2019/11/M-Plant-Doing-Good-Badly.pdf",
+      "source_page": "https://www.plantinghappiness.co.uk/wp-content/uploads/2019/11/M-Plant-Doing-Good-Badly.pdf",
+      "edition_label": "University of Oxford, St Cross College, DPhil in Philosophy, agosto 2019, 268 pagine nel PDF; frontespizio originale, non copertina commerciale.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Prima pagina intera della tesi originale dell’autore, resa dal PDF con pypdfium2. Titolo, nome, college, università, data e qualifica DPhil leggibili. La fonte è conservata privatamente con SHA-256; il sito riceve solo l’immagine dichiarata.",
+      "asset_sha256": "900e7cd720f4e8f0b607fccb0901b34f6b696d062c907be5582363e18f7d1866",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 893,
+        "height": 1263,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "frontespizio_tesi",
+      "image_label": "Frontespizio della tesi"
+    }
+  },
+  {
+    "id": "meat-eater-problem-plant",
+    "title": "The Meat Eater Problem",
+    "author": "Michael Plant",
+    "work_type": "articolo di filosofia morale",
+    "status": "identificazione_probabile",
+    "source": "L’argomento del soccorso a un estraneo che mangia carne è riconoscibile nel lavoro originale di Plant; il video legge un titolo giornalistico senza nominare la rivista o il titolo accademico. Identificazione probabile dichiarata.",
+    "references": [
+      {
+        "label": "Journal of Controversial Ideas · articolo originale e PDF",
+        "url": "https://journalofcontroversialideas.org/article/2/2/206"
+      },
+      {
+        "label": "Oxford Wellbeing Research Centre · abstract",
+        "url": "https://wellbeing.hmc.ox.ac.uk/publications/the-meat-eater-problem/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 294,
+        "title_seconds": 294,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Michael Plant e l’argomento soccorso/consumo di carne: corrispondenza probabile con l’articolo accademico del 2022; il video legge un diverso titolo giornalistico.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/meat-eater-problem-plant.jpg",
+      "image_url": "https://journalofcontroversialideas.org/download/article/2/2/206/pdf",
+      "source_page": "https://journalofcontroversialideas.org/article/2/2/206",
+      "edition_label": "Journal of Controversial Ideas 2(2), articolo 2, pubblicato il 31 ottobre 2022, DOI 10.35995/jci02020002, PDF di 21 pagine.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Prima pagina intera del PDF originale della rivista: autore, titolo, date, abstract e DOI. Non è una copertina libraria o la pagina del giornale citato nel video.",
+      "asset_sha256": "6aa4f669f463467fd912b80544ab55f36c47269c455472030ef861ace7d79682",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 893,
+        "height": 1263,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "prima_pagina_articolo",
+      "image_label": "Prima pagina dell’articolo",
+      "image_credit": "Michael Plant, 2022; Journal of Controversial Ideas. Articolo originale distribuito con licenza CC BY 4.0, come indicato nella prima pagina."
+    }
+  },
+  {
+    "id": "hope-despair-memory-wiesel",
+    "title": "Hope, despair and memory (lezione Nobel 1986)",
+    "author": "Elie Wiesel",
+    "work_type": "discorso pubblico",
+    "status": "identificazione_probabile",
+    "source": "La citazione di apertura sull’obbligo di protestare contro l’ingiustizia corrisponde alla lezione Nobel di Wiesel; il titolo del discorso non viene pronunciato.",
+    "references": [
+      {
+        "label": "Nobel Foundation · testo della lezione, 11 dicembre 1986",
+        "url": "https://www.nobelprize.org/prizes/peace/1986/wiesel/lecture/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "OLvMED6dAtQ",
+        "seconds": 13,
+        "title_seconds": 13,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Wiesel è nominato e la frase sul protestare contro l’ingiustizia è riconoscibile nella lezione Nobel dell’11 dicembre 1986; titolo del discorso non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Possiamo ancora parlare di etica?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/hope-despair-memory-wiesel.jpg",
+      "image_url": "https://www.nobelprize.org/images/wiesel-13383-landscape-medium.jpg",
+      "source_page": "https://www.nobelprize.org/prizes/peace/1986/wiesel/lecture/",
+      "edition_label": "Lezione Nobel per la pace, Oslo, 11 dicembre 1986. Fotografia d’archivio di Wiesel dalla pagina ufficiale Nobel, distinta dalla copertina di un volume.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Fotografia autentica in bianco e nero di Elie Wiesel, fornita nella pagina ufficiale della lezione Nobel. Non è una copertina né un fotogramma certificato della lezione del 1986. La lezione dell’11 dicembre è distinta dal discorso di accettazione del 10 dicembre.",
+      "asset_sha256": "a229ebcbfeb941f644d232a726c65b6f11dabc78e5deac54cfc283893d844078",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:00:25.680365+00:00",
+        "width": 496,
+        "height": 328,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:00:25.680365+00:00",
+        "notes": "Vista la fotografia intera 496 × 328: ritratto ravvicinato di Wiesel in bianco e nero, pertinente alla pagina Nobel. Titolo e autore non sono descritti come scritte stampate sull’immagine."
+      },
+      "cover_relation": "illustrazione_articolo",
+      "image_label": "Ritratto di Elie Wiesel a corredo del discorso"
+    }
+  },
+  {
+    "id": "sbatti-mostro-film",
+    "title": "Sbatti il mostro in prima pagina",
+    "author": "Marco Bellocchio (regia)",
+    "work_type": "film",
+    "status": "citazione_esplicita",
+    "source": "Titolo, anno 1972 e interprete Gian Maria Volonté espliciti. Il relatore legge la presentazione di un DVD, non un romanzo omonimo.",
+    "references": [
+      {
+        "label": "Minerva Pictures · scheda ufficiale e restauro",
+        "url": "https://www.minervapictures.com/film/sbatti-il-mostro-in-prima-pagina/"
+      },
+      {
+        "label": "Cineteca di Bologna · Cinema Ritrovato",
+        "url": "https://ilcinemaritrovato.it/en/film/sbatti-il-mostro-in-prima-pagina/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "atmqnrE1uQQ",
+        "seconds": 1885,
+        "title_seconds": 1885,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo, Gian Maria Volonté e anno 1972 espliciti; lettura della sinossi dalla confezione di un DVD.",
+        "role": "riferimento",
+        "video_title": "Polemiche a Pisa."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/sbatti-mostro-film.jpg",
+      "image_url": "https://www.minervapictures.com/wp-content/uploads/2024/06/SBATTILMOSTRO_70X100_NO-DATA-768x1097.jpg",
+      "source_page": "https://www.minervapictures.com/film/sbatti-il-mostro-in-prima-pagina/",
+      "edition_label": "Film Italia-Francia, 1972, regia Marco Bellocchio, con Gian Maria Volonté. Locandina del restauro 4K 2024, non copertina del DVD mostrato nel video.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Locandina autentica intera dalla scheda del distributore: volto dipinto di Volonté, titolo giallo, crediti di Bellocchio, marchi Cannes Classics e Cinema Ritrovato e Restauro in 4K. L’anno 2024 riguarda il restauro e questa edizione promozionale, non la prima uscita del 1972 o la registrazione del contributo.",
+      "asset_sha256": "9ed102cdf11c6d1dfc70ba2cce045b1dd32172aeac308ea5bf49f5864c273a01",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:13:20.149036+00:00",
+        "width": 768,
+        "height": 1097,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:13:20.149036+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "locandina_cinematografica",
+      "image_label": "Locandina del restauro del film"
+    }
+  },
+  {
+    "id": "fabrikation-verbrecher-dossmann-regener",
+    "title": "Fabrikation eines Verbrechers. Der Kriminalfall Bruno Lüdke als Mediengeschichte",
+    "author": "Axel Doßmann; Susanne Regener",
+    "work_type": "saggio di storia dei media",
+    "status": "identificazione_probabile",
+    "source": "Il relatore mostra un libro sulla fabbricazione del criminale nel caso Lüdke senza leggerne autori e titolo tedesco completo; identificazione probabile con la ricerca storica corrispondente.",
+    "references": [
+      {
+        "label": "Spector Books · catalogo editoriale",
+        "url": "https://www.spectorbooks.com/de/buch/fabrikation-eines-verbrechers"
+      },
+      {
+        "label": "Bundeszentrale für politische Bildung · estratto originale",
+        "url": "https://www.bpb.de/system/files/dokument_pdf/Fabrikation_BPB.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "atmqnrE1uQQ",
+        "seconds": 2201,
+        "title_seconds": 2201,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Libro sulla fabbricazione del criminale nel caso Bruno Lüdke; identificazione probabile con il volume Spector 2018, senza lettura di autori e titolo tedesco completo.",
+        "role": "riferimento",
+        "video_title": "Polemiche a Pisa."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fabrikation-verbrecher-dossmann-regener.jpg",
+      "image_url": "https://www.spectorbooks.com/f/book/357.jpg",
+      "source_page": "https://www.spectorbooks.com/de/buch/fabrikation-eines-verbrechers",
+      "edition_label": "Spector Books, Leipzig, marzo 2018, 332 pagine, 386 immagini di cui 87 a colori, progetto grafico Markus Dreßen.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica verde e nera, con titolo e autori, scaricata dal campo book-data-image del catalogo ufficiale. Il logo generico dell’editore fornito come og:image è stato respinto e conservato soltanto nel registro privato dei candidati. La precedente locandina editoriale annunciava il libro per il 2017 con dati provvisori: per anno e consistenza è usato il catalogo finale 2018.",
+      "asset_sha256": "7d769898da161ca869f539afb0285c38b1a4dc25c24d1145287596dbb7eae4b4",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:13:20.149036+00:00",
+        "width": 267,
+        "height": 375,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:13:20.149036+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9783959050340"
+    }
+  },
+  {
+    "id": "galimberti-mistificazione-bucci",
+    "title": "Umberto Galimberti e la mistificazione intellettuale. Teoria e pratica di «copia e incolla» filosofico. Un clamoroso caso di clonazione libraria",
+    "author": "Francesco Bucci",
+    "work_type": "saggio critico",
+    "status": "citazione_esplicita",
+    "source": "Titolo, editore Coniglio e Bucci sono riconoscibili nella presentazione del volume. Il libro raccoglie contestazioni sulla scrittura di Galimberti; le sue valutazioni sono attribuite all’autore, non trasformate in sentenze della scheda.",
+    "references": [
+      {
+        "label": "Museo Galileo · catalogo bibliografico, fondo Paolo Rossi",
+        "url": "https://opac.museogalileo.it/pdf/acquisti/rossi_monografie_moderne.pdf"
+      },
+      {
+        "label": "PhilPapers · scheda bibliografica",
+        "url": "https://philpapers.org/rec/BUCUGE"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 260,
+        "title_seconds": 260,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Bucci, Coniglio e titolo del libro sulla mistificazione intellettuale sono riconoscibili e in parte letti.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/galimberti-mistificazione-bucci.jpg",
+      "image_url": "https://www.ibs.it/images/9788860632968_0_0_200_0_75.jpg",
+      "source_page": "https://philpapers.org/rec/BUCUGE",
+      "edition_label": "Coniglio Editore, Roma, 2011, collana Bassi fondali; prefazione di Luca Mastrantonio.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "7e2df590e28f9ee74ff8dc6763d48516fa2a58731ff4691c1915473c43cc6fe0",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 302,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788860632968"
+    }
+  },
+  {
+    "id": "filosofo-monziglia-altieri",
+    "title": "Il filosofo di Monziglia o dell’impostore Umberto Galimberti",
+    "author": "Vincenzo Altieri",
+    "work_type": "saggio polemico",
+    "status": "citazione_esplicita",
+    "source": "Vincenzo Altieri e il titolo Il filosofo di Monziglia sono pronunciati nel gruppo di libri presentato dal relatore. Il termine impostore fa parte del titolo dell’autore.",
+    "references": [
+      {
+        "label": "StreetLib · catalogo del distributore",
+        "url": "https://store.streetlib.com/filosofia/il-filosofo-di-monziglia-o-dellimpostore-umberto-galimberti-135989/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 800,
+        "title_seconds": 800,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Vincenzo Altieri e Il filosofo di Monziglia espliciti, con deformazioni fonetiche nell’ASR.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/filosofo-monziglia-altieri.jpg",
+      "image_url": "https://cdn11.bigcommerce.com/s-5qq6wzvq2h/products/362978/images/368437/9788822856296__59112.1645929038.386.513.jpg?c=1",
+      "source_page": "https://store.streetlib.com/filosofia/il-filosofo-di-monziglia-o-dellimpostore-umberto-galimberti-135989/",
+      "edition_label": "e4659, ebook 2016, edizione digitale distribuita da StreetLib, ISBN 9788822856296.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "7d97de66989f2e921d342f501324fd2f1d8ca1a4395401aa47493c260be9433f",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 386,
+        "height": 483,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788822856296"
+    }
+  },
+  {
+    "id": "luminare-miope-altieri",
+    "title": "Umberto Galimberti. Eugenio Borgna. Un luminare miope",
+    "author": "Vincenzo Altieri",
+    "work_type": "saggio polemico",
+    "status": "citazione_esplicita",
+    "source": "Un luminare miope è nominato come libro di Altieri; il titolo esteso con Galimberti e Borgna è riscontrato nel catalogo dell’ebook.",
+    "references": [
+      {
+        "label": "IBS · dati dell’ebook",
+        "url": "https://www.ibs.it/umberto-galimberti-eugenio-borgna-luminare-ebook-vincenzo-altieri/e/9788826071442"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 821,
+        "title_seconds": 821,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Un luminare miope letto nel gruppo dei libri di Altieri; titolo esteso verificato sul catalogo.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/luminare-miope-altieri.jpg",
+      "image_url": "https://www.ibs.it/images/9788826071442_0_0_200_0_75.jpg",
+      "source_page": "https://www.ibs.it/umberto-galimberti-eugenio-borgna-luminare-ebook-vincenzo-altieri/e/9788826071442",
+      "edition_label": "Edizione digitale 2017, distribuzione StreetLib, ISBN 9788826071442.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "a59a9b46275151d33d205f4c584adc557be29f35eb93fbfb12f00b485ff99dc1",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 280,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788826071442"
+    }
+  },
+  {
+    "id": "impostore-glorioso-altieri",
+    "title": "Umberto Galimberti. L’impostore glorioso",
+    "author": "Vincenzo Altieri",
+    "work_type": "saggio polemico",
+    "status": "citazione_esplicita",
+    "source": "L’impostore glorioso è esplicitamente letto fra i titoli di Altieri. La qualifica appartiene al titolo e alla tesi dell’autore.",
+    "references": [
+      {
+        "label": "Perlego · edizione e indice",
+        "url": "https://www.perlego.com/it/book/1079917/umberto-galimberti-limpostore-glorioso-pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 831,
+        "title_seconds": 831,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "L’impostore glorioso esplicito tra i libri presentati di Vincenzo Altieri.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/impostore-glorioso-altieri.jpg",
+      "image_url": "https://www.ibs.it/images/9788822856272_0_0_200_0_75.jpg",
+      "source_page": "https://www.perlego.com/it/book/1079917/umberto-galimberti-limpostore-glorioso-pdf",
+      "edition_label": "e4659, ebook 2016, ISBN 9788822856272.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "890946f11a098199c1bcac2dd74a3d4664f05633817dd371fd14235a051b15a4",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 250,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788822856272"
+    }
+  },
+  {
+    "id": "cristianesimo-vilipeso-altieri",
+    "title": "Umberto Galimberti. Cristianesimo vilipeso",
+    "author": "Vincenzo Altieri",
+    "work_type": "saggio polemico",
+    "status": "citazione_esplicita",
+    "source": "Titolo e Altieri sono riconoscibili nella fonte automatica, con deformazioni dei nomi. La voce descrive il libro senza assumere come accertate tutte le accuse della quarta di copertina.",
+    "references": [
+      {
+        "label": "Libreria Universitaria · dati dell’ebook Youcanprint",
+        "url": "https://www.libreriauniversitaria.it/ebook/9788892612761/autore-vincenzo-altieri/ebook-umberto-galimberti-cristianesimo-vilipeso.htm"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 853,
+        "title_seconds": 853,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cristianesimo vilipeso riconoscibile tra i libri di Altieri.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/cristianesimo-vilipeso-altieri.jpg",
+      "image_url": "https://www.ibs.it/images/9788892612761_0_0_200_0_75.jpg",
+      "source_page": "https://www.libreriauniversitaria.it/ebook/9788892612761/autore-vincenzo-altieri/ebook-umberto-galimberti-cristianesimo-vilipeso.htm",
+      "edition_label": "Youcanprint, ebook ePub, 142 pagine nel catalogo, ISBN 9788892612761.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "185348184338b3b2b561504bccd1ff5640c4868805025fee0cdfb3f107998014",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 280,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788892612761"
+    }
+  },
+  {
+    "id": "accademia-pessoa-buonanno",
+    "title": "L’accademia Pessoa",
+    "author": "Errico Buonanno",
+    "work_type": "romanzo",
+    "status": "citazione_esplicita",
+    "source": "Titolo e personaggio Alonso Novarro riconoscibili; nome dell’autore deteriorato nell’ASR, riscontrato come Errico Buonanno. L’accademia del romanzo è una istituzione di finzione, non un’opera di Fernando Pessoa.",
+    "references": [
+      {
+        "label": "Einaudi · catalogo editoriale",
+        "url": "https://www.einaudi.it/content/uploads/2019/05/LISTINO_2019.pdf"
+      },
+      {
+        "label": "Istituto Italiano di Cultura Lisbona · bibliografia dell’autore",
+        "url": "https://iiclisbona.esteri.it/it/gli_eventi/calendario/errico-buonanno-alla-6-edizione/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 1497,
+        "title_seconds": 1497,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Accademia Pessoa e Alonso Novarro riconoscibili; autore verificato come Errico Buonanno, non Enrico Bonanno.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/accademia-pessoa-buonanno.jpg",
+      "image_url": "https://www.ibs.it/images/9788806188832_0_0_200_0_75.jpg",
+      "source_page": "https://www.einaudi.it/content/uploads/2019/05/LISTINO_2019.pdf",
+      "edition_label": "Einaudi, Stile libero, 2007, 185 pagine, ISBN 9788806188832.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "5ac1b7d25e2f1684c379f4c0f3312136abc4628330738bc99e829b4d9e437ff5",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 322,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788806188832"
+    }
+  },
+  {
+    "id": "perche-non-perdoniamo-plagio-buonanno",
+    "title": "Perché non perdoniamo un plagio",
+    "author": "Errico Buonanno",
+    "work_type": "articolo di critica culturale",
+    "status": "identificazione_probabile",
+    "source": "Articolo di Rivista Studio citato e commentato con la conclusione sull’originalità; identificato attraverso autore, rivista, argomento e frase conclusiva. Il titolo non viene letto nella fonte automatica.",
+    "references": [
+      {
+        "label": "Rivista Studio · articolo originale",
+        "url": "https://www.rivistastudio.com/plagio-letteratura/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 1534,
+        "title_seconds": 1534,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Articolo di Buonanno per Rivista Studio e frase conclusiva sull’originalità; titolo identificato nella pagina originale, senza lettura del titolo nel video.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/perche-non-perdoniamo-plagio-buonanno.jpg",
+      "image_url": "https://www.rivistastudio.com/wp-content/uploads/2016/08/GettyImages-493809522.jpg",
+      "source_page": "https://www.rivistastudio.com/plagio-letteratura/",
+      "edition_label": "Rivista Studio, 24 agosto 2016; illustrazione originale dell’articolo, non copertina di un volume.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Fotografia autentica associata all’articolo nella pagina di Rivista Studio: due figure maschili sedute sullo stesso divano. Non è una copertina libraria o il ritratto di Buonanno e non si identifica senza fonte il soggetto di ciascuna figura.",
+      "asset_sha256": "ae50e2e93dfeb941a58e36ded81b6392e6d7717a2959c4abaebac9035c9a8bce",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 2000,
+        "height": 1333,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezionata l’immagine intera 2000 × 1333 con due figure maschili sul divano, una in abito grigio e l’altra in nero. Corrisponde all’og:image della pagina; titolo e autore non sono dichiarati come scritte presenti nella fotografia."
+      },
+      "cover_relation": "illustrazione_articolo",
+      "image_label": "Illustrazione dell’articolo",
+      "image_credit": "Getty Images, come dichiarato nella pagina originale di Rivista Studio. Nessuna licenza libera dedotta."
+    }
+  },
+  {
+    "id": "ulisse-joyce",
+    "title": "Ulisse (Ulysses)",
+    "author": "James Joyce",
+    "work_type": "romanzo",
+    "status": "citazione_esplicita",
+    "source": "Joyce e Ulisse sono espliciti nel confronto con Cervantes sul problema dell’originalità. Nessun episodio o traduzione specifici vengono letti.",
+    "references": [
+      {
+        "label": "IBS · edizione Einaudi",
+        "url": "https://www.ibs.it/ulisse-libro-james-joyce/e/9788806191818"
+      },
+      {
+        "label": "Università di Bologna · bibliografia, traduzione Celati",
+        "url": "https://www.unibo.it/it/studiare/insegnamenti-competenze-trasversali-moocs/insegnamenti/insegnamento/2025/537081"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "NFdwEl0H0Nc",
+        "seconds": 1935,
+        "title_seconds": 1935,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Joyce e Ulisse espliciti nell’esempio sull’originalità, non un generico Ulisse di un altro autore.",
+        "role": "riferimento",
+        "video_title": "Umberto Galimberti e la \"cultura\" del plagio."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ulisse-joyce.jpg",
+      "image_url": "https://www.ibs.it/images/9788806191818_0_0_200_0_75.jpg",
+      "source_page": "https://www.ibs.it/ulisse-libro-james-joyce/e/9788806191818",
+      "edition_label": "Einaudi, Letture Einaudi, 2013, traduzione di Gianni Celati, ISBN 9788806191818. Originale 1922.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "38f3bf14e763492aa1c60e62228ab67d988ff3590429c2d48f97477761dfae84",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:22:21.381692+00:00",
+        "width": 200,
+        "height": 316,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:22:21.381692+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788806191818"
+    }
+  },
+  {
+    "id": "epstein-private-calendar-wsj",
+    "title": "Epstein’s Private Calendar Reveals Prominent Names, Including CIA Chief, Goldman’s Top Lawyer",
+    "author": "Khadeeja Safdar; David Benoit",
+    "work_type": "inchiesta giornalistica",
+    "status": "citazione_esplicita",
+    "source": "Inchiesta del Wall Street Journal del 30 aprile 2023 esplicitamente presentata e commentata. La presenza di un nome in un calendario non dimostra da sola la partecipazione a un incontro né il coinvolgimento nei reati di Epstein.",
+    "references": [
+      {
+        "label": "Wall Street Journal · inchiesta originale",
+        "url": "https://www.wsj.com/us-news/jeffrey-epstein-calendar-cia-director-goldman-sachs-noam-chomsky-c9f6a3ff"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Wall Street Journal e inchiesta sui calendari di Epstein del 30 aprile 2023 espliciti; titolo e firme riscontrati nella pagina originale.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/epstein-private-calendar-wsj.jpg",
+      "image_url": "https://images.wsj.net/im-772634/?height=1280&width=1280",
+      "source_page": "https://www.wsj.com/us-news/jeffrey-epstein-calendar-cia-director-goldman-sachs-noam-chomsky-c9f6a3ff",
+      "edition_label": "Wall Street Journal, 30 aprile 2023. Illustrazione fotografica originale a corredo dell’articolo, non copertina libraria.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Montaggio fotografico autentico dell’inchiesta, con Epstein al centro e sei ritratti laterali. Non documenta persone riunite nello stesso luogo o coinvolte nello stesso reato.",
+      "asset_sha256": "3ac38312fabe040fef0136d595d62de9ca3c07e98cfef0dd2717e96903f6fb58",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:38:01.639534+00:00",
+        "width": 1280,
+        "height": 1280,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:38:01.639534+00:00",
+        "notes": "Immagine intera 1280 × 1280 decodificata e ispezionata: composizione in bianco e nero con Epstein al centro e sei ritratti, coerente con la didascalia della pagina. Nessun titolo o nome dell’autore dichiarato come scritta presente nell’immagine."
+      },
+      "cover_relation": "illustrazione_articolo",
+      "image_label": "Illustrazione dell’articolo",
+      "image_credit": "Photo Illustration: Alexandra Citrin-Safadi/WSJ; fotografie Bloomberg News (2), Getty Images (3), AP e Reuters, secondo i crediti della pagina originale. Nessuna licenza libera dedotta."
+    }
+  },
+  {
+    "id": "crepuscolo-idoli-nietzsche",
+    "title": "Crepuscolo degli idoli, ovvero Come si filosofa col martello",
+    "author": "Friedrich Nietzsche",
+    "work_type": "opera filosofica",
+    "status": "identificazione_probabile",
+    "source": "Il riferimento al mondo divenuto favola rimanda probabilmente alla sezione Come il mondo vero finì per diventare favola. Il titolo del libro non è letto nella fonte automatica.",
+    "references": [
+      {
+        "label": "Adelphi · edizione e descrizione",
+        "url": "https://www.adelphi.it/libro/9788845905438"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 144,
+        "title_seconds": 144,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nietzsche e il mondo divenuto favola; probabile sezione Come il mondo vero finì per diventare favola, titolo del volume non letto.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/crepuscolo-idoli-nietzsche.jpg",
+      "image_url": "https://www.adelphi.it/spool/i__id11929_mw1000__1x.jpg",
+      "source_page": "https://www.adelphi.it/libro/9788845905438",
+      "edition_label": "Adelphi, Piccola Biblioteca Adelphi 154, 1983, traduzione di Ferruccio Masini, 184 pagine. Copertina dell’edizione di riferimento, non certificata come esemplare mostrato.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "66560e6197e0313cf969f127953edcedd0a9505c511ae19c3ccbe99ac283494e",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:38:01.639534+00:00",
+        "width": 1000,
+        "height": 1674,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:38:01.639534+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788845905438"
+    }
+  },
+  {
+    "id": "fine-storia-ultimo-uomo-fukuyama",
+    "title": "The End of History and the Last Man (La fine della storia e l’ultimo uomo)",
+    "author": "Francis Fukuyama",
+    "work_type": "saggio politico e filosofico",
+    "status": "identificazione_probabile",
+    "source": "Fukuyama e la fine della storia sono espliciti, con distinzione fra un saggio e un libro successivo. Il titolo completo del volume è ricostruito bibliograficamente, non letto per intero.",
+    "references": [
+      {
+        "label": "Simon & Schuster · Free Press, edizione con nuovo poscritto",
+        "url": "https://www.simonandschuster.com/books/The-End-of-History-and-the-Last-Man/Francis-Fukuyama/9780743284554"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 738,
+        "title_seconds": 738,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Fukuyama, articolo e successivo volume sulla fine della storia; titolo completo del libro identificato bibliograficamente.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fine-storia-ultimo-uomo-fukuyama.jpg",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/P/0743284550.01.LZZZZZZZ.jpg",
+      "source_page": "https://www.simonandschuster.com/books/The-End-of-History-and-the-Last-Man/Francis-Fukuyama/9780743284554",
+      "edition_label": "Free Press, 1 marzo 2006, 464 pagine, con nuovo poscritto. Prima edizione del libro 1992, distinta dall’articolo The End of History? del 1989.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "b790631f7c76dd3e6a3fcb900ae194f3928b4f561b8503a325a2b4f589dda248",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:38:01.639534+00:00",
+        "width": 326,
+        "height": 500,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:38:01.639534+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780743284554"
+    }
+  },
+  {
+    "id": "utilitarianism-mill",
+    "title": "Utilitarianism (Utilitarismo)",
+    "author": "John Stuart Mill",
+    "work_type": "saggio filosofico",
+    "status": "identificazione_probabile",
+    "source": "La preferenza per una vita umana consapevole rispetto alla soddisfazione priva di giudizio richiama probabilmente il capitolo II. La fonte combina liberamente due confronti di Mill; autore e titolo non sono pronunciati nel passo.",
+    "references": [
+      {
+        "label": "Penguin Random House · raccolta e curatore",
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780140432725"
+      },
+      {
+        "label": "Testo del capitolo II · Utilitarianism.net",
+        "url": "https://www.utilitarianism.net/pdf/Chapter_2_What_Utilitarianism_Is_Utilitarianism_net.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 979,
+        "title_seconds": 979,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Parafrasi che combina i confronti umano/maiale e Socrate/stolto del capitolo II; autore e titolo non espliciti.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/utilitarianism-mill.jpg",
+      "image_url": "https://images.penguinrandomhouse.com/cover/9780140432725",
+      "source_page": "https://penguinrandomhousehighereducation.com/book/?isbn=9780140432725",
+      "edition_label": "Opera di Mill apparsa nel 1861 e in volume nel 1863. Immagine della raccolta Penguin Classics Utilitarianism and Other Essays, 4 agosto 1987, 352 pagine, a cura di Alan Ryan, comprendente testi di Mill e Jeremy Bentham.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica della raccolta Utilitarianism and Other Essays. Bentham è presente nella raccolta, ma non è coautore del saggio Utilitarianism di Mill. Edizione non identificata nel video.",
+      "asset_sha256": "54c95f5646e891b668fa4a144fd61335fc1852c75312299922d146d934ad8132",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:38:01.639534+00:00",
+        "width": 290,
+        "height": 450,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:38:01.639534+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780140432725",
+      "cover_relation": "copertina_raccolta",
+      "image_label": "Copertina della raccolta"
+    }
+  },
+  {
+    "id": "road-not-taken-frost",
+    "title": "The Road Not Taken",
+    "author": "Robert Frost",
+    "work_type": "poesia",
+    "status": "identificazione_probabile",
+    "source": "Il verso finale richiamato dal relatore è riconducibile alla poesia The Road Not Taken. Il titolo non è letto; il rimando è indicato come probabile.",
+    "references": [
+      {
+        "label": "Poetry Foundation · testo della poesia",
+        "url": "https://www.poetryfoundation.org/poems/44272/the-road-not-taken"
+      },
+      {
+        "label": "Dover · raccolta contenente la poesia",
+        "url": "https://store.doverpublications.com/products/9780486275505"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "SSnv2zj4sb8",
+        "seconds": 1101,
+        "title_seconds": 1101,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Robert Frost e il verso conclusivo made all the difference; titolo della poesia identificato, non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Le \"élite\" in visita da Jeffrey Epstein."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/road-not-taken-frost.jpg",
+      "image_url": "https://store.doverpublications.com/cdn/shop/products/9780486275505_83890547-fbc9-4dea-bf92-20630fbcefaa_1200x630.jpg?v=1710195666",
+      "source_page": "https://store.doverpublications.com/products/9780486275505",
+      "edition_label": "Poesia del 1915, raccolta in Mountain Interval nel 1916. Copertina della raccolta Dover The Road Not Taken and Other Poems, 1993, 64 pagine.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica della raccolta Dover, non fascicolo autonomo della singola poesia o edizione vista nel video.",
+      "asset_sha256": "18456300378b6e33404b73f53663ad027efa3ca9d1b18fb09180c0c213ad71da",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:38:01.639534+00:00",
+        "width": 298,
+        "height": 476,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:38:01.639534+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780486275505",
+      "cover_relation": "copertina_raccolta",
+      "image_label": "Copertina della raccolta"
+    }
+  },
+  {
+    "id": "sonata-chiaro-luna-beethoven",
+    "title": "Sonata per pianoforte n. 14 in do diesis minore, op. 27 n. 2 (Al chiaro di luna)",
+    "author": "Ludwig van Beethoven",
+    "work_type": "composizione musicale · sonata per pianoforte",
+    "status": "identificazione_probabile",
+    "source": "La Moonlight Sonata è riconoscibile, con deformazione fonetica nell’ASR, fra gli esempi finali di realizzazioni artistiche. Compositore, numero d’opera ed edizione non vengono letti: la localizzazione è redazionale.",
+    "references": [
+      {
+        "label": "G. Henle Verlag · spartito Urtext HN 1062",
+        "url": "https://www.henle.de/en/Piano-Sonata-no.-14-c-sharp-minor-op.-27-no.-2-Moonlight/HN-1062"
+      },
+      {
+        "label": "Beethoven-Haus · guida alla mostra sulle fonti e sulla ricezione",
+        "url": "https://internet.beethoven.de/pdf-sonderausstellung/Beethovens-Mondschein-Sonate-Brief-Guide.pdf"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "-rWZmsO-O6E",
+        "seconds": 2529,
+        "title_seconds": 2529,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Moonlight Sonata riconoscibile fra gli esempi finali, resa Monshine nell’ASR; compositore e numero d’opera riscontrati bibliograficamente.",
+        "role": "riferimento",
+        "video_title": "La conoscenza del sé."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/sonata-chiaro-luna-beethoven.jpg",
+      "image_url": "https://www.henle.de/media/67/c0/7d/1686743121/HN-1062-1686743121-sync.jpg",
+      "source_page": "https://www.henle.de/en/Piano-Sonata-no.-14-c-sharp-minor-op.-27-no.-2-Moonlight/HN-1062",
+      "edition_label": "Composta nel 1801, prima edizione Cappi, Vienna, marzo 1802, titolo Sonata quasi una Fantasia. Copertina dello spartito G. Henle HN 1062, a cura di Murray Perahia e Norbert Gertsch, diteggiatura Perahia, ISMN 9790201810621.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica dello spartito Urtext HN 1062, non di un disco, un libro sul compositore o una edizione identificata nel video. Il soprannome Al chiaro di luna è successivo alla composizione.",
+      "asset_sha256": "d3196030b859d710aa4eddd0f855b5033d13062ba090517c9b1ec13d1323013f",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:42:48.406194+00:00",
+        "width": 491,
+        "height": 648,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:42:48.406194+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "copertina_edizione_musicale",
+      "image_label": "Copertina dello spartito",
+      "ismn": "9790201810621"
+    }
+  },
+  {
+    "id": "pragmatism-antiauthoritarianism-rorty",
+    "title": "Pragmatism as Anti-Authoritarianism",
+    "author": "Richard Rorty",
+    "work_type": "saggio filosofico postumo",
+    "status": "citazione_esplicita",
+    "source": "Richard Rorty, titolo e curatore Eduardo Mendieta sono espliciti all’inizio del contributo. I brani letti costituiscono lo spunto di una critica del relatore, non una recensione integrale verificata sul volume.",
+    "references": [
+      {
+        "label": "WorldCat · edizione Belknap Press 2021",
+        "url": "https://search.worldcat.org/title/Pragmatism-as-anti-authoritarianism/oclc/1235870502"
+      },
+      {
+        "label": "Harvard University Press su JSTOR · metadati e indice",
+        "url": "https://www.jstor.org/stable/j.ctv33mgbns"
+      },
+      {
+        "label": "Shakespeare and Company · ISBN e copertina",
+        "url": "https://www.shakespeareandcompany.com/books/pragmatism-as-anti-authoritarianism"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "mJiID0CaL90",
+        "seconds": 91,
+        "title_seconds": 91,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Rorty, titolo Pragmatism as Anti-Authoritarianism e curatore Eduardo Mendieta espliciti; lettura di alcuni periodi, non dell’intero volume.",
+        "role": "riferimento",
+        "video_title": "Razionalità e coerenza."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/pragmatism-antiauthoritarianism-rorty.jpg",
+      "image_url": "https://covers.shakespeareandcompany.com/97806742/9780674248915.jpg",
+      "source_page": "https://www.shakespeareandcompany.com/books/pragmatism-as-anti-authoritarianism",
+      "edition_label": "The Belknap Press of Harvard University Press, 17 agosto 2021, edizione inglese postuma a cura di Eduardo Mendieta, prefazione di Robert B. Brandom, ISBN 9780674248915. Rorty è morto nel 2007.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "35a4aee6f90e46fdec4c6cabf4b42c2be863e4a420949b39bd5a4e08f194369a",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:49:29.177944+00:00",
+        "width": 423,
+        "height": 640,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:49:29.177944+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780674248915"
+    }
+  },
+  {
+    "id": "how-democracies-die-levitsky-ziblatt",
+    "title": "How Democracies Die",
+    "author": "Steven Levitsky; Daniel Ziblatt",
+    "work_type": "saggio di scienza politica",
+    "status": "identificazione_probabile",
+    "source": "Due docenti di Harvard e la domanda iniziale Is our democracy in danger? consentono una identificazione probabile. Nel parlato non sono letti titolo e nomi dei due autori; la critica del relatore e la recensione online menzionata non costituiscono una verifica integrale del libro.",
+    "references": [
+      {
+        "label": "Penguin Random House · edizione ed estratto editoriale",
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9781524762957"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 31,
+        "title_seconds": 31,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Due studiosi di Harvard e incipit Is our democracy in danger?: identificazione probabile con Levitsky e Ziblatt, titolo non letto.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/how-democracies-die-levitsky-ziblatt.jpg",
+      "image_url": "https://images.penguinrandomhouse.com/cover/9781524762957",
+      "source_page": "https://penguinrandomhousehighereducation.com/book/?isbn=9781524762957",
+      "edition_label": "Crown, 16 gennaio 2018, 320 pagine, ISBN 9781524762957. Edizione inglese di riferimento, non certificata come esemplare sfogliato.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "aa7a77083f88af4c94db1e33f86bbcb41de19cc05de47cb6dbe9f3bd1eb2f9a5",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 292,
+        "height": 450,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Copertina editoriale nera, titolo bianco HOW DEMOCRACIES DIE e fascia arancione laterale, interamente ispezionata. In questa immagine i nomi degli autori non compaiono: sono verificati nella scheda del medesimo ISBN, non dichiarati come scritte visibili."
+      },
+      "isbn": "9781524762957"
+    }
+  },
+  {
+    "id": "democratie-proudhon",
+    "title": "La Démocratie",
+    "author": "Pierre-Joseph Proudhon",
+    "work_type": "saggio politico · capitolo",
+    "status": "citazione_esplicita",
+    "source": "Proudhon, titolo La Démocratie, anno1848 e formula sull’aristocrazia mascherata sono riconoscibili. Il testo è il capitoloII di Solution du problème social; il frontespizio non è inventato come copertina di un libro autonomo.",
+    "references": [
+      {
+        "label": "Wikisource · testo e pagine della edizione1848",
+        "url": "https://fr.wikisource.org/wiki/Solution_du_probl%C3%A8me_social/02"
+      },
+      {
+        "label": "Wikisource · frontespizio della seconda livraison",
+        "url": "https://fr.wikisource.org/wiki/Page:Solution_du_probl%C3%A8me_social.djvu/5"
+      },
+      {
+        "label": "Panarchy · testo di Proudhon",
+        "url": "https://www.panarchy.org/proudhon/democratie.html"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 750,
+        "title_seconds": 750,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Proudhon, La Démocratie1848 e frase sull’aristocrazia mascherata espliciti, testo riscontrato nel capitolo della seconda livraison.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/democratie-proudhon.jpg",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Solution_du_probl%C3%A8me_social.djvu/page5-1280px-Solution_du_probl%C3%A8me_social.djvu.jpg?utm_source=fr.wikisource.org&utm_campaign=index&utm_content=thumbnail",
+      "source_page": "https://fr.wikisource.org/wiki/Page:Solution_du_probl%C3%A8me_social.djvu/5",
+      "edition_label": "Solution du problème social, seconda livraison, Paris, Pilhes e Guillaumin,1848; capitoloII, La Démocratie, datato26marzo1848, pagine49–119 nella fonte trascritta.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Riproduzione autentica e integrale del frontespizio della seconda livraison1848 di Solution du problème social, contenente La Démocratie; non copertina autonoma del capitolo.",
+      "asset_sha256": "ff37aca49d33316e50d05a2cc42048cf7fe3d4879c38f5750e136876da98f664",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 1280,
+        "height": 2201,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "frontespizio_raccolta",
+      "image_label": "Frontespizio della raccolta",
+      "image_credit": "Digitalizzazione del volume storico riprodotta da Wikimedia Commons e Wikisource; conservate le tracce materiali della scansione."
+    }
+  },
+  {
+    "id": "federalist-10-madison",
+    "title": "Federalist No. 10",
+    "author": "James Madison",
+    "work_type": "saggio politico",
+    "status": "citazione_esplicita",
+    "source": "James Madison, Federalist e numero10 espliciti nella discussione sulla rappresentanza. Il saggio è distinto dall’intera raccolta di Hamilton, Madison e Jay.",
+    "references": [
+      {
+        "label": "Library of Congress · testo del numero10",
+        "url": "https://guides.loc.gov/federalist-papers/text-1-10"
+      },
+      {
+        "label": "Penguin · raccolta e dati editoriali",
+        "url": "https://www.penguinrandomhouse.com/books/260150/the-federalist-papers-by-alexander-hamilton/9780140444957/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1605,
+        "title_seconds": 1605,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "James Madison, Federalist e numero10 espressamente nominati.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/federalist-10-madison.jpg",
+      "image_url": "https://images.penguinrandomhouse.com/cover/9780140444957",
+      "source_page": "https://penguinrandomhousehighereducation.com/book/?isbn=9780140444957",
+      "edition_label": "Saggio apparso nel New York Packet il23novembre1787. Immagine della raccolta Penguin Classics The Federalist Papers, ISBN9780140444957, a cura di Isaac Kramnick,528pagine.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina della raccolta di Hamilton, Madison e Jay, contenente il FederalistNo.10. Il saggio specifico è di Madison, non a tre firme; edizione non identificata nel video.",
+      "asset_sha256": "a37eec90a5c6b42fd1bbc85951fa918acd034eff76850168af9e599522a7a0ab",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 290,
+        "height": 450,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780140444957",
+      "cover_relation": "copertina_raccolta",
+      "image_label": "Copertina della raccolta"
+    }
+  },
+  {
+    "id": "costituzione-stati-uniti",
+    "title": "Costituzione degli Stati Uniti d’America",
+    "author": "Convenzione costituzionale degli Stati Uniti",
+    "work_type": "testo costituzionale",
+    "status": "citazione_esplicita",
+    "source": "La Costituzione statunitense è esplicitamente discussa per la terminologia e il sistema di rappresentanza. Testo originario ed emendamenti successivi devono restare distinti.",
+    "references": [
+      {
+        "label": "National Archives · documento e testo",
+        "url": "https://www.archives.gov/founding-docs/constitution"
+      },
+      {
+        "label": "Penguin · raccolta comprendente il testo della Costituzione",
+        "url": "https://www.penguinrandomhouse.com/books/260150/the-federalist-papers-by-alexander-hamilton/9780140444957/"
+      },
+      {
+        "label": "National Archives · diciassettesimo emendamento",
+        "url": "https://www.archives.gov/milestone-documents/17th-amendment"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1555,
+        "title_seconds": 1555,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "USConstitution e sistema costituzionale espliciti; testo originario e riforma del Senato distinti.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/federalist-10-madison.jpg",
+      "image_url": "https://images.penguinrandomhouse.com/cover/9780140444957",
+      "source_page": "https://penguinrandomhousehighereducation.com/book/?isbn=9780140444957",
+      "edition_label": "Testo firmato il17settembre1787. Per l’immagine si usa la raccolta Penguin Classics The Federalist Papers, ISBN9780140444957, che dichiara di includere il testo della Costituzione; non è una fotografia della pergamena originaria.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica di The Federalist Papers: la descrizione editoriale attesta che la raccolta comprende il testo completo della Costituzione. Non è il frontespizio costituzionale del1787 e Hamilton, Madison e Jay non sono presentati come unici autori del documento.",
+      "asset_sha256": "a37eec90a5c6b42fd1bbc85951fa918acd034eff76850168af9e599522a7a0ab",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 290,
+        "height": 450,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780140444957",
+      "cover_relation": "copertina_raccolta",
+      "image_label": "Copertina della raccolta"
+    }
+  },
+  {
+    "id": "storie-erodoto",
+    "title": "Storie (The Histories)",
+    "author": "Erodoto",
+    "work_type": "opera storica",
+    "status": "citazione_esplicita",
+    "source": "Erodoto e la sua opera sulle guerre persiane sono espliciti; il dibattito sui regimi e il racconto di Temistocle permettono di localizzare i passi senza attribuire al relatore una traduzione particolare.",
+    "references": [
+      {
+        "label": "Penguin · edizione Tom Holland e Paul Cartledge",
+        "url": "https://penguinrandomhouselibrary.com/book/?isbn=9780143107545"
+      },
+      {
+        "label": "Perseus · VII144, argento del Laurio e flotta",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+7.144&lang=original"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 1194,
+        "title_seconds": 1194,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Erodoto, confronto dei regimi e opera sulle guerre persiane; allusione anche al racconto del Laurio e di Temistocle.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/storie-erodoto.jpg",
+      "image_url": "https://images.penguinrandomhouse.com/cover/9780143107545",
+      "source_page": "https://penguinrandomhouselibrary.com/book/?isbn=9780143107545",
+      "edition_label": "Penguin Classics Deluxe Edition,19maggio2015,880pagine, traduzione Tom Holland, introduzione e note Paul Cartledge.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "f80770d3492860bf3575e35055b0ec75f2336a44e06be155229630b72d9bf327",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 300,
+        "height": 450,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9780143107545"
+    }
+  },
+  {
+    "id": "actuelles-i-camus",
+    "title": "Actuelles I. Chroniques1944–1948",
+    "author": "Albert Camus",
+    "work_type": "raccolta di scritti politici",
+    "status": "identificazione_probabile",
+    "source": "Camus e la formula sulla società come macchina della disperazione sono nominati, ma non il libro. Il rimando ad ActuellesI, nel contesto della risposta a Gabriel Marcel, è una identificazione probabile attraverso il testo della frase.",
+    "references": [
+      {
+        "label": "Gallimard · ActuellesI, collana Blanche",
+        "url": "https://www.cercle-enseignement.com/Ouvrages/Gallimard/Blanche/Actuelles"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 2120,
+        "title_seconds": 2120,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Camus e macchina della disperazione; probabile rimando ad ActuellesI e alla risposta a GabrielMarcel, titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/actuelles-i-camus.gif",
+      "image_url": "https://www.cercle-enseignement.com/var/plain_site/storage/images/ouvrages/gallimard/blanche/actuelles/216960-889-fre-FR/Actuelles_ouvrage_not_audio.gif",
+      "source_page": "https://www.cercle-enseignement.com/Ouvrages/Gallimard/Blanche/Actuelles",
+      "edition_label": "Gallimard, collana Blanche, prima pubblicazione30giugno1950,272pagine nel catalogo, ISBN9782070212088. Copertina del primo volume, non di ActuellesII oIV.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Piccola copertina autentica Gallimard115×180, interamente decodificata e ispezionata; reca Actuelles, chroniques1944–1948. Una versione a risoluzione maggiore resta desiderabile, ma non è sostituita con un segnaposto.",
+      "asset_sha256": "945c3b5ab731ca08ab7bb6ed56317e0b0c86676f82463e29bedd1f134ef935f0",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 115,
+        "height": 180,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9782070212088"
+    }
+  },
+  {
+    "id": "reflections-russian-statesman-pobedonostsev",
+    "title": "Reflections of a Russian Statesman",
+    "author": "Konstantin Petrovich Pobedonostsev",
+    "work_type": "raccolta di saggi politici e religiosi",
+    "status": "identificazione_probabile",
+    "source": "Autore e capitolo The New Democracy sono espliciti; il passo letto sui voti come frammenti di potere coincide con le pagine26–27 della traduzione1898. Il titolo del volume è ricostruito bibliograficamente.",
+    "references": [
+      {
+        "label": "Princeton Theological Seminary · scheda della digitalizzazione",
+        "url": "https://commons.ptsem.edu/id/reflectionsofrus00pobeuoft"
+      },
+      {
+        "label": "University of Oregon · estratti e attribuzione",
+        "url": "https://pages.uoregon.edu/kimball/Pbd.vsp.htm"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "5v8bUpNgIig",
+        "seconds": 2303,
+        "title_seconds": 2303,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Pobedonostsev, TheNewDemocracy e lettura sui voti: corrispondenza con pagine26–27 della traduzione1898, titolo del volume non letto.",
+        "role": "riferimento",
+        "video_title": "Some notes on Athenian Democracy."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/reflections-russian-statesman-pobedonostsev.jpg",
+      "image_url": "https://archive.org/download/reflectionsofrus00pobeuoft/reflectionsofrus00pobeuoft.pdf#page=9",
+      "source_page": "https://commons.ptsem.edu/id/reflectionsofrus00pobeuoft",
+      "edition_label": "London, Grant Richards,1898, traduzione dal russo di Robert Crozier Long, prefazione di Olga Novikoff. Frontespizio della copia digitalizzata dalla University of Toronto.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Frontespizio integrale del volume inglese1898, paginaPDF9 della digitalizzazione322pagine, non copertina esterna né edizione verificata come esemplare del video. Conservate annotazioni e segni della copia.",
+      "asset_sha256": "c88300b28fd06a4fd196fce3d8ae96d2bf25e5ca301c22a7c81ab8e5ebfac443",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T18:58:33.174243+00:00",
+        "width": 455,
+        "height": 701,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T18:58:33.174243+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "frontespizio_edizione_storica",
+      "image_label": "Frontespizio dell’edizione",
+      "image_credit": "Digitalizzazione University of Toronto/Internet Archive, reperita nel catalogo Princeton Theological Seminary."
+    }
+  },
+  {
+    "id": "technical-bulletins-hubbard",
+    "title": "The Technical Bulletins of Dianetics and Scientology",
+    "author": "L. Ron Hubbard",
+    "work_type": "raccolta di bollettini religiosi e dottrinali",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicitamente nominato come documento scaricato e mostrato dal relatore. La raccolta dei bollettini è distinta dagli scritti riservati dei livelli OT e dal diverso libro Dianetics.",
+    "references": [
+      {
+        "label": "Open Library · edizione1976 e consistenza della raccolta",
+        "url": "https://openlibrary.org/books/OL4953161M/The_technical_bulletins_of_dianetics_and_scientology"
+      },
+      {
+        "label": "Google Books · dati bibliografici1976",
+        "url": "https://books.google.com/books/about/The_Technical_Bulletins_of_Dianetics_and.html?id=08N3xwEACAAJ"
+      },
+      {
+        "label": "Ironwolf Rare Books · fotografia dell’opera in dieci volumi",
+        "url": "https://www.abebooks.com/first-edition/Technical-Bulletins-Dianetics-Scientology-Ron-Hubbard/32190748284/bd"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "-BdfuSB8dq4",
+        "seconds": 2437,
+        "title_seconds": 2437,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Technical Bulletins of Dianetics and Scientology esplicitamente nominato come raccolta scaricata, con distorsione Bulletants nell’ASR.",
+        "role": "riferimento",
+        "video_title": "I crimini di Julian Assange."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/technical-bulletins-hubbard.jpg",
+      "image_url": "https://pictures.abebooks.com/inventory/32190748284._SL300_.jpg",
+      "source_page": "https://www.abebooks.com/first-edition/Technical-Bulletins-Dianetics-Scientology-Ron-Hubbard/32190748284/bd",
+      "edition_label": "Church of Scientology of California / Scientology Publications,1976, raccolta iniziale in10volumi, ISBN9780884040514; successive aggiunte e revisioni non identificano automaticamente il file del video.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Fotografia autentica della raccolta1976 in dieci volumi rossi, non copertina di una immaginaria Bibbia segreta. Nessun volume o numero di pagina è attribuito al file mostrato senza verifica.",
+      "asset_sha256": "e1b8ada6992f13361188a222bab43adf216bca528edcd29bf0e3390a80a2809b",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:07:36.446841+00:00",
+        "width": 300,
+        "height": 200,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:07:36.446841+00:00",
+        "notes": "Ispezionata l’immagine intera300×200: dieci dorsi rossi, numerazioneI–X; TechnicalBulletins sui primi otto, AuditingSeries sulIX e CaseSupervisorSeries sulX. Autore ed edizione verificati nel catalogo, senza pretendere leggibilità di ogni scritta minuta."
+      },
+      "isbn": "9780884040514",
+      "cover_relation": "fotografia_opera_multivolume",
+      "image_label": "Fotografia dell’opera in più volumi",
+      "image_credit": "Fotografia dell’esemplare proposta da Ironwolf Rare Books su AbeBooks; nessuna licenza libera dedotta."
+    }
+  },
+  {
+    "id": "adults-room-varoufakis",
+    "title": "Adults in the Room: My Battle with Europe’s Deep Establishment",
+    "author": "Yanis Varoufakis",
+    "work_type": "memorie politiche",
+    "status": "citazione_esplicita",
+    "source": "Libro esplicitamente presentato e discusso, con lettura del dialogo fra Varoufakis e Larry Summers e richiamo alla vicenda del padre dell’autore.",
+    "references": [
+      {
+        "label": "Penguin · edizione digitale Vintage 2017",
+        "url": "https://www.penguin.co.uk/books/435157/adults-in-the-room-by-yanis-varoufakis/9781473547827"
+      },
+      {
+        "label": "Macmillan · estratto originale e diversa edizione statunitense",
+        "url": "https://us.macmillan.com/books/9780374538057/adultsintheroom/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 236,
+        "title_seconds": 236,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Adults in the Room nominato e presentato; lettura del dialogo con Larry Summers a partire da circa 1515 secondi.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/adults-room-varoufakis.jpg",
+      "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781473547827/9781473547827-jacket-large.jpg",
+      "source_page": "https://www.penguin.co.uk/books/435157/adults-in-the-room-by-yanis-varoufakis/9781473547827",
+      "edition_label": "Vintage Digital, 4 maggio 2017, edizione elettronica, ISBN 9781473547827. Copertina inglese di riferimento; non attribuita al volume del relatore.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "ae6687c8ee47d9f9c317df16bc874de669e973cddae940ea4648b12b01a4cc7f",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:19:39.306613+00:00",
+        "width": 325,
+        "height": 500,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:19:39.306613+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9781473547827"
+    }
+  },
+  {
+    "id": "storia-bisogni-illich",
+    "title": "Per una storia dei bisogni",
+    "author": "Ivan Illich",
+    "work_type": "raccolta di saggi",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicito, con anno italiano 1981 e lettura di passi sulla dipendenza dalle professioni e sui bisogni. Originale Toward a History of Needs, 1978.",
+    "references": [
+      {
+        "label": "Braidense · catalogo della traduzione italiana",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?db=solr_braidense&do_cmd=search_show_cmd&from=1&item%3A21%3ASoggetti%3A%3A%40frase%40=Bisogno+%3Csociologia%3E&nentries=10&resultForward=opac%2Fbraidense%2Fbrief.jsp&searchForm=opac%2Fbraidense%2Ferror.jsp"
+      },
+      {
+        "label": "Open Library · prima edizione originale Pantheon",
+        "url": "https://openlibrary.org/books/OL4546242M/Toward_a_history_of_needs"
+      },
+      {
+        "label": "WorldCat · originale 1978",
+        "url": "https://search.worldcat.org/title/3294617"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 1886,
+        "title_seconds": 1886,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Per una storia dei bisogni nominato, traduzione del 1981; lettura di passi sulle professioni e sui bisogni.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/storia-bisogni-illich.jpg",
+      "image_url": "https://covers.openlibrary.org/b/isbn/0394735013-L.jpg?default=false",
+      "source_page": "https://openlibrary.org/books/OL4546242M/Toward_a_history_of_needs",
+      "edition_label": "Immagine della legatura marrone dell’edizione inglese Pantheon Books, New York, 1978, xiii e 143 pagine. Testo italiano: Mondadori, marzo 1981, traduzione di Ettore Capriolo.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina rigida marrone senza sovraccoperta: titolo inglese impresso, autore riscontrato nel record Open Library. Non è la copertina italiana Mondadori 1981 e non si attribuisce al volume filmato.",
+      "asset_sha256": "c62def7a978a97fafba5789eaa8ab0c02b1fcff3d00f0a63b809ad2c3379dd37",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:19:39.306613+00:00",
+        "width": 315,
+        "height": 500,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:19:39.306613+00:00",
+        "notes": "Ispezionata l’immagine intera 315×500: tela marrone con titolo Toward a History of Needs impresso in alto. Il nome dell’autore non è stampato sul piatto visibile; è verificato nel catalogo OL4546242M, che associa questa immagine all’opera. Nessun segnaposto o frontespizio scambiato per sovraccoperta."
+      },
+      "cover_relation": "copertina_senza_sovraccoperta",
+      "image_label": "Legatura dell’edizione inglese"
+    }
+  },
+  {
+    "id": "descolarizzare-societa-illich",
+    "title": "Descolarizzare la società. Una società senza scuola è possibile?",
+    "author": "Ivan Illich",
+    "work_type": "saggio",
+    "status": "citazione_esplicita",
+    "source": "Titolo esplicitamente richiamato come opera conosciuta dell’autore; originale Deschooling Society, 1971. Il video non identifica l’edizione della copertina proposta.",
+    "references": [
+      {
+        "label": "IBS · edizione Mimesis 2019",
+        "url": "https://www.ibs.it/descolarizzare-societa-societa-senza-scuola-libro-ivan-illich/e/9788857556321"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "CTFMRv_w3ZI",
+        "seconds": 1931,
+        "title_seconds": 1931,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Descolarizzare la società esplicitamente nominato come opera di Illich.",
+        "role": "riferimento",
+        "video_title": "Yanis Varoufakis e gli \"adulti\" nella stanza dei bottoni."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/descolarizzare-societa-illich.jpg",
+      "image_url": "https://www.ibs.it/images/9788857556321_0_0_200_0_75.jpg",
+      "source_page": "https://www.ibs.it/descolarizzare-societa-societa-senza-scuola-libro-ivan-illich/e/9788857556321",
+      "edition_label": "Mimesis, collana Mimesis. Biblioteca, 2019, ISBN 9788857556321. Edizione italiana moderna di riferimento, non prima edizione dell’opera.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine autentica dell’opera, controllata visivamente; l’edizione di riferimento non è attribuita al filmato.",
+      "asset_sha256": "d313873c3c627eb92a2c4ee805581cc7c77293bf93cf4ac68ad47ca7c1674a86",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:19:39.306613+00:00",
+        "width": 200,
+        "height": 326,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:19:39.306613+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "isbn": "9788857556321"
+    }
+  },
+  {
+    "id": "russians-coming-jewison",
+    "title": "The Russians Are Coming, the Russians Are Coming",
+    "author": "Norman Jewison (regia); William Rose (sceneggiatura)",
+    "work_type": "film",
+    "status": "citazione_esplicita",
+    "source": "Film nominato e descritto attraverso il sottomarino incagliato, il panico sull’isola e il tenente Rozanov. Non è il romanzo di Nathaniel Benchley da cui deriva.",
+    "references": [
+      {
+        "label": "AFI Catalog · film 1966, trama e interpreti",
+        "url": "https://catalog.afi.com/Film/22821-THE-RUSSIANS-ARE-COMING-THE-RUSSIANS-ARE-COMING"
+      },
+      {
+        "label": "Kino Lorber · edizione home video",
+        "url": "https://kinolorber.com/product/the-russians-are-coming-the-russians-are-coming-special-edition"
+      },
+      {
+        "label": "Trailers From Hell · riproduzione della confezione",
+        "url": "https://trailersfromhell.com/cinesavant/russians-are-coming-2/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "b7QDQnhlMTQ",
+        "seconds": 815,
+        "title_seconds": 815,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "The Russians Are Coming nominato e trama del sottomarino descritta; il titolo completo ripete la frase due volte.",
+        "role": "riferimento",
+        "video_title": "Venti grammi di cioccolata."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/russians-coming-jewison.png",
+      "image_url": "https://trailersfromhell.com/wp-content/uploads/2024/02/russians-cover.png",
+      "source_page": "https://trailersfromhell.com/cinesavant/russians-are-coming-2/",
+      "edition_label": "Film statunitense del 1966, Mirisch / United Artists, regia di Norman Jewison, 126 minuti. Immagine della moderna edizione Blu-ray Kino Lorber, non locandina originale o fotogramma del video.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Confezione autentica Kino Lorber riprodotta nella recensione: la data della riedizione non è la data del film. Il banner della pagina non è usato come copertina.",
+      "asset_sha256": "6f31546e811b4082f136b631fb5ebc763c8476b5dcd2f11fe6ae87ec46ef5f53",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:25:24.413603+00:00",
+        "width": 195,
+        "height": 248,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:25:24.413603+00:00",
+        "notes": "Ispezionata l’immagine intera 193×247: custodia Blu-ray blu, titolo ripetuto in giallo su rosso, cast e disegno corale riconoscibili. Regista verificato nei crediti AFI, non inventato a partire dal disegno."
+      },
+      "cover_relation": "copertina_edizione_home_video",
+      "image_label": "Copertina dell’edizione Blu-ray"
+    }
+  },
+  {
+    "id": "samarcanda-vecchioni",
+    "title": "Samarcanda",
+    "author": "Roberto Vecchioni",
+    "work_type": "canzone",
+    "status": "citazione_esplicita",
+    "source": "Titolo e racconto dell’incontro inevitabile con la morte richiamati dal relatore. Il nome del cantautore non è pronunciato nel passo, ma il brano è riscontrato nella discografia ufficiale.",
+    "references": [
+      {
+        "label": "Roberto Vecchioni · discografia ufficiale, album 1977",
+        "url": "https://vecchioni.org/index.php/album/samarcanda/"
+      },
+      {
+        "label": "Rai Teche · esecuzione del brano nel 1977",
+        "url": "https://www.teche.rai.it/2015/06/roberto-vecchioni-una-ballata-lunga-una-vita-2/"
+      }
+    ],
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "b7QDQnhlMTQ",
+        "seconds": 2099,
+        "title_seconds": 2099,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Samarcanda nominata come canzone italiana che rielabora la storia dell’incontro con la morte; autore identificato nella discografia ufficiale.",
+        "role": "riferimento",
+        "video_title": "Venti grammi di cioccolata."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/samarcanda-vecchioni.jpg",
+      "image_url": "https://vecchioni.org/wp-content/uploads/2021/04/81pCFvRf1QL._AC_SL1500_-9.jpg",
+      "source_page": "https://vecchioni.org/index.php/album/samarcanda/",
+      "edition_label": "Canzone inclusa nell’album omonimo Philips del 1977. Immagine dell’album dal sito ufficiale dell’artista, non copertina di un libro o prova di uno specifico singolo posseduto dal relatore.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "La scheda riguarda la canzone Samarcanda; l’immagine è dichiarata copertina dell’album omonimo. Non si trascrivono versi né si identifica una origine unica della leggenda senza riscontro.",
+      "asset_sha256": "c93a5d8454fe10ba7775c5ffa5b00510b1f4fd816445649332e09ff39286ea7b",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-24T19:25:24.413603+00:00",
+        "width": 1500,
+        "height": 1500,
+        "method": "Verifica strutturale e decodifica completa con Pillow, senza tolleranza per troncamenti."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-24T19:25:24.413603+00:00",
+        "notes": "Ispezione visiva dell’immagine intera: titolo, autore e provenienza riscontrati."
+      },
+      "cover_relation": "copertina_album",
+      "image_label": "Copertina dell’album che contiene il brano"
     }
   }
 ]
