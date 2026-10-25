@@ -1,4 +1,226 @@
 'use strict';
+/* Filtri della biblioteca. Nessuna modifica ai dati editoriali. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.LibraryFilters = api;
+})(typeof globalThis === 'object' ? globalThis : this, function () {
+  'use strict';
+  const normalize = value => String(value ?? '').toLocaleLowerCase('it').normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').replace(/[_\s]+/g, ' ').trim();
+  const formats = [
+    ['all', 'Tutte le opere'], ['text', 'Libri e testi'], ['film', 'Film'],
+    ['tv', 'Serie TV'], ['art', 'Arti visive'], ['music', 'Musica'],
+    ['video', 'Altri video'], ['unknown', 'Tipo da precisare']
+  ];
+  const kinds = [
+    ['narrative', 'Narrativa'], ['essay', 'Saggi e studi'], ['poetry', 'Poesia'],
+    ['theatre', 'Teatro'], ['letters', 'Lettere e carteggi'], ['memoir', 'Biografie, diari e memorie'],
+    ['religious', 'Testi religiosi'], ['article', 'Articoli e recensioni'], ['document', 'Documenti e discorsi'],
+    ['book', 'Altri libri e testi'], ['film', 'Film'], ['tv', 'Serie TV'], ['art', 'Arti visive'],
+    ['music', 'Musica'], ['video', 'Altri video'], ['unknown', 'Tipo da precisare']
+  ];
+  // Le regole riguardano esclusivamente work_type, mai titolo o autore.
+  function classify(workType) {
+    const t = normalize(workType);
+    if (/^(film(?:\s|$)|opera cinematografica)/.test(t)) return {format: 'film', kind: 'film'};
+    if (/^(serie televisiva|miniserie|episodio (?:di serie |televisivo))/.test(t)) return {format: 'tv', kind: 'tv'};
+    if (/^(dipinto|disegno|mosaico|affresco|scultura|incisione|fotografia|opera grafica)/.test(t)) return {format: 'art', kind: 'art'};
+    if (/^(canzone|sinfonia|opera lirica|composizione musicale|inno)/.test(t)) return {format: 'music', kind: 'music'};
+    if (/^(filmato|spot televisivo)|videoregistrat/.test(t)) return {format: 'video', kind: 'video'};
+    let kind = 'unknown';
+    if (/^(lettera|epistola(?! in versi)|epistolario|carteggio|raccolta (di lettere|epistolare))/.test(t)) kind = 'letters';
+    else if (/^(autobiografia|biografia|memori|diari|testimonianza|prosa autobiografica|narrazione autobiografica)/.test(t)) kind = 'memoir';
+    else if (/^(libro biblico|testo religioso|classico taoista|sutra|traduzione biblica|raccolta di hadith)/.test(t)) kind = 'religious';
+    else if (/^(articolo|recensione|notizia|voce enciclopedica)/.test(t)) kind = 'article';
+    else if (/^(romanzo|racconto|racconti|novella|fiaba|favola|fumetto|striscia a fumetti|prosa breve|opera narrativa|trilogia di romanzi|raccolta di (racconti|novelle|favole))/.test(t)) kind = 'narrative';
+    else if (/teatr|tragedia|dramma|commedia|opera drammatica|monologo/.test(t)) kind = 'theatre';
+    else if (/poesia|poema|poemetto|poetic|sonetto|\bode\b|carme|cantico|versi|serranilla|distico/.test(t)) kind = 'poetry';
+    else if (/^(document|memorandum|telegramma|appunti manoscritti di riunione|atti|rapporto|testo (normativo|costituzionale|di dottrina)|manifesto|discorso|dichiarazione|risoluzione|sentenza|atto |accordo|parere|requisitoria|dispaccio|comunicato|portale|omelia|sermon|lezione nobel|orazione|intervista|colloqui|dibattito)/.test(t)) kind = 'document';
+    else if (/saggio|saggi|trattato|filosof|studio|ricerca|manuale|enciclopedia|dizionario|conferenza|tesi|working paper|divulgazione|storiograf|storia |opuscolo|pamphlet/.test(t)) kind = 'essay';
+    else if (/libro|raccolta|antologia|quaderni|framment|prosa|meditazione|cronaca|resoconto|manoscritto|satira|utopia|testi letterari/.test(t)) kind = 'book';
+    return {format: kind === 'unknown' ? 'unknown' : 'text', kind};
+  }
+  // Raggruppamenti orientativi dei soli topics delle schede video.
+  const themes = [
+    ['philosophy', 'Filosofia ed etica', /filosof|etic|morale|giudizio|responsabil|autonomia|liberta|ragione|pensiero|bene e male|senso della vita/],
+    ['politics', 'Politica e società', /politic|poter|democra|societa|social|ideolog|capital|econom|lavoro|diritt|censur|totalitar|autoritar|nazion|razzism|antisemit|guerra|israel|palestin|ucrain/],
+    ['history', 'Storia e memoria', /stori|memoria|shoah|olocausto|nazis|fascis|colonial|antichita|medioev|rivoluz|archiv|testimonian/],
+    ['psychology', 'Psicologia e persona', /psicolog|psich|psicoanal|inconscio|freud|fromm|emozion|paura|sofferenza|identita|conformism|solitud|disagio|morte|sogni/],
+    ['education', 'Educazione e cultura', /educaz|scuola|insegn|apprend|pedagog|universit|formaz|cultura|culturale|bibliotec/],
+    ['media', 'Linguaggio e media', /lingu|media|giornalis|propaganda|comunicaz|notizie|informaz|disinformaz|piattaform|television|retoric|pubblicit/],
+    ['literature', 'Letteratura e poesia', /letterat|poesi|poetic|romanzo|racconto|scrittura|lettura|traduzion|narrati|libri|libro/],
+    ['religion', 'Religione e spiritualità', /religio|spiritual|teolog|cristian|bibb|evangel|buddh|islam|ebraism|fede|mistica|sacro/],
+    ['science', 'Scienza e tecnica', /scien|tecn|matemat|fisica|biolog|sanita|sanitar|medic|salute|vaccin|intelligenza artificiale|nuclear|ecolog|ambient|digitale/],
+    ['arts', 'Arte, cinema e musica', /\barte\b|artist|estetic|cinema|\bfilm\b|musica|pittura|dipinto|fotograf|teatro/]
+  ];
+  const textStatuses = new Set(['verificato', 'citazione_esplicita', 'riscontro_audio_automatico', 'titolo_nella_trascrizione']);
+  const probableStatuses = new Set(['identificazione_probabile', 'citazione_probabile']);
+  const mainRoles = new Set(['opera_principale', 'libro discusso', 'film discusso']);
+  const uniqueVideoIds = book => [...new Set((book.mentions || []).map(m => m.video_id).filter(Boolean))];
+  function evidenceMatches(book, evidence) {
+    if (!evidence || evidence === 'all') return true;
+    if (evidence === 'probable') return probableStatuses.has(book.status);
+    if (evidence === 'title') return book.status === 'titolo_nel_video';
+    return evidence === 'text' && textStatuses.has(book.status);
+  }
+  function createIndex(books, cards = []) {
+    const cardsByVideo = new Map(cards.map(card => [card.video_id, card]));
+    return books.map(book => {
+      const videoIds = uniqueVideoIds(book);
+      const linkedCards = videoIds.map(id => cardsByVideo.get(id)).filter(Boolean);
+      const topicTexts = [...new Set(linkedCards.flatMap(card => card.topics || []))];
+      const themeIds = themes.filter(([, , pattern]) => topicTexts.some(topic => pattern.test(normalize(topic)))).map(([id]) => id);
+      const aliases = [book.original_title, ...(book.search_aliases || []), ...(book.alternative_titles || []), ...(book.aliases || [])];
+      return {
+        book, ...classify(book.work_type), videoIds, topics: topicTexts, themes: themeIds,
+        withCard: linkedCards.length > 0,
+        main: linkedCards.some(card => (card.books || []).some(ref => ref.book_id === book.id && mainRoles.has(ref.role))),
+        search: normalize([book.title, book.subtitle, book.author, ...aliases].filter(Boolean).join(' '))
+      };
+    });
+  }
+  function matches(entry, criteria = {}, omit = null) {
+    const q = normalize(criteria.q).split(' ').filter(Boolean);
+    return q.every(word => entry.search.includes(word))
+      && (omit === 'format' || !criteria.format || criteria.format === 'all' || entry.format === criteria.format)
+      && (omit === 'kind' || !criteria.kind || criteria.kind === 'all' || entry.kind === criteria.kind)
+      && (omit === 'author' || !criteria.author || criteria.author === 'all' || entry.book.author === criteria.author)
+      && (omit === 'theme' || !criteria.theme || criteria.theme === 'all' || entry.themes.includes(criteria.theme))
+      && evidenceMatches(entry.book, criteria.evidence)
+      && (!criteria.presence || criteria.presence === 'all'
+        || criteria.presence === 'repeated' && entry.videoIds.length > 1
+        || criteria.presence === 'with-card' && entry.withCard
+        || criteria.presence === 'main' && entry.main);
+  }
+  const alphabetical = (a, b) => `${a.book.author} ${a.book.title}`.localeCompare(`${b.book.author} ${b.book.title}`, 'it');
+  function select(index, criteria = {}) {
+    return index.filter(entry => matches(entry, criteria)).sort((a, b) => {
+      if (criteria.sort === 'mentions') return b.videoIds.length - a.videoIds.length || alphabetical(a, b);
+      if (criteria.sort === 'title') return a.book.title.localeCompare(b.book.title, 'it') || alphabetical(a, b);
+      return alphabetical(a, b);
+    }).map(entry => entry.book);
+  }
+  function counts(index, criteria, field) {
+    const result = new Map();
+    for (const entry of index) {
+      if (!matches(entry, criteria, field)) continue;
+      const values = field === 'theme' ? entry.themes : [field === 'author' ? entry.book.author : entry[field]];
+      for (const value of values) result.set(value, (result.get(value) || 0) + 1);
+    }
+    return result;
+  }
+  function randomBook(books, random = Math.random) {
+    return books.length ? books[Math.min(books.length - 1, Math.max(0, Math.floor(random() * books.length)))] : null;
+  }
+
+  let mounted = null;
+  function mount({books, cards, onChange, onSurprise, document: doc = document}) {
+    if (mounted) return mounted;
+    const index = createIndex(books, cards);
+    const $ = id => doc.getElementById(id);
+    const option = (value, label) => { const node = doc.createElement('option'); node.value = value; node.textContent = label; return node; };
+    const formatButtons = [];
+    let activeFormat = 'all';
+    const read = () => ({
+      q: $('book-search').value, format: activeFormat, kind: $('book-kind').value,
+      author: $('book-author').value, theme: $('book-theme').value,
+      evidence: $('book-filter').value, presence: $('book-presence').value, sort: $('book-sort').value
+    });
+    $('book-kind').replaceChildren(option('all', 'Tutti i tipi'), ...kinds.filter(([id]) => index.some(entry => entry.kind === id)).map(([id, label]) => option(id, label)));
+    $('book-theme').replaceChildren(option('all', 'Tutti i temi'), ...themes.filter(([id]) => index.some(entry => entry.themes.includes(id))).map(([id, label]) => option(id, label)));
+    $('book-author').replaceChildren(option('all', 'Tutti gli autori / creatori'), ...[...new Set(books.map(book => book.author))].sort((a, b) => a.localeCompare(b, 'it')).map(author => option(author, author)));
+    const availableFormats = formats.filter(([id]) => id === 'all' || index.some(entry => entry.format === id));
+    for (const [id, label] of availableFormats) {
+      const button = doc.createElement('button');
+      button.type = 'button'; button.className = 'format-chip'; button.dataset.format = id;
+      button.setAttribute('aria-pressed', String(id === activeFormat));
+      button.addEventListener('click', () => {
+        activeFormat = id;
+        $('book-kind').value = 'all'; // Il cambio formato non conserva un tipo incompatibile.
+        refresh(); onChange();
+      });
+      button.textContent = label;
+      $('book-formats').append(button); formatButtons.push([button, id, label]);
+    }
+    const parameters = new URLSearchParams(doc.defaultView.location.search);
+    if (availableFormats.some(([id]) => id === parameters.get('formato'))) activeFormat = parameters.get('formato');
+    for (const [param, id] of [['tipo', 'book-kind'], ['autore', 'book-author'], ['tema', 'book-theme'], ['presenza', 'book-presence'], ['riscontro', 'book-filter'], ['ordine', 'book-sort']]) {
+      const control = $(id);
+      if ([...control.options].some(opt => opt.value === parameters.get(param))) control.value = parameters.get(param);
+    }
+    function refresh() {
+      const criteria = read();
+      $('book-author-label').textContent = activeFormat === 'film' ? 'Regista / autore' : 'Autore / creatore';
+      $('book-author').options[0].textContent = activeFormat === 'film' ? 'Tutti i registi / autori' : 'Tutti gli autori / creatori';
+      const formatCounts = counts(index, {...criteria, kind: 'all'}, 'format');
+      for (const [button, id, label] of formatButtons) {
+        const count = id === 'all' ? [...formatCounts.values()].reduce((a, b) => a + b, 0) : formatCounts.get(id) || 0;
+        button.textContent = `${label} · ${count.toLocaleString('it-IT')}`;
+        button.setAttribute('aria-pressed', String(id === activeFormat));
+        button.disabled = count === 0 && id !== activeFormat && id !== 'all';
+      }
+      for (const [field, id, definitions] of [['kind', 'book-kind', kinds], ['theme', 'book-theme', themes], ['author', 'book-author', null]]) {
+        const totals = counts(index, criteria, field);
+        for (const opt of $(id).options) {
+          if (opt.value === 'all') continue;
+          const label = definitions ? definitions.find(([key]) => key === opt.value)[1] : opt.value;
+          const count = totals.get(opt.value) || 0;
+          opt.textContent = `${label} (${count.toLocaleString('it-IT')})`;
+          opt.disabled = count === 0 && opt.value !== $(id).value;
+          opt.hidden = opt.disabled;
+        }
+      }
+      const filtered = select(index, criteria);
+      $('book-random').disabled = filtered.length === 0;
+      const chips = [];
+      function addChip(label, remove) {
+        const button = doc.createElement('button');
+        button.type = 'button'; button.className = 'active-filter'; button.textContent = `${label} ×`;
+        button.setAttribute('aria-label', `Rimuovi filtro: ${label}`);
+        button.addEventListener('click', () => { remove(); refresh(); onChange(); $('book-search').focus(); });
+        chips.push(button);
+      }
+      if (criteria.q.trim()) addChip(`Ricerca: ${criteria.q.trim()}`, () => { $('book-search').value = ''; });
+      if (activeFormat !== 'all') addChip(formats.find(([id]) => id === activeFormat)[1], () => { activeFormat = 'all'; });
+      for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence', 'book-filter']) {
+        if ($(id).value !== 'all') addChip($(id).selectedOptions[0].textContent.replace(/ \([\d.]+\)$/, ''), () => { $(id).value = 'all'; });
+      }
+      $('book-active-filters').replaceChildren(...chips);
+      $('book-reset').hidden = chips.length === 0 && criteria.sort === 'author';
+      const advanced = ['book-presence', 'book-filter'].filter(id => $(id).value !== 'all').length;
+      $('book-advanced-label').textContent = `Altri filtri${advanced ? ` (${advanced})` : ''}`;
+      // Un URL copiato mantiene i filtri senza salvare preferenze o usare storage.
+      const url = new URL(doc.defaultView.location.href);
+      for (const [param, value, fallback] of [['q', criteria.q.trim(), ''], ['formato', activeFormat, 'all'], ['tipo', criteria.kind, 'all'], ['autore', criteria.author, 'all'], ['tema', criteria.theme, 'all'], ['presenza', criteria.presence, 'all'], ['riscontro', criteria.evidence, 'all'], ['ordine', criteria.sort, 'author']]) {
+        if (value === fallback) url.searchParams.delete(param); else url.searchParams.set(param, value);
+      }
+      try { doc.defaultView.history.replaceState(null, '', url); } catch (_) { /* Alcuni browser limitano history su file:. */ }
+      return filtered;
+    }
+    for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence']) $(id).addEventListener('change', () => { refresh(); onChange(); });
+    $('book-search').addEventListener('input', refresh);
+    $('book-filter').addEventListener('change', refresh);
+    $('book-sort').addEventListener('change', refresh);
+    $('book-reset').addEventListener('click', () => {
+      activeFormat = 'all'; $('book-search').value = '';
+      for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence', 'book-filter']) $(id).value = 'all';
+      $('book-sort').value = 'author';
+      try { doc.defaultView.history.replaceState(null, '', doc.defaultView.location.pathname); } catch (_) {}
+      refresh(); onChange(); $('book-search').focus();
+    });
+    $('book-random').addEventListener('click', () => {
+      const book = randomBook(select(index, read()));
+      if (book) onSurprise(book);
+    });
+    mounted = {index, criteria: read, refresh, select: () => select(index, read())};
+    refresh();
+    return mounted;
+  }
+  return {normalize, classify, formats, kinds, themes, uniqueVideoIds, evidenceMatches, createIndex, matches, select, counts, randomBook, mount};
+});
+
+'use strict';
 const state = { videos: [], cards: [], filtered: [], page: 0, perPage: 9, books: [], bookPage: 0, bookPerPage: 8 };
 const $ = id => document.getElementById(id);
 const page = document.body.dataset.page || 'home';
@@ -212,26 +434,41 @@ function renderBooks(books) {
     row.append(links);
     return row;
   });
-  $('books').replaceChildren(...(rows.length ? rows : [node('p', 'empty', 'Nessuna opera corrisponde alla ricerca. Prova un altro titolo, autore o tipo di riscontro.')]));
+  $('books').replaceChildren(...(rows.length ? rows : [node('p', 'empty', 'Nessuna opera corrisponde ai filtri. Rimuovi un filtro o usa “Azzera filtri”.')]));
 }
 function normalizeSearch(text) {
   return text.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
+let libraryExplorer;
 function filterBooks(reset = true, focusId = null) {
-  const query = normalizeSearch($('book-search').value.trim());
-  const selected = $('book-filter').value;
-  const filtered = state.books.filter(book => normalizeSearch(`${book.title} ${book.subtitle || ''} ${book.author}`).includes(query)
-    && (selected !== 'text' || book.status !== 'titolo_nel_video')
-    && (selected !== 'title' || book.status === 'titolo_nel_video')
-    && (selected !== 'probable' || book.status === 'identificazione_probabile'));
-  const sort = $('book-sort').value;
-  filtered.sort((a, b) => (sort === 'title' ? a.title : `${a.author} ${a.title}`).localeCompare(sort === 'title' ? b.title : `${b.author} ${b.title}`, 'it'));
+  if (!libraryExplorer) return;
+  const filtered = libraryExplorer.select();
   if (reset) state.bookPage = 0;
   if (focusId) {
     const index = filtered.findIndex(book => 'book-' + book.id === focusId);
     if (index >= 0) state.bookPage = Math.floor(index / state.bookPerPage);
   }
   renderBooks(filtered);
+  const themeId = libraryExplorer.criteria().theme;
+  for (const entry of libraryExplorer.index) {
+    const row = $('book-' + entry.book.id);
+    if (!row) continue;
+    if (!row.querySelector('.book-work-type')) {
+      const kind = LibraryFilters.kinds.find(([id]) => id === entry.kind)?.[1];
+      if (kind) row.children[1].append(node('p', 'book-work-type', kind));
+    }
+  }
+  if (themeId !== 'all') {
+    const pattern = LibraryFilters.themes.find(([id]) => id === themeId)?.[2];
+    for (const entry of libraryExplorer.index) {
+      const row = $('book-' + entry.book.id);
+      if (!row || !pattern) continue;
+      const context = node('p', 'book-context-themes', 'Nel video:');
+      const relevant = entry.topics.filter(topic => pattern.test(LibraryFilters.normalize(topic)));
+      context.append(node('span', '', relevant.join(' · ')));
+      row.children[1].append(context);
+    }
+  }
   if (focusId) $(focusId)?.scrollIntoView({block: 'start'});
 }
 on('search', 'input', filterVideos);
@@ -287,7 +524,7 @@ async function start() {
     const target = Object.prototype.hasOwnProperty.call(legacy, fragment) ? legacy[fragment] : null;
     if (target) { window.location.replace(siteUrl(target)); return; }
   }
-  const datasets = {home: ['catalogo.json', 'libri.json', 'schede.json'], video: ['catalogo.json', 'schede.json'], biblioteca: ['libri.json'],
+  const datasets = {home: ['catalogo.json', 'libri.json', 'schede.json'], video: ['catalogo.json', 'schede.json'], biblioteca: ['libri.json', 'schede.json'],
     progetto: [], eventi: [], scheda: []}[page] || [];
   const loaded = await Promise.allSettled(datasets.map(name => loadData('data/' + name)));
   const data = {};
@@ -304,8 +541,22 @@ async function start() {
     } else $('results').textContent = 'Catalogo momentaneamente non disponibile. Ricarica la pagina.';
   }
   if (page === 'biblioteca') {
-    $('book-count').textContent = `${state.books.length} OPERE`;
+    if (!data['libri.json'] || !data['schede.json']) throw new Error('Dati della biblioteca non disponibili');
+    $('book-count').textContent = `${state.books.length.toLocaleString('it-IT')} OPERE`;
     $('book-search').value = new URLSearchParams(window.location.search).get('q') || '';
+    libraryExplorer = LibraryFilters.mount({
+      books: state.books, cards: state.cards,
+      onChange: () => filterBooks(),
+      onSurprise: book => {
+        const url = new URL(window.location.href);
+        url.hash = 'book-' + book.id;
+        try { window.history.replaceState(null, '', url); } catch (_) {}
+        filterBooks(true, 'book-' + book.id);
+        const row = $('book-' + book.id);
+        row?.setAttribute('tabindex', '-1'); row?.focus({preventScroll: true});
+        $('book-results').textContent += ` · Opera a sorpresa: ${book.title}`;
+      }
+    });
     filterBooks(true, window.location.hash.slice(1));
   }
   if (page === 'scheda') {
