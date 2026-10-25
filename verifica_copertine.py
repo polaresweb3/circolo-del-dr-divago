@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 PLACEHOLDER_HASHES = {
     '6181843aced612b2a2dc1aa2b7ad6a08b0d6d26e6cdf9e9f169500f1e4c228c7',
     'e7856c81f7f83bab1d324ff85020f0a6207a1ab0495810a8ab47f1256cd3a084',  # Libreria Universitaria: copertina non disponibile.
+    '226472724e74dacb43f78d350f829a77394d3d986df78ba2a98d8c1e564fd7f4',  # IBS: Copertina in arrivo, variante 1080x1080.
 }
 
 
