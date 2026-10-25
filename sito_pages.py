@@ -13,7 +13,7 @@ from urllib.parse import urlsplit, urlunsplit
 PAGES = {
     "home": ("index.html", "Home", "Le idee del passato per comprendere il presente", ["catalogo.json", "libri.json", "schede.json"]),
     "video": ("video.html", "Video", "L’archivio delle divagazioni", ["catalogo.json", "schede.json"]),
-    "biblioteca": ("biblioteca.html", "Biblioteca", "La biblioteca citata", ["libri.json"]),
+    "biblioteca": ("biblioteca.html", "Biblioteca", "La biblioteca citata", ["libri.json", "schede.json"]),
     "eventi": ("eventi.html", "Eventi", "Gli incontri del Circolo", []),
     "progetto": ("progetto.html", "Progetto Editoriale", "Progetto Editoriale", []),
 }
