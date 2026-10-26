@@ -387,8 +387,8 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .player-disable { background: transparent; border: 0; padding: .75rem 0; margin-bottom: 1rem; cursor: pointer; }
 .player-disable[hidden] { display: none; }
 .article-end { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
-.project-epigraph { max-width: 54rem; margin-bottom: 3.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent); }
-.project-epigraph blockquote { margin: 0 0 1rem; color: var(--green); font: italic clamp(1.25rem, 2.2vw, 1.75rem)/1.65 var(--serif); }
+.project-epigraph { margin-bottom: 3.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent); }
+.project-epigraph blockquote { margin: 0 0 1rem; text-wrap: balance; color: var(--green); font: italic clamp(1.25rem, 2.2vw, 1.75rem)/1.65 var(--serif); }
 .project-epigraph figcaption { color: var(--muted); font-size: .8125rem; line-height: 1.8; }
 .project-description { max-width: 54rem; color: var(--muted); line-height: 1.95; }
 .project-page .project-community > p + p { margin-top: 1rem; }
