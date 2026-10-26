@@ -45,6 +45,8 @@ def entries(data):
 
 def export_catalog(archive):
     data = read_catalog(archive)
+    from video_dates import normalize_publication_date, publication_dates
+    date_index = publication_dates(archive, ROOT / "sito/dist/data/catalogo.json")
     audio = scan_media(archive / "audio", {".mp3"})
     video = scan_media(archive / "video", {".mp4", ".mkv", ".webm", ".mov"})
     videos = []
@@ -54,6 +56,7 @@ def export_catalog(archive):
             "id": ident, "title": item.get("title", ident),
             "url": "https://www.youtube.com/watch?v=" + ident,
             "duration": item.get("duration"),
+            "upload_date": normalize_publication_date(item.get("upload_date")) or date_index.get(ident),
             "audio_saved": ident in audio, "video_saved": ident in video,
             "audio_file": str(audio[ident].relative_to(ROOT)) if ident in audio and audio[ident].is_relative_to(ROOT) else None,
             "video_file": str(video[ident].relative_to(ROOT)) if ident in video and video[ident].is_relative_to(ROOT) else None,

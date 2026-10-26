@@ -1,4 +1,32 @@
 'use strict';
+/* Filtri dell’archivio video: anno di pubblicazione e durata. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.VideoFilters = api;
+})(typeof globalThis === 'object' ? globalThis : this, function () {
+  'use strict';
+  const normalize = value => String(value ?? '').toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  function yearOf(video) {
+    const match = String(video.upload_date || '').match(/^(\d{4})-?(\d{2})-?(\d{2})$/);
+    if (!match) return null;
+    const year = Number(match[1]), month = Number(match[2]), day = Number(match[3]);
+    const date = new Date(Date.UTC(year, month - 1, day));
+    return date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 && date.getUTCDate() === day ? year : null;
+  }
+  function years(videos) {
+    return [...new Set(videos.map(yearOf).filter(year => year !== null))].sort((a, b) => b - a);
+  }
+  function matches(video, criteria = {}, details = '') {
+    const year = yearOf(video), selected = criteria.year || 'all';
+    const yearMatches = selected === 'all' || (selected === 'unknown' ? year === null : year === Number(selected));
+    return yearMatches && (!criteria.long || (Number.isFinite(video.duration) && video.duration > 1200))
+      && normalize(`${video.title || ''} ${details}`).includes(normalize(criteria.query || '').trim());
+  }
+  return {yearOf, years, matches};
+});
+
+'use strict';
 /* Minutaggi leggibili nei testi; i dati numerici e gli URL restano invariati. */
 (function (root, factory) {
   const api = factory();
@@ -399,16 +427,21 @@ function renderVideos() {
   $('previous').disabled = state.page === 0;
   $('next').disabled = state.page >= pages - 1;
 }
+function populateVideoYears() {
+  const select = $('video-year');
+  if (!select) return;
+  const options = [['all', 'Tutti gli anni'], ...VideoFilters.years(state.videos).map(year => [String(year), String(year)])];
+  const missingYears = state.videos.filter(video => VideoFilters.yearOf(video) === null).length;
+  if (missingYears) options.push(['unknown', `Anno da recuperare (${missingYears})`]);
+  select.replaceChildren(...options.map(([value, label]) => { const option = node('option', '', label); option.value = value; return option; }));
+}
 function filterVideos() {
-  const normalize = s => s.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  const query = normalize($('search').value.trim());
-  const selected = $('filter').value;
-  state.perPage = selected === 'sheets' ? 12 : 9;
+  const query = $('search').value.trim();
+  const year = $('video-year')?.value || 'all';
+  const long = $('filter').value === 'long';
+  state.perPage = 9;
   const details = new Map(state.cards.map(card => [card.video_id, [card.title, ...card.topics, ...card.books.map(book => `${book.title} ${book.author}`)].join(' ')]));
-  state.filtered = state.videos.filter(video => normalize(`${video.title} ${details.get(video.id) || ''}`).includes(query) &&
-    (selected !== 'long' || video.duration > 1200) &&
-    (selected !== 'saved' || video.audio_saved) &&
-    (selected !== 'sheets' || state.cards.some(card => card.video_id === video.id)));
+  state.filtered = state.videos.filter(video => VideoFilters.matches(video, {query, year, long}, details.get(video.id) || ''));
   state.page = 0;
   renderVideos();
 }
@@ -532,6 +565,7 @@ function filterBooks(reset = true, focusId = null) {
 }
 on('search', 'input', filterVideos);
 on('filter', 'change', filterVideos);
+on('video-year', 'change', filterVideos);
 on('book-search', 'input', () => filterBooks());
 on('book-filter', 'change', () => filterBooks());
 on('book-sort', 'change', () => filterBooks());
@@ -551,7 +585,7 @@ async function loadData(path) {
     if (!(path in data)) throw new Error(`Dati mancanti: ${path}`);
     return data[path];
   }
-  const response = await fetch(rootPath + path);
+  const response = await fetch(rootPath + path, {cache: 'no-cache'});
   if (!response.ok) throw new Error(`Impossibile caricare ${path}`);
   return response.json();
 }
@@ -596,7 +630,11 @@ async function start() {
   if (page === 'video') {
     if (data['catalogo.json']) {
       $('search').value = new URLSearchParams(window.location.search).get('q') || '';
-      if (new URLSearchParams(window.location.search).get('schede') === '1') $('filter').value = 'sheets';
+      populateVideoYears();
+      const params = new URLSearchParams(window.location.search);
+      const year = params.get('anno');
+      if (year && [...$('video-year').options].some(option => option.value === year)) $('video-year').value = year;
+      if (params.get('durata') === 'long') $('filter').value = 'long';
       filterVideos();
     } else $('results').textContent = 'Catalogo momentaneamente non disponibile. Ricarica la pagina.';
   }
