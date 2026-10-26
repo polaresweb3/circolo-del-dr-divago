@@ -431,7 +431,8 @@ function populateVideoYears() {
   const select = $('video-year');
   if (!select) return;
   const options = [['all', 'Tutti gli anni'], ...VideoFilters.years(state.videos).map(year => [String(year), String(year)])];
-  if (state.videos.some(video => VideoFilters.yearOf(video) === null)) options.push(['unknown', 'Anno non disponibile']);
+  const missingYears = state.videos.filter(video => VideoFilters.yearOf(video) === null).length;
+  if (missingYears) options.push(['unknown', `Anno da recuperare (${missingYears})`]);
   select.replaceChildren(...options.map(([value, label]) => { const option = node('option', '', label); option.value = value; return option; }));
 }
 function filterVideos() {
