@@ -281,13 +281,22 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .book-subtitle { font: italic 1.0625rem/1.6 var(--serif); color: var(--green); margin-bottom: .625rem; }
 .book-author { font-size: .875rem; color: var(--green); margin-bottom: .5rem; }
 .book-source { max-width: 45rem; font-size: .8125rem; line-height: 1.9; color: var(--muted); }
-.book-links { display: flex; flex-direction: column; align-items: flex-start; gap: .5rem; }
-.book-links .text-link { overflow-wrap: anywhere; }
+.book-links { display: flex; flex-direction: column; align-items: flex-start; gap: 1.5rem; min-width: 0; }
+.book-links a { overflow-wrap: anywhere; }
+.book-link-group { width: 100%; min-width: 0; }
+.book-links-heading { margin: 0 0 .625rem; color: var(--muted); font: 650 .6875rem/1.6 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
 .book-mentions-count { margin-top: .75rem; font: .75rem/1.6 var(--sans); color: var(--green); }
 .book-work-type { margin-top: .625rem; font: .75rem/1.6 var(--sans); color: var(--muted); }
 .book-mention { display: flex; flex-direction: column; align-items: flex-start; gap: .375rem; width: 100%; padding-block: .5rem .75rem; border-bottom: 1px solid var(--rule); }
-.book-video-title { font-size: .8125rem; line-height: 1.65; }
-.bibliographic-link { font-size: .75rem; color: var(--muted); }
+.book-links .book-video-title { border: 0; padding: .25rem 0; font-size: .8125rem; line-height: 1.65; color: var(--ink); }
+.book-links .book-video-title:hover { text-decoration: underline; text-underline-offset: .2em; }
+.book-youtube-link { display: inline-flex; align-items: center; gap: .5rem; max-width: 100%; min-height: 2.75rem; padding: .625rem .75rem; border: 1px solid #793e38; border-radius: 2px; background: #793e38; color: #fffdf8; font: 600 .75rem/1.6 var(--sans); }
+.book-youtube-link:hover { background: #5f2f2a; border-color: #5f2f2a; }
+.book-link-icon { flex-shrink: 0; font-size: .6875rem; }
+.book-bibliographic-sources { display: flex; flex-direction: column; align-items: stretch; gap: .5rem; }
+.book-bibliographic-sources .book-links-heading { margin-bottom: .125rem; }
+.bibliographic-link { display: block; min-height: 2.75rem; padding: .625rem .75rem; border: 1px solid var(--control-border); border-radius: 2px; background: var(--surface); color: var(--green); font: .75rem/1.6 var(--sans); }
+.bibliographic-link:hover { background: var(--sage); border-color: var(--green); text-decoration: underline; text-underline-offset: .2em; }
 .book-cover-large { display: block; width: auto; height: auto; max-width: 100%; max-height: 62vh; object-fit: contain; margin: 1.5rem auto; }
 
 /* 07 — Ricerca e trascrizioni */

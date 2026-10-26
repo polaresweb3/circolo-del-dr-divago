@@ -581,23 +581,36 @@ function renderBooks(books) {
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
     row.append(cover, text);
     const links = node('div', 'book-links');
+    const videoLinks = node('div', 'book-link-group');
+    if (book.mentions.length) videoLinks.append(node('h4', 'book-links-heading', 'Video e passaggi'));
     for (const mention of book.mentions) {
       const reference = node('div', 'book-mention');
       const moment = mention.title_seconds ?? mention.seconds;
       const qualifier = mention.verification === 'identificazione_probabile' ? ' · probabile' : '';
-      const link = sourceLink(mention.video_id, Number.isFinite(moment) ? `Passaggio ${duration(moment)}${qualifier} ↗` : 'Vedi il video di origine ↗', moment);
+      const link = sourceLink(mention.video_id, '', moment);
+      link.className = 'book-youtube-link';
+      const play = node('span', 'book-link-icon', '▶');
+      play.setAttribute('aria-hidden', 'true');
+      link.append(play, node('span', '', Number.isFinite(moment) ? `YouTube · ${duration(moment)}${qualifier} ↗` : `Guarda su YouTube${qualifier} ↗`));
+      link.setAttribute('aria-label', `Guarda su YouTube: ${mention.video_title || book.title}${Number.isFinite(moment) ? `, passaggio ${duration(moment)}` : ''}${qualifier} (nuova scheda)`);
       if (mention.note) link.title = ReadableTimings.format(mention.note);
       const context = node('a', 'text-link book-video-title', mention.video_title || 'Video e scheda →');
       context.href = videoPageUrl({id: mention.video_id});
       reference.append(context, link);
-      links.append(reference);
+      videoLinks.append(reference);
     }
+    if (book.mentions.length) links.append(videoLinks);
+    const sourceLinks = node('div', 'book-link-group book-bibliographic-sources');
     for (const reference of book.references || []) {
       const url = new URL(reference.url);
       if (url.protocol !== 'https:') continue;
-      const link = node('a', 'text-link bibliographic-link', `${reference.label} ↗`);
+      const link = node('a', 'bibliographic-link', `${reference.label} ↗`);
       link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer';
-      links.append(link);
+      sourceLinks.append(link);
+    }
+    if (sourceLinks.childElementCount) {
+      sourceLinks.prepend(node('h4', 'book-links-heading', 'Editore e fonti'));
+      links.append(sourceLinks);
     }
     row.append(links);
     return row;
