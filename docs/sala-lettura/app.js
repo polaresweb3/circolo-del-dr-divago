@@ -558,7 +558,7 @@ async function loadData(path) {
 function renderHome() {
   $('total-count').textContent = state.videos.length.toLocaleString('it-IT');
   $('hours-count').textContent = Math.round(state.videos.reduce((sum, video) => sum + (video.duration || 0), 0) / 3600).toLocaleString('it-IT');
-  $('curated-count').textContent = state.cards.length;
+  $('library-count').textContent = state.books.length.toLocaleString('it-IT');
   const starterIds = ['Qr7vi4Mgd_0', 'rtmt9_Mzdkw', 'WzF2KJ1swVE'];
   const starters = starterIds.map(id => state.videos.find(video => video.id === id)).filter(Boolean);
   $('home-videos').replaceChildren(...(starters.length ? starters : state.videos.slice(0, 3)).map(videoCard));

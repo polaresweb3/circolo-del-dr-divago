@@ -139,7 +139,7 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .hero-caption p { font: italic 1.6rem/1.35 var(--serif); max-width: 14rem; color: var(--green); }
 .hero-caption > span { max-width: 9rem; font-size: .6875rem; line-height: 1.8; letter-spacing: .06em; color: var(--muted); }
 .stats-band { border-block: 1px solid var(--rule); background: #efeee5; }
-.stats { display: grid; grid-template-columns: repeat(3, 1fr) 1.1fr; gap: 2rem; align-items: center; padding-block: 1.75rem; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; align-items: center; padding-block: 1.75rem; }
 .stats > div { display: flex; align-items: center; gap: 1rem; min-width: 0; }
 .stats strong { font: 2.75rem/1 var(--serif); letter-spacing: -.045em; font-variant-numeric: lining-nums tabular-nums; }
 .stats span { max-width: 7rem; font-size: .8125rem; line-height: 1.6; color: var(--muted); }

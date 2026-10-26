@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 PAGES = {
-    "home": ("index.html", "Home", "Le idee del passato per comprendere il presente", ["catalogo.json", "libri.json", "schede.json"]),
+    "home": ("index.html", "Home", "Le idee del passato per comprendere il presente e immaginare il futuro", ["catalogo.json", "libri.json", "schede.json"]),
     "video": ("video.html", "Video", "L’archivio delle divagazioni", ["catalogo.json", "schede.json"]),
     "biblioteca": ("biblioteca.html", "Biblioteca", "La biblioteca citata", ["libri.json", "schede.json"]),
     "eventi": ("eventi.html", "Eventi", "Gli incontri del Circolo", []),
@@ -54,7 +54,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
 <body id="inizio" data-page="{current}" data-root="{prefix}" data-featured-books="{html.escape(','.join(featured), quote=True)}">
   <a class="skip" href="#contenuto">Vai al contenuto</a>
   <header class="header wrap">
-    <a class="wordmark" href="{prefix}index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE</span></a>
+    <a class="wordmark" href="{prefix}index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE E IMMAGINARE IL FUTURO</span></a>
     <nav aria-label="Navigazione principale">{nav}</nav>
   </header>
   {breadcrumb}
@@ -265,6 +265,7 @@ def _build_site(root, pages=None):
     for key, (filename, _, title, datasets) in all_pages.items():
         main = (templates / (key + ".html")).read_text(encoding="utf-8")
         main = main.replace("{{completed_count}}", str(len(cards)))
+        main = main.replace("{{books_count}}", f"{len(bibliography):,}".replace(",", "."))
         if key == "completate":
             main = main.replace("{{completed_grid}}", completed_cards(cards, bibliography))
             main = main.replace("{{completed_books}}", str(len({m["book_id"] for c in cards for m in c["books"]})))
