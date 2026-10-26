@@ -585,7 +585,7 @@ async function loadData(path) {
     if (!(path in data)) throw new Error(`Dati mancanti: ${path}`);
     return data[path];
   }
-  const response = await fetch(rootPath + path);
+  const response = await fetch(rootPath + path, {cache: 'no-cache'});
   if (!response.ok) throw new Error(`Impossibile caricare ${path}`);
   return response.json();
 }
