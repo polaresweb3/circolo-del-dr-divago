@@ -221203,6 +221203,21 @@
         "verified": false,
         "human_audio_review": false,
         "role": "riferimento"
+      },
+      {
+        "book_id": "loi-separation-eglises-etat-1905",
+        "seconds": 4206.74,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 548–553: legge del 1905 e separazione fra Stato e Chiesa esplicite; titolo completo e giorno 9 dicembre riscontrati nel documento istituzionale. Il relatore la riferisce tramite Charb, senza lettura integrale dell’atto e con sovrapposizione al regime locale alsaziano.",
+        "note": "Il relatore richiama una legge del 1905 sulla separazione fra Stato e Chiesa, discutendola attraverso il libro di Charb e associandola all’Alsazia-Lorena. Il riferimento è alla legge francese del 9 dicembre 1905, non a una legge di separazione speciale per quei territori. La prima pagina originale mostra i principi degli articoli 1–2: libertà di coscienza e libero esercizio dei culti, insieme alla separazione economica e istituzionale. L’Alsazia-Mosella va distinta: le Archives nationales ricordano che la legge non vi fu applicata e il regime locale dei culti seguì una storia diversa. Il richiamo a cattolici, protestanti e giudaismo non autorizza a descrivere il testo del 1905 come legge che riconosce soltanto quelle religioni. Questa è identificazione storica del documento, senza certificazione del diritto francese oggi vigente o dei successivi emendamenti. L’opinione del relatore sulla presenza dell’islam in Europa resta attribuita a lui e non è provata dal solo testo legislativo.",
+        "title": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État",
+        "author": "République française"
       }
     ],
     "source_coverage": {
@@ -221225,7 +221240,8 @@
       "Il paragone termico del relatore non trasferisce automaticamente l’univocità di un modello fisico alle valutazioni storico-politiche. Diagnosi come follia, psicopatia o delirio rivolte agli avversari non sono adottate come valutazioni cliniche.",
       "Il richiamo ai farmaci sperimentali è terminologia polemica del relatore: i vaccini COVID-19 ebbero autorizzazioni regolatorie, sia pure inizialmente condizionate, e sorveglianza. Non se ne ricavano consigli sanitari individuali o una valutazione automatica di tutti i provvedimenti politici.",
       "Le frasi attribuite a Orwell e Stalin non sono abbinate a opere senza riscontro. L’aneddoto su Roy Cohn non è provato dalla sua compatibilità con un giudizio morale. L’episodio di Galileo è mantenuto come aneddoto, come già dichiarato dal relatore.",
-      "Titolo della guida Spencer, precisa edizione Inspire, fonte del racconto Cohn e opera di Schweitzer non sono identificati univocamente. La legge 1905 è un testo reale esplicitamente evocato ma resta fuori dalle nuove voci per immagine originale ancora da acquisire. Nessun contenuto inventato per colmare questi casi."
+      "Titolo della guida Spencer, precisa edizione Inspire, fonte del racconto Cohn e opera di Schweitzer non sono identificati univocamente. La legge 1905 è un testo reale esplicitamente evocato ma resta fuori dalle nuove voci per immagine originale ancora da acquisire. Nessun contenuto inventato per colmare questi casi.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore richiama una legge del 1905 sulla separazione fra Stato e Chiesa, discutendola attraverso il libro di Charb e associandola all’Alsazia-Lorena. Il riferimento è alla legge francese del 9 dicembre 1905, non a una legge di separazione speciale per quei territori. La prima pagina originale mostra i principi degli articoli 1–2: libertà di coscienza e libero esercizio dei culti, insieme alla separazione economica e istituzionale. L’Alsazia-Mosella va distinta: le Archives nationales ricordano che la legge non vi fu applicata e il regime locale dei culti seguì una storia diversa. Il richiamo a cattolici, protestanti e giudaismo non autorizza a descrivere il testo del 1905 come legge che riconosce soltanto quelle religioni. Questa è identificazione storica del documento, senza certificazione del diritto francese oggi vigente o dei successivi emendamenti. L’opinione del relatore sulla presenza dell’islam in Europa resta attribuita a lui e non è provata dal solo testo legislativo."
     ],
     "contextual_verification_sources": [
       {
@@ -223338,6 +223354,36 @@
         "human_audio_review": false,
         "note": "Titolo esplicito nel richiamo morale ai morti. Numero e traduzione del dialogo non identificati.",
         "role": "riferimento"
+      },
+      {
+        "book_id": "churchill-war-situation-1940-08-20",
+        "title": "War Situation (intervento alla Camera dei Comuni, 20 agosto 1940)",
+        "author": "Winston Churchill",
+        "video_id": "Bf7at324tkc",
+        "seconds": 5138.95,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          677,
+          678,
+          679,
+          680,
+          681,
+          682,
+          683,
+          684,
+          685,
+          686,
+          687,
+          688,
+          689,
+          690
+        ],
+        "evidence": "A5138.95s il relatore nomina Winston Churchill; a5148.6–5165.63s parafrasa una massima riferita alla battaglia d’Inghilterra. Il passaggio è introdotto come ripresa del testo di Huxley e prosegue con una diversa formulazione sul controllo di molti da parte di pochi.",
+        "note": "Riferimento mediato da Science, Liberty and Peace, non prova di consultazione diretta del resoconto Hansard. Origine collazionata al20 agosto 1940, col. 1167;1947 è l’anno dell’edizione Huxley discussa, non del discorso Churchill. La parafrasi italiana del relatore non è una trascrizione letterale certificata."
       }
     ],
     "source_coverage": {
@@ -223361,7 +223407,8 @@
       "Contesto costituzionale: articoli 16 e 32 prevedono rispettivamente limiti legislativi generali per sanità/sicurezza e tutela della salute individuale e collettiva. Ciò non decide automaticamente la legittimità di ciascun provvedimento emergenziale e non equivale a una sospensione totale del testo costituzionale.",
       "Correzioni storiche: Ermak e il khanato di Sibir appartengono al 1581–1582, non alla conquista attribuita a Pietro il Grande. Le infrastrutture incaiche erano realizzate senza utensili di ferro/acciaio; le differenze tecniche non dimostrano gerarchie biologiche o cause uniche delle conquiste. Ruhr e iperinflazione sono del 1923 e vanno distinte dal 1929.",
       "Nel confronto con il fascismo, singoli salvataggi non annullano l’attività degli apparati italiani negli arresti antiebraici; preservati i riscontri archivistici sull’ordinanza RSI n.5 del 30 novembre 1943. Nessuna diagnosi psicologica su forze dell’ordine, religioni o popolazioni.",
-      "Immagini autentiche scaricate, viste integralmente e verificate con Pillow e SHA-256. Huxley: sovraccoperta inglese 1947, non volume italiano; Sue: miniatura bibliotecaria autentica dell’edizione Bouquins, bassa risoluzione dichiarata; Defoe: copertina ufficiale Modern Library 2001, non edizione confermata nel video."
+      "Immagini autentiche scaricate, viste integralmente e verificate con Pillow e SHA-256. Huxley: sovraccoperta inglese 1947, non volume italiano; Sue: miniatura bibliotecaria autentica dell’edizione Bouquins, bassa risoluzione dichiarata; Defoe: copertina ufficiale Modern Library 2001, non edizione confermata nel video.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il richiamo a Churchill passa attraverso Huxley ed è una parafrasi, non una lettura diretta del verbale. La massima sull’obbligo dei molti verso i pochi è nel discorso del20 agosto 1940, Hansard vol. 364, col. 1167, nel contesto degli aviatori britannici. 1947 è l’anno dell’edizione Huxley discussa, non del discorso. L’immagine è un estratto documentario della riproduzione ufficiale Hansard con il primo paragrafo completo; la massima stessa compare più avanti. [Resoconto storicoHansard](https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation)."
     ],
     "verified": false
   },
@@ -226506,6 +226553,25 @@
         "note": "Libro Laterza 1985 di Bedeschi, titolo ricostruito dal catalogo; discusso il limite al 1950. Copertina spagnola 2024 della stessa opera dichiarata."
       },
       {
+        "book_id": "statuto-lavoratori-legge-300-1970",
+        "seconds": 1123.16,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "name_spoken": "Statuto dei lavoratori",
+        "year_spoken": 1970,
+        "full_official_title_spoken": false,
+        "act_day_month_number_spoken": false,
+        "evidence": "Segmento 146, 1123.16–1135.58 s: Statuto dei lavoratori e 1970 espliciti. Giorno 20 maggio, numero 300 e titolo ufficiale completo sono dati della Gazzetta, non citazione verbale.",
+        "note": "Conversa nomina lo Statuto dei lavoratori e l’anno 1970 mentre ricorda il proprio studio su un testo di Gino Giugni. Il manuale rimane un riferimento bibliografico distinto e senza titolo univoco. Il giorno 20 maggio, il numero 300 e il titolo ufficiale completo sono riscontrati nella fonte normativa esterna: non sono parole pronunciate nel passo. Si tratta della legge Norme sulla tutela della libertà e dignità dei lavoratori, della libertà sindacale e dell’attività sindacale, nei luoghi di lavoro e norme sul collocamento, pubblicata nella Gazzetta Ufficiale 131 del 27 maggio 1970. L’immagine riproduce una porzione della pagina 3404 nella stampa originaria, non un commentario o una versione consolidata odierna. La valutazione di Conversa sul ruolo emancipatore della sinistra e sulla successiva trasformazione politica resta sua interpretazione. Non si assume Giugni come autore formale unico della legge e non si certifica qui il diritto oggi vigente né l’efficacia attuale dei singoli articoli.",
+        "title": "Statuto dei lavoratori (legge 20 maggio 1970, n. 300)",
+        "author": "Repubblica italiana",
+        "title_seconds": null
+      },
+      {
         "book_id": "burnt-norton-eliot",
         "title": "Burnt Norton (Four Quartets, I)",
         "author": "T. S. Eliot",
@@ -226722,7 +226788,8 @@
       "Vaccini autorizzati, studi clinici e sorveglianza distinti dalla qualifica polemica sperimentale; confronti immunitari contestualizzati e nessun consiglio clinico individuale.",
       "Dati elettorali, industriali e finanziari del parlato non ripubblicati come valori attuali verificati. La fotografia con un soggetto indagato non prova responsabilità di terzi.",
       "Un solo ID riusato per il libro di Conversa; il doppione canonico già esistente del saggio di Bobbio è segnalato al coordinatore, senza modificare i dati centrali.",
-      "Copertina ufficiale spagnola Bedeschi dichiarata traduzione della stessa opera; segnaposto italiano respinto. Periodico illustrato da foto parziale museale, Violante da pagina interna 37 dichiarata."
+      "Copertina ufficiale spagnola Bedeschi dichiarata traduzione della stessa opera; segnaposto italiano respinto. Periodico illustrato da foto parziale museale, Violante da pagina interna 37 dichiarata.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Conversa nomina lo Statuto dei lavoratori e l’anno 1970 mentre ricorda il proprio studio su un testo di Gino Giugni. Il manuale rimane un riferimento bibliografico distinto e senza titolo univoco. Il giorno 20 maggio, il numero 300 e il titolo ufficiale completo sono riscontrati nella fonte normativa esterna: non sono parole pronunciate nel passo. Si tratta della legge Norme sulla tutela della libertà e dignità dei lavoratori, della libertà sindacale e dell’attività sindacale, nei luoghi di lavoro e norme sul collocamento, pubblicata nella Gazzetta Ufficiale 131 del 27 maggio 1970. L’immagine riproduce una porzione della pagina 3404 nella stampa originaria, non un commentario o una versione consolidata odierna. La valutazione di Conversa sul ruolo emancipatore della sinistra e sulla successiva trasformazione politica resta sua interpretazione. Non si assume Giugni come autore formale unico della legge e non si certifica qui il diritto oggi vigente né l’efficacia attuale dei singoli articoli."
     ],
     "verified": false
   },
@@ -227333,6 +227400,31 @@
         "role": "riferimento"
       },
       {
+        "book_id": "trattato-sevres-1920",
+        "title": "Trattato di Sèvres (Treaty of Peace with Turkey)",
+        "author": "Potenze alleate e associate; Impero ottomano",
+        "video_id": "GYtCwCBZT5k",
+        "seconds": 4574.09,
+        "title_seconds": 4574.09,
+        "spoken_title": "trattati di Sevre (forma ASR)",
+        "confidence": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          766,
+          767,
+          768,
+          769,
+          770,
+          771,
+          772,
+          773
+        ],
+        "evidence": "A 4574.09–4581.77 s la trascrizione automatica riporta «nei trattati di Sevre»; segue un commento sui territori greci e sui mandati francesi e britannici. Il nome breve è pronunciato, ma data e intestazione ufficiale estesa sono riscontri bibliografici esterni.",
+        "note": "Firma a Sèvres il10 agosto 1920 distinta dall’entrata in vigore, che non ebbe luogo. Distinguere il successivo Trattato di Losanna, firmato il24 luglio 1923 ed entrato in vigore il6 agosto 1924. La rappresentazione dei confini nel dialogo resta interpretazione storica degli interlocutori, non prova di un assetto effettivamente vigente o di diritti territoriali attuali. Nessuna revisione umana del sonoro."
+      },
+      {
         "book_id": "illuminismo-kant",
         "title": "Risposta alla domanda: che cos’è l’Illuminismo?",
         "author": "Immanuel Kant",
@@ -227371,7 +227463,8 @@
       "Pugilato e genere: persone non nominate nel riferimento, nessuna identità sessuale, diagnosi o transizione inferita. Il comunicato IOC/PBU sul torneo Parigi 2024 parla di due atlete e ne conferma l’idoneità secondo le regole applicate. Non confusi sesso, identità di genere e criteri sportivi. Fonte: https://www.olympics.com/ioc/news/joint-paris-2024-boxing-unit-ioc-statement",
       "New Orleans: l’FBI dichiarò apertamente il recupero della bandiera ISIS e il sostegno dichiarato dall’aggressore al gruppo. Rimozione e acquisizione di una prova non dimostrano occultamento intenzionale. Le somiglianze nell’abbigliamento di aggressori diversi non ne provano la motivazione; nessun hadith attribuito a una raccolta senza testo identificato. Fonte primaria: https://www.fbi.gov/news/speeches-and-testimony/investigative-updates-on-the-new-orleans-bourbon-street-attack",
       "Insulti, metafore psichiatriche, razzismo genetico evocato scherzosamente, superiorità culturali e accuse collettive non adottati come descrizioni. La fede e la serenità riferite dall’ospite non sono terapia né spiegazione clinica della demenza; assenza di fede, dissenso, balbuzie o opinioni politiche non sono diagnosi. La critica ai media non giustifica aggressioni, e una manifestazione pacifica non è equiparata al sostegno di violenza o terrorismo.",
-      "Kant: il richiamo finale all’uso del proprio intelletto è collegamento probabile al saggio Illuminismo 1784. Il detto sull’imparare con il dolore e quello finale attribuito a Tommaso restano senza fonte testuale univoca; non agganciati automaticamente a un’opera. Grazie Islam! è citazione esplicita con critica indiretta: non attribuita all’ospite una lettura che dichiara di non aver fatto."
+      "Kant: il richiamo finale all’uso del proprio intelletto è collegamento probabile al saggio Illuminismo 1784. Il detto sull’imparare con il dolore e quello finale attribuito a Tommaso restano senza fonte testuale univoca; non agganciati automaticamente a un’opera. Grazie Islam! è citazione esplicita con critica indiretta: non attribuita all’ospite una lettura che dichiara di non aver fatto.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il nome del trattato è esplicito nel parlato. Il testo di Sèvres fu firmato il10 agosto 1920, ma non entrò in vigore. È distinto dalla pace di Losanna, firmata il24 luglio 1923 ed entrata in vigore il6 agosto 1924. L’immagine riproduce il frontespizio della pubblicazione ufficiale HMSO 1920, non uno studio successivo o un manoscritto firmato. Le valutazioni territoriali del dialogo restano attribuite e non descrivono automaticamente confini effettivamente entrati in vigore o diritti attuali. [Facsimile ufficiale FCDO](https://treaties.fcdo.gov.uk/data/Library2/pdf/1920-TS0011.pdf) · [Cronologia istituzionale State](https://history.state.gov/historicaldocuments/frus1919Parisv13/ch1)."
     ],
     "verified": false
   },
@@ -227780,6 +227873,22 @@
         "role": "riferimento"
       },
       {
+        "book_id": "geschichte-altertums-meyer",
+        "title": "Geschichte des Altertums",
+        "author": "Eduard Meyer",
+        "seconds": 3773.46,
+        "end_seconds": 3778.84,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "evidence": "Segmenti 549–551: Meyer nominato nella forma ASR deformata, storico/egittologo; Storia dell’antichità esplicita in italiano, descritta come monumentale e in quattro volumi. Identità bibliografica riscontrata sul frontespizio 1884 e nei metadati della biblioteca.",
+        "note": "Opera complessiva distinta dal trattato mormonico nominato immediatamente dopo. Frontespizio illustrativo del vol. I 1884, non copia del relatore; edizione precisa, numero e articolazione dei suoi volumi restano non determinati. Nessuna pagina o data dell’esemplare trasferita dal volume digitalizzato.",
+        "human_audio_review": false,
+        "verified": false,
+        "title_seconds": null,
+        "spoken_title": "Storia dell’antichità",
+        "title_spoken_in_translation": true
+      },
+      {
         "book_id": "ursprung-geschichte-mormonen-meyer",
         "title": "Ursprung und Geschichte der Mormonen. Mit Exkursen über die Anfänge des Islâms und des Christentums",
         "author": "Eduard Meyer",
@@ -227972,6 +228081,20 @@
         "role": "riferimento"
       },
       {
+        "book_id": "all-about-mormons-south-park",
+        "title": "All About Mormons",
+        "author": "Trey Parker",
+        "seconds": 6624.75,
+        "end_seconds": 6648.08,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "evidence": "Segmenti 1027–1030: South Park esplicito, episodio non titolato, coro Dum Dum Dum Dum Dum descritto. La specifica scheda ufficiale collega quella canzone ad All About Mormons, S7E12,19novembre2003.",
+        "note": "Episodio satirico identificato probabilmente, non registrazione documentaria o dimostrazione storica del mormonismo. Il contenuto e gli epiteti del relatore non autorizzano generalizzazioni sull’intelligenza,moralità o salute mentale dei fedeli. Distinto dal musical The Book of Mormon nominato subito dopo. Immagine: still promozionale specifico presso Apple TV, non copertina generica della serie.",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
         "book_id": "book-mormon-musical",
         "title": "The Book of Mormon (musical)",
         "author": "Trey Parker, Robert Lopez e Matt Stone",
@@ -228044,7 +228167,9 @@
       "La poligamia storica è distinta dal Manifesto 1890 e dalle tesi religiose sull’aldilà; non si assegna ogni pratica di gruppi diversi alla medesima Chiesa. Le interpretazioni sulla natura biblica o eretica dei riti rimangono attribuite.",
       "I riferimenti a mascherine e pandemia sono analogie politiche del relatore: una dicitura d’uso non dimostra da sola l’inefficacia di ogni protezione. Nessun consiglio sanitario individuale o giudizio clinico viene prodotto.",
       "Libro di Mormon, musical, film God Makers, libro omonimo, primi film e seguiti restano opere distinte. I tre dialoghi di Anselmo condividono l’immagine dichiarata della raccolta che effettivamente li contiene. Parti bibliche e Libro di Abramo non sono trasformati in edizioni autonome inventate.",
-      "Riferimenti non univoci o immagini indisponibili restano nei pending. Non si attribuiscono a opere precise le frasi di Voltaire, Goebbels, Kierkegaard e Agostino senza un luogo testuale verificato; la stessa cautela vale per citazioni scientifiche e documentari senza titolo."
+      "Riferimenti non univoci o immagini indisponibili restano nei pending. Non si attribuiscono a opere precise le frasi di Voltaire, Goebbels, Kierkegaard e Agostino senza un luogo testuale verificato; la stessa cautela vale per citazioni scientifiche e documentari senza titolo.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore invita a vedere un episodio di South Park e ne descrive il coro Dum Dum Dum Dum Dum legato al racconto di Joseph Smith. La specifica scheda ufficiale collazionata individua All About Mormons, S7E12. Titolo dell’episodio non pronunciato, identificazione probabile; il musical The Book of Mormon citato subito dopo è distinto. Satira e giudizi del relatore non sono prove storiche o giudizi sulle persone appartenenti alla confessione.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: A 3773.46 s il relatore nomina in italiano la Storia dell’antichità di Eduard Meyer, poco prima del suo distinto trattato sui mormoni. La voce riguarda l’opera complessiva e non un solo tomo o la monografia Ursprung und Geschichte der Mormonen già censita. Il riferimento orale a quattro volumi non identifica edizione e consistenza della copia: tale punto rimane aperto. Nessuna lettura integrale dell’opera storica o delle pagine della copia è dichiarata."
     ],
     "contextual_verification_sources": [
       {
@@ -230928,6 +231053,29 @@
     ],
     "books": [
       {
+        "book_id": "delibera-stato-emergenza-2020-01-31",
+        "title": "Delibera del Consiglio dei ministri del 31 gennaio 2020: Dichiarazione dello stato di emergenza in conseguenza del rischio sanitario connesso all’insorgenza di patologie derivanti da agenti virali trasmissibili",
+        "author": "Consiglio dei ministri della Repubblica Italiana",
+        "video_id": "VpMs3v_uVdY",
+        "seconds": 255.78,
+        "title_seconds": null,
+        "date_seconds": 255.78,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "evidence": "A 255.78–266.7 s la fonte nomina il 31 gennaio 2020 e a 266.7–272.92 s lo definisce data della delibera del governo. Non pronuncia il titolo ufficiale o il codice dell’atto. L’identificazione del preciso provvedimento resta una collazione dagli estremi e dal contesto.",
+        "note": "Data dell’atto 31 gennaio 2020 distinta dalla pubblicazione 1 febbraio 2020(GU 26, codice 20A00737). Il testo dichiara lo stato di emergenza nel quadro del Codice della protezione civile, con rispetto dei principi generali dell’ordinamento. Non dispone la cessazione della Repubblica. Giudizi del relatore su illegittimità e analogie totalitarie restano attribuiti; non si ricavano diagnosi o conclusioni sanitarie dal suo lessico polemico."
+      },
+      {
         "book_id": "historical-fate-bourgeois-democracy-marcuse",
         "title": "The Historical Fate of Bourgeois Democracy",
         "author": "Herbert Marcuse",
@@ -231053,7 +231201,8 @@
       "Compensi per conferenze: la definizione di tangenti è un’accusa del relatore. Non sono forniti atti giudiziari o elementi sufficienti per concludere che ciascun compenso menzionato costituisca corruzione. Le cifre riferite non sono trattate come verificate; insulti verso ministri, partiti ed elettori non diventano etichette descrittive.",
       "Il contributo Fromm è probabilmente il Sozialpsychologischer Teil degli Studien über Autorität und Familie, 1936, pp. 77–135. La raccolta originaria comprende anche scritti di Horkheimer e Marcuse e altri contributi di Fromm: non attribuita tutta al solo Fromm. La copertina usata rappresenta la raccolta digitale Analytische Sozialpsychologie 2016, il cui indice include il saggio; nessun secondo record del contenitore. Fonti: https://fromm-online.org/wp-content/uploads/Bestandslisten/f-Fromm-Titel_language-web.pdf ; https://books.openpublishing.com/document/313955",
       "Conclusione collazionata con il facsimile, p. 185: Marcuse sostiene che è improbabile il ripetersi di una congiuntura di guerra globale capace di sconfiggere dall’esterno un fascismo stabilito nei paesi capitalistici più avanzati. Non afferma che il fascismo sia impossibile e non nega in generale il ruolo della resistenza interna. Le esitazioni del relatore negli ultimi segmenti non vengono trasformate in citazione letterale contraddittoria. Fonte: https://platypus1917.org/wp-content/uploads/readings/marcuse_fatebourgeoisdemocracy.pdf",
-      "Categorie di carattere, identificazione e sottomissione appartengono al lessico teorico discusso; non diagnosticano cittadini, dissenzienti o gruppi sociali. L’osservazione sulla bipolarità della violenza non rende le vittime responsabili degli abusi. Non assegnato un titolo di Alice Miller dal solo tema, né un libro di Rousseau dal richiamo alla volontà generale."
+      "Categorie di carattere, identificazione e sottomissione appartengono al lessico teorico discusso; non diagnosticano cittadini, dissenzienti o gruppi sociali. L’osservazione sulla bipolarità della violenza non rende le vittime responsabili degli abusi. Non assegnato un titolo di Alice Miller dal solo tema, né un libro di Rousseau dal richiamo alla volontà generale.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: La data 31 gennaio 2020 richiamata dal relatore corrisponde alla delibera del Consiglio dei ministri pubblicata il 1 febbraio 2020 in GU 26, codice 20A00737. Il testo dichiara lo stato di emergenza sanitaria per un periodo iniziale di 6 mesi ai sensi del Codice della protezione civile; non dispone la cessazione della Repubblica. L’immagine è un estratto autentico dell’intestazione e del primo richiamo normativo a pagina 7; l’atto prosegue a pagina 8. I giudizi politici del commento rimangono attribuiti. [Atto ufficiale GU](https://www.gazzettaufficiale.it/eli/id/2020/02/01/20A00737/sg) · [Testo istituzionaleProtezione Civile](https://www.protezionecivile.gov.it/it/normativa/delibera-del-consiglio-dei-ministri-del-31-gennaio-2020-dichiarazione-dello-stato-di-emergenza-conseguenza-del-rischio-sanitario-connesso/)."
     ],
     "verified": false
   },
@@ -232339,6 +232488,24 @@
         "confidence": "riscontro_audio_automatico"
       },
       {
+        "book_id": "sentenza-prager-google-2020",
+        "seconds": 2947.24,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 409–420: Prager University, causa contro YouTube, Nono circuito e 2020 nominati; discusso il requisito della natura pubblica/statale della piattaforma. Il caso viene riferito attraverso un articolo giornalistico; data completa e numero del procedimento non pronunciati.",
+        "full_formal_case_title_spoken": false,
+        "full_date_and_docket_spoken": false,
+        "citation_mediated_by_newspaper": true,
+        "note": "Il relatore discute, tramite un articolo del Los Angeles Times non identificato, la causa di Prager University contro YouTube e una decisione del Nono circuito del 2020. Il fascicolo ufficiale identifica Prager University v. Google LLC e YouTube LLC, No. 18-15712, depositata il 26 febbraio 2020: giorno e docket sono dati esterni. La corte confermò il rigetto della domanda costituzionale perché in questo caso mancava la state action; l’apertura al pubblico non bastava a trasformare YouTube in un attore statale. Il testo non accerta una delega pubblica della censura. Questa è una decisione storica, distinta dalle valutazioni politiche del relatore e dall’intero diritto contemporaneo delle piattaforme.",
+        "title": "Prager University v. Google LLC e YouTube LLC, No. 18-15712",
+        "author": "United States Court of Appeals for the Ninth Circuit; opinion di M. Margaret McKeown",
+        "title_seconds": null
+      },
+      {
         "book_id": "costituzione-stati-uniti",
         "title": "Costituzione degli Stati Uniti d’America",
         "author": "Convenzione costituzionale degli Stati Uniti",
@@ -232444,7 +232611,8 @@
       "Palach: gesto il 16 gennaio 1969, morte il 19 gennaio; nato l’11 agosto 1948, aveva vent’anni. Non confondere data del gesto e data della morte. La retorica eroica appartiene al relatore, non è un invito a emularla.",
       "Spooner: prima parte 1845, seconda 1847; il frontespizio qui acquisito è del 1860. L’argomento abolizionista dell’autore non equivale a una decisione giudiziaria allora vigente. Distinguere obiettivi iniziali dell’Unione, svolta emancipatrice del 1862–1863 e schiavitù come causa della secessione.",
       "Accuse contro persone, ipotesi di interessi occulti, giudizi sugli esperti, sul clero e sui manifestanti sono attribuiti al relatore. Una citazione editoriale o un’analogia storica non provano tali accuse. I nomi deformati dall’ASR sono normalizzati solo dove esiste riscontro.",
-      "Orwell, Longanesi e Samuel Adams sono evocati anche senza un’opera identificata: nessuna voce bibliografica è dedotta automaticamente dalle sole massime. La Repubblica è un’identificazione probabile del passo di Trasimaco; non una lettura esplicita del titolo."
+      "Orwell, Longanesi e Samuel Adams sono evocati anche senza un’opera identificata: nessuna voce bibliografica è dedotta automaticamente dalle sole massime. La Repubblica è un’identificazione probabile del passo di Trasimaco; non una lettura esplicita del titolo.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore discute, tramite un articolo del Los Angeles Times non identificato, la causa di Prager University contro YouTube e una decisione del Nono circuito del 2020. Il fascicolo ufficiale identifica Prager University v. Google LLC e YouTube LLC, No. 18-15712, depositata il 26 febbraio 2020: giorno e docket sono dati esterni. La corte confermò il rigetto della domanda costituzionale perché in questo caso mancava la state action; l’apertura al pubblico non bastava a trasformare YouTube in un attore statale. Il testo non accerta una delega pubblica della censura. Questa è una decisione storica, distinta dalle valutazioni politiche del relatore e dall’intero diritto contemporaneo delle piattaforme."
     ]
   },
   {
@@ -237127,6 +237295,21 @@
     ],
     "books": [
       {
+        "video_id": "UsmaYrQy2IY",
+        "book_id": "chaim-noll-israel-iran-kulturzeit-2025",
+        "title": "Chaim Noll zum Israel-Iran-Konflikt",
+        "author": "Chaim Noll; 3sat / Kulturzeit",
+        "seconds": 102.9,
+        "end_seconds": 126.95,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "evidence": "Segmenti 16–21: intervista a canale tedesco reso automaticamente Sat Free, con Noll e domande sulla situazione in Israele e la resistenza politica al conflitto. Titolo e giorno assenti. La scheda ufficiale 3sat del 17 giugno 2025 identifica un’intervista di Kulturzeit con lo stesso ospite e tema.",
+        "note": "Corrispondenza probabile da testo automatico e scheda editoriale, non collazione del parlato esterno o verifica umana del sonoro. Le valutazioni politiche restano degli interlocutori. La fotografia è illustrazione editoriale associata alla specifica pagina, non fotogramma certificato o prova degli eventi. Articolo di Zurigo e intervista sono riferimenti distinti; nessun libro futuro ricavato dai soli temi.",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
         "book_id": "argent-nazi-presse-dioudonnat",
         "title": "L’argent nazi à la conquête de la presse française",
         "author": "Pierre-Marie Dioudonnat",
@@ -237158,7 +237341,8 @@
       "Opinioni su governi, gruppi armati, religioni, università e democrazia restano attribuite; nessuna colpa collettiva di ebrei, musulmani, arabi o palestinesi. I termini clinici usati polemicamente non sono diagnosi. Critiche alla politica di uno Stato non vengono automaticamente equiparate all’odio contro una popolazione.",
       "Riscontri primari: IMEC fu annunciato al G20 nel settembre 2023; la crisi cubana è del 1962. Le statistiche CBS richiedono categorie demografiche coerenti. Le stime UNEP del giugno 2024 sui detriti di Gaza non misurano esposizioni nel luogo abitato dall’interlocutore. I conteggi del giugno 2025 su missili e droni provengono dal governo israeliano, parte belligerante, e restano dichiarazioni attribuite anziché verifica indipendente della condotta di guerra.",
       "Dioudonnat è l’unico libro sufficientemente identificabile; riusato ID e immagine autentica esistenti. La bibliografia del libro è distinta dal paragone contemporaneo e dalla tesi sui finanziamenti della stampa attuale. Gli altri episodi e gli articoli/interviste senza titolo univoco restano pendenze, senza opere inventate dai nomi.",
-      "Nessuna diagnosi, accusa penale accertata o qualificazione giuridica definitiva degli attuali conflitti dedotta dalla discussione. La condanna di minacce e discriminazioni resta distinta dalla verifica dei singoli episodi narrati."
+      "Nessuna diagnosi, accusa penale accertata o qualificazione giuridica definitiva degli attuali conflitti dedotta dalla discussione. La condanna di minacce e discriminazioni resta distinta dalla verifica dei singoli episodi narrati.",
+      "Aggiornamento bibliografico del26ottobre2026: l’intervista a un canale tedesco ricordata a102,90s è probabilmente Chaim Noll zum Israel-Iran-Konflikt di Kulturzeit/3sat, la cui scheda ufficiale reca17giugno2025. Titolo e data non sono pronunciati; il filmato esterno non è stato collazionato. L’illustrazione è la fotografia editoriale associata specificamente alla pagina, non un fotogramma certificato né una fotografia datata17giugno. L’articolo sul giornale di Zurigo resta un riferimento distinto non identificato. Fonte automatica, senza ascolto umano."
     ],
     "verified": false
   },
@@ -237837,6 +238021,51 @@
         "role": "opera_principale"
       },
       {
+        "book_id": "holding-campus-leaders-accountable-2023-12-05",
+        "title": "Holding Campus Leaders Accountable and Confronting Antisemitism",
+        "author": "U.S. House of Representatives, Committee on Education and the Workforce",
+        "video_id": "WqrpPr3jqCY",
+        "seconds": 203.85,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "evidence": "A 203,85 s la domanda è rivolta a Magill di Penn; seguono la distinzione speech/conduct, la risposta dipendente dal contesto e le domande a Gay di Harvard. Le risposte corrispondono alle pp. 162–163 del verbale ufficiale, PDF 166–167.",
+        "note": "Video composto da estratti con molte voci, non una conferenza attribuibile tutta a Caldarella. Il titolo dell’audizione non viene pronunciato; il rinvio è probabile e verificato per collazione dei passi. Le contestazioni politiche e le risposte dei testimoni non costituiscono da sole prova di un intento favorevole al genocidio o di responsabilità collettive. La successiva sequenza di servizi sulle dimissioni non appartiene a una singola giornata."
+      },
+      {
         "book_id": "definizione-antisemitismo-ihra-2016",
         "title": "Working Definition of Antisemitism",
         "author": "International Holocaust Remembrance Alliance (IHRA)",
@@ -237904,7 +238133,8 @@
       "Il racconto dei Karnofsky e Louis Armstrong riguarda ospitalità, lavoro e aiuto per il primo strumento: non dedotta un’adozione legale. Non identificata una canzone, partitura o autobiografia dai frammenti musicali o dal solo nome. Fonte istituzionale di contesto: https://www.nps.gov/jazz/learn/historyculture/upload/New-Orleans-Jazz-Sites-Then-and-Now.pdf",
       "Classifiche sugli atenei, percentuali demografiche, conteggi di firme e dichiarazioni di sostegno sono attribuiti a chi parla e al momento della ripresa. Un singolo episodio non prova l’identità di intenti di tutti gli iscritti a SJP, BDS o un’associazione musulmana. La mancata conoscenza di altre campagne di boicottaggio da parte di un testimone non prova che non siano mai esistite.",
       "Non attribuite come fatti le accuse di diagnosi errata, contratti manipolati o colpa di professionisti ebrei nei frammenti su Ye. Non ripetuta l’inferenza etnica collettiva che il film contesta; nessuna diagnosi clinica a distanza dell’artista, degli studenti, dei professori o dei manifestanti. La minaccia di picchiare un compagno resta un comportamento raccontato, non approvato come reazione legittima.",
-      "Immagini: il fotogramma promozionale CUNY viene dalla scheda del festival specifica di Blind Spot. L’aula vuota del sito ufficiale è stata esclusa perché generica. La copertina del manuale UE 2021 contiene e commenta la definizione 2016, ma non è copertina autonoma di quella definizione. La pagina del titolo VI è il facsimile ufficiale di p. 252 e include anche il termine del titolo V; non viene falsamente denominata frontespizio."
+      "Immagini: il fotogramma promozionale CUNY viene dalla scheda del festival specifica di Blind Spot. L’aula vuota del sito ufficiale è stata esclusa perché generica. La copertina del manuale UE 2021 contiene e commenta la definizione 2016, ma non è copertina autonoma di quella definizione. La pagina del titolo VI è il facsimile ufficiale di p. 252 e include anche il termine del titolo V; non viene falsamente denominata frontespizio.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il montaggio iniziale è riconducibile, per collazione delle risposte, all’audizione della Camera Holding Campus Leaders Accountable and Confronting Antisemitism del 5 dicembre 2023 (verbale ufficiale, pp. 162–163). Il frontespizio qui riprodotto appartiene all’edizione GPO stampata nel 2024: le due date non vanno confuse. Il titolo dell’audizione non è pronunciato nella fonte, perciò il rinvio resta probabile. Le risposte sulle regole per discorsi, condotte e molestie sono testimonianze in una discussione parlamentare; il montaggio e i giudizi degli intervistati non provano da soli intenzioni individuali né responsabilità collettive. Fonte: https://www.govinfo.gov/content/pkg/CHRG-118hhrg56239/pdf/CHRG-118hhrg56239.pdf"
     ],
     "verified": false
   },
@@ -239394,6 +239624,37 @@
     ],
     "books": [
       {
+        "book_id": "holding-campus-leaders-accountable-2023-12-05",
+        "title": "Holding Campus Leaders Accountable and Confronting Antisemitism",
+        "author": "U.S. House of Representatives, Committee on Education and the Workforce",
+        "video_id": "pi07VO2VEqc",
+        "seconds": 1058.99,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189
+        ],
+        "evidence": "Nel dialogo a1058,99s si richiamano le tre donne e le loro risposte al Congresso; il contesto ritorna a2113,06s e2231,70s con la formula dipende dal contesto. Il titolo e il giorno dell’audizione non sono pronunciati.",
+        "note": "Rinvio indiretto probabile all’audizione5dicembre2023 già identificata nel repertorio; nessuna nuova collazione integrale del verbale. Le accuse sui finanziamenti e le interpretazioni dei parlanti restano attribuite: la sola audizione non ne costituisce prova. Nessuna stessa risposta attribuita indiscriminatamente a tutte le presidenti."
+      },
+      {
         "book_id": "dhs-texas-23a607-order-2024",
         "title": "Department of Homeland Security et al. v. Texas, No. 23A607 — Order of January 22, 2024",
         "author": "Supreme Court of the United States",
@@ -239471,7 +239732,8 @@
       "Giudizi sui musulmani attribuiti ai parlanti e non adottati. Nessun testo religioso citato per versetto, nessuna diagnosi collettiva o conclusione sulle intenzioni di tutti i credenti. La storia europea dell’antisemitismo, richiamata dallo stesso articolo QJE, precede le dinamiche contemporanee discusse; non ridotta a un’unica origine esterna.",
       "Finlandia: il ministero della difesa annunciò nell’aprile 2023 l’autorizzazione ad acquisire David’s Sling, sviluppato congiuntamente da Israele e USA. La fonte distingue autorizzazione, contratto e consegna; non si assume che il sistema fosse già dispiegato nel gennaio 2024. Fonte: https://valtioneuvosto.fi/en/-/236553176/new-long-range-air-defence-system-for-the-finnish-defence-forces",
       "Nessun libro derivato dai nomi Chaim Noll, Douglas Murray, Giambattista Vico o dai temi strategici. Haaretz senza titolo o data di un articolo e le puntate Piers Morgan con ospiti non nominati restano riferimenti generici. Nessuna opera centrale assegnata: l’oggetto è il dialogo politico e sociale.",
-      "Tre immagini autentiche viste integralmente: prima pagina dell’articolo QJE, pagina unica dell’ordinanza SCOTUS e frontespizio dell’ordinanza CIG. Etichette dichiarano i tipi documentari; nessuna falsa copertina libraria."
+      "Tre immagini autentiche viste integralmente: prima pagina dell’articolo QJE, pagina unica dell’ordinanza SCOTUS e frontespizio dell’ordinanza CIG. Etichette dichiarano i tipi documentari; nessuna falsa copertina libraria.",
+      "Aggiornamento bibliografico del26ottobre2026: il richiamo alle tre presidenti universitarie e alle risposte al Congresso è collegato, con identificazione probabile, al verbale Holding Campus Leaders Accountable and Confronting Antisemitism del5dicembre2023 già presente nel repertorio. La fonte non pronuncia il titolo o la data. L’immagine condivisa è il frontespizio della stampa GPO2024, distinta dalla data dell’evento; nessuna nuova immagine è stata acquisita. I giudizi e le accuse sui finanziamenti rimangono attribuiti ai parlanti, senza dedurli dal documento. Fonte automatica letta integralmente, nessun ascolto umano."
     ],
     "verified": false
   },

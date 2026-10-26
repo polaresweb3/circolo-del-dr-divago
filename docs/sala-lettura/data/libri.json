@@ -73232,6 +73232,18 @@
         "note": "Prager University contro la piattaforma, 2020, e contenuto del principio giudiziario espliciti.",
         "role": "riferimento",
         "video_title": "La collaborazione dello Stato nella soppressione della libertà di espressione."
+      },
+      {
+        "video_id": "ipCQgDTnXTM",
+        "seconds": 2947.24,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 409–420: Prager University, causa contro YouTube, Nono circuito e 2020 nominati; discusso il requisito della natura pubblica/statale della piattaforma. Il caso viene riferito attraverso un articolo giornalistico; data completa e numero del procedimento non pronunciati.",
+        "role": "riferimento",
+        "video_title": "Uno sguardo alla Rivoluzione Culturale."
       }
     ],
     "cover": {
@@ -148261,5 +148273,676 @@
     "verified": false,
     "year": 1933,
     "work_type_note": "Volume illustrato di propaganda antisemita, documentato in contesto storico critico."
+  },
+  {
+    "id": "loi-separation-eglises-etat-1905",
+    "title": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État",
+    "author": "République française",
+    "work_type": "legge storica",
+    "enactment_date": "1905-12-09",
+    "status": "riscontro_audio_automatico",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "human_audio_review": false,
+    "verified": false,
+    "source": "Il relatore richiama una legge del 1905 sulla separazione fra Stato e Chiesa, discutendola attraverso il libro di Charb e associandola all’Alsazia-Lorena. Il riferimento è alla legge francese del 9 dicembre 1905, non a una legge di separazione speciale per quei territori. La prima pagina originale mostra i principi degli articoli 1–2: libertà di coscienza e libero esercizio dei culti, insieme alla separazione economica e istituzionale. L’Alsazia-Mosella va distinta: le Archives nationales ricordano che la legge non vi fu applicata e il regime locale dei culti seguì una storia diversa. Il richiamo a cattolici, protestanti e giudaismo non autorizza a descrivere il testo del 1905 come legge che riconosce soltanto quelle religioni. Questa è identificazione storica del documento, senza certificazione del diritto francese oggi vigente o dei successivi emendamenti. L’opinione del relatore sulla presenza dell’islam in Europa resta attribuita a lui e non è provata dal solo testo legislativo.",
+    "references": [
+      {
+        "label": "Archives nationales · prima pagina autentica della legge, cote AE/II/2991 e contesto storico",
+        "url": "https://www.archives-nationales.culture.gouv.fr/actualites/la-loi-de-separation-des-eglises-et-de-letat-fete-ses-120-ans"
+      },
+      {
+        "label": "Assemblée nationale · identificazione del documento archivistico della legge, cahier di 12 fogli",
+        "url": "https://www.assemblee-nationale.fr/histoire/eglise-etat/loi-scan.asp"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "MATvwHta2Ww",
+        "seconds": 4206.74,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 548–553: legge del 1905 e separazione fra Stato e Chiesa esplicite; titolo completo e giorno 9 dicembre riscontrati nel documento istituzionale. Il relatore la riferisce tramite Charb, senza lettura integrale dell’atto e con sovrapposizione al regime locale alsaziano.",
+        "role": "riferimento",
+        "video_title": "La lettera aperta di Stéphane Charbonnier. Da Charlie Hebdo all'attentato a Michael Stürzenberger."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/loi-separation-1905-premiere-page-507.jpeg",
+      "image_url": "https://s3.fr-par.scw.cloud/an-p0-bucket/an-public/files/D%C3%A9couvrir/Actualit%C3%A9s/2025/loi_separation_eglise_Etat_9-12-1905.jpeg?VersionId=1764239743107274",
+      "source_page": "https://www.archives-nationales.culture.gouv.fr/actualites/la-loi-de-separation-des-eglises-et-de-letat-fete-ses-120-ans",
+      "image_type": "facsimile_documento_storico",
+      "cover_relation": "prima_pagina_autentica_atto_legislativo",
+      "image_label": "Prima pagina della legge · Archives nationales, AE/II/2991",
+      "edition_label": "Prima pagina originale della Loi concernant la séparation des Églises et de l’État, 9 dicembre 1905. Archives nationales, AE/II/2991; riproduzione pubblicata sul sito istituzionale nella commemorazione 2025. Non è una copertina libraria né una pagina del Journal officiel.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Riproduzione integrale nativa della prima pagina, senza ritagli, ingrandimenti o ricostruzioni. Titolo, data manoscritta e articoli 1–2 leggibili. Non identifica la particolare riproduzione consultata dal relatore e non rappresenta l’intero cahier.",
+      "credit": "Archives nationales, AE/II/2991",
+      "asset_sha256": "d35bb10af200f5ab5fdd6ab471ea9223024175af99e327fe0ad9639af05fe65f",
+      "integrity_review": {
+        "decoded": true,
+        "width": 852,
+        "height": 1107,
+        "bytes": 168660,
+        "checked_at": "2026-10-26T13:32:42.122003+00:00",
+        "method": "Pillow verify, riapertura e load completo, SHA-256 dei byte originali. Dimensioni native; nessun upscaling."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T13:32:42.122003+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Pagina color avorio con intestazione ministeriale, titolo manoscritto, timbro Archives nationales, testo degli articoli 1–2. Non foto di un commentario o altro documento."
+      }
+    },
+    "year": 1905,
+    "document_year": 1905
+  },
+  {
+    "id": "churchill-war-situation-1940-08-20",
+    "title": "War Situation (intervento alla Camera dei Comuni, 20 agosto 1940)",
+    "author": "Winston Churchill",
+    "work_type": "discorso parlamentare",
+    "document_date": "1940-08-20",
+    "parliamentary_reference": "HC Deb 20 August 1940, vol. 364, col. 1167 (massima); dibattito War Situation",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore richiama esplicitamente Churchill tramite Science, Liberty and Peace di Huxley e parafrasa la massima sui molti e i pochi. Il testo primario Hansard del20 agosto 1940, col. 1167, contiene il passo nel contesto degli aviatori britannici. Titolo e data del documento non sono pronunciati nel video; non attribuire al relatore consultazione diretta del verbale.1947 riguarda l’edizione Huxley discussa, non la data del discorso.",
+    "references": [
+      {
+        "label": "UK Parliament, Historic Hansard · War Situation, HC Deb 20 August 1940, vol. 364, col. 1167: massima e contesto degli aviatoriRAF",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "Bf7at324tkc",
+        "seconds": 5138.95,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A5138.95s il relatore nomina Winston Churchill; a5148.6–5165.63s parafrasa una massima riferita alla battaglia d’Inghilterra. Il passaggio è introdotto come ripresa del testo di Huxley e prosegue con una diversa formulazione sul controllo di molti da parte di pochi.",
+        "role": "riferimento",
+        "video_title": "Scienza, libertà e pace di Aldous Huxley."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/churchill-war-situation-1940-08-20-estratto.png",
+      "image_url": "https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation",
+      "source_page": "https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation",
+      "edition_label": "Estratto documentario della riproduzione web ufficiale Historic Hansard, HC Deb 20 August 1940, vol. 364: titolo, data, riferimento, incipit procedurale e primo paragrafo storico completo dell’intervento del Primo ministro Winston Churchill. Non è una copertina, un manoscritto o una scansione dell’edizione1940.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "estratto_documentario_web_ufficiale_Hansard",
+      "edition_note": "Immagine documentaria della pagina ufficiale, dal titolo al primo paragrafo storico completo. La massima citata si trova più avanti (col. 1167) e non appare nell’immagine.",
+      "asset_sha256": "10ddd8281b3e2cf5e1e24abebc87daca3100fee67ea87edbde47448502b412a0",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T13:36:01.842512+00:00",
+        "width": 1000,
+        "height": 526,
+        "bytes": 109065,
+        "format": "PNG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Screenshot nativoChrome, verifica e riapertura con load completi. Nessun ritaglio successivo."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T13:36:01.842512+00:00",
+        "notes": "Vista personalmente l’intera immagine a risoluzione originale: riferimentoHansard e nome Churchill leggibili, primo paragrafo completo fino alla chiusa naturale, nessuna frase tagliata."
+      },
+      "image_label": "Estratto documentario · Historic Hansard, 20 agosto 1940"
+    },
+    "ready_for_integration": true,
+    "human_audio_review": false,
+    "verified": false,
+    "year": 1940,
+    "document_year": 1940
+  },
+  {
+    "id": "statuto-lavoratori-legge-300-1970",
+    "title": "Statuto dei lavoratori (legge 20 maggio 1970, n. 300)",
+    "official_title": "Norme sulla tutela della libertà e dignità dei lavoratori, della libertà sindacale e dell’attività sindacale, nei luoghi di lavoro e norme sul collocamento",
+    "author": "Repubblica italiana",
+    "work_type": "legge storica",
+    "publication_year": 1970,
+    "act_date": "1970-05-20",
+    "first_publication_date": "1970-05-27",
+    "status": "riscontro_audio_automatico",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "human_audio_review": false,
+    "verified": false,
+    "source": "Conversa nomina lo Statuto dei lavoratori e l’anno 1970 mentre ricorda il proprio studio su un testo di Gino Giugni. Il manuale rimane un riferimento bibliografico distinto e senza titolo univoco. Il giorno 20 maggio, il numero 300 e il titolo ufficiale completo sono riscontrati nella fonte normativa esterna: non sono parole pronunciate nel passo. Si tratta della legge Norme sulla tutela della libertà e dignità dei lavoratori, della libertà sindacale e dell’attività sindacale, nei luoghi di lavoro e norme sul collocamento, pubblicata nella Gazzetta Ufficiale 131 del 27 maggio 1970. L’immagine riproduce una porzione della pagina 3404 nella stampa originaria, non un commentario o una versione consolidata odierna. La valutazione di Conversa sul ruolo emancipatore della sinistra e sulla successiva trasformazione politica resta sua interpretazione. Non si assume Giugni come autore formale unico della legge e non si certifica qui il diritto oggi vigente né l’efficacia attuale dei singoli articoli.",
+    "references": [
+      {
+        "label": "Gazzetta Ufficiale · legge 20 maggio 1970 n. 300 e dati dell’atto",
+        "url": "https://www.gazzettaufficiale.it/eli/id/1970/05/27/070U0300/sg"
+      },
+      {
+        "label": "Gazzetta Ufficiale n. 131 del 27 maggio 1970 · fascicolo originale, legge da pagina 3404",
+        "url": "https://www.gazzettaufficiale.it/eli/gu/1970/05/27/131/sg/pdf"
+      },
+      {
+        "label": "Gazzetta Ufficiale · indice dell’atto, versione originaria",
+        "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=070U0300&atto.dataPubblicazioneGazzetta=1970-05-27&tipoSerie=serie_generale&tipoVigenza=originario"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "2s3eG-BV9jU",
+        "seconds": 1123.16,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmento 146, 1123.16–1135.58 s: Statuto dei lavoratori e 1970 espliciti. Giorno 20 maggio, numero 300 e titolo ufficiale completo sono dati della Gazzetta, non citazione verbale.",
+        "role": "riferimento",
+        "video_title": "Destra e Sinistra: categorie irriverenti?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/statuto-lavoratori-gu1970-3404-514.png",
+      "image_url": "https://www.gazzettaufficiale.it/eli/gu/1970/05/27/131/sg/pdf",
+      "source_page": "https://www.gazzettaufficiale.it/eli/id/1970/05/27/070U0300/sg",
+      "image_type": "facsimile_documento_storico",
+      "cover_relation": "porzione_prima_pagina_atto_in_gazzetta_ufficiale",
+      "image_label": "Porzione della prima pagina dello Statuto · G.U. 27 maggio 1970, p. 3404",
+      "edition_label": "Legge 20 maggio 1970, n. 300, stampa originaria nella Gazzetta Ufficiale della Repubblica Italiana, n. 131, 27 maggio 1970, pagina 3404. Porzione nativa della colonna destra con intestazione, promulgazione e articolo 1 completo. Non copertina libraria o testo consolidato attuale.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Il fascicolo contiene anche altri atti. La riproduzione è limitata alla legge pertinente e non include la diversa norma presente nella colonna sinistra. Non identifica il manuale di Giugni o un’edizione materialmente mostrata nel video.",
+      "credit": "Gazzetta Ufficiale della Repubblica Italiana · Istituto Poligrafico e Zecca dello Stato",
+      "source_pdf_sha256": "2e31f502e906aad3ae22eed7e8269786b3c131f424f298fe682c04d7f7a0bcc9",
+      "source_pdf_page_number": 4,
+      "source_printed_page_number": "3404",
+      "source_image_size": [
+        2400,
+        3450
+      ],
+      "native_crop_box": [
+        1185,
+        215,
+        2280,
+        1240
+      ],
+      "asset_sha256": "f62d1f96e5f15d9888ada169ffbc8a27b4f755d9644f8f6869ab0f7eb0207c66",
+      "integrity_review": {
+        "decoded": true,
+        "width": 1095,
+        "height": 1025,
+        "bytes": 22764,
+        "checked_at": "2026-10-26T14:12:42.315145+00:00",
+        "method": "Pillow verify, riapertura e load integrale, SHA-256. Estrazione dell’immagine incorporata nella pagina PDF e ritaglio nativo senza ridimensionamento o ricomposizione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T14:12:42.315145+00:00",
+        "method": "Visione personale dell’intera pagina originale e dell’intera porzione finale con view_image.",
+        "notes": "Titolo ufficiale, data 20 maggio 1970, numero 300, formula di promulgazione e articolo 1 completo leggibili. Nessuna norma estranea inclusa nel ritaglio."
+      }
+    },
+    "year": 1970
+  },
+  {
+    "id": "trattato-sevres-1920",
+    "title": "Trattato di Sèvres (Treaty of Peace with Turkey)",
+    "alternative_titles": [
+      "Treaty of Peace between the Allied and Associated Powers and Turkey, signed at Sèvres, 10 August 1920",
+      "Trattato di Sèvres"
+    ],
+    "author": "Potenze alleate e associate; Impero ottomano",
+    "work_type": "documento_trattato_internazionale",
+    "publication_year": 1920,
+    "signature_date": "1920-08-10",
+    "entered_into_force": false,
+    "status": "riscontro_audio_automatico",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il dialogo nomina i trattati di Sevre nel contesto della fine dell’Impero ottomano e della sistemazione territoriale successiva alla Prima guerra mondiale. Il frontespizio ufficiale FCDO e il preambolo identificano il trattato di pace firmato a Sèvres il10 agosto 1920. La firma non comportò l’entrata in vigore: il successivo accordo di Losanna fu firmato il24 luglio 1923 e divenne efficace il6 agosto 1924. Le valutazioni territoriali e politiche degli interlocutori restano attribuite, senza ricavare dal documento progetti automaticamente attuati o diritti territoriali attuali.",
+    "references": [
+      {
+        "label": "FCDO · facsimile ufficiale Treaty SeriesNo. 11(1920), Treaty of Peace with Turkey, firmato a Sèvres il10 agosto 1920, HMSO, Cmd. 964",
+        "url": "https://treaties.fcdo.gov.uk/data/Library2/pdf/1920-TS0011.pdf"
+      },
+      {
+        "label": "U.S. Department of State, Office of the Historian · cronologia dei trattati: Sèvres non entrato in vigore; Losanna firma1923 ed efficacia 1924",
+        "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch1"
+      },
+      {
+        "label": "Qatar Digital Library/British Library · catalogo IOR/L/PS/18/B356, stessa pubblicazione Treaty Series11, Cmd. 964; PDF duplicato non scaricato",
+        "url": "https://www.qdl.qa/en/archive/81055/vdc_100000000833.0x00035e"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "GYtCwCBZT5k",
+        "seconds": 4574.09,
+        "title_seconds": 4574.09,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 4574.09–4581.77 s la trascrizione automatica riporta «nei trattati di Sevre»; segue un commento sui territori greci e sui mandati francesi e britannici. Il nome breve è pronunciato, ma data e intestazione ufficiale estesa sono riscontri bibliografici esterni.",
+        "role": "riferimento",
+        "video_title": "La Nuova Normalità in Dar-Al-Harb."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/trattato-sevres-1920.png",
+      "image_url": "https://treaties.fcdo.gov.uk/data/Library2/pdf/1920-TS0011.pdf",
+      "source_page": "https://treaties.fcdo.gov.uk/data/Library2/pdf/1920-TS0011.pdf",
+      "edition_label": "Frontespizio della pubblicazione ufficiale britannica Treaty SeriesNo. 11(1920), Treaty of Peace with Turkey, Signed at Sèvres, August 10, 1920,[With Maps], London, HMSO, 1920, Cmd. 964. Facsimile della pagina 1 del PDF pubblico FCDO; non manoscritto firmato o copertina di un commentario.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "frontespizio_edizione_ufficiale_HMSO_1920",
+      "edition_note": "Unica immagine TIFF nativa 2221×3755 estratta dalla pagina 1 del PDF; conversionePNG lossless alla stessa dimensione, nessun ritaglio, padding o ingrandimento. Il titolo breve nel parlato identifica il trattato, senza indicare la specifica stampa HMSO.",
+      "asset_sha256": "1d616340945b8c0c4d9119ff80e7d294e8e0a60abc724c0e45042e035421fc78",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T14:14:35.532960+00:00",
+        "width": 2221,
+        "height": 3755,
+        "bytes": 66284,
+        "format": "PNG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Estratta unica immagine TIFF nativa della pagina 1 del PDF FCDO, 2221×3755; conversione lossless PNG alla stessa risoluzione, nessun ritaglio, padding o ingrandimento. La prima resaPoppler1600era solo lettura e non asset finale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T14:14:35.532960+00:00",
+        "notes": "Intero frontespizio ufficiale visto personalmente: titolo, date, serie, Cmd. 964, editoreHMSO e anno1920 leggibili. Difetti e segni della scansione preservati; non è foto della cerimonia, commentario o ricostruzione. La visualizzazione dell’immagine intera è stata adattata dal visualizzatore, ma il file mantiene i2221×3755 pixel nativi."
+      },
+      "image_label": "Frontespizio ufficiale · Treaty Series 11 (1920), Cmd. 964"
+    },
+    "ready_for_integration": true,
+    "verified": false,
+    "human_audio_review": false,
+    "year": 1920,
+    "work_type_note": "Trattato internazionale, distinto da un trattato o saggio teorico."
+  },
+  {
+    "id": "all-about-mormons-south-park",
+    "title": "All About Mormons",
+    "author": "Trey Parker",
+    "author_role": "sceneggiatura",
+    "work_type": "episodio di serie televisiva animata",
+    "series_title": "South Park",
+    "season": 7,
+    "episode": 12,
+    "production_code": "0712",
+    "publication_date": "2003-11-19",
+    "publication_year": 2003,
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "source": "Il relatore invita a vedere un episodio di South Park e ne descrive il coro Dum Dum Dum Dum Dum legato al racconto di Joseph Smith. La specifica scheda ufficiale collazionata individua All About Mormons, S7E12. Titolo dell’episodio non pronunciato, identificazione probabile; il musical The Book of Mormon citato subito dopo è distinto. Satira e giudizi del relatore non sono prove storiche o giudizi sulle persone appartenenti alla confessione.",
+    "references": [
+      {
+        "label": "South Park, scheda ufficiale All About Mormons: sceneggiatura Trey Parker, stagione 7 episodio 12, 19 novembre 2003 e canzone Dum Dum Dum Dum Dum",
+        "url": "https://southpark.cc.com/w/index.php/All_About_Mormons"
+      },
+      {
+        "label": "Apple TV US, specifica scheda All About Mormons, S7E12: immagine associata esplicitamente all’episodio nei metadati editoriali e © 2003 Comedy Partners",
+        "url": "https://tv.apple.com/us/episode/all-about-mormons/umc.cmc.6h2zjk0ovvf64e384r8g2xf1c?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "JshaLF4mXa0",
+        "seconds": 6624.75,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 1027–1030: South Park esplicito, episodio non titolato, coro Dum Dum Dum Dum Dum descritto. La specifica scheda ufficiale collega quella canzone ad All About Mormons, S7E12,19novembre2003.",
+        "role": "riferimento",
+        "video_title": "Introduzione al culto mormonico."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/southpark518-episodio-apple.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/K1a9xxKFaggfXAY4PjOjMw/1200x675.jpg",
+      "source_page": "https://tv.apple.com/us/episode/all-about-mormons/umc.cmc.6h2zjk0ovvf64e384r8g2xf1c?showId=umc.cmc.1n9fnkfiemhayikewq5xitzn6",
+      "edition_label": "Still promozionale della scheda Apple TV: All About Mormons, South Park S7E12",
+      "edition_confirmed_in_video": false,
+      "edition_note": "L’immagine è associata allo specifico episodio nel campo Episode.image e in og:image/og:image:alt della pagina distributiva Apple, non alla serie in generale. Non è una copertina DVD né un fotogramma estratto dal video del relatore. Nessuno streaming o visione integrale dell’episodio effettuati.",
+      "cover_relation": "still_editoriale_specifico_dell_episodio",
+      "image_label": "Still promozionale della scheda Apple TV: All About Mormons, South Park S7E12",
+      "credit_line": "© 2003 Comedy Partners; immagine editoriale Apple TV associata all’episodio.",
+      "asset_sha256": "5066755e7b00f24a7bf2119f51b276044f3382e98b769191a10c6afcaad279ec",
+      "integrity_review": {
+        "decoded": true,
+        "width": 1200,
+        "height": 675,
+        "checked_at": "2026-10-26T14:40:29.521024+00:00",
+        "method": "Pillow verify, riapertura/load completo, SHA-256 dei byte JPEG ricevuti. Nessun ritocco, resize, padding o ricomposizione locale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T14:40:29.521024+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Disegno animato intero: stanza in legno, figura in veste chiara circondata da luce a sinistra e figura seduta su un letto a destra. Nessun ritratto reale, logo o segnaposto; identità dei personaggi non dedotte dall’aspetto."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "year": 2003,
+    "edition_cited": null
+  },
+  {
+    "id": "geschichte-altertums-meyer",
+    "title": "Geschichte des Altertums",
+    "original_title_variant": "Geschichte des Alterthums",
+    "author": "Eduard Meyer",
+    "work_type": "opera_storica_in_piu_volumi",
+    "publication_year": 1884,
+    "publication_year_scope": "Anno d’inizio dell’opera riscontrato sul frontespizio del volume I; nessun anno di completamento dell’intera serie o della copia del relatore ricostruito qui.",
+    "status": "citazione_esplicita",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "edition_cited_status": "non_identificata",
+    "edition_used_for_image": {
+      "title_as_printed": "Geschichte des Alterthums",
+      "volume": 1,
+      "volume_title": "Geschichte des Orients bis zur Begründung des Perserreichs",
+      "publisher": "Verlag der J.G.Cotta’schen Buchhandlung",
+      "publication_place": "Stuttgart",
+      "year": 1884,
+      "holding_institution": "Robarts Library, University of Toronto",
+      "shelfmark": "ABS-0084",
+      "scanned_leaf": 7
+    },
+    "source": "A 3773.46 s il relatore nomina in italiano la Storia dell’antichità di Eduard Meyer, poco prima del suo distinto trattato sui mormoni. La voce riguarda l’opera complessiva e non un solo tomo o la monografia Ursprung und Geschichte der Mormonen già censita. Il riferimento orale a quattro volumi non identifica edizione e consistenza della copia: tale punto rimane aperto. Nessuna lettura integrale dell’opera storica o delle pagine della copia è dichiarata.",
+    "references": [
+      {
+        "label": "University of Toronto/Robarts su Internet Archive, Geschichte des Alterthums, Eduard Meyer, vol.I, Stuttgart,Cotta1884, segnatura ABS-0084",
+        "url": "https://archive.org/details/geschichtedesalt01meyeuoft"
+      },
+      {
+        "label": "Frontespizio originale del volume I 1884, leaf 7 del BookReader: Geschichte des Orients bis zur Begründung des Perserreichs",
+        "url": "https://archive.org/details/geschichtedesalt01meyeuoft/page/n7/mode/1up"
+      },
+      {
+        "label": "KIT, scheda catalografica dell’opera complessiva: varianti Alterthums/Altertums; dati consultati nell’indice, rendering web cachemiss",
+        "url": "https://katalog.bibliothek.kit.edu/bib/698588"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "JshaLF4mXa0",
+        "seconds": 3773.46,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 549–551: Meyer nominato nella forma ASR deformata, storico/egittologo; Storia dell’antichità esplicita in italiano, descritta come monumentale e in quattro volumi. Identità bibliografica riscontrata sul frontespizio 1884 e nei metadati della biblioteca.",
+        "role": "riferimento",
+        "video_title": "Introduzione al culto mormonico."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/meyer518-frontespizio-vol1-1884.jpg",
+      "image_url": "https://ia600502.us.archive.org/BookReader/BookReaderImages.php?zip=%2F12%2Fitems%2Fgeschichtedesalt01meyeuoft%2Fgeschichtedesalt01meyeuoft_jp2.zip&file=geschichtedesalt01meyeuoft_jp2%2Fgeschichtedesalt01meyeuoft_0007.jp2&id=geschichtedesalt01meyeuoft&scale=1&rotate=0",
+      "source_page": "https://archive.org/details/geschichtedesalt01meyeuoft/page/n7/mode/1up",
+      "edition_label": "Frontespizio vol. I (1884), Geschichte des Orients bis zur Begründung des Perserreichs",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Frontespizio autentico del primo volume dell’opera di Meyer, Cotta, Stuttgart 1884, dalla scansione Robarts/Toronto. Edizione e volume illustrativi, non identificazione della copia del relatore; la sua menzione di quattro volumi non è stata verificata visivamente. Immagine BookReader scale 1, 1830×3140px effettivi forniti dal servizio; nessun crop o ingrandimento locale. Non è il frontespizio del distinto trattato sui mormoni.",
+      "cover_relation": "frontespizio_volume_illustrativo_dell_opera_complessiva",
+      "image_label": "Frontespizio vol. I (1884), Geschichte des Orients bis zur Begründung des Perserreichs",
+      "credit_line": "Robarts Library, University of Toronto, ABS-0084; Internet Archive,ark:/13960/t2f76fw8z.",
+      "asset_sha256": "baf54619fc863c18e176e362652f923b744a918d96eaeaacaed6c59f3547326b",
+      "integrity_review": {
+        "decoded": true,
+        "width": 1830,
+        "height": 3140,
+        "checked_at": "2026-10-26T14:40:29.521024+00:00",
+        "method": "Pillow verify, riapertura/load completo, SHA-256 dei byte JPEG ricevuti. Nessun ritocco, resize, padding o ricomposizione locale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T14:40:29.521024+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Pagina intera leggibile con Geschichte des Alterthums, Eduard Meyer, Erster Band, sottotitolo del volume sul mondo orientale fino alla fondazione dell’impero persiano, Stuttgart, imprint J.G.Cotta e 1884. Timbro University of Toronto Library e annotazioni dell’esemplare autentico."
+      },
+      "rights_note": "Scansione storica 1884 resa pubblica dalla biblioteca; IA registra possible-copyright-status=NOT_IN_COPYRIGHT e copyright-region=US. Nessuna licenza moderna o situazione mondiale dei diritti inventata."
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "year": 1884
+  },
+  {
+    "id": "delibera-stato-emergenza-2020-01-31",
+    "title": "Delibera del Consiglio dei ministri del 31 gennaio 2020: Dichiarazione dello stato di emergenza in conseguenza del rischio sanitario connesso all’insorgenza di patologie derivanti da agenti virali trasmissibili",
+    "official_title": "Dichiarazione dello stato di emergenza in conseguenza del rischio sanitario connesso all’insorgenza di patologie derivanti da agenti virali trasmissibili",
+    "author": "Consiglio dei ministri della Repubblica Italiana",
+    "work_type": "documento_delibera_del_consiglio_dei_ministri",
+    "publication_year": 2020,
+    "document_date": "2020-01-31",
+    "publication_date": "2020-02-01",
+    "official_gazette": "Gazzetta Ufficiale, Serie Generale n 26 del 1 febbraio 2020, pp 7–8",
+    "official_identifier": "20A00737",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore menziona la data 31 gennaio 2020 e la qualifica come data della delibera del governo, all’interno di una valutazione polemica della gestione emergenziale. La scheda ufficiale GU e il testo della Protezione Civile identificano il provvedimento di dichiarazione dello stato di emergenza sanitaria, adottato il 31 gennaio e pubblicato il 1 febbraio 2020. Il titolo ufficiale non è pronunciato nella fonte. L’atto richiama gli articoli 7 e 24 del Codice della protezione civile e prevede uno stato di emergenza iniziale di 6 mesi; non dichiara cessazione della Repubblica. Le valutazioni di illegittimità e i paragoni politici del relatore non diventano accertamenti redazionali.",
+    "references": [
+      {
+        "label": "Gazzetta Ufficiale · scheda dell’atto 20A00737, delibera 31 gennaio 2020, pubblicata in GU 26 del 1 febbraio 2020",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2020/02/01/20A00737/sg"
+      },
+      {
+        "label": "Gazzetta Ufficiale · fascicolo storico 26 del 1 febbraio 2020, atto alle pagine 7–8, PDF 11–12",
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2020/02/01/26/sg/pdf"
+      },
+      {
+        "label": "Dipartimento della Protezione Civile · testo istituzionale della delibera, data e pubblicazione distinte",
+        "url": "https://www.protezionecivile.gov.it/it/normativa/delibera-del-consiglio-dei-ministri-del-31-gennaio-2020-dichiarazione-dello-stato-di-emergenza-conseguenza-del-rischio-sanitario-connesso/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "VpMs3v_uVdY",
+        "seconds": 255.78,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 255.78–266.7 s la fonte nomina il 31 gennaio 2020 e a 266.7–272.92 s lo definisce data della delibera del governo. Non pronuncia il titolo ufficiale o il codice dell’atto. L’identificazione del preciso provvedimento resta una collazione dagli estremi e dal contesto.",
+        "role": "riferimento",
+        "video_title": "Herbert Marcuse: il destino storico della democrazia borghese."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/delibera-stato-emergenza-2020-01-31.png",
+      "image_url": "https://www.gazzettaufficiale.it/eli/gu/2020/02/01/26/sg/pdf",
+      "source_page": "https://www.gazzettaufficiale.it/eli/id/2020/02/01/20A00737/sg",
+      "edition_label": "Estratto documentario della Gazzetta Ufficiale, Serie Generale 26 del 1 febbraio 2020, pagina 7(PDF 11): intestazione, data 31 gennaio 2020, titolo e primo richiamo normativo della delibera20A00737. Non è una copertina o la riproduzione integrale dell’atto, che prosegue a pagina 8.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "estratto_intestazione_e_primo_richiamo_normativo_GU",
+      "edition_note": "Porzione della sola colonna destra dell’originale PDF ufficiale. L’atto adiacente è escluso. Codice 20A00737 alla pagina 8 e data pubblicazione 1 febbraio 2020 verificati separatamente. Rendering diretto 144 dpi, 500 × 286, senza padding, ricomposizione o alterazioni testuali.",
+      "asset_sha256": "f40f55340faf633630b7709636765e5dfa94eb0d4e97d1a09155fc1510496284",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T14:39:29.941643+00:00",
+        "width": 500,
+        "height": 286,
+        "bytes": 45102,
+        "format": "PNG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Rasterizzazione diretta Poppler 144 dpi della porzione PDF(300, 345, 550, 488) punti della pagina 11 del fascicolo, stampata 7. Comando pdftoppm -f 11 -singlefile -r 144 -x 600 -y 690 -W 500 -H 286 -png. Nessuna ricomposizione, padding, ritocco o ingrandimento di una precedente bitmap."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T14:39:29.941643+00:00",
+        "notes": "Intera immagine vista personalmente: data 31 gennaio 2020, titolo ufficiale, organo e primo Visto completo leggibili. Atto precedente della stessa pagina escluso. Il codice 20A00737 è nella pagina 8 del documento e non nell’estratto; data pubblicazione verificata dalla pagina Gazzetta, non ricavata dall’immagine."
+      },
+      "image_label": "Estratto della delibera · G.U. 1 febbraio 2020, p. 7"
+    },
+    "ready_for_integration": true,
+    "verified": false,
+    "human_audio_review": false,
+    "year": 2020
+  },
+  {
+    "id": "holding-campus-leaders-accountable-2023-12-05",
+    "title": "Holding Campus Leaders Accountable and Confronting Antisemitism",
+    "author": "U.S. House of Representatives, Committee on Education and the Workforce",
+    "work_type": "documento_verbale_di_audizione_parlamentare",
+    "document_date": "2023-12-05",
+    "publication_year": 2024,
+    "publication_date": null,
+    "official_identifier": "Serial No. 118-31; CHRG-118hhrg56239",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il montaggio comprende l’interrogazione delle presidenti universitarie sui codici contro molestie e intimidazione. La collazione delle risposte Magill e Gay con le pagine stampate 162–163 del verbale identifica l’audizione del 5 dicembre 2023. Titolo, data, seriale e anno della stampa non sono pronunciati nel frammento e provengono dal frontespizio ufficiale. Non è dichiarata lettura integrale del verbale di 227 pagine.",
+    "references": [
+      {
+        "label": "GovInfo · verbale ufficiale, seriale 118-31, audizione del 5 dicembre 2023, stampa GPO 2024",
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg56239/pdf/CHRG-118hhrg56239.pdf"
+      },
+      {
+        "label": "GovInfo · identificatore CHRG-118hhrg56239",
+        "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg56239"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "WqrpPr3jqCY",
+        "seconds": 203.85,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 203,85 s la domanda è rivolta a Magill di Penn; seguono la distinzione speech/conduct, la risposta dipendente dal contesto e le domande a Gay di Harvard. Le risposte corrispondono alle pp. 162–163 del verbale ufficiale, PDF 166–167.",
+        "role": "riferimento",
+        "video_title": "The elephant in the room: the anti-Semitism that has taken over in the universities."
+      },
+      {
+        "video_id": "pi07VO2VEqc",
+        "seconds": 1058.99,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nel dialogo a1058,99s si richiamano le tre donne e le loro risposte al Congresso; il contesto ritorna a2113,06s e2231,70s con la formula dipende dal contesto. Il titolo e il giorno dell’audizione non sono pronunciati.",
+        "role": "riferimento",
+        "video_title": "Israel as a model of civil society."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/holding-campus-leaders-accountable-2023-12-05.png",
+      "image_url": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg56239/pdf/CHRG-118hhrg56239.pdf",
+      "source_page": "https://www.govinfo.gov/app/details/CHRG-118hhrg56239",
+      "edition_label": "Frontespizio del verbale ufficiale dell’audizione Holding Campus Leaders Accountable and Confronting Antisemitism, 5 dicembre 2023, seriale 118-31. Edizione GPO, Washington, 2024, prima pagina del PDF CHRG-118hhrg56239.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "frontespizio_del_verbale_ufficiale_della_specifica_audizione",
+      "edition_note": "Data dell’audizione 5 dicembre 2023 distinta dall’anno della stampa 2024. Immagine dell’intera prima pagina, non del documentario, di un’audizione CUNY o di altro fascicolo.",
+      "asset_sha256": "f6f8175f808e0ec4e272ae0d1eedfb71bbd8fa7d4ade4dc3631f61af48f7bd37",
+      "integrity_review": {
+        "decoded": true,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "width": 1020,
+        "height": 1320,
+        "bytes": 87657,
+        "format": "PNG",
+        "checked_at": "2026-10-26T15:11:21.802301+00:00",
+        "method": "Rendering diretto della pagina 1 del PDF ufficiale con Poppler pdftoppm, 120 dpi. Nessun ritocco, padding, ricomposizione o ingrandimento di una bitmap preesistente."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T15:11:21.802301+00:00",
+        "notes": "Intera immagine personalmente vista: titolo, organo, data 5 dicembre 2023, seriale 118-31 e stampa Washington 2024 leggibili. Viste anche le pagine PDF 166–167, stampate 162–163, per la collazione dei frammenti."
+      },
+      "image_label": "Frontespizio del verbale · audizione 5 dicembre 2023, stampa GPO 2024"
+    },
+    "ready_for_integration": true,
+    "year": 2023,
+    "document_year": 2023,
+    "publisher": "U.S. Government Publishing Office",
+    "verified": false,
+    "human_audio_review": false
+  },
+  {
+    "id": "chaim-noll-israel-iran-kulturzeit-2025",
+    "title": "Chaim Noll zum Israel-Iran-Konflikt",
+    "author": "Chaim Noll; 3sat / Kulturzeit",
+    "author_roles": {
+      "Chaim Noll": "intervistato",
+      "3sat / Kulturzeit": "redazione e pubblicazione"
+    },
+    "work_type": "episodio televisivo di Kulturzeit (intervista)",
+    "series_title": "Kulturzeit",
+    "publication": "3sat",
+    "publication_date": "2025-06-17",
+    "publication_year": 2025,
+    "publication_date_scope": "Data indicata nella specifica scheda ufficiale; time datetime 2025-06-17T19:20:00.000+02:00. Non data della conversazione del Circolo né data della fotografia.",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "bibliographic_verification_scope": "Identità editoriale, testata, data e fotografia della specifica scheda primaria; video esterno non riprodotto o collazionato.",
+    "source": "A 102.90–112.97 secondi il conduttore ricorda un’intervista di Noll al canale tedesco reso dall’ASR come Sat Free, sul conflitto Iran–Israele e le reazioni politiche in Israele. La scheda primaria 3sat/Kulturzeit del 17 giugno 2025 coincide per interlocutore, rete plausibile e tema, ma il titolo e la data non sono pronunciati e il contenuto audiovisivo esterno non è collazionato: identificazione probabile. Non confusa con l’articolo NZZ menzionato nello stesso passaggio, né con l’articolo European Conservative del 2024 o il progetto di libro senza titolo.",
+    "references": [
+      {
+        "label": "3sat / Kulturzeit, scheda originale Chaim Noll zum Israel-Iran-Konflikt, 17 giugno 2025; titolo, data e immagine editoriale specifica",
+        "url": "https://www.3sat.de/kultur/kulturzeit/chaim-noll-zum-israel-iran-konflikt-100.html"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "UsmaYrQy2IY",
+        "seconds": 102.9,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 16–21: intervista a canale tedesco reso automaticamente Sat Free, con Noll e domande sulla situazione in Israele e la resistenza politica al conflitto. Titolo e giorno assenti. La scheda ufficiale 3sat del 17 giugno 2025 identifica un’intervista di Kulturzeit con lo stesso ospite e tema.",
+        "role": "riferimento",
+        "video_title": "Updates from Israel with Chaim Noll."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/noll531-kulturzeit-2025.jpg",
+      "image_url": "https://www.3sat.de/assets/chaim-noll-100~1280x720?cb=1750173019562",
+      "source_page": "https://www.3sat.de/kultur/kulturzeit/chaim-noll-zum-israel-iran-konflikt-100.html",
+      "edition_label": "3sat / Kulturzeit, fotografia editoriale della scheda Chaim Noll zum Israel-Iran-Konflikt, 17 giugno 2025",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Fotografia associata esplicitamente alla specifica scheda dell’intervista nei metadati og:image e twitter:image. Non è certificata come fotogramma della registrazione o come fotografia scattata il 17 giugno 2025. L’identità dell’intervistato deriva dalla scheda editoriale e dal richiamo verbale, non dal riconoscimento del volto. Nessuna visione o ascolto del filmato esterno dichiarati.",
+      "cover_relation": "fotografia_editoriale_associata_alla_scheda_non_fotogramma_certificato",
+      "image_label": "Fotografia editoriale ufficiale della scheda 3sat, non fotogramma certificato dell’intervista",
+      "credit_line": "Fonte editoriale: 3sat / Kulturzeit. Credito fotografico individuale non indicato nei metadati consultati; nessuna dichiarazione di pubblico dominio o licenza inventata.",
+      "asset_sha256": "5305222cf4f050a31a239afd0b637b6d48380784438afd3a3c3c957ca9b6f426",
+      "integrity_review": {
+        "decoded": true,
+        "format": "JPEG",
+        "width": 1280,
+        "height": 720,
+        "checked_at": "2026-10-26T15:42:25.195183+00:00",
+        "method": "Pillow Image.verify(), riapertura e Image.load() integrale; SHA-256 dei byte ricevuti. Immagine nativa senza ritocco, ridimensionamento, padding o ricomposizione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T15:42:25.195183+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Fotografia orizzontale intera: persona con occhiali, barba, giacca chiara e piccolo microfono, davanti a un leggio; sfondo architettonico sfocato. Nessun testo o identità ricavati dal volto. L’associazione alla specifica intervista è editoriale, provata dai metadati della pagina."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "year": 2025,
+    "publisher": "3sat / Kulturzeit",
+    "edition_cited": null
   }
 ]
