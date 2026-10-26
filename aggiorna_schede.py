@@ -54,7 +54,15 @@ def integrate(cards, bibliography, additions, new_books, videos):
         coverage = card.get('source_coverage', {})
         if not coverage.get('source_sha256') or not coverage.get('segments_read'):
             raise ValueError('Provenienza della fonte mancante: ' + ident)
-        if coverage.get('audio_duration_analyzed', coverage.get('last_end', 0)) < duration - 10:
+        visual = card['source_type'] == 'analisi_fotogrammi_locali'
+        if visual and (coverage.get('partial_visual_sampling') is not True
+                       or not coverage.get('frames_reviewed')
+                       or not coverage.get('frame_times_seconds')
+                       or coverage.get('language_scope') != 'lingua_delle_osservazioni_non_del_sonoro'
+                       or abs(coverage.get('video_duration_seconds', 0) - duration) > 10
+                       or 'audio_duration_analyzed' in coverage):
+            raise ValueError('Copertura visiva o limiti mancanti: ' + ident)
+        if not visual and coverage.get('audio_duration_analyzed', coverage.get('last_end', 0)) < duration - 10:
             raise ValueError('La fonte non arriva alla conclusione: ' + ident)
         passages = card.get('passages', [])
         if len(passages) < minimum or passages != sorted(passages, key=lambda p: p['seconds']):
@@ -75,7 +83,8 @@ def integrate(cards, bibliography, additions, new_books, videos):
                      'title_seconds': mention.get('title_seconds', mention['seconds']),
                      'evidence': card['source_type'], 'verification': confidence,
                      'verified': False, 'human_audio_review': False,
-                     'note': mention['evidence']}
+                     'note': (mention.get('note') or mention.get('reason')
+                              or mention['evidence'])}
             if mention.get('role'):
                 entry['role'] = mention['role']
             same = [m for m in book['mentions'] if m['video_id'] == ident]
@@ -92,7 +101,8 @@ def integrate(cards, bibliography, additions, new_books, videos):
             if book.get('status') == 'titolo_nel_video':
                 book['status'] = ('identificazione_probabile' if confidence == 'identificazione_probabile'
                                   else 'citazione_esplicita')
-                book['source'] = 'Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.'
+                book['source'] = ('Titolo riscontrato nei fotogrammi indicati; dettagli e limiti nei riferimenti ai video.'
+                                  if visual else 'Titolo riscontrato nella fonte automatica; dettagli e minutaggi nei riferimenti ai video. Ascolto umano da completare.')
         cards.append(deepcopy(card))
         by_card[ident] = cards[-1]
     for book in bibliography:
@@ -132,13 +142,14 @@ def main():
         if card is None or row['video_id'] not in batch_ids:
             continue
         coverage = card['source_coverage']
-        row.update(analysis_status='caption_analyzed' if card['source_type'].startswith('sottotitoli')
+        visual = card['source_type'] == 'analisi_fotogrammi_locali'
+        row.update(analysis_status='frames_analyzed' if visual else 'caption_analyzed' if card['source_type'].startswith('sottotitoli')
                    else 'audio_analyzed', source_type=card['source_type'],
                    language=card['language'], analyzed_at=card.get('updated_at', datetime.now(timezone.utc).isoformat()),
                    segments_analyzed=coverage['segments_read'], last_segment_end=coverage['last_end'],
                    source_sha256=coverage['source_sha256'], audio_review_complete=False,
                    analysis_method='editorial_full_source_reading',
-                   analysis_scope='Lettura integrale della fonte automatica; sintesi originale e riferimenti bibliografici. Ascolto umano da completare.',
+                   analysis_scope=(coverage['scope'] if visual else 'Lettura integrale della fonte automatica; sintesi originale e riferimenti bibliografici. Ascolto umano da completare.'),
                    reviewed_book_ids=[book['book_id'] for book in card['books']])
     if batch_ids:
         index['last_run'] = {'status': 'editorial_batch_completed',

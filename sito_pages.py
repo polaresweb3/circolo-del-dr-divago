@@ -116,6 +116,14 @@ def video_content(card, bibliography):
     """Schede editoriali leggibili anche senza JavaScript o file sorgente integrale."""
     esc = html.escape
     ident = card["video_id"]
+    visual = card.get('source_type') == 'analisi_fotogrammi_locali'
+    summary_heading = 'Il contenuto del filmato' if visual else 'Il filo del discorso'
+    books_heading = 'Opere e riferimenti' if visual else 'I libri nel discorso'
+    source_note = ('Scheda basata sui fotogrammi indicati: campionamento parziale, senza ascolto del sonoro. '
+                   'I sottotitoli visibili sono distinti dalle parole effettivamente pronunciate.'
+                   if card.get('source_type') == 'analisi_fotogrammi_locali' else
+                   'Minutaggi ricavati da testi automatici, da riascoltare. '
+                   'Le identificazioni probabili sono segnalate accanto ai libri.')
     def watch(seconds=None):
         return "https://www.youtube.com/watch?v=" + ident + ("&t=" + str(int(seconds)) if seconds is not None else "")
     passages = "".join(
@@ -142,17 +150,16 @@ def video_content(card, bibliography):
                      f'<a class="text-link" href="{esc(watch(moment), quote=True)}" target="_blank" rel="noopener noreferrer">'
                      f'Passaggio {timestamp(moment)} ↗</a> · <a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro ↗</a></div></article>')
     return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
-            f'<header class="sheet-heading"><p class="eyebrow">{timestamp(card["duration_seconds"])} · {len(books)} OPERE</p>'
+            f'<header class="sheet-heading"><p class="eyebrow">{timestamp(card["duration_seconds"])} · {len(books)} {"OPERA" if len(books) == 1 else "OPERE"}</p>'
             f'<h1>{esc(card["title"])}</h1></header>'
-            f'<div class="sheet-layout"><div>{video_player(ident, card["title"])}<section class="sheet-summary" aria-labelledby="sintesi"><h2 id="sintesi">Il filo del discorso</h2>'
+            f'<div class="sheet-layout"><div>{video_player(ident, card["title"])}<section class="sheet-summary" aria-labelledby="sintesi"><h2 id="sintesi">{summary_heading}</h2>'
             f'<p>{esc(card["summary"])}</p><div class="sheet-actions">'
             f'<a class="text-link" href="{esc(watch(), quote=True)}" target="_blank" rel="noopener noreferrer">Apri su YouTube ↗</a>'
             '<a class="text-link" href="#passaggi">Vai ai passaggi ↓</a></div></section>'
-            f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">I libri nel discorso</h2>{"".join(books)}</section></div>'
+            f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">{books_heading}</h2>{"".join(books)}</section></div>'
             f'<aside class="sheet-passages" aria-labelledby="passaggi"><h2 id="passaggi">Passaggi</h2>'
             f'<ol>{passages}</ol></aside></div>'
-            '<p class="source-note">Minutaggi ricavati da testi automatici, da riascoltare. '
-            'Le identificazioni probabili sono segnalate accanto ai libri.</p></article>')
+            f'<p class="source-note">{source_note}</p></article>')
 
 
 def video_player(ident, title):
@@ -178,6 +185,8 @@ def catalog_video_content(video, bibliography):
         cover = book.get('cover') or {}
         image = (f'<img src="../{esc(cover["src"], quote=True)}" alt="{esc(cover.get("alt") or (cover.get("image_label", "Copertina") + " di " + (cover.get("display_title") or book["title"])), quote=True)}" width="72" height="108" loading="lazy">') if cover.get('src') else ''
         edition = f'<p class="card-book-edition">{esc(cover.get("image_label", "Copertina"))}: {esc(cover["edition_label"])}</p>' if cover.get('edition_label') else ''
+        if cover.get('edition_note'):
+            edition += f'<p class="card-book-edition">{esc(cover["edition_note"])}</p>'
         mentions = [m for m in book['mentions'] if m['video_id'] == ident]
         links = []
         for mention in mentions:

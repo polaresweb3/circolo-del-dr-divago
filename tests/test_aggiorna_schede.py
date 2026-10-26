@@ -29,6 +29,21 @@ class BibliographyIntegrationTest(unittest.TestCase):
         self.assertEqual(len(books[0]['mentions']), 1)  # Gli input non sono modificati.
         again_cards, again_books = integrate(cards, updated, [card], [], videos)
         self.assertEqual((again_cards, again_books), (cards, updated))
+        # Le precisazioni di una citazione probabile non devono diventare
+        # soltanto il nome del motore ASR nella biblioteca esportata.
+        for field in ('note', 'reason'):
+            with self.subTest(annotation_field=field):
+                books, card, videos = self.inputs()
+                ref = card['books'][0]
+                ref['evidence'] = 'riconoscimento_vocale_locale'
+                ref[field] = 'Titolo ricostruito: identificazione probabile, edizione non confermata.'
+                ref['confidence'] = 'identificazione_probabile'
+                cards, updated = integrate([], books, [card], [], videos)
+                new_ref = updated[0]['mentions'][1]
+                self.assertEqual(new_ref['note'], ref[field])
+                self.assertEqual(new_ref['verification'], 'identificazione_probabile')
+                self.assertEqual(updated[0]['mentions'][0], books[0]['mentions'][0])
+                self.assertEqual(integrate(cards, updated, [card], [], videos), (cards, updated))
 
     def test_title_only_reference_gains_timestamp_without_losing_origin(self):
         books, card, videos = self.inputs()

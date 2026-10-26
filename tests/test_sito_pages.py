@@ -141,7 +141,14 @@ class MultipageTests(unittest.TestCase):
                 self.assertGreaterEqual(len(card['topics']), minimum)
                 self.assertGreaterEqual(len(card['passages']), minimum)
                 coverage = card['source_coverage']
-                self.assertGreaterEqual(coverage.get('audio_duration_analyzed', coverage['last_end']), duration - 10)
+                if card['source_type'] == 'analisi_fotogrammi_locali':
+                    self.assertTrue(coverage['partial_visual_sampling'])
+                    self.assertGreater(coverage['frames_reviewed'], 0)
+                    self.assertTrue(coverage['frame_times_seconds'])
+                    self.assertNotIn('audio_duration_analyzed', coverage)
+                    self.assertAlmostEqual(coverage['video_duration_seconds'], duration, delta=10)
+                else:
+                    self.assertGreaterEqual(coverage.get('audio_duration_analyzed', coverage['last_end']), duration - 10)
                 self.assertEqual(card['passages'], sorted(card['passages'], key=lambda p: p['seconds']))
                 for passage in card['passages']:
                     self.assertTrue(0 <= passage['seconds'] < duration)
