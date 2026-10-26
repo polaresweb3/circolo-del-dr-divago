@@ -524,6 +524,16 @@ function filterVideos() {
 function coverAlt(book) {
   return book.cover.alt || `${book.cover.image_label || 'Copertina'} di ${book.cover.display_title || book.title}, ${book.author}`;
 }
+function compactCoverCaption(book) {
+  const cover = book.cover || {};
+  const label = String(cover.caption || cover.edition_label || '').replace(/\s+/g, ' ').trim();
+  if (label && label.length <= 56) return label;
+  if (cover.container_title) return 'Volume di riferimento';
+  const imageLabel = String(cover.image_label || '').replace(/\s+/g, ' ').trim();
+  if (imageLabel && imageLabel.length <= 36) return imageLabel;
+  return LibraryFilters.classify(book.work_type).format === 'text'
+    ? 'Edizione di riferimento' : 'Immagine di riferimento';
+}
 function showBookCover(book) {
   const heading = node('h2', 'dialog-title', book.title);
   heading.id = 'dialog-title';
@@ -534,8 +544,9 @@ function showBookCover(book) {
   const link = node('a', 'text-link', 'Fonte della copertina ↗');
   link.href = book.cover.source_page;
   link.target = '_blank'; link.rel = 'noopener noreferrer';
+  const collection = book.cover.container_title ? [node('p', 'dialog-description', `Volume di riferimento: ${book.cover.container_title}`)] : [];
   const editionNote = book.cover.edition_note ? [node('p', 'dialog-description', book.cover.edition_note)] : [];
-  showDialog([heading, image, caption, ...editionNote, link]);
+  showDialog([heading, image, caption, ...collection, ...editionNote, link]);
 }
 function renderBooks(books) {
   const pages = Math.max(1, Math.ceil(books.length / state.bookPerPage));
@@ -551,7 +562,9 @@ function renderBooks(books) {
     const cover = node('figure', 'book-cover');
     if (book.cover && book.cover.src) {
       const button = node('button', 'book-cover-button');
-      button.setAttribute('aria-label', `Ingrandisci: ${coverAlt(book)}`);
+      button.setAttribute('aria-label', `Apri copertina e dettagli: ${coverAlt(book)}`);
+      button.setAttribute('aria-haspopup', 'dialog');
+      button.title = 'Apri copertina, edizione e fonte';
       const image = node('img');
       image.src = book.cover.src;
       image.alt = coverAlt(book);
@@ -561,24 +574,28 @@ function renderBooks(books) {
       }, {once: true});
       button.append(image);
       button.addEventListener('click', () => showBookCover(book));
-      const caption = `${book.cover.container_title ? `Raccolta: ${book.cover.container_title} · ` : ''}${book.cover.edition_label}`;
-      cover.append(button, node('figcaption', '', caption));
+      cover.append(button, node('figcaption', '', compactCoverCaption(book)));
     } else {
       const workLabel = {saggio: 'Saggio', poesia: 'Poesia'}[book.work_type];
       cover.append(node('span', 'cover-missing', workLabel || 'Copertina non disponibile'));
     }
-    const text = node('div');
+    const text = node('div', 'book-copy');
     const title = node('h3', '', book.title);
     const labels = {verificato: 'VERIFICATO', citazione_esplicita: 'RISCONTRO NEL TESTO AUTOMATICO', riscontro_audio_automatico: 'RISCONTRO VOCALE AUTOMATICO', titolo_nella_trascrizione: 'TITOLO NELLA TRASCRIZIONE', titolo_nel_video: 'NEL TITOLO DEL VIDEO', identificazione_probabile: 'IDENTIFICAZIONE PROBABILE', da_riascoltare: 'DA RIASCOLTARE'};
     title.append(node('span', 'book-state', labels[book.status] || 'DA VERIFICARE'));
     text.append(title);
     if (book.subtitle) text.append(node('p', 'book-subtitle', book.subtitle));
-    text.append(node('p', 'book-author', book.author), node('p', 'book-source', book.source));
+    text.append(node('p', 'book-author', book.author));
     if (book.work_type === 'saggio') text.append(node('p', 'book-work-type', 'Saggio · testo distinto dalle raccolte'));
     if (book.work_type === 'poesia') text.append(node('p', 'book-work-type', 'Poesia · testo distinto dalle raccolte'));
     if (book.work_type === 'articolo') text.append(node('p', 'book-work-type', 'Articolo · testo distinto dal periodico'));
     const videoCount = new Set(book.mentions.map(mention => mention.video_id)).size;
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
+    if (book.source) {
+      const notes = node('details', 'book-details');
+      notes.append(node('summary', '', 'Note sul riferimento'), node('p', 'book-source', book.source));
+      text.append(notes);
+    }
     row.append(cover, text);
     const links = node('div', 'book-links');
     const videoLinks = node('div', 'book-link-group');
@@ -636,7 +653,7 @@ function filterBooks(reset = true, focusId = null) {
     if (!row) continue;
     if (!row.querySelector('.book-work-type')) {
       const kind = LibraryFilters.kinds.find(([id]) => id === entry.kind)?.[1];
-      if (kind) row.children[1].append(node('p', 'book-work-type', kind));
+      if (kind) row.children[1].insertBefore(node('p', 'book-work-type', kind), row.children[1].querySelector('.book-mentions-count'));
     }
   }
   if (themeId !== 'all') {
