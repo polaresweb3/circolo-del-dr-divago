@@ -38,7 +38,6 @@ def book_cards(books):
             '<div class="editorial-book-copy">'
             f'<p class="editorial-book-author">{escape(book["author"])}</p><h3>{escape(book["title"])}</h3>'
             f'<p class="editorial-book-note">{escape(note)}</p>'
-            '<span class="editorial-book-action">Libro e riferimenti <span aria-hidden="true">→</span></span>'
             '</div></a></article>')
     return ''.join(result)
 
