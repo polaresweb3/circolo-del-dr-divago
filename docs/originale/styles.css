@@ -334,14 +334,15 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .blog-categories a { display: inline-flex; align-items: center; min-height: 2.75rem; padding-block: .5rem; border-bottom: 1px solid var(--rule); color: var(--green); font-size: .875rem; }
 .blog-categories a:hover { border-color: var(--accent); color: var(--accent); }
 .blog-card .blog-byline { margin-bottom: .75rem; color: var(--accent); font-family: var(--serif); }
-.blog-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
-.blog-rubric { min-width: 0; scroll-margin-top: 2rem; }
+.blog-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2rem, 5vw, 5rem); row-gap: 0; align-items: start; }
+.blog-rubric { display: grid; grid-row: span 5; grid-template-rows: subgrid; row-gap: 0; min-width: 0; scroll-margin-top: 2rem; }
 .blog-rubric > .eyebrow { margin-bottom: .875rem; }
 .blog-rubric h2 { margin-bottom: 1.5rem; }
+.blog-rubric > .rubric-subtitle, .blog-rubric > .rubric-description { margin-top: 0; }
 .rubric-subtitle { max-width: 40rem; margin-bottom: 1.5rem; color: var(--green); font: 1.4rem/1.7 var(--serif); }
 .rubric-description, .blog-newsletter p:not(.eyebrow):not(.preparation-status) { color: var(--muted); font-size: .9375rem; line-height: 1.95; }
 .blog-empty { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font: italic 1.125rem/1.8 var(--serif); }
-.blog-newsletter { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; align-items: center; padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--rule); background: #eeebe1; }
+.blog-newsletter { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; align-items: center; margin-top: clamp(2rem, 5vw, 5rem); padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--rule); background: #eeebe1; }
 .blog-newsletter .eyebrow { margin-bottom: 1rem; }
 .blog-newsletter h2 { margin-bottom: 1.5rem; font-size: 1.875rem; }
 .preparation-status { display: inline-block; margin-top: 1.5rem; padding: .35rem .75rem; border: 1px solid var(--rule); color: var(--green); font-size: .8125rem; }
@@ -356,6 +357,9 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .home-blog-latest h3 { margin-block: .875rem 1rem; font-size: 1.875rem; line-height: 1.25; }
 @media (max-width: 46rem) {
   .blog-layout, .home-blog, .blog-newsletter { grid-template-columns: minmax(0, 1fr); }
+  .blog-layout { row-gap: 2rem; }
+  .blog-rubric { display: block; grid-row: auto; }
+  .blog-newsletter { margin-top: 0; }
   .home-blog-latest { padding-left: 0; padding-top: 2rem; border-left: 0; border-top: 1px solid var(--rule); }
 }
 
