@@ -28,6 +28,20 @@
     if (/^(dipinto|disegno|mosaico|affresco|scultura|incisione|fotografia|opera grafica)/.test(t)) return {format: 'art', kind: 'art'};
     if (/^(canzone|sinfonia|opera lirica|composizione musicale|inno)/.test(t)) return {format: 'music', kind: 'music'};
     if (/^(filmato|spot televisivo)|videoregistrat/.test(t)) return {format: 'video', kind: 'video'};
+    // Varianti editoriali già esplicite nei metadati: nessuna deduzione dal titolo.
+    if (/^cortometraggio/.test(t)) return {format: 'film', kind: 'film'};
+    if (/^serie di dipinti/.test(t)) return {format: 'art', kind: 'art'};
+    if (/^(composizione strumentale|opera musicale|concerto musicale)/.test(t)) return {format: 'music', kind: 'music'};
+    if (/^(registrazione video|intervento televisivo|confronto televisivo|intervento audiovisivo|sketch televisivo)/.test(t)) return {format: 'video', kind: 'video'};
+    if (/^musical$/.test(t)) return {format: 'text', kind: 'theatre'};
+    if (/^romance$/.test(t)) return {format: 'text', kind: 'poetry'};
+    if (/^(koan|salmo biblico|passo della mishnah|enciclica|costituzioni religiose)/.test(t)) return {format: 'text', kind: 'religious'};
+    if (/^(vignetta|microtesto narrativo|ciclo narrativo)/.test(t)) return {format: 'text', kind: 'narrative'};
+    if (/^(conversazioni e memorie|testo autobiografico)/.test(t)) return {format: 'text', kind: 'memoir'};
+    if (/^(dossier di rivista|periodico|serie di articoli|fascicolo|numero monografico|numero di giornale|editoriale|case report)/.test(t)) return {format: 'text', kind: 'article'};
+    if (/^(legge |codice etico|provvedimento giudiziario|carta giuridica|carta costitutiva|testo e registrazione sonora|appello politico|opinione giudiziaria|tre appelli radiofonici|bozza di direttiva|definizione operativa|titolo di legge|ordinanza|risposta a un indirizzo)/.test(t)) return {format: 'text', kind: 'document'};
+    if (/^(inchiesta|opera giuridica|commento teologico|opera storica|opera storico|monografia|opera enciclopedica|capitolo scientifico|testo di etica medica|conferenze)/.test(t)) return {format: 'text', kind: 'essay'};
+    if (/^(papiro matematico|dialogo|scritti e progetto|opera collettiva|corpus di fonti|classico cinese)/.test(t)) return {format: 'text', kind: 'book'};
     let kind = 'unknown';
     if (/^(lettera|epistola(?! in versi)|epistolario|carteggio|raccolta (di lettere|epistolare))/.test(t)) kind = 'letters';
     else if (/^(autobiografia|biografia|memori|diari|testimonianza|prosa autobiografica|narrazione autobiografica)/.test(t)) kind = 'memoir';
