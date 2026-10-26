@@ -1,6 +1,7 @@
 """Genera le pagine del sito e le corrispondenti anteprime offline collegate."""
 import base64
 import fcntl
+import hashlib
 from copy import deepcopy
 import html
 import json
@@ -379,8 +380,12 @@ def _build_site(root, pages=None):
         page = page.replace('data-page="video"', 'data-page="scheda"')
         documents.append(("scheda", filename, page, []))
     style = (source / "styles.css").read_text(encoding="utf-8")
+    style_version = hashlib.sha256(style.encode("utf-8")).hexdigest()[:12]
     script = (source / "app.js").read_text(encoding="utf-8")
     for key, filename, page, datasets in documents:
+        prefix = "../" if key in ("articolo", "scheda") else ""
+        stylesheet = f'<link rel="stylesheet" href="{prefix}styles.css?v={style_version}">'
+        page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', stylesheet)
         target = source / filename
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
@@ -389,8 +394,7 @@ def _build_site(root, pages=None):
             if key == "biblioteca" or (key == "home" and book["id"] in featured):
                 embed_cover(source, book.get("cover"))
         safe_json = json.dumps(embedded, ensure_ascii=False).replace("<", "\\u003c")
-        prefix = "../" if key in ("articolo", "scheda") else ""
-        page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', "<style>" + style + "</style>")
+        page = page.replace(stylesheet, "<style>" + style + "</style>")
         page = page.replace(f'<script src="{prefix}app.js" defer></script>', "")
         page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
         page = offline_links(page, filename, mapping)
