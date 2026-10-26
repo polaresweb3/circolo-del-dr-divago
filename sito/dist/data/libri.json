@@ -60,7 +60,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "destra-e-sinistra-bobbio",
@@ -111,7 +112,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "crepuscolo-horkheimer",
@@ -189,7 +191,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di pensieri"
   },
   {
     "id": "questione-della-colpa-jaspers",
@@ -301,7 +304,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "fuga-dalla-liberta-fromm",
@@ -506,7 +510,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "concerto-dei-pesci-laxness",
@@ -562,7 +567,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "ideologia-del-lupo-caldarella",
@@ -685,7 +691,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "libri-della-mia-vita-salamov",
@@ -735,7 +742,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "prosa autobiografica"
   },
   {
     "id": "sulla-stupidita-musil",
@@ -860,7 +868,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "avvenire-nostre-scuole-nietzsche",
@@ -954,7 +963,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "beffe-e-beffatori-caldarella",
@@ -1149,7 +1159,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "libro"
   },
   {
     "id": "cade-ancora-neve-caldarella",
@@ -1210,7 +1221,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "libro"
   },
   {
     "id": "algebra-degli-scacchi-caldarella",
@@ -1298,7 +1310,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di pensieri"
   },
   {
     "id": "metafisiche-del-mondo-caldarella",
@@ -1525,7 +1538,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "saggio-arte-di-strisciare-holbach",
@@ -1585,7 +1599,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "saggio-sulla-liberta-mill",
@@ -1659,7 +1674,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "lanterna-del-filosofo-ceronetti",
@@ -1709,7 +1725,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "consolazione-della-filosofia-boezio",
@@ -1843,7 +1860,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "disagio-della-civilta-freud",
@@ -1996,7 +2014,8 @@
     },
     "search_aliases": [
       "Il disagio nella civiltà"
-    ]
+    ],
+    "work_type": "saggio"
   },
   {
     "id": "psicologia-delle-masse-freud",
@@ -2125,7 +2144,8 @@
     },
     "search_aliases": [
       "Psicologia delle masse"
-    ]
+    ],
+    "work_type": "saggio"
   },
   {
     "id": "nel-ventre-della-balena-orwell",
@@ -2178,7 +2198,8 @@
     },
     "search_aliases": [
       "Nel ventre della balena"
-    ]
+    ],
+    "work_type": "raccolta di saggi"
   },
   {
     "id": "il-tradimento-del-se-gruen",
@@ -2237,7 +2258,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "minima-moralia-adorno",
@@ -2420,7 +2442,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di pensieri"
   },
   {
     "id": "breviario-del-caos-caraco",
@@ -2482,7 +2505,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di pensieri"
   },
   {
     "id": "fare-squadra-malaguti",
@@ -2537,7 +2561,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "manuale"
   },
   {
     "id": "fattoria-degli-animali-orwell",
@@ -2706,7 +2731,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "1984-orwell",
@@ -3572,7 +3598,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "ballata-del-vecchio-marinaio-coleridge",
@@ -3651,7 +3678,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "poema"
   },
   {
     "id": "perche-la-guerra-einstein-freud",
@@ -3734,7 +3762,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "epistolario"
   },
   {
     "id": "aut-aut-kierkegaard",
@@ -3787,7 +3816,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "critica-del-giudizio-kant",
@@ -3885,7 +3915,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "critica-della-ragion-pratica-kant",
@@ -4103,7 +4134,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "elogio-della-follia-erasmo",
@@ -4166,7 +4198,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "mondo-volonta-rappresentazione-schopenhauer",
@@ -4384,7 +4417,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "pensieri-educazione-locke",
@@ -4440,7 +4474,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "emilio-rousseau",
@@ -4502,7 +4537,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "lentezza-kundera",
@@ -4564,7 +4600,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "riflessioni-cause-liberta-oppressione-weil",
@@ -4615,7 +4652,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "visera-salamov",
@@ -4667,7 +4705,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "prosa autobiografica"
   },
   {
     "id": "quarta-vologda-salamov",
@@ -4717,7 +4756,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "prosa autobiografica"
   },
   {
     "id": "demoni-dostoevskij",
@@ -4792,7 +4832,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "diario-scrittore-dostoevskij",
@@ -4843,7 +4884,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di saggi"
   },
   {
     "id": "origine-delle-specie-darwin",
@@ -4946,7 +4988,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "capitale-marx",
@@ -5104,7 +5147,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "macchina-del-tempo-wells",
@@ -5311,7 +5355,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "ricerche-liberta-umana-schelling",
@@ -5366,7 +5411,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "democrazia-in-america-tocqueville",
@@ -5417,7 +5463,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "cosiddetti-sani-fromm",
@@ -5533,7 +5580,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "difesa-della-luna-ceronetti",
@@ -5600,7 +5648,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "uomo-morale-societa-immorale-niebuhr",
@@ -5687,7 +5736,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "zibaldone-leopardi",
@@ -5789,7 +5839,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "raccolta di pensieri"
   },
   {
     "id": "elementi-euclide",
@@ -5954,7 +6005,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "convivio-dante",
@@ -6003,7 +6055,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "georgiche-virgilio",
@@ -6053,7 +6106,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "poema"
   },
   {
     "id": "contratto-sociale-rousseau",
@@ -6230,7 +6284,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "divina-commedia-dante",
@@ -6655,7 +6710,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "poema"
   },
   {
     "id": "don-chisciotte-cervantes",
@@ -6819,7 +6875,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "fratelli-karamazov-dostoevskij",
@@ -7020,7 +7077,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "processo-kafka",
@@ -7169,7 +7227,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "bibbia",
@@ -8589,7 +8648,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "testo religioso"
   },
   {
     "id": "memorie-del-sottosuolo-dostoevskij",
@@ -8706,7 +8766,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "diari-kafka",
@@ -8763,7 +8824,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "diari"
   },
   {
     "id": "uomo-senza-qualita-musil",
@@ -8861,7 +8923,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "nietzsche-heidegger",
@@ -8959,7 +9022,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "dizionario-opere-filosofiche-volpi",
@@ -9009,7 +9073,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "dizionario"
   },
   {
     "id": "fini-e-mezzi-huxley",
@@ -9097,7 +9162,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "chi-e-uomo-heschel",
@@ -9234,7 +9300,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "sistema-della-natura-holbach",
@@ -9298,7 +9365,8 @@
         "height": 159,
         "method": "Decodifica completa e verifica struttura con Pillow; per SVG decodifica della fotografia JPEG incorporata."
       }
-    }
+    },
+    "work_type": "trattato"
   },
   {
     "id": "vestiti-nuovi-imperatore-andersen",
@@ -9564,7 +9632,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "fiaba"
   },
   {
     "id": "papa-giulio-scacciato-cieli-erasmo",
@@ -9654,7 +9723,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "dialogo satirico"
   },
   {
     "id": "disobbedienza-problema-psicologico-morale-fromm",
@@ -9780,7 +9850,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "che-cosa-significa-pensare-heidegger",
@@ -9884,7 +9955,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "utopia-moro",
@@ -9947,7 +10019,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "tramonto-occidente-spengler",
@@ -10059,7 +10132,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "martyrdom-of-man-reade",
@@ -10111,7 +10185,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "private-papers-henry-ryecroft-gissing",
@@ -10175,7 +10250,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "such-such-were-the-joys-orwell",
@@ -10294,7 +10370,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "prosa autobiografica"
   },
   {
     "id": "why-i-write-orwell",
@@ -10408,7 +10485,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "shooting-an-elephant-orwell",
@@ -10580,7 +10658,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "fiorira-aspidistra-orwell",
@@ -10657,7 +10736,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "in-front-of-your-nose-orwell",
@@ -10835,7 +10915,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "omaggio-catalogna-orwell",
@@ -10899,7 +10980,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "prosa autobiografica"
   },
   {
     "id": "looking-back-spanish-war-orwell",
@@ -11070,7 +11152,8 @@
         "method": "Controllo delle tavole di tutte le copertine, associate a titolo e identificativo; fonte incorporata controllata separatamente per SVG.",
         "notes": "Copertina reale della stessa opera o raccolta dichiarata; le fotografie di esemplari storici possono avere risoluzione limitata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "some-thoughts-common-toad-orwell",
@@ -13127,7 +13210,8 @@
         "height": 1469,
         "method": "Decodifica completa e verifica struttura con Pillow; per SVG decodifica della fotografia JPEG incorporata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "if-kipling",
@@ -13398,7 +13482,8 @@
         "height": 500,
         "method": "Decodifica completa e verifica struttura con Pillow; per SVG decodifica della fotografia JPEG incorporata."
       }
-    }
+    },
+    "work_type": "romanzo"
   },
   {
     "id": "labirinti-cuore-caldarella",
@@ -15207,7 +15292,8 @@
         "height": 945,
         "method": "Decodifica completa e verifica struttura con Pillow; per SVG decodifica della fotografia JPEG incorporata."
       }
-    }
+    },
+    "work_type": "saggio"
   },
   {
     "id": "nome-della-rosa-eco",
@@ -128364,7 +128450,7 @@
     "alternative_titles": [],
     "year": 2014,
     "status": "citazione_esplicita",
-    "source": "Film Selma nominato da 2873 s nella critica del relatore alla rappresentazione di Heschel. Identità dell’opera e ruolo della regista verificati tramite Paramount. La presenza di Heschel alla marcia è documentata; l’asserita omissione filmica e le intenzioni attribuite ai produttori non sono state accertate dalla visione integrale del film.",
+    "source": "Il film Selma viene nominato a 47 minuti e 53 secondi dall’inizio del video, nella critica del relatore alla rappresentazione di Heschel. Identità dell’opera e ruolo della regista verificati tramite Paramount. La presenza di Heschel alla marcia è documentata; l’asserita omissione filmica e le intenzioni attribuite ai produttori non sono state accertate dalla visione integrale del film.",
     "references": [
       {
         "label": "Paramount Pictures, scheda del film Selma, regia di Ava DuVernay",
@@ -146686,5 +146772,1052 @@
         "export_scope": "Solo frontespizio; nessuna pagina del corpo moderno del resoconto nell’asset."
       }
     }
+  },
+  {
+    "id": "miseria-nobilta-mattoli-film",
+    "title": "Miseria e nobiltà",
+    "author": "Mario Mattoli (regia)",
+    "work_type": "film",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "publication_year": 1954,
+    "country": "Italia",
+    "director": "Mario Mattoli",
+    "literary_source": "Commedia omonima di Eduardo Scarpetta",
+    "edition_cited": null,
+    "source": "Nel video si ricorda un film con Totò che interpreta uno scrivano di lettere per strada, senza pronunciarne il titolo. Cinematografo identifica lo scrivano pubblico don Felice e assegna a Totò il ruolo di Felice Sciosciamocca in Miseria e nobiltà, film 1954 diretto da Mario Mattoli, confermato dalla Cineteca di Bologna. Identificazione probabile del rinvio, non riconoscimento di attori dal volto o visione integrale aggiuntiva del film. La spiegazione del declino del mestiere per alfabetizzazione resta del relatore e non è convalidata dalla sola sinossi. Non la versione teatrale Rai 2023 né la commedia testuale come record sostitutivo.",
+    "references": [
+      {
+        "label": "Fondazione Ente dello Spettacolo / Cinematografo · Miseria e nobiltà, 1954: scrivano Felice e ruolo di Totò",
+        "url": "https://www.cinematografo.it/film/miseria-e-nobilta-nxx5k7id"
+      },
+      {
+        "label": "Cineteca di Bologna · Miseria e nobiltà (Italia 1954), regia Mario Mattoli: scheda e immagine di scena",
+        "url": "https://cinetecadibologna.it/programmazione/proiezione/miseria-e-nobilta/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "vWc8YXYGI-U",
+        "seconds": 1537.82,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 1537.82–1545.86 s l’ASR riporta un film di Toto e dice che interpreta; a 1545.86–1552.68 s specifica uno che scrive le lettere per strada; a 1552.68–1557.92 s attribuisce la fame al fatto che le persone imparano a scrivere. Titolo e regista non pronunciati.",
+        "role": "riferimento",
+        "video_title": "Come accostarsi alla lettura di un libro?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/miseria-nobilta-mattoli-film.webp",
+      "image_url": "https://cinetecadibologna.it/programmazione/wp-content/uploads/2023/11/toto-miseria-e-nobilta-e1701166889116.webp",
+      "source_page": "https://cinetecadibologna.it/programmazione/proiezione/miseria-e-nobilta/",
+      "edition_label": "Immagine di scena/promozionale in bianco e nero pubblicata dalla Cineteca di Bologna nella scheda del film Miseria e nobiltà, Italia 1954, Mario Mattoli. Il file è usato per le riproposizioni della Cineteca 2023–2025: non è la copertina di un libro, una locandina del teatro Rai 2023 o un fotogramma della scena dello scrivano verificato in visione continua. La fonte non indica autore/data dello scatto o specifica edizione/restauro.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Il film è catalogato come Ferraniacolor: questa immagine promozionale è in bianco e nero, come fornita dall’istituzione. Nessuna conclusione sulla copia filmica vista dal relatore o sulla data dello scatto è tratta dal percorso di caricamento 2023.",
+      "cover_relation": "immagine_promozionale_specifica_del_film_da_scheda_cineteca",
+      "asset_sha256": "f9cd802472ed9902e6ca9e6d3faca0c1c649bacbe182a7314275101b3bbe5f08",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T07:18:49.593046+00:00",
+        "width": 1024,
+        "height": 752,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "WEBP nativo 354414 byte, HTTP 200 image/webp, dal collegamento immagine della scheda istituzionale esatta; nessuna conversione di colore, modifica, ricostruzione o ingrandimento."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T07:18:49.593046+00:00",
+        "notes": "Intera immagine vista personalmente con view_image detail original: persona che porta spaghetti alla bocca accanto a un’altra figura, in bianco e nero; l’associazione al film deriva dalla specifica pagina della Cineteca, non dal riconoscimento facciale dell’interprete. Immagine scenica autentica, non locandina teatrale generica o segnaposto."
+      },
+      "image_label": "Immagine di scena/promozionale del film · Cineteca di Bologna"
+    },
+    "verified": false,
+    "human_audio_review": false
+  },
+  {
+    "id": "lettera-dimissioni-mainz-aigner-2020",
+    "title": "Lettera di dimissioni dall’Akademie der Wissenschaften und der Literatur Mainz (19 dicembre 2020)",
+    "title_type": "titolo_catalografico_descrittivo_non_titolo_formale_pronunciato",
+    "author": "Thomas Aigner",
+    "work_type": "lettera di dimissioni",
+    "composition_year": 2020,
+    "document_date": "2020-12-19",
+    "first_publication_year": null,
+    "personal_source_publication_date": null,
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "human_audio_review": false,
+    "verified": false,
+    "edition_cited": null,
+    "source": "Probabile lettera di Aigner richiamata nel video. Nel PDF pubblicato sul sito personale la chiusa reca T. Aigner, Tübingen e Via Email 19.12.2020. Il destinatario è il presidente dell’Accademia di Magonza; la Leopoldina è coinvolta per conoscenza e per il documento criticato. È un atto di dissenso, non una convalida automatica delle tesi mediche del relatore.",
+    "references": [
+      {
+        "label": "Thomas Aigner, lettera al presidente dell’Akademie der Wissenschaften und der Literatur Mainz: PDF pubblicato nel sito personale, chiusa con indicazione Via Email 19.12.2020",
+        "url": "https://geo-prof-aigner.weebly.com/uploads/1/2/0/2/12020907/an_den_pr%C3%A4sidenten_der_akademie_der_wissenschaften.oa.pdf"
+      },
+      {
+        "label": "GEO-PROF-AIGNER, sito personale di Thomas Aigner, geoscienziato a Tubinga; pagina non datata",
+        "url": "https://geo-prof-aigner.weebly.com/"
+      },
+      {
+        "label": "Impressum del sito personale: Thomas Aigner è il responsabile dichiarato",
+        "url": "https://geo-prof-aigner.weebly.com/impressum--datenschutz.html"
+      },
+      {
+        "label": "Università di Tubinga, profilo di Thomas Aigner: geoscienze, facoltà scientifica",
+        "url": "https://fit.uni-tuebingen.de/Portfolio/Details?id=181"
+      },
+      {
+        "label": "Südthüringer Rundschau, 6 gennaio 2021: riproduzione testuale della lettera e destinatari; fotografia Pixabay esclusa",
+        "url": "https://www.rundschau.info/prof-dr-thomas-aigner-ich-kann-es-mit-meinem-gewissen-nicht-vereinbaren-ein-teil-dieser-art-von-wissenschaft-zu-sein/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "DDCi7rkSh5s",
+        "seconds": 1400.85,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 196–197, 1400,85–1427,49 s: nome di Thomas Aigner e Università di Tubinga. Segmenti 213–233, 1515,32–1677,45 s: dimissioni, critica al parere scientifico e lettera collegata; ulteriore richiamo a 2857 s. La trascrizione automatica indica la Leopoldina come accademia da cui si dimette. Il documento primario riguarda Magonza; la Leopoldina è destinataria per conoscenza e autrice del parere contestato. Titolo formale, destinatari precisi e data non pronunciati.",
+        "role": "riferimento",
+        "video_title": "La (ventottesima) dimensione pandemica."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/aigner467-intestazione.png",
+      "image_url": "https://geo-prof-aigner.weebly.com/uploads/1/2/0/2/12020907/an_den_pr%C3%A4sidenten_der_akademie_der_wissenschaften.oa.pdf",
+      "source_page": "https://geo-prof-aigner.weebly.com/",
+      "edition_label": "Intestazione documentaria della prima pagina del PDF della lettera: destinatario Reiner Anderl, presidente dell’Accademia di Magonza, e destinatari per conoscenza. Documento datato nella chiusa 19 dicembre 2020; sito personale non datato.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Ritaglio contiguo dei soli destinatari, sopra il saluto e il corpo. Mittente e data sono letti nella seconda pagina del documento privato, non appaiono in questa intestazione e non vi sono stati aggiunti. Non frontespizio, copertina, ritratto, lettera manoscritta o prova di autografia.",
+      "cover_relation": "intestazione_originale_lettera_destinatari",
+      "image_label": "Intestazione della lettera di Aigner: destinatari",
+      "credit_line": "Thomas Aigner / GEO-PROF-AIGNER",
+      "rights_note": "Documento pubblicato nel sito personale dell’autore; nessuna attribuzione di pubblico dominio. Il corpo moderno resta privato, esportabile soltanto l’intestazione documentaria limitata.",
+      "asset_sha256": "8914aebb67abf6fa23c8ade03cf6013b896a9e8edaf1fc2c1c781db41e12a717",
+      "integrity_review": {
+        "decoded": true,
+        "width": 1053,
+        "height": 361,
+        "checked_at": "2026-10-26T07:21:01.063723+00:00",
+        "method": "Pillow verify, riapertura e load completo; SHA-256 dei byte originali. Ritaglio rettangolare PDF e rasterizzazione Poppler a 150 dpi, non ingrandimento di una bitmap. Nessun padding, ricomposizione, modifica DOM/CSS o riscrittura del testo."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T07:21:01.063723+00:00",
+        "method": "Visione personale dell’intera intestazione rasterizzata con view_image.",
+        "notes": "Visibili l’Accademia delle scienze e della letteratura di Magonza, Reiner Anderl, e i destinatari per conoscenza Burkhard Hillebrands, membri della classe scientifica e Gerald Haug della Leopoldina. Nessun corpo argomentativo, firma o data nel ritaglio."
+      },
+      "source_extraction": {
+        "document_url": "https://geo-prof-aigner.weebly.com/uploads/1/2/0/2/12020907/an_den_pr%C3%A4sidenten_der_akademie_der_wissenschaften.oa.pdf",
+        "source_pdf_sha256": "692fa211f55cdfece4b01417e713839689e22c33f7ec4191e4b0f7cd0360ba72",
+        "page_index": 0,
+        "crop_box_points": [
+          45,
+          642,
+          550,
+          815
+        ],
+        "render_dpi": 150,
+        "document_page_count": 2,
+        "body_exported": false
+      }
+    },
+    "publication_year": null
+  },
+  {
+    "id": "prince-ligne-sainte-beuve-1853",
+    "title": "Le prince de Ligne (I–II)",
+    "author": "Charles-Augustin Sainte-Beuve",
+    "work_type": "saggio critico in due parti, raccolto in Causeries du lundi",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "publication_year": 1853,
+    "publication_year_scope": "Data del contributo in due parti, giugno 1853; non anno del tomo Garnier 1854 né della traduzione inglese 1899. La prima parte reca 13 giugno 1853 nel testo accademico; non si certifica qui il giorno della seconda parte, con lettura digitale della data non convalidata su facsimile.",
+    "edition_cited": null,
+    "source": "A 474,80–496,50 s il relatore associa l’homme aimable a Sainte-Beuve e ricorda un celebrato saggio su Ligne, senza pronunciarne titolo o edizione. Identificazione probabile con Le prince de Ligne, I–II: il testo francese tratta specificamente l’homme aimable alle pp. 245–247 della terza edizione [1867]; lo stesso sviluppo è tradotto alle pp. 10–12 dell’Introduction della raccolta Wormeley. Il riferimento non è dedotto dal solo tema o dal nome dell’autore. Non si attribuisce a Sainte-Beuve l’invenzione certa dell’espressione: il saggio riporta e commenta anche le formulazioni di Ligne. La successiva raccolta di scritti politici ricordata dal relatore è distinta e non riceve un titolo da questa collazione.",
+    "editorial_relationship": "Saggio di Sainte-Beuve, non opera autonoma in volume ricostruita. I–II sono due parti dello stesso contributo; in Causeries du lundi VIII, Garnier 1854, pp. 189–219 (II da p. 205, contributo seguente p. 220); nella terza edizione Garnier [1867], pp. 234–272. La raccolta Wormeley già canonica memoirs-letters-miscellaneous-ligne ne contiene la traduzione inglese, Introduction pp. 1–33: indice e nota p. 1 dichiarano autore e provenienza Causeries du Lundi, giugno 1853. La nuova voce riguarda il saggio effettivamente richiamato e non duplica l’antologia o la prefazione Staël. Nessuna lettura integrale del tomo francese è dichiarata.",
+    "container_id": "memoirs-letters-miscellaneous-ligne",
+    "references": [
+      {
+        "label": "Université Paris-Sorbonne / LABEX OBVIL: Le prince de Ligne I–II, in Causeries du lundi VIII, terza edizione Garnier [1867], pp. 234–272; testo di Sainte-Beuve del giugno 1853",
+        "url": "https://obtic.huma-num.fr/obvil-web/corpus/sainte-beuve/html/sainte-beuve_causeries-du-lundi-ed-03_08.html"
+      },
+      {
+        "label": "Indice della riproduzione Causeries du lundi VIII, Garnier 1854: Le prince de Ligne I p. 189, II p. 205, testo successivo p. 220",
+        "url": "https://fr.wikisource.org/wiki/Livre:Sainte-Beuve_-_Causeries_du_lundi,_VIII,_1854.djvu"
+      },
+      {
+        "label": "Internet Archive / University of California Libraries: frontespizio del volume I della traduzione Wormeley, con Introduction di C.-A. Sainte-Beuve",
+        "url": "https://archive.org/details/princedelignehis02lign/page/n11/mode/1up"
+      },
+      {
+        "label": "Traduzione Wormeley, volume I, pp. 10–12: discussione dell’homme aimable nel saggio introduttivo di Sainte-Beuve",
+        "url": "https://archive.org/details/princedelignehis02lign/page/n26/mode/1up"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "oz20Ah8VcsI",
+        "seconds": 474.8,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cues 60–61, 474.80–496.50 s: l’ASR rende il nome come Saint Beav e associa l’homme aimable a un celebrato saggio sul principe. Titolo, data, tomo e traduzione non pronunciati. Cues 62–63, 496.50–535.12 s, introducono invece una diversa raccolta recente di scritti politici in francese.",
+        "role": "riferimento",
+        "video_title": "Charles-Joseph de Ligne. Un ritratto del Settecento."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ligne-memoirs432-frontespizio.jpg",
+      "image_url": "https://ia800101.us.archive.org/BookReader/BookReaderImages.php?zip=%2F24%2Fitems%2Fprincedelignehis02lign%2Fprincedelignehis02lign_jp2.zip&file=princedelignehis02lign_jp2%2Fprincedelignehis02lign_0011.jp2&id=princedelignehis02lign&scale=1&rotate=0",
+      "source_page": "https://archive.org/details/princedelignehis02lign/page/n11/mode/1up",
+      "edition_label": "Frontespizio del volume I di The Prince de Ligne: His Memoirs, Letters, and Miscellaneous Papers, traduzione Katharine Prescott Wormeley, Brentano’s, New York, raccolta 1899 (anno da copyright/catalogo, non stampato sul frontespizio). Contiene la traduzione del saggio di Sainte-Beuve come Introduction, pp. 1–33: provenienza Causeries du Lundi, giugno 1853, dichiarata nella nota a p. 1; passo sull’homme aimable alle pp. 10–12. È il frontespizio della raccolta contenente, non copertina autonoma del saggio francese 1853 o del tomo Garnier 1854.",
+      "edition_note": "Frontespizio del volume I di The Prince de Ligne: His Memoirs, Letters, and Miscellaneous Papers, traduzione Katharine Prescott Wormeley, Brentano’s, New York, raccolta 1899 (anno da copyright/catalogo, non stampato sul frontespizio). Contiene la traduzione del saggio di Sainte-Beuve come Introduction, pp. 1–33: provenienza Causeries du Lundi, giugno 1853, dichiarata nella nota a p. 1; passo sull’homme aimable alle pp. 10–12. È il frontespizio della raccolta contenente, non copertina autonoma del saggio francese 1853 o del tomo Garnier 1854. In basso VOLUME VI indica la serie Old French Court Memoirs; VOLUME I indica il tomo dell’antologia. Il record IA terminante 02 è etichettato erroneamente volume 2. Nessuna edizione posseduta o letta nel video è certificata.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "frontespizio_raccolta_contenente_traduzione_del_saggio",
+      "image_label": "Frontespizio della raccolta inglese contenente la traduzione del saggio, pp. 1–33",
+      "asset_sha256": "9913a94e6bb98d5a83d98ab6ee016ad67e7c1a360fef56fa072a23454b594f8a",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T07:30:03.494320+00:00",
+        "width": 1742,
+        "height": 2979,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Riuso locale immutato dell’asset verificato nel lotto 432, senza richieste di rete o trasformazioni; Pillow verify e riapertura/load ripetuti nel lotto 469, SHA identico."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T07:30:03.494320+00:00",
+        "method": "Intera immagine personalmente vista con view_image detail original nel lotto 469.",
+        "notes": "Visti titolo completo, IN TWO VOLUMES / VOLUME I, introduzione C.-A. Sainte-Beuve, prefazione Madame de Staël-Holstein, traduttrice Katharine Prescott Wormeley, numero di serie VOLUME VI e Brentano’s New York. Non immagine del testo francese originale; anno non visibile. Contenimento verificato separatamente con indice, nota p. 1 e collazione del passo pp. 10–12."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false
+  },
+  {
+    "id": "sleeping-girl-attribuita-fetti",
+    "title": "Sleeping Girl (Young Woman Sleeping)",
+    "alternative_titles": [
+      "Sleeping Girl",
+      "Young Woman Sleeping",
+      "Ragazza dormiente"
+    ],
+    "author": "Attribuzione discussa: Theodoor van Loon (?) nella scheda museale Google Arts; Domenico Fetti nel parlato",
+    "work_type": "dipinto",
+    "status": "identificazione_probabile",
+    "source": "Il relatore nomina Domenico Fetti, data 1620–22 e titolo Sleeping Girl nel passaggio sulla posa di una ragazza addormentata. L’opera di Budapest è identificata probabilmente dal titolo e dalla documentata attribuzione storica; la scheda distribuita dal museo tramite Google Arts, inventario 609, propone Theodoor van Loon con punto interrogativo e ca. 1630. Nessuna attribuzione definitiva viene imposta alle fonti divergenti.",
+    "bibliographic_verified": true,
+    "attribution_verified": false,
+    "edition_cited": null,
+    "collection": "Museum of Fine Arts, Budapest",
+    "inventory_number": "609",
+    "medium": "olio su tela",
+    "dimensions_cm": {
+      "height": 67.5,
+      "width": 74
+    },
+    "date_display": "ca. 1630 nella scheda museale Google Arts; 1620–22 nel parlato e nel record storico della riproduzione",
+    "attribution_note": "I metadati museali distribuiti attraverso Google Arts mantengono il dubbio con (?). Il file storico Commons richiama Fetti e altre proposte attributive. Le pagine secondarie che parlano di anonimo attivo a Roma non sostituiscono un’attuale scheda primaria esaminata e non sono usate per dichiarare risolta la paternità.",
+    "references": [
+      {
+        "label": "Museum of Fine Arts Budapest / Google Arts & Culture: Young Woman Sleeping, inventario 609; attribuzione Theodoor van Loon (?) e data ca. 1630",
+        "url": "https://artsandculture.google.com/asset/young-woman-sleeping-theodoor-van-loon/8AHWSZm0Jma6rQ"
+      },
+      {
+        "label": "Riproduzione storica Google Art Project conservata su Wikimedia Commons; provenienza, dimensioni e attribuzioni discusse",
+        "url": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_Google_Art_Project.jpg"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "Ls4FYHuZMWg",
+        "seconds": 3652.69,
+        "title_seconds": 3726.23,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore pronuncia Domenico Fetti, propone una data fra 1620 e 1622 e usa il titolo inglese Sleeping Girl. Il riferimento a Caravaggio è un confronto distinto. L’associazione al dipinto di Budapest usa la storia attributiva, non una identificazione del volto.",
+        "role": "riferimento",
+        "video_title": "L'arte come liberazione dell'anima."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/sleeping-girl-attribuita-fetti.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Domenico_Fetti_-_Sleeping_Girl_-_Google_Art_Project.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domenico_Fetti_-_Sleeping_Girl_-_Google_Art_Project.jpg",
+      "edition_label": "Riproduzione integrale del dipinto conservato al Museum of Fine Arts Budapest, inventario 609. File storico Google Art Project, caricato su Commons nel 2012. La scheda museale Google Arts oggi consultabile reca Young Woman Sleeping, Theodoor van Loon (?) e ca. 1630.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Il nome Fetti e la data 1620–22 sono del parlato e delle vecchie didascalie, non conclusioni attributive definitive. Titolo, inventario e formato individuano l’opera; l’immagine non identifica un’edizione o l’esatto file digitale usato dal relatore. Riproduzione pittorica, non copertina libraria.",
+      "cover_relation": "riproduzione_integrale_del_dipinto",
+      "image_label": "Riproduzione del dipinto · Budapest, inv. 609 · attribuzione discussa",
+      "asset_sha256": "1676aec2cfe1a216e7679648a68ae7ab7a2f474db23ac36121271ef05a448e75",
+      "credit": "Museum of Fine Arts Budapest / Google Art Project, via Wikimedia Commons; riproduzione fedele di opera in pubblico dominio, Public Domain Mark 1.0.",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T07:36:25.217857+00:00",
+        "width": 4436,
+        "height": 4027,
+        "method": "Pillow verify e riapertura con load completo; SHA-256 e confronto SHA-1 con originale Commons. Nessun ridimensionamento o ritocco del file."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T07:36:25.217857+00:00",
+        "notes": "Vista personalmente l’intera riproduzione: figura a occhi chiusi, capo appoggiato sulle braccia, camicia chiara con pieghe e merletti, anello e ornamenti dei capelli, tessuto rosso e oro e fondo scuro. Non dedotti nome, condizione sociale, sentimenti o identità dal volto. Immagine intera corrispondente al file storico Google Art Project del medesimo asset e inventario, non variante di un dipinto omonimo."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "publication_year": null
+  },
+  {
+    "id": "problemi-filosofici-scienza-caldarella",
+    "title": "Problemi filosofici della scienza",
+    "author": "Sergio Caldarella",
+    "work_type": "saggio di filosofia della scienza",
+    "status": "citazione_esplicita",
+    "bibliographic_verified": true,
+    "title_author_verified": true,
+    "year_claimed_by_author": 2011,
+    "publication_year": null,
+    "publication_year_scope": "2011 è dichiarato nella bibliografia personale e pronunciato nella presentazione del video 8gRATvxF5T4; non verificato tramite frontespizio/colophon o catalogo editoriale. I post Blogger datati 2010 includono sidebar aggiornata con pubblicazioni successive e non provano pubblicazione precedente al 2011.",
+    "publisher": null,
+    "isbn": null,
+    "edition_cited": null,
+    "source": "Titolo effettivamente pronunciato nei tre video pertinenti, riconducibile a un’unica opera di Caldarella già riservata. La fonte dell’autore descrive uno studio sulle radici concettuali della scienza e sulle strutture logico-scientifiche. Non risultano verificati editore, collana, paginazione, ISBN o precisa edizione: nessun titolo aggiuntivo o sottotitolo inventato. Non è Problemi filosofici della scienza fisica di Giuseppe Ciri, né l’opera di Nazarov su scienza ed educazione. Nessun contenuto scientifico del volume è dichiarato letto. Ulteriore prova distinta: cinque fotogrammi nativi locali con video SHA confrontato all’inventario, personalmente esaminati; a 896 s sono leggibili titolo e autore sulla coperta del volume fisico. Nessun editore, anno o ISBN sono stati ricavati dai soli fotogrammi; l’identità della persona non viene dedotta dal volto.",
+    "references": [
+      {
+        "label": "Sergio Caldarella, bibliografia personale: titolo e 2011 dichiarati; sidebar aggiornata, non anno del singolo post",
+        "url": "https://drdivagoscave.blogspot.com/2026/09/"
+      },
+      {
+        "label": "Liber Liber, profilo autore: bibliografia selettiva derivata dal profilo Blogger, senza edizione o file di quest’opera",
+        "url": "https://liberliber.it/autori/autori-c/sergio-caldarella/"
+      },
+      {
+        "label": "Profilo autore Academia, categoria Libri pubblicati: titolo e descrizione indicizzati; accesso diretto già bloccato, non ritentato",
+        "url": "https://independent.academia.edu/CaldarellaSergio/Libri%20pubblicati"
+      },
+      {
+        "label": "Filmato pubblico di provenienza del volume mostrato: fotogramma locale nativo verificato a 896 secondi; nessun nuovo download o ascolto",
+        "url": "https://www.youtube.com/watch?v=UvBljyXN6hE&t=896s"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "TaGMTqbdtuo",
+        "seconds": 2083.54,
+        "title_seconds": 2083.54,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "2083.54–2091.12 s, ASR: Per questo io non ho un testo che si intitola Problemi filosofici della scienza, proprio; segue il riferimento all’analisi delle varianti di scala. Titolo riconoscibile ma negazione/pronomi sono fragili nella fonte automatica.",
+        "role": "riferimento",
+        "video_title": "Accompagnando gli ultimi tocchi della pendola di fine d'anno."
+      },
+      {
+        "video_id": "iRHgQW-5_gQ",
+        "seconds": 3217.52,
+        "title_seconds": 3217.52,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "3210.34–3221.50 s, il relatore distingue il tema dei problemi filosofici della scienza da un proprio contributo con testo intitolato così; titolo a 3217.52 s. La locuzione è sentito la propria è una deformazione ASR, non una trascrizione diplomatica corretta su ascolto.",
+        "role": "riferimento",
+        "video_title": "Scienza e immaginazione."
+      },
+      {
+        "video_id": "8gRATvxF5T4",
+        "seconds": 65.31,
+        "title_seconds": 65.31,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "59.86–72.55 s: nella presentazione dell’ospite, il conduttore ricorda un libro dal titolo Problemi filosofici della scienza, pubblicato nel 2011. Il nome Sergio Caldarella è esplicito in apertura a 7.02 s.",
+        "role": "riferimento",
+        "video_title": "Com'è possibile il sovvertimento del mondo? Conversazione con Andrea Grieco."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/problemi-filosofici-scienza-caldarella-fotogramma473.png",
+      "image_url": "https://www.youtube.com/watch?v=UvBljyXN6hE&t=896s",
+      "source_page": "https://www.youtube.com/watch?v=UvBljyXN6hE&t=896s",
+      "source_type": "fotogramma_da_video_locale_inventariato",
+      "edition_confirmed_in_video": false,
+      "edition_label": "Fotogramma nativo intero del filmato La filosofia è scienza (e la scienza è filosofia), a 896 secondi: fotografia del volume effettivamente mostrato, con titolo Problemi Filosofici della Scienza e autore Sergio Caldarella leggibili. La mano copre parte inferiore/destra della coperta e alcuni segnalibri sporgono. Immagine parziale del volume nel suo contesto, non copertina editoriale autonoma, frontespizio o ricostruzione grafica. Nessun editore, ISBN o anno è leggibile; edizione della copia non determinata.",
+      "edition_note": "2011 deriva dalla bibliografia dell’autore e dalla presentazione in un altro contributo, non da questo fotogramma. Il file mantiene l’intera inquadratura, il leggio e la lavagna; nessun ritaglio, raddrizzamento, ingrandimento, ritocco o completamento delle zone coperte.",
+      "image_label": "Foto parziale del volume mostrato, da fotogramma a 896 s; edizione non determinata",
+      "cover_relation": "fotografia_parziale_del_volume_mostrato_in_fotogramma_nativo_intero",
+      "asset_sha256": "87198f1f998137b1106864047c526dd556b8ea9a38cc66632b5760dc07def551",
+      "source_video_sha256": "adde67d0b10d794920de01af6c4a1e6b238338959708df8f76156ce48172e870",
+      "frame_seconds": 896,
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T07:41:47.795722+00:00",
+        "width": 1280,
+        "height": 720,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "ffmpeg da solo percorso video inventariato leggibile, SHA dell’intero file identico ad inventario; PNG nativo senza modifica pixel. Pillow verify, riapertura/load e SHA di tutti cinque campioni, copia principale identica al frame896."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T07:41:47.795722+00:00",
+        "method": "Visione personale con view_image detail original di tutti cinque fotogrammi 887/890/893/896/899 s.",
+        "notes": "Coperta blu/viola punteggiata rivolta verso l’obiettivo; sono personalmente leggibili Sergio Caldarella e Problemi Filosofici della Scienza. Una mano copre parte inferiore/destra; segnalibri sporgono dal bordo. Nessun editore, anno, ISBN o sottotitolo leggibile. Scelta questa fotografia effettiva del volume, senza ricostruzioni."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "bibliographic_verification_scope": "Titolo completo, autore e presenza di un volume fisico verificati; anno 2011 solo dichiarato da autore/conduttore. Editore, ISBN, paginazione e specifica edizione non determinati."
+  },
+  {
+    "id": "se-depois-eu-morrer-caeiro",
+    "title": "Se, depois de eu morrer, quiserem escrever a minha biografia",
+    "author": "Fernando Pessoa / Alberto Caeiro (eteronimo)",
+    "work_type": "poesia",
+    "publication_year": null,
+    "composition_year": 1915,
+    "composition_date": "1915-11-08",
+    "year_note": "Data del componimento in calce al testo dell’edizione digitale 2020, pp. 74–75; prima pubblicazione non stabilita in questo lotto. 2020 è la data della raccolta raffigurata.",
+    "title_note": "Componimento senza titolo proprio qui identificato tramite incipit portoghese; non è una monografia autonoma.",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "human_audio_review": false,
+    "verified": false,
+    "edition_cited": null,
+    "source": "Il relatore nomina Alberto Caeiro e legge in italiano l’incipit della poesia sulle due date della biografia. La corrispondenza è collazionata con il testo portoghese, n. 19 dei Poemas Inconjuntos nell’edizione Ivo Castro, Imprensa Nacional 2020, pp. 74–75, datato 8 novembre 1915. Il titolo qui usato è l’incipit: non un titolo autonomo inventato dal tema. Fernando Pessoa è l’autore reale, Alberto Caeiro l’eteronimo; le due date sono parte del discorso poetico, non dati biografici accertati dell’eteronimo. Traduzione ed edizione italiane del video non identificate. La copertina rappresenta la raccolta portoghese contenente il componimento, non una pubblicazione autonoma della poesia.",
+    "references": [
+      {
+        "label": "Imprensa Nacional · Poemas de Alberto Caeiro, edizione digitale gratuita Ivo Castro 2020, indice e componimento 19, pp. 74–75",
+        "url": "https://imprensanacional.pt/wp-content/uploads/2022/03/Poemas-de-AlbertoCaeiro.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "6LVYHCG3ED8",
+        "seconds": 701.34,
+        "title_seconds": 701.34,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 107–110, 692.40–723.12 s: nome di Alberto Caeiro e lettura italiana del passo biografico; l’incipit, le due date e i giorni intermedi corrispondono al componimento 19, Poemas Inconjuntos, collazionato integralmente nelle pp. 74–75 dell’edizione INCM 2020. Fonte automatica, senza ascolto umano.",
+        "role": "riferimento",
+        "video_title": "Fernando Pessoa: per una teoresi della sconfitta."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/poemas-alberto-caeiro-2020-474.jpg",
+      "image_url": "https://imprensanacional.pt/wp-content/uploads/2022/03/Poemas-de-AlbertoCaeiro.pdf",
+      "source_page": "https://imprensanacional.pt/wp-content/uploads/2022/03/Poemas-de-AlbertoCaeiro.pdf",
+      "edition_label": "Fernando Pessoa, Poemas de Alberto Caeiro, edição de Ivo Castro, ed. digital gratuita, Lisboa, Imprensa Nacional, 2020.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica della raccolta digitale portoghese 2020, resa dalla prima pagina del PDF editoriale a 120 dpi. L’indice (p. 9) e il testo (pp. 74–75, Poemas Inconjuntos n. 19) provano che contiene il componimento. Non è una copertina autonoma della poesia né l’edizione della traduzione italiana pronunciata nel video. Il colophon p. 4 autorizza la riproduzione indicando questa provenienza; il PDF integrale resta privato.",
+      "cover_relation": "copertina_raccolta_contenente",
+      "container_title": "Poemas de Alberto Caeiro",
+      "image_label": "Copertina della raccolta digitale Poemas de Alberto Caeiro, Imprensa Nacional 2020 · contiene la poesia, non edizione autonoma",
+      "asset_sha256": "92386a01bcd5553990cb103b15d9f6164125af3737ca67fec70b544cd60e6049",
+      "integrity_review": {
+        "decoded": true,
+        "width": 700,
+        "height": 983,
+        "checked_at": "2026-10-26T08:16:44.470875+00:00",
+        "method": "Pillow verify, riapertura e load completo, SHA-256; resa fedele della pagina 1 con pdftoppm a 120 dpi, senza ricomposizioni o ingrandimento di miniature."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:16:44.470875+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Copertina grigia con cornice arancio, titolo Poemas de Alberto Caeiro, autore Fernando Pessoa, marchi Pessoana · Edições e Imprensa Nacional; design tipografico originale. Nessun segnaposto o copertina di un’altra selezione."
+      }
+    },
+    "contained_in": [
+      {
+        "title": "Poemas de Alberto Caeiro",
+        "editor": "Ivo Castro",
+        "publisher": "Imprensa Nacional",
+        "edition_year": 2020,
+        "section": "Poemas Inconjuntos",
+        "poem_number": 19,
+        "pages": "74–75",
+        "relation": "contenimento_verificato_nel_testo_primario",
+        "evidence": "Indice p. 9, n. 19; testo completo pp. 74–75 con la data finale 8-11-1915. Non viene creata una nuova voce della raccolta."
+      }
+    ]
+  },
+  {
+    "id": "ultima-dea-occidente-caldarella",
+    "title": "L’ultima dea d’Occidente. Saggio sulla razionalità inesorabile",
+    "author": "Sergio Caldarella",
+    "work_type": "saggio",
+    "status": "citazione_esplicita",
+    "bibliographic_verified": true,
+    "bibliographic_verification_scope": "Titolo breve e autore leggibili sul volume fisico, titolo esteso e 2018 dichiarati nella bibliografia personale. Editore/ISBN/paginazione/colophon non determinati.",
+    "publication_year": null,
+    "year_claimed_by_author": 2018,
+    "publication_year_scope": "2018 è dichiarato dall’autore nella sidebar aggiornata del blog, non un anno visibile sul volume, né la data2015 del post o una prima edizione catalogata.",
+    "edition_cited": null,
+    "publisher": null,
+    "isbn": null,
+    "source": "A 2023.47–2029.71 s l’ASR rende esplicita l’autocitazione dell’Ultima dea d’Occidente; a 2053.57–2058.60 s il titolo è ripetuto prima di una lettura sul concetto di ragione seconda. Il titolo e Sergio Caldarella sono leggibili sul volume mostrato nel fotogramma nativo 2054; il titolo completo con Saggio sulla razionalità inesorabile è nella bibliografia autoriale. Non il libro omonimo/affine di Gianni Riotta, non L’ultima idea d’Occidente come nuova opera creata dall’errore ASR. La lettura dell’estratto non equivale a lettura integrale del saggio; interpretazioni politico-filosofiche e paragoni storici restano attribuiti al relatore.",
+    "references": [
+      {
+        "label": "Sergio Caldarella, bibliografia autoriale: titolo esteso e 2018 nella sidebar aggiornabile, non data del singolo post",
+        "url": "https://drdivagoscave.blogspot.com/2019/04/"
+      },
+      {
+        "label": "Bibliografia personale, riscontro dello stesso titolo esteso; post 2015 distinto dalla sidebar aggiornata",
+        "url": "https://drdivagoscave.blogspot.com/2015/11/"
+      },
+      {
+        "label": "Filmato di provenienza: volume effettivamente mostrato a 2054 s, fotogramma nativo locale verificato",
+        "url": "https://www.youtube.com/watch?v=e05z6oDH0_0&t=2054s"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "e05z6oDH0_0",
+        "seconds": 2023.47,
+        "title_seconds": 2023.47,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo breve esplicito nel richiamo al proprio testo a 2023.47–2029.71 s e ripetuto a 2053.57–2058.60 s. Segue estratto sulla ragione seconda che trasforma l’essere umano da fine in mezzo, fino al richiamo alla giustificazione eseguivo gli ordini, 2097.32 s. Sottotitolo/2018 non pronunciati nel passo.",
+        "role": "riferimento",
+        "video_title": "Zbigniew Brzezinski: La grande scacchiera."
+      },
+      {
+        "video_id": "c5SVvxHHfxg",
+        "seconds": 2286.07,
+        "title_seconds": 2286.07,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 290–296, 2267,84–2308,84 s: il relatore presenta come proprio un testo che si intitola L’ultima dea d’Occidente (titolo a 2286,07 s), richiamandone il tema dell’Homo Novus e dell’uso della tecnologia. Autocitazione e titolo breve espliciti nella fonte automatica; sottotitolo e 2018 non pronunciati nel passo. Nessuna edizione identificata.",
+        "role": "riferimento",
+        "video_title": "Gabor Maté: la sofistica e l'inquietante."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/ultima-dea-occidente-caldarella-fotogramma475.png",
+      "image_url": "https://www.youtube.com/watch?v=e05z6oDH0_0&t=2054s",
+      "source_page": "https://www.youtube.com/watch?v=e05z6oDH0_0&t=2054s",
+      "source_type": "fotogramma_da_video_locale_inventariato",
+      "edition_label": "Fotogramma nativo intero del volume mostrato nel filmato Zbigniew Brzezinski: La grande scacchiera, a 2054 secondi. Titolo L’ultima dea d’Occidente e autore Sergio Caldarella leggibili sulla coperta; mani nella parte inferiore e bordo inferiore del volume fuori dall’inquadratura. Fotografia parziale del libro nel suo contesto, non una copertina editoriale autonoma, frontespizio o ricostruzione. Sottotitolo, anno, editore e ISBN non leggibili; specifica edizione non determinata.",
+      "image_label": "Foto parziale del volume mostrato a 2054 s; edizione non determinata",
+      "edition_note": "Il titolo esteso Saggio sulla razionalità inesorabile e il 2018 provengono dalla bibliografia aggiornata dell’autore, non da questo fotogramma o da colophon. Nessun ritaglio, raddrizzamento, ritocco, aumento della risoluzione o completamento delle zone coperte: l’intera inquadratura è conservata.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "fotografia_parziale_del_volume_mostrato_in_fotogramma_nativo_intero",
+      "asset_sha256": "3eae06ad3534bf7174e11d474857d41a16178ea1f9635bb167bc1036acfaa5d2",
+      "source_video_sha256": "b544d36b79d59581acd543b960b2ced5b18ea70f71ccd3ac72e6e6c42dd707f1",
+      "frame_seconds": 2054,
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T08:09:13.333851+00:00",
+        "width": 1280,
+        "height": 720,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "SHA dell’intero video locale esatto confrontato con inventario; PNG nativi ffmpeg senza audio o variazione dei pixel, Pillow verify e riapertura/load di tutti gli otto frame. Copia principale identica al frame2054."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:09:13.333851+00:00",
+        "method": "Tutti otto campioni personalmente visti con view_image detail original.",
+        "notes": "Volume sollevato con coperta superiore color beige/marrone e immagine figurativa monocroma nella parte inferiore. Titolo L’ultima dea d’Occidente e autore Sergio Caldarella personalmente leggibili. Mani ai lati in basso e bordo inferiore fuori dall’inquadratura; sottotitolo, editore, ISBN e anno non leggibili. Frame scelto per foto parziale autentica."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false
+  },
+  {
+    "id": "gutsy-serie-documentaria-2022",
+    "title": "Gutsy (serie documentaria)",
+    "author": "Anna Chai (showrunner); Hillary Clinton e Chelsea Clinton (produttrici esecutive)",
+    "work_type": "serie documentaria",
+    "publication_year": 2022,
+    "first_release_date": "2022-09-09",
+    "episodes_total": 8,
+    "production_company": "HiddenLight Productions in associazione con Left/Right LLC",
+    "platform": "Apple TV+",
+    "showrunner": "Anna Chai",
+    "directors": [
+      "Anna Chai",
+      "MJ Delaney",
+      "Amber Fares",
+      "Sally Freeman",
+      "Yu Gu",
+      "Joie Jacoby",
+      "Arlene Nelson",
+      "Cynthia Wade"
+    ],
+    "executive_producers": [
+      "Hillary Clinton",
+      "Chelsea Clinton",
+      "Johnny Webb",
+      "Siobhan Sinnerton",
+      "Roma Khanna",
+      "Ken Druckerman",
+      "Banks Tarver",
+      "Anna Chai"
+    ],
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "human_audio_review": false,
+    "verified": false,
+    "edition_cited": null,
+    "source": "A 2683,28–2719,01 s il relatore ricorda un documentario annunciato negli Stati Uniti con Hillary Clinton e incontri con celebrità, incluse le Kardashians. Gutsy è una corrispondenza probabile riscontrata nell’annuncio ufficiale Apple del 14 luglio 2022. Il titolo, Chelsea Clinton e l’anno non sono pronunciati. La fonte primaria identifica una serie in otto parti, non un film unico; nessun episodio determinato viene identificato. Il libro ispiratore The Book of Gutsy Women è distinto e non viene creato come ulteriore voce dalla sola relazione editoriale.",
+    "references": [
+      {
+        "label": "Apple TV Press, annuncio del 14 luglio 2022: serie documentaria in otto parti, data prevista, partecipanti e crediti; fotografia specifica pubblicata con didascalia",
+        "url": "https://www.apple.com/tv-pr/news/2022/07/apple-tv-announces-gutsy-the-new-docuseries-event-from-hillary-and-chelsea-clinton-set-to-debut-september-9/"
+      },
+      {
+        "label": "Apple TV Press, scheda ufficiale Gutsy: uscita 9 settembre 2022 e produzione HiddenLight con Left/Right",
+        "url": "https://www.apple.com/tv-pr/originals/gutsy/"
+      },
+      {
+        "label": "Apple TV Press, cast e troupe: produttori e registe della serie",
+        "url": "https://www.apple.com/tv-pr/originals/gutsy/cast-crew/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "wP4G7r9qH5s",
+        "seconds": 2683.28,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 354–358, 2683,28–2719,01 s: documentario annunciato per gli Stati Uniti, Clinton e conversazioni con attrici e Kardashians. Hillary Clinton è nominata esplicitamente anche a 2764,37 s. Titolo Gutsy e Chelsea non pronunciati. L’annuncio Apple riscontra la specifica serie e la partecipazione di Kim Kardashian, mantenendo l’identificazione probabile.",
+        "role": "riferimento",
+        "video_title": "Pasolini ed il fascismo degli antifascisti."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/gutsy476-promozionale.jpg",
+      "image_url": "https://www.apple.com/tv-pr/articles/2022/07/apple-tv-announces-gutsy-the-new-docuseries-event-from-hillary-and-chelsea-clinton-set-to-debut-september-9/images/big-image/big-image-01/071322_Apple_Announces_Gutsy_New_Docuseries_Big_Image_01_big_image_post.jpg.large.jpg",
+      "source_page": "https://www.apple.com/tv-pr/news/2022/07/apple-tv-announces-gutsy-the-new-docuseries-event-from-hillary-and-chelsea-clinton-set-to-debut-september-9/",
+      "edition_label": "Fotografia promozionale ufficiale della serie documentaria Gutsy (2022), pubblicata da Apple TV Press nel comunicato del 14 luglio 2022; Chelsea e Hillary Clinton secondo la didascalia della fonte. Non copertina del libro The Book of Gutsy Women né immagine di un episodio determinato.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "L’immagine è legata dalla didascalia ufficiale alla serie. Le identità sono documentate dalla fonte e non dedotte dai volti; la data è quella del comunicato, non una data di scatto accertata. Nessuna visione della serie o collazione con fotogrammi del seminario dichiarata.",
+      "cover_relation": "fotografia_promozionale_ufficiale_della_serie",
+      "image_label": "Fotografia promozionale di Gutsy, Apple TV Press (2022)",
+      "credit_line": "Apple TV Press / Apple TV+",
+      "rights_note": "Fotografia fornita nel materiale stampa ufficiale; nessuna attribuzione di pubblico dominio o licenza libera non attestata.",
+      "asset_sha256": "6894b28d097ec23ca11cea5d0a7cd2563da97813a66624e7fabfd3ee14bc3409",
+      "integrity_review": {
+        "decoded": true,
+        "width": 980,
+        "height": 570,
+        "checked_at": "2026-10-26T08:07:39.360249+00:00",
+        "method": "Pillow verify, riapertura e load completo; JPEG RGB, dimensioni native, nessun resize, crop, padding o ricostruzione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:07:39.360249+00:00",
+        "method": "Visione personale dell’immagine intera mediante view_image.",
+        "notes": "Due donne sedute su sedili anteriori di un’auto rossa scoperta, voltate verso l’obiettivo; abitacolo nero, prato e vegetazione sullo sfondo. La didascalia Apple le identifica come Chelsea e Hillary Clinton nella serie Gutsy. Fotografia specifica di promozione della serie, non ritratto generico, poster titolato o copertina di libro."
+      }
+    }
+  },
+  {
+    "id": "risoluzione-memoria-europa-pe-2019",
+    "title": "Importanza della memoria europea per il futuro dell’Europa",
+    "original_title": "Importance of European remembrance for the future of Europe",
+    "author": "Parlamento europeo",
+    "work_type": "risoluzione politica parlamentare approvata",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "human_audio_review": false,
+    "verified": false,
+    "edition_cited": null,
+    "publication_year": 2019,
+    "adoption_date": "2019-09-19",
+    "official_journal_date": "2021-05-06",
+    "official_journal": "GU C171, 6 maggio 2021, pp. 25–29, 2021/C171/06",
+    "year_note": "2019 è l’anno di adozione della risoluzione e dell’edizione provvisoria inglese raffigurata. 2021 è la pubblicazione definitiva nella Gazzetta ufficiale, non l’anno del voto. La data del deposito del PDF non è accertata dal solo percorso URL.",
+    "document_identifier": "P9_TA(2019)0021; 2019/2819(RSP); CELEX52019IP0021",
+    "image_document_identifier": "P9_TA-PROV(2019)0021",
+    "related_proposal": "RC-B9-0097/2019/REV1 del 18 settembre 2019: mozione congiunta distinta dal testo adottato.",
+    "source": "Il relatore nomina una mozione congiunta, ne pronuncia il titolo e indica il 19 settembre; i passaggi che legge corrispondono anche ai paragrafi 14, 15 e 22 del testo adottato. La mozione congiunta RC-B9-0097/2019/REV1 del 18 settembre e la risoluzione P9_TA(2019)0021 del 19 settembre 2019 sono documenti distinti: non è accertata la versione materialmente aperta nel filmato e non viene dichiarata una collazione integrale fra RC e TA. L’immagine mostra la prima pagina autentica dei testi adottati in inglese, contrassegnati Provisional edition e P9_TA-PROV(2019)0021, conservata dalla Platform of European Memory and Conscience; non è la prima pagina italiana della Gazzetta ufficiale del 2021. Le valutazioni politiche e storiche del Parlamento e quelle critiche del relatore restano attribuite ai rispettivi autori; una risoluzione politica non equivale a una sentenza né accerta automaticamente tutte le ricostruzioni del video.",
+    "references": [
+      {
+        "label": "Parlamento europeo, Osservatorio legislativo · adozione del 19 settembre 2019 e procedura 2019/2819(RSP)",
+        "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1592277"
+      },
+      {
+        "label": "Parlamento europeo · testi adottati, edizione provvisoria inglese P9_TA-PROV(2019)0021, copia conservata dalla Platform of European Memory and Conscience",
+        "url": "https://www.memoryandconscience.eu/wp-content/uploads/2019/09/TA-9-2019-0021_EN.pdf"
+      },
+      {
+        "label": "Parlamento europeo, Osservatorio legislativo · iter concluso e distinzione dalle proposte del 18 settembre",
+        "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2019%2F2819%28RSP%29"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "o20erSbl5tQ",
+        "seconds": 29.01,
+        "title_seconds": 29.01,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 2–3, 29.01–54.88 s: mozione congiunta e titolo espliciti; segmento 249, 2192.36–2200.95 s: data 19 settembre. Segmenti 418–429, 3530.85–3650.16 s, e 442–446, 3737.87–3761.04 s: contenuti dei paragrafi 14, 15 e 22 corrispondono al testo adottato. La fonte è automatica; la versione materialmente consultata non è certificata.",
+        "role": "opera_principale",
+        "video_title": "Risoluzione Parlamento Europeo su nazismo e comunismo."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/risoluzione-memoria-europa-pe-2019-477.jpg",
+      "image_url": "https://www.memoryandconscience.eu/wp-content/uploads/2019/09/TA-9-2019-0021_EN.pdf",
+      "source_page": "https://www.memoryandconscience.eu/wp-content/uploads/2019/09/TA-9-2019-0021_EN.pdf",
+      "edition_label": "Testi adottati del Parlamento europeo, 19 settembre 2019, edizione provvisoria inglese P9_TA-PROV(2019)0021, prima pagina; copia conservata dalla Platform of European Memory and Conscience.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Prima pagina autentica del PDF di sei pagine: titolo, istituzione, riferimento 2019/2819(RSP), data 19 settembre 2019 e diciture TEXTS ADOPTED / Provisional edition leggibili. Il riferimento PROV riguarda l’edizione provvisoria dei testi adottati: non è la mozione congiunta RC del 18 settembre e non viene presentato come l’impaginato definitivo della GU C171, 6 maggio 2021. Lingua e versione materialmente aperte nel filmato restano non accertate. Resa fedele a 120 dpi dell’intera pagina 1, senza ricostruzioni; il PDF completo resta privato.",
+      "cover_relation": "prima_pagina_documento_edizione_provvisoria_dei_testi_adottati",
+      "image_label": "Prima pagina · testi adottati, edizione provvisoria inglese del 19 settembre 2019; copia Platform of European Memory and Conscience",
+      "asset_sha256": "45f81686aa448866c7d7be5cb5b3d8d073faa3e14ed9a64e62fc76cbbf6694bf",
+      "integrity_review": {
+        "decoded": true,
+        "width": 993,
+        "height": 1404,
+        "checked_at": "2026-10-26T08:32:30.782419+00:00",
+        "method": "Pillow verify, nuova apertura/load integrale e SHA-256. Pagina 1 del PDF resa con pdftoppm a 120 dpi, senza ricomposizione, sostituzioni tipografiche o ingrandimento di miniature."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:32:30.782419+00:00",
+        "method": "Visione personale dell’intera immagine con view_image.",
+        "notes": "Intestazione European Parliament 2019–2024, logo nativo del documento, TEXTS ADOPTED / Provisional edition, P9_TA-PROV(2019)0021, titolo e data 19 September 2019 leggibili. Non un logo generico, una copertina inventata o un documento diverso."
+      }
+    }
+  },
+  {
+    "id": "lettera-leibniz-goldbach-1712-04-17",
+    "title": "Lettera a Christian Goldbach del 17 aprile 1712",
+    "title_scope": "Titolo descrittivo editoriale per la lettera identificata da mittente, destinatario e data, non titolo autonomo pronunciato nel film.",
+    "author": "Gottfried Wilhelm Leibniz",
+    "work_type": "lettera",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "composition_date": "1712-04-17",
+    "composition_year": 1712,
+    "publication_year": null,
+    "publication_year_scope": "Data del testo 1712; edizione della raccolta qui collazionata 1734. Nessuna prima pubblicazione assoluta della lettera determinata o inventata.",
+    "original_language": "la",
+    "recipient": "Christian Goldbach",
+    "edition_cited": null,
+    "edition_used_for_collation": {
+      "container_title": "Viri illustris Godefridi Guil. Leibnitii Epistolae ad diversos",
+      "editor": "Christian Kortholt",
+      "volume": 1,
+      "publication_place": "Lipsiae (Lipsia)",
+      "publisher": "Bernhard Christoph Breitkopf",
+      "year": 1734,
+      "letter_number": "CLIV",
+      "letter_pages": "239–242",
+      "target_page": 241,
+      "holding_institution": "ETH-Bibliothek Zürich",
+      "shelfmark": "Rar 6608",
+      "doi": "10.3931/e-rara-26294"
+    },
+    "source": "A 1651,28–1661,96 s un personaggio del film attribuisce a Leibniz una formula tedesca sulla musica come piacere dell’anima che conta senza saperlo. La formulazione latina è collazionata nella lettera a Goldbach datata 17 aprile 1712, Epistola CLIV della raccolta Kortholt 1734, p. 241. Nel film non sono pronunciati destinatario, data o titolo del documento: il collegamento a questa specifica lettera resta probabile. Il documento attesta la formula, senza dimostrare quale fonte abbiano materialmente usato gli sceneggiatori o una reale conversazione di Einstein.",
+    "references": [
+      {
+        "label": "ETH-Bibliothek/e-rara, Epistolae ad diversos, raccolta Kortholt, Lipsia, Breitkopf, 1734–1742, Rar 6608; volume I 1734 e licenza Public Domain Mark",
+        "url": "https://www.e-rara.ch/zut/content/titleinfo/8500233"
+      },
+      {
+        "label": "ETH/e-rara, volume I, pagina 241: Epistola CLIV a Goldbach e formula Musica est exercitium arithmeticae occultum nescientis se numerare animi",
+        "url": "https://www.e-rara.ch/zut/content/pageview/8500513"
+      },
+      {
+        "label": "ETH/e-rara, pagina 242: data 17 aprile 1712 alla conclusione dell’Epistola CLIV, prima dell’Epistola CLV",
+        "url": "https://www.e-rara.ch/zut/content/pageview/8500514"
+      },
+      {
+        "label": "ETH/e-rara, pagina 239: inizio dell’Epistola CLIV dopo la chiusura della precedente lettera del 12 gennaio 1712",
+        "url": "https://www.e-rara.ch/zut/content/pageview/8500511"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "SGoxV61-PWw",
+        "seconds": 1651.28,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmento 333, 1651,28–1661,96 s: Leibniz è nominato, segue una parafrasi tedesca della musica come anima che conta senza esserne consapevole. Il destinatario e la data della lettera non sono pronunciati. Collazione sul latino della lettera CLIV, p. 241 della raccolta Kortholt 1734; data 17 aprile 1712 sul seguito p. 242.",
+        "role": "riferimento",
+        "video_title": "Albert Einstein (Teil 1): Der Letzte Sommer."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/leibniz483-frontespizio-raccolta.jpg",
+      "image_url": "https://www.e-rara.ch/download/webcache/1000/8500243",
+      "source_page": "https://www.e-rara.ch/zut/content/pageview/8500243",
+      "edition_label": "Frontespizio autentico del volume I della raccolta Epistolae ad diversos, a cura di Christian Kortholt, Lipsia, Bernhard Christoph Breitkopf, 1734. La lettera a Goldbach del 17 aprile 1712 vi compare come Epistola CLIV, pp. 239–242; formula sulla musica a p. 241. È il frontespizio del contenitore storico, non la copertina della singola lettera o il suo manoscritto.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "La data 1712 riguarda la lettera; 1734 è l’anno stampato sul frontespizio della raccolta digitalizzata. Nessuna edizione materialmente consultata dai personaggi o dagli sceneggiatori è identificata dal film. L’immagine è una riproduzione della biblioteca a larghezza 1000 pixel, fornita nel manifest: nessun ritocco, crop, padding, ricomposizione o ingrandimento.",
+      "cover_relation": "frontespizio_della_raccolta_contenente_la_lettera",
+      "image_label": "Frontespizio della raccolta Kortholt, vol. I (1734); lettera del 1712",
+      "credit_line": "ETH-Bibliothek Zürich, Rar 6608; e-rara.ch, DOI 10.3931/e-rara-26294",
+      "rights_note": "Public Domain Mark dichiarato dalla biblioteca detentrice; indicazione di autore, istituzione, segnatura e identificatore persistente conservata.",
+      "asset_sha256": "14626eb7799e5a4d0e295e3bcf8411aebd85a7300102fd02c843a1eab18705e0",
+      "integrity_review": {
+        "decoded": true,
+        "width": 1000,
+        "height": 1592,
+        "checked_at": "2026-10-26T08:51:32.558094+00:00",
+        "method": "Pillow verify, riapertura/load completo e SHA-256 dei byte JPEG ricevuti; nessuna trasformazione locale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:51:32.558094+00:00",
+        "method": "Visione personale dell’immagine intera con view_image, insieme alle quattro pagine 239–242 pertinenti.",
+        "notes": "Frontespizio con titolo Epistolae ad diversos, nome di Leibniz, curatore Christian. Kortholtus, Lipsiae e imprint Breitkopf con anno romano 1734; timbro della biblioteca in basso. Il numero del volume è identificato dalla struttura del manifest/catalogo, non stampato come Volume I sul fronte. Pagine interne personalmente lette per provare il contenimento della lettera e il rapporto alla formula."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false
+  },
+  {
+    "id": "method-theoretical-physics-einstein-1933",
+    "title": "On the Method of Theoretical Physics (Herbert Spencer Lecture)",
+    "original_title": "On the Method of Theoretical Physics",
+    "title_aliases": [
+      "Zur Methode der theoretischen Physik"
+    ],
+    "author": "Albert Einstein",
+    "work_type": "conferenza scientifica pubblicata in opuscolo",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "human_audio_review": false,
+    "verified": false,
+    "edition_cited": null,
+    "publication_year": 1933,
+    "lecture_date": "1933-06-10",
+    "year_note": "10 giugno 1933 è la data della conferenza indicata sul titolo; 1933 è la pubblicazione inglese Clarendon. La sua associazione al dialogo del film non data la scena né prova che il testo fu già letto in quell’episodio rappresentato.",
+    "source": "La scena del film descrive gli spinori come caso particolare di un nuovo campo legato al continuo metrico quadridimensionale. Questo nucleo è riscontrato direttamente nelle pp. 13–14 dell’opuscolo On the Method of Theoretical Physics, Spencer Lecture pronunciata a Oxford il 10 giugno 1933. La corrispondenza del dialogo con questa esposizione è proposta come identificazione probabile: il titolo non è pronunciato e il film non documenta una lettura dell’opuscolo. La versione inglese 1933 collazionata non contiene per esteso le frasi tedesche sui semivettori e sui campi più semplici dopo i vettori, riportate da Goenner nella sua ricostruzione storica; non viene dichiarata una collazione primaria integrale dell’originale tedesco. La conferenza è un testo di Einstein, distinto dagli articoli tecnici firmati con Walther Mayer del 1932–1934, che rimangono non individuati univocamente nel filmato. Il dialogo è interpretato e non costituisce prova delle parole storicamente pronunciate in quella circostanza né della validità attuale di una teoria fisica.",
+    "references": [
+      {
+        "label": "Biblioteca Centrale Universitaria di Iași · catalogo e scansione dell’opuscolo Clarendon Press 1933",
+        "url": "https://dspace.bcu-iasi.ro/handle/123456789/14725?show=full"
+      },
+      {
+        "label": "Einstein, On the Method of Theoretical Physics · edizione inglese 1933, nota dei traduttori e pp. 13–14",
+        "url": "https://dspace.bcu-iasi.ro/bitstream/handle/123456789/14725/BCUIASI_IB-292.pdf?sequence=2&isAllowed=y"
+      },
+      {
+        "label": "Goenner, Living Reviews in Relativity 2004 · confronto storico, citazione tedesca mediata della Spencer Lecture e distinzione dagli articoli Einstein–Mayer",
+        "url": "https://link.springer.com/article/10.12942/lrr-2004-2"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "SGoxV61-PWw",
+        "seconds": 418.26,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 75–81, 418.26–468.65 s: spinori di Dirac, nuovo campo quadridimensionale e semivettori. Il nucleo spinori/caso particolare/campo nuovo/continuo metrico 4D è collazionato con l’originale inglese 1933, pp. 13–14. La frase tedesca più estesa è citata dalla ricerca storica di Goenner, non da un originale tedesco direttamente letto in questo lotto. Titolo della conferenza assente nel parlato.",
+        "role": "riferimento",
+        "video_title": "Albert Einstein (Teil 1): Der Letzte Sommer."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/spencer-frontespizio-nativo-481.jpg",
+      "image_url": "https://dspace.bcu-iasi.ro/bitstream/handle/123456789/14725/BCUIASI_IB-292.pdf?sequence=2&isAllowed=y",
+      "source_page": "https://dspace.bcu-iasi.ro/handle/123456789/14725?show=full",
+      "edition_label": "On the Method of Theoretical Physics, The Herbert Spencer Lecture, delivered at Oxford 10 June 1933; Oxford, At the Clarendon Press, 1933. Copia digitalizzata dalla Biblioteca Centrale Universitaria di Iași, segnatura IB-292.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Scansione autentica dell’apertura con il titolo dell’opuscolo inglese 1933: si vedono la pagina di titolo, l’interno della coperta adiacente e la filigrana della biblioteca. È l’immagine nativa JPEG incorporata nella pagina 2 del PDF, estratta senza ritagli, ricomposizioni o ingrandimenti. Non è un articolo Einstein–Mayer né un’edizione tedesca certificata nel filmato. La nota dell’opuscolo ringrazia Ryle, Page e Hurst per la traduzione inglese della conferenza scritta in tedesco; non si presume identità parola per parola fra le versioni.",
+      "cover_relation": "pagina_titolo_opuscolo_stessa_conferenza_edizione_inglese",
+      "image_label": "Pagina di titolo dell’opuscolo inglese, Clarendon Press 1933 · copia BCU Iași; edizione del filmato non accertata",
+      "asset_sha256": "1c4ea07ebade40fe99a2374f9f0be72905759b48856255f9d817c4718fbe91f9",
+      "integrity_review": {
+        "decoded": true,
+        "width": 721,
+        "height": 629,
+        "checked_at": "2026-10-26T08:54:47.051833+00:00",
+        "method": "Pillow verify e nuova apertura/load completo, SHA-256. Estrazione dei byte del JPEG nativo Im1.jpg nella pagina 2 del PDF; nessuna conversione o riscalatura dell’asset proposto."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T08:54:47.051833+00:00",
+        "method": "Visione personale dell’immagine nativa intera con view_image; rivista anche l’intera pagina PDF resa.",
+        "notes": "Titolo, Albert Einstein, Herbert Spencer Lecture, delivered at Oxford 10 June 1933 e Oxford/At the Clarendon Press/1933 leggibili; apertura autentica della copia, non segnaposto. La maschera TIFF di sfondo della stessa pagina non è proposta come immagine."
+      }
+    },
+    "primary_collation_scope": "Confronto del nucleo del passo con pp. 13–14 inglesi, più lettura completa del testo inglese disponibile; citazione tedesca conosciuta soltanto attraverso Goenner. Nessuna collazione primaria tedesca integrale e nessuna identificazione certa della fonte della sceneggiatura."
+  },
+  {
+    "id": "putin-right-tough-guy-krugman-2023",
+    "title": "Putin and the Right’s Tough-Guy Problem",
+    "author": "Paul Krugman",
+    "work_type": "articolo di opinione politica",
+    "status": "citazione_esplicita",
+    "bibliographic_verified": true,
+    "publication_date": "2023-02-23",
+    "publisher": "The New York Times, Opinion",
+    "republication": {
+      "publisher": "New Nation",
+      "date": "2023-02-26",
+      "url": "https://dailynewnation.com/news/555748"
+    },
+    "spoken_title_variant": "Putin and the Fading Tough Guy",
+    "title_variant_status": "Variante presente nell’ASR del titolo orale, non certificata come titolo di una diversa edizione a stampa. Un’unica colonna identificata dalla sequenza del testo letto.",
+    "edition_cited": null,
+    "source": "Il relatore nomina Paul Krugman e il New York Times, annuncia il titolo a1243.03 s e traduce/commenta una sequenza estesa della stessa colonna. L’apertura e la sequenza Orbán, Cruz, logistica e finale coincidono con la ripubblicazione accreditata. È una colonna firmata, distinta da un editoriale anonimo dell’Editorial Board; gli opposti giudizi politici restano attribuiti ai rispettivi autori.",
+    "references": [
+      {
+        "label": "New Nation · ripubblicazione accreditata della colonna di Krugman,26 febbraio 2023; intestazione nativa",
+        "url": "https://dailynewnation.com/news/555748"
+      },
+      {
+        "label": "The New York Times · originale Opinion,23febbraio 2023; URL storico non riaperto a causa del403 già documentato",
+        "url": "https://www.nytimes.com/2023/02/23/opinion/putin-ukraine-toughness.html"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "Msqikf9512M",
+        "seconds": 1243.03,
+        "title_seconds": 1243.03,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Autore/testata espliciti all’apertura; a1243.03–1262.55s il titolo è reso nella variante Putin and the Fading Tough Guy. Seguono apertura tradotta, riflessioni su Orbán/Cruz, logistica e tecnologia, poi finale sugli aiuti. L’insieme identifica la stessa colonna, non una seconda opera con titolo diverso.",
+        "role": "opera_principale",
+        "video_title": "Da un editoriale sul New York Times."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/putin-right-tough-guy-krugman-2023-newnation.png",
+      "image_url": "https://dailynewnation.com/news/555748",
+      "source_page": "https://dailynewnation.com/news/555748",
+      "edition_label": "Intestazione nativa della ripubblicazione New Nation, 26 febbraio 2023: titolo della colonna e metadati della testata. Cattura limitata della pagina web originale; non prima pagina del New York Times, facsimile a stampa o copertina libraria.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "intestazione_web_ripubblicazione_accreditata",
+      "edition_note": "Originale di Paul Krugman in New York Times Opinion del 23 febbraio 2023; la data visibile26 febbraio 2023 appartiene alla ripubblicazione. La firma Krugman è verificata nel testo accreditato e non è visibile in questa intestazione, che riporta New Nation. Le icone social sono parte della testata nativa; corpo dell’articolo escluso.",
+      "asset_sha256": "d0ea8221f3845c84f42db4ee660e43a449542affe17dff8afe0cff5014349aec",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T09:14:43.319805+00:00",
+        "width": 290,
+        "height": 225,
+        "format": "PNG",
+        "bytes": 13729,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "PNG nativo Chrome, deviceScaleFactor1; rettangolo originale290×225. Nessun padding, ridimensionamento, ricomposizione o alterazione DOM/CSS."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T09:14:43.319805+00:00",
+        "notes": "PNG completo visto personalmente con view_image detail original: titolo esatto leggibile, New Nation e Published 12:00 AM, 26 February 2023; nessun corpo articolo o immagine generica2026."
+      }
+    },
+    "publication_form": "colonna firmata",
+    "publication_year": 2023,
+    "human_audio_review": false,
+    "verified": false
+  },
+  {
+    "id": "hamas-leader-daughter-medical-care-newman-ap-2014",
+    "title": "Hamas leader’s daughter receives medical care in Israel",
+    "author": "Marissa Newman e AP",
+    "work_type": "articolo_giornalistico",
+    "publication_date": "2014-10-19",
+    "publication_time_as_displayed": "21:31",
+    "publication_timezone": null,
+    "publication_year": 2014,
+    "publisher": "The Times of Israel",
+    "language": "en",
+    "bibliographic_verified": true,
+    "status": "citazione_esplicita",
+    "edition_cited": null,
+    "source": "Il titolo e il sottotitolo sono leggibili nel montaggio al tempo45s, osservato nel campione visivo del root. L’identità della pubblicazione, la firma Marissa Newman e AP e la data19ottobre2014 sono riscontrate separatamente nella pagina primaria del Times of Israel; sono distinte dalla pubblicazione del video nel2023. L’articolo riguarda il caso medico riportato all’epoca e il suo inserimento nel montaggio non dimostra le altre accuse o i paragoni storici di quest’ultimo. Nessuna identità o parentela è dedotta dai volti e nessun ascolto umano viene certificato.",
+    "references": [
+      {
+        "label": "The Times of Israel, articolo originale di Marissa Newman e AP, 19 ottobre 2014 alle 21:31: titolo, sottotitolo, firma e data riscontrati nella pagina primaria",
+        "url": "https://www.timesofisrael.com/hamas-leaders-daughter-said-to-receive-medical-care-in-israel/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "XaOl98PyHNQ",
+        "seconds": 45,
+        "title_seconds": 45,
+        "evidence": "analisi_fotogrammi_browser",
+        "verification": "titolo_nel_video",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Titolo e sottotitolo dell’articolo visibili nel campione45s; firma e data2014 verificate nella pagina primaria, distinte dalla data2023 del montaggio. Screenshot del player con evidenziazione e sovrimpressioni, non header pulito o prova clinica indipendente.",
+        "role": "riferimento",
+        "video_title": "Know the facts: The choice to look at reality is a moral choice."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/hamas-daughter488-frame45.png",
+      "image_url": "https://www.youtube.com/watch?v=XaOl98PyHNQ&t=45s",
+      "source_page": "https://www.timesofisrael.com/hamas-leaders-daughter-said-to-receive-medical-care-in-israel/",
+      "source_type": "screenshot_del_player_da_navigazione_browser_precedente",
+      "edition_label": "Screenshot del montaggio al tempo indicato di 45 s: titolo giornalistico del Times of Israel, firma e data riprodotte in una pagina inclinata, evidenziazione gialla e sovrimpressione del montaggio; sono visibili anche controlli del player. Non un’intestazione pulita della pagina primaria né una fotografia clinica. Articolo originale del 19 ottobre 2014, distinto dal successivo video del 2023.",
+      "image_label": "Intestazione mostrata nel montaggio a 45 s, con sovrimpressioni e controlli del player",
+      "cover_relation": "intestazione_giornalistica_riprodotta_nel_montaggio_con_sovrimpressioni",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Titolo e sottotitolo corrispondono alla pubblicazione primaria verificata. Le evidenziazioni e il testo ISRAEL PROVIDED HEALTH C sono elementi del montaggio, non aggiunte di questa ricerca o dichiarazioni dell’articolo. Il simbolo +10 e gli altri comandi sono del player. Nessun nome o dato dedotto dai volti. La cattura Chrome dell’originale ha ricevuto 403 ed è stata fermata: l’immagine proposta conserva invece la provenienza alternativa già autorizzata del frame fornito. L’asset è un ritaglio esatto dell’area del player da uno screenshot nativo intero del browser, senza ridimensionamento o ricomposizione. Il file nativo completo rimane privato; non è un fotogramma estratto dai byte originali del video.",
+      "credit_line": "Screenshot del video XaOl98PyHNQ al tempo 45 s; intestazione The Times of Israel, Marissa Newman e AP. La foto riprodotta nell’articolo è accreditata dalla pagina primaria ad Abd Rahim Khatib/Flash90; nessuna identificazione dedotta dal volto.",
+      "rights_note": "Screenshot documentario limitato del materiale effettivamente mostrato; non attribuito pubblico dominio o licenza libera. Nessun corpo integrale dell’articolo o HTML esportato.",
+      "asset_sha256": "75be49b5cd541b39af3e6328df63250d8c1bd6871c4b0916e61f72e3c659ea74",
+      "source_capture_fullpage_sha256": "2896f7b68a3939560c66f6590390c63ec64ce25a0762b393990f2b8a50ca87ab",
+      "source_capture_manifest_sha256": "4b925de3988def5083456e2ab3c30717824053aad72ef0520b7b36a969453529",
+      "source_video_sha256": null,
+      "frame_seconds": 45,
+      "integrity_review": {
+        "decoded": true,
+        "width": 880,
+        "height": 506,
+        "checked_at": "2026-10-26T09:43:00.820435+00:00",
+        "method": "Pillow verify, riapertura/load; copia binaria identica del frame analitico. Confronto pixel RGBA esatto con il rettangolo player (16,68,880,506) dello screenshot fullpage originale. Nessun hash del video remoto inventato."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T09:43:00.820435+00:00",
+        "method": "Visione personale dell’intera immagine frame-045 fornita dal root.",
+        "notes": "Titolo in inglese in alto con evidenziazione gialla, sottotitolo sulle cure all’Ichilov, riga della firma, ritratto sottostante e sovrimpressione bianca del montaggio. Il bordo della pagina è inclinato. Il confronto col sito conferma la pubblicazione; il volto non è usato per dedurre identità, parentela, episodio clinico o altri dati."
+      },
+      "source_capture_format": "JPEG"
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "identification_basis": "titolo_visibile_nel_montaggio_a_45_secondi"
   }
 ]

@@ -80,6 +80,142 @@ def _selected_local_source(ident, original):
     return result
 
 
+def _selected_browser_source(ident):
+    """Schermate native del browser: hash del campione, mai hash del video remoto."""
+    import math
+
+    registry = WORK / 'fonti-visive-selezionate.json'
+    if not registry.is_file():
+        return None
+    record = json.loads(registry.read_text()).get('sources', {}).get(ident)
+    if record is None or record.get('source_type') != 'analisi_fotogrammi_browser':
+        return None
+    from PIL import Image
+
+    def require(condition, message):
+        if not condition:
+            raise ValueError(message + ': ' + ident)
+
+    def finite(value):
+        return type(value) in (int, float) and math.isfinite(value)
+
+    base = (ROOT / 'archivio/analisi-visive' / ident).resolve()
+    require(base.is_relative_to((ROOT / 'archivio/analisi-visive').resolve()),
+            'Base browser non valida')
+
+    def checked(relative, expected_sha):
+        relative = Path(relative)
+        target = (base / relative).resolve()
+        require(not relative.is_absolute() and target.is_relative_to(base)
+                and target.is_file(), 'Percorso browser non valido')
+        raw = target.read_bytes()
+        require(hashlib.sha256(raw).hexdigest() == expected_sha,
+                'Impronta browser non corrispondente')
+        return raw
+
+    require(record.get('relative_path') == f'{ident}/fonte.json',
+            'Percorso fonte browser non valido')
+    saved = json.loads(checked('fonte.json', record.get('json_sha256')))
+    asr_registry = WORK / 'fonti-locali-selezionate.json'
+    require(not (asr_registry.is_file() and ident in
+                 json.loads(asr_registry.read_text()).get('sources', {})),
+            'Due fonti selezionate per lo stesso video')
+    original = ROOT / 'archivio/trascrizioni-locali' / ident / 'trascrizione.json'
+    original_hash = hashlib.sha256(original.read_bytes()).hexdigest() if original.is_file() else None
+    require(original_hash == record.get('original_asr_json_sha256'),
+            'Fonte ASR precedente cambiata')
+    require(saved.get('video_id') == ident
+            and saved.get('source_type') == 'analisi_fotogrammi_browser'
+            and saved.get('human_audio_review') is False
+            and saved.get('human_visual_review') is True
+            and saved.get('partial_visual_sampling') is True
+            and saved.get('language_scope') == 'lingua_delle_osservazioni_non_del_sonoro'
+            and saved.get('review_status') == 'fotogrammi_letti_con_copertura_parziale'
+            and record.get('review_status') == 'selezionata_dopo_lettura_fotogrammi'
+            and record.get('human_audio_review') is False
+            and record.get('human_visual_review') is True
+            and saved.get('language'), 'Provenienza browser non valida')
+    scope = 'campione_screenshot_browser_non_video_originale'
+    require(saved.get('source_hash_scope') == scope
+            and 'source_video_sha256' in saved and saved['source_video_sha256'] is None
+            and 'source_video_sha256' in record and record['source_video_sha256'] is None,
+            'Hash video remoto non disponibile')
+    provenance = saved.get('capture_provenance', {})
+    require(provenance.get('source_url') == 'https://www.youtube.com/watch?v=' + ident
+            and provenance.get('capture_method') == 'browser_fullpage_native'
+            and provenance.get('original_video_bytes_available') is False
+            and 'ffprobe' in provenance and provenance['ffprobe'] is None,
+            'Metodo di cattura browser non valido')
+    native = json.loads(checked(provenance['native_manifest_relative_path'],
+                                provenance['native_manifest_sha256']))
+    durations = json.loads(checked(provenance['duration_manifest_relative_path'],
+                                   provenance['duration_manifest_sha256']))
+    duration = saved.get('video_duration_seconds')
+    inventory = json.loads((ROOT / 'archivio/inventario.json').read_text())
+    video = next(v for v in inventory['videos'] if v['video_id'] == ident)
+    require(finite(duration) and duration > 0
+            and finite(video.get('duration_seconds'))
+            and abs(duration - video['duration_seconds']) <= 1,
+            'Durata browser non valida')
+    frames = saved.get('frames', [])
+    require(isinstance(native, list) and isinstance(durations, list) and durations
+            and frames and len(native) == len(frames), 'Manifest browser incompleto')
+    bundle = []
+    for frame, capture in zip(frames, native):
+        seconds = frame.get('seconds')
+        require(finite(seconds) and 0 <= seconds < duration
+                and capture.get('time') == seconds
+                and capture.get('file') == Path(frame['relative_path']).name
+                and capture.get('readyState') == 4
+                and finite(capture.get('targetSecond'))
+                and abs(capture['targetSecond'] - seconds) <= 0.15,
+                'Fotogramma browser non corrispondente')
+        checked(frame['relative_path'], frame['sha256'])
+        path = base / frame['relative_path']
+        with Image.open(path) as image:
+            require(image.format in ('PNG', 'JPEG'), 'Formato della schermata nativa non valido')
+            require(frame.get('image_format', image.format) == image.format,
+                    'Formato dichiarato della schermata non corrispondente')
+            image.verify()
+        with Image.open(path) as image:
+            image.load()
+        bundle.append({key: frame[key] for key in ('seconds', 'relative_path', 'sha256')})
+    times = [frame['seconds'] for frame in frames]
+    require(times == sorted(set(times))
+            and len({f['relative_path'] for f in frames}) == len(frames),
+            'Schermate browser duplicate o non ordinate')
+    for capture in durations:
+        require(finite(capture.get('duration')) and capture['duration'] == duration
+                and capture.get('readyState') == 4
+                and any(capture.get('file') == row.get('file')
+                        and capture.get('time') == row.get('time') for row in native),
+                'Durata non riscontrata nel manifest browser')
+    digest = hashlib.sha256(json.dumps(bundle, ensure_ascii=False, sort_keys=True,
+                                      separators=(',', ':')).encode()).hexdigest()
+    require(saved.get('source_sha256') == digest
+            and saved.get('source_capture_sha256') == digest
+            and record.get('source_capture_sha256') == digest,
+            'Impronta del campione browser non valida')
+    cues = []
+    for observation in saved.get('observations', []):
+        indexes = observation.get('frame_indexes', [])
+        start, end = observation.get('start'), observation.get('end')
+        require(indexes and all(type(i) is int and 0 <= i < len(frames) for i in indexes)
+                and observation.get('text', '').strip()
+                and finite(start) and finite(end) and 0 <= start <= end < duration
+                and all(start <= frames[i]['seconds'] <= end for i in indexes),
+                'Osservazione browser non valida')
+        cues.append({key: observation[key] for key in ('start', 'end', 'text')})
+    require(cues and cues == sorted(cues, key=lambda cue: cue['start']),
+            'Osservazioni browser mancanti o non ordinate')
+    return dict(video_id=ident, cues=cues, language=saved['language'],
+                source_type='analisi_fotogrammi_browser', video_duration_seconds=duration,
+                partial_visual_sampling=True, frames_reviewed=len(frames),
+                frame_times_seconds=times, source_video_sha256=None,
+                source_capture_sha256=digest, source_hash_scope=scope,
+                capture_method='browser_fullpage_native', language_scope=saved['language_scope'])
+
+
 def _selected_visual_source(ident):
     """Osservazioni di fotogrammi: mai trascrizioni o ascolto umano impliciti."""
     registry = WORK / 'fonti-visive-selezionate.json'
@@ -157,6 +293,9 @@ def _selected_visual_source(ident):
 
 
 def read_source(ident):
+    browser = _selected_browser_source(ident)
+    if browser is not None:
+        return browser
     visual = _selected_visual_source(ident)
     if visual is not None:
         return visual
@@ -205,7 +344,7 @@ def coverage(source, duration):
               'source_sha256': hashlib.sha256(canonical.encode()).hexdigest(),
               'source_hash_method': 'SHA-256 del JSON UTF-8 dei segmenti normalizzati, ensure_ascii=False, sort_keys=True, separatori compatti.',
               'scope': 'Lettura integrale di tutti i segmenti disponibili; fonte automatica, ascolto umano da completare.'}
-    if source.get('source_type') == 'analisi_fotogrammi_locali':
+    if source.get('source_type') in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser'):
         record.update(scope='Lettura integrale delle osservazioni e dei fotogrammi indicati. '
                       'Campionamento visivo parziale, non visione continua o ascolto umano del video.',
                       video_duration_seconds=source['video_duration_seconds'],
@@ -216,6 +355,11 @@ def coverage(source, duration):
     elif source.get('audio_duration_analyzed') is not None:
         record['audio_duration_analyzed'] = source['audio_duration_analyzed']
         record['scope'] += ' Il riconoscimento locale ha elaborato l’intero audio, incluse le parti senza parlato rilevato.'
+    if source.get('source_type') == 'analisi_fotogrammi_browser':
+        record.update(source_capture_sha256=source['source_capture_sha256'],
+                      source_hash_scope=source['source_hash_scope'],
+                      capture_method=source['capture_method'])
+        record['scope'] += ' Schermate native del browser; file video remoto e sonoro non acquisiti.'
     if source.get('source_alignment'):
         record['source_alignment'] = source['source_alignment']
         record['scope'] = ('Lettura integrale dei segmenti automatici derivati dall’audio più lungo, '
@@ -233,12 +377,13 @@ def make_card(ident, summary, topics, passages, books=None, notes=None):
     if not source:
         raise ValueError('Fonte non disponibile: ' + ident)
     verification = ('riscontro_audio_automatico' if source['source_type'] == 'riconoscimento_vocale_locale'
+                    else 'riscontro_visivo' if source['source_type'] == 'analisi_fotogrammi_browser'
                     else 'riscontro_testuale')
     return {'video_id': ident, 'title': video['title'], 'duration_seconds': video['duration'],
             'updated_at': datetime.now(timezone.utc).isoformat(), 'human_audio_review': False,
             'source_type': source['source_type'], 'language': source['language'],
             'editorial_status': ('scheda_descrittiva_da_fotogrammi'
-                                 if source['source_type'] == 'analisi_fotogrammi_locali'
+                                 if source['source_type'] in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
                                  else 'scheda_redatta_da_fonte_automatica'), 'summary': summary,
             'topics': topics,
             'passages': [dict(seconds=s, label=label, description=description,
@@ -247,5 +392,5 @@ def make_card(ident, summary, topics, passages, books=None, notes=None):
             'books': books or [], 'source_coverage': coverage(source, video['duration']),
             'analysis_notes': notes or [
                 'Fotogrammi indicati esaminati; campionamento parziale, sonoro non ascoltato.'
-                if source['source_type'] == 'analisi_fotogrammi_locali'
+                if source['source_type'] in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
                 else 'Fonte automatica letta integralmente; ascolto umano da completare.']}

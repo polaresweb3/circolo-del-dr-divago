@@ -116,10 +116,13 @@ def video_content(card, bibliography):
     """Schede editoriali leggibili anche senza JavaScript o file sorgente integrale."""
     esc = html.escape
     ident = card["video_id"]
-    visual = card.get('source_type') == 'analisi_fotogrammi_locali'
+    visual = card.get('source_type') in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
     summary_heading = 'Il contenuto del filmato' if visual else 'Il filo del discorso'
     books_heading = 'Opere e riferimenti' if visual else 'I libri nel discorso'
-    source_note = ('Scheda basata sui fotogrammi indicati: campionamento parziale, senza ascolto del sonoro. '
+    source_note = ('Scheda basata su schermate native del browser: campionamento parziale, senza ascolto del sonoro. '
+                   'I testi visibili non certificano le parole effettivamente pronunciate; il file video non è stato acquisito.'
+                   if card.get('source_type') == 'analisi_fotogrammi_browser' else
+                   'Scheda basata sui fotogrammi indicati: campionamento parziale, senza ascolto del sonoro. '
                    'I sottotitoli visibili sono distinti dalle parole effettivamente pronunciate.'
                    if card.get('source_type') == 'analisi_fotogrammi_locali' else
                    'Minutaggi ricavati da testi automatici, da riascoltare. '

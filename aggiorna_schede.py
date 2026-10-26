@@ -54,7 +54,7 @@ def integrate(cards, bibliography, additions, new_books, videos):
         coverage = card.get('source_coverage', {})
         if not coverage.get('source_sha256') or not coverage.get('segments_read'):
             raise ValueError('Provenienza della fonte mancante: ' + ident)
-        visual = card['source_type'] == 'analisi_fotogrammi_locali'
+        visual = card['source_type'] in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
         if visual and (coverage.get('partial_visual_sampling') is not True
                        or not coverage.get('frames_reviewed')
                        or not coverage.get('frame_times_seconds')
@@ -62,6 +62,14 @@ def integrate(cards, bibliography, additions, new_books, videos):
                        or abs(coverage.get('video_duration_seconds', 0) - duration) > 10
                        or 'audio_duration_analyzed' in coverage):
             raise ValueError('Copertura visiva o limiti mancanti: ' + ident)
+        if card['source_type'] == 'analisi_fotogrammi_browser' and (
+                coverage.get('source_hash_scope') != 'campione_screenshot_browser_non_video_originale'
+                or not isinstance(coverage.get('source_capture_sha256'), str)
+                or len(coverage['source_capture_sha256']) != 64
+                or any(char not in '0123456789abcdef' for char in coverage['source_capture_sha256'])
+                or 'source_video_sha256' not in coverage or coverage['source_video_sha256'] is not None
+                or coverage.get('capture_method') != 'browser_fullpage_native'):
+            raise ValueError('Provenienza browser o hash del campione mancanti: ' + ident)
         if not visual and coverage.get('audio_duration_analyzed', coverage.get('last_end', 0)) < duration - 10:
             raise ValueError('La fonte non arriva alla conclusione: ' + ident)
         passages = card.get('passages', [])
@@ -142,13 +150,15 @@ def main():
         if card is None or row['video_id'] not in batch_ids:
             continue
         coverage = card['source_coverage']
-        visual = card['source_type'] == 'analisi_fotogrammi_locali'
+        visual = card['source_type'] in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
         row.update(analysis_status='frames_analyzed' if visual else 'caption_analyzed' if card['source_type'].startswith('sottotitoli')
                    else 'audio_analyzed', source_type=card['source_type'],
                    language=card['language'], analyzed_at=card.get('updated_at', datetime.now(timezone.utc).isoformat()),
                    segments_analyzed=coverage['segments_read'], last_segment_end=coverage['last_end'],
                    source_sha256=coverage['source_sha256'], audio_review_complete=False,
-                   analysis_method='editorial_full_source_reading',
+                   analysis_method=('editorial_browser_frame_sampling'
+                                    if card['source_type'] == 'analisi_fotogrammi_browser'
+                                    else 'editorial_full_source_reading'),
                    analysis_scope=(coverage['scope'] if visual else 'Lettura integrale della fonte automatica; sintesi originale e riferimenti bibliografici. Ascolto umano da completare.'),
                    reviewed_book_ids=[book['book_id'] for book in card['books']])
     if batch_ids:

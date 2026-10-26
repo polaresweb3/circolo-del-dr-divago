@@ -101,8 +101,13 @@ class MultipageTests(unittest.TestCase):
     def test_uncurated_video_does_not_claim_an_existing_editorial_summary(self):
         cards = {c['video_id'] for c in json.loads((ROOT / 'sito/dist/data/schede.json').read_text())}
         videos = json.loads((ROOT / 'sito/dist/data/catalogo.json').read_text())['videos']
-        uncurated = next(video for video in videos if video['id'] not in cards)
-        text = (ROOT / 'sito/dist/video' / (uncurated['id'] + '.html')).read_text()
+        uncurated = next((video for video in videos if video['id'] not in cards), None)
+        if uncurated is None:
+            from sito_pages import catalog_video_content
+            uncurated = dict(id='Uncurated01', title='Video senza scheda', duration=60)
+            text = catalog_video_content(uncurated, [])
+        else:
+            text = (ROOT / 'sito/dist/video' / (uncurated['id'] + '.html')).read_text()
         self.assertIn('Approfondimento in preparazione.', text)
         self.assertIn('data-play-video="' + uncurated['id'] + '"', text)
         self.assertNotIn('id="sintesi"', text)
@@ -141,7 +146,7 @@ class MultipageTests(unittest.TestCase):
                 self.assertGreaterEqual(len(card['topics']), minimum)
                 self.assertGreaterEqual(len(card['passages']), minimum)
                 coverage = card['source_coverage']
-                if card['source_type'] == 'analisi_fotogrammi_locali':
+                if card['source_type'] in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser'):
                     self.assertTrue(coverage['partial_visual_sampling'])
                     self.assertGreater(coverage['frames_reviewed'], 0)
                     self.assertTrue(coverage['frame_times_seconds'])

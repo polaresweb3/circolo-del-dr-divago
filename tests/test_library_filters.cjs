@@ -98,9 +98,17 @@ test('Catalogo reale: formati esaustivi, film esclusivi e dati preservati', () =
   const indexed = F.createIndex(actual, cards);
   const films = F.select(indexed, {format: 'film'});
   assert.ok(films.length > 0);
-  assert.ok(films.every(b => /^(film(?:\s|$)|opera cinematografica)/.test(F.normalize(b.work_type))));
+  assert.ok(films.every(b => /^(film(?:\s|$)|opera cinematografica|cortometraggio)/.test(F.normalize(b.work_type))));
   assert.equal(F.formats.filter(([id]) => id !== 'all').reduce((sum, [id]) => sum + F.select(indexed, {format: id}).length, 0), actual.length);
   assert.equal(new Set(actual.map(b => b.id)).size, actual.length);
   assert.equal(JSON.stringify(actual), before);
   console.log(JSON.stringify({works: actual.length, films: films.length, tv: F.select(indexed, {format: 'tv'}).length}));
+});
+
+test('La serie documentaria Gutsy è reperibile tra le serie TV e nessun tipo del repertorio resta sconosciuto', () => {
+  const actual = JSON.parse(fs.readFileSync(path.join(__dirname, '../docs/data/libri.json'), 'utf8'));
+  const actualIndex = F.createIndex(actual);
+  assert.equal(F.select(actualIndex, {format: 'tv'}).filter(b => b.id === 'gutsy-serie-documentaria-2022').length, 1);
+  assert.equal(F.select(actualIndex, {format: 'film'}).filter(b => b.id === 'gutsy-serie-documentaria-2022').length, 0);
+  assert.deepEqual(actualIndex.filter(e => e.format === 'unknown').map(e => e.book.id), []);
 });
