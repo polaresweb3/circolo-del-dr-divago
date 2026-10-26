@@ -581,21 +581,21 @@ function renderBooks(books) {
     }
     const text = node('div', 'book-copy');
     const title = node('h3', '', book.title);
-    const labels = {verificato: 'VERIFICATO', citazione_esplicita: 'RISCONTRO NEL TESTO AUTOMATICO', riscontro_audio_automatico: 'RISCONTRO VOCALE AUTOMATICO', titolo_nella_trascrizione: 'TITOLO NELLA TRASCRIZIONE', titolo_nel_video: 'NEL TITOLO DEL VIDEO', identificazione_probabile: 'IDENTIFICAZIONE PROBABILE', da_riascoltare: 'DA RIASCOLTARE'};
-    title.append(node('span', 'book-state', labels[book.status] || 'DA VERIFICARE'));
     text.append(title);
+    const kind = LibraryFilters.classify(book.work_type).kind;
+    const category = LibraryFilters.kinds.find(([id]) => id === kind)?.[1];
+    if (category && kind !== 'unknown') text.append(node('p', 'book-category', category));
     if (book.subtitle) text.append(node('p', 'book-subtitle', book.subtitle));
     text.append(node('p', 'book-author', book.author));
-    if (book.work_type === 'saggio') text.append(node('p', 'book-work-type', 'Saggio · testo distinto dalle raccolte'));
-    if (book.work_type === 'poesia') text.append(node('p', 'book-work-type', 'Poesia · testo distinto dalle raccolte'));
-    if (book.work_type === 'articolo') text.append(node('p', 'book-work-type', 'Articolo · testo distinto dal periodico'));
     const videoCount = new Set(book.mentions.map(mention => mention.video_id)).size;
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
-    if (book.source) {
-      const notes = node('details', 'book-details');
-      notes.append(node('summary', '', 'Note sul riferimento'), node('p', 'book-source', book.source));
-      text.append(notes);
-    }
+    const labels = {verificato: 'Riferimento verificato', citazione_esplicita: 'Riscontro nel testo automatico', riscontro_audio_automatico: 'Riscontro vocale automatico', titolo_nella_trascrizione: 'Titolo nella trascrizione', titolo_nel_video: 'Nel titolo del video', identificazione_probabile: 'Identificazione probabile', citazione_probabile: 'Identificazione probabile', da_riascoltare: 'Da riascoltare'};
+    const notes = node('details', 'book-details');
+    notes.append(node('summary', '', 'Note sul riferimento'), node('p', 'book-reference-status', labels[book.status] || 'Da verificare'));
+    if (book.source) notes.append(node('p', 'book-source', book.source));
+    const workNote = {saggio: 'Saggio · testo distinto dalle raccolte', poesia: 'Poesia · testo distinto dalle raccolte', articolo: 'Articolo · testo distinto dal periodico'}[book.work_type];
+    if (workNote) notes.append(node('p', 'book-source', workNote));
+    text.append(notes);
     row.append(cover, text);
     const links = node('div', 'book-links');
     const videoLinks = node('div', 'book-link-group');
@@ -648,14 +648,6 @@ function filterBooks(reset = true, focusId = null) {
   }
   renderBooks(filtered);
   const themeId = libraryExplorer.criteria().theme;
-  for (const entry of libraryExplorer.index) {
-    const row = $('book-' + entry.book.id);
-    if (!row) continue;
-    if (!row.querySelector('.book-work-type')) {
-      const kind = LibraryFilters.kinds.find(([id]) => id === entry.kind)?.[1];
-      if (kind) row.children[1].insertBefore(node('p', 'book-work-type', kind), row.children[1].querySelector('.book-mentions-count'));
-    }
-  }
   if (themeId !== 'all') {
     const pattern = LibraryFilters.themes.find(([id]) => id === themeId)?.[2];
     for (const entry of libraryExplorer.index) {

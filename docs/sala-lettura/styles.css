@@ -282,7 +282,8 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .book-cover-button:hover img { transform: translateY(-4px); }
 .book-cover figcaption { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; max-width: 100%; margin-top: .75rem; text-align: center; color: var(--muted); font-size: .6875rem; line-height: 1.6; overflow-wrap: anywhere; }
 .cover-missing { display: flex; align-items: center; justify-content: center; min-height: 8rem; padding: .5rem; border: 1px solid var(--control-border); text-align: center; font-size: .75rem; color: var(--muted); }
-.book-state { display: block; width: fit-content; max-width: 100%; margin-top: .75rem; padding: .25rem .5rem; background: #f5edda; color: #6b4b26; font: .6875rem/1.7 var(--sans); letter-spacing: .055em; overflow-wrap: anywhere; }
+.book-category { display: table; max-width: 100%; margin: .625rem 0 .875rem; padding: .3rem .625rem; border: 1px solid #b4c1a7; border-radius: 2px; background: var(--sage); color: var(--green); font: 600 .75rem/1.6 var(--sans); overflow-wrap: anywhere; }
+.book-reference-status { margin: 0; color: var(--muted); font: .75rem/1.7 var(--sans); }
 .book-subtitle { font: italic 1.0625rem/1.6 var(--serif); color: var(--green); margin-bottom: .625rem; overflow-wrap: anywhere; }
 .book-author { font-size: .875rem; color: var(--green); margin-bottom: .5rem; overflow-wrap: anywhere; }
 .book-source { max-width: 45rem; font-size: .8125rem; line-height: 1.9; color: var(--muted); overflow-wrap: anywhere; }
