@@ -90,12 +90,12 @@ class MultipageTests(unittest.TestCase):
         actual = {item['path'] for item in self.manifest if item['page'] == 'scheda'}
         self.assertEqual(actual, expected)
         self.assertEqual(len(actual), 869)
-        for name in ['schede-completate.html', 'trascrizioni.html', 'casa-editrice.html', 'blog.html']:
+        for name in ['schede-completate.html', 'trascrizioni.html', 'casa-editrice.html']:
             self.assertFalse((ROOT / 'sito/dist' / name).exists())
         for item in self.manifest:
             text = (ROOT / 'sito/dist' / item['path']).read_text()
             self.assertNotIn('{{', text)
-            for retired in ['schede-completate.html', 'trascrizioni.html', 'casa-editrice.html', 'blog.html']:
+            for retired in ['schede-completate.html', 'trascrizioni.html', 'casa-editrice.html']:
                 self.assertNotIn(retired, text)
 
     def test_uncurated_video_does_not_claim_an_existing_editorial_summary(self):

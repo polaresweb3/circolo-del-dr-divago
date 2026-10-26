@@ -209455,7 +209455,7 @@
       "audio_duration_analyzed": 4245.629375
     },
     "analysis_notes": [
-      "Fonte ASR privata letta integralmente prima della sintesi: tutti i 650 segmenti, blocchi 0–179, 180–359, 360–539, 540–649. Copertura 4.02–4242.4 s, durata nominale 4246 s, audio analizzato 4245.629375 s, SHA-256 568163ee2db76b41485d436e8643cbbd48cc1d77833f1e075064efba71b2afeb riconfermato con fonti_schede.coverage. Nessun ascolto umano o nuovo ASR; verified e human_audio_review sempre false.",
+      "Fonte ASR privata letta integralmente prima della sintesi: tutti i 650 segmenti, blocchi 0–179, 180–359, 360–539, 540–649. Copertura 4.02–4242.4 s, durata nominale 4246 s, audio analizzato 4245.629375 s, SHA-256 568163ee2db76b41485d436e8643cbbd48cc1d77833f1e075064efba71b2afeb riconfermato mediante controllo della copertura. Nessun ascolto umano o nuovo ASR; verified e human_audio_review sempre false.",
       "Cronologia delle fonti: opuscoli 2020, monografia filosofica 2014, raccolta Dentith 2018, Uscinski pubblicato OUP dicembre 2018 con catalogazioni 2019, studio 2012. Fonti sanitarie o metodologiche successive sono soltanto contesto della verifica, non conoscenza attribuita al relatore all’epoca né prova retroattiva di malafede.",
       "Letti integralmente How to Spot COVID-19 Conspiracy Theories, quattro pagine, e The Conspiracy Theory Handbook, dodici pagine. Non sono lo stesso documento. Il primo ha quattro autori, non due, come attesta la prima pagina; titolo non pronunciato per intero nel video e dunque identificazione probabile dai contenuti. Il secondo ha due autori ed è nominato come manuale nella conclusione.",
       "Il manuale distingue complotti reali e ipotesi scarsamente provate e ha una bibliografia di 57 riferimenti. È quindi inesatta la rappresentazione come testo senza fonti o negazione dell’esistenza di ogni complotto. L’esempio su Diana rinvia al numero 30. Non utilizzati i tratti CONSPIR come diagnosi medica individuale.",
@@ -214239,7 +214239,7 @@
       "audio_duration_analyzed": 4381.95375
     },
     "analysis_notes": [
-      "Tutti i 757 segmenti inglesi letti personalmente e integralmente prima della sintesi: blocchi 0–179, 180–359, 360–539, 540–756. Copertura 1.55–4381.78 s, durata nominale 4382 s, audio analizzato 4381.95375 s; hash e10bdc869b0f8f626d9b81ab48edf83be012161164af9ceda43e1478f6a459c0 confermato con fonti_schede.coverage. Nessun ascolto umano, ASR nuovo o riavvio di un trascrittore. Citazioni verified:false e human_audio_review:false.",
+      "Tutti i 757 segmenti inglesi letti personalmente e integralmente prima della sintesi: blocchi 0–179, 180–359, 360–539, 540–756. Copertura 1.55–4381.78 s, durata nominale 4382 s, audio analizzato 4381.95375 s; hash e10bdc869b0f8f626d9b81ab48edf83be012161164af9ceda43e1478f6a459c0 confermato mediante controllo della copertura. Nessun ascolto umano, ASR nuovo o riavvio di un trascrittore. Citazioni verified:false e human_audio_review:false.",
       "Conversazione fra due persone, non monologo: a Noll sono attribuite le spiegazioni storiche e le tesi sull’integrazione; al conduttore le domande e le polemiche su industria culturale, Ward e Chomsky. La ASR non è una diarizzazione umana e le parole distorte non sono trasformate in nuove opere per somiglianza fonetica.",
       "Contesto temporale: sono menzionati l’articolo Ward 2021, la revoca Kollab 2020, la socialdemocrazia tedesca al governo e accordi diplomatici regionali. Non aggiornati automaticamente questi incarichi e giudizi al 2026. L’intervista non offre una data univoca della sentenza Stürzenberger; non usata una vicenda successiva per certificare retroattivamente quella indicata.",
       "Antisemitismo: il termine ha un significato storico specifico antiebraico; semitico è una categoria linguistica e non rende logicamente impossibile un pregiudizio arabo contro ebrei. La preferenza degli interlocutori per giudeofobia non dimostra che il termine usuale sia inutilizzabile. IHRA, definizione di lavoro non giuridicamente vincolante, distingue anche critica di Israele analoga a quella rivolta ad altri governi dall’odio e dalle colpe collettive. Nessuna diagnosi clinica dalla parola fobia.",
@@ -219273,6 +219273,25 @@
         "verified": false,
         "human_audio_review": false,
         "role": "riferimento"
+      },
+      {
+        "book_id": "juden-sehen-dich-an-leers",
+        "title": "Juden sehen Dich an",
+        "author": "Johann von Leers",
+        "video_id": "SGoxV61-PWw",
+        "seconds": 4198.43,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          754,
+          755,
+          756
+        ],
+        "evidence": "A 4198.43–4209.96 s il personaggio parla di una brochure nazista con fotografie degli avversari e minaccia di impiccagione sotto quella dell’interlocutore rappresentato come Einstein. La fonte automatica contiene errori riconoscibili di trascrizione; non pronuncia titolo, autore, data o edizione.",
+        "note": "Riferimento di un dialogo cinematografico interpretato, non registrazione storica della conversazione. Identificazione probabile tramite testimonianza critica coeva riprodotta dalla biblioteca digitale DBNL; nessuna certezza della specifica copia o della collocazione in prima pagina. Il contenuto è propaganda antisemita intimidatoria, non fonte attendibile sulle persone prese di mira e non è avallato dalla scheda."
       }
     ],
     "source_coverage": {
@@ -219298,7 +219317,8 @@
       "Le formule razziste sono descritte nel contesto dell’opposizione nazista alla fisica di Einstein e non adottate dalla scheda. Il mutamento del pacifismo è un conflitto etico rappresentato, non una diagnosi personale.",
       "Le fonti aggiuntive servono a verificare identità, cronologia e documenti; non sono aggiunte come altre opere citate se il film non le richiama. Riferimenti musicali generici e brochure senza titolo restano esplicitamente irrisolti.",
       "Aggiornamento bibliografico del 26 ottobre 2026: La formula attribuita a Leibniz sulla musica e il contare inconsapevole ha riscontro latino nella lettera a Christian Goldbach del 17 aprile 1712, pubblicata nella raccolta Kortholt, Epistolae ad diversos, volume I (1734), p. 241, con data sul seguito p. 242: https://www.e-rara.ch/zut/content/pageview/8500513 . Il dialogo del film ne offre una parafrasi tedesca senza nominare lettera o data: l’identificazione del documento resta probabile e non dimostra una reale conversazione di Einstein. Il frontespizio illustrativo appartiene alla raccolta del 1734, non alla lettera manoscritta del 1712.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il dialogo sugli spinori e il campo quadridimensionale trova un riscontro parziale nelle pp. 13–14 di On the Method of Theoretical Physics, la Spencer Lecture di Einstein del 10 giugno 1933, nell’edizione inglese conservato dalla Biblioteca universitaria di Iași (https://dspace.bcu-iasi.ro/handle/123456789/14725?show=full). La corrispondenza è proposta come probabile: titolo non pronunciato, scena interpretata, versione tedesca non collazionata integralmente. L’inglese 1933 non contiene per esteso la formulazione sui semivettori citata dalla ricostruzione storica di Goenner (https://link.springer.com/article/10.12942/lrr-2004-2). La conferenza è distinta dagli articoli tecnici Einstein–Mayer 1932–1934, che non sono individuati univocamente dal solo argomento e restano aperti."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il dialogo sugli spinori e il campo quadridimensionale trova un riscontro parziale nelle pp. 13–14 di On the Method of Theoretical Physics, la Spencer Lecture di Einstein del 10 giugno 1933, nell’edizione inglese conservato dalla Biblioteca universitaria di Iași (https://dspace.bcu-iasi.ro/handle/123456789/14725?show=full). La corrispondenza è proposta come probabile: titolo non pronunciato, scena interpretata, versione tedesca non collazionata integralmente. L’inglese 1933 non contiene per esteso la formulazione sui semivettori citata dalla ricostruzione storica di Goenner (https://link.springer.com/article/10.12942/lrr-2004-2). La conferenza è distinta dagli articoli tecnici Einstein–Mayer 1932–1934, che non sono individuati univocamente dal solo argomento e restano aperti.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: La brochure senza titolo menzionata dal personaggio è identificata probabilmente con Juden sehen Dich an di Johann von Leers (1933). Una testimonianza critica contemporanea, conservata da DBNL in Critisch Bulletin 1933, p. 299, nomina il volume, Einstein e la minaccia; non verifica la specifica edizione o la collocazione in prima pagina. Il dialogo resta una rappresentazione cinematografica. La copertina storica è riprodotta dalla biblioteca ICZ nel contesto della documentazione critica della propaganda antisemita, senza avallarla. [Testimonianza coeva DBNL](https://www.dbnl.org/tekst/_cri002193301_01/_cri002193301_01_0138.php) · [Esemplare bibliotecario ICZ](https://breslauersammlung.com/2026/04/22/nichtjuedische-juden/?print=print)."
     ],
     "contextual_verification_sources": [
       {
@@ -221902,7 +221922,7 @@
     },
     "analysis_notes": [
       "Tutti i 963 segmenti tedeschi della trascrizione locale sono stati letti integralmente prima della sintesi. Nessun ascolto umano: human_audio_review false, verified false.",
-      "È la seconda parte del film televisivo di Georg Schiemann, Eine Formel explodiert, non una conferenza di Giuseppe Caldarella. Le battute sono interpretate da attori. La vicenda di Jane e Frank è trattata come trama cinematografica, non come biografia documentata di collaboratori reali.",
+      "È la seconda parte del film televisivo di Georg Schiemann, Eine Formel explodiert. Le battute sono interpretate da attori. La vicenda di Jane e Frank è trattata come trama cinematografica, non come biografia documentata di collaboratori reali.",
       "La prima parte Der letzte Sommer è stata trattata nel lotto 305. La voce bibliografica unica e la sua copertina autentica sono riusate. Il campo storico initial_source_scope della prima analisi non viene modificato retroattivamente; questa scheda documenta la lettura anche della seconda parte.",
       "Il riconoscimento ha analizzato 4833,52 secondi di audio. I segmenti disponibili iniziano a 112,85s e terminano a 4746,83s: gli intervalli senza parlato riconosciuto non sono descritti come dialoghi ascoltati o come parti trascritte manualmente.",
       "Contesto verificato presso IAS e fonti storiche federali: Einstein lavorò all’Institute for Advanced Study, istituzione distinta dalla Princeton University, e non fu un progettista del Manhattan Project. La lettera del 1939 non equivale alla direzione del programma. E=mc² non è una procedura di costruzione dell’arma e non viene collegata per errore al solo articolo Zur Elektrodynamik bewegter Körper.",
@@ -225625,7 +225645,7 @@
       "audio_duration_analyzed": 5120.3483125
     },
     "analysis_notes": [
-      "Letti personalmente tutti i 674 segmenti disponibili prima della stesura originale. Fonte ASR locale automatica: nessuna revisione umana o certezza di ascolto è dichiarata. La copertura è documentata da fonti_schede.make_card e dal file privato di lettura.",
+      "Letti personalmente tutti i 674 segmenti disponibili prima della stesura originale. Fonte ASR locale automatica: nessuna revisione umana o certezza di ascolto è dichiarata. La copertura è documentata dal riepilogo della fonte e dal file privato di lettura.",
       "La scheda segue le transizioni principali e distingue esplicitamente le citazioni di Moore, Fukuyama e Platone dalle deduzioni del relatore. Non viene dichiarata lettura integrale dei libri, che nel filmato sono commentati selettivamente.",
       "Accuse a università, media, partiti e governi, interpretazioni del golpe cileno, dell’assassinio Kennedy e delle proteste restano attribuite. Non sono trasformate in risultati accertati o imputazioni collettive; eventuali responsabilità operative richiedono riscontri specifici.",
       "Le valutazioni su Nietzsche o sugli avversari politici non sono diagnosi. I riferimenti alla pandemia sono commento politico, non istruzioni mediche o prova automatica dell’inefficacia di misure e trattamenti.",
@@ -240723,6 +240743,21 @@
         "role": "riferimento"
       },
       {
+        "book_id": "volevo-un-gatto-nero-canzone",
+        "seconds": 5190.12,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 733–734 (5190.12–5203.46 s): richiamo esplicito allo Zecchino d’Oro seguito da una forma ASR imperfetta del titolo e da un breve frammento riconoscibile del ritornello. Corrispondenza testuale con la scheda ufficiale; nessuna registrazione o esecuzione identificata.",
+        "note": "Il relatore richiama brevemente una canzone dello Zecchino d’Oro e un frammento del suo ritornello per commentare polemicamente il rifiuto di proseguire una discussione. Il riferimento è identificato probabilmente con Volevo un gatto nero, presentata all’undicesimo Zecchino d’Oro nel 1969. La scheda ufficiale accredita il testo a Franco Maresca e la musica ad A. Soricillo e Framario; Vincenza Pastorelli è l’interprete indicata per quell’edizione. Il richiamo non individua una registrazione, un arrangiamento, il videoclip o un’esecuzione specifica, e non costituisce una trattazione della canzone. Non viene certificato l’andamento cantato sulla base della sola fonte automatica. L’uso polemico della citazione e i giudizi sull’interlocutore sono del relatore.",
+        "title": "Volevo un gatto nero",
+        "author": "Franco Maresca (testo); A. Soricillo e Framario (musica)"
+      },
+      {
         "book_id": "cappuccetto-rosso",
         "title": "Cappuccetto Rosso",
         "author": "Fiaba tradizionale; celebri versioni di Charles Perrault e dei fratelli Grimm",
@@ -240763,7 +240798,8 @@
       "Einstein: il titolo del saggio non è detto; la collazione del passo porta a The Laws of Science and the Laws of Ethics,1950. È una citazione, non l’oggetto di una lettura integrale del saggio nel video. L’indice della raccolta autorizzata conferma il testo: https://books.google.com/books/about/Out_of_My_Later_Years.html?id=hGqUhp_j2XIC . La copertina mostra la raccolta contenitrice Out of My Later Years nell’ebook Open Road 2011; non un’edizione autonoma del saggio né un volume riconosciuto nel video.",
       "L’ultima dea d’Occidente è nominato dal relatore come proprio testo; titolo completo e 2018 compaiono nell’elenco delle pubblicazioni sul blog dell’autore: https://drdivagoscave.blogspot.com/2015/11/ . Quell’elenco laterale è aggiornabile: la data del post 2015 non dimostra una pubblicazione del libro in quell’anno. Editore, ISBN e copertina non sono riscontrati; nessuna nuova voce con immagine arbitraria. La fonte di questo video non pronuncia l’anno 2018.",
       "I paragoni religiosi, l’idea di un male che si maschera da bene e le ipotesi sull’invidia o sulla volontà degli interlocutori appartengono alla lettura del relatore. Non dimostrano malattie mentali, inferiorità o colpe di intere comunità. L’allusione al Corano non è accompagnata da versetto e non prova una prescrizione generale della violenza sessuale; il richiamo mormone non nomina un volume. Nessun libro dedotto dai soli nomi di Freud, Socrate, Pappé, Finkelstein o Maté.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Nel richiamo a 2286,07 s il relatore nomina L’ultima dea d’Occidente e lo presenta come proprio testo, collegandolo alla tecnologia e all’Homo Novus. Il libro è già riscontrato nella bibliografia di Sergio Caldarella: https://drdivagoscave.blogspot.com/2015/11/ . Sottotitolo e 2018 restano dichiarazioni autoriali, non dati di colophon verificati; editore, ISBN, paginazione ed esatta edizione rimangono non determinati. La fotografia parziale del volume proviene dal diverso contributo e05z6oDH0_0 a 2054 s, non da una collazione visiva di questo video: https://www.youtube.com/watch?v=e05z6oDH0_0&t=2054s . Le interpretazioni politico-filosofiche restano attribuite al relatore."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Nel richiamo a 2286,07 s il relatore nomina L’ultima dea d’Occidente e lo presenta come proprio testo, collegandolo alla tecnologia e all’Homo Novus. Il libro è già riscontrato nella bibliografia di Sergio Caldarella: https://drdivagoscave.blogspot.com/2015/11/ . Sottotitolo e 2018 restano dichiarazioni autoriali, non dati di colophon verificati; editore, ISBN, paginazione ed esatta edizione rimangono non determinati. La fotografia parziale del volume proviene dal diverso contributo e05z6oDH0_0 a 2054 s, non da una collazione visiva di questo video: https://www.youtube.com/watch?v=e05z6oDH0_0&t=2054s . Le interpretazioni politico-filosofiche restano attribuite al relatore.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore richiama brevemente una canzone dello Zecchino d’Oro e un frammento del suo ritornello per commentare polemicamente il rifiuto di proseguire una discussione. Il riferimento è identificato probabilmente con Volevo un gatto nero, presentata all’undicesimo Zecchino d’Oro nel 1969. La scheda ufficiale accredita il testo a Franco Maresca e la musica ad A. Soricillo e Framario; Vincenza Pastorelli è l’interprete indicata per quell’edizione. Il richiamo non individua una registrazione, un arrangiamento, il videoclip o un’esecuzione specifica, e non costituisce una trattazione della canzone. Non viene certificato l’andamento cantato sulla base della sola fonte automatica. L’uso polemico della citazione e i giudizi sull’interlocutore sono del relatore. Fonte ufficiale: https://zecchinodoro.org/canzone/volevoungattonero"
     ]
   },
   {
@@ -241766,6 +241802,32 @@
         "human_audio_review": false
       },
       {
+        "book_id": "lettera-heisenberg-pauli-1927-02-23",
+        "title": "Lettera a Wolfgang Pauli, 23 febbraio 1927",
+        "author": "Werner Heisenberg",
+        "video_id": "8gRATvxF5T4",
+        "seconds": 4553.93,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          861,
+          862,
+          863,
+          864,
+          865,
+          866,
+          867,
+          868,
+          869,
+          870
+        ],
+        "evidence": "A 4553.93–4580.73 s l’interlocutore introduce Heisenberg e una lettera a Pauli; a 4580.73–4595.31 s parafrasa il rapporto fra traiettoria classica e osservazione. Nome/destinatario e contenuto espliciti; data e titolo documentario non pronunciati.",
+        "note": "Collazione primaria con la lettera del23 febbraio 1927, settima facciata manoscritta (pagina 8 del facsimile); il contesto delle facciate successive riguarda osservazioni, localizzazione e riduzione dei pacchetti d’onda. La lettura filosofica che la collega a Kant, Schopenhauer e dottrine orientali è dell’interlocutore: il documento non dimostra che la coscienza crei la realtà. Non attribuire automaticamente questo intervento a Caldarella. Mantiene i limiti dell’ASR e le correzioni già presenti nella scheda."
+      },
+      {
         "book_id": "upanisad-raccolta",
         "title": "Upaniṣad (raccolta di testi vedici)",
         "author": "Tradizione vedica indiana; autori diversi",
@@ -241863,7 +241925,8 @@
       "Il richiamo a Goebbels come dottore in filosofia non identifica la disciplina della tesi: la documentazione USHMM indica letteratura tedesca. Non attribuita una responsabilità intrinseca alla filosofia e non trasformate in fatti tutte le genealogie personali della propaganda esposte nel dialogo. Fonte: https://encyclopedia.ushmm.org/content/en/article/joseph-goebbels-1",
       "Über die Buchmacherei è riusato come testo kantiano in due lettere a Friedrich Nicolai; la parafrasi su ragione e dolore resta una tesi filosofica nel contesto del testo, non previsione inevitabile delle sofferenze future. Fonte originale: https://projekt-gutenberg.org/authors/immanuel-kant/books/kleinere-schriften/chapter/4/",
       "Le tre immagini nuove sono copertine autentiche, personalmente viste e completamente decodificate: originale francese di Page, ristampa italiana di Heisenberg e raccolta contenente Nature. Lingue, contenitore ed edizioni sono dichiarati; nessuna edizione materialmente tenuta in mano è certificata dalla trascrizione.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: il titolo Problemi filosofici della scienza è collegato all’unica voce di Sergio Caldarella, con i tre rinvii distinti e bibliografia personale riscontrata. Il fotogramma nativo896s del diverso video UvBljyXN6hE mostra materialmente il volume con titolo e autore leggibili, mano e segnalibri preservati: è una fotografia contestuale parziale, non una copertina ricostruita o un’edizione editoriale autonoma. Nessuna nuova menzione è aggiunta a quel quarto video, campionato soltanto visivamente. Editore, ISBN e precisa edizione restano ignoti;2011 è dichiarato dall’autore e dal presentatore, non un anno letto sul colophon. Nessuna lettura del contenuto scientifico del libro o verifica umana dell’audio è dichiarata. Il rinvio iniziale è pronunciato dal presentatore dell’ospite, senza attribuirlo erroneamente all’ospite."
+      "Aggiornamento bibliografico del 26 ottobre 2026: il titolo Problemi filosofici della scienza è collegato all’unica voce di Sergio Caldarella, con i tre rinvii distinti e bibliografia personale riscontrata. Il fotogramma nativo896s del diverso video UvBljyXN6hE mostra materialmente il volume con titolo e autore leggibili, mano e segnalibri preservati: è una fotografia contestuale parziale, non una copertina ricostruita o un’edizione editoriale autonoma. Nessuna nuova menzione è aggiunta a quel quarto video, campionato soltanto visivamente. Editore, ISBN e precisa edizione restano ignoti;2011 è dichiarato dall’autore e dal presentatore, non un anno letto sul colophon. Nessuna lettura del contenuto scientifico del libro o verifica umana dell’audio è dichiarata. Il rinvio iniziale è pronunciato dal presentatore dell’ospite, senza attribuirlo erroneamente all’ospite.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: La lettera richiamata è identificata probabilmente con quella di Heisenberg a Pauli del23 febbraio 1927: il passo sulla traiettoria e l’osservazione è nella settima facciata manoscritta (pagina 8 del facsimile). La data è ricavata dall’archivio, non dal parlato; è distinta dalla lettera del9 marzo 1927. Il collegamento alle filosofie orientali rimane una lettura dell’interlocutore e non una conclusione sperimentale del documento. [Scheda archivistica Heisenberg-Gesellschaft](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html) · [Facsimile primario](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.pdf)."
     ],
     "verified": false
   },
@@ -244817,6 +244880,19 @@
         "human_audio_review": false
       },
       {
+        "book_id": "qanon-sound-freedom-berlatsky-2023",
+        "title": "QAnon and Sound of Freedom Both Rely on Tired Hollywood Tropes",
+        "author": "Noah Berlatsky",
+        "seconds": 1630.56,
+        "title_seconds": 1647.93,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "evidence": "Segmenti 246–251, 1630,56–1679,90 s: nome Noah Berlatsky, QAnon e Sound of Freedom e parafrasi del titolo sui luoghi comuni di Hollywood; segue traduzione del sottotitolo. Riferimento a Bloomberg a 1721,38 s. Corrispondenza bibliografica con la colonna del 15 luglio 2023 e sua versione spagnola autorizzata.",
+        "note": "Fonte automatica, nessun ascolto umano. Versione effettivamente letta: spagnola Bloomberg Línea, non intero originale inglese; screenshot del solo titolo spagnolo dichiarato. La colonna firmata di opinione non rappresenta automaticamente l’Editorial Board o un’inchiesta giudiziaria. Le ulteriori accuse del relatore su presunti tweet del 2017 non sono qui collazionate sull’originale né costituiscono prova di condotte abusive.",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
         "book_id": "ballata-madri-pasolini",
         "title": "La ballata delle madri",
         "author": "Pier Paolo Pasolini",
@@ -245057,7 +245133,8 @@
       "Aggiornamento bibliografico del26ottobre2026: Il dipinto del congedo è ora collegato probabilmente a La morte di Socrate di Jacques-Louis David (1787), Met31.45, con riproduzione autentica integrale del museo. Nome, anno e soggetto sono riconoscibili nella fonte automatica; non è stato collazionato un fotogramma. L’interpretazione morale e il richiamo ai maestri restano del relatore; la tela settecentesca non è testimonianza visiva diretta dell’evento antico. La massima successiva attribuita a Socrate resta una pendenza distinta, senza inventare un rinvio a Fedone o Apologia. Fonte ASR automatica, senza nuovo ascolto umano. Sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
       "Aggiornamento bibliografico del 26 ottobre 2026: Il passo su esistenza senza senso o meta ed eterno ritorno è ora collegato probabilmente al frammento postumo 5[71], Il nichilismo europeo, datato 10 giugno 1887. La collazione effettiva usa il §75 della selezione storica riordinata da Max Brahn nel 1917; il rapporto con la numerazione critica e con il manoscritto è documentato separatamente dal Kommentar Heidelberg/De Gruyter. Non è dichiarata una lettura dell’edizione critica digitale. La data riguarda la composizione e non una prima pubblicazione inventata. La Volontà di potenza non è presentata come libro completato da Nietzsche. La stessa copertina Adelphi già presente è riusata come raccolta contenente questo testo e il distinto 7[60], senza duplicare l’immagine o confondere i frammenti. Fonte ASR automatica, senza nuovo ascolto umano. Sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
       "Aggiornamento bibliografico del 26 ottobre 2026: collegato come probabile il richiamo a Horkheimer al saggio Die Juden und Europa (1939). Il passo è collazionato nella traduzione primaria spagnola di Eduardo Maura, Constelaciones 4 (2012), p. 4 e contesto pp. 3–5, non nell’originale tedesco. Il sommario prova il contenimento nel volume IV Fischer 1988, pp. 308–331: la copertina illustra questa raccolta, non un’edizione identificata nel video. L’interpretazione politica resta del relatore; fonte ASR senza ascolto umano.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: collegata come probabile la citazione di Washington alla risposta alla Chiesa episcopale protestante, con data editoriale [19 August 1789]. Il relatore pronuncia l’anno e rende il passo su felicità e dovere morale, senza destinatario o giorno. Testo e contesto sono riscontrati in Founders Online; il rinvio esplicito prova il contenimento nella Presidential Series, volume 3 (1989), pp. 496–499. La fotografia illustra la copertina della raccolta, non il manoscritto o l’edizione usata dal relatore. Il paragone contemporaneo resta del relatore; fonte ASR senza ascolto umano."
+      "Aggiornamento bibliografico del 26 ottobre 2026: collegata come probabile la citazione di Washington alla risposta alla Chiesa episcopale protestante, con data editoriale [19 August 1789]. Il relatore pronuncia l’anno e rende il passo su felicità e dovere morale, senza destinatario o giorno. Testo e contesto sono riscontrati in Founders Online; il rinvio esplicito prova il contenimento nella Presidential Series, volume 3 (1989), pp. 496–499. La fotografia illustra la copertina della raccolta, non il manoscritto o l’edizione usata dal relatore. Il paragone contemporaneo resta del relatore; fonte ASR senza ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il commento cinematografico citato è una colonna firmata di Noah Berlatsky del 15 luglio 2023, distinta da un editoriale anonimo. È stata verificata la versione spagnola autorizzata di Bloomberg Línea: https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/ . L’immagine documentaria contiene soltanto il titolo nativo spagnolo; autore e data sono riscontrati separatamente nella pagina. Le opinioni sul film restano attribuite all’autore; le accuse del relatore su presunti tweet o comportamenti personali non sono provate da questo riscontro bibliografico."
     ],
     "verified": false
   },
@@ -254552,6 +254629,34 @@
         "human_audio_review": false
       },
       {
+        "book_id": "blackadder-goodbyeee",
+        "title": "Goodbyeee / Plan F: Goodbyeee (Blackadder Goes Forth, episodio 6)",
+        "author": "Richard Curtis e Ben Elton (sceneggiatura)",
+        "video_id": "93vPbl1JU4E",
+        "seconds": 6306.72,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          800,
+          801,
+          802,
+          803,
+          804,
+          805,
+          806,
+          807,
+          808,
+          809,
+          810,
+          811
+        ],
+        "evidence": "A 6306.72–6314.14 s l’ASR riporta «come dice Blackadder» e una fabbrica di Brustel in Tanganica: il richiamo alla fabbrica di salsicce coincide con la battuta del testo di Goodbyeee riprodotto da Leeds. Nome della serie esplicito; titolo e numero dell’episodio non pronunciati.",
+        "note": "Identificazione probabile mediante il testimone testuale dell’archivio accademico, distinto dai metadati ufficiali dell’episodio. Non è un’affermazione di visione o ascolto umano. La battuta è satira e non costituisce una fonte storica sulla consistenza dell’impero coloniale tedesco; resta conservata la correzione storica già presente nella scheda. Non confondere con Ink and Incapability, Head o Nob and Nobility già repertoriati."
+      },
+      {
         "book_id": "beginnings-said",
         "title": "Beginnings: Intention and Method",
         "author": "Edward W. Said",
@@ -254655,6 +254760,21 @@
         "role": "riferimento",
         "verified": false,
         "human_audio_review": false
+      },
+      {
+        "book_id": "superfantozzi-parenti-film",
+        "seconds": 8119.43,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 1073–1074 (8119.43–8136.71 s): richiamo esplicito a Fantozzi kamikaze e nome reso «tozzi fan». ANICA AG5296 associa precisamente Tozzifan all’episodio giapponese di Superfantozzi. Titolo completo non pronunciato; battuta non collazionata con il sonoro del film.",
+        "note": "Il richiamo a Fantozzi che fa il kamikaze, con il nome reso dall’ASR come «tozzi fan», è identificato probabilmente con l’episodio giapponese di Superfantozzi, film di Neri Parenti del 1986. La trama ANICA menziona specificamente il kamikaze Tozzifan, riscontro più preciso della sola presenza del personaggio Fantozzi. Il titolo completo non viene pronunciato e non è stata effettuata una collazione audiovisiva del film o della battuta ricordata. L’allusione è distinta dalla scena del cineforum richiamata prima nel seminario, collegata a Il secondo tragico Fantozzi (1976). Il relatore usa la gag per commentare polemicamente il rifiuto del sacrificio: questa è la sua interpretazione, non una ricostruzione storica dei kamikaze né una valutazione delle persone contemporanee come fatto accertato.",
+        "title": "Superfantozzi",
+        "author": "Neri Parenti (regia)"
       },
       {
         "book_id": "non-ci-resta-piangere-troisi-benigni",
@@ -254857,7 +254977,9 @@
       "La digressione su Said non autorizza a negare la storia coloniale tedesca: il Bundesarchiv conserva documenti relativi a Togo, Camerun, Africa sud-occidentale e orientale e territori del Pacifico, https://www.bundesarchiv.de/presse-und-medien/pressemitteilung/unterdrueckung-und-widerstand-in-deutschen-kolonien/ . Il libro Beginnings distingue origini privilegiate o mitiche e inizi umani nella produzione di significato; il giudizio del relatore su questa distinzione non è una descrizione neutrale dell’opera.",
       "La negazione dell’esistenza di un popolo palestinese prima degli anni Sessanta è una tesi polemica del relatore, non un fatto assunto dalla scheda. Negli allegati UNSCOP del 1947 compare già «Palestinian people» in una proposta di cittadinanza comune: contesto specifico che non va confuso con una prova di identità nazionali immutabili, https://www.un.org/unispal/document/auto-insert-186346/ . L’ordinanza ICJ del 26 gennaio 2024 stabilisce misure provvisorie vincolanti, tutela i palestinesi di Gaza, richiama il diritto umanitario per tutte le parti e chiede la liberazione degli ostaggi; al §84 precisa di non pregiudicare il merito della causa. Non è una sentenza definitiva né di condanna né di assoluzione: https://www.justice.gov.za/m_statements/2024/20240126-Hague-ICJ-Order-192-20240126-ord-01-00-en.pdf .",
       "Correzioni dei riferimenti: Soylent Green è ambientato nel 2022, non nel 2024, https://catalog.afi.com/Film/54405-SOYLENT-GREEN . La scena «ricordati che devi morire» è usata come allusione cinematografica, senza identificare il monaco come Savonarola. La laurea honoris causa è un riconoscimento e non certifica un percorso di dottorato di ricerca: Helsinki documenta il conferimento a Greta Thunberg il 9 giugno 2023, https://www.helsinki.fi/en/projects/conferment-ceremony-faculty-theology/conferment-tradition . L’asserita seconda onorificenza a Colonia non è qui confermata.",
-      "I modelli psicoanalitici e le vicende dei personaggi di Turgenev e Dostoevskij non permettono diagnosi degli autori, degli ascoltatori o di una società. La testimonianza di Améry rimane riferita alla propria esperienza. Il discorso di Solženicyn a Harvard è dell’8 giugno 1978; l’idea che dopo di esso l’autore sia stato cancellato è un’interpretazione, distinta dalla conservazione pubblica del testo: https://www.solzhenitsyncenter.org/a-world-split-apart ."
+      "I modelli psicoanalitici e le vicende dei personaggi di Turgenev e Dostoevskij non permettono diagnosi degli autori, degli ascoltatori o di una società. La testimonianza di Améry rimane riferita alla propria esperienza. Il discorso di Solženicyn a Harvard è dell’8 giugno 1978; l’idea che dopo di esso l’autore sia stato cancellato è un’interpretazione, distinta dalla conservazione pubblica del testo: https://www.solzhenitsyncenter.org/a-world-split-apart .",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il richiamo a Fantozzi che fa il kamikaze, con il nome reso dall’ASR come «tozzi fan», è identificato probabilmente con l’episodio giapponese di Superfantozzi, film di Neri Parenti del 1986. La trama ANICA menziona specificamente il kamikaze Tozzifan, riscontro più preciso della sola presenza del personaggio Fantozzi. Il titolo completo non viene pronunciato e non è stata effettuata una collazione audiovisiva del film o della battuta ricordata. L’allusione è distinta dalla scena del cineforum richiamata prima nel seminario, collegata a Il secondo tragico Fantozzi (1976). Il relatore usa la gag per commentare polemicamente il rifiuto del sacrificio: questa è la sua interpretazione, non una ricostruzione storica dei kamikaze né una valutazione delle persone contemporanee come fatto accertato. Fonti: https://www.archiviodelcinemaitaliano.it/risultati/scheda?codice=AG5296 ; https://mediasetinfinity.mediaset.it/movie/superfantozzi/superfantozzi_F001184601000101/",
+      "Aggiornamento bibliografico del 26 ottobre 2026: La battuta sulla fabbrica di salsicce in Tanganica rinvia probabilmente a Goodbyeee, sesto episodio di Blackadder Goes Forth (1989): collazione con la sceneggiatura riprodotta da University of Leeds, non con un copione BBC autenticato. La battuta è satirica e non documenta l’effettiva estensione dell’impero coloniale tedesco."
     ],
     "verified": false
   },

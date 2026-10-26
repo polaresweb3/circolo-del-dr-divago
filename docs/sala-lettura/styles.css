@@ -121,6 +121,29 @@ select { max-width: 15rem; padding: .75rem .25rem; border: 0; background: transp
 body:not([data-page='home']) main > .section, body:not([data-page='home']) .library-section > .section { padding-top: 2.5rem; }
 
 /* 04 — Home e percorsi di lettura */
+/* La Home si apre sulle conversazioni scelte per conoscere Dr Divago. */
+.home-discovery { padding-block: 2.5rem 3rem; }
+.home-discovery-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(12rem, 19rem); gap: 1.5rem 3rem; align-items: end; margin-bottom: 2rem; }
+.home-discovery-heading .eyebrow { margin-bottom: 1rem; }
+.home-discovery-heading h1 { font-size: clamp(2.2rem, 4.1vw, 3.5rem); line-height: 1.05; letter-spacing: -.045em; }
+.home-discovery-intro { padding-bottom: .25rem; color: var(--muted); font: 1.125rem/1.8 var(--serif); }
+.home-conversations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.home-conversation { min-width: 0; }
+.home-conversation .thumbnail-button { border: 1px solid var(--rule); }
+.home-conversation-label { margin-block: 1.25rem .75rem; font-size: .625rem; }
+.home-conversation h2 { margin-bottom: .875rem; font-size: clamp(1.5rem, 2.4vw, 2rem); line-height: 1.2; }
+.home-conversation h2 a:hover { text-decoration: underline; text-underline-offset: .15em; text-decoration-thickness: 1px; }
+.home-conversation-description { max-width: 41rem; color: var(--muted); font-size: .9375rem; line-height: 1.85; }
+.home-conversation-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.25rem; margin-top: 1.25rem; }
+.home-conversation-actions .button { gap: 1rem; }
+@media (max-width: 46rem) {
+  .home-discovery { padding-top: 1.75rem; }
+  .home-discovery-heading, .home-conversations { grid-template-columns: minmax(0, 1fr); }
+  .home-discovery-heading { gap: 1rem; margin-bottom: 1.5rem; }
+  .home-discovery-intro { font-size: 1rem; }
+  .home-conversations { gap: 2.5rem; }
+}
+
 .hero { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: clamp(2rem, 5vw, 5rem); padding-block: 4rem 4.5rem; }
 .hero h1 { font-size: clamp(3rem, 5.1vw, 4.5rem); line-height: 1.05; letter-spacing: -.055em; margin-bottom: 1.75rem; }
 .intro { max-width: 36rem; margin-bottom: 1.75rem; font-size: 1rem; line-height: 1.9; color: var(--muted); }
@@ -291,6 +314,36 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .transcript-downloads { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-block: 1rem 1.5rem; }
 .transcript-downloads p { flex-basis: 100%; }
 
+/* Blog: rubrica, invito email in preparazione e ultimo articolo in Home. */
+.blog-categories { display: flex; flex-wrap: wrap; gap: .5rem 2rem; margin-bottom: 2.5rem; }
+.blog-categories a { display: inline-flex; align-items: center; min-height: 2.75rem; padding-block: .5rem; border-bottom: 1px solid var(--rule); color: var(--green); font-size: .875rem; }
+.blog-categories a:hover { border-color: var(--accent); color: var(--accent); }
+.blog-card .blog-byline { margin-bottom: .75rem; color: var(--accent); font-family: var(--serif); }
+.blog-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.blog-rubric { min-width: 0; scroll-margin-top: 2rem; }
+.blog-rubric > .eyebrow { margin-bottom: .875rem; }
+.blog-rubric h2 { margin-bottom: 1.5rem; }
+.rubric-subtitle { max-width: 40rem; margin-bottom: 1.5rem; color: var(--green); font: 1.4rem/1.7 var(--serif); }
+.rubric-description, .blog-newsletter p:not(.eyebrow):not(.preparation-status) { color: var(--muted); font-size: .9375rem; line-height: 1.95; }
+.blog-empty { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font: italic 1.125rem/1.8 var(--serif); }
+.blog-newsletter { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; align-items: center; padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--rule); background: #eeebe1; }
+.blog-newsletter .eyebrow { margin-bottom: 1rem; }
+.blog-newsletter h2 { margin-bottom: 1.5rem; font-size: 1.875rem; }
+.preparation-status { display: inline-block; margin-top: 1.5rem; padding: .35rem .75rem; border: 1px solid var(--rule); color: var(--green); font-size: .8125rem; }
+.blog-page .blog-card { grid-template-columns: minmax(0, 1fr); gap: .875rem; }
+.blog-entries:has(.blog-card) { margin-top: 2.5rem; }
+.home-blog { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); border-top: 1px solid var(--rule); }
+.home-blog h2 { margin-bottom: 1.5rem; }
+.home-blog p:not(.eyebrow):not(.blog-meta) { max-width: 36rem; color: var(--muted); font-size: .9375rem; line-height: 1.95; }
+.home-blog .text-link { margin-top: 1.5rem; }
+.home-blog-latest { min-width: 0; padding-left: clamp(1.5rem, 3vw, 3rem); border-left: 1px solid var(--rule); }
+.home-blog-latest .eyebrow { margin-bottom: 1rem; }
+.home-blog-latest h3 { margin-block: .875rem 1rem; font-size: 1.875rem; line-height: 1.25; }
+@media (max-width: 46rem) {
+  .blog-layout, .home-blog, .blog-newsletter { grid-template-columns: minmax(0, 1fr); }
+  .home-blog-latest { padding-left: 0; padding-top: 2rem; border-left: 0; border-top: 1px solid var(--rule); }
+}
+
 /* 08 — Blog e progetto */
 .blog-card { display: grid; grid-template-columns: 1fr 2.3fr auto; gap: 2rem; align-items: start; padding-block: 2rem; border-bottom: 1px solid var(--rule); }
 .blog-card:first-child { border-top: 1px solid var(--rule); }
@@ -315,6 +368,40 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .player-disable { background: transparent; border: 0; padding: .75rem 0; margin-bottom: 1rem; cursor: pointer; }
 .player-disable[hidden] { display: none; }
 .article-end { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.project-epigraph { max-width: 54rem; margin-bottom: 3.5rem; padding-left: 1.5rem; border-left: 2px solid var(--accent); }
+.project-epigraph blockquote { margin: 0 0 1rem; color: var(--green); font: italic clamp(1.25rem, 2.2vw, 1.75rem)/1.65 var(--serif); }
+.project-epigraph figcaption { color: var(--muted); font-size: .8125rem; line-height: 1.8; }
+.project-description { max-width: 54rem; color: var(--muted); line-height: 1.95; }
+.project-page .project-community > p + p { margin-top: 1rem; }
+.project-status { margin-block: 2.5rem 1.5rem; color: var(--green); font: italic 1.125rem/1.8 var(--serif); }
+.project-page .project-lead { margin-bottom: 1.25rem; }
+/* Catalogo dei volumi pubblicati dal Circolo, nella pagina del progetto. */
+.project-catalog { margin-top: 3.5rem; }
+.project-catalog-heading { margin-bottom: 2rem; }
+.project-catalog-heading .eyebrow { margin-bottom: .75rem; }
+.project-catalog-heading h2 { font-size: clamp(1.875rem, 3vw, 2.5rem); }
+.project-volumes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem; }
+.project-volume { min-width: 0; display: grid; grid-template-columns: minmax(0, 10rem) minmax(0, 1fr); gap: 1.75rem; align-items: start; padding-top: 2rem; border-top: 1px solid var(--rule); }
+.project-volume-featured { grid-column: 1 / -1; grid-template-columns: minmax(0, 18rem) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 4vw, 4rem); padding: clamp(1.5rem, 3vw, 3rem); border: 1px solid var(--rule); background: #eeebe1; }
+.project-volume-cover img { display: block; width: 100%; height: auto; max-height: 28rem; object-fit: contain; }
+.project-cover-placeholder { display: flex; flex-direction: column; justify-content: space-between; width: 100%; aspect-ratio: 2 / 3; padding: 1.5rem; border: 1px dashed var(--muted); background: var(--paper); color: var(--green); text-align: center; }
+.project-cover-placeholder span { font-size: .625rem; letter-spacing: .15em; line-height: 1.8; }
+.project-cover-placeholder strong { font: clamp(3rem, 6vw, 5rem)/1.2 var(--serif); }
+.project-volume-copy { min-width: 0; }
+.project-volume-copy .eyebrow { margin-bottom: 1rem; }
+.project-volume h3 { margin-bottom: 1rem; font-size: clamp(1.6rem, 2.5vw, 2.25rem); line-height: 1.2; }
+.project-volume-author { margin-bottom: 1.5rem; color: var(--accent); font-family: var(--serif); }
+.project-volume-description { max-width: 42rem; color: var(--muted); font-size: .9375rem; line-height: 1.95; }
+.project-volume-description + .project-volume-description { margin-top: 1rem; }
+.project-volume-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
+.project-volume-actions .button { max-width: 100%; overflow-wrap: anywhere; }
+.project-volume .project-status { margin-bottom: 0; }
+.project-page > .hero-actions { margin-top: 2rem; }
+@media (max-width: 60rem) { .project-volumes { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 46rem) {
+  .project-volume, .project-volume-featured { grid-template-columns: minmax(0, 1fr); }
+  .project-volume-cover, .project-cover-placeholder { width: min(100%, 16rem); margin-inline: auto; }
+}
 .project-lead { max-width: 53rem; margin-block: 2rem 3rem; color: var(--green); font: 1.5rem/1.8 var(--serif); }
 .project-manifesto { max-width: 61rem; margin-block: 2.5rem 3.5rem; padding: 2rem 2.5rem; border-left: 3px solid var(--accent); background: #eeebe1; }
 .project-manifesto h2 { font-size: 2.5rem; margin-bottom: 1.25rem; }

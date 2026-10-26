@@ -147819,5 +147819,447 @@
     "human_audio_review": false,
     "verified": false,
     "identification_basis": "titolo_visibile_nel_montaggio_a_45_secondi"
+  },
+  {
+    "id": "superfantozzi-parenti-film",
+    "title": "Superfantozzi",
+    "author": "Neri Parenti (regia)",
+    "year": 1986,
+    "production_year": 1986,
+    "work_type": "film",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "human_audio_review": false,
+    "verified": false,
+    "source": "Il richiamo a Fantozzi che fa il kamikaze, con il nome reso dall’ASR come «tozzi fan», è identificato probabilmente con l’episodio giapponese di Superfantozzi, film di Neri Parenti del 1986. La trama ANICA menziona specificamente il kamikaze Tozzifan, riscontro più preciso della sola presenza del personaggio Fantozzi. Il titolo completo non viene pronunciato e non è stata effettuata una collazione audiovisiva del film o della battuta ricordata. L’allusione è distinta dalla scena del cineforum richiamata prima nel seminario, collegata a Il secondo tragico Fantozzi (1976). Il relatore usa la gag per commentare polemicamente il rifiuto del sacrificio: questa è la sua interpretazione, non una ricostruzione storica dei kamikaze né una valutazione delle persone contemporanee come fatto accertato.",
+    "references": [
+      {
+        "label": "ANICA · Superfantozzi, regia, produzione e trama con il kamikaze Tozzifan",
+        "url": "https://www.archiviodelcinemaitaliano.it/risultati/scheda?codice=AG5296"
+      },
+      {
+        "label": "Mediaset Infinity · scheda ufficiale del film del 1986 e immagine promozionale associata",
+        "url": "https://mediasetinfinity.mediaset.it/movie/superfantozzi/superfantozzi_F001184601000101/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "93vPbl1JU4E",
+        "seconds": 8119.43,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 1073–1074 (8119.43–8136.71 s): richiamo esplicito a Fantozzi kamikaze e nome reso «tozzi fan». ANICA AG5296 associa precisamente Tozzifan all’episodio giapponese di Superfantozzi. Titolo completo non pronunciato; battuta non collazionata con il sonoro del film.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: La distanza dalla verità."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/superfantozzi-parenti-490.jpg",
+      "image_url": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/mp/v5/ita/F001184601000101/image_header_poster/375/329?r=1788817104000",
+      "source_page": "https://mediasetinfinity.mediaset.it/movie/superfantozzi/superfantozzi_F001184601000101/",
+      "image_type": "immagine_promozionale_film",
+      "cover_relation": "immagine_promozionale_della_stessa_opera_non_della_scena_citata",
+      "image_label": "Immagine promozionale ufficiale del film · Mediaset Infinity",
+      "edition_label": "Immagine digitale associata da Mediaset Infinity a Superfantozzi (Italia, 1986), asset F001184601000101; non è una copertina libraria, una locandina completa o la scena del kamikaze.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "L’immagine mostra una figura con copricapo e occhiali su un velivolo rosso. Il collegamento alla stessa opera è documentato dalla pagina ufficiale e dal suo identificatore; non è stata identificata una persona dal volto. È una foto promozionale di un’altra situazione del film, non prova visiva dell’episodio giapponese o della battuta citata. File nativo 375 × 329 pixel, senza ritaglio, ricomposizione o ingrandimento.",
+      "asset_sha256": "a6dd62e7b7025d3a1fd3e0531d4d9f713999b7752657435e856e8c4cc42f5ae0",
+      "integrity_review": {
+        "decoded": true,
+        "width": 375,
+        "height": 329,
+        "checked_at": "2026-10-26T10:35:59.148258+00:00",
+        "method": "Pillow verify, nuova apertura e load completo; SHA-256 dei byte JPEG nativi."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T10:35:59.148258+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Figura seduta in un velivolo rosso e fondo chiaro; formato promozionale senza titolo impresso. Associazione al film provata dalla pagina ufficiale e dal medesimo content ID, non dal riconoscimento del volto. Nessun segnaposto o immagine di altra opera."
+      }
+    },
+    "year_note": "Il 1986 è attestato dalla scheda Mediaset; ANICA registra il visto n. 82104 del 18 dicembre 1986, che non viene assunto come data della prima uscita nelle sale."
+  },
+  {
+    "id": "blackadder-goodbyeee",
+    "title": "Goodbyeee / Plan F: Goodbyeee (Blackadder Goes Forth, episodio 6)",
+    "author": "Richard Curtis e Ben Elton (sceneggiatura)",
+    "work_type": "episodio televisivo",
+    "publication_year": 1989,
+    "original_broadcast_date": "1989-11-02",
+    "series": "Blackadder Goes Forth / Blackadder, quarta serie",
+    "season": 4,
+    "episode": 6,
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore nomina Blackadder e ricorda una fabbrica di würstel in Tanganica. Il testo della sceneggiatura riprodotto nell’archivio istituzionale Phil Taylor’s Papers di Leeds attribuisce la stessa battuta a Edmund in Goodbyeee, episodio 6 della quarta serie. Si tratta di collazione mediata, non di un copione di produzione BBC autenticato né di ascolto dell’episodio. Il titolo specifico non è pronunciato; i metadati distributivi Apple/ITVX sono verificati separatamente.",
+    "references": [
+      {
+        "label": "University of Leeds · Phil Taylor’s Papers, testo della sceneggiatura intestato Episode6,Goodbyeee; collazione mediata della battuta",
+        "url": "https://universityofleeds.github.io/philtaylorpapers/vp01f0ab.html"
+      },
+      {
+        "label": "Apple TV · scheda distributiva ufficiale dell’episodio BBC S4E6 e immagine associata",
+        "url": "https://tv.apple.com/us/episode/goodbyeee/umc.cmc.6367cccasjtqtkofpaqtzgxjd?showId=umc.cmc.3qs9hyo5c66je1v5m2bdjcy09"
+      },
+      {
+        "label": "ITVX · scheda ufficiale Blackadder, serie 4 episodio 6,Goodbyeee",
+        "url": "https://www.itv.com/watch/blackadder/2a7295/2a7295a0024"
+      },
+      {
+        "label": "WJEC · documento d’esame2015, testoC a p.5 attribuito a Curtis/Elton, riproduzione ospitata da RevisionWorld",
+        "url": "https://revisionworld.com/sites/revisionworld.com/files/imce/s15-1164-01.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "93vPbl1JU4E",
+        "seconds": 6306.72,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 6306.72–6314.14 s l’ASR riporta «come dice Blackadder» e una fabbrica di Brustel in Tanganica: il richiamo alla fabbrica di salsicce coincide con la battuta del testo di Goodbyeee riprodotto da Leeds. Nome della serie esplicito; titolo e numero dell’episodio non pronunciati.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: La distanza dalla verità."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/blackadder-goodbyeee-1989.jpg",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/3-uhRO-Om5r8KWaIiVgE1A/1200x675.jpg",
+      "source_page": "https://tv.apple.com/us/episode/goodbyeee/umc.cmc.6367cccasjtqtkofpaqtzgxjd?showId=umc.cmc.3qs9hyo5c66je1v5m2bdjcy09",
+      "edition_label": "Fotografia ufficiale BBC associata da Apple TV alla scheda di Goodbyeee, sesto episodio di Blackadder Goes Forth (quarta serie), 1989. Immagine di scena della versione distribuita; non copertina di un libro né di un altro episodio.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "fotografia_ufficiale_episodio_televisivo",
+      "edition_note": "La pagina identifica S4E6 e copyright 1989 BBC; la fotografia mostra un interno in legno con tre figure in uniforme, una con copricapo e due matite presso il naso. Nessuna visione integrale dell’episodio o verifica del momento esatto della battuta dichiarata. La pertinenza dipende dall’associazione esplicita dell’immagine alla pagina ufficiale dell’episodio, non dall’identificazione dei volti.",
+      "asset_sha256": "92eba838f71025f83ef1f1e2c2ca19c6bce4d58189c6c5686b262cca2103bc71",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T10:59:03.300951+00:00",
+        "width": 1200,
+        "height": 675,
+        "bytes": 325610,
+        "format": "JPEG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Byte nativi dell’URLog:image della pagina specifica; verifica e riapertura/load completi. Nessun ritocco o ingrandimento."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T10:59:03.300951+00:00",
+        "notes": "Fotografia intera1200×675 vista personalmente con view_image detail original; interno e figure in costume visibili, nessun segnaposto. Nessun volto usato come unica prova d’identità o appartenenza all’episodio."
+      },
+      "image_label": "Fotografia ufficiale dell’episodio · Apple TV / BBC",
+      "image_type": "fotografia_promozionale_episodio"
+    },
+    "ready_for_integration": true,
+    "verified": false,
+    "human_audio_review": false,
+    "year": 1989
+  },
+  {
+    "id": "qanon-sound-freedom-berlatsky-2023",
+    "title": "QAnon and Sound of Freedom Both Rely on Tired Hollywood Tropes",
+    "author": "Noah Berlatsky",
+    "work_type": "articolo_di_opinione_cinematografica_e_politica",
+    "publication_date": "2023-07-15",
+    "publication_year": 2023,
+    "publisher": "Bloomberg Opinion",
+    "original_language": "en",
+    "status": "citazione_esplicita",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "authorized_translation": {
+      "language": "es",
+      "title": "QAnon y ‘Sound of Freedom’ dependen de tropos desgastados de Hollywood",
+      "publisher": "Bloomberg Línea",
+      "publication_date": "2023-07-15",
+      "time_displayed": "06:41 PM",
+      "timezone_not_assumed": true,
+      "translator_named": null,
+      "url": "https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/",
+      "scope": "La pagina presenta l’articolo firmato da Berlatsky nella sezione Opinión-Bloomberg, rinvia a Bloomberg.com e distingue la sua opinione da quella del consiglio editoriale e dei proprietari. Nessun traduttore inventato."
+    },
+    "source": "A 1630,56 s il relatore nomina Noah Berlatsky e a 1647,93–1679,90 s legge/parafrasa il titolo inglese e il sottotitolo sul film e sui luoghi comuni di Hollywood. Titolo e firma identificano la colonna del 15 luglio 2023 già riscontrata nel dossier storico. In questo lotto è stata letta la versione spagnola autorizzata; originale inglese bloccato 403 non ritentato e nessuna sua lettura integrale dichiarata. Opinioni cinematografiche e politiche sono dell’autore; le accuse personali del relatore su presunti tweet rimangono separate e non accertate da questa verifica bibliografica.",
+    "references": [
+      {
+        "label": "Bloomberg Línea, versione spagnola autorizzata della colonna di Noah Berlatsky, 15 luglio 2023; titolo, firma, data e appartenenza a Opinión-Bloomberg verificati",
+        "url": "https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/"
+      },
+      {
+        "label": "Bloomberg Opinion, originale inglese del 15 luglio 2023, titolo riscontrato nel dossier storico; HTTP 403 originale non ritentato",
+        "url": "https://www.bloomberg.com/opinion/articles/2023-07-15/qanon-and-sound-of-freedom-both-rely-on-tired-hollywood-tropes"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "MBavYnf3VKY",
+        "seconds": 1630.56,
+        "title_seconds": 1647.93,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 246–251, 1630,56–1679,90 s: nome Noah Berlatsky, QAnon e Sound of Freedom e parafrasi del titolo sui luoghi comuni di Hollywood; segue traduzione del sottotitolo. Riferimento a Bloomberg a 1721,38 s. Corrispondenza bibliografica con la colonna del 15 luglio 2023 e sua versione spagnola autorizzata.",
+        "role": "riferimento",
+        "video_title": "La stanchezza di fronte al nulla."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/berlatsky492-intestazione-linea.png",
+      "image_url": "https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/",
+      "source_page": "https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/",
+      "source_type": "screenshot_nativo_limitato_intestazione_web",
+      "edition_label": "Titolo nativo della versione spagnola autorizzata pubblicata da Bloomberg Línea il 15 luglio 2023, screenshot 378×160. Il titolo è in spagnolo; non è l’intestazione dell’originale inglese, copertina di libro o immagine stock. Firma e data sono riscontrate separatamente nella pagina ma non incluse nel ritaglio.",
+      "image_label": "Intestazione originale della versione spagnola, Bloomberg Línea (2023)",
+      "cover_relation": "intestazione_web_della_traduzione_autorizzata",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Versione effettivamente letta in questo lotto: spagnola, firma Noah Berlatsky. Nel video il titolo è reso in inglese/italiano; nessuna lettura integrale dell’originale inglese dichiarata. Cattura del solo elemento h1 nel viewport nativo 420×1200, deviceScaleFactor 1, senza foto, corpo dell’articolo, padding, ricomposizione, alterazioni CSS/DOM o chiusura di banner.",
+      "credit_line": "Bloomberg Línea / Bloomberg Opinion, Noah Berlatsky",
+      "rights_note": "Intestazione documentaria limitata della pagina pubblica; nessuna attribuzione di pubblico dominio o licenza libera e nessun corpo moderno esportato.",
+      "asset_sha256": "bbe54252fa127cf414fe8742185ded506de1609de3587bd3cb317a7b5684e75d",
+      "integrity_review": {
+        "decoded": true,
+        "width": 378,
+        "height": 160,
+        "checked_at": "2026-10-26T10:36:34.846885+00:00",
+        "method": "Pillow verify, riapertura e load completo del PNG RGB; SHA-256 dei byte della cattura. Nessun postprocessing, resize o upscaling."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T10:36:34.846885+00:00",
+        "method": "Visione personale dell’immagine intera con view_image, detail original.",
+        "notes": "Titolo spagnolo nero su fondo bianco, leggibile in quattro righe complete; nessun corpo, fotografia, pubblicità o falsa copertina. L’immagine è il rendering nativo dell’h1 e non testo riscritto. Autore e data non sono visibili nella cattura e non vengono dichiarati tali."
+      }
+    },
+    "human_audio_review": false,
+    "verified": false,
+    "year": 2023
+  },
+  {
+    "id": "volevo-un-gatto-nero-canzone",
+    "title": "Volevo un gatto nero",
+    "author": "Franco Maresca (testo); A. Soricillo e Framario (musica)",
+    "year": 1969,
+    "work_type": "canzone",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "human_audio_review": false,
+    "verified": false,
+    "source": "Il relatore richiama brevemente una canzone dello Zecchino d’Oro e un frammento del suo ritornello per commentare polemicamente il rifiuto di proseguire una discussione. Il riferimento è identificato probabilmente con Volevo un gatto nero, presentata all’undicesimo Zecchino d’Oro nel 1969. La scheda ufficiale accredita il testo a Franco Maresca e la musica ad A. Soricillo e Framario; Vincenza Pastorelli è l’interprete indicata per quell’edizione. Il richiamo non individua una registrazione, un arrangiamento, il videoclip o un’esecuzione specifica, e non costituisce una trattazione della canzone. Non viene certificato l’andamento cantato sulla base della sola fonte automatica. L’uso polemico della citazione e i giudizi sull’interlocutore sono del relatore.",
+    "references": [
+      {
+        "label": "Zecchino d’Oro · scheda ufficiale della canzone, crediti e testo",
+        "url": "https://zecchinodoro.org/canzone/volevoungattonero"
+      },
+      {
+        "label": "Zecchino d’Oro · undicesima edizione, 1969 e interprete storico",
+        "url": "https://zecchinodoro.org/edizione/11-edizione"
+      },
+      {
+        "label": "Zecchino d’Oro · Framario, credito musicale del brano",
+        "url": "https://zecchinodoro.org/artista/framario"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "c5SVvxHHfxg",
+        "seconds": 5190.12,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 733–734 (5190.12–5203.46 s): richiamo esplicito allo Zecchino d’Oro seguito da una forma ASR imperfetta del titolo e da un breve frammento riconoscibile del ritornello. Corrispondenza testuale con la scheda ufficiale; nessuna registrazione o esecuzione identificata.",
+        "role": "riferimento",
+        "video_title": "Gabor Maté: la sofistica e l'inquietante."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/volevo-gatto-nero-zecchino-493.jpg",
+      "image_url": "https://zecchinodoro.org/wp-content/uploads/2017/12/1969_Volevo-un-gatto-nerobassa-e1512516813515.jpg",
+      "source_page": "https://zecchinodoro.org/canzone/volevoungattonero",
+      "image_type": "fotografia_documentaria",
+      "cover_relation": "fotografia_archivistica_associata_alla_canzone_dalla_fonte_ufficiale",
+      "image_label": "Fotografia d’archivio associata al brano · Zecchino d’Oro",
+      "edition_label": "Fotografia in bianco e nero pubblicata nella scheda ufficiale di Volevo un gatto nero; il record della canzone indica l’undicesima edizione del 1969. Non è una copertina discografica o libraria né un’immagine dell’allusione nel video.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "La foto mostra una bambina davanti a un microfono. La pertinenza al brano è provata dal collegamento diretto nella scheda ufficiale, non dall’identificazione del volto. Data dello scatto e versione eseguita nel filmato del relatore non vengono dedotte dall’aspetto della foto o dal nome del file. Immagine JPEG nativa 816 × 555 pixel, senza ritagli, ricomposizioni o ingrandimenti.",
+      "asset_sha256": "e00f1a81832605959d92df16845be6caf217ff09344ef25734ccd663a1cf1244",
+      "integrity_review": {
+        "decoded": true,
+        "width": 816,
+        "height": 555,
+        "checked_at": "2026-10-26T11:06:20.909189+00:00",
+        "method": "Pillow verify, riapertura e decodifica load completa; SHA-256 dei byte JPEG originali."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T11:06:20.909189+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Foto intera in bianco e nero con figura infantile presso un microfono e scenografia. Nessun segnaposto, illustrazione di gatto inventata o ritratto reperito per sola somiglianza: asset direttamente associato alla canzone dalla pagina ufficiale."
+      }
+    },
+    "credits_source": "https://zecchinodoro.org/canzone/volevoungattonero",
+    "original_event": "11° Zecchino d’Oro (1969)",
+    "historical_performer": "Vincenza Pastorelli",
+    "performance_identified_in_video": false,
+    "year_note": "1969 è l’anno dell’edizione documentata dallo Zecchino d’Oro; non data il video, la fotografia scaricata o una versione precisamente individuata nell’allusione."
+  },
+  {
+    "id": "lettera-heisenberg-pauli-1927-02-23",
+    "title": "Lettera a Wolfgang Pauli, 23 febbraio 1927",
+    "author": "Werner Heisenberg",
+    "work_type": "lettera scientifica",
+    "document_date": "1927-02-23",
+    "recipient": "Wolfgang Pauli",
+    "place_of_writing": "Copenaghen",
+    "archive_identifier": "heisenberg_0017-042r",
+    "Meyenn_number": 154,
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "L’interlocutore introduce una lettera di Heisenberg a Pauli e ne parafrasa in italiano il passo sulla traiettoria prodotta dall’osservazione; nessuna data o edizione è pronunciata. Il facsimile primario del23 febbraio 1927 contiene il passo alla settima facciata manoscritta (pagina 8 del PDF). Data, mittente e destinatario sono verificati nella scheda archivistica e nell’apertura manoscritta. L’identificazione del riferimento orale resta probabile: non è ascolto umano né prova della traduzione o edizione consultata. Non confondere con la lettera del9 marzo 1927 che accompagna il manoscritto dell’articolo sull’indeterminazione.",
+    "references": [
+      {
+        "label": "Heisenberg-Gesellschaft · scheda archivistica della lettera a Pauli del23 febbraio 1927, segnatura heisenberg_0017-042r, numero Meyenn 154",
+        "url": "https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html"
+      },
+      {
+        "label": "Heisenberg-Gesellschaft · facsimile pubblico della lettera, passo sulla traiettoria alla settima facciata manoscritta (pagina 8 del PDF)",
+        "url": "https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.pdf"
+      },
+      {
+        "label": "Heisenberg-Gesellschaft · indice cronologico, distinzione delle lettere23 febbraio e9 marzo 1927",
+        "url": "https://files.heisenberg-gesellschaft.de/archiv/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "8gRATvxF5T4",
+        "seconds": 4553.93,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 4553.93–4580.73 s l’interlocutore introduce Heisenberg e una lettera a Pauli; a 4580.73–4595.31 s parafrasa il rapporto fra traiettoria classica e osservazione. Nome/destinatario e contenuto espliciti; data e titolo documentario non pronunciati.",
+        "role": "riferimento",
+        "video_title": "Com'è possibile il sovvertimento del mondo? Conversazione con Andrea Grieco."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/lettera-heisenberg-pauli-1927-02-23-intestazione.png",
+      "image_url": "https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html",
+      "source_page": "https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html",
+      "edition_label": "Intestazione nativa della scheda archivistica Heisenberg-Gesellschaft relativa alla lettera di Werner Heisenberg a Pauli del23 febbraio 1927. Riproduce titolo del portale, data, mittente e destinatario; non è il manoscritto né la copertina di un libro.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "intestazione_web_scheda_archivistica_documento",
+      "edition_note": "Cattura originale Chrome della pagina pubblica specifica,900×330 pixel; nessun corpo della lettera, modifica DOM/CSS, ritaglio successivo, ricomposizione, padding o ingrandimento. La versione precedente con testo troncato è esclusa.",
+      "asset_sha256": "790b150ce7483a0ec283d28107466b353156575024bdbf7b021b387c7d727e7b",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T11:50:19.542307+00:00",
+        "width": 900,
+        "height": 330,
+        "bytes": 32103,
+        "format": "PNG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Screenshot nativo della pagina dopo caricamento CSS e caratteri; verifica e riapertura con load completi."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T11:50:19.542307+00:00",
+        "notes": "Intera immagine vista personalmente: intestazione leggibile fino a Pauli, esclusi Stichworte e tutto il corpo del documento."
+      },
+      "image_label": "Intestazione della scheda archivistica · Heisenberg-Gesellschaft"
+    },
+    "ready_for_integration": true,
+    "human_audio_review": false,
+    "verified": false,
+    "year": 1927,
+    "document_year": 1927
+  },
+  {
+    "id": "juden-sehen-dich-an-leers",
+    "title": "Juden sehen Dich an",
+    "author": "Johann von Leers",
+    "work_type": "libro",
+    "publication_year": 1933,
+    "publication_year_note": "[1933] nel catalogo Bar-Ilan;1933 nella didascalia ICZ. Non verificato un colophon della specifica copia cinematografica.",
+    "publisher": "NS.-Druck und Verlag",
+    "publication_place": "Berlin-Schöneberg",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il film interpretato menziona una brochure nazista con fotografie degli avversari e una minaccia sotto quella di Einstein, senza titolo o autore. Una testimonianza critica contemporanea in Critisch Bulletin 1933, p. 299, riprodotta da DBNL, nomina Juden sehen dich an, von Leers e Einstein, e segnala la parola «ungehängt» dopo molti nomi. Questa collazione bibliotecaria coeva sostiene un’identificazione probabile, non certifica la prima pagina, la specifica edizione o la riproduzione mostrata nel film. Titolo/autore/editore sono verificati separatamente da catalogo e fotografia bibliotecaria.",
+    "references": [
+      {
+        "label": "DBNL · Critisch Bulletin, annata 4 (1933), Periscoop, p. 299: testimonianza critica coeva su titolo, autore, Einstein e minaccia",
+        "url": "https://www.dbnl.org/tekst/_cri002193301_01/_cri002193301_01_0138.php"
+      },
+      {
+        "label": "Biblioteca ICZ/Breslauersammlung · fotografia e dati del volume, esemplare D9019; contesto critico della propaganda antisemita",
+        "url": "https://breslauersammlung.com/2026/04/22/nichtjuedische-juden/?print=print"
+      },
+      {
+        "label": "Bar-Ilan University Library · New Items January 2016, p. 53 del PDF: Johann von Leers, Juden sehen dich an, NS.-Druck undVerlag,[1933], record 002420958",
+        "url": "https://lib.biu.ac.il/sites/lib/files/new-books/new_items_jan2016.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "SGoxV61-PWw",
+        "seconds": 4198.43,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 4198.43–4209.96 s il personaggio parla di una brochure nazista con fotografie degli avversari e minaccia di impiccagione sotto quella dell’interlocutore rappresentato come Einstein. La fonte automatica contiene errori riconoscibili di trascrizione; non pronuncia titolo, autore, data o edizione.",
+        "role": "riferimento",
+        "video_title": "Albert Einstein (Teil 1): Der Letzte Sommer."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/juden-sehen-dich-an-leers-1933-copertina-icz.jpg",
+      "image_url": "https://breslauersammlung.com/wp-content/uploads/2026/04/20260420_0831175899718906999673524-739x1024.jpg",
+      "source_page": "https://breslauersammlung.com/2026/04/22/nichtjuedische-juden/?print=print",
+      "edition_label": "Fotografia bibliotecaria della copertina di Juden sehen Dich an, Johann von Leers, NS.-Druck undVerlag, Berlin-Schöneberg, 1933 secondo la biblioteca ICZ/Breslauersammlung, esemplare D9019. Documento storico di propaganda antisemita: titolo e caricatura razzista sono riprodotti per identificazione critica, senza avallarli.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "fotografia_copertina_esemplare_bibliotecario",
+      "edition_note": "Immagine nativa739×1024 pubblicata dalla biblioteca con didascalia bibliografica specifica. Non è un frontespizio, una ricostruzione o una pagina del film. Il volto caricaturale non viene identificato come persona reale. Non prova la specifica edizione richiamata nella sceneggiatura.",
+      "asset_sha256": "614768a9266f948ef9dce82b8055e49c27ff4fb6b28c9aa899c570f0aef3bbb3",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T13:08:20.088925+00:00",
+        "width": 739,
+        "height": 1024,
+        "bytes": 78203,
+        "format": "JPEG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Byte JPEG nativi della fotografia bibliotecaria, verifica e riapertura con load completi; nessuna alterazione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T13:08:20.088925+00:00",
+        "notes": "Copertina intera vista personalmente a risoluzione originale. Titolo leggibile e materiale non generico; contesto storico critico esplicito. Nessun riconoscimento del volto o avallo del contenuto."
+      },
+      "image_label": "Copertina storica di propaganda antisemita · esemplare ICZ D9019"
+    },
+    "ready_for_integration": true,
+    "human_audio_review": false,
+    "verified": false,
+    "year": 1933,
+    "work_type_note": "Volume illustrato di propaganda antisemita, documentato in contesto storico critico."
   }
 ]

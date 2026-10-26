@@ -106,7 +106,7 @@ def create(proposal=PROPOSAL, source=SOURCE, label='PROPOSTA EDITORIALE',
     (dist / 'styles.css').write_text('@layer componenti, proposta;\n@layer componenti {\n' + base
                                     + '\n}\n@layer proposta {\n' + theme + '\n}\n')
     pages = {'home': ('index.html', 'Home', PAGES['home'][2], [])}
-    pages.update({key: PAGES[key] for key in ('video', 'biblioteca', 'eventi', 'progetto')})
+    pages.update({key: PAGES[key] for key in ('video', 'biblioteca', 'blog', 'eventi', 'progetto')})
     manifest = build_site(proposal, pages=pages)
     for item in manifest['pages']:
         for file in (dist / item['path'], proposal / 'sito' / item['preview']):

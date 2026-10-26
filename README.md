@@ -29,7 +29,7 @@ Il comando rigenera le pagine, controlla collegamenti e riferimenti ai file priv
 
 ## GitHub Pages
 
-La cartella `docs/` è pronta per essere selezionata come sorgente GitHub Pages dal branch `main`. Non sono presenti workflow di deploy automatico. L’attivazione di Pages e gli aggiornamenti successivi del sito online richiedono la conferma specifica descritta in `AGENTS.md`.
+GitHub Pages pubblica la cartella `docs/` del branch `main` sul [sito del Circolo](https://polaresweb3.github.io/circolo-del-dr-divago/). Un push su `main` aggiorna anche il sito pubblico. Gli aggiornamenti richiedono la conferma specifica descritta in `AGENTS.md`.
 
 ## Attribuzioni
 
@@ -66,3 +66,85 @@ L’ultima ripresa aggiunge 20 schede redatte dopo lettura integrale delle fonti
 ## Seconda ripresa editoriale locale del 23 ottobre
 
 Aggiunte altre 18 schede, dopo lettura integrale dei segmenti disponibili: il totale è ora di **291 schede su 869 video**, con **162 voci bibliografiche**. Questo passaggio comprende 94 passaggi temporali e 17 collegamenti opera/video, su 181.7 minuti di fonti. Tutte le 162 voci hanno un’immagine locale: 159 file distinti, decodificati e controllati, con impronta registrata. Il segnaposto IBS per Schiller è stato respinto e sostituito con la copertina ufficiale Reclam. Le edizioni e le raccolte di riferimento restano dichiarate. La preparazione ora rifiuta copertine alterate, prive del controllo di decodifica o corrispondenti al segnaposto noto. Le fonti troppo frammentarie restano in coda di revisione. Audio e trascrizioni integrali sono privati; la trascrizione locale prosegue. Nessuna pubblicazione in produzione.
+
+## Catalogo editoriale nella pagina del progetto
+
+La citazione di Borges e la breve presentazione restano in apertura di `progetto.html`.
+Il catalogo dei libri del Circolo è alimentato da `sito/dist/data/volumi.json`,
+separato dai libri citati nei video. La lista vuota mantiene il primo volume del 2015
+in preparazione, senza titolo, copertina o acquisto inventati.
+
+Quando un volume è pronto, aggiungere un oggetto con `year`, `title`, `description`,
+`cover` (`src`, eventualmente `alt`) e `purchase_links` (lista di `label` e `url` HTTPS).
+Salvare la copertina autentica in `sito/dist/assets/volumi/` e indicarne il percorso
+relativo, per esempio `assets/volumi/2015.jpg`. Il generatore richiede tutti i dati
+e almeno un collegamento di acquisto per inserire il volume tra le uscite.
+Non aggiungere dati di prova al catalogo pubblico.
+
+Il volume più recente è in evidenza; gli altri seguono per anno decrescente nella
+stessa pagina. Copertine e collegamenti sono mantenuti anche nelle anteprime offline
+e nelle copie preparate per l'hosting. I normali comandi di generazione aggiornano
+il catalogo senza aggiungere pagine o voci al menu. La pubblicazione online richiede
+la conferma specifica prevista dalle istruzioni di sicurezza.
+
+## Blog e firma pubblica — 26 ottobre 2026
+
+Il menu mantiene la voce **Blog**. Al suo interno, **Una divagazione necessaria**
+è la rubrica dedicata a una lettura o a una conversazione da riscoprire.
+La Home riprende automaticamente il più recente articolo pubblicato di questa rubrica, ordinato
+per `published_at`, usando gli stessi dati del Blog. Finché non ci sono articoli,
+mostra la rubrica in preparazione. Il vecchio manifesto in `data/blog.json`
+resta un archivio di lavoro e non viene ripubblicato nella rubrica.
+
+Gli articoli si preparano in `sito/dist/data/articoli-blog.json`: lista di oggetti
+con `id` (slug), `category` (`una-divagazione-necessaria` o `voci-del-blog`), `status` (`draft` o
+`published`), `published_at` (`AAAA-MM-GG`), `title`, `excerpt`, `paragraphs`
+(lista di paragrafi), eventuale `author` e `reference` (`label`, `url` HTTPS
+del video o del libro scelto). Solo gli articoli pubblicati e completi entrano
+nel Blog e nel richiamo in Home; i normali generatori aggiornano entrambi.
+Le bozze incomplete non creano pagine. L’intenzione editoriale è mensile,
+senza promettere una cadenza al pubblico e senza automazioni pianificate.
+
+Per indicazione dell’utente, l’invito email resta **In preparazione**: nessun modulo,
+raccolta di indirizzi o servizio newsletter è attivato. La firma pubblica è
+**Dr Divago**. Il nome anagrafico compare soltanto nell’introduzione iniziale
+della Home, marcata con `data-name-intro`. Le altre persone chiamate Sergio,
+gli URL, gli identificativi e i dati delle fonti sono conservati; Python e
+JavaScript uniformano i testi visibili, compresi filtri e schede.
+
+
+### Voci del blog: proposta di seconda sezione
+
+Accanto alla rubrica, Voci del blog è predisposta per articoli originali di
+Dr Divago, Riccardo Persiani e altri autori interessati a contribuire su
+letteratura, filosofia, storia, società e cultura. Ogni contributo pubblicato
+richiede un `author` esplicito; `reference` è facoltativo per gli originali.
+Gli articoli restano separati per categoria e Voci del blog non sostituisce
+il richiamo alla rubrica in Home. Nessun contributo o autore ospite è inventato.
+Le indicazioni di Domenico Conversa sono proposte aperte al confronto: questa
+impostazione resta aperta al confronto e non costituisce un impegno alla contribuzione degli autori menzionati.
+
+## Home: due conversazioni per cominciare — 26 ottobre 2026
+
+La prima parte della Home contiene le due conversazioni indicate dall’utente:
+**Il peso delle idee** (`HXgpLjZ7apA`), sulle ragioni del canale, e **Alcuni
+precursori di George Orwell** (`vj1E4hCrITY`), con ingresso a **4:20**.
+Titoli e durate provengono dal catalogo; le brevi introduzioni si basano sulle
+schede già redatte da fonti automatiche. Non è dichiarato un nuovo ascolto umano.
+
+`home_conversazioni.py` rende entrambe le scelte nella pagina statica, disponibili
+anche prima del caricamento dei dati nel browser. Un solo pulsante per conversazione porta alla pagina del video,
+con il minuto scelto e la scheda completa.
+`sito/avvio_video.js`, incorporato nell’app, conserva `?t=260` nel parametro `start`
+del player e nell’apertura da file. Il player resta attivato dalla scelta del lettore.
+Archivio e progetto editoriale sono raggiungibili dal menu principale.
+Il nome completo rimane soltanto nella breve introduzione iniziale della Home.
+Le precedenti tre scelte nel riquadro inferiore sono sostituite da questo ingresso.
+
+
+### Home semplificata
+
+Ogni conversazione in evidenza ha una sola azione: guardare il video. Le azioni
+aggiuntive per YouTube e per la scheda e il paragrafo descrittivo sotto i video
+sono stati rimossi. Il secondo video conserva l’ingresso a 4:20; la scheda
+rimane nella pagina del video. Archivio e progetto sono accessibili dal menu.

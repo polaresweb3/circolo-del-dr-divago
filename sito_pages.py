@@ -10,10 +10,15 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
+from nomi_pubblici import public_html
+from blog_editoriale import published_articles, blog_index, home_latest, blog_article
+from home_conversazioni import home_conversations
+
 PAGES = {
     "home": ("index.html", "Home", "Le idee del passato per comprendere il presente e immaginare il futuro", ["catalogo.json", "libri.json", "schede.json"]),
     "video": ("video.html", "Video", "L’archivio delle divagazioni", ["catalogo.json", "schede.json"]),
     "biblioteca": ("biblioteca.html", "Biblioteca", "La biblioteca citata", ["libri.json", "schede.json"]),
+    "blog": ("blog.html", "Blog", "Il blog del Circolo", []),
     "eventi": ("eventi.html", "Eventi", "Gli incontri del Circolo", []),
     "progetto": ("progetto.html", "Progetto Editoriale", "Progetto Editoriale", []),
 }
@@ -39,7 +44,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
     breadcrumb = "" if current == "home" else (
         f'<div class="breadcrumb wrap" aria-label="Percorso"><a href="{prefix}index.html">Home</a>'
         f'<span aria-hidden="true">/</span><span>{html.escape(labels[current][1])}</span></div>')
-    return f'''<!doctype html>
+    return public_html(f'''<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -63,7 +68,75 @@ def document(title, current, main, prefix="", featured=(), pages=None):
   <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
 </body>
 </html>
-'''
+''')
+
+
+def editorial_catalog(volumes, source):
+    """Un catalogo nella pagina del progetto; nessun volume fittizio tra le uscite."""
+    if not isinstance(volumes, list):
+        raise ValueError("Il catalogo editoriale deve essere una lista di volumi.")
+    heading = ('<section class="project-catalog" aria-labelledby="editorial-catalog-title">'
+               '<header class="project-catalog-heading"><p class="eyebrow">LA COLLANA</p>'
+               '<h2 id="editorial-catalog-title">Le conversazioni, anno dopo anno.</h2></header>')
+    if not volumes:
+        return (heading + '<article class="project-volume project-volume-featured project-volume-pending" '
+                'aria-labelledby="project-first-year"><div class="project-cover-placeholder" aria-hidden="true">'
+                '<span>PRIMO VOLUME</span><strong>2015</strong><span>IN PREPARAZIONE</span></div>'
+                '<div class="project-volume-copy"><p class="eyebrow">LE CONVERSAZIONI DEL 2015</p>'
+                '<h3 id="project-first-year">Si comincia dal 2015.</h3>'
+                '<p class="project-volume-description">Il primo passo sarà realizzare il volume dedicato al 2015, '
+                'per poi proseguire progressivamente con gli anni successivi.</p>'
+                '<p class="project-volume-description">Un modo per conservare le idee, ritrovare le parole '
+                'e continuare a leggere ciò che abbiamo ascoltato.</p>'
+                '<p class="project-status">Il progetto è in preparazione</p></div></article></section>')
+    source = Path(source).resolve()
+    years = set()
+    for volume in volumes:
+        if not isinstance(volume, dict):
+            raise ValueError("Scheda del volume non valida.")
+        year = volume.get('year')
+        if type(year) is not int or not 2015 <= year <= 9999 or year in years:
+            raise ValueError("Anno del volume non valido o duplicato.")
+        years.add(year)
+        for field in ('title', 'description'):
+            if not isinstance(volume.get(field), str) or not volume[field].strip():
+                raise ValueError("Titolo e descrizione del volume sono obbligatori.")
+        cover = volume.get('cover') or {}
+        src = cover.get('src') if isinstance(cover, dict) else None
+        if not isinstance(src, str) or not src.startswith('assets/volumi/'):
+            raise ValueError("La copertina del volume deve essere un'immagine locale in assets/volumi/.")
+        asset = (source / src).resolve()
+        if not asset.is_relative_to(source) or not asset.is_relative_to((source / 'assets/volumi').resolve()) or not asset.is_file() or asset.suffix.lower() not in {'.jpg', '.jpeg', '.png', '.webp', '.svg'}:
+            raise ValueError("Copertina del volume mancante o non valida.")
+        purchases = volume.get('purchase_links')
+        if not isinstance(purchases, list) or not purchases:
+            raise ValueError("Ogni volume disponibile deve avere le informazioni per l'acquisto.")
+        for purchase in purchases:
+            if not isinstance(purchase, dict) or not isinstance(purchase.get('url'), str):
+                raise ValueError("Collegamento di acquisto non valido.")
+            url = urlsplit(purchase['url'])
+            if url.scheme != 'https' or not url.netloc or not isinstance(purchase.get('label'), str) or not purchase['label'].strip():
+                raise ValueError("L'acquisto richiede un indirizzo HTTPS e un'etichetta.")
+    rows = []
+    esc = html.escape
+    for index, volume in enumerate(sorted(volumes, key=lambda item: item['year'], reverse=True)):
+        year = volume['year']
+        cover = volume['cover']
+        title = esc(volume['title'])
+        alt = cover.get('alt') or ('Copertina di ' + volume['title'])
+        actions = ''.join('<a class="button" href="' + esc(link['url'], quote=True) + '" target="_blank" '
+                          'rel="noopener noreferrer">' + esc(link['label']) + ' <span aria-hidden="true">↗</span></a>'
+                          for link in volume['purchase_links'])
+        featured = ' project-volume-featured' if index == 0 else ''
+        rows.append(f'<article class="project-volume{featured}" aria-labelledby="volume-title-{year}">'
+                    f'<div class="project-volume-cover"><img src="{esc(cover["src"], quote=True)}" '
+                    f'alt="{esc(alt, quote=True)}" width="400" height="600" '
+                    f'loading="{"eager" if index == 0 else "lazy"}" decoding="async"></div>'
+                    f'<div class="project-volume-copy"><p class="eyebrow">CONVERSAZIONI DEL {year}</p>'
+                    f'<h3 id="volume-title-{year}">{title}</h3><p class="project-volume-author">Dr Divago</p>'
+                    f'<p class="project-volume-description">{esc(volume["description"])}</p>'
+                    f'<div class="project-volume-actions">{actions}</div></div></article>')
+    return heading + '<div class="project-volumes">' + ''.join(rows) + '</div></section>'
 
 
 def article_content(post):
@@ -251,7 +324,7 @@ def _build_site(root, pages=None):
         return
     previous = json.loads((source / 'data/pagine.json').read_text()) if (source / 'data/pagine.json').exists() else {'pages': []}
     data = {name: json.loads((source / "data" / name).read_text(encoding="utf-8"))
-            for name in ("catalogo.json", "libri.json", "blog.json", "ricerca.json", "schede.json")
+            for name in ("catalogo.json", "libri.json", "blog.json", "ricerca.json", "schede.json", "volumi.json", "articoli-blog.json")
             if (source / "data" / name).exists()}
     bibliography = data.get("libri.json", [])
     ids = [book["id"] for book in bibliography]
@@ -262,10 +335,18 @@ def _build_site(root, pages=None):
     mapping = {filename: preview_name(key) for key, (filename, _, _, _) in all_pages.items()}
     documents = []
     cards = data.get("schede.json", [])
+    posts = published_articles(data.get("articoli-blog.json", []))
     for key, (filename, _, title, datasets) in all_pages.items():
         main = (templates / (key + ".html")).read_text(encoding="utf-8")
         main = main.replace("{{completed_count}}", str(len(cards)))
         main = main.replace("{{books_count}}", f"{len(bibliography):,}".replace(",", "."))
+        if "{{home_conversations}}" in main:
+            main = main.replace("{{home_conversations}}", home_conversations(data.get("catalogo.json", {}).get("videos", [])))
+        main = main.replace("{{latest_divagation}}", home_latest(posts))
+        main = main.replace("{{divagation_articles}}", blog_index(posts))
+        main = main.replace("{{voices_articles}}", blog_index(posts, category="voci-del-blog"))
+        if key == "progetto":
+            main = main.replace("{{editorial_catalog}}", editorial_catalog(data.get("volumi.json", []), source))
         if key == "completate":
             main = main.replace("{{completed_grid}}", completed_cards(cards, bibliography))
             main = main.replace("{{completed_books}}", str(len({m["book_id"] for c in cards for m in c["books"]})))
@@ -273,14 +354,14 @@ def _build_site(root, pages=None):
         page = document(title, key, main, featured=featured, pages=pages)
         documents.append((key, filename, page, datasets))
     seen = set()
-    for post in (data.get("blog.json", []) if 'blog' in pages else []):
+    for post in (posts if 'blog' in pages else []):
         ident = post["id"]
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ident) or ident in seen:
             raise ValueError("Identificativo articolo non valido o duplicato.")
         seen.add(ident)
         filename = f"articoli/{ident}.html"
         mapping[filename] = f"anteprima-articolo-{ident}.html"
-        page = document(post["title"], "blog", article_content(post), prefix="../", pages=pages)
+        page = document(post["title"], "blog", blog_article(post), prefix="../", pages=pages)
         page = page.replace('data-page="blog"', 'data-page="articolo"')
         documents.append(("articolo", filename, page, []))
     card_lookup = {card['video_id']: card for card in cards}
@@ -313,6 +394,11 @@ def _build_site(root, pages=None):
         page = page.replace(f'<script src="{prefix}app.js" defer></script>', "")
         page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
         page = offline_links(page, filename, mapping)
+        if key == "progetto":
+            for volume in data.get("volumi.json", []):
+                cover = deepcopy(volume["cover"])
+                embed_cover(source, cover)
+                page = page.replace('src="' + volume["cover"]["src"] + '"', 'src="' + cover["src"] + '"')
         if key in {"scheda", "home"}:
             # Anche le copertine statiche della Home restano autonome offline.
             for book in bibliography:

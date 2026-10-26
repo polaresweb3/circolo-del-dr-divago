@@ -16,6 +16,11 @@
       "preview": "anteprima-biblioteca.html"
     },
     {
+      "page": "blog",
+      "path": "blog.html",
+      "preview": "anteprima-blog.html"
+    },
+    {
       "page": "eventi",
       "path": "eventi.html",
       "preview": "anteprima-eventi.html"

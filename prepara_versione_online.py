@@ -40,6 +40,13 @@ def prepare():
     files = [item['path'] for item in manifest['pages']]
     files += ['styles.css', 'app.js']
     datasets = ['catalogo.json', 'libri.json', 'schede.json']
+    if (source / 'data/articoli-blog.json').exists():
+        datasets.append('articoli-blog.json')
+    volumes_path = source / 'data/volumi.json'
+    if volumes_path.exists():
+        datasets.append('volumi.json')
+        volumes = json.loads(volumes_path.read_text(encoding='utf-8'))
+        files += [volume['cover']['src'] for volume in volumes]
     bibliography = json.loads((source / 'data/libri.json').read_text(encoding='utf-8'))
     files += sorted({book['cover']['src'] for book in bibliography if book.get('cover')})
     for name in files:

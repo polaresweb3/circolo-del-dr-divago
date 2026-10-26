@@ -1,3 +1,77 @@
+/* Il minuto scelto resta valido nel player e nell’apertura diretta su YouTube. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.VideoStart = api;
+})(typeof globalThis === 'object' ? globalThis : this, function () {
+  'use strict';
+  function seconds(value) {
+    if (typeof value !== 'string' || !/^\d+s?$/.test(value)) return 0;
+    const number = Number(value.replace(/s$/, ''));
+    return Number.isSafeInteger(number) && number >= 0 ? number : 0;
+  }
+  function fromPage(page) {
+    return seconds(new URLSearchParams(page.search || '').get('t'));
+  }
+  function clock(value) {
+    const hours = Math.floor(value / 3600), minutes = Math.floor(value / 60) % 60;
+    const end = String(value % 60).padStart(2, '0');
+    return hours ? `${hours}:${String(minutes).padStart(2, '0')}:${end}` : `${minutes}:${end}`;
+  }
+  return {seconds, fromPage, clock};
+});
+
+/* Firma pubblica nei testi visibili. URL, valori dei filtri e dati restano intatti. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.PublicNames = api;
+})(typeof globalThis === 'object' ? globalThis : this, function () {
+  'use strict';
+  function format(text) {
+    if (typeof text !== 'string') return text;
+    return text.replace(/\b(?:Sergio\s+Caldarella|Caldarella,\s*Sergio|S\.?\s+Caldarella|Caldarella)\b/gi, 'Dr Divago')
+      .replace(/\b[Ss]ergio\b(?![ \t]+[A-ZÀ-ÖØ-Þ])/g, 'Dr Divago')
+      .replace(/\bDr\.\s+Divago\b/gi, 'Dr Divago');
+  }
+  function normalizeDocument(root) {
+    if (!root) return;
+    const excluded = 'script, style, code, pre, textarea, [data-name-intro]';
+    function textNode(text) {
+      if (text.parentElement?.closest(excluded)) return;
+      const revised = format(text.nodeValue);
+      if (revised !== text.nodeValue) text.nodeValue = revised;
+    }
+    if (root.nodeType === 3) { textNode(root); return; }
+    if (root.nodeType !== 1 || root.closest(excluded)) return;
+    const walker = root.ownerDocument.createTreeWalker(root, 4);
+    let text;
+    while ((text = walker.nextNode())) textNode(text);
+    for (const element of [root, ...root.querySelectorAll('[alt], [title], [aria-label]')]) {
+      if (element.closest(excluded)) continue;
+      for (const attr of ['alt', 'title', 'aria-label']) {
+        if (!element.hasAttribute(attr)) continue;
+        const original = element.getAttribute(attr), revised = format(original);
+        if (original !== revised) element.setAttribute(attr, revised);
+      }
+    }
+  }
+  function observe(root) {
+    if (!root) return null;
+    normalizeDocument(root);
+    const observer = new MutationObserver(records => {
+      for (const record of records) {
+        if (record.type === 'childList') record.addedNodes.forEach(normalizeDocument);
+        else normalizeDocument(record.target);
+      }
+    });
+    observer.observe(root, {childList: true, subtree: true, characterData: true,
+      attributes: true, attributeFilter: ['alt', 'title', 'aria-label']});
+    return observer;
+  }
+  return {format, normalizeDocument, observe};
+});
+
 'use strict';
 /* Filtri dell’archivio video: anno di pubblicazione e durata. */
 (function (root, factory) {
@@ -314,7 +388,7 @@ const page = document.body.dataset.page || 'home';
 const offline = document.body.dataset.preview === 'true';
 const rootPath = document.body.dataset.root || '';
 function siteUrl(name) {
-  const routes = {home: 'index.html', video: 'video.html', biblioteca: 'biblioteca.html', eventi: 'eventi.html', progetto: 'progetto.html', privacy: 'privacy.html', crediti: 'crediti.html'};
+  const routes = {home: 'index.html', video: 'video.html', biblioteca: 'biblioteca.html', blog: 'blog.html', eventi: 'eventi.html', progetto: 'progetto.html', privacy: 'privacy.html', crediti: 'crediti.html'};
   if (!(name in routes)) throw new Error('Pagina sconosciuta');
   return offline ? (name === 'home' ? 'anteprima.html' : `anteprima-${name}.html`) : rootPath + routes[name];
 }
@@ -366,19 +440,21 @@ function showDialog(content) {
 function canEmbedYouTube(page = window.location) {
   return ['http:', 'https:'].includes(page.protocol) && Boolean(page.origin) && page.origin !== 'null';
 }
-function youtubeEmbedUrl(id, page = window.location) {
+function youtubeEmbedUrl(id, page = window.location, start = VideoStart.fromPage(page)) {
   youtube(id);
   if (!canEmbedYouTube(page)) throw new Error('Il player richiede un’origine web valida.');
   const url = new URL(`https://www.youtube-nocookie.com/embed/${id}`);
   url.searchParams.set('autoplay', '1');
   url.searchParams.set('playsinline', '1');
   url.searchParams.set('origin', page.origin);
+  if (start > 0) url.searchParams.set('start', String(start));
   return url.href;
 }
 function playInlineVideo(button) {
   const id = button.dataset.playVideo;
+  const start = VideoStart.fromPage(window.location);
   if (!canEmbedYouTube()) {
-    window.open(youtube(id), '_blank', 'noopener,noreferrer');
+    window.open(youtube(id, start || null), '_blank', 'noopener,noreferrer');
     return;
   }
   const frame = node('iframe', 'video-frame');
@@ -386,7 +462,7 @@ function playInlineVideo(button) {
   frame.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
   frame.referrerPolicy = 'strict-origin-when-cross-origin';
   frame.allowFullscreen = true;
-  frame.src = youtubeEmbedUrl(id);
+  frame.src = youtubeEmbedUrl(id, window.location, start);
   const container = button.closest('.video-consent');
   const disable = container.querySelector('.player-disable');
   button.replaceWith(frame);
@@ -595,7 +671,7 @@ function renderHome() {
   $('library-count').textContent = state.books.length.toLocaleString('it-IT');
   const starterIds = ['Qr7vi4Mgd_0', 'rtmt9_Mzdkw', 'WzF2KJ1swVE'];
   const starters = starterIds.map(id => state.videos.find(video => video.id === id)).filter(Boolean);
-  $('home-videos').replaceChildren(...(starters.length ? starters : state.videos.slice(0, 3)).map(videoCard));
+  $('home-videos')?.replaceChildren(...(starters.length ? starters : state.videos.slice(0, 3)).map(videoCard));
   const featured = (document.body.dataset.featuredBooks || '').split(',').map(id => state.books.find(book => book.id === id)).filter(Boolean);
   $('home-books').replaceChildren(...featured.map(book => {
     const link = node('a', 'home-book');
@@ -611,9 +687,11 @@ function renderHome() {
   }));
 }
 async function start() {
+  PublicNames.observe(document.querySelector('main'));
+  PublicNames.observe(document.getElementById('detail'));
   ReadableTimings.normalizeDocument(document.querySelector('main'));
   if (page === 'home') {
-    const legacy = {archivio: 'video', biblioteca: 'biblioteca', ricerca: 'video', blog: 'progetto', progetto: 'progetto'};
+    const legacy = {archivio: 'video', biblioteca: 'biblioteca', ricerca: 'video', blog: 'blog', progetto: 'progetto'};
     const fragment = window.location.hash.slice(1);
     const target = Object.prototype.hasOwnProperty.call(legacy, fragment) ? legacy[fragment] : null;
     if (target) { window.location.replace(siteUrl(target)); return; }
@@ -659,9 +737,14 @@ async function start() {
   }
   if (page === 'scheda') {
     document.querySelectorAll('[data-play-video]').forEach(button => {
+      const start = VideoStart.fromPage(window.location);
+      if (start > 0 && canEmbedYouTube()) {
+        button.querySelector('.sheet-play-label').textContent = '▶ Accetta e riproduci da ' + VideoStart.clock(start);
+        button.setAttribute('aria-label', 'Accetta e riproduci da ' + VideoStart.clock(start) + ': ' + document.querySelector('h1').textContent);
+      }
       if (!canEmbedYouTube()) {
-        button.querySelector('.sheet-play-label').textContent = 'Apri su YouTube ↗';
-        button.setAttribute('aria-label', 'Apri su YouTube: ' + document.querySelector('h1').textContent);
+        button.querySelector('.sheet-play-label').textContent = 'Apri su YouTube' + (start ? ' da ' + VideoStart.clock(start) : '') + ' ↗';
+        button.setAttribute('aria-label', 'Apri su YouTube' + (start ? ' da ' + VideoStart.clock(start) : '') + ': ' + document.querySelector('h1').textContent);
         const notice = document.getElementById('player-privacy');
         notice.textContent = 'Questa anteprima apre il video sul sito di YouTube, dove si applica l’informativa del servizio. ';
         const link = node('a', '', 'Privacy');
