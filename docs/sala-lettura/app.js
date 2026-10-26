@@ -54,16 +54,16 @@
   const normalize = value => String(value ?? '').toLocaleLowerCase('it').normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '').replace(/[_\s]+/g, ' ').trim();
   const formats = [
-    ['all', 'Tutte le opere'], ['text', 'Libri e testi'], ['film', 'Film'],
-    ['tv', 'Serie TV'], ['art', 'Arti visive'], ['music', 'Musica'],
+    ['all', 'Tutte le opere'], ['text', 'Libri e testi'], ['film', 'Cinema'],
+    ['tv', 'Serie TV'], ['art', 'Arti visive'], ['music', 'Riferimenti musicali'],
     ['video', 'Altri video'], ['unknown', 'Tipo da precisare']
   ];
   const kinds = [
     ['narrative', 'Narrativa'], ['essay', 'Saggi e studi'], ['poetry', 'Poesia'],
     ['theatre', 'Teatro'], ['letters', 'Lettere e carteggi'], ['memoir', 'Biografie, diari e memorie'],
     ['religious', 'Testi religiosi'], ['article', 'Articoli e recensioni'], ['document', 'Documenti e discorsi'],
-    ['book', 'Altri libri e testi'], ['film', 'Film'], ['tv', 'Serie TV'], ['art', 'Arti visive'],
-    ['music', 'Musica'], ['video', 'Altri video'], ['unknown', 'Tipo da precisare']
+    ['book', 'Altri libri e testi'], ['film', 'Cinema'], ['tv', 'Serie TV'], ['art', 'Arti visive'],
+    ['music', 'Riferimenti musicali'], ['video', 'Altri video'], ['unknown', 'Tipo da precisare']
   ];
   // Le regole riguardano esclusivamente work_type, mai titolo o autore.
   function classify(workType) {

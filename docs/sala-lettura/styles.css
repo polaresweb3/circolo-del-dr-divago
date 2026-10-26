@@ -124,6 +124,7 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .hero { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: clamp(2rem, 5vw, 5rem); padding-block: 4rem 4.5rem; }
 .hero h1 { font-size: clamp(3rem, 5.1vw, 4.5rem); line-height: 1.05; letter-spacing: -.055em; margin-bottom: 1.75rem; }
 .intro { max-width: 36rem; margin-bottom: 1.75rem; font-size: 1rem; line-height: 1.9; color: var(--muted); }
+.home-channel-link { text-decoration: underline; text-underline-offset: .2em; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
 .hero-art { position: relative; min-width: 0; padding: 1.75rem 1.5rem 1.5rem; background: #e7e9dd; border: 1px solid #d7dccd; }
 .art-corner { display: block; color: var(--green); font-size: .6875rem; font-weight: 600; letter-spacing: .13em; }
