@@ -126,7 +126,7 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .home-discovery-heading { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; margin-bottom: 2rem; }
 .home-discovery-heading .eyebrow { margin-bottom: 1rem; }
 .home-discovery-heading h1 { font-size: clamp(2.2rem, 4.1vw, 3.5rem); line-height: 1.05; letter-spacing: -.045em; }
-.home-discovery-intro { max-width: 72ch; color: var(--muted); font: 1.125rem/1.8 var(--serif); }
+.home-discovery-intro { color: var(--muted); font: 1.125rem/1.8 var(--serif); }
 .home-discovery-intro > p + p { margin-top: .875rem; }
 .home-starters-label { margin-bottom: 1.25rem; }
 .home-conversations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
