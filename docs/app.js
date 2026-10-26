@@ -695,7 +695,7 @@ function renderHome() {
   const starters = starterIds.map(id => state.videos.find(video => video.id === id)).filter(Boolean);
   $('home-videos')?.replaceChildren(...(starters.length ? starters : state.videos.slice(0, 3)).map(videoCard));
   const featured = (document.body.dataset.featuredBooks || '').split(',').map(id => state.books.find(book => book.id === id)).filter(Boolean);
-  $('home-books').replaceChildren(...featured.map(book => {
+  $('home-books')?.replaceChildren(...featured.map(book => {
     const link = node('a', 'home-book');
     link.href = `${siteUrl('biblioteca')}#book-${encodeURIComponent(book.id)}`;
     const visual = node('div', 'home-book-image');

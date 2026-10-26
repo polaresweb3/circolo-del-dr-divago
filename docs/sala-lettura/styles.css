@@ -123,11 +123,12 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 /* 04 — Home e percorsi di lettura */
 /* La Home si apre sulle conversazioni scelte per conoscere Dr Divago. */
 .home-discovery { padding-block: 2.5rem 3rem; }
-.home-discovery-heading { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; margin-bottom: 2rem; }
+.home-discovery-heading { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; margin-bottom: 0; }
 .home-discovery-heading .eyebrow { margin-bottom: 1rem; }
 .home-discovery-heading h1 { font-size: clamp(2.2rem, 4.1vw, 3.5rem); line-height: 1.05; letter-spacing: -.045em; }
 .home-discovery-intro { color: var(--muted); font: 1.125rem/1.8 var(--serif); }
 .home-discovery-intro > p + p { margin-top: .875rem; }
+.home-starters { padding-top: 3rem; }
 .home-starters-label { margin-bottom: 1.25rem; }
 .home-conversations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
 .home-conversation { min-width: 0; }
@@ -141,7 +142,8 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 @media (max-width: 46rem) {
   .home-discovery { padding-top: 1.75rem; }
   .home-discovery-heading, .home-conversations { grid-template-columns: minmax(0, 1fr); }
-  .home-discovery-heading { gap: 1rem; margin-bottom: 1.5rem; }
+  .home-discovery-heading { gap: 1rem; margin-bottom: 0; }
+  .home-starters { padding-top: 2rem; }
   .home-discovery-intro { font-size: 1rem; }
   .home-conversations { gap: 2.5rem; }
 }
