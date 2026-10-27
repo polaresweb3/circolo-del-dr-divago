@@ -185,6 +185,9 @@ body:not([data-page='home']) main > .section, body:not([data-page='home']) .libr
 .path-foot { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; font-size: .75rem; color: var(--green); }
 .path-foot > span:last-child { font-size: 1.5rem; color: var(--accent); }
 .home-featured-band { background: var(--sage); border-block: 1px solid #d5dcca; }
+/* Raccordo della prima proposta: respiro dopo i video e fascia libri più raccolta. */
+.home-starters + .home-featured-band { margin-block-start: clamp(2rem, 4vw, 3.5rem); }
+.home-starters + .home-featured-band > .section { padding-block: clamp(2.5rem, 4vw, 3.5rem); }
 .home-books { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
 .home-book { display: grid; grid-template-columns: 5rem minmax(0, 1fr); align-items: center; gap: 1.25rem; padding-block: 1rem; }
 .home-book-image { display: flex; align-items: center; justify-content: center; height: 9rem; }
