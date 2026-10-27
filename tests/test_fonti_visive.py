@@ -160,8 +160,9 @@ class VisualSourceTests(unittest.TestCase):
                     summary='Descrizione circoscritta.', books=[], passages=[],
                     source_type='analisi_fotogrammi_locali')
         html = video_content(card, [])
-        self.assertIn('campionamento parziale', html)
-        self.assertIn('senza ascolto del sonoro', html)
+        self.assertIn('alcune immagini del filmato', html)
+        self.assertIn('Il sonoro non è verificato', html)
+        self.assertIn('le didascalie visibili non attestano le parole pronunciate', html)
         self.assertIn('Il contenuto del filmato', html)
         self.assertNotIn('Minutaggi ricavati da testi automatici', html)
         card['source_type'] = 'riconoscimento_vocale_locale'

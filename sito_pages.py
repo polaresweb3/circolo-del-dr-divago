@@ -195,13 +195,8 @@ def video_content(card, bibliography):
     visual = card.get('source_type') in ('analisi_fotogrammi_locali', 'analisi_fotogrammi_browser')
     summary_heading = 'Il contenuto del filmato' if visual else 'Il filo del discorso'
     books_heading = 'Opere e riferimenti' if visual else 'I libri nel discorso'
-    source_note = ('Scheda basata su schermate native del browser: campionamento parziale, senza ascolto del sonoro. '
-                   'I testi visibili non certificano le parole effettivamente pronunciate; il file video non è stato acquisito.'
-                   if card.get('source_type') == 'analisi_fotogrammi_browser' else
-                   'Scheda basata sui fotogrammi indicati: campionamento parziale, senza ascolto del sonoro. '
-                   'I sottotitoli visibili sono distinti dalle parole effettivamente pronunciate.'
-                   if card.get('source_type') == 'analisi_fotogrammi_locali' else
-                   '')
+    source_note = ('La descrizione riguarda alcune immagini del filmato. Il sonoro non è verificato; '
+                   'le didascalie visibili non attestano le parole pronunciate.' if visual else '')
     source_note_html = f'<p class="source-note">{source_note}</p>' if source_note else ''
     def watch(seconds=None):
         return "https://www.youtube.com/watch?v=" + ident + ("&t=" + str(int(seconds)) if seconds is not None else "")
@@ -380,10 +375,13 @@ def _build_site(root, pages=None):
     style = (source / "styles.css").read_text(encoding="utf-8")
     style_version = hashlib.sha256(style.encode("utf-8")).hexdigest()[:12]
     script = (source / "app.js").read_text(encoding="utf-8")
+    script_version = hashlib.sha256(script.encode("utf-8")).hexdigest()[:12]
     for key, filename, page, datasets in documents:
         prefix = "../" if key in ("articolo", "scheda") else ""
         stylesheet = f'<link rel="stylesheet" href="{prefix}styles.css?v={style_version}">'
         page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', stylesheet)
+        script_tag = f'<script src="{prefix}app.js?v={script_version}" defer></script>'
+        page = page.replace(f'<script src="{prefix}app.js" defer></script>', script_tag)
         target = source / filename
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
@@ -393,7 +391,7 @@ def _build_site(root, pages=None):
                 embed_cover(source, book.get("cover"))
         safe_json = json.dumps(embedded, ensure_ascii=False).replace("<", "\\u003c")
         page = page.replace(stylesheet, "<style>" + style + "</style>")
-        page = page.replace(f'<script src="{prefix}app.js" defer></script>', "")
+        page = page.replace(script_tag, "")
         page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
         page = offline_links(page, filename, mapping)
         if key == "progetto":
@@ -403,11 +401,13 @@ def _build_site(root, pages=None):
                 page = page.replace('src="' + volume["cover"]["src"] + '"', 'src="' + cover["src"] + '"')
         if key in {"scheda", "home"}:
             # Anche le copertine statiche della Home restano autonome offline.
+            image_paths = set(re.findall(r'<img[^>]*\bsrc="([^"]+)"', page))
             for book in bibliography:
-                cover = deepcopy(book.get("cover"))
-                if cover and f'{prefix}{cover["src"]}' in page:
+                original_cover = book.get("cover") or {}
+                if original_cover.get("src") and prefix + original_cover["src"] in image_paths:
+                    cover = deepcopy(original_cover)
                     embed_cover(source, cover)
-                    page = page.replace('src="' + prefix + book["cover"]["src"] + '"', 'src="' + cover["src"] + '"')
+                    page = page.replace('src="' + prefix + original_cover["src"] + '"', 'src="' + cover["src"] + '"')
         page = page.replace("</body>", '<script id="embedded-data" type="application/json">' + safe_json
                             + "</script><script>" + script + "</script></body>")
         (root / "sito" / mapping[filename]).write_text(page, encoding="utf-8")

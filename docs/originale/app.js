@@ -503,7 +503,7 @@ function populateVideoYears() {
   if (!select) return;
   const options = [['all', 'Tutti gli anni'], ...VideoFilters.years(state.videos).map(year => [String(year), String(year)])];
   const missingYears = state.videos.filter(video => VideoFilters.yearOf(video) === null).length;
-  if (missingYears) options.push(['unknown', `Anno da recuperare (${missingYears})`]);
+  if (missingYears) options.push(['unknown', `Anno non disponibile (${missingYears})`]);
   select.replaceChildren(...options.map(([value, label]) => { const option = node('option', '', label); option.value = value; return option; }));
 }
 function filterVideos() {
@@ -536,7 +536,7 @@ function showBookCover(book) {
   image.src = book.cover.src;
   image.alt = coverAlt(book);
   const caption = node('p', 'dialog-description', `${book.author} · ${book.cover.edition_label}`);
-  const link = node('a', 'text-link', 'Fonte della copertina ↗');
+  const link = node('a', 'text-link', 'Fonte dell’immagine ↗');
   link.href = book.cover.source_page;
   link.target = '_blank'; link.rel = 'noopener noreferrer';
   const collection = book.cover.container_title ? [node('p', 'dialog-description', `Volume di riferimento: ${book.cover.container_title}`)] : [];
@@ -584,7 +584,7 @@ function renderBooks(books) {
     text.append(node('p', 'book-author', book.author));
     const videoCount = new Set(book.mentions.map(mention => mention.video_id)).size;
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
-    const labels = {verificato: 'Riferimento verificato', citazione_esplicita: 'Riscontro nel testo automatico', riscontro_audio_automatico: 'Riscontro vocale automatico', titolo_nella_trascrizione: 'Titolo nella trascrizione', titolo_nel_video: 'Nel titolo del video', identificazione_probabile: 'Identificazione probabile', citazione_probabile: 'Identificazione probabile', da_riascoltare: 'Da riascoltare'};
+    const labels = {verificato: 'Riferimento verificato', citazione_esplicita: 'Riferimento nella trascrizione automatica', riscontro_audio_automatico: 'Riferimento nella trascrizione automatica', titolo_nella_trascrizione: 'Titolo nella trascrizione automatica', titolo_nel_video: 'Nel titolo del video', identificazione_probabile: 'Identificazione probabile', citazione_probabile: 'Identificazione probabile', da_riascoltare: 'Riferimento da confermare'};
     const notes = node('details', 'book-details');
     notes.append(node('summary', '', 'Note sul riferimento'), node('p', 'book-reference-status', labels[book.status] || 'Da verificare'));
     if (book.source) notes.append(node('p', 'book-source', book.source));
