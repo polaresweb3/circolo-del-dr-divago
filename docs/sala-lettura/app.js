@@ -276,7 +276,7 @@
   }
 
   let mounted = null;
-  function mount({books, cards, onChange, onSurprise, document: doc = document}) {
+  function mount({books, cards, onChange, document: doc = document}) {
     if (mounted) return mounted;
     const index = createIndex(books, cards);
     const $ = id => doc.getElementById(id);
@@ -286,7 +286,7 @@
     const read = () => ({
       q: $('book-search').value, format: activeFormat, kind: $('book-kind').value,
       author: $('book-author').value, theme: $('book-theme').value,
-      evidence: $('book-filter').value, presence: $('book-presence').value, sort: $('book-sort').value
+      sort: $('book-sort').value
     });
     $('book-kind').replaceChildren(option('all', 'Tutti i tipi'), ...kinds.filter(([id]) => index.some(entry => entry.kind === id)).map(([id, label]) => option(id, label)));
     $('book-theme').replaceChildren(option('all', 'Tutti i temi'), ...themes.filter(([id]) => index.some(entry => entry.themes.includes(id))).map(([id, label]) => option(id, label)));
@@ -306,7 +306,7 @@
     }
     const parameters = new URLSearchParams(doc.defaultView.location.search);
     if (availableFormats.some(([id]) => id === parameters.get('formato'))) activeFormat = parameters.get('formato');
-    for (const [param, id] of [['tipo', 'book-kind'], ['autore', 'book-author'], ['tema', 'book-theme'], ['presenza', 'book-presence'], ['riscontro', 'book-filter'], ['ordine', 'book-sort']]) {
+    for (const [param, id] of [['tipo', 'book-kind'], ['autore', 'book-author'], ['tema', 'book-theme'], ['ordine', 'book-sort']]) {
       const control = $(id);
       if ([...control.options].some(opt => opt.value === parameters.get(param))) control.value = parameters.get(param);
     }
@@ -333,7 +333,6 @@
         }
       }
       const filtered = select(index, criteria);
-      $('book-random').disabled = filtered.length === 0;
       const chips = [];
       function addChip(label, remove) {
         const button = doc.createElement('button');
@@ -344,35 +343,31 @@
       }
       if (criteria.q.trim()) addChip(`Ricerca: ${criteria.q.trim()}`, () => { $('book-search').value = ''; });
       if (activeFormat !== 'all') addChip(formats.find(([id]) => id === activeFormat)[1], () => { activeFormat = 'all'; });
-      for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence', 'book-filter']) {
+      for (const id of ['book-kind', 'book-author', 'book-theme']) {
         if ($(id).value !== 'all') addChip($(id).selectedOptions[0].textContent.replace(/ \([\d.]+\)$/, ''), () => { $(id).value = 'all'; });
       }
       $('book-active-filters').replaceChildren(...chips);
       $('book-reset').hidden = chips.length === 0 && criteria.sort === 'author';
-      const advanced = ['book-presence', 'book-filter'].filter(id => $(id).value !== 'all').length;
-      $('book-advanced-label').textContent = `Altri filtri${advanced ? ` (${advanced})` : ''}`;
+      $('book-active-filters').parentElement.hidden = $('book-reset').hidden;
       // Un URL copiato mantiene i filtri senza salvare preferenze o usare storage.
       const url = new URL(doc.defaultView.location.href);
-      for (const [param, value, fallback] of [['q', criteria.q.trim(), ''], ['formato', activeFormat, 'all'], ['tipo', criteria.kind, 'all'], ['autore', criteria.author, 'all'], ['tema', criteria.theme, 'all'], ['presenza', criteria.presence, 'all'], ['riscontro', criteria.evidence, 'all'], ['ordine', criteria.sort, 'author']]) {
+      url.searchParams.delete('presenza');
+      url.searchParams.delete('riscontro');
+      for (const [param, value, fallback] of [['q', criteria.q.trim(), ''], ['formato', activeFormat, 'all'], ['tipo', criteria.kind, 'all'], ['autore', criteria.author, 'all'], ['tema', criteria.theme, 'all'], ['ordine', criteria.sort, 'author']]) {
         if (value === fallback) url.searchParams.delete(param); else url.searchParams.set(param, value);
       }
       try { doc.defaultView.history.replaceState(null, '', url); } catch (_) { /* Alcuni browser limitano history su file:. */ }
       return filtered;
     }
-    for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence']) $(id).addEventListener('change', () => { refresh(); onChange(); });
+    for (const id of ['book-kind', 'book-author', 'book-theme']) $(id).addEventListener('change', () => { refresh(); onChange(); });
     $('book-search').addEventListener('input', refresh);
-    $('book-filter').addEventListener('change', refresh);
     $('book-sort').addEventListener('change', refresh);
     $('book-reset').addEventListener('click', () => {
       activeFormat = 'all'; $('book-search').value = '';
-      for (const id of ['book-kind', 'book-author', 'book-theme', 'book-presence', 'book-filter']) $(id).value = 'all';
+      for (const id of ['book-kind', 'book-author', 'book-theme']) $(id).value = 'all';
       $('book-sort').value = 'author';
       try { doc.defaultView.history.replaceState(null, '', doc.defaultView.location.pathname); } catch (_) {}
       refresh(); onChange(); $('book-search').focus();
-    });
-    $('book-random').addEventListener('click', () => {
-      const book = randomBook(select(index, read()));
-      if (book) onSurprise(book);
     });
     mounted = {index, criteria: read, refresh, select: () => select(index, read())};
     refresh();
@@ -665,7 +660,6 @@ on('search', 'input', filterVideos);
 on('filter', 'change', filterVideos);
 on('video-year', 'change', filterVideos);
 on('book-search', 'input', () => filterBooks());
-on('book-filter', 'change', () => filterBooks());
 on('book-sort', 'change', () => filterBooks());
 for (const [id, delta] of [['book-previous', -1], ['book-next', 1]]) {
   on(id, 'click', () => { state.bookPage += delta; filterBooks(false); $('book-results').scrollIntoView({block: 'start'}); });
@@ -744,16 +738,7 @@ async function start() {
     $('book-search').value = new URLSearchParams(window.location.search).get('q') || '';
     libraryExplorer = LibraryFilters.mount({
       books: state.books, cards: state.cards,
-      onChange: () => filterBooks(),
-      onSurprise: book => {
-        const url = new URL(window.location.href);
-        url.hash = 'book-' + book.id;
-        try { window.history.replaceState(null, '', url); } catch (_) {}
-        filterBooks(true, 'book-' + book.id);
-        const row = $('book-' + book.id);
-        row?.setAttribute('tabindex', '-1'); row?.focus({preventScroll: true});
-        $('book-results').textContent += ` · Opera a sorpresa: ${book.title}`;
-      }
+      onChange: () => filterBooks()
     });
     filterBooks(true, window.location.hash.slice(1));
   }
