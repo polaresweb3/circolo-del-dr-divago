@@ -712,6 +712,7 @@ body:not([data-page='home']):not([data-page='salotto']) .library-section > .sect
 }
 .video-card { padding-bottom: 1.75rem; }
 .completed-card-copy { padding: var(--space-panel); }
+.library-section { background: var(--paper); }
 .library-intro { margin-block: var(--space-block); }
 .library-tools.library-discovery { gap: 1.25rem; }
 .book-selects { gap: 1rem; }
