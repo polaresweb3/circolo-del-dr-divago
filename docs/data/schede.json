@@ -140166,7 +140166,8 @@
       "La comunicazione della Commissione europea COM(2000)1 sul principio di precauzione richiede una valutazione strutturata, proporzionalità, coerenza e confronto dei benefici e costi della azione e della inazione: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM%3A2000%3A0001%3AFIN . Non equivale a pretendere una prova assoluta di rischio zero prima di ogni intervento, né alla conclusione che la assenza di quella prova vieti automaticamente tutte le vaccinazioni. Ammettere incertezza e monitorare i rischi è distinto dal rinunciare a confrontarli con quelli della malattia. Le vignette della fonte sono strumenti satirici, dei quali autore e provenienza restano da documentare.",
       "Il Museo Curie riporta il certificato di morte del 4 luglio 1934 con una anemia aplastica e discute le esposizioni a radiazioni senza poterne quantificare il peso causale esatto: https://musee.curie.fr/blog/de-quoi-est-morte-marie-curie . Non si certifica dunque il generico cancro causato dal radio della fonte automatica. La massima sul capire per temere meno resta attribuita a Curie senza una collocazione primaria verificata. Il valore del ragionamento non viene dedotto dalla sua sola attribuzione a una scienziata famosa.",
       "Le categorie Nobel non comprendono un premio della pornografia: https://www.nobelprize.org/nobel_organizations/nobelfoundation/history/ . Una espressione giornalistica come Nobel del settore può però essere metaforica; non costituisce di per sé la asserzione di una assegnazione della Fondazione Nobel né dimostra automaticamente un illecito sul nome. Il titolo esatto dello articolo citato e il premio effettivamente attribuito non sono qui riscontrati. Le valutazioni sulla sessualità e sulla dignità dei lavoratori del settore restano giudizi morali del relatore, non una descrizione uniforme delle persone coinvolte. Bauman è richiamato senza un titolo univoco, che non viene aggiunto per congettura.",
-      "La comparazione fra cittadino, guerra e consumi è una interpretazione storica del relatore. Non si generalizza la assenza di mobilitazione o sacrifici a tutti i conflitti dopo il 1945. Il passaggio sulla società amministrata richiama Adorno e Horkheimer senza identificare un singolo libro. Le massime attribuite a Burke e alla immagine educativa del fuoco restano prive di una collocazione primaria qui verificata; non si selezionano libri dai soli nomi. La chiusa propone la lettura riflessiva come una pratica di autonomia, distinta dalla rinuncia a controllare dati e fonti."
+      "La comparazione fra cittadino, guerra e consumi è una interpretazione storica del relatore. Non si generalizza la assenza di mobilitazione o sacrifici a tutti i conflitti dopo il 1945. Il passaggio sulla società amministrata richiama Adorno e Horkheimer senza identificare un singolo libro. Le massime attribuite a Burke e alla immagine educativa del fuoco restano prive di una collocazione primaria qui verificata; non si selezionano libri dai soli nomi. La chiusa propone la lettura riflessiva come una pratica di autonomia, distinta dalla rinuncia a controllare dati e fonti.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Precisazione documentaria sul richiamo ad Aigner (2141,68–2164,51 s): il documento già catalogato di Thomas Aigner reca nella chiusa il 19 dicembre 2020 e dichiara l’uscita dall’Accademia delle scienze e della letteratura di Magonza. La Leopoldina è fra i destinatari per conoscenza e ha prodotto il parere contestato; non è l’accademia dalla quale quella lettera annuncia le dimissioni. L’intestazione e la chiusa sono state ricontrollate, senza collazione integrale del documento. Il rinvio del video resta probabile, mentre la specifica fonte delle dimissioni attribuite a Luckhaus non è identificata qui. Le dimissioni e il dissenso espressi non costituiscono un esperimento sulla filtrazione né convalidano le accuse sanitarie o su Merkel. Fonte primaria: https://geo-prof-aigner.weebly.com/uploads/1/2/0/2/12020907/an_den_pr%C3%A4sidenten_der_akademie_der_wissenschaften.oa.pdf Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -218486,6 +218487,22 @@
         "human_audio_review": false
       },
       {
+        "book_id": "sgangherata-galassia-no-vax-boh-vax-buccini-2021",
+        "seconds": 431.96,
+        "title_seconds": 431.96,
+        "role": "riferimento",
+        "confidence": "riscontro_audio_automatico",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Cue 43 (431,96–443,03 s): lettura del titolo con deformazioni ASR; testata al cue50, nome Goffredo al cue140 e corrispondenza dell’incipit e dei riferimenti bibliografici con il ritaglio originale.",
+        "note": "Il relatore introduce e legge il titolo dell’articolo a 431,96–443,03 s, con parole deformate dal riconoscimento automatico; torna sull’area grigia e commenta estesamente il pezzo. La testata Corriere della Sera è nominata a 483,68–500,53 s e il nome Goffredo compare a 1104,25 s. Il titolo completo, la firma Goffredo Buccini, la data 26 luglio 2021 e la pagina 5 sono riscontri separati sulla scansione originale conservata nella rassegna UCEI/CDEC. L’incipit sui gruppi di Castellino, Pappalardo e Giorgianni e i successivi riferimenti a Vaccini e paure e Gérald Bronner corrispondono al testo del ritaglio. Le accuse di propaganda e manipolazione e i giudizi clinici o politici del relatore restano sue valutazioni: il collegamento documenta il testo commentato senza certificarne le tesi o diagnosticare autori e lettori.",
+        "video_id": "ErFGcEt5WcA",
+        "title": "Estremisti, tribuni (e disorientati). La sgangherata galassia dei No vax e dei «Boh vax»",
+        "author": "Goffredo Buccini"
+      },
+      {
         "book_id": "cuore-de-amicis",
         "title": "Cuore",
         "author": "Edmondo De Amicis",
@@ -218577,6 +218594,22 @@
         "human_audio_review": false
       },
       {
+        "book_id": "no-vax-manifestazioni-condannare-frignani-2021",
+        "seconds": 3410.63,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Cue55 (530,04–541,96 s): Lamorgese e manifestazioni da condannare; ripresa dell’articolo al cue480 (3410,63 s), seguito da titolo e lettura/commento dei medesimi passaggi. Firma e data sono verificate esternamente, non pronunciate.",
+        "note": "Il relatore allude a Lamorgese e alle manifestazioni da condannare già a 530,04–541,96 s, poi riprende l’articolo a 3410,63 s e ne commenta il titolo e il contenuto da 3459,54 s. Titolo ufficiale completo non letto integralmente in un singolo passaggio; firma Rinaldo Frignani, data 26 luglio 2021 e collocazione Corriere della Sera, pp. 1–2, sono riscontri esterni della scansione. Nell’originale le dichiarazioni sulla maggiore sicurezza dei luoghi della socialità e sulle manifestazioni non piaciute sono attribuite a Roberto Speranza, mentre il video le collega a Lamorgese; la frase sulla mancata vaccinazione come irresponsabilità è attribuita ad Andrea Costa e il relatore corregge quest’ultima attribuzione soltanto a 4162,10–4177,75 s. La scheda conserva questa distinzione: giudizi del relatore, dichiarazioni riportate e dati scientifici non sono intercambiabili; il ritaglio non prova intenzioni repressive né equivalenza di rischio fra vaccinati e non vaccinati.",
+        "video_id": "ErFGcEt5WcA",
+        "title": "No vax, interviene Lamorgese: manifestazioni da condannare",
+        "author": "Rinaldo Frignani"
+      },
+      {
         "book_id": "1984-orwell",
         "title": "1984",
         "author": "George Orwell",
@@ -218612,7 +218645,9 @@
       "Vaccini e paure è un numero monografico di Venetica, 1/2018, curato da Elena Iorio e Cristina Munno: non libro scritto dalla sola Iorio. Non dedotti da quel volume del 2018 risultati sui vaccini anti-COVID o sulla politica del 2021. La democrazia dei creduloni è il libro di Gérald Bronner richiamato attraverso l’articolo.",
       "Non c’è gusto in Italia ad essere intelligenti è anche il libro di Roberto Freak Antoni, non soltanto un album. Io speriamo che me la cavo è la raccolta di temi curata da Marcello D’Orta, distinta dal successivo film. Il flauto magico è opera musicale, non un trattato di perfezione scientifica.",
       "Il motto Brecht è collegato in via probabile al prologo di Herr Puntila und sein Knecht Matti: esistono varianti del prologo e la versione dell’anteprima Suhrkamp consultata ha un incipit diverso dalla variante richiamata. Husserl e 1984 sono identificazioni contestuali, senza edizione indicata.",
-      "Il saggio citato di Oost è riscontrato come The Tyrant Kings of Syracuse, Classical Philology 71(3), 1976, pp.224–236, DOI10.1086/366267; il titolo non è pronunciato nel video. Il collegamento bibliografico e il caso dell’immagine ancora da acquisire sono conservati nell’archivio privato. Nessuna opera creata dal solo nome di Chomsky, Freud, Russell, Jefferson o dai richiami biblici colloquiali."
+      "Il saggio citato di Oost è riscontrato come The Tyrant Kings of Syracuse, Classical Philology 71(3), 1976, pp.224–236, DOI10.1086/366267; il titolo non è pronunciato nel video. Il collegamento bibliografico e il caso dell’immagine ancora da acquisire sono conservati nell’archivio privato. Nessuna opera creata dal solo nome di Chomsky, Freud, Russell, Jefferson o dai richiami biblici colloquiali.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: collegato l’articolo di Goffredo Buccini, Estremisti, tribuni (e disorientati). La sgangherata galassia dei No vax e dei «Boh vax», Corriere della Sera, 26 luglio 2021, p.5. Il titolo viene letto a431,96s con deformazioni ASR; firma completa, data e pagina sono riscontri esterni sulle due pagine del ritaglio nella rassegna UCEI/CDEC. Il riscontro identifica il testo commentato senza accertare le accuse di propaganda o manipolazione del relatore. L’immagine riproduce soltanto il titolo nativo presente nel PDF della rassegna; firma e metadati non sono stati aggiunti. Le pagine complete restano private. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: collegato probabilmente l’articolo di Rinaldo Frignani, No vax, interviene Lamorgese: manifestazioni da condannare, Corriere della Sera, 26 luglio 2021, pp.1–2. Prima allusione parziale a530,04s, ripresa del commento a3410,63s; titolo completo non pronunciato in un singolo passo, firma e data riscontrate esternamente. Nell’originale le frasi sulla sicurezza della socialità e sulle manifestazioni non piaciute sono di Speranza; irresponsabilità è attribuita a Costa. Le correzioni già presenti sono conservate, senza trasformare le opinioni del relatore in fatti o indicazioni sanitarie. L’immagine è il solo titolo nativo dalla rassegna UCEI/CDEC, senza corpo o metadati aggiunti. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -221241,7 +221276,8 @@
       "Il richiamo ai farmaci sperimentali è terminologia polemica del relatore: i vaccini COVID-19 ebbero autorizzazioni regolatorie, sia pure inizialmente condizionate, e sorveglianza. Non se ne ricavano consigli sanitari individuali o una valutazione automatica di tutti i provvedimenti politici.",
       "Le frasi attribuite a Orwell e Stalin non sono abbinate a opere senza riscontro. L’aneddoto su Roy Cohn non è provato dalla sua compatibilità con un giudizio morale. L’episodio di Galileo è mantenuto come aneddoto, come già dichiarato dal relatore.",
       "Titolo della guida Spencer, precisa edizione Inspire, fonte del racconto Cohn e opera di Schweitzer non sono identificati univocamente. La legge 1905 è un testo reale esplicitamente evocato ma resta fuori dalle nuove voci per immagine originale ancora da acquisire. Nessun contenuto inventato per colmare questi casi.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore richiama una legge del 1905 sulla separazione fra Stato e Chiesa, discutendola attraverso il libro di Charb e associandola all’Alsazia-Lorena. Il riferimento è alla legge francese del 9 dicembre 1905, non a una legge di separazione speciale per quei territori. La prima pagina originale mostra i principi degli articoli 1–2: libertà di coscienza e libero esercizio dei culti, insieme alla separazione economica e istituzionale. L’Alsazia-Mosella va distinta: le Archives nationales ricordano che la legge non vi fu applicata e il regime locale dei culti seguì una storia diversa. Il richiamo a cattolici, protestanti e giudaismo non autorizza a descrivere il testo del 1905 come legge che riconosce soltanto quelle religioni. Questa è identificazione storica del documento, senza certificazione del diritto francese oggi vigente o dei successivi emendamenti. L’opinione del relatore sulla presenza dell’islam in Europa resta attribuita a lui e non è provata dal solo testo legislativo."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore richiama una legge del 1905 sulla separazione fra Stato e Chiesa, discutendola attraverso il libro di Charb e associandola all’Alsazia-Lorena. Il riferimento è alla legge francese del 9 dicembre 1905, non a una legge di separazione speciale per quei territori. La prima pagina originale mostra i principi degli articoli 1–2: libertà di coscienza e libero esercizio dei culti, insieme alla separazione economica e istituzionale. L’Alsazia-Mosella va distinta: le Archives nationales ricordano che la legge non vi fu applicata e il regime locale dei culti seguì una storia diversa. Il richiamo a cattolici, protestanti e giudaismo non autorizza a descrivere il testo del 1905 come legge che riconosce soltanto quelle religioni. Questa è identificazione storica del documento, senza certificazione del diritto francese oggi vigente o dei successivi emendamenti. L’opinione del relatore sulla presenza dell’islam in Europa resta attribuita a lui e non è provata dal solo testo legislativo.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il richiamo a Hillel e alla reciprocità negativa trova un riscontro in Shabbat 31a:6: nel racconto rabbinico Hillel insegna a non fare agli altri ciò che è odioso per sé. È un confronto con il testo della tradizione, non prova della fonte o dell’edizione usata dal relatore; nel video non sono nominati il trattato né il foglio. L’accostamento fra diverse tradizioni etiche resta l’argomento del relatore. Il riscontro riguarda soltanto il passo nella traduzione inglese William Davidson/Koren–Steinsaltz letta nell’indicizzazione di Sefaria; l’apertura ordinaria ha mostrato l’interfaccia e non viene dichiarata una lettura integrale del trattato o dell’originale antico. Fonte: https://www.sefaria.org/Shabbat.31a.6 . Fonte automatica, nessun ascolto umano."
     ],
     "contextual_verification_sources": [
       {
@@ -221944,7 +221980,8 @@
       "Contesto verificato presso IAS e fonti storiche federali: Einstein lavorò all’Institute for Advanced Study, istituzione distinta dalla Princeton University, e non fu un progettista del Manhattan Project. La lettera del 1939 non equivale alla direzione del programma. E=mc² non è una procedura di costruzione dell’arma e non viene collegata per errore al solo articolo Zur Elektrodynamik bewegter Körper.",
       "Le motivazioni attribuite ai bombardamenti, le previsioni distruttive e i giudizi politici restano posizioni dei personaggi o formulazioni storiche. Non sono assunte come prova attuale di intenzioni, come calcolo scientifico indipendente o come diagnosi psicologica.",
       "La scena del discorso accosta testi: riscontro editoriale per Arms Can Bring No Security (1950), ma non attribuzione forzata del seguito al medesimo articolo o al Manifesto Russell–Einstein (1955). Copertina del fascicolo del Bulletin dichiarata come raccolta contenente l’articolo.",
-      "Lettera del 25 marzo 1945 identificabile probabilmente dal testo di introduzione di Szilard ma lasciata in pendenza per la riproduzione autentica. Il rapporto menzionato dopo Hiroshima non è identificato come Smyth Report sulla sola resa ASR. Nessuna voce inventata per l’articolo ostile richiesto dal direttore a Jane."
+      "Lettera del 25 marzo 1945 identificabile probabilmente dal testo di introduzione di Szilard ma lasciata in pendenza per la riproduzione autentica. Il rapporto menzionato dopo Hiroshima non è identificato come Smyth Report sulla sola resa ASR. Nessuna voce inventata per l’articolo ostile richiesto dal direttore a Jane.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: La scena è un dialogo cinematografico interpretato, non una registrazione storica. La sequenza a 3565,11–3589,29 s, che paragona la minaccia nucleare alla peste e invoca un piano elaborato da esperti, trova una corrispondenza negli estratti del discorso di Einstein dell’11 novembre 1947 pubblicati da Hanoch Gutfreund presso Canadian Friends of Hebrew University. La Niels Bohr Library & Archives dell’AIP descrive il medesimo argomento in The Menace of Mass Destruction, raccolto in Essays in Humanism (Philosophical Library, 1950, p.69): data del discorso e data della raccolta sono distinte. Il confronto riguarda gli estratti pubblicati, non l’intero originale o la versione tedesca del film. La frase successiva sul nuovo modo di pensare (3589,29–3605,36 s) resta separata e non identifica da sola il Manifesto Russell–Einstein del 1955. Fonti: https://www.cfhu.org/news/hanoch-gutfreund-we-need-an-einstein-right-about-now/ ; https://www.aip.org/library/einstein-and-humanism Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -223239,6 +223276,29 @@
         "role": "riferimento"
       },
       {
+        "book_id": "modern-science-tolstoj-1898",
+        "title": "Modern Science",
+        "author": "Lev Tolstoj",
+        "video_id": "Bf7at324tkc",
+        "seconds": 208.56,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "human_audio_review": false,
+        "verified": false,
+        "source_segment_indexes": [
+          14,
+          23,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "evidence": "A 208.56–251.08 s il relatore legge come epigrafe di Huxley un pensiero attribuito a Tolstoj: organizzazione sociale cattiva, minoranza che opprime la maggioranza, nuove vittorie sulla natura che ne accrescono il potere. La corrispondenza testuale è riscontrata nel saggio Modern Science, riprodotto da MIT e UniTO, senza introdurre una data o un titolo nel parlato.",
+        "note": "Rinvio mediato da Science, Liberty and Peace. Identificazione probabile dell’origine, titolo e data del saggio non pronunciati. La fonte iconografica è solo l’incipit nella ristampa 2014, non un manoscritto, l’edizione1898 o il volume1904; il paragrafo corrispondente all’epigrafe è collazionato a p.45. Le valutazioni sulla scienza sono storiche e attribuite, non convalida delle applicazioni sanitarie/politiche contemporanee del relatore."
+      },
+      {
         "book_id": "discorso-metodo-cartesio",
         "title": "Discorso sul metodo",
         "author": "René Descartes (Cartesio)",
@@ -223408,7 +223468,8 @@
       "Correzioni storiche: Ermak e il khanato di Sibir appartengono al 1581–1582, non alla conquista attribuita a Pietro il Grande. Le infrastrutture incaiche erano realizzate senza utensili di ferro/acciaio; le differenze tecniche non dimostrano gerarchie biologiche o cause uniche delle conquiste. Ruhr e iperinflazione sono del 1923 e vanno distinte dal 1929.",
       "Nel confronto con il fascismo, singoli salvataggi non annullano l’attività degli apparati italiani negli arresti antiebraici; preservati i riscontri archivistici sull’ordinanza RSI n.5 del 30 novembre 1943. Nessuna diagnosi psicologica su forze dell’ordine, religioni o popolazioni.",
       "Immagini autentiche scaricate, viste integralmente e verificate con Pillow e SHA-256. Huxley: sovraccoperta inglese 1947, non volume italiano; Sue: miniatura bibliotecaria autentica dell’edizione Bouquins, bassa risoluzione dichiarata; Defoe: copertina ufficiale Modern Library 2001, non edizione confermata nel video.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il richiamo a Churchill passa attraverso Huxley ed è una parafrasi, non una lettura diretta del verbale. La massima sull’obbligo dei molti verso i pochi è nel discorso del20 agosto 1940, Hansard vol. 364, col. 1167, nel contesto degli aviatori britannici. 1947 è l’anno dell’edizione Huxley discussa, non del discorso. L’immagine è un estratto documentario della riproduzione ufficiale Hansard con il primo paragrafo completo; la massima stessa compare più avanti. [Resoconto storicoHansard](https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation)."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il richiamo a Churchill passa attraverso Huxley ed è una parafrasi, non una lettura diretta del verbale. La massima sull’obbligo dei molti verso i pochi è nel discorso del20 agosto 1940, Hansard vol. 364, col. 1167, nel contesto degli aviatori britannici. 1947 è l’anno dell’edizione Huxley discussa, non del discorso. L’immagine è un estratto documentario della riproduzione ufficiale Hansard con il primo paragrafo completo; la massima stessa compare più avanti. [Resoconto storicoHansard](https://api.parliament.uk/historic-hansard/commons/1940/aug/20/war-situation).",
+      "Aggiornamento bibliografico del 27 ottobre 2026: L’epigrafe attribuita a Tolstoj, letta dal relatore attraverso Huxley, corrisponde a un passo di Modern Science, prefazione al testo di Edward Carpenter. Il titolo e l’anno del saggio non sono pronunciati: il rinvio resta un’identificazione redazionale probabile. Le fonti riproducono il testo storico e ne distinguono la traduzione dal commento moderno: https://web.mit.edu/redingtn/www/netadv/SP20150803.html e https://ojs.unito.it/index.php/visions/article/view/1421 . L’immagine è un incipit della ristampa 2014, non un documento originale 1898 o un’edizione identificata nel video. Il1898 è la datazione del saggio indicata dalle fonti, non una prima pubblicazione qui accertata. Il testimoneMIT rimanda alla traduzione AylmerMaude in Essays and Letters1904; la diversa ristampaUniTO2014 dichiara come fonte Recollections & Essays1961. Collazionati il passo della citazione a p.45 e l’incipit a p.41, non l’intera raccolta o un originale russo. Le valutazioni storiche di Tolstoj e le applicazioni politiche e sanitarie del relatore restano attribuite. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -224499,7 +224560,8 @@
       "La formula mysterium iniquitatis è di 2 Tessalonicesi 2,7, non di un Vangelo. Il Sermone della montagna rinvia invece a Matteo 5–7: riferimenti tenuti distinti.",
       "Samarcanda è il brano di Roberto Vecchioni del 1977, con Angelo Branduardi al violino. L’attribuzione incerta nel parlato è corretta su fonti ufficiali già acquisite dal root, senza creare una seconda voce musicale.",
       "Creazione di Adamo è un affresco di Michelangelo e la sua immagine è una riproduzione ufficiale dei Musei Vaticani, non copertina di un libro. Il rapporto con le mani nel testo pessoano è un’associazione del relatore.",
-      "Cinque immagini autentiche viste integralmente e verificate con Pillow e SHA-256. Provenienze editoriali, catalogo bibliotecario e riproduzione museale sono dichiarate; non sono state ricostruite copertine."
+      "Cinque immagini autentiche viste integralmente e verificate con Pillow e SHA-256. Provenienze editoriali, catalogo bibliotecario e riproduzione museale sono dichiarate; non sono state ricostruite copertine.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il passo su ombra dell’albero cittadino, acqua e sensazione cosciente letto a 4448,04–4470,04 s trova una probabile corrispondenza testuale nel Livro do Desassossego, già richiamato all’inizio. L’Arquivo LdoD lo registra sotto l’incipit Vivo sempre no presente, attribuito a Bernardo Soares: frammento Fr188, numero 100 nell’edizione Richard Zenith, pp. 132–133, testimone indicato BNP/E3, 3-29r. Numerazione e pagine dipendono da quella edizione; non identificano la traduzione italiana usata nel video. Il confronto con il Marinaio è proposto dal relatore; nessun nuovo componimento autonomo o diversa raccolta ricavata dall’estratto. Fonte primaria editoriale: https://ldod.uc.pt/fragments/fragment/Fr188/inter/Fr188_WIT_ED_CRIT_Z Il riscontro è limitato al testo e ai metadati primari indicizzati; la pagina completa non è stata consultata. Nessuna collazione della traduzione italiana o visione del manoscritto. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -227913,6 +227975,21 @@
         "role": "riferimento"
       },
       {
+        "book_id": "history-church-smith-roberts",
+        "seconds": 5245.97,
+        "end_seconds": 5267.36,
+        "title_seconds": 5245.97,
+        "additional_reference_seconds": 5647.96,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Cue782–784: History of the Church esplicito in inglese e sequenza quattro figure umane/due o più papiri; cue852–854: scritti di Abramo e Giuseppe d’Egitto. Corrispondenza specifica con vol. II pp. 235–236 nella trascrizione primaria BYU; curatore, pagine ed edizione non pronunciati.",
+        "note": "A 5245,97–5267,36 s il relatore nomina History of the Church e legge l’arrivo di Michael Chandler con quattro figure umane e due o più rotoli di papiro; a 5647,96–5657,96 s riprende l’attribuzione dei rotoli ad Abramo e Giuseppe d’Egitto. Le due sequenze corrispondono ai passi del volume II, pp. 235–236, nella trascrizione BYU della raccolta curata da B. H. Roberts. Identificazione probabile della raccolta: titolo abbreviato e parole parallele non certificano il volume o l’edizione materialmente usati. Il precedente manoscritto B-1, pp. 595–596, è un testimone distinto e non la stessa edizione a stampa. Si documenta ciò che la storia confessionale riferisce, senza confermare l’attribuzione dei papiri ad Abramo/Giuseppe, la validità di una traduzione o i giudizi religiosi del relatore. L’immagine è il frontespizio del volume I, Deseret News 1902, dichiarato come parte illustrativa della medesima raccolta; non rappresenta il volume II citato, il manoscritto o la copia del video."
+      },
+      {
         "book_id": "thought-reform-psychology-totalism-lifton",
         "title": "Thought Reform and the Psychology of Totalism. A Study of “Brainwashing” in China",
         "author": "Robert Jay Lifton",
@@ -228169,7 +228246,13 @@
       "Libro di Mormon, musical, film God Makers, libro omonimo, primi film e seguiti restano opere distinte. I tre dialoghi di Anselmo condividono l’immagine dichiarata della raccolta che effettivamente li contiene. Parti bibliche e Libro di Abramo non sono trasformati in edizioni autonome inventate.",
       "Riferimenti non univoci o immagini indisponibili restano nei pending. Non si attribuiscono a opere precise le frasi di Voltaire, Goebbels, Kierkegaard e Agostino senza un luogo testuale verificato; la stessa cautela vale per citazioni scientifiche e documentari senza titolo.",
       "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore invita a vedere un episodio di South Park e ne descrive il coro Dum Dum Dum Dum Dum legato al racconto di Joseph Smith. La specifica scheda ufficiale collazionata individua All About Mormons, S7E12. Titolo dell’episodio non pronunciato, identificazione probabile; il musical The Book of Mormon citato subito dopo è distinto. Satira e giudizi del relatore non sono prove storiche o giudizi sulle persone appartenenti alla confessione.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: A 3773.46 s il relatore nomina in italiano la Storia dell’antichità di Eduard Meyer, poco prima del suo distinto trattato sui mormoni. La voce riguarda l’opera complessiva e non un solo tomo o la monografia Ursprung und Geschichte der Mormonen già censita. Il riferimento orale a quattro volumi non identifica edizione e consistenza della copia: tale punto rimane aperto. Nessuna lettura integrale dell’opera storica o delle pagine della copia è dichiarata."
+      "Aggiornamento bibliografico del 26 ottobre 2026: A 3773.46 s il relatore nomina in italiano la Storia dell’antichità di Eduard Meyer, poco prima del suo distinto trattato sui mormoni. La voce riguarda l’opera complessiva e non un solo tomo o la monografia Ursprung und Geschichte der Mormonen già censita. Il riferimento orale a quattro volumi non identifica edizione e consistenza della copia: tale punto rimane aperto. Nessuna lettura integrale dell’opera storica o delle pagine della copia è dichiarata.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: A 5245,97–5267,36 s il relatore nomina History of the Church e legge l’arrivo di Michael Chandler con quattro figure umane e due o più rotoli di papiro; a 5647,96–5657,96 s riprende l’attribuzione dei rotoli ad Abramo e Giuseppe d’Egitto. Le due sequenze corrispondono ai passi del volume II, pp. 235–236, nella trascrizione BYU della raccolta curata da B. H. Roberts. Identificazione probabile della raccolta: titolo abbreviato e parole parallele non certificano il volume o l’edizione materialmente usati. Il precedente manoscritto B-1, pp. 595–596, è un testimone distinto e non la stessa edizione a stampa. Si documenta ciò che la storia confessionale riferisce, senza confermare l’attribuzione dei papiri ad Abramo/Giuseppe, la validità di una traduzione o i giudizi religiosi del relatore. L’immagine è il frontespizio del volume I, Deseret News 1902, dichiarato come parte illustrativa della medesima raccolta; non rappresenta il volume II citato, il manoscritto o la copia del video. Collazionati soltanto i due passi e il contesto immediato nella trascrizione BYU, non l’intero volume o l’intera raccolta. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: La citazione sull’assenza, per quanto noto all’autore, di archeologi non mormoni convinti della storicità corrisponde a un passo di Michael Coe, [Mormons and Archaeology: An Outside View](https://www.dialoguejournal.com/articles/mormons-and-archaeology-an-outside-view/), Dialogue 8(2), 1973. È un giudizio storico personale, non una dichiarazione istituzionale dello Smithsonian o un censimento attuale. La corrispondenza testuale non identifica anche i distinti documenti citati per Clark e Ferguson. Consultazione limitata: Collazionata la finestra web del testo primario con il contesto immediato, non lettura integrale del saggio o visione del fascicolo PDF. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il dilemma attribuito a Holland corrisponde al passo dell’articolo ufficiale [True or False](https://www.churchofjesuschrist.org/study/new-era/1995/06/true-or-false?lang=eng), New Era, giugno 1995, p. 64, estratto da un intervento del 9 agosto 1994. La formulazione è ripresa anche nel libro Christ and the New Covenant del 1997: il video non precisa quale contenitore utilizzi. L’alternativa formulata da Holland e la conclusione che ne ricava il relatore restano posizioni dei rispettivi autori, senza certificare frode o verità religiosa. Consultazione limitata: Letto il breve articolo web ufficiale, non il libro 1997 né ascoltato l’intervento 1994. La ripresa nel volume del 1997 non è stata collazionata sul libro. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il passo sui cinque elementi controversi e la qualifica dell’autore corrispondono a Paul R. Cheesman, [The Wheel in Ancient America](https://byustudies.byu.edu/article/the-wheel-in-ancient-america), BYU Studies 9(2), inverno 1969, pp. 185–197. L’originale lo presenta come assistant professor, non assistente di un assistente. Il saggio distingue oggetti miniaturizzati e veicoli: le sue interpretazioni e aspettative storiche non costituiscono automaticamente una verifica archeologica odierna, né autorizzano giudizi sulle capacità dei fedeli. Titolo ed edizione non sono pronunciati nel video. Consultazione limitata: Collazionati apertura, contesto della ruota, conclusione e nota autore nel testo editoriale web; metadati verificati nel repository universitario. Nessuna immagine o lettura visiva integrale del PDF dichiarata. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Titolo e sottotitolo tradotti concordano probabilmente con [The Mysteries of Mormonism: A Full Exposure of Its Secret Practices and Hidden Crimes](https://archive.org/details/mysteriesofmormo00trumrich), attribuito ad Alfred Trumble nel catalogo della copia delle University of California Libraries, Richard K. Fox, 1881. Autore e anno non sono detti dal relatore; il catalogo non prova l’edizione mostrata. La formulazione polemica del titolo non accerta crimini o responsabilità collettive. Non sono stati letti il corpo del libro o il suo frontespizio. Consultazione limitata: Solo scheda catalografica della copia storica da microfiche, non frontespizio o immagine acquisiti. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il richiamo all’intelligenza eterna e autoesistente (3291–3323 s) ha un riscontro nel resoconto di Wilford Woodruff del discorso di Joseph Smith del 7 aprile 1844. Nella trascrizione della pagina [137] del diario di Woodruff l’intelligenza è detta eterna e autoesistente, nel contesto di una negazione dell’inizio e della fine dello spirito umano. È stata collazionata questa sola pagina trascritta, con la nota di provenienza e l’attribuzione della mano a Woodruff; non la scansione, un autografo di Smith o l’intero sermone. Il rinvio resta probabile: titolo, data e versione non sono precisati nel video, mentre «ultimo sermone» resta una qualificazione del relatore non verificata qui. Il riscontro documenta una dottrina attribuita a Smith e non ne convalida le conclusioni teologiche. Fonte primaria: https://www.josephsmithpapers.org/paper-summary/discourse-7-april-1844-as-reported-by-wilford-woodruff/5 Fonte automatica, nessun ascolto umano."
     ],
     "contextual_verification_sources": [
       {
@@ -229871,6 +229954,18 @@
         "role": "riferimento"
       },
       {
+        "book_id": "beffe-e-beffatori-caldarella",
+        "title": "Beffe e beffatori in nome di una crisi",
+        "author": "Sergio Caldarella",
+        "seconds": 3554.45,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "evidence": "Il frammento ASR beffatori nel rinvio al proprio testo sulla crisi pandemica rende probabile il libro già canonico. Titolo completo ed edizione non pronunciati; nessuna autenticazione delle accuse successive su Harari."
+      },
+      {
         "book_id": "tradimento-chierici-benda",
         "title": "Il tradimento dei chierici (La trahison des clercs)",
         "author": "Julien Benda",
@@ -229997,7 +230092,8 @@
       "Correzioni bibliografiche: Henry A. Wallace, non Harry; Montagu Norman, Hjalmar Schacht, Johannes Hessen, Roland Freisler e Sophie Scholl. Il saggio Wallace è un articolo del 1944: la copertina Democracy Reborn rappresenta una raccolta e non una seconda opera. Das Kausalprinzip e Das Geheimnis der Menschenform restano identificazioni probabili; non inventata una lettura letterale dei titoli tedeschi.",
       "Volksgerichtshof: il DHM riporta circa 18.000 giudizi e 5.200 condanne a morte; i numeri non indicano cinquemila giudici. Il problema documentato della mancata punizione dei giudici non rende responsabile collettivamente tutta la magistratura contemporanea. Fonti: https://www.dhm.de/lemo/kapitel/ns-regime/innenpolitik/volksgerichtshof ; https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/BArch/Publikation_Mitteilungen_2005-2.pdf",
       "Allen Dulles: la storia dell’incontro mancato con Lenin appartiene alla sua attività diplomatica a Berna nella prima guerra mondiale; non alla direzione della CIA, istituzione successiva. Assange: la prospettiva giudiziaria del video è anteriore al patteggiamento del giugno 2024 con pena pari al periodo già scontato. Fonti: https://www.cia.gov/legacy/museum/artifact/dci-allen-w-dulles-stamps/ ; https://www.justice.gov/archives/opa/pr/wikileaks-founder-pleads-guilty-and-sentenced-conspiring-obtain-and-disclose-classified",
-      "Non identificate opere dal solo nome di Freud, Laing, Szasz, Harari, Schwab, Varoufakis, Machiavelli, Hobbes, Bodin o dall’aforisma attribuito ad Adorno. I titoli mostrati senza lettura riconoscibile sono conservati fra i casi da rivedere. Nessuna diagnosi collettiva; critiche estetiche, storia controfattuale e accuse di manipolazione rimangono giudizi del relatore."
+      "Non identificate opere dal solo nome di Freud, Laing, Szasz, Harari, Schwab, Varoufakis, Machiavelli, Hobbes, Bodin o dall’aforisma attribuito ad Adorno. I titoli mostrati senza lettura riconoscibile sono conservati fra i casi da rivedere. Nessuna diagnosi collettiva; critiche estetiche, storia controfattuale e accuse di manipolazione rimangono giudizi del relatore.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: A 3554,45–3572,47 s il relatore richiama il proprio testo sulla crisi pandemica con una formulazione che l’ASR rende «su bfebfatori». Il frammento specifico rende plausibile un rinvio a Beffe e beffatori in nome di una crisi, già catalogato; il titolo completo e l’edizione non sono pronunciati. La corrispondenza rimane probabile e non autentica le accuse o le ipotesi su Harari che seguono. La copertina Lulu2021 è un’immagine editoriale di riferimento, non una certificazione della copia del video. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -230567,7 +230663,9 @@
       "La forma periodico nella trascrizione non è corretta per π, che ha sviluppo decimale infinito non periodico;3,14 è approssimato. La lettura teologica di Genesi sul silenzio verso la bontà umana non annulla il giudizio complessivo sulla creazione del testo biblico.",
       "Il caso Dora è uno studio storico, non istruzione clinica contemporanea. La citazione sui gesti non dimostra automaticamente che si possano inferire intenzioni inconsce altrui. Il nesso fra creatività e riduzione della distruttività rimane una tesi educativa, non un esito terapeutico garantito.",
       "Lettere senza data, battute senza luogo testuale, la vicenda dello Stato non nominato e il racconto orwelliano dei bombardamenti restano documentati nei pending. Non si appoggiano a raccolte bibliografiche soltanto perché condividono un autore.",
-      "Copertina Adorno: raccolta inglese contenente il saggio, non copertina italiana. Dora: pagina iniziale originale1905 nella miniatura ufficiale129×200, non fotografia della paziente né pagina due. Immagini native viste integralmente e verificate con Pillow e SHA-256."
+      "Copertina Adorno: raccolta inglese contenente il saggio, non copertina italiana. Dora: pagina iniziale originale1905 nella miniatura ufficiale129×200, non fotografia della paziente né pagina due. Immagini native viste integralmente e verificate con Pillow e SHA-256.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: la metafora familiare intorno a2721,34–2750,63s rinvia probabilmente a The Lion and the Unicorn, parteII Shopkeepers at War, §II. Il testo di Orwell riguarda l’Inghilterra e il potere della ricchezza e del privilegio di nascita: il parente strambalato è una parafrasi del relatore, non una citazione letterale. Collazionati il passo e il contesto immediato nella trascrizione editoriale, non l’intera opera; titolo non pronunciato, edizione e traduzione del video ignote. Fonte: https://orwell.ru/library/essays/lion/english/e_saw . Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: il racconto intorno a3583,76–3679,95s corrisponde probabilmente all’intervento As I Please, Tribune, 4 febbraio 1944. Orwell vi parla di falsi annunci radio tedeschi in parte del1941–42 e del rischio di riscrittura dei fatti in caso di vittoria nazista; il passo non nega i reali bombardamenti su Londra e non attribuisce bombe al governo britannico. La collazione identifica il racconto, senza verificare indipendentemente gli annunci storici o una notte3–4 ricordata nel video. Letto il singolo intervento nelle riproduzioni web, non la rubrica completa o un facsimile del giornale; titolo e data non pronunciati, copia del relatore ignota. Fonti: https://orwell.ru/library/articles/As_I_Please/english/eaip_01 e https://www.resort.com/~prime8/Orwell/02_04_44.html . Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano."
     ],
     "contextual_verification_sources": [
       {
@@ -232612,7 +232710,9 @@
       "Spooner: prima parte 1845, seconda 1847; il frontespizio qui acquisito è del 1860. L’argomento abolizionista dell’autore non equivale a una decisione giudiziaria allora vigente. Distinguere obiettivi iniziali dell’Unione, svolta emancipatrice del 1862–1863 e schiavitù come causa della secessione.",
       "Accuse contro persone, ipotesi di interessi occulti, giudizi sugli esperti, sul clero e sui manifestanti sono attribuiti al relatore. Una citazione editoriale o un’analogia storica non provano tali accuse. I nomi deformati dall’ASR sono normalizzati solo dove esiste riscontro.",
       "Orwell, Longanesi e Samuel Adams sono evocati anche senza un’opera identificata: nessuna voce bibliografica è dedotta automaticamente dalle sole massime. La Repubblica è un’identificazione probabile del passo di Trasimaco; non una lettura esplicita del titolo.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore discute, tramite un articolo del Los Angeles Times non identificato, la causa di Prager University contro YouTube e una decisione del Nono circuito del 2020. Il fascicolo ufficiale identifica Prager University v. Google LLC e YouTube LLC, No. 18-15712, depositata il 26 febbraio 2020: giorno e docket sono dati esterni. La corte confermò il rigetto della domanda costituzionale perché in questo caso mancava la state action; l’apertura al pubblico non bastava a trasformare YouTube in un attore statale. Il testo non accerta una delega pubblica della censura. Questa è una decisione storica, distinta dalle valutazioni politiche del relatore e dall’intero diritto contemporaneo delle piattaforme."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il relatore discute, tramite un articolo del Los Angeles Times non identificato, la causa di Prager University contro YouTube e una decisione del Nono circuito del 2020. Il fascicolo ufficiale identifica Prager University v. Google LLC e YouTube LLC, No. 18-15712, depositata il 26 febbraio 2020: giorno e docket sono dati esterni. La corte confermò il rigetto della domanda costituzionale perché in questo caso mancava la state action; l’apertura al pubblico non bastava a trasformare YouTube in un attore statale. Il testo non accerta una delega pubblica della censura. Questa è una decisione storica, distinta dalle valutazioni politiche del relatore e dall’intero diritto contemporaneo delle piattaforme.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: La circolare del maggio 1966 richiamata a 230,18–280,18 s corrisponde probabilmente al documento del Comitato centrale del PCC del 16 maggio 1966. La trascrizione inglese storica contiene il richiamo ai rappresentanti della borghesia infiltrati nel partito e l’ordine di non affidare loro la guida della Rivoluzione culturale. Sono formulazioni e accuse del documento politico, non valutazioni accertate sui destinatari. Il giorno 16 è un dato esterno, non pronunciato nel segmento. È stata letta la trascrizione inglese, non il manoscritto o l’originale cinese; non è identificata l’edizione eventualmente usata dal relatore. Fonte: https://www.marxists.org/subject/china/documents/cpc/cc_gpcr.htm Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: L’aneddoto su Ellsberg a 4278,92–4302,13 s ha un riscontro nella trascrizione autorizzata del documentario The Boys Who Said NO!, pubblicata dal distributore Docuseek/Bullfrog Films: a 01:19:37–01:19:43 alla domanda sulla possibilità del carcere segue una risposta che lo presenta come rischio da assumere per contribuire a porre fine alla guerra. In quella breve domanda non compare la specificazione del carcere a vita. È stata letta la trascrizione del passaggio, senza vedere il documentario o verificare l’intervista originale; non sono qui determinati giornalista, luogo e data della ripresa. La risposta esprime un intento, non dimostra che la divulgazione abbia da sola concluso la guerra. Fonte: https://docuseek2.com/bf-bosn Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -234247,7 +234347,9 @@
       "La locuzione latina Primum non nocere non è citazione letterale del Giuramento greco. La massima sulla paura resta senza attribuzione; Dante, Freud e Fromm non generano opere da soli nomi o titoli generici.",
       "Il libro di Soros è del 2019: il paradosso apertura/lockdown è commento successivo, non dato contenutistico del volume. La raccolta Chesterton è selezionata da curatori moderni; nessun saggio interno identificato.",
       "Daniele 3 distingue i tre giovani dal personaggio Daniele: i nomi assegnati sono babilonesi, non cananei. La lettura biblica e la forma delle piante sul Muro occidentale non sono prove empiriche di eventi futuri né indicazioni di rinunciare alle cure.",
-      "Le sei immagini sono autentiche, viste interamente e decodificate: prima pagina dell’editoriale Held, immagine editoriale Tablet dichiarata, copertine di due raccolte, copertina della Bibbia completa contenente Daniele e locandina di Raiders. Nessun facsimile inventato o immagine di un pixel."
+      "Le sei immagini sono autentiche, viste interamente e decodificate: prima pagina dell’editoriale Held, immagine editoriale Tablet dichiarata, copertine di due raccolte, copertina della Bibbia completa contenente Daniele e locandina di Raiders. Nessun facsimile inventato o immagine di un pixel.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il ricordo sui mercanti e sul denaro corrisponde probabilmente all’intervista di Erich Fromm con Gérard D. Khoury, svolta nel 1978–79 e pubblicata in inglese su Fromm Forum nel 2008–09. Il passo è nella prima risposta sulla famiglia: la corrispondenza non identifica un libro di memorie o l’edizione usata nel video. Consultati il paratesto e il passo iniziale nella trascrizione del Literary Estate of Erich Fromm, non tutte le 24 pagine. Colloqui del dicembre 1978 e dei primi mesi del 1979, estratti francesi del 1979 e versioni inglesi del 2008–09 sono dati editoriali distinti. Fonti: https://fromm-online.org/wp-content/uploads/fromm-titles/2000f-eng.pdf. Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: We For Humanity dichiara di avere consegnato all’EMA una lettera il 25 agosto 2021. Nella versione tedesca collegata, intitolata STOP HOLOCAUST, la formula di sottoscrizione menziona sopravvissuti, discendenti e altre persone; non rappresenta universalmente i sopravvissuti e non verifica lo status individuale di ogni firmatario. La data dichiarata dal promotore non certifica la data di questa versione del PDF o la sua identità con la copia consegnata. Consultati intestazione e passaggi della sottoscrizione, senza collazione parola per parola di tutte le quattro pagine. Le accuse sanitarie restano affermazioni dei promotori e del relatore, non esiti clinici verificati. Fonti: https://we-for-humanity.org/de/de-ema-letter/, https://we-for-humanity.org/wp-content/uploads/2021/09/Stop-Holocaust_Post_DE.pdf. Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -234650,7 +234752,8 @@
       "Weimar: distinguere la cronaca richiamata nel video dagli sviluppi successivi. Il BGH il 20 novembre 2024 ha confermato la condanna per Rechtsbeugung per gravi violazioni processuali, non per il semplice fatto di aver dissentito sulle mascherine. Questo esito successivo non è conoscenza attribuita al relatore al momento della registrazione.",
       "Il giudizio su autorità scientifiche, governi, autori e gruppi sociali resta del relatore. Evitate diagnosi a distanza, uso clinico della cosiddetta sindrome di Stoccolma, accuse di plagio o collusione come fatti non documentati ed equivalenze fra pandemia e persecuzione nazista. Nessuna istruzione medica individuale viene tratta dagli esempi.",
       "PATRIOT Act è una legge federale USA del 26 ottobre 2001, distinta dai successivi testi consolidati e dalle diverse leggi antiterrorismo. Il relatore ne richiama un aspetto generale senza leggere singole disposizioni.",
-      "La frase di Thatcher sul libro, la testimonianza attribuita a Vera Sharav e l’aforisma di Longanesi richiedono rispettivamente fonte dell’episodio, registrazione completa e riferimento originale. Non sono nuove voci bibliografiche inventate da una menzione generica."
+      "La frase di Thatcher sul libro, la testimonianza attribuita a Vera Sharav e l’aforisma di Longanesi richiedono rispettivamente fonte dell’episodio, registrazione completa e riferimento originale. Non sono nuove voci bibliografiche inventate da una menzione generica.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Homo consumens, richiamato a 4998,71–5028,50 s senza titolo, è un concetto sviluppato da Fromm in più scritti. L’edizione del Literary Estate lo attesta sia in The Application of Humanist Psychoanalysis to Marx’s Theory (1965, p.7 del PDF), sia in The Psychological Aspects of the Guaranteed Income (1966, p.4 del PDF); queste pagine non identificano univocamente il testo eventualmente usato nel video. Sono stati controllati i metadati e i passaggi pertinenti, non letti integralmente i due saggi. Il modello storico di carattere sociale non fornisce una diagnosi delle persone anziane evocate dal relatore o una prova delle sue interpretazioni della pandemia. Fonti primarie: https://fromm-online.org/wp-content/uploads/fromm-titles/1965c-eng.pdf e https://fromm-online.org/wp-content/uploads/fromm-titles/1966c-eng.pdf Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -235071,7 +235174,7 @@
         "title": "Eclisse della ragione. Critica della ragione strumentale",
         "author": "Max Horkheimer",
         "seconds": 2228,
-        "title_seconds": 2228,
+        "title_seconds": null,
         "evidence": "riconoscimento_vocale_locale",
         "confidence": "identificazione_probabile",
         "verification": "identificazione_probabile",
@@ -235273,7 +235376,8 @@
       "Non sono identità storiche dimostrate gli accostamenti fra persecuzione antiebraica, sanità e immigrazione. Le attribuzioni di crimini, obbedienza cieca o patologie a persone e gruppi restano giudizi del relatore; nessuna diagnosi collettiva o colpa indistinta adottata.",
       "In Italia il presidente del Consiglio è nominato dal Presidente della Repubblica e il governo deve ottenere la fiducia parlamentare: non è una carica soggetta a elezione popolare diretta. L’assenza di una precedente carica elettiva non è, da sola, prova di un incarico incostituzionale o esecutivo di interessi occulti.",
       "Il100% è un valore matematico e può comparire in una stima empirica; la questione scientifica è l’incertezza e il disegno dello studio, non una sua impossibilità astratta. Gli esempi della lotteria e del sorgere del Sole non stimano il rischio clinico di un singolo.",
-      "Le date letterarie finali riguardano opere distinte: Moby-Dick 1851, Bartleby 1853, Benito Cereno 1855;1859 per Darwin,1867 per il primo volume del Capitale,1883 inizio della pubblicazione di Zarathustra. La triade di Melville è del relatore; non si assume una trilogia ufficiale o l’origine esclusiva della nonviolenza in Bartleby."
+      "Le date letterarie finali riguardano opere distinte: Moby-Dick 1851, Bartleby 1853, Benito Cereno 1855;1859 per Darwin,1867 per il primo volume del Capitale,1883 inizio della pubblicazione di Zarathustra. La triade di Melville è del relatore; non si assume una trilogia ufficiale o l’origine esclusiva della nonviolenza in Bartleby.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Una fonte istituzionale conserva la testimonianza scritta di Pierre Kory dell’8 dicembre 2020 sui trattamenti precoci di COVID-19, comprendente affermazioni sull’ivermectina. Il riscontro documenta la testimonianza e le sue posizioni, senza identificare automaticamente i due video che il relatore dice rimossi né dimostrare l’efficacia clinica sostenuta. Sono stati consultati intestazione, apertura e passaggi pertinenti nelle prime pagine del documento di sedici pagine, senza lettura integrale o verifica degli studi citati. Fonte: https://www.hsgac.senate.gov/imo/media/doc/Testimony-Kory-2020-12-08.pdf. Sola nota documentaria, senza nuova voce o menzione bibliografica. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -238618,6 +238722,31 @@
     ],
     "books": [
       {
+        "video_id": "5beOpmGzatY",
+        "book_id": "politica-aristotele",
+        "title": "Politica",
+        "author": "Aristotele",
+        "seconds": 1251.39,
+        "end_seconds": 1266.51,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "evidence": "Segmenti218–219: il conduttore ricorda alternativamente Plato or Aristotle sul motivo per cui il tiranno predilige elementi stranieri nella società. Titolo e capitolo non detti. Politica V,11 presenta una corrispondenza specifica: il tiranno preferisce compagni e commensali stranieri ai cittadini perché non competono con lui per il potere.",
+        "note": "Rinvio probabile, non citazione letterale o attribuzione certa a uno dei due autori nominati. Collazionato il contesto di Politica V,11 nella traduzione inglese di Benjamin Jowett presso MIT; la versione Bompiani/Ferri dell’immagine è distinta e non attribuita al video. Il passo riguarda la cerchia personale del tiranno e la conservazione del potere: non dimostra che qualsiasi immigrazione o presenza straniera sia tirannica, né verifica i giudizi del relatore su governi, popolazioni o religioni contemporanei. Nella Repubblica VIII vi è un motivo affine ma diverso, sulle guardie del tiranno; non aggiunta una seconda menzione dal solo nome Platone.",
+        "references": [
+          {
+            "label": "MIT / Internet Classics Archive, Aristotele, Politica V,11, traduzione Benjamin Jowett: preferenza del tiranno per compagni stranieri rispetto ai cittadini e motivazione politica",
+            "url": "https://classics.mit.edu/Aristotle/politics.5.five.html"
+          },
+          {
+            "label": "MIT / Internet Classics Archive, Platone, Repubblica VIII, traduzione Benjamin Jowett: confronto con il distinto motivo della guardia del tiranno",
+            "url": "https://classics.mit.edu/Plato/republic.9.viii.html"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
         "book_id": "does-west-need-palestinian-state-noll-2024",
         "title": "Does the West Need a Palestinian State?",
         "author": "Chaim Noll",
@@ -238692,7 +238821,8 @@
       "Ipotesi sul blocco della risposta del 7 ottobre da parte della Casa Bianca non corroborata da registri, ordini o comunicazioni acquisiti: non trasformata in responsabilità accertata. Il conduttore propone una spiegazione operativa diversa, che pure non diventa esito certo di un’inchiesta.",
       "Riscontri primari: chiusura da parte israeliana della propria ambasciata a Dublino con relazioni diplomatiche mantenute; riconoscimenti del maggio 2024; risoluzioni ONU 181 e 67/19 e poste palestinesi. Parere consultivo ICJ, misure provvisorie e procedimenti CPI restano distinti da condanne penali. Fonti: https://www.gov.ie/en/department-of-foreign-affairs/press-releases/statement-by-the-t%C3%A1naiste-on-the-decision-by-the-government-of-israel-to-close-its-embassy-in-dublin/ ; https://www.un.org/unispal/document/auto-insert-187149/ ; https://www.icj-cij.org/index.php/node/204160 ; https://www.upu.int/en/News/2009/11/Palestine-closer-to-goal-of-exchanging-mail-directly .",
       "Bibliografia: articolo centrale identificato per titolo/testata/data; discorso del Cairo 2009 da trascrizione ufficiale; Khalidi per titolo e metadati editoriali. Un richiamo critico non certifica la falsità dell’intera opera. Wallraff, filosofi e progetto NZZ restano pendenze ove mancano titoli univoci.",
-      "Tre immagini autentiche: fotografia editoriale Noll, copertina Macmillan Khalidi e miniatura audiovisiva ufficiale Obama. Visione integrale, PIL verify/load e SHA-256. Fotografia e miniatura non sono dichiarate copertine o facsimili del testo; edizioni librarie non attribuite agli esemplari del video."
+      "Tre immagini autentiche: fotografia editoriale Noll, copertina Macmillan Khalidi e miniatura audiovisiva ufficiale Obama. Visione integrale, PIL verify/load e SHA-256. Fotografia e miniatura non sono dichiarate copertine o facsimili del testo; edizioni librarie non attribuite agli esemplari del video.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il motivo del tiranno che predilige gli stranieri è collegato con identificazione probabile alla Politica di Aristotele, V,11, nella traduzione Jowett consultata presso MIT. Il relatore nomina alternativamente Platone o Aristotele, senza titolo o capitolo; il collegamento non è una citazione certa. Il testo riguarda la cerchia personale del tiranno e la rivalità per il potere, non dimostra le interpretazioni contemporanee sui migranti. La copertina Bompiani/Ferri già presente è un’edizione illustrativa distinta dalla traduzione inglese consultata. Fonte: https://classics.mit.edu/Aristotle/politics.5.five.html . Fonte automatica, senza ascolto umano."
     ],
     "verified": false
   },
@@ -238967,6 +239097,18 @@
     ],
     "books": [
       {
+        "book_id": "sahih-muslim",
+        "title": "Ṣaḥīḥ Muslim",
+        "author": "Muslim ibn al-Ḥajjāj (compilatore)",
+        "seconds": 83.86,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "evidence": "L’interlocutrice richiama un hadith famoso unendo alberi e rocce che parlano e ultima ora. Il testo2922 nella raccoltaṢaḥīḥ Muslim contiene insieme fine dei tempi, pietra e albero nel racconto del combattimento contro gli ebrei. Il paralleloBukhārī2926 contiene ultima ora e pietra ma non alberi. Raccolta, numero e traduzione non sono pronunciati; il video offre una parafrasi polemica, non una lettura letterale. Localizzazione redazionale probabile dal motivo specifico; collazionata la traduzione inglese del singolo testo nella pubblicazioneSunnah, non un’edizione araba storica o la traduzione italiana usata nel video.2922 è la numerazione della pagina; riferimento internoBook54Hadith103 e vecchioUSC-MSA41/6985 restano sistemi distinti. Il passo contiene anche l’eccezione dell’alberoGharqad, non ricordata nella parafrasi. La formulazione sulla soddisfazione o vittoria dell’Islam appartiene all’interlocutrice e non viene assunta come citazione letterale o volontà di tutti i musulmani. Fotografia canonica dell’intera raccoltaDar-us-Salam in sette volumi, edizione2007 non accertata nel video; nessun nuovo record per il singolo hadith."
+      },
+      {
         "book_id": "manifesto-comunista-marx-engels",
         "title": "Manifesto del Partito comunista",
         "author": "Karl Marx e Friedrich Engels",
@@ -239107,6 +239249,26 @@
         "role": "riferimento"
       },
       {
+        "book_id": "gorgia-platone",
+        "title": "Gorgia",
+        "author": "Platone",
+        "video_id": "vxd9qU0eMB0",
+        "seconds": 4524.33,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          741,
+          742,
+          743,
+          744
+        ],
+        "evidence": "Il relatore nomina Socrate e rielabora la preferenza per essere corretto quando si sbaglia, contrapponendola all’inveire. Nel Gorgia 457d–458a Socrate contrappone ira e insulti nella disputa al beneficio di essere confutato e liberato da opinioni false. La combinazione dei due aspetti sostiene il rinvio probabile, non una citazione letterale.",
+        "note": "Titolo del dialogo e numero Stephanus non pronunciati. Localizzazione redazionale per collazione del passo primario, non dal solo nome Socrate. Non dimostra quale traduzione o edizione il relatore abbia letto, né consente diagnosi di chi dissente. Copertina canonica Bompiani riusata come immagine dell’opera, non esemplare mostrato nel filmato."
+      },
+      {
         "book_id": "thought-reform-psychology-totalism-lifton",
         "title": "Thought Reform and the Psychology of Totalism. A Study of “Brainwashing” in China",
         "author": "Robert Jay Lifton",
@@ -239163,7 +239325,9 @@
       "Bibliografia: La ballata delle madri appartiene a Poesia in forma di rosa (1964), non agli anni Settanta; non si aggiunge un secondo volume come contenitore di una poesia già canonica. L’allusione filmica a Olaf riguarda tre fratelli, non gemelli: il conduttore distingue esplicitamente il film dal libro non letto. La battaglia di Algeri è un film del 1966 girato in stile documentario, distinto da un documentario esaustivo o dal racconto di Sétif.",
       "Lifton: l’editore descrive il libro del 1961 come studio di quindici cittadini cinesi e venticinque occidentali sottoposti a riforma del pensiero da parte del governo comunista cinese; la ristampa citata nel catalogo è del 1989. Non lo si riduce ai soli prigionieri americani in Corea ricordati oralmente. L’uso di thought-terminating cliché non rende inesistenti i concetti giuridici di genocidio o apartheid e non dimostra diagnosi di tutti gli attivisti. Fonte: https://uncpress.org/9780807842539/thought-reform-and-the-psychology-of-totalism/",
       "Autori nominati senza titolo e aforismi non sono trasformati in libri: Montaigne, Socrate, Platone, Fromm, Pappé, Chomsky e Morris rimangono richiami generici quando la fonte non identifica un testo. Il richiamo a Harry Potter non individua un volume della serie. Il libro di Spencer con traduzione e note è registrato solo come probabile The Critical Qur’an, senza attestare la lettura o l’esemplare preciso.",
-      "Il passo manzoniano sul far bene anziché star bene è stato controllato nel testo originale dei Promessi sposi (1840), capitolo XXXVIII, dove viene attribuito all’anonimo della finzione narrativa. Fonte: https://it.wikisource.org/wiki/I_promessi_sposi_(1840)/Capitolo_XXXVIII"
+      "Il passo manzoniano sul far bene anziché star bene è stato controllato nel testo originale dei Promessi sposi (1840), capitolo XXXVIII, dove viene attribuito all’anonimo della finzione narrativa. Fonte: https://it.wikisource.org/wiki/I_promessi_sposi_(1840)/Capitolo_XXXVIII",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il beneficio di essere confutati quando si sbaglia, contrapposto all’ira e agli insulti, rende probabile il riferimento al Gorgia di Platone, 457d–458a. Il relatore nomina Socrate, ma non il dialogo né una traduzione: localizzazione redazionale per collazione del motivo specifico, non citazione letterale o prova dell’edizione letta. La copertina canonica dell’opera è riusata senza nuova immagine; nessuna diagnosi di chi dissente è ricavata dal passo. Riscontro: traduzione Jowett/Scholtz, Binghamton University, https://bingdev.binghamton.edu/ascholtz/ams355/plato_gorgias_text.html . Fonte automatica, senza ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il richiamo ad alberi e rocce che parlano prima dell’ultima ora, a 83,86–96,06 s, è probabilmente riconducibile a Ṣaḥīḥ Muslim 2922. Il testo online contiene insieme i tre elementi; il parallelo Ṣaḥīḥ al-Bukhārī 2926 menziona invece la pietra senza l’albero. È stata collazionata la moderna traduzione inglese del singolo hadith pubblicata su Sunnah, non identificata l’edizione o traduzione italiana del video. Il numero 2922 e i rimandi interni sono dati esterni. La parafrasi omette l’eccezione del Gharqad e vi associa una lettura della vittoria dell’Islam: quest’ultima rimane dell’interlocutrice, senza attribuirla a tutti i fedeli o trasformarla in una diagnosi delle loro intenzioni. Riscontri: https://sunnah.com/muslim:2922 e https://sunnah.com/bukhari:2926 . Si riusa la fotografia della raccolta completa Dar-us-Salam in sette volumi del 2007, senza identificarla come copia del video. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -240410,6 +240574,18 @@
         "note": "Titolo esplicito del libro del relatore contenente il precedente commento a Harari; ipotesi di pressioni occulte sull’autore non dimostrate."
       },
       {
+        "book_id": "viaggio-termine-notte-celine",
+        "title": "Viaggio al termine della notte",
+        "author": "Louis-Ferdinand Céline",
+        "seconds": 2483.74,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "evidence": "Il relatore, passando attraverso Chapoutot, richiama Céline e la formula sull’amore alla portata dei barboncini. Il parallelo distintivo è collazionato nel dialogo iniziale fra Bardamu e Arthur di Voyage au bout de la nuit. Il titolo del romanzo non viene pronunciato e non è attestata la consultazione diretta del libro da parte del relatore. Rinvio redazionale probabile e mediato, non citazione letterale italiana o identificazione dell’edizione del video. Il testo francese dell’estratto editoriale Gallimard parla dell’infinito, mentre la fonte automatica italiana riporta assoluto. Collazionati frontespizio, copyright e dialogo iniziale dell’estratto, non tutto il romanzo né l’intero estratto. Riutilizzata senza modifiche la copertina canonica Corbaccio 2011, distinta dall’estratto Gallimard con copyright 1952 e dalla copia ignota del video."
+      },
+      {
         "book_id": "mein-kampf-hitler",
         "title": "Mein Kampf",
         "author": "Adolf Hitler",
@@ -240626,7 +240802,8 @@
       "Diritto d’autore: la [direttiva 2006/116/CE, art. 1](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116) indica ordinariamente vita dell’autore più 70 anni, non 75 anni universali; diritti e possibilità di ristampa con licenza non coincidono. Libertà di parola: [Manhattan Community Access Corp. v. Halleck,2019](https://www.supremecourt.gov/opinions/18pdf/17-1702_h315.pdf) distingue azione statale e soggetti privati; non ogni piattaforma privata è autorità pubblica.",
       "Cospirazione: [18 USC § 371](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section371&num=0&edition=prelim) richiede gli elementi della fattispecie, non qualsiasi danno commesso da più persone. Lo [statuto IMT, art. 6](https://avalon.law.yale.edu/imt/imtconst.asp) distingue crimini contro la pace, guerra e umanità; non confondere con il Codice dei medici di Norimberga.",
       "Galileo: la [cronologia del Museo Galileo](https://www.museogalileo.it/en/galileo/life.html) documenta minaccia di tortura nell’interrogatorio del 1633; ciò non prova una tortura fisica effettivamente eseguita. Prestigio di un Nobel o di uno storico non sostituisce prove e metodo, in nessuna delle posizioni contrapposte.",
-      "Le immagini mostrano relazioni dichiarate: frontespizio del primo volume Barruel, copertina del solo tomo 1 Poliakov, album contenente Don Raffaè, fotografia BBC di un episodio e edizioni home-video dei film. Gli anni 2023–2024 di due ristampe identificano immagini di riferimento successive, non gli esemplari usati nel video. Nessun falso facsimile o copertina di opera diversa."
+      "Le immagini mostrano relazioni dichiarate: frontespizio del primo volume Barruel, copertina del solo tomo 1 Poliakov, album contenente Don Raffaè, fotografia BBC di un episodio e edizioni home-video dei film. Gli anni 2023–2024 di due ristampe identificano immagini di riferimento successive, non gli esemplari usati nel video. Nessun falso facsimile o copertina di opera diversa.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: A 2483,74–2505,57 s il relatore riprende, attraverso Chapoutot, l’aforisma di Céline sull’amore e i barboncini. Il dialogo iniziale di Viaggio al termine della notte presenta il parallelo distintivo fra amore, infinito e caniches, mentre la fonte automatica italiana riporta assoluto. Il rinvio al romanzo resta probabile: il titolo non è pronunciato, la mediazione è esplicita e non è dimostrata una lettura diretta del volume. È stato collazionato soltanto il passo iniziale nell’estratto editoriale francese Gallimard, non l’intero romanzo o una traduzione italiana. La copertina Corbaccio 2011 già in biblioteca è illustrativa e non identifica la copia del video. Fonte primaria: https://media.electre-ng.com/extraits/extrait-id/8b147529f4e966696d2c4deee2f4d6335546acc307994fe10e8f6a893e19560d.pdf Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -242188,7 +242365,8 @@
       "Über die Buchmacherei è riusato come testo kantiano in due lettere a Friedrich Nicolai; la parafrasi su ragione e dolore resta una tesi filosofica nel contesto del testo, non previsione inevitabile delle sofferenze future. Fonte originale: https://projekt-gutenberg.org/authors/immanuel-kant/books/kleinere-schriften/chapter/4/",
       "Le tre immagini nuove sono copertine autentiche, personalmente viste e completamente decodificate: originale francese di Page, ristampa italiana di Heisenberg e raccolta contenente Nature. Lingue, contenitore ed edizioni sono dichiarati; nessuna edizione materialmente tenuta in mano è certificata dalla trascrizione.",
       "Aggiornamento bibliografico del 26 ottobre 2026: il titolo Problemi filosofici della scienza è collegato all’unica voce di Sergio Caldarella, con i tre rinvii distinti e bibliografia personale riscontrata. Il fotogramma nativo896s del diverso video UvBljyXN6hE mostra materialmente il volume con titolo e autore leggibili, mano e segnalibri preservati: è una fotografia contestuale parziale, non una copertina ricostruita o un’edizione editoriale autonoma. Nessuna nuova menzione è aggiunta a quel quarto video, campionato soltanto visivamente. Editore, ISBN e precisa edizione restano ignoti;2011 è dichiarato dall’autore e dal presentatore, non un anno letto sul colophon. Nessuna lettura del contenuto scientifico del libro o verifica umana dell’audio è dichiarata. Il rinvio iniziale è pronunciato dal presentatore dell’ospite, senza attribuirlo erroneamente all’ospite.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: La lettera richiamata è identificata probabilmente con quella di Heisenberg a Pauli del23 febbraio 1927: il passo sulla traiettoria e l’osservazione è nella settima facciata manoscritta (pagina 8 del facsimile). La data è ricavata dall’archivio, non dal parlato; è distinta dalla lettera del9 marzo 1927. Il collegamento alle filosofie orientali rimane una lettura dell’interlocutore e non una conclusione sperimentale del documento. [Scheda archivistica Heisenberg-Gesellschaft](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html) · [Facsimile primario](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.pdf)."
+      "Aggiornamento bibliografico del 26 ottobre 2026: La lettera richiamata è identificata probabilmente con quella di Heisenberg a Pauli del23 febbraio 1927: il passo sulla traiettoria e l’osservazione è nella settima facciata manoscritta (pagina 8 del facsimile). La data è ricavata dall’archivio, non dal parlato; è distinta dalla lettera del9 marzo 1927. Il collegamento alle filosofie orientali rimane una lettura dell’interlocutore e non una conclusione sperimentale del documento. [Scheda archivistica Heisenberg-Gesellschaft](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.html) · [Facsimile primario](https://files.heisenberg-gesellschaft.de/archiv/heisenberg_0017-042r.pdf).",
+      "Aggiornamento bibliografico del 26 ottobre 2026: la sequenza letta a 482–637 s presenta una corrispondenza estesa con il paratesto di presentazione di La società del contrario riportato nei risultati indicizzati di Liber Liber e del profilo autoriale. È collegata al libro già catalogato; non viene creata una recensione autonoma. Il link usato dal conduttore, la firma e la data originaria non sono accertati. Le valutazioni culturali restano quelle del testo letto. Riscontri: https://liberliber.it/autori/autori-c/sergio-caldarella/la-societa-del-contrario-uno-scritto-sulla-cultura-di-massa-e-i-suoi-intellettuali/page/88/ ; https://independent.academia.edu/CaldarellaSergio . Nessuna nuova lettura integrale della pagina o revisione umana del sonoro dichiarata."
     ],
     "verified": false
   },
@@ -243909,6 +244087,27 @@
         "note": "Titolo inglese Amusing Ourselves to Death riconoscibile e capitolo The Age of Show Business esplicito; una sola voce per il libro, non nuovo volume dal nome del capitolo."
       },
       {
+        "book_id": "scomparsa-realta-baudrillard",
+        "title": "La scomparsa della realtà. Antologia di scritti",
+        "author": "Jean Baudrillard",
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 2819.96,
+        "title_seconds": 2828.72,
+        "confidence": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "evidence": "Segmenti 400–404: il nome di Baudrillard è trascritto imperfettamente Bodriar; subito dopo viene nominato un libro La scomparsa della realtà e il discorso prosegue su apparenza e intrattenimento. Titolo breve esplicito nella fonte automatica; sottotitolo e dati editoriali dal riscontro dell’editore.",
+        "note": "Riferimento alla specifica antologia italiana, non sostituzione con un originale francese o identificazione della copia del video. Il 2009 riguarda l’edizione italiana; raccolta e formato dell’immagine sono dichiarati. Nessuna revisione umana del sonoro."
+      },
+      {
         "book_id": "mondo-volonta-rappresentazione-schopenhauer",
         "title": "Il mondo come volontà e rappresentazione",
         "author": "Arthur Schopenhauer",
@@ -243963,6 +244162,27 @@
         "human_audio_review": false,
         "role": "riferimento",
         "note": "Manifesto esplicito, ma Schweitzer non figura fra gli undici firmatari del 1955: distinta la sua attività contro gli esperimenti nucleari da questo documento specifico."
+      },
+      {
+        "book_id": "university-inc-washburn",
+        "title": "University, Inc.: The Corporate Corruption of Higher Education",
+        "author": "Jennifer Washburn",
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 3530.04,
+        "title_seconds": 3530.04,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          500,
+          501,
+          502,
+          503,
+          504
+        ],
+        "evidence": "Il segmento 500 nomina Washburn e trascrive il titolo foneticamente come Universi di Inca. La combinazione autore e titolo sostiene il rinvio a University, Inc.; il successivo commento riguarda interessi economici nella ricerca. Riscontro editoriale Basic Books/Hachette del titolo e dell’autrice.",
+        "note": "Riuso dell’opera già canonica; identificazione probabile per il titolo reso imperfettamente dall’ASR. Non è determinata l’edizione del video. La copertina già presente è della brossura Basic Books 2006 con nuova introduzione. Le accuse su farmaci, decessi e vicende giudiziarie nel seguito sono affermazioni del partecipante, non risultati verificati da questa collazione bibliografica; non si identifica un caso clinico dal solo contesto."
       },
       {
         "book_id": "pentagon-papers",
@@ -244119,6 +244339,26 @@
         "note": "Lifton e thought-terminating cliché sono richiamati, senza pronunciare il titolo completo: identificazione probabile del saggio che introduce la categoria. Non diagnosi della popolazione."
       },
       {
+        "book_id": "ultima-dea-occidente-caldarella",
+        "title": "L’ultima dea d’Occidente. Saggio sulla razionalità inesorabile",
+        "author": "Sergio Caldarella",
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 6078.61,
+        "title_seconds": 6078.61,
+        "confidence": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          898,
+          899,
+          900,
+          901
+        ],
+        "evidence": "A 6078,61 s il parlante richiama come proprio testo L’ultima dea d’Occidente e lo collega a una modifica antropologica dovuta alla tecnica. Titolo breve e autocitazione espliciti nella fonte automatica; sottotitolo e anno non pronunciati nel passo.",
+        "note": "Riuso della stessa opera già canonica, non nuova voce o immagine. La foto parziale già presente proviene da un altro video e non identifica l’edizione di questa menzione. Titolo esteso e 2018 restano dichiarazioni della bibliografia autoriale, non dati di colophon: editore, ISBN, paginazione ed esatta edizione rimangono non determinati. Interpretazioni antropologiche attribuite al relatore, senza diagnosi individuali o collettive."
+      },
+      {
         "book_id": "elementi-euclide",
         "title": "Gli elementi",
         "author": "Euclide",
@@ -244184,7 +244424,10 @@
       "Parfit: l’[introduzione originale in OUP](https://academic.oup.com/book/12484/chapter-abstract/163161311) prosegue il paragone col gatto distinguendo desiderio e valutazione delle ragioni: non è una massima per fare arbitrariamente ciò che si vuole. Aneddoto sul gatto non verificato. Il video [OxfordUnion, Full Address](https://www.youtube.com/watch?v=xTUrwO9-B_I) è pubblicato il 10 ottobre 2015; questa è data di pubblicazione online, non un giorno dell’incontro ricostruito. Aspetto del relatore e contenuto dell’argomento sono distinti.",
       "Omero ed Euclide: l’[Iliade, XIX](https://classics.mit.edu/Homer/iliad.19.xix.html) contiene la riconciliazione e il ricordo della disputa su Briseide; non un semplice non ricordo del motivo e non il libro XII. Patroclo non è Paride; possibili scambi nell’ASR non sono biografie degli eroi. Gli Elementi non sono il primo testo matematico sopravvissuto: il [British Museum conserva il papiro Rhind](https://www.britishmuseum.org/collection/search?title=The+Rhind+Mathematical+Papyrus), di molto anteriore.",
       "Le immagini dei riferimenti nuovi sono autentiche e hanno relazione dichiarata: paperback Parfit, miniatura ufficiale OxfordUnion, edizione BUR, ristampa Klostermann, volume 15 della raccolta Freud contenente le lezioni 1916–1917, edizione italiana del trattato di Bartolo. Nessuna di queste immagini identifica automaticamente la copia usata dagli interlocutori; la raccolta Freud non è presentata come la fragile edizione italiana ricordata.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il ricordo di Spock che ordina il calcolo dell’ultima cifra di pi è ora collegato probabilmente a Wolf in the Fold, Star Trek: The Original Series, stagione 2 episodio 14, prima trasmissione 22 dicembre 1967. Il titolo non è pronunciato; il riscontro unisce l’episodio ufficiale e la battuta collazionata dalla fonte accademica. La serie già censita rimane distinta e conservata: le due referenze bibliografiche riguardano il medesimo richiamo, non due citazioni pronunciate diverse. Lo still ufficiale specifico mostra Redjac sul visore; non è la sequenza certificata di pi o un fotogramma del seminario. La narrazione televisiva non è una dimostrazione matematica. Fonte automatica senza nuovo ascolto umano; sintesi, passaggi, note e tutti i riferimenti precedenti conservati."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il ricordo di Spock che ordina il calcolo dell’ultima cifra di pi è ora collegato probabilmente a Wolf in the Fold, Star Trek: The Original Series, stagione 2 episodio 14, prima trasmissione 22 dicembre 1967. Il titolo non è pronunciato; il riscontro unisce l’episodio ufficiale e la battuta collazionata dalla fonte accademica. La serie già censita rimane distinta e conservata: le due referenze bibliografiche riguardano il medesimo richiamo, non due citazioni pronunciate diverse. Lo still ufficiale specifico mostra Redjac sul visore; non è la sequenza certificata di pi o un fotogramma del seminario. La narrazione televisiva non è una dimostrazione matematica. Fonte automatica senza nuovo ascolto umano; sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il titolo breve La scomparsa della realtà, pronunciato a 2828,72 s dopo il nome di Baudrillard, è collegato all’antologia italiana di scritti pubblicata da Fausto Lupetti Editore nel 2009. Raccolta distinta dai singoli originali francesi; la copertina editoriale non identifica il formato o la copia citata. La pagina attuale è etichettata eBook e presenta anche dati cartacei: non si attribuisce un ISBN dal solo rinvio. Fonte: https://www.faustolupettieditore.it/prodotto/la-scomparsa-della-realta-antologia-di-scritti-ebook/ . Fonte automatica, senza ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il nome Washburn e il titolo trascritto foneticamente a 3530,04 s rendono probabile il rinvio a University, Inc. di Jennifer Washburn, già in biblioteca. La copertina Basic Books 2006 è riusata come edizione illustrativa, senza identificare quella del video. Le successive affermazioni su farmaci, decessi e vicende giudiziarie restano attribuite al partecipante e non sono accertate dall’identificazione del libro. Riscontro editoriale: https://www.hachettebookgroup.com/titles/jennifer-washburn/university-inc/9780465090525/?lens=basic-books . Fonte automatica, senza ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: l’autocitazione L’ultima dea d’Occidente a 6078,61 s è collegata alla voce già presente. Titolo esteso e 2018 rimangono dichiarazioni della bibliografia autoriale, non dati di colophon; editore, ISBN, paginazione ed esatta edizione restano indeterminati. La foto parziale canonica proviene da un altro contributo e non certifica questa copia. Le interpretazioni antropologiche sono del relatore. Fonte automatica, senza ascolto umano."
     ],
     "verified": false
   },
@@ -245129,6 +245372,18 @@
         "human_audio_review": false
       },
       {
+        "book_id": "letter-writer-singer",
+        "title": "The Letter Writer",
+        "author": "Isaac Bashevis Singer",
+        "seconds": 1175.29,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "evidence": "Singer è richiamato nel paragone sul trattamento degli animali. L’episodio di Herman e Huldah riscontra probabilmente The Letter Writer di Isaac Bashevis Singer; titolo e nome completo non pronunciati. Pensiero narrativo del personaggio, non equivalenza storica accertata. Copertina della raccolta riusata da altro contributo, traduzione e copia ignote."
+      },
+      {
         "book_id": "sound-freedom-2023-film",
         "title": "Sound of Freedom",
         "author": "Alejandro Monteverde (regia e sceneggiatura); Rod Barr (sceneggiatura)",
@@ -245153,6 +245408,34 @@
         "note": "Fonte automatica, nessun ascolto umano. Versione effettivamente letta: spagnola Bloomberg Línea, non intero originale inglese; screenshot del solo titolo spagnolo dichiarato. La colonna firmata di opinione non rappresenta automaticamente l’Editorial Board o un’inchiesta giudiziaria. Le ulteriori accuse del relatore su presunti tweet del 2017 non sono qui collazionate sull’originale né costituiscono prova di condotte abusive.",
         "verified": false,
         "human_audio_review": false
+      },
+      {
+        "book_id": "sound-freedom-qanon-trump-basile-2023",
+        "title": "Stati Uniti, “Sound of Freedom”, il film ispirato ai complottisti di Qanon sbanca al botteghino. E Trump lo fa proiettare nel suo golf club",
+        "author": "Massimo Basile",
+        "video_id": "MBavYnf3VKY",
+        "seconds": 1955.35,
+        "end_seconds": 1973.26,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_segment_indexes": [
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294
+        ],
+        "evidence": "La sequenza distintiva su QAnon, successo al botteghino e proiezione nel golf club di Trump corrisponde al titolo originale. Firma Massimo Basile e data 25 luglio 2023 non sono pronunciate qui: verifiche esterne della pagina.",
+        "note": "Solo intestazione e metadati accessibili dell’articolo sono stati verificati; non il corpo integrale riservato. Le accuse del relatore su copia, coordinamento o malafede non sono fatti accertati dal titolo."
       },
       {
         "book_id": "ballata-madri-pasolini",
@@ -245357,6 +245640,25 @@
         "human_audio_review": false,
         "title": "La morte di Socrate (The Death of Socrates)",
         "author": "Jacques-Louis David"
+      },
+      {
+        "book_id": "memorabili-senofonte",
+        "title": "Memorabili (Memorabilia)",
+        "author": "Senofonte",
+        "video_id": "MBavYnf3VKY",
+        "seconds": 4813.7,
+        "end_seconds": 4821.7,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_segment_indexes": [
+          695,
+          696
+        ],
+        "evidence": "Il relatore attribuisce a Socrate la formula sul vivere meglio cercando di diventare migliori. Non nomina Senofonte o il titolo del testo.",
+        "note": "Concordanza probabile con Memorabili IV,8.6, nel racconto della conversazione di Socrate con Ermogene. Titolo e autore bibliografico non pronunciati; l’italiano del video non è una traduzione certificata. Collazionato il contesto nella versione Dakyns, distinta dalla raccolta illustrata del 2013 e dalla copia ignota del video."
       }
     ],
     "source_coverage": {
@@ -245396,7 +245698,11 @@
       "Aggiornamento bibliografico del 26 ottobre 2026: Il passo su esistenza senza senso o meta ed eterno ritorno è ora collegato probabilmente al frammento postumo 5[71], Il nichilismo europeo, datato 10 giugno 1887. La collazione effettiva usa il §75 della selezione storica riordinata da Max Brahn nel 1917; il rapporto con la numerazione critica e con il manoscritto è documentato separatamente dal Kommentar Heidelberg/De Gruyter. Non è dichiarata una lettura dell’edizione critica digitale. La data riguarda la composizione e non una prima pubblicazione inventata. La Volontà di potenza non è presentata come libro completato da Nietzsche. La stessa copertina Adelphi già presente è riusata come raccolta contenente questo testo e il distinto 7[60], senza duplicare l’immagine o confondere i frammenti. Fonte ASR automatica, senza nuovo ascolto umano. Sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
       "Aggiornamento bibliografico del 26 ottobre 2026: collegato come probabile il richiamo a Horkheimer al saggio Die Juden und Europa (1939). Il passo è collazionato nella traduzione primaria spagnola di Eduardo Maura, Constelaciones 4 (2012), p. 4 e contesto pp. 3–5, non nell’originale tedesco. Il sommario prova il contenimento nel volume IV Fischer 1988, pp. 308–331: la copertina illustra questa raccolta, non un’edizione identificata nel video. L’interpretazione politica resta del relatore; fonte ASR senza ascolto umano.",
       "Aggiornamento bibliografico del 26 ottobre 2026: collegata come probabile la citazione di Washington alla risposta alla Chiesa episcopale protestante, con data editoriale [19 August 1789]. Il relatore pronuncia l’anno e rende il passo su felicità e dovere morale, senza destinatario o giorno. Testo e contesto sono riscontrati in Founders Online; il rinvio esplicito prova il contenimento nella Presidential Series, volume 3 (1989), pp. 496–499. La fotografia illustra la copertina della raccolta, non il manoscritto o l’edizione usata dal relatore. Il paragone contemporaneo resta del relatore; fonte ASR senza ascolto umano.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il commento cinematografico citato è una colonna firmata di Noah Berlatsky del 15 luglio 2023, distinta da un editoriale anonimo. È stata verificata la versione spagnola autorizzata di Bloomberg Línea: https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/ . L’immagine documentaria contiene soltanto il titolo nativo spagnolo; autore e data sono riscontrati separatamente nella pagina. Le opinioni sul film restano attribuite all’autore; le accuse del relatore su presunti tweet o comportamenti personali non sono provate da questo riscontro bibliografico."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il commento cinematografico citato è una colonna firmata di Noah Berlatsky del 15 luglio 2023, distinta da un editoriale anonimo. È stata verificata la versione spagnola autorizzata di Bloomberg Línea: https://www.bloomberglinea.com/2023/07/15/qanon-y-sound-of-freedom-dependen-de-tropos-desgastados-de-hollywood/ . L’immagine documentaria contiene soltanto il titolo nativo spagnolo; autore e data sono riscontrati separatamente nella pagina. Le opinioni sul film restano attribuite all’autore; le accuse del relatore su presunti tweet o comportamenti personali non sono provate da questo riscontro bibliografico.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il titolo su QAnon, incassi e proiezione di Trump nel golf club a 1955,35 s corrisponde probabilmente al pezzo di Massimo Basile su la Repubblica del 25 luglio 2023. Firma e data sono riscontri esterni: non sono pronunciate nel passo. Verificati intestazione e metadati accessibili, senza lettura integrale del corpo riservato. L’immagine contiene soltanto il titolo nativo; firma e data sono documentate separatamente. Le accuse del relatore di copia, coordinamento o malafede restano non accertate. Fonte: https://www.repubblica.it/esteri/2023/07/25/news/film_qanon_stati_uniti_sound_freedom_trump-408928716/ . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il richiamo a Singer a 1175,29–1190,42 s è probabilmente riconducibile a The Letter Writer: il paragone appartiene al pensiero del personaggio Herman sulla topolina Huldah, non a Peter Singer. È un’analogia narrativa, non un’equivalenza storica accertata. Collazionato soltanto quell’episodio nella traduzione inglese del New Yorker, non l’intero racconto. La copertina TEA1989 è riusata da un altro contributo; indice e specifica traduzione non verificati. Fonte: https://www.newyorker.com/magazine/1968/01/13/the-letter-writer Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: Il richiamo a Nehru a 3960,86–3993,88 s può riferirsi alla lettera a Norman Cousins del 16 marzo 1957. Il passo su Gandhi che rifiuta compromessi con ciò che ritiene giusto è stato letto nella riproduzione indicizzata del Nehru Archive; il contesto distingue l’approccio morale da quello politico e discute anche un appello di Schweitzer per la pace da Oslo. Data, destinatario e riferimento editoriale sono riscontri esterni: Selected Works of Jawaharlal Nehru, seconda serie, vol. 37, pp. 556–560. Consultati soltanto questi passaggi indicizzati, senza verifica del facsimile o lettura integrale della missiva; l’apertura diretta non è riuscita e non è stata ripetuta. Identificazione probabile, riga bibliografica ancora aperta. Fonte: https://nehruarchive.in/documents/to-norman-cousins-16-march-1957-1gqle6 . Sola nota documentaria, senza nuova opera o menzione. Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: La massima finale attribuita a Socrate, a 4813,70 s, trova concordanza probabile in Senofonte, Memorabili IV,8.6, nel racconto della conversazione con Ermogene sulla preparazione della difesa e sul vivere bene migliorando se stessi. Titolo e autore bibliografico non sono pronunciati. La collazione riguarda il contesto del capitolo VIII del libro IV nella traduzione storica di H. G. Dakyns, non il greco, una traduzione italiana certificata o l’intera opera. Si tratta del racconto di Senofonte, non di parole registrate del Socrate storico. L’immagine è il frontespizio di una raccolta Harvard University Press del 2013 contenente i Memorabili, tradotti da E. C. Marchant, con Oeconomicus, Symposium e Apology: edizione illustrativa distinta dalla versione Dakyns e dalla copia ignota del video. Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -246579,6 +246885,23 @@
         "human_audio_review": false
       },
       {
+        "book_id": "lawyers-afterthoughts-welch-1954",
+        "seconds": 1342.16,
+        "title_seconds": null,
+        "cover_title_seconds": 1342.16,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 157–159 (1342,16–1373,21 s): Life Magazine, richiamo di copertina Joe Welch Sums It Up reso imperfettamente dall’ASR, seguito dal riferimento a Fred Fisher. Titolo principale interno non pronunciato; corrispondenza con copertina e indice originali del fascicolo.",
+        "note": "Il relatore nomina Life e legge il richiamo di copertina «Joe Welch Sums It Up» a 1342,16–1364 s; segue una lettura/commento dello scambio Welch–McCarthy. La copertina originale del fascicolo del 26 luglio 1954 reca quel richiamo e annuncia un contributo di Welch sulle udienze. L’indice del medesimo fascicolo identifica il titolo interno The Lawyer’s Afterthoughts, di Joseph N. Welch, con inizio a pagina 96; il rinvio di copertina indica le pagine 96–108. La nota storica WilmerHale cita specificamente pagina 97, senza spostare l’inizio dell’articolo. Identificazione probabile del riferimento, non certificazione che tutto il discorso letto nel video provenga dal corpo del pezzo: di quest’ultimo sono stati visti copertina e indice, senza collazione integrale. Il titolo interno e la data sono riscontri esterni, non parole pronunciate dal relatore. Il pezzo di rivista è distinto dalla trascrizione delle Army–McCarthy hearings già presente nel repertorio. Le analogie politiche contemporanee e i giudizi sui volti restano valutazioni del relatore.",
+        "video_id": "P7VyivfkxxQ",
+        "title": "The Lawyer’s Afterthoughts",
+        "author": "Joseph N. Welch"
+      },
+      {
         "book_id": "grande-dittatore-chaplin-film",
         "title": "Il grande dittatore (The Great Dictator)",
         "author": "Charles Chaplin",
@@ -246656,6 +246979,22 @@
         "author": "Assemblea costituente della Repubblica romana"
       },
       {
+        "book_id": "why-so-many-believe-covid-cult-harradine-2020",
+        "seconds": 3321.24,
+        "title_seconds": 3321.24,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 423–426 (3315,82–3344,21 s): proposta di tradurre un testo scritto in ottobre, con titolo reso in italiano sul perché tanti credano nel culto del Covid. Titolo inglese, autrice e data completa verificati separatamente nell’intestazione primaria; non lettura del corpo nel video.",
+        "note": "A 3321,24–3336,07 s il relatore richiama un testo scritto in ottobre, traducendone il titolo con la domanda sul perché tante persone credano nel culto del Covid, e propone di tradurlo in un altro contributo. Titolo, firma Karen Harradine e data 23 ottobre 2020 sono riscontrati nell’intestazione originale di The Conservative Woman. Il rinvio resta un’identificazione probabile da titolo tradotto: nel parlato qui non vengono pronunciati nome dell’autrice, anno e testata, né viene letto il corpo dell’articolo. La verifica esterna di questo lotto riguarda intestazione e metadati, non una lettura integrale del pezzo. È un articolo di opinione, distinto da The Covidian Cult di C. J. Hopkins; la parola culto e le valutazioni politiche o sanitarie appartengono ai rispettivi autori/interlocutori e non costituiscono diagnosi o indicazioni cliniche.",
+        "video_id": "P7VyivfkxxQ",
+        "title": "Why so many believe in the Covid Cult",
+        "author": "Karen Harradine"
+      },
+      {
         "book_id": "rape-mind-meerloo",
         "title": "The Rape of the Mind",
         "author": "Joost A. M. Meerloo",
@@ -246692,7 +247031,9 @@
       "Mélenchon era deputato all’Assemblée nationale nel mandato 2017–2022, non senatore nel contesto del 2021. La data e la seduta dell’intervento richiamato non sono determinate qui: https://www.assemblee-nationale.fr/dyn/deputes/PA2150/fonctions?archive=oui . Il meme sulle dosi non è una previsione di Einstein sulla pandemia.",
       "Immagini autentiche e viste integralmente: frontespizio Scot 1651 riprodotto nell’edizione critica 1886, copertina Simon & Schuster 2013 di The Wise Men, prima pagina originale del Long Telegram e fotografia contestuale delle udienze del 1954 da una pubblicazione ufficiale del Senato. Le didascalie dichiarano esattamente ristampe, pagine e limiti di datazione; nessuna copertina ricreata.",
       "Aggiornamento bibliografico del26ottobre2026: Il richiamo alla Repubblica romana e alla sua costituzione, nel contesto risorgimentale, è ora collegato probabilmente alla carta del1849. La scansione autentica BSMC/ICCU riproduce l’intero manifesto stampato IEI0314473, con otto principi,69articoli e formula del voto unanime del1luglio; la promulgazione del3luglio è distinta. Non è un autografo né la Costituzione italiana1948. Il relatore non legge articoli o pronuncia il1849: il giudizio sulla bellezza della costituzione resta attribuito, senza aggiungere un’analisi giuridica assente dal video. Fonte ASR automatica, senza nuovo ascolto umano. Sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
-      "Aggiornamento bibliografico del 26 ottobre 2026: Il titolo esplicito Sogno di una notte di mezza estate è ora collegato alla commedia di Shakespeare, con riscontro Folger e RSC. La composizione è datata probabilmente al 1595–1596 e la prima stampa al 1600; una prima esecuzione non viene inventata. Poiché il relatore non ricorda il personaggio, non gli sono assegnati una battuta o una scena specifiche. La copertina autentica è dell’edizione inglese Folger/Simon & Schuster, ISBN 9780743477543, nella grafica corrente Updated Edition: non copertina italiana, locandina di uno spettacolo o datazione certa della grafica al 2004. Fonte automatica senza nuovo ascolto umano; sintesi, passaggi, note e tutti i riferimenti precedenti conservati."
+      "Aggiornamento bibliografico del 26 ottobre 2026: Il titolo esplicito Sogno di una notte di mezza estate è ora collegato alla commedia di Shakespeare, con riscontro Folger e RSC. La composizione è datata probabilmente al 1595–1596 e la prima stampa al 1600; una prima esecuzione non viene inventata. Poiché il relatore non ricorda il personaggio, non gli sono assegnati una battuta o una scena specifiche. La copertina autentica è dell’edizione inglese Folger/Simon & Schuster, ISBN 9780743477543, nella grafica corrente Updated Edition: non copertina italiana, locandina di uno spettacolo o datazione certa della grafica al 2004. Fonte automatica senza nuovo ascolto umano; sintesi, passaggi, note e tutti i riferimenti precedenti conservati.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: Joe Welch Sums It Up, richiamato a 1342,16 s, è il titolo di copertina del fascicolo Life del 26 luglio 1954. L’indice originale identifica il contributo interno The Lawyer’s Afterthoughts di Joseph N. Welch, con inizio a pagina 96; il richiamo di copertina rinvia alle pagine 96–108. La citazione secondaria di pagina 97 non sposta l’inizio del pezzo. Rinvio probabile, titolo interno non pronunciato. Sono stati visti copertina e indice, senza leggere integralmente il corpo né certificare che lo scambio Welch–McCarthy letto nel video provenga tutto dall’articolo. La foto illustra il fascicolo contenitore, distinto dalle trascrizioni delle udienze. Fonte: https://oldlife.net/issue.php?date=1954-07-26 . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il titolo tradotto a 3321,24 s rende probabile il rinvio a Why so many believe in the Covid Cult di Karen Harradine, The Conservative Woman, 23 ottobre 2020. Titolo inglese, firma e data sono verificati nell’intestazione originale, riprodotta con cattura nativa limitata; non viene dichiarata lettura integrale del corpo. È un articolo di opinione distinto da The Covidian Cult di C. J. Hopkins. La parola culto e i giudizi politici o sanitari restano attribuiti agli autori e interlocutori, senza diagnosi o indicazioni cliniche. Fonte: https://www.conservativewoman.co.uk/why-so-many-believe-in-the-covid-cult/ . Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -247086,6 +247427,29 @@
         "role": "riferimento"
       },
       {
+        "book_id": "problemi-filosofici-scienza-caldarella",
+        "title": "Problemi filosofici della scienza",
+        "author": "Sergio Caldarella",
+        "video_id": "4CbSbWHT6QA",
+        "seconds": 4234.23,
+        "title_seconds": null,
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "role": "riferimento",
+        "source_segment_indexes": [
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580
+        ],
+        "evidence": "A 4234,23 s il relatore dice quando scrivevo questo testo sui problemi filosofici della scienza; subito dopo richiama il libro di Boniolo On Scientific Representations e ne critica titolo e contenuto. L’autodescrizione coincide con il titolo di un’opera già riscontrata nella bibliografia di Caldarella e sulla fotografia canonica del volume. La frase non formula un titolo esplicito e il collegamento resta redazionale probabile.",
+        "note": "Riuso dell’unica opera già canonica, senza nuovo record o immagine. title_seconds=null: titolo completo, specifica edizione e data non sono provati da questo passaggio. Nessun contenuto del volume è dichiarato letto. La foto parziale canonica proviene da un diverso contributo, conserva l’intera inquadratura e non rende leggibili editore, ISBN, anno o colophon; 2011 resta dichiarazione autoriale. Le accuse di scopiazzature o mancanza di contenuto rivolte a Boniolo rimangono giudizi del relatore, non risultati accertati dalla collazione."
+      },
+      {
         "book_id": "scientific-representation-boniolo",
         "title": "On Scientific Representations: From Kant to a New Philosophy of Science",
         "author": "Giovanni Boniolo",
@@ -247138,7 +247502,8 @@
       "Le denunce contro le autorità cecene non sono inventate dalla scheda: Human Rights Watch documentò nel maggio 2017 detenzioni e torture di uomini ritenuti omosessuali, attraverso interviste e ricerca diretta, https://www.hrw.org/report/2017/05/26/they-have-long-arms-and-they-can-find-me/anti-gay-purge-local-authorities-russias . Si tratta delle conclusioni dell’organizzazione, distinte da una condanna giudiziaria individuale. La notizia sulle misure di Kadyrov non prova, per il solo fatto di essere pubblicata, che il giornale le proponga come modello. Il titolo preciso e la sua fonte rimangono da riscontrare.",
       "Logica e filosofia: la Critica della ragione pura è effettivamente nominata e la secunda Petri richiama la tradizione ramista del giudizio. Le Dialecticae institutiones sono riscontrate nell’edizione originale del settembre 1543 conservata alla Sorbona, https://nubis.bis-sorbonne.fr/web/expo/s/pierre-de-la-ram--e--ramus---p/page/81_les-premiers---crits-et-la-con.html . Il latino deformato dall’ASR non è corretto per congettura in una citazione integrale. Per l’entimema si confronti Aristotele, Retorica I, https://classics.mit.edu/Aristotle/rhetoric.1.i.html : spiegazione logica, fallacia e diagnosi psichiatrica sono categorie differenti.",
       "Il titolo ufficiale del libro Palgrave di Boniolo è On Scientific Representations, al plurale, e la paginazione è XX, 251. Autore, sottotitolo e DOI sono verificati: https://link.springer.com/book/10.1057/9780230206571 . Und die Freiheit? ha due autori, Lütge ed Esfeld. Per Figli di un io minore Canfora è autore della prefazione. Il frontespizio di Krisis è dichiarato come tale e la copertina SE di Spinoza appartiene a una raccolta: non si attribuiscono al video edizioni o opere aggiuntive non riconosciute.",
-      "I commenti su facce, supposta nullità, docenti, società malata e patologie sono valutazioni polemiche del parlante o dei testi citati: non diagnosi dei singoli, dei sostenitori di una misura o dei dissenzienti. Né la forma europea di un curriculum prova assenza di originalità, né una foto di due persone dimostra comunanza di intenzioni. L’aneddoto conclusivo su Hitler in Alsazia manca di un riferimento bibliografico preciso nella fonte e non viene ricostruito arbitrariamente da un diario o da un discorso presunto."
+      "I commenti su facce, supposta nullità, docenti, società malata e patologie sono valutazioni polemiche del parlante o dei testi citati: non diagnosi dei singoli, dei sostenitori di una misura o dei dissenzienti. Né la forma europea di un curriculum prova assenza di originalità, né una foto di due persone dimostra comunanza di intenzioni. L’aneddoto conclusivo su Hitler in Alsazia manca di un riferimento bibliografico preciso nella fonte e non viene ricostruito arbitrariamente da un diario o da un discorso presunto.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: l’autodescrizione a 4234,23 s, quando scrivevo questo testo sui problemi filosofici della scienza, è collegata con identificazione probabile all’opera di Sergio Caldarella già catalogata. Il passo non presenta formalmente il titolo e il collegamento è redazionale: non determina una data, edizione, editore, ISBN o paginazione, né implica lettura del contenuto del volume. La foto canonica riusata proviene da un altro contributo e non certifica la copia qui richiamata. Restano distinti e non identificati i testi su Wilson e Kissinger; le accuse successive contro Boniolo sono giudizi del relatore e non fatti accertati da questo riscontro. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -247995,7 +248360,8 @@
       "Classici e insegnamento: nel [glossario dell’Università di Cambridge](https://glossary.lib.cam.ac.uk/term/trivium) la retorica appartiene al trivio, con grammatica e logica. [Howard documenta la chiusura del dipartimento](https://provost.howard.edu/prioritization-milestones), ma la [pagina dei corsi classici 2021–2022](https://ids.howard.edu/academics/classics) attesta la continuazione degli insegnamenti: non Harvard e non eliminazione di ogni studio classico.",
       "Platone: la [collocazione delle parti dell’anima nel Timeo](https://classics.mit.edu/Plato/timaeus.html), soprattutto 69–72, corrisponde probabilmente alla descrizione di testa, petto e addome. Il titolo non è pronunciato e la somiglianza con Freud non dimostra identità delle dottrine. [Fedone 64a e seguenti](https://classics.mit.edu/Plato/phaedo.html) fornisce il contesto dell’esercizio del morire, distinto da una regola clinica che elimini necessariamente il timore della morte.",
       "Letture: il [primo stasimo dell’Antigone](https://classics.mit.edu/Sophocles/antigone.html), vv. 332–375, contiene la riflessione sulla potenza e l’ambivalenza umana. La [versione di Ali Baba della biblioteca pubblica di Nashville](https://library.nashville.gov/podcasts/family-folktales/ali-baba-and-forty-thieves) usa Open, Sesame, non abracadabra; la copertina delle Mille e una notte è dichiarata come volume I di un’edizione inglese, non intero corpus o copia del relatore. La Gioconda è un dipinto, con fotografia museale dichiarata, non un libro.",
-      "Gli aneddoti non identificati, l’anziano che parla di libertà, la fotografia tecnologica e la casa di Winterthur non sono attribuiti a persone, prodotti o luoghi specifici per congettura. Il riferimento a Balthasar resta senza titolo univoco; la frase di Cioran e le massime prive di fonte non vengono autenticate. Non aggiunte opere dai soli nomi di Reich, Protagora, Newton, Leibniz o Kant."
+      "Gli aneddoti non identificati, l’anziano che parla di libertà, la fotografia tecnologica e la casa di Winterthur non sono attribuiti a persone, prodotti o luoghi specifici per congettura. Il riferimento a Balthasar resta senza titolo univoco; la frase di Cioran e le massime prive di fonte non vengono autenticate. Non aggiunte opere dai soli nomi di Reich, Protagora, Newton, Leibniz o Kant.",
+      "Aggiornamento documentario del 27 ottobre 2026: la casa nel bosco incantato di Winterthur richiamata a 5580,89–5624,32 s può corrispondere alla Faerie Cottage di Enchanted Woods. La pagina ufficiale del Winterthur Museum descrive una casetta dal tetto di paglia in un giardino per il gioco e indica Winterthur, Delaware, negli Stati Uniti; la fonte automatica del video dice invece Svizzera. È un riscontro plausibile del luogo, non l’identificazione della fotografia, che non è stata esaminata. Non verificati autore, data, provenienza e versione dell’immagine mostrata; nessuna nuova opera o immagine aggiunta e pendenza ancora aperta. Letti soltanto descrizione, didascalia e indirizzo della pagina istituzionale corrente, senza attribuirne ogni dettaglio alla data del video. Fonte: https://www.winterthur.org/exhibitions-and-collections/garden/enchanted-woods/ . Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -251251,6 +251617,37 @@
         "note": "Massima sulla felicità domestica: autore corretto Samuel Johnson, non Ben Jonson; Rambler 68 collazionato, titolo non pronunciato. La formula poi letta attraverso Lewis è una parafrasi."
       },
       {
+        "book_id": "membership-lewis",
+        "title": "Membership",
+        "author": "C. S. Lewis",
+        "video_id": "vHcsihdmE2k",
+        "seconds": 4982.7,
+        "end_seconds": 5079.16,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_segment_indexes": [
+          683,
+          684,
+          685,
+          686,
+          687,
+          688,
+          689,
+          690,
+          691,
+          692,
+          693,
+          694,
+          695,
+          696
+        ],
+        "evidence": "Il relatore nominaC. S. Lewis e legge/parafrasa una sequenza distintiva: famiglia a tavola, amici davanti a una birra, lettore solitario e istituzioni al servizio di questi beni. Titolo e fonte bibliografica non sono pronunciati.",
+        "note": "Collazione sul saggio Membership, pagine stampate 161–162 della riproduzione universitaria. Rambler 68 di Samuel Johnson resta distinto. La fonte continua attribuendo necessità alle attività collettive e ammettendo sacrifici della felicità privata per una sua più ampia diffusione; non è un rifiuto di qualsiasi legge o istituzione. Copertina della raccolta riusata, nessuna edizione o traduzione del video accertata."
+      },
+      {
         "book_id": "spirito-leggi-montesquieu",
         "title": "Lo spirito delle leggi",
         "author": "Montesquieu",
@@ -251321,6 +251718,26 @@
         "note": "Titolo e Fromm espliciti: un partecipante vi cerca una risposta al bisogno di appartenenza e all’adesione alla tirannia."
       },
       {
+        "book_id": "concetto-storia-benjamin",
+        "title": "Sul concetto di storia (Über den Begriff der Geschichte)",
+        "author": "Walter Benjamin",
+        "video_id": "vHcsihdmE2k",
+        "seconds": 6386.34,
+        "end_seconds": 6406.01,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_segment_indexes": [
+          891,
+          892,
+          893
+        ],
+        "evidence": "L’interlocutore ricorda spari agli orologi di Parigi per fermare simbolicamente il tempo e li associa alla Comune. Non pronuncia né Benjamin né il titolo.",
+        "note": "Il motivo corrisponde alla tesi XV di Sul concetto di storia. Nel testo di Benjamin il riferimento è alla rivoluzione di luglio del 1830, non alla Comune del 1871. La collazione sostiene un’allusione probabile, non prova la fonte materialmente usata dall’interlocutore o l’accertamento indipendente dell’episodio. Asset canonico riusato senza modifiche."
+      },
+      {
         "book_id": "1984-orwell",
         "title": "1984",
         "author": "George Orwell",
@@ -251347,6 +251764,28 @@
         "human_audio_review": false,
         "role": "riferimento",
         "note": "Elogio di Elena e sofistica espliciti; riuso del titolo canonico Encomio di Elena, senza creare un alias come altra opera."
+      },
+      {
+        "book_id": "condition-humaine-malraux",
+        "title": "La Condition humaine (La condizione umana)",
+        "author": "André Malraux",
+        "video_id": "vHcsihdmE2k",
+        "seconds": 7068.97,
+        "end_seconds": 7095.62,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_segment_indexes": [
+          996,
+          997,
+          998,
+          999,
+          1000
+        ],
+        "evidence": "La correzione del nome verso Malraux inizia a 7039.61 s; a 7068.97 s compare la formula distintiva malattia chimerica, seguita dalla giustificazione intellettuale della volontà di potenza e dal desiderio umano di essere Dio. Il titolo non è pronunciato.",
+        "note": "Collazione sull’estratto autorizzato di La Condition humaine, quarta parte «11 avril»: è il dialogo fra Gisors e Ferral, non un testo su Schopenhauer verificato qui. L’uso politico della metafora resta del relatore e non autorizza diagnosi cliniche. La copertina è dell’edizione speciale 2026, successiva al video; copia e traduzione del relatore ignote."
       },
       {
         "book_id": "esodo",
@@ -251410,7 +251849,11 @@
       "Simone Weil e Simone Veil sono persone distinte. La cerimonia del 1 luglio 2018 onora esplicitamente Simone Veil e Antoine Veil: https://www.elysee.fr/emmanuel-macron/2018/07/01/hommage-solennel-de-la-nation-simone-veil-pantheon . Non risulta da questa fonte uno scambio involontario fra omonime.",
       "La maieutica appartiene al Teeteto 149–151; nell’Apologia 36 d–e la proposta è il sostentamento nel Pritaneo. Testi: https://classics.mit.edu/Plato/theatu.html e https://classics.mit.edu/Plato/apology.html . La massima domestica è di Samuel Johnson, Rambler 68, non Ben Jonson: https://www.jacklynch.net/Texts/rambler68.html .",
       "Accuse, analogie con totalitarismi e congetture su persone o istituzioni sono posizioni dei partecipanti. L’ipotesi su Togliatti è esplicitamente immaginata dal relatore, non fatto accertato; non si identifica ogni critica a Israele con antisemitismo e non si attribuiscono colpe collettive. Le metafore cliniche non sono diagnosi.",
-      "Copertine di raccolte, locandine, frontespizio e confezione video sono dichiarati come tali nelle rispettive didascalie. Nessuna edizione raffigurata è stata accertata come copia presente nel video."
+      "Copertine di raccolte, locandine, frontespizio e confezione video sono dichiarati come tali nelle rispettive didascalie. Nessuna edizione raffigurata è stata accertata come copia presente nel video.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il lungo passo attribuito a C. S. Lewis a 4982,70–5079,16 s, su famiglia, amici, lettura e funzione delle istituzioni, corrisponde probabilmente a Membership, nelle pagine stampate 161–162 della riproduzione universitaria. Il titolo non è pronunciato; Rambler 68 di Samuel Johnson rimane distinto. Letti soltanto i primi tre fogli del PDF, non l’intero saggio di dieci pagine o la raccolta. Nel contesto Lewis riconosce il servizio delle attività collettive e distingue il piano naturale dall’appartenenza cristiana: non è un rifiuto universale di leggi o istituzioni. Copertina della raccolta omonima The Weight of Glory riusata; il contenimento è attestato nella distinta riproduzione GW, mentre indice dell’esatto ebook2013, edizione e traduzione del video non sono accertati. Nessuna data originaria dedotta dal diverso discorso1939. Fonte: https://www.gw.edu/misc/radio/articles/CSLewis_Membership.pdf . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: il ricordo degli spari agli orologi di Parigi a 6386,34 s è collegato probabilmente alla tesi XV di Sul concetto di storia. Nel testo di Benjamin l’episodio riguarda la rivoluzione di luglio del 1830, mentre l’interlocutore parla della Comune; il riscontro distingue i due eventi e non accerta indipendentemente il racconto storico. Né Benjamin né il titolo sono pronunciati e la fonte materialmente usata dall’interlocutore rimane ignota. Riutilizzata la copertina critica Suhrkamp già verificata, senza attribuirla alla copia del video. Fonte in traduzione: https://www.marxists.org/reference/archive/benjamin/1940/history.htm . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 26 ottobre 2026: dopo la correzione da Schopenhauer a Malraux, la formula malattia chimerica a 7068,97 s e la sequenza sul desiderio umano di essere Dio corrispondono probabilmente al dialogo fra Gisors e Ferral nella quarta parte, «11 avril», di La Condition humaine (1933). È stato collazionato soltanto l’estratto autorizzato Gallimard, non letto l’intero romanzo; non è qui riscontrato un saggio di Malraux su Schopenhauer. Titolo, copia e traduzione del video non sono determinati. La copertina ufficiale dell’edizione speciale Gallimard2026 è illustrativa e successiva al video, distinta dalla prima pubblicazione. La metafora letteraria e l’applicazione politica del relatore non costituiscono diagnosi cliniche. Fonte: https://www.lelivrescolaire.fr/page/34903262 . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: la quartina sul mare e sui pesci recitata a1829,92–1844,04s corrisponde alla riproduzione italiana intitolata I pesci nella presentazione FADOI,alla diciassettesima pagina del PDF,indice16. La pagina la attribuisce ad anonimo persiano delXIIIsecolo: il riscontro documenta questa circolazione moderna e l’attribuzione stampata, senza accertare il testo persiano,la datazione,il traduttore o la raccolta originaria. Nessun poeta specifico,opera bibliografica o immagine sono dedotti dal tema. Non è una valutazione del contenuto medico della presentazione. Fonte: https://fadoi.org/wp-content/uploads/2016/03/OLISMO_13_FEBBR_2017_ASTRATT_CONCRET.pdf . Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },
@@ -252451,6 +252894,28 @@
         "note": "Saba Sardi e Dominio/Potere/Religione richiamati da un partecipante; sottotitolo completo riscontrato nel catalogo bibliotecario."
       },
       {
+        "book_id": "natale-cinquemila-anni-saba-sardi",
+        "title": "Il Natale ha 5000 anni",
+        "author": "Francesco Saba Sardi",
+        "video_id": "AhqU5Rzw5z8",
+        "seconds": 3453.48,
+        "end_seconds": 3460.91,
+        "title_seconds": 3453.48,
+        "author_seconds": 3440.1,
+        "spoken_title": "Natale a 5.000 anni (forma ASR)",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "source_segment_indexes": [
+          491,
+          492,
+          493
+        ],
+        "evidence": "Nel cue 491 è richiamato Saba Sardi; il cue 493 contiene Natale a 5.000 anni. Titolo riconoscibile ma forma ASR imperfetta; il richiamo è del partecipante, senza anno, editore o ISBN pronunciati.",
+        "note": "Rinvio probabile all’opera di Francesco Saba Sardi, con titolo nella forma ASR Natale a5.000anni. Autore richiamato poco prima, a3440,10s. Immagine illustrativa della copia Librodifaccia dichiarata Sugar1958; dati d’edizione esterni, copia del video ignota. L’affermazione sulla messa all’Indice resta attribuita al partecipante e non verificata.",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
         "book_id": "god-delusion-dawkins",
         "seconds": 3653.84,
         "title_seconds": 3653.84,
@@ -252782,6 +253247,20 @@
         "note": "Robert Harris, Fatherland e l’ucronia di una vittoria nazista sono espliciti; la finzione narrativa resta distinta dalla storia accertata."
       },
       {
+        "book_id": "life-mississippi-twain",
+        "seconds": 8837.7,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 1242–1244: Mark Twain nominato, sollievo nel rispondere e formula inglese I don’t know; corrispondenza col passo del capitolo VI collazionato in originale. Titolo non pronunciato.",
+        "note": "Il relatore nomina Mark Twain e parafrasa la soddisfazione di rispondere prontamente ammettendo di non sapere, a 8837,70–8855,74 s. Il passo corrisponde a Life on the Mississippi, capitolo VI (A Cub-Pilot’s Experience), dove il narratore risponde a una domanda di Bixby sui punti del fiume. Il titolo non è pronunciato: collegamento probabile da autore e formulazione, non prova di un’edizione o di una lettura diretta del libro nel seminario. Il relatore usa il passo come massima sull’ammettere la propria ignoranza; il contesto narrativo originale è distinto da un’intervista storica.",
+        "video_id": "AhqU5Rzw5z8"
+      },
+      {
         "book_id": "notte-wiesel",
         "seconds": 9025.39,
         "title_seconds": 9025.39,
@@ -252817,7 +253296,10 @@
       "Le generalizzazioni sull’Islam, sulle culture o su orientamenti politici restano del relatore. Non sono giudizi uniformi sui fedeli: anche il testo coranico contiene un richiamo alla giustizia contro il proprio interesse e quello dei parenti, Corano 4,135, https://quran.com/4/135 . La lettura cristologica della scena di La notte proposta da Caldarella non cancella il contesto ebraico della testimonianza di Wiesel.",
       "L’affermazione che prima del 1964 palestinese indicasse soltanto ebrei non è corretta come esclusiva storica: i documenti ONU del 1947 trattano la cittadinanza palestinese nel quadro di popolazioni arabe ed ebraiche, https://www.un.org/unispal/document/auto-insert-185393/ . Il romanzo Fatherland è un’ucronia e non una fonte di prova su vicende contemporanee. Nessuna popolazione viene identificata collettivamente con un governo, un gruppo armato o i responsabili di violenze.",
       "Il riferimento orale a Kant accosta talvolta imperativo morale e imperativo ipotetico. Nella Fondazione della metafisica dei costumi, sezione II, Kant distingue invece gli imperativi ipotetici, subordinati a un fine, da quello categorico della moralità; cerca un fondamento nella ragione, non considera il semplice uso della forma imperativa una prova di assenza di razionalità, https://www.earlymoderntexts.com/assets/pdfs/kant1785.pdf . La Fondazione è qui una fonte di riscontro, non un titolo pronunciato nel seminario o una citazione aggiunta al repertorio.",
-      "Integrazione bibliografica del 25 ottobre 2026: collegato il riferimento probabile a A Confederacy of Dunces, a 5270.03 secondi, già identificato durante la prima lettura ma omesso dall’elenco dei riferimenti della scheda. La voce e la copertina LSU Press già controllate sono conservate. Il motto di Swift non genera una seconda opera; fonte ASR, nessun nuovo ascolto umano. Sintesi, passaggi e riferimenti precedenti preservati."
+      "Integrazione bibliografica del 25 ottobre 2026: collegato il riferimento probabile a A Confederacy of Dunces, a 5270.03 secondi, già identificato durante la prima lettura ma omesso dall’elenco dei riferimenti della scheda. La voce e la copertina LSU Press già controllate sono conservate. Il motto di Swift non genera una seconda opera; fonte ASR, nessun nuovo ascolto umano. Sintesi, passaggi e riferimenti precedenti preservati.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: il passo attribuito a Mark Twain a 8837,70–8855,74 s, sulla soddisfazione di rispondere prontamente ammettendo di non sapere, corrisponde probabilmente a Life on the Mississippi, capitolo VI, A Cub-Pilot’s Experience. Nel contesto il narratore risponde a Bixby sui punti del fiume: non è un’intervista storica o un aforisma senza contesto. Il titolo non è pronunciato e copia, traduzione e lettura diretta del libro nel seminario restano indeterminate. Collazionato soltanto il passo e il suo contesto, non letto l’intero libro. Prima pubblicazione1883 distinta dalla copertina ufficiale PenguinClassics1985,ISBN9780140390506,usata per illustrare la stessa opera. Gli altri richiami a Russell,Schweitzer eHanson restano distinti e non risolti da questo riscontro. Fonte: https://www.gutenberg.org/files/245/245-h/245-h.htm . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: intorno a 5301 s il relatore richiama Cicerone e gli aruspici che dovrebbero ridere incontrandosi. Il motivo è attestato in De divinatione II,51, dove è attribuito a Catone, e in De natura deorum I,71. Il titolo non è pronunciato e la sola parafrasi non permette di scegliere quale trattato sia la fonte del richiamo. La collazione distingue le attestazioni antiche dall’uso polemico del relatore; nessuna nuova opera o menzione bibliografica viene dedotta dalla massima. Fonti testuali: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/de_Divinatione/2%2A.html ; https://www.lateinlex.de/?call=Puc&permalink=Cic_philos_nat_1_26 . Fonte automatica, nessun ascolto umano.",
+      "Aggiornamento bibliografico del27ottobre2026: Un partecipante richiama Saba Sardi a3440,10s e, a3453,48s, il titolo nella forma ASR Natale a5.000anni. Il riferimento è collegato probabilmente a Il Natale ha5000anni di Francesco Saba Sardi. L’immagine mostra la copertina della copia Librodifaccia catalogata come Sugar1958: il titolo è leggibile, mentre autore, editore e anno provengono dalla scheda della stessa copia e dal riscontro bibliografico, non dai pixel. Edizione illustrativa distinta dalla successiva Bevivino; copia del video ignota. Non acquisiti frontespizio o colophon e non verificata l’affermazione del partecipante sulla messa all’Indice. Fonte automatica, nessun ascolto umano."
     ]
   },
   {
@@ -254741,6 +255223,20 @@
         "human_audio_review": false
       },
       {
+        "book_id": "pragmatist-view-analytic-philosophy-rorty",
+        "seconds": 4140.91,
+        "title_seconds": null,
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "source_type": "riconoscimento_vocale_locale",
+        "evidence": "Segmenti 528–531: Rorty nominato e sequenza su versione illuministica, bow down, potere non umano e nomi di Dio; corrispondenza primaria con l’ultimo paragrafo di p. 30 e l’inizio di p. 31 della versione 2002. Titolo non pronunciato.",
+        "note": "A 4140,91–4172,57 s il relatore legge una formulazione attribuita a Rorty che collega l’Illuminismo al desiderio religioso di inchinarsi davanti a un potere non umano e all’espressione nomi di Dio. La sequenza corrisponde a A Pragmatist View of Contemporary Analytic Philosophy, versione inglese pubblicata in Utopía y Praxis Latinoamericana 7(16), marzo 2002, pp. 29–40: passo a cavallo delle pp. 30–31. Titolo non pronunciato, identificazione probabile. L’originale parla della devozione al realismo e della Realtà in sé separata dai bisogni/interessi umani; la critica del relatore all’adeguazione e l’esempio della mela sono suoi commenti, non una citazione letterale di Rorty. L’articolo viene poi pubblicato nel volume SUNY 2004 e in Philosophy as Cultural Politics, Cambridge 2007, pp. 133–146: queste date non identificano l’edizione usata nel seminario. Letti direttamente intestazione e pp. 29–31 del testimone 2002, non l’intero articolo. La precedente formula human-centered a 3925 s resta un riferimento separato non collazionato.",
+        "video_id": "93vPbl1JU4E"
+      },
+      {
         "book_id": "congetture-confutazioni-popper",
         "title": "Congetture e confutazioni. Lo sviluppo della conoscenza scientifica",
         "author": "Karl R. Popper",
@@ -255241,7 +255737,8 @@
       "Correzioni dei riferimenti: Soylent Green è ambientato nel 2022, non nel 2024, https://catalog.afi.com/Film/54405-SOYLENT-GREEN . La scena «ricordati che devi morire» è usata come allusione cinematografica, senza identificare il monaco come Savonarola. La laurea honoris causa è un riconoscimento e non certifica un percorso di dottorato di ricerca: Helsinki documenta il conferimento a Greta Thunberg il 9 giugno 2023, https://www.helsinki.fi/en/projects/conferment-ceremony-faculty-theology/conferment-tradition . L’asserita seconda onorificenza a Colonia non è qui confermata.",
       "I modelli psicoanalitici e le vicende dei personaggi di Turgenev e Dostoevskij non permettono diagnosi degli autori, degli ascoltatori o di una società. La testimonianza di Améry rimane riferita alla propria esperienza. Il discorso di Solženicyn a Harvard è dell’8 giugno 1978; l’idea che dopo di esso l’autore sia stato cancellato è un’interpretazione, distinta dalla conservazione pubblica del testo: https://www.solzhenitsyncenter.org/a-world-split-apart .",
       "Aggiornamento bibliografico del 26 ottobre 2026: Il richiamo a Fantozzi che fa il kamikaze, con il nome reso dall’ASR come «tozzi fan», è identificato probabilmente con l’episodio giapponese di Superfantozzi, film di Neri Parenti del 1986. La trama ANICA menziona specificamente il kamikaze Tozzifan, riscontro più preciso della sola presenza del personaggio Fantozzi. Il titolo completo non viene pronunciato e non è stata effettuata una collazione audiovisiva del film o della battuta ricordata. L’allusione è distinta dalla scena del cineforum richiamata prima nel seminario, collegata a Il secondo tragico Fantozzi (1976). Il relatore usa la gag per commentare polemicamente il rifiuto del sacrificio: questa è la sua interpretazione, non una ricostruzione storica dei kamikaze né una valutazione delle persone contemporanee come fatto accertato. Fonti: https://www.archiviodelcinemaitaliano.it/risultati/scheda?codice=AG5296 ; https://mediasetinfinity.mediaset.it/movie/superfantozzi/superfantozzi_F001184601000101/",
-      "Aggiornamento bibliografico del 26 ottobre 2026: La battuta sulla fabbrica di salsicce in Tanganica rinvia probabilmente a Goodbyeee, sesto episodio di Blackadder Goes Forth (1989): collazione con la sceneggiatura riprodotta da University of Leeds, non con un copione BBC autenticato. La battuta è satirica e non documenta l’effettiva estensione dell’impero coloniale tedesco."
+      "Aggiornamento bibliografico del 26 ottobre 2026: La battuta sulla fabbrica di salsicce in Tanganica rinvia probabilmente a Goodbyeee, sesto episodio di Blackadder Goes Forth (1989): collazione con la sceneggiatura riprodotta da University of Leeds, non con un copione BBC autenticato. La battuta è satirica e non documenta l’effettiva estensione dell’impero coloniale tedesco.",
+      "Aggiornamento bibliografico del 27 ottobre 2026: la seconda formulazione attribuita a Rorty a 4140,91–4172,57 s corrisponde probabilmente ad A Pragmatist View of Contemporary Analytic Philosophy, nel testimone Utopía y Praxis Latinoamericana7(16),marzo2002,pp29–40,passo fra30–31. Il titolo non è pronunciato; lette e controllate solo le prime tre pagine, non l’intero articolo. Il contesto parla della devozione al realismo e di una Realtà in sé separata dai bisogni umani: la critica del relatore all’adeguazione e l’esempio della mela restano suoi commenti. Le successive pubblicazioniSUNY2004 eCambridge2007 non identificano la copia usata nel video. La prima formulazione human-centered a3925s resta separata e non collazionata. Immagine: sola porzione documentaria contigua della prima pagina digitale, con titolo/firma/metadati, non abstract,corpo,scansione o copertina autonoma. Fonte: https://produccioncientificaluz.org/index.php/utopia/article/download/2596/2596/ . Fonte automatica, nessun ascolto umano."
     ],
     "verified": false
   },

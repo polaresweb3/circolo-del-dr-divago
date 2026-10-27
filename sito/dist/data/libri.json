@@ -1136,6 +1136,18 @@
         "note": "Titolo, autore e sottotitolo sono presentati; libro oggetto dell’incontro, da cui l’intervistatore legge e sul quale pone domande. Caldarella lo definisce testo di servizio e contributo alternativo al dibattito.",
         "role": "opera_principale",
         "video_title": "La libertà beffata in nome di una crisi."
+      },
+      {
+        "video_id": "WQKaQR_HXgY",
+        "seconds": 3554.45,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il frammento ASR beffatori nel rinvio al proprio testo sulla crisi pandemica rende probabile il libro già canonico. Titolo completo ed edizione non pronunciati; nessuna autenticazione delle accuse successive su Harari.",
+        "role": "riferimento",
+        "video_title": "Adam Lebor: La torre di Basilea."
       }
     ],
     "cover": {
@@ -21242,6 +21254,18 @@
         "note": "Céline e titolo espliciti nel richiamo all’operaio nella catena Ford. Non aggiunto un saggio industriale autonomo.",
         "role": "riferimento",
         "video_title": "Moralismo politico: il trionfo del sentimento sul giudizio."
+      },
+      {
+        "video_id": "Z2O6fm7CTvM",
+        "seconds": 2483.74,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore, passando attraverso Chapoutot, richiama Céline e la formula sull’amore alla portata dei barboncini. Il parallelo distintivo è collazionato nel dialogo iniziale fra Bardamu e Arthur di Voyage au bout de la nuit. Il titolo del romanzo non viene pronunciato e non è attestata la consultazione diretta del libro da parte del relatore. Rinvio redazionale probabile e mediato, non citazione letterale italiana o identificazione dell’edizione del video. Il testo francese dell’estratto editoriale Gallimard parla dell’infinito, mentre la fonte automatica italiana riporta assoluto. Collazionati frontespizio, copyright e dialogo iniziale dell’estratto, non tutto il romanzo né l’intero estratto. Riutilizzata senza modifiche la copertina canonica Corbaccio 2011, distinta dall’estratto Gallimard con copyright 1952 e dalla copia ignota del video.",
+        "role": "riferimento",
+        "video_title": "Su un recente testo di Johann Chapoutot, storico della Sorbona."
       }
     ],
     "cover": {
@@ -36481,6 +36505,18 @@
         "note": "Parafrasi della fine dei tempi e del combattimento contro gli ebrei collazionata con il testo 2922. Raccolta e numero non pronunciati; il Mahdi accostato dal parlante non compare nel passo. Fotografia del contenitore completo, non di un volume o pagina identificati nel video.",
         "role": "riferimento",
         "video_title": "Is it really that difficult to understand?"
+      },
+      {
+        "video_id": "vxd9qU0eMB0",
+        "seconds": 83.86,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "L’interlocutrice richiama un hadith famoso unendo alberi e rocce che parlano e ultima ora. Il testo2922 nella raccoltaṢaḥīḥ Muslim contiene insieme fine dei tempi, pietra e albero nel racconto del combattimento contro gli ebrei. Il paralleloBukhārī2926 contiene ultima ora e pietra ma non alberi. Raccolta, numero e traduzione non sono pronunciati; il video offre una parafrasi polemica, non una lettura letterale. Localizzazione redazionale probabile dal motivo specifico; collazionata la traduzione inglese del singolo testo nella pubblicazioneSunnah, non un’edizione araba storica o la traduzione italiana usata nel video.2922 è la numerazione della pagina; riferimento internoBook54Hadith103 e vecchioUSC-MSA41/6985 restano sistemi distinti. Il passo contiene anche l’eccezione dell’alberoGharqad, non ricordata nella parafrasi. La formulazione sulla soddisfazione o vittoria dell’Islam appartiene all’interlocutrice e non viene assunta come citazione letterale o volontà di tutti i musulmani. Fotografia canonica dell’intera raccoltaDar-us-Salam in sette volumi, edizione2007 non accertata nel video; nessun nuovo record per il singolo hadith.",
+        "role": "riferimento",
+        "video_title": "Perché in così tanti scelgono di parteggiare per Hamas? Conversazione con Paola Kafira."
       }
     ],
     "cover": {
@@ -45676,6 +45712,18 @@
         "note": "Animale politico e connessione fra cognizione e polis: richiamo probabile alla Politica, non titolo pronunciato.",
         "role": "riferimento",
         "video_title": "Seminario tematico: l'industria culturale e le sue piaghe."
+      },
+      {
+        "video_id": "5beOpmGzatY",
+        "seconds": 1251.39,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti218–219: il conduttore ricorda alternativamente Plato or Aristotle sul motivo per cui il tiranno predilige elementi stranieri nella società. Titolo e capitolo non detti. Politica V,11 presenta una corrispondenza specifica: il tiranno preferisce compagni e commensali stranieri ai cittadini perché non competono con lui per il potere.",
+        "role": "riferimento",
+        "video_title": "Does the West Need a Palestinian State?"
       }
     ],
     "cover": {
@@ -52344,6 +52392,18 @@
         "note": "Herman, libri e carta da lettere e successivo passo sul sonno: riscontro nel testo inglese di The Letter Writer; titolo non pronunciato.",
         "role": "riferimento",
         "video_title": "La luna e la follia."
+      },
+      {
+        "video_id": "MBavYnf3VKY",
+        "seconds": 1175.29,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Singer è richiamato nel paragone sul trattamento degli animali. L’episodio di Herman e Huldah riscontra probabilmente The Letter Writer di Isaac Bashevis Singer; titolo e nome completo non pronunciati. Pensiero narrativo del personaggio, non equivalenza storica accertata. Copertina della raccolta riusata da altro contributo, traduzione e copia ignote.",
+        "role": "riferimento",
+        "video_title": "La stanchezza di fronte al nulla."
       }
     ],
     "cover": {
@@ -57988,7 +58048,7 @@
       {
         "video_id": "DpiNWDA90YI",
         "seconds": 2228,
-        "title_seconds": 2228,
+        "title_seconds": null,
         "evidence": "riconoscimento_vocale_locale",
         "verification": "identificazione_probabile",
         "verified": false,
@@ -65151,6 +65211,18 @@
         "note": "Esempio specifico del medico giudicato dai bambini contro il venditore di dolci, Gorgia 521 e–522 a. Titolo non pronunciato: identificazione probabile, non libro ricavato dal solo nome Platone.",
         "role": "riferimento",
         "video_title": "Com'è possibile il sovvertimento del mondo? Conversazione con Andrea Grieco."
+      },
+      {
+        "video_id": "vxd9qU0eMB0",
+        "seconds": 4524.33,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore nomina Socrate e rielabora la preferenza per essere corretto quando si sbaglia, contrapponendola all’inveire. Nel Gorgia 457d–458a Socrate contrappone ira e insulti nella disputa al beneficio di essere confutato e liberato da opinioni false. La combinazione dei due aspetti sostiene il rinvio probabile, non una citazione letterale.",
+        "role": "riferimento",
+        "video_title": "Perché in così tanti scelgono di parteggiare per Hamas? Conversazione con Paola Kafira."
       }
     ],
     "cover": {
@@ -82908,6 +82980,18 @@
         "human_audio_review": false,
         "note": "riconoscimento_vocale_locale",
         "video_title": "Industria culturale, manipolazione e sistema economico."
+      },
+      {
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 3530.04,
+        "title_seconds": 3530.04,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il segmento 500 nomina Washburn e trascrive il titolo foneticamente come Universi di Inca. La combinazione autore e titolo sostiene il rinvio a University, Inc.; il successivo commento riguarda interessi economici nella ricerca. Riscontro editoriale Basic Books/Hachette del titolo e dell’autrice.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: incontro introduttivo."
       }
     ],
     "cover": {
@@ -101527,6 +101611,18 @@
         "note": "Benjamin e lunga lettura dell’angelo della storia identificano la tesi IX; data corretta 1940.",
         "role": "riferimento",
         "video_title": "La dimensione religiosa della storia e la deriva patologica."
+      },
+      {
+        "video_id": "vHcsihdmE2k",
+        "seconds": 6386.34,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "L’interlocutore ricorda spari agli orologi di Parigi per fermare simbolicamente il tempo e li associa alla Comune. Non pronuncia né Benjamin né il titolo.",
+        "role": "riferimento",
+        "video_title": "Problematicità del rapporto tra cognizione e realtà nel moderno."
       }
     ],
     "cover": {
@@ -147163,6 +147259,18 @@
         "note": "59.86–72.55 s: nella presentazione dell’ospite, il conduttore ricorda un libro dal titolo Problemi filosofici della scienza, pubblicato nel 2011. Il nome Sergio Caldarella è esplicito in apertura a 7.02 s.",
         "role": "riferimento",
         "video_title": "Com'è possibile il sovvertimento del mondo? Conversazione con Andrea Grieco."
+      },
+      {
+        "video_id": "4CbSbWHT6QA",
+        "seconds": 4234.23,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 4234,23 s il relatore dice quando scrivevo questo testo sui problemi filosofici della scienza; subito dopo richiama il libro di Boniolo On Scientific Representations e ne critica titolo e contenuto. L’autodescrizione coincide con il titolo di un’opera già riscontrata nella bibliografia di Caldarella e sulla fotografia canonica del volume. La frase non formula un titolo esplicito e il collegamento resta redazionale probabile.",
+        "role": "riferimento",
+        "video_title": "Alla ricerca di scienza e decenza: la caciara vs. la parola sensata."
       }
     ],
     "cover": {
@@ -147326,6 +147434,18 @@
         "note": "Segmenti 290–296, 2267,84–2308,84 s: il relatore presenta come proprio un testo che si intitola L’ultima dea d’Occidente (titolo a 2286,07 s), richiamandone il tema dell’Homo Novus e dell’uso della tecnologia. Autocitazione e titolo breve espliciti nella fonte automatica; sottotitolo e 2018 non pronunciati nel passo. Nessuna edizione identificata.",
         "role": "riferimento",
         "video_title": "Gabor Maté: la sofistica e l'inquietante."
+      },
+      {
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 6078.61,
+        "title_seconds": 6078.61,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 6078,61 s il parlante richiama come proprio testo L’ultima dea d’Occidente e lo collega a una modifica antropologica dovuta alla tecnica. Titolo breve e autocitazione espliciti nella fonte automatica; sottotitolo e anno non pronunciati nel passo.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: incontro introduttivo."
       }
     ],
     "cover": {
@@ -148944,5 +149064,1179 @@
     "year": 2025,
     "publisher": "3sat / Kulturzeit",
     "edition_cited": null
+  },
+  {
+    "id": "scomparsa-realta-baudrillard",
+    "title": "La scomparsa della realtà. Antologia di scritti",
+    "author": "Jean Baudrillard",
+    "work_type": "antologia di scritti",
+    "publication_year": 2009,
+    "year_scope": "Edizione italiana indicata dalla scheda dell’editore; non data unica degli scritti originali francesi.",
+    "publisher": "Fausto Lupetti Editore",
+    "translator": "A. Zuliani",
+    "isbn": null,
+    "edition_cited": null,
+    "status": "titolo_breve_esplicito_riscontro_editoriale",
+    "bibliographic_verified": true,
+    "source": "A 2828,72 s il titolo breve La scomparsa della realtà è pronunciato dopo il nome di Baudrillard. L’editore identifica l’opera come antologia italiana di pagine scelte, pubblicata nel 2009. Non è un nuovo titolo assegnato a Simulacres et simulation. Il riferimento al rapporto fra realtà, apparenza e intrattenimento resta una lettura del relatore; non documenta lettura integrale dell’antologia né quale edizione possedesse.",
+    "references": [
+      {
+        "label": "Fausto Lupetti Editore · La scomparsa della realtà. Antologia di scritti, pagina editoriale e copertina",
+        "url": "https://www.faustolupettieditore.it/prodotto/la-scomparsa-della-realta-antologia-di-scritti-ebook/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "zV0DtU_yJlg",
+        "seconds": 2819.96,
+        "title_seconds": 2828.72,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 400–404: il nome di Baudrillard è trascritto imperfettamente Bodriar; subito dopo viene nominato un libro La scomparsa della realtà e il discorso prosegue su apparenza e intrattenimento. Titolo breve esplicito nella fonte automatica; sottotitolo e dati editoriali dal riscontro dell’editore.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: incontro introduttivo."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/scomparsa-realta-baudrillard.jpg",
+      "image_url": "https://www.faustolupettieditore.it/wp-content/uploads/2023/11/31O3B8LA6bL.jpg",
+      "source_page": "https://www.faustolupettieditore.it/prodotto/la-scomparsa-della-realta-antologia-di-scritti-ebook/",
+      "edition_label": "La scomparsa della realtà. Antologia di scritti, Fausto Lupetti Editore: copertina pubblicata sulla pagina editoriale dell’opera. L’edizione italiana è catalogata dall’editore nel 2009; la pagina attuale ha etichetta eBook e informazioni aggiuntive anche cartacee. Nessuna copia o specifico formato identificati nel video.",
+      "cover_relation": "copertina_editoriale_antologia_italiana",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Raccolta italiana di scritti scelti da opere di Baudrillard, distinta dai singoli originali francesi e da Simulacres et simulation. Immagine originale JPEG 200 × 308, senza modifiche. Non si assegna ISBN del formato cartaceo o digitale dalla sola immagine.",
+      "asset_sha256": "df2ab9ab94d0fda0b23c92a398ad2f80d82ee25de3bc60596b32b7f56ec1d3b4",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T20:37:59.836184+00:00",
+        "width": 200,
+        "height": 308,
+        "bytes": 11558,
+        "format": "JPEG",
+        "Pillow_verify": true,
+        "Pillow_load": true
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T20:37:59.836184+00:00",
+        "notes": "Intera JPEG personalmente vista: Jean Baudrillard, La scomparsa della realtà e marchio Fausto Lupetti Editore leggibili. Grafica con libro su fondo beige e Ceci n’est pas un livre; non un segnaposto. 200 × 308 nativi, nessuna interpolazione."
+      },
+      "coordinator_visual_review": {
+        "status": "passed",
+        "checked_at": "2026-10-26T20:41:44.432934+00:00",
+        "notes": "JPEG intera vista dal coordinatore: nome Jean Baudrillard, titolo La scomparsa della realtà, grafica editoriale beige con libro e marchio Fausto Lupetti. Nessun ritocco; formato/copertura della copia citata non determinati."
+      }
+    }
+  },
+  {
+    "id": "sound-freedom-qanon-trump-basile-2023",
+    "title": "Stati Uniti, “Sound of Freedom”, il film ispirato ai complottisti di Qanon sbanca al botteghino. E Trump lo fa proiettare nel suo golf club",
+    "author": "Massimo Basile",
+    "work_type": "articolo giornalistico cinematografico e politico",
+    "publication_date": "2023-07-25",
+    "publication_time_displayed": "10:00",
+    "timezone_not_assumed": true,
+    "publication_year": 2023,
+    "publisher": "la Repubblica",
+    "original_language": "it",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "A 1955.35–1973.26s la resaASR riconosce la sequenza distintiva su film, QAnon, incassi e proiezione di Trump nel golf club, corrispondente al titolo originale del 25 luglio 2023. Testata, firma e data sono verifiche esterne della pagina primaria; il nome non viene indovinato dal tono del discorso. Identificazione probabile perché il parlato non restituisce titolo integrale e firma; nessuna lettura integrale del corpo riservato dichiarata. Le accuse del relatore di copia o malafede non sono accertate da questo controllo bibliografico.",
+    "references": [
+      {
+        "label": "la Repubblica · titolo, firmaMassimoBasile e data 25 luglio 2023ore10.00, corpo riservato non letto integralmente",
+        "url": "https://www.repubblica.it/esteri/2023/07/25/news/film_qanon_stati_uniti_sound_freedom_trump-408928716/"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/basile551-intestazione-repubblica.png",
+      "image_url": "https://www.repubblica.it/esteri/2023/07/25/news/film_qanon_stati_uniti_sound_freedom_trump-408928716/",
+      "source_page": "https://www.repubblica.it/esteri/2023/07/25/news/film_qanon_stati_uniti_sound_freedom_trump-408928716/",
+      "source_type": "screenshot_nativo_intestazione_web",
+      "edition_confirmed_in_video": false,
+      "edition_label": "Intestazione nativa della pagina ufficiale di la Repubblica; solo titolo, senza firma/data, foto o corpo articolo",
+      "edition_note": "Titolo catturato nel normale layout mobile a 360 pixel, fattore1. Firma e data sono verificate separatamente nella pagina, non visibili in questo asset. Nessuna copertina, facsimile cartaceo o fotogramma del video; nessuna interazione con banner, modifica DOM/CSS, padding, ricomposizione o ingrandimento. Il corpo riservato non viene riprodotto.",
+      "image_label": "Titolo nativo della pagina web; firma e data verificate separatamente",
+      "cover_relation": "intestazione_web_del_documento_solo_titolo_non_copertina",
+      "asset_sha256": "215b9cda48789c9160a8d7c93780cf0083da381c1e9055e90f7e3670e489720f",
+      "capture_timestamp": "2026-10-26T21:33:45.749Z",
+      "capture_viewport": {
+        "width": 360,
+        "height": 1200
+      },
+      "device_scale_factor": 1,
+      "capture_clip": {
+        "x": 32,
+        "y": 318,
+        "width": 312,
+        "height": 224
+      },
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T21:35:09.878151+00:00",
+        "width": 312,
+        "height": 224,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "bytes": 26357,
+        "method": "PNG nativo del browser; verifica struttura e decodifica completa con Pillow, SHA256 invariato."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T21:35:09.878151+00:00",
+        "method": "Immagine intera personalmente vista con view_image.",
+        "notes": "Intero titolo in nero su fondo chiaro, senza foto o corpo del pezzo; firma e data non sono nell’immagine. Titolo e righi leggibili nel formato nativo."
+      },
+      "coordinator_visual_review": {
+        "status": "passed",
+        "checked_at": "2026-10-26T21:38:54.319413+00:00",
+        "whole_image_seen": true,
+        "notes": "Immagine nativa intera vista dal coordinatore, natura e limiti conformi alla didascalia; nessuna identificazione dal volto o corpo moderno riprodotto."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "mentions": [
+      {
+        "video_id": "MBavYnf3VKY",
+        "seconds": 1955.35,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "La sequenza distintiva su QAnon, successo al botteghino e proiezione nel golf club di Trump corrisponde al titolo originale. Firma Massimo Basile e data 25 luglio 2023 non sono pronunciate qui: verifiche esterne della pagina.",
+        "role": "riferimento",
+        "video_title": "La stanchezza di fronte al nulla."
+      }
+    ]
+  },
+  {
+    "id": "lawyers-afterthoughts-welch-1954",
+    "title": "The Lawyer’s Afterthoughts",
+    "alternate_titles": [
+      "Joe Welch Sums It Up (richiamo di copertina)"
+    ],
+    "author": "Joseph N. Welch",
+    "year": 1954,
+    "publication_year": 1954,
+    "publication_date": "1954-07-26",
+    "publisher": "Life / Time Inc.",
+    "container_title": "Life",
+    "volume": null,
+    "issue_number": null,
+    "issue_identified_by_date": "26 luglio 1954",
+    "start_page": 96,
+    "cover_reference_pages": "96–108",
+    "full_page_extent_verified": false,
+    "secondary_cited_page": 97,
+    "work_type": "articolo_di_rivista",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore nomina Life e legge il richiamo di copertina «Joe Welch Sums It Up» a 1342,16–1364 s; segue una lettura/commento dello scambio Welch–McCarthy. La copertina originale del fascicolo del 26 luglio 1954 reca quel richiamo e annuncia un contributo di Welch sulle udienze. L’indice del medesimo fascicolo identifica il titolo interno The Lawyer’s Afterthoughts, di Joseph N. Welch, con inizio a pagina 96; il rinvio di copertina indica le pagine 96–108. La nota storica WilmerHale cita specificamente pagina 97, senza spostare l’inizio dell’articolo. Identificazione probabile del riferimento, non certificazione che tutto il discorso letto nel video provenga dal corpo del pezzo: di quest’ultimo sono stati visti copertina e indice, senza collazione integrale. Il titolo interno e la data sono riscontri esterni, non parole pronunciate dal relatore. Il pezzo di rivista è distinto dalla trascrizione delle Army–McCarthy hearings già presente nel repertorio. Le analogie politiche contemporanee e i giudizi sui volti restano valutazioni del relatore.",
+    "references": [
+      {
+        "label": "Life, fascicolo del 26 luglio 1954, catalogo della copia con copertina e indice originali fotografati",
+        "url": "https://oldlife.net/issue.php?date=1954-07-26"
+      },
+      {
+        "label": "Life, indice originale: The Lawyer’s Afterthoughts, by Joseph N. Welch, inizio p. 96; rinvio di copertina pp. 96–108",
+        "url": "https://oldlife.net/toc/540726.jpg"
+      },
+      {
+        "label": "WilmerHale, nota storica 2011 con riferimento al pezzo di Welch e citazione specifica di p. 97, distinta dall’inizio p. 96",
+        "url": "https://www.wilmerhale.com/en/insights/publications/slice-of-history-television-and-the-making-of-a-lawyer-hero-june-23-2011-1"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "P7VyivfkxxQ",
+        "seconds": 1342.16,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 157–159 (1342,16–1373,21 s): Life Magazine, richiamo di copertina Joe Welch Sums It Up reso imperfettamente dall’ASR, seguito dal riferimento a Fred Fisher. Titolo principale interno non pronunciato; corrispondenza con copertina e indice originali del fascicolo.",
+        "role": "riferimento",
+        "video_title": "Psicosi di massa, demenza collettiva o qualcosa d’altro?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/life-welch-1954-cover552.jpg",
+      "image_url": "https://oldlife.net/coverpics/cv072654.jpg",
+      "source_page": "https://oldlife.net/issue.php?date=1954-07-26",
+      "source_type": "fotografia_copertina_fascicolo_originale",
+      "cover_relation": "copertina_del_fascicolo_contenente_articolo",
+      "image_label": "Life, 26 luglio 1954 · copertina del fascicolo contenente il pezzo",
+      "edition_label": "Copertina originale del fascicolo Life del 26 luglio 1954, con il richiamo Joe Welch Sums It Up; non copertina autonoma dell’articolo né immagine del corpo o di un manoscritto. La relazione con The Lawyer’s Afterthoughts è confermata dall’indice fotografato del medesimo fascicolo.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Data leggibile in basso sulla copertina. La pertinenza deriva da titolo, data e indice della copia, non dall’identificazione del volto. Non è stata vista l’immagine del video per attestare l’identità materiale dell’esemplare. Foto JPEG nativa 360×480, intera e senza ritagli.",
+      "credit_line": "Life / Time Inc., copertina storica riprodotta nel catalogo OldLife.net; fotografo non attribuito senza prova.",
+      "asset_sha256": "458ede24fe33864b377742b13e84752c5cd3fc16fcbfdfdc066e5ddfb2233529",
+      "integrity_review": {
+        "decoded": true,
+        "width": 360,
+        "height": 480,
+        "checked_at": "2026-10-26T21:37:23.865293+00:00",
+        "method": "Pillow verify, riapertura e load completo, SHA-256 dei byte del file; nessun resize o upscaling."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T21:37:23.865293+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Copertina intera in bianco e nero, marchio Life rosso, richiamo Joe Welch Sums It Up e He writes about lessons of hearings, data July 26, 1954. Nessun segnaposto o altra annata."
+      },
+      "coordinator_visual_review": {
+        "status": "passed",
+        "checked_at": "2026-10-26T21:38:54.319413+00:00",
+        "whole_image_seen": true,
+        "notes": "Immagine nativa intera vista dal coordinatore, natura e limiti conformi alla didascalia; nessuna identificazione dal volto o corpo moderno riprodotto."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "external_reading_scope": {
+      "cover_seen": true,
+      "contents_entry_seen": true,
+      "article_body_read": false,
+      "full_article_read": false
+    }
+  },
+  {
+    "id": "why-so-many-believe-covid-cult-harradine-2020",
+    "title": "Why so many believe in the Covid Cult",
+    "author": "Karen Harradine",
+    "year": 2020,
+    "publication_year": 2020,
+    "publication_date": "2020-10-23",
+    "publisher": "The Conservative Woman (TCW)",
+    "work_type": "articolo_di_opinione",
+    "original_language": "en",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "A 3321,24–3336,07 s il relatore richiama un testo scritto in ottobre, traducendone il titolo con la domanda sul perché tante persone credano nel culto del Covid, e propone di tradurlo in un altro contributo. Titolo, firma Karen Harradine e data 23 ottobre 2020 sono riscontrati nell’intestazione originale di The Conservative Woman. Il rinvio resta un’identificazione probabile da titolo tradotto: nel parlato qui non vengono pronunciati nome dell’autrice, anno e testata, né viene letto il corpo dell’articolo. La verifica esterna di questo lotto riguarda intestazione e metadati, non una lettura integrale del pezzo. È un articolo di opinione, distinto da The Covidian Cult di C. J. Hopkins; la parola culto e le valutazioni politiche o sanitarie appartengono ai rispettivi autori/interlocutori e non costituiscono diagnosi o indicazioni cliniche.",
+    "references": [
+      {
+        "label": "The Conservative Woman, intestazione originale: Why so many believe in the Covid Cult, Karen Harradine, 23 ottobre 2020",
+        "url": "https://www.conservativewoman.co.uk/why-so-many-believe-in-the-covid-cult/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "P7VyivfkxxQ",
+        "seconds": 3321.24,
+        "title_seconds": 3321.24,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 423–426 (3315,82–3344,21 s): proposta di tradurre un testo scritto in ottobre, con titolo reso in italiano sul perché tanti credano nel culto del Covid. Titolo inglese, autrice e data completa verificati separatamente nell’intestazione primaria; non lettura del corpo nel video.",
+        "role": "riferimento",
+        "video_title": "Psicosi di massa, demenza collettiva o qualcosa d’altro?"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/harradine552-intestazione.png",
+      "image_url": "https://www.conservativewoman.co.uk/why-so-many-believe-in-the-covid-cult/",
+      "source_page": "https://www.conservativewoman.co.uk/why-so-many-believe-in-the-covid-cult/",
+      "source_type": "screenshot_nativo_limitato_intestazione_web",
+      "cover_relation": "intestazione_originale_articolo_web",
+      "image_label": "Intestazione originale TCW · titolo, firma e data (2020)",
+      "edition_label": "Intestazione nativa della pagina originale The Conservative Woman: titolo completo, firma Karen Harradine e data October 23, 2020. Non copertina di libro, ritratto o corpo dell’articolo.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Cattura diretta in Chrome, viewport nativo 640×1000, deviceScaleFactor 1; clip osservato x20 y217, 600×155. Include breadcrumb, titolo, firma e data; esclude corpo, immagini illustrative e banner. Nessuna chiusura di consenso, alterazione DOM/CSS, padding, zoom o ricomposizione.",
+      "credit_line": "The Conservative Woman / Karen Harradine",
+      "rights_note": "Intestazione documentaria limitata della pagina primaria, nessun corpo moderno esportato o attribuzione di pubblico dominio.",
+      "asset_sha256": "e5ab01d7ef97a7db8fa15ca0f24f63cae34bf78d1b224e8e0d19771c2435f73e",
+      "integrity_review": {
+        "decoded": true,
+        "width": 600,
+        "height": 155,
+        "checked_at": "2026-10-26T21:37:23.865293+00:00",
+        "method": "Pillow verify, riapertura e load completo, SHA-256 dei byte del file; nessun resize o upscaling."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T21:37:23.865293+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Titolo nero completo, firma blu Karen Harradine e data 23 ottobre 2020 visibili; nessun testo del corpo, banner o immagine sostitutiva. Rendering nativo, non titolo riscritto."
+      },
+      "coordinator_visual_review": {
+        "status": "passed",
+        "checked_at": "2026-10-26T21:38:54.319413+00:00",
+        "whole_image_seen": true,
+        "notes": "Immagine nativa intera vista dal coordinatore, natura e limiti conformi alla didascalia; nessuna identificazione dal volto o corpo moderno riprodotto."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "external_reading_scope": {
+      "header_seen": true,
+      "author_date_seen": true,
+      "article_body_read": false,
+      "full_article_read": false
+    }
+  },
+  {
+    "id": "membership-lewis",
+    "title": "Membership",
+    "author": "C. S. Lewis",
+    "work_type": "saggio in raccolta",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "publication_date": null,
+    "publication_year": null,
+    "date_scope": "Data di composizione/prima pubblicazione non riscontrata nella fonte primaria effettivamente letta. Non dedotta dall’ebook 2013 o dal diverso discorso1939.",
+    "edition_cited": null,
+    "source": "Lewis è nominato e parafrasato a 4972.55–5079.16s: la sequenza su felicità domestica, famiglia, amici, lettura e funzione delle istituzioni corrisponde al passo di Membership nelle pagine stampate 161–162 della riproduzione universitaria. Identificazione probabile perché il titolo non è pronunciato. Il saggio riprendeJohnson ma non coincide con Rambler 68, già catalogato; la corrispondenza si fonda sul lungo passo successivo, non sulla sola massima. La riflessione del video è un’interpretazione politica: nel contesto letto Lewis mantiene il servizio delle attività collettive e distingue piano naturale e appartenenza cristiana. Nessuna lettura integrale della raccolta o dei10 fogli PDF dichiarata.",
+    "references": [
+      {
+        "label": "Gardner-Webb University · riproduzione di Membership nella raccolta The Weight of Glory, pagine PDF 0–2 lette; passo stampato161–162",
+        "url": "https://www.gw.edu/misc/radio/articles/CSLewis_Membership.pdf"
+      },
+      {
+        "label": "William Collins · The Weight of Glory, ebook illustrativo2013, ISBN9780007532810",
+        "url": "https://www.cslewis.com/uk/books/ebook/the-weight-of-glory-a-collection-of-lewis-most-moving-addresses/9780007532810/"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/learning-war-time-lewis.jpg",
+      "image_url": "https://harpercollins.co.uk/cdn/shop/files/x9780007532810.jpg",
+      "source_page": "https://www.cslewis.com/uk/books/ebook/the-weight-of-glory-a-collection-of-lewis-most-moving-addresses/9780007532810/",
+      "edition_label": "William Collins · The Weight of Glory · ebook · 2013",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina dell’ebook William Collins 2013 della raccolta omonima The Weight of Glory, riusata con byte e SHA invariati. Membership è attestato nella distinta riproduzione universitaria GW, che reca titolo del saggio e testate della raccolta; non è stato verificato un indice primario dell’esatta edizione ebook ISBN 9780007532810 e non se ne certifica la stessa composizione. L’immagine non è una copertina autonoma di Membership, né l’edizione della scansione o la copia del video. Il 2013 è la data dell’ebook illustrativo, non prima pubblicazione del saggio; il 1939 del diverso Learning in War-Time non è trasferito a Membership.",
+      "asset_sha256": "9b1185266f99685bd7762cba5c5ab20ce3c64e778f2d541dcbe7976ba885a8e0",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T22:07:22.088799+00:00",
+        "width": 500,
+        "height": 779,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Copia binaria privata dell’asset già canonico, SHA256 confrontato; verifica e decodifica completa con Pillow. Nessun download remoto."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T22:07:22.088799+00:00",
+        "method": "Immagine intera personalmente vista con view_image.",
+        "notes": "Copertina blu e bianca con nome C. S. Lewis, titolo The Weight of Glory e sottotitolo A Collection of Lewis’ Most Moving Addresses. Immagine della raccolta, non del saggio autonomo. Nessun ritocco o ricomposizione."
+      },
+      "isbn": "9780007532810",
+      "container_title": "The Weight of Glory: A Collection of Lewis’ Most Moving Addresses",
+      "display_title": "The Weight of Glory · C. S. Lewis",
+      "image_label": "Copertina della raccolta omonima; Membership attestato nella distinta riproduzione GW",
+      "cover_relation": "raccolta_omonima_contenimento_verificato_in_distinta_riproduzione",
+      "coordinator_visual_review": {
+        "status": "passed",
+        "checked_at": "2026-10-26T22:09:51.124806+00:00",
+        "whole_image_seen": true,
+        "notes": "Copertina intera vista: C.S.Lewis, TheWeightofGlory, raccolta di discorsi; byte identici al canone, relazione conMembership e limite dell’esatto ebook dichiarati."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "mentions": [
+      {
+        "video_id": "vHcsihdmE2k",
+        "seconds": 4982.7,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore nominaC. S. Lewis e legge/parafrasa una sequenza distintiva: famiglia a tavola, amici davanti a una birra, lettore solitario e istituzioni al servizio di questi beni. Titolo e fonte bibliografica non sono pronunciati.",
+        "role": "riferimento",
+        "video_title": "Problematicità del rapporto tra cognizione e realtà nel moderno."
+      }
+    ]
+  },
+  {
+    "id": "condition-humaine-malraux",
+    "title": "La Condition humaine (La condizione umana)",
+    "author": "André Malraux",
+    "work_type": "romanzo",
+    "publication_year": 1933,
+    "publication_date": null,
+    "date_scope": "1933 è l’anno dell’opera attestato nell’intestazione dell’estratto autorizzato; 2026 identifica soltanto l’edizione illustrata dalla copertina.",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore si corregge da Schopenhauer a Malraux e parafrasa la sequenza su malattia chimerica, volontà di potenza e desiderio di essere Dio. La corrispondenza è nel romanzo La Condition humaine, quarta parte «11 avril», nel dialogo di Gisors con Ferral. Il titolo non è pronunciato e il rinvio resta probabile. Non è verificato un saggio di Malraux su Schopenhauer; la metafora letteraria non costituisce una diagnosi di persone o gruppi.",
+    "references": [
+      {
+        "label": "Lelivrescolaire · estratto autorizzato Gallimard, La Condition humaine (1933), quarta parte «11 avril»",
+        "url": "https://www.lelivrescolaire.fr/page/34903262"
+      },
+      {
+        "label": "Cercle Gallimard · edizione speciale 8 ottobre 2026, ISBN 9782073166395 e copertina ufficiale",
+        "url": "https://www.cercle-enseignement.com/Ouvrages/Gallimard/Folio/Editions-speciales/La-Condition-humaine"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/condition-humaine-malraux.gif",
+      "image_url": "https://www.cercle-enseignement.com/var/plain_site/storage/images/ouvrages/gallimard/folio/editions-speciales/la-condition-humaine/2741641-3-fre-FR/La-Condition-humaine_ouvrage_not_audio.gif",
+      "source_page": "https://www.cercle-enseignement.com/Ouvrages/Gallimard/Folio/Editions-speciales/La-Condition-humaine",
+      "edition_label": "Gallimard · Folio, Éditions spéciales · 8 ottobre 2026 · ISBN 9782073166395",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina ufficiale dell’edizione speciale Gallimard 2026, successiva al video e usata soltanto per illustrare il romanzo del 1933. La copia e la traduzione del relatore non sono determinate. Il 2026 non è attribuito al testo pronunciato, né presentato come prima pubblicazione dell’opera.",
+      "isbn": "9782073166395",
+      "image_label": "Copertina ufficiale dell’edizione speciale Gallimard 2026, illustrativa e successiva al video",
+      "cover_relation": "copertina_editoriale_autentica_edizione_successiva_dichiarata",
+      "asset_sha256": "dd86bdb9939179fb1a1cbe6393090e62536b377cf05e1bb390f8204dc75d8af8",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-26T22:38:22.058179+00:00",
+        "width": 115,
+        "height": 190,
+        "frames": 1,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "GIF ufficiale nativa a un fotogramma, decodificata integralmente. Nessun ingrandimento, padding o ricomposizione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T22:38:22.058179+00:00",
+        "method": "Immagine intera personalmente vista con view_image.",
+        "notes": "Copertina rossa e azzurra con nome André Malraux, titolo La Condition humaine, marchio Folio e fotografia editoriale. Titolo e autore leggibili; nessuna identificazione di persone ricavata dal volto."
+      },
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-26T22:37:20.805850+00:00",
+        "status": "passed",
+        "path": "parallel-559-bibliografia/condition-humaine-malraux.gif",
+        "sha256": "dd86bdb9939179fb1a1cbe6393090e62536b377cf05e1bb390f8204dc75d8af8",
+        "width": 115,
+        "height": 190,
+        "frames": 1,
+        "full_decode": true,
+        "whole_image_seen_by_coordinator": true,
+        "notes": "Titolo LaConditionhumaine e autoreAndréMalraux leggibili nella copertina editoriale intera; formato nativo senza ingrandimenti o ritocchi. Edizione illustrativa speciale2026 distinta dall’opera1933 e dalla copia evocata dal video.",
+        "edition_in_video_confirmed": false
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "mentions": [
+      {
+        "video_id": "vHcsihdmE2k",
+        "seconds": 7068.97,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "La correzione del nome verso Malraux inizia a 7039.61 s; a 7068.97 s compare la formula distintiva malattia chimerica, seguita dalla giustificazione intellettuale della volontà di potenza e dal desiderio umano di essere Dio. Il titolo non è pronunciato.",
+        "role": "riferimento",
+        "video_title": "Problematicità del rapporto tra cognizione e realtà nel moderno."
+      }
+    ]
+  },
+  {
+    "id": "life-mississippi-twain",
+    "title": "Life on the Mississippi",
+    "author": "Mark Twain (Samuel Langhorne Clemens)",
+    "year": 1883,
+    "publication_year": 1883,
+    "work_type": "libro",
+    "genre_note": "Prosa autobiografica e di viaggio con episodi narrativi; non intervista autonoma.",
+    "status": "identificazione_probabile",
+    "source": "Il relatore nomina Mark Twain e parafrasa la soddisfazione di rispondere prontamente ammettendo di non sapere, a 8837,70–8855,74 s. Il passo corrisponde a Life on the Mississippi, capitolo VI (A Cub-Pilot’s Experience), dove il narratore risponde a una domanda di Bixby sui punti del fiume. Il titolo non è pronunciato: collegamento probabile da autore e formulazione, non prova di un’edizione o di una lettura diretta del libro nel seminario. Il relatore usa il passo come massima sull’ammettere la propria ignoranza; il contesto narrativo originale è distinto da un’intervista storica.",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "references": [
+      {
+        "label": "Mark Twain, Life on the Mississippi, capitolo VI, testo primario: scambio narrativo con Bixby e risposta di ignoranza",
+        "url": "https://www.gutenberg.org/files/245/245-h/245-h.htm"
+      },
+      {
+        "label": "Penguin Random House / Penguin Classics, edizione 1985 e copertina ufficiale, ISBN 9780140390506",
+        "url": "https://www.penguinrandomhouse.com/books/326587/life-on-the-mississippi-by-mark-twain/"
+      },
+      {
+        "label": "Library of America: cronologia editoriale, Life on the Mississippi 1883, distinto dai tre altri libri raccolti",
+        "url": "https://www.loa.org/news-and-views/2045-forty-years-of-the-loa-series-top-volumes-1982-2022/"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "AhqU5Rzw5z8",
+        "seconds": 8837.7,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 1242–1244: Mark Twain nominato, sollievo nel rispondere e formula inglese I don’t know; corrispondenza col passo del capitolo VI collazionato in originale. Titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Seminario tematico: l'industria culturale e le sue piaghe."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/life-mississippi-twain-563.jpg",
+      "image_url": "https://images3.penguinrandomhouse.com/cover/9780140390506",
+      "source_page": "https://www.penguinrandomhouse.com/books/326587/life-on-the-mississippi-by-mark-twain/",
+      "edition_label": "Penguin Classics, 5 febbraio 1985, ISBN 9780140390506; introduzione e note di James M. Cox. Copertina editoriale successiva, non frontespizio 1883 e non edizione identificata nel video.",
+      "isbn": "9780140390506",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Immagine originale nativa dell’editore, 293×450, intera senza ritaglio, resize o ricomposizione. La data 1985 appartiene a questa edizione; la prima pubblicazione dell’opera è 1883.",
+      "credit_line": "Penguin Classics / Penguin Random House",
+      "image_type": "copertina",
+      "cover_relation": "stessa_opera_edizione_successiva",
+      "asset_sha256": "9c373730c36e595c9026839791ff451609afd9f9dad3cf2893731f804d586f28",
+      "integrity_review": {
+        "decoded": true,
+        "width": 293,
+        "height": 450,
+        "checked_at": "2026-10-26T23:05:56.347055+00:00",
+        "method": "Pillow Image.verify(), riapertura e load completo; SHA-256 dei byte originali, nessun ingrandimento."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T23:05:56.347055+00:00",
+        "method": "Visione personale dell’immagine intera con view_image.",
+        "notes": "Copertina Penguin Classics intera: battelli a vapore sul fiume, fascia Penguin Classics, autore Mark Twain arancione e titolo Life on the Mississippi su fondo nero. Nessun segnaposto o opera differente."
+      },
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-26T23:07:37.208969+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "sha256": "9c373730c36e595c9026839791ff451609afd9f9dad3cf2893731f804d586f28",
+        "width": 293,
+        "height": 450,
+        "notes": "Copertina PenguinClassics intera con battelli sulMississippi, MarkTwain e titolo leggibili; edizione1985 dichiarata distinta da1883 e copia ignota delvideo. Nessunritocco."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "external_reading_scope": {
+      "text_read": "Passo e contesto del capitolo VI; non lettura integrale del libro.",
+      "metadata_read": "Pagina primaria Penguin per l’edizione della copertina, e cronologia editoriale Library of America per l’anno 1883.",
+      "full_book_read": false
+    }
+  },
+  {
+    "id": "pragmatist-view-analytic-philosophy-rorty",
+    "title": "A Pragmatist View of Contemporary Analytic Philosophy",
+    "alternative_titles": [
+      "Un punto de vista pragmático sobre la filosofia analítica contemporánea"
+    ],
+    "author": "Richard Rorty",
+    "year": 2002,
+    "publication_year": 2002,
+    "publication_date_precision": "marzo 2002, fascicolo identificato; nessun giorno inventato",
+    "publisher": "Utopía y Praxis Latinoamericana / Universidad del Zulia",
+    "container_title": "Utopía y Praxis Latinoamericana",
+    "volume": 7,
+    "issue_number": 16,
+    "pages": "29–40",
+    "work_type": "articolo_di_rivista",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "A 4140,91–4172,57 s il relatore legge una formulazione attribuita a Rorty che collega l’Illuminismo al desiderio religioso di inchinarsi davanti a un potere non umano e all’espressione nomi di Dio. La sequenza corrisponde a A Pragmatist View of Contemporary Analytic Philosophy, versione inglese pubblicata in Utopía y Praxis Latinoamericana 7(16), marzo 2002, pp. 29–40: passo a cavallo delle pp. 30–31. Titolo non pronunciato, identificazione probabile. L’originale parla della devozione al realismo e della Realtà in sé separata dai bisogni/interessi umani; la critica del relatore all’adeguazione e l’esempio della mela sono suoi commenti, non una citazione letterale di Rorty. L’articolo viene poi pubblicato nel volume SUNY 2004 e in Philosophy as Cultural Politics, Cambridge 2007, pp. 133–146: queste date non identificano l’edizione usata nel seminario. Letti direttamente intestazione e pp. 29–31 del testimone 2002, non l’intero articolo. La precedente formula human-centered a 3925 s resta un riferimento separato non collazionato.",
+    "references": [
+      {
+        "label": "Utopía y Praxis Latinoamericana, versione primaria inglese, 7(16), marzo 2002, pp. 29–40; lettura e collazione limitate a pp. 29–31",
+        "url": "https://produccioncientificaluz.org/index.php/utopia/article/view/2596/2596"
+      },
+      {
+        "label": "PDF originale della rivista: citazione su Illuminismo, realismo e potere non umano a pp. 30–31; l’immagine esportabile è la sola intestazione di p.29",
+        "url": "https://produccioncientificaluz.org/index.php/utopia/article/download/2596/2596/"
+      },
+      {
+        "label": "Cambridge University Press, successiva versione in Philosophy as Cultural Politics (2007), pp. 133–146, non anno del PDF 2002",
+        "url": "https://www.cambridge.org/core/books/abs/philosophy-as-cultural-politics/pragmatist-view-of-contemporary-analytic-philosophy/BB5BAC70DDC84B8DB5029995935ED7B1"
+      },
+      {
+        "label": "Cambridge, frontmatter: relazione con la pubblicazione nel volume SUNY 2004, distinta dal testimone 2002 qui collazionato",
+        "url": "https://assets.cambridge.org/97805216/98351/frontmatter/9780521698351_frontmatter.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "93vPbl1JU4E",
+        "seconds": 4140.91,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Segmenti 528–531: Rorty nominato e sequenza su versione illuministica, bow down, potere non umano e nomi di Dio; corrispondenza primaria con l’ultimo paragrafo di p. 30 e l’inizio di p. 31 della versione 2002. Titolo non pronunciato.",
+        "role": "riferimento",
+        "video_title": "Seminari tematici: La distanza dalla verità."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/rorty-pragmatist-view-intestazione-568.png",
+      "image_url": "https://produccioncientificaluz.org/index.php/utopia/article/download/2596/2596/",
+      "source_page": "https://produccioncientificaluz.org/index.php/utopia/article/view/2596/2596",
+      "image_type": "intestazione_documentaria_pdf",
+      "cover_relation": "intestazione_della_stessa_opera",
+      "edition_label": "Utopía y Praxis Latinoamericana, anno 7, n.16, marzo 2002, p.29: porzione documentaria contigua della prima pagina del PDF digitale originale, con titolo, traduzione del titolo, firma e metadati.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Porzione della prima pagina digitale con testata, titoli, firma e affiliazione. Abstract e corpo dell’articolo esclusi. Copia ed edizione usate dal relatore non sono accertate; le pubblicazioni successive2004 e2007 restano distinte dal testimone2002.",
+      "credit_line": "Utopía y Praxis Latinoamericana / Universidad del Zulia, Richard Rorty, versione digitale della rivista 2002",
+      "asset_sha256": "ee60dfdd46feb5693aa3dc119f7ee197840cd6aad8206cfe4274e0a44e88a38d",
+      "source_pdf_sha256": "a5cc1f270e11c5a14e00fbbd0ba3cdd60b6d4ef2a8678c9a6c1a0761900f557b",
+      "render_dpi": 96,
+      "rendered_first_page_size": [
+        528,
+        816
+      ],
+      "crop_box_pixels": [
+        0,
+        0,
+        528,
+        248
+      ],
+      "integrity_review": {
+        "decoded": true,
+        "width": 528,
+        "height": 248,
+        "checked_at": "2026-10-26T23:36:54.331508+00:00",
+        "method": "Pillow verify(), riapertura e load; SHA-256 dei byte. Porzione contigua, nessun ricampionamento."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-26T23:36:54.331508+00:00",
+        "method": "Visione personale della prima pagina integrale e della porzione finale; viste anche le pagine30–31 per controllo della collazione.",
+        "notes": "Metadati della rivista, titolo inglese e spagnolo, Richard RORTY e affiliazione Stanford leggibili; la regione termina prima degli abstract. Nessun corpo moderno nell’immagine proposta."
+      },
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-26T23:39:01.194401+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "sha256": "ee60dfdd46feb5693aa3dc119f7ee197840cd6aad8206cfe4274e0a44e88a38d",
+        "width": 528,
+        "height": 248,
+        "notes": "Porzione contigua della prima pagina digitale2002: testata, anno7/n16/marzo2002/pp29–40, titoli inglese e spagnolo, RichardRorty e affiliazione leggibili. Abstract ecorpo esclusi. Rendering96dpi senza ricampionamento, non scansione cartacea o copertina autonoma."
+      },
+      "image_label": "Intestazione dell’articolo (porzione del PDF)",
+      "alt": "Titolo e firma dell’articolo di Richard Rorty nella prima pagina del PDF digitale del 2002"
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "publication_history_note": "Anno del testimone primario collazionato: 2002, non dichiarata prima apparizione assoluta. Versioni successive in The Pragmatic Turn in Philosophy (SUNY, 2004) e Philosophy as Cultural Politics (Cambridge, 2007). Nessuna seconda voce per ristampe o contenitori.",
+    "external_reading_scope": {
+      "pdf_total_pages": 12,
+      "pages_read_and_visually_checked": [
+        29,
+        30,
+        31
+      ],
+      "pdf_pages_read": [
+        1,
+        2,
+        3
+      ],
+      "passage_location": "Fine p.30 / inizio p.31",
+      "full_article_read": false,
+      "image_scope": "Sola intestazione contigua della prima pagina digitale; abstract/corpo esclusi."
+    }
+  },
+  {
+    "id": "sgangherata-galassia-no-vax-boh-vax-buccini-2021",
+    "title": "Estremisti, tribuni (e disorientati). La sgangherata galassia dei No vax e dei «Boh vax»",
+    "author": "Goffredo Buccini",
+    "year": 2021,
+    "publication_year": 2021,
+    "publication_date": "2021-07-26",
+    "publisher": "Corriere della Sera / RCS",
+    "container_title": "Corriere della Sera",
+    "pages": "5",
+    "work_type": "articolo_di_giornale",
+    "status": "riscontro_audio_automatico",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore introduce e legge il titolo dell’articolo a 431,96–443,03 s, con parole deformate dal riconoscimento automatico; torna sull’area grigia e commenta estesamente il pezzo. La testata Corriere della Sera è nominata a 483,68–500,53 s e il nome Goffredo compare a 1104,25 s. Il titolo completo, la firma Goffredo Buccini, la data 26 luglio 2021 e la pagina 5 sono riscontri separati sulla scansione originale conservata nella rassegna UCEI/CDEC. L’incipit sui gruppi di Castellino, Pappalardo e Giorgianni e i successivi riferimenti a Vaccini e paure e Gérald Bronner corrispondono al testo del ritaglio. Le accuse di propaganda e manipolazione e i giudizi clinici o politici del relatore restano sue valutazioni: il collegamento documenta il testo commentato senza certificarne le tesi o diagnosticare autori e lettori.",
+    "references": [
+      {
+        "label": "Rassegna UCEI/CDEC del 26 luglio 2021: ritaglio originale Corriere della Sera, firma e metadati; pagina PDF 4 e continuazione 5",
+        "url": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "ErFGcEt5WcA",
+        "seconds": 431.96,
+        "title_seconds": 431.96,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cue 43 (431,96–443,03 s): lettura del titolo con deformazioni ASR; testata al cue50, nome Goffredo al cue140 e corrispondenza dell’incipit e dei riferimenti bibliografici con il ritaglio originale.",
+        "role": "riferimento",
+        "video_title": "La risposta della politica alle proteste."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/buccini-intestazione-571.jpg",
+      "image_url": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf",
+      "source_page": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf",
+      "image_type": "intestazione_documentaria_da_rassegna_stampa",
+      "cover_relation": "solo_titolo_dello_stesso_articolo",
+      "edition_label": "Corriere della Sera, 26 luglio 2021, p. 5: solo titolo originale, dal ritaglio Data Stampa riprodotto nella rassegna UCEI/CDEC.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Solo titolo originale dal ritaglio Data Stampa riprodotto nella rassegna UCEI/CDEC. Immagine nativa del PDF, estratta senza ricampionamento o ricomposizione. Firma, data e testata sono verificate separatamente sulle pagine del ritaglio; corpo e pagine complete restano esclusi dall’immagine. Non copertina libraria o riproduzione integrale del quotidiano.",
+      "credit_line": "Corriere della Sera / Data Stampa; rassegna UCEI–CDEC, 26 luglio 2021",
+      "asset_sha256": "d3ca245a90b12cd703a2cc9e97da7a122153425361e7ef785c68ad4b94d553a4",
+      "source_pdf_sha256": "9531afdf94b6fd7fbe405245339eedd8875d16be1ea1cddef90ece9752813b2c",
+      "source_pdf_page": 4,
+      "source_pdf_embedded_image": "Element1.jpg",
+      "native_extraction": true,
+      "bytes_identical_to_embedded_image": true,
+      "integrity_review": {
+        "decoded": true,
+        "width": 1071,
+        "height": 240,
+        "checked_at": "2026-10-27T00:09:40.854133+00:00",
+        "method": "Pillow verify(), riapertura e load(), SHA-256; byte identici al JPEG incorporato nel PDF locale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T00:09:40.854133+00:00",
+        "method": "Visione personale completa dell’asset nativo finale e delle due pagine di ciascun ritaglio originale già renderizzate304.",
+        "notes": "Titolo completo e leggibile, nessuna frase di corpo o sommario; non immagine ricostruita."
+      },
+      "image_label": "Titolo dell’articolo (rassegna stampa)",
+      "alt": "Titolo originale dell’articolo di Goffredo Buccini nella rassegna stampa del 26 luglio 2021",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T00:11:15.033713+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "width": 1071,
+        "height": 240,
+        "sha256": "d3ca245a90b12cd703a2cc9e97da7a122153425361e7ef785c68ad4b94d553a4",
+        "notes": "Titolo completo personalmente visto; nessun corpo, firma, data, sommario o immagine aggiunti. JPEG nativo dalla rassegna già acquisita, non ricomposizione o copertina libraria."
+      }
+    }
+  },
+  {
+    "id": "no-vax-manifestazioni-condannare-frignani-2021",
+    "title": "No vax, interviene Lamorgese: manifestazioni da condannare",
+    "author": "Rinaldo Frignani",
+    "year": 2021,
+    "publication_year": 2021,
+    "publication_date": "2021-07-26",
+    "publisher": "Corriere della Sera / RCS",
+    "container_title": "Corriere della Sera",
+    "pages": "1–2",
+    "work_type": "articolo_di_giornale",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Il relatore allude a Lamorgese e alle manifestazioni da condannare già a 530,04–541,96 s, poi riprende l’articolo a 3410,63 s e ne commenta il titolo e il contenuto da 3459,54 s. Titolo ufficiale completo non letto integralmente in un singolo passaggio; firma Rinaldo Frignani, data 26 luglio 2021 e collocazione Corriere della Sera, pp. 1–2, sono riscontri esterni della scansione. Nell’originale le dichiarazioni sulla maggiore sicurezza dei luoghi della socialità e sulle manifestazioni non piaciute sono attribuite a Roberto Speranza, mentre il video le collega a Lamorgese; la frase sulla mancata vaccinazione come irresponsabilità è attribuita ad Andrea Costa e il relatore corregge quest’ultima attribuzione soltanto a 4162,10–4177,75 s. La scheda conserva questa distinzione: giudizi del relatore, dichiarazioni riportate e dati scientifici non sono intercambiabili; il ritaglio non prova intenzioni repressive né equivalenza di rischio fra vaccinati e non vaccinati.",
+    "references": [
+      {
+        "label": "Rassegna UCEI/CDEC del 26 luglio 2021: ritaglio originale Corriere della Sera, firma e metadati; pagina PDF 2 e continuazione 3",
+        "url": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "ErFGcEt5WcA",
+        "seconds": 3410.63,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cue55 (530,04–541,96 s): Lamorgese e manifestazioni da condannare; ripresa dell’articolo al cue480 (3410,63 s), seguito da titolo e lettura/commento dei medesimi passaggi. Firma e data sono verificate esternamente, non pronunciate.",
+        "role": "riferimento",
+        "video_title": "La risposta della politica alle proteste."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/frignani-intestazione-571.jpg",
+      "image_url": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf",
+      "source_page": "https://www.osservatorioantisemitismo.it/wp-content/uploads/2021/07/26luglio2021_rassegnastampa.pdf",
+      "image_type": "intestazione_documentaria_da_rassegna_stampa",
+      "cover_relation": "solo_titolo_dello_stesso_articolo",
+      "edition_label": "Corriere della Sera, 26 luglio 2021, p. 1–2: solo titolo originale, dal ritaglio Data Stampa riprodotto nella rassegna UCEI/CDEC.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Solo titolo originale dal ritaglio Data Stampa riprodotto nella rassegna UCEI/CDEC. Immagine nativa del PDF, estratta senza ricampionamento o ricomposizione. Firma, data e testata sono verificate separatamente sulle pagine del ritaglio; corpo e pagine complete restano esclusi dall’immagine. Non copertina libraria o riproduzione integrale del quotidiano.",
+      "credit_line": "Corriere della Sera / Data Stampa; rassegna UCEI–CDEC, 26 luglio 2021",
+      "asset_sha256": "1cadfd4b3b85b381db8e8ea032414573ec8fe0d5051db00dadbc199f4f3db51d",
+      "source_pdf_sha256": "9531afdf94b6fd7fbe405245339eedd8875d16be1ea1cddef90ece9752813b2c",
+      "source_pdf_page": 2,
+      "source_pdf_embedded_image": "Element3.jpg",
+      "native_extraction": true,
+      "bytes_identical_to_embedded_image": true,
+      "integrity_review": {
+        "decoded": true,
+        "width": 1071,
+        "height": 169,
+        "checked_at": "2026-10-27T00:09:40.854133+00:00",
+        "method": "Pillow verify(), riapertura e load(), SHA-256; byte identici al JPEG incorporato nel PDF locale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T00:09:40.854133+00:00",
+        "method": "Visione personale completa dell’asset nativo finale e delle due pagine di ciascun ritaglio originale già renderizzate304.",
+        "notes": "Titolo completo e leggibile, nessuna frase di corpo o sommario; non immagine ricostruita."
+      },
+      "image_label": "Titolo dell’articolo (rassegna stampa)",
+      "alt": "Titolo originale dell’articolo di Rinaldo Frignani nella rassegna stampa del 26 luglio 2021",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T00:11:15.033713+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "width": 1071,
+        "height": 169,
+        "sha256": "1cadfd4b3b85b381db8e8ea032414573ec8fe0d5051db00dadbc199f4f3db51d",
+        "notes": "Titolo completo personalmente visto; nessun corpo, firma, data, sommario o immagine aggiunti. JPEG nativo dalla rassegna già acquisita, non ricomposizione o copertina libraria."
+      }
+    }
+  },
+  {
+    "id": "modern-science-tolstoj-1898",
+    "title": "Modern Science",
+    "author": "Lev Tolstoj",
+    "work_type": "saggio / prefazione",
+    "year": 1898,
+    "year_scope": "Anno attribuito al saggio nelle fonti MIT e UniTO; non certifica la data di prima pubblicazione né un’edizione vista nel video.",
+    "original_publication_year": null,
+    "edition_cited": null,
+    "status": "identificazione_probabile_da_citazione_mediata",
+    "bibliographic_verified": true,
+    "source": "Il relatore legge tramite Huxley una frase attribuita esplicitamente a Tolstoj, senza titolo o data. La sequenza struttura sociale cattiva, potere di una minoranza sulla maggioranza, vittorie sulla natura e aggravamento dell’oppressione è collazionata in Modern Science. Il saggio è presentato come prefazione alla traduzione russa del testo di Edward Carpenter Modern Science: a Criticism, opera distinta. Il collegamento è redazionale e mediato, non lettura autonoma del saggio di Tolstoj dichiarata dal relatore.",
+    "references": [
+      {
+        "label": "MIT, The Net Advance of Physics RETRO,3 agosto 2015: riproduzione di Modern Science, datata 1898, dalla traduzione Aylmer Maude in Essays and Letters 1904; testo storico distinto da fotografie e apparato della pagina",
+        "url": "https://web.mit.edu/redingtn/www/netadv/SP20150803.html"
+      },
+      {
+        "label": "Università di Torino, Visions for Sustainability: Enzo Ferrara, Lev Tolstoy and modern science,21 giugno 2014, scheda e abstract che dichiarano la riproduzione del saggio storico",
+        "url": "https://ojs.unito.it/index.php/visions/article/view/1421"
+      },
+      {
+        "label": "Università di Torino, PDF ufficiale: Ferrara 2014 pp.39–40, avvio di Modern Science a p.41 e citazione collazionata a p.45; riproduzione dalla raccolta 1961 dichiarata a p.40",
+        "url": "https://ojs.unito.it/index.php/visions/article/download/1421/1253/4963"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "Bf7at324tkc",
+        "seconds": 208.56,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "A 208.56–251.08 s il relatore legge come epigrafe di Huxley un pensiero attribuito a Tolstoj: organizzazione sociale cattiva, minoranza che opprime la maggioranza, nuove vittorie sulla natura che ne accrescono il potere. La corrispondenza testuale è riscontrata nel saggio Modern Science, riprodotto da MIT e UniTO, senza introdurre una data o un titolo nel parlato.",
+        "role": "riferimento",
+        "video_title": "Scienza, libertà e pace di Aldous Huxley."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/modern-science-tolstoj-1898-ristampa-2014-incipit-3.png",
+      "image_url": "https://ojs.unito.it/index.php/visions/article/download/1421/1253/4963",
+      "source_page": "https://ojs.unito.it/index.php/visions/article/view/1421",
+      "edition_label": "Porzione dell’incipit di Modern Science, ristampato in Visions for Sustainability 1(2014),p.41: titolo, epigrafe greca e primo paragrafo storico completo.",
+      "cover_relation": "porzione_documentaria_contigua_della_ristampa_del_saggio_storico",
+      "image_label": "Incipit del saggio nella ristampa 2014",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Ritaglio documentario nativo dalla colonna destra della p.41, esclude integralmente il commento moderno di Enzo Ferrara. La fonte dichiara la traduzione inglese dei Maude ripresa da Recollections & Essays(Oxford University Press1961). È una ristampa 2014, non un originale 1898 o l’edizione Essays and Letters1904 usata dal testimone MIT. La massima citata nel video compare più avanti, a p.45, collazionata separatamente e non visibile nell’immagine.",
+      "asset_sha256": "e601d3f7a4c0163a93237514797f02a21253f232ba52b19924af22cfa29c1804",
+      "integrity_review": {
+        "decoded": true,
+        "width": 465,
+        "height": 390,
+        "format": "PNG",
+        "bytes": 47271,
+        "checked_at": "2026-10-27T00:37:20.024418+00:00",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Rendering diretto del PDF a 150 dpi, selezionando una sola regione nativa contigua; nessuna modifica successiva del PNG, interpolazione, padding o ricomposizione."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T00:37:20.024418+00:00",
+        "personally_seen_whole": true,
+        "method": "Visione personale dell’intero PNG con view_image dopo ispezione della pagina originale privata.",
+        "notes": "Titolo Modern Science, epigrafe e paragrafo iniziale completi e leggibili; nessuna riga moderna di Ferrara o altra colonna inclusa. L’epigrafe reca rinvio alla nota della pagina completa: traduzione della nota non ricostruita nell’immagine."
+      },
+      "rights_note": "Tolstoj morto 1910, testo storico di pubblico dominio; PDF p.39 dichiara Creative Commons Attribution per Ferrara 2014. Credito della riproduzione: Enzo Ferrara, Visions for Sustainability 1,39–46(2014),Università di Torino. La pagina attuale del periodico riporta anche licenza CC BY SA 4.0; conservata la distinzione rispetto alla formula CC Attribution stampata nel PDF.",
+      "alt": "Titolo, epigrafe e primo paragrafo di Modern Science nella ristampa del 2014",
+      "source_pdf_sha256": "9a60f6d582ca2868e6005e78b2933e28d85e6221d7e4a7a1979a1bfc5c949601",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T00:39:08.885854+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "sha256": "e601d3f7a4c0163a93237514797f02a21253f232ba52b19924af22cfa29c1804",
+        "width": 465,
+        "height": 390,
+        "source_pdf_sha256": "9a60f6d582ca2868e6005e78b2933e28d85e6221d7e4a7a1979a1bfc5c949601",
+        "notes": "TitoloModernScience, epigrafegreca e primo paragrafo storico completo, personalmente visti. Nessuna porzione del commento moderno Ferrara inclusa; ristampa digitale2014, non manoscritto/scansione1898 o cover1961/1904. Nessuna ricomposizione o ingrandimento di immagine."
+      }
+    },
+    "ready_for_integration": true
+  },
+  {
+    "id": "history-church-smith-roberts",
+    "title": "History of the Church of Jesus Christ of Latter-day Saints (raccolta a cura di B. H. Roberts)",
+    "alternate_titles": [
+      "History of the Church",
+      "History of Joseph Smith, the Prophet, by Himself (Period I)"
+    ],
+    "author": "Joseph Smith e collaboratori; B. H. Roberts (curatore)",
+    "author_roles": {
+      "Joseph Smith": "attribuzione editoriale del Period I e voce narrativa in prima persona; non unica mano redazionale",
+      "B. H. Roberts": "curatore, introduzioni e note della raccolta a stampa",
+      "altri redattori e scrivani": "compilazione dei materiali precedenti, distinta dalla curatela a stampa"
+    },
+    "year": 1902,
+    "publication_year": 1902,
+    "publication_year_scope": "Data del volume I illustrato, inizio della raccolta a stampa; non anno unico di tutti i volumi o data del passo 1835.",
+    "publisher": "Deseret News, Salt Lake City",
+    "work_type": "raccolta_documentaria_storica",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "A 5245,97–5267,36 s il relatore nomina History of the Church e legge l’arrivo di Michael Chandler con quattro figure umane e due o più rotoli di papiro; a 5647,96–5657,96 s riprende l’attribuzione dei rotoli ad Abramo e Giuseppe d’Egitto. Le due sequenze corrispondono ai passi del volume II, pp. 235–236, nella trascrizione BYU della raccolta curata da B. H. Roberts. Identificazione probabile della raccolta: titolo abbreviato e parole parallele non certificano il volume o l’edizione materialmente usati. Il precedente manoscritto B-1, pp. 595–596, è un testimone distinto e non la stessa edizione a stampa. Si documenta ciò che la storia confessionale riferisce, senza confermare l’attribuzione dei papiri ad Abramo/Giuseppe, la validità di una traduzione o i giudizi religiosi del relatore. L’immagine è il frontespizio del volume I, Deseret News 1902, dichiarato come parte illustrativa della medesima raccolta; non rappresenta il volume II citato, il manoscritto o la copia del video.",
+    "references": [
+      {
+        "label": "BYU Studies, trascrizione della raccolta History of the Church, vol.II, capitolo16: collazione limitata ai passi pp. 235–236",
+        "url": "https://byustudies.byu.edu/online-book/history-of-the-church-volume-2/71"
+      },
+      {
+        "label": "Joseph Smith Papers: distinzione editoriale fra manoscritti e raccolta successiva curata da B. H. Roberts; non stessa edizione",
+        "url": "https://www.josephsmithpapers.org/intro/introduction-to-history-1838-1856-manuscript-history-of-the-church"
+      },
+      {
+        "label": "University of California Libraries / Internet Archive, copia volume I, frontespizio1902, foglia 5",
+        "url": "https://archive.org/details/historyofchurcho01churrich"
+      }
+    ],
+    "mentions": [
+      {
+        "video_id": "JshaLF4mXa0",
+        "seconds": 5245.97,
+        "title_seconds": 5245.97,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Cue782–784: History of the Church esplicito in inglese e sequenza quattro figure umane/due o più papiri; cue852–854: scritti di Abramo e Giuseppe d’Egitto. Corrispondenza specifica con vol. II pp. 235–236 nella trascrizione primaria BYU; curatore, pagine ed edizione non pronunciati.",
+        "role": "riferimento",
+        "video_title": "Introduzione al culto mormonico."
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/history-church-roberts-vol1-1902-579.jpg",
+      "image_url": "https://iiif.archive.org/iiif/historyofchurcho01churrich$5/full/1000,/0/default.jpg",
+      "source_page": "https://archive.org/details/historyofchurcho01churrich",
+      "image_type": "frontespizio_originale_volume_raccolta",
+      "cover_relation": "frontespizio_volume_I_della_stessa_raccolta",
+      "edition_label": "History of the Church, Period I, volume I, Salt Lake City, Deseret News, 1902: frontespizio originale, copia University of California Libraries.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Frontespizio del volume I 1902, non del volume II, pp. 235–236 a cui corrisponde il passo letto, né del manoscritto B-1. Titolo generale, History of Joseph Smith, the Prophet/by himself e introduzione/note B. H. Roberts visibili. Immagine intera della foglia 5, marcata Title Page nell’indice della scansione; nessun ritaglio, ricostruzione o ingrandimento. Non identificata l’edizione posseduta dal relatore.",
+      "credit_line": "University of California Libraries, Bancroft Library; scansione Internet Archive historyofchurcho01churrich",
+      "asset_sha256": "9001cb25e758b46d852d6078ddc2684a777c464bc7579d751523345f2e952642",
+      "archive_identifier": "historyofchurcho01churrich",
+      "archive_leaf_number": 5,
+      "source_scan_native_page_size": [
+        1758,
+        3042
+      ],
+      "integrity_review": {
+        "decoded": true,
+        "width": 1000,
+        "height": 1731,
+        "checked_at": "2026-10-27T01:10:19.184126+00:00",
+        "method": "Pillow verify(), riapertura/load completa, SHA-256; richiestaIIIF ridotta rispetto alla pagina sorgente 1758×3042, senza upscale."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T01:10:19.184126+00:00",
+        "method": "Visione personale completa del frontespizio con view_image.",
+        "notes": "Titolo, volume I, B. H. Roberts, Deseret News,Salt Lake City e 1902 chiaramente leggibili; nessun corpo moderno o immagine del manoscritto."
+      },
+      "image_label": "Frontespizio del volume I (1902)",
+      "alt": "Frontespizio di History of the Church, volume I, Deseret News, 1902",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T01:12:23.181814+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "width": 1000,
+        "height": 1731,
+        "sha256": "9001cb25e758b46d852d6078ddc2684a777c464bc7579d751523345f2e952642",
+        "notes": "Intero frontespizio personalmente visto: titolo History of the Church, Period I, volume I, attribuzione By Himself, introduzione e note B.H.Roberts, Deseret News/Salt Lake City/1902. Volume I illustrativo, distinto dal volume II235–236 collazionato e dal manoscritto. Derivata IIIF ridotta dalla scansione1758×3042, nessun ingrandimento o manipolazione locale."
+      }
+    }
+  },
+  {
+    "id": "memorabili-senofonte",
+    "title": "Memorabili (Memorabilia)",
+    "author": "Senofonte",
+    "work_type": "raccolta di dialoghi e ricordi socratici",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "La massima finale attribuita a Socrate, a 4813,70 s, trova concordanza probabile in Senofonte, Memorabili IV,8.6, nel racconto della conversazione con Ermogene sulla preparazione della difesa e sul vivere bene migliorando se stessi. Titolo e autore bibliografico non sono pronunciati. La collazione riguarda il contesto del capitolo VIII del libro IV nella traduzione storica di H. G. Dakyns, non il greco, una traduzione italiana certificata o l’intera opera. Si tratta del racconto di Senofonte, non di parole registrate del Socrate storico. L’immagine è il frontespizio di una raccolta Harvard University Press del 2013 contenente i Memorabili, tradotti da E. C. Marchant, con Oeconomicus, Symposium e Apology: edizione illustrativa distinta dalla versione Dakyns e dalla copia ignota del video.",
+    "references": [
+      {
+        "label": "Project Gutenberg: Memorabilia, traduzione H. G. Dakyns; collazione del solo contesto IV,8",
+        "url": "https://www.gutenberg.org/cache/epub/1177/pg1177-images.html"
+      },
+      {
+        "label": "ETH Library: frontespizio e indice della raccolta Harvard University Press, 2013",
+        "url": "https://toc.library.ethz.ch/objects/pdf03/z01_978-0-674-99695-3_01.pdf"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/memorabili-frontespizio-raccolta-2013.png",
+      "image_url": "https://toc.library.ethz.ch/objects/pdf03/z01_978-0-674-99695-3_01.pdf",
+      "source_page": "https://toc.library.ethz.ch/objects/pdf03/z01_978-0-674-99695-3_01.pdf",
+      "asset_sha256": "f9ad3beac4827dc4e0cf88024b4ed2f48837a8c978f332d2b4b62339f2736b99",
+      "image_label": "Frontespizio della raccolta (2013)",
+      "edition_label": "Harvard University Press, Cambridge, Massachusetts / London, England, 2013. Memorabilia e Oeconomicus: traduzione E. C. Marchant; Symposium e Apology: traduzione O. J. Todd; revisione Jeffrey Henderson.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "frontespizio_raccolta_contenente",
+      "edition_note": "Frontespizio della raccolta contenente i quattro libri dei Memorabili, come conferma l’indice dello stesso documento. Edizione illustrativa del 2013, distinta dalla traduzione Dakyns del 1897 usata per la collazione, dalla BUR del 1989 e dall’edizione Bonnette/Cornell del 2001. Copia del video ignota.",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-27T07:11:49.885945+00:00",
+        "width": 1712,
+        "height": 2511,
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Unica immagine nativa delPDF pagina 1 estratta dal coordinatore come Im0.tiff e ricodificataPNG alla medesima dimensione, senza crop/padding/resize/render; nel627 soltanto copia binaria identica."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T07:11:49.885945+00:00",
+        "method": "Visione personale dell’intero file con view_image e verificaPillow separata.",
+        "notes": "Frontespizio intero con Xenophon, Memorabilia/Oeconomicus e traduttoreE. C. Marchant; Symposium/Apology e traduttoreO. J. Todd; revisioneJeffrey Henderson; marchio Loeb; Harvard University Press, Cambridge, Massachusetts/London, England,2013. Titoli e responsabilità leggibili, nessun segnaposto o corpo dell’opera."
+      },
+      "alt": "Frontespizio della raccolta di Senofonte contenente i Memorabili, Harvard University Press, 2013",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T07:13:12.502767+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "width": 1712,
+        "height": 2511,
+        "sha256": "f9ad3beac4827dc4e0cf88024b4ed2f48837a8c978f332d2b4b62339f2736b99",
+        "notes": "Intero frontespizio personalmente visto: Xenophon, Memorabilia/Oeconomicus traduzione E. C. Marchant; Symposium/Apology traduzione O. J. Todd; revisione Jeffrey Henderson; Harvard University Press, Cambridge/London,2013. Indice intero visto separatamente: Memorabilia e tutti quattro libri presenti. Immagine nativa estratta senza crop/resize/padding/render; edizione illustrativa della raccolta, non copia del video o testo Dakyns."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "alternate_titles": [
+      "Memorabilia",
+      "Ricordi di Socrate",
+      "Recollections of Socrates",
+      "Apomnemoneumata"
+    ],
+    "mentions": [
+      {
+        "video_id": "MBavYnf3VKY",
+        "seconds": 4813.7,
+        "title_seconds": null,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore attribuisce a Socrate la formula sul vivere meglio cercando di diventare migliori. Non nomina Senofonte o il titolo del testo.",
+        "role": "riferimento",
+        "video_title": "La stanchezza di fronte al nulla."
+      }
+    ]
+  },
+  {
+    "id": "natale-cinquemila-anni-saba-sardi",
+    "title": "Il Natale ha 5000 anni",
+    "author": "Francesco Saba Sardi",
+    "work_type": "libro",
+    "year": 1958,
+    "publication_year": 1958,
+    "year_scope": "Stampa Sugar1958 riscontrata nel catalogo Braidense e dichiarata dal venditore della copia fotografata; non prima pubblicazione assoluta certificata o anno pronunciato nel video.",
+    "publisher": "Sugar",
+    "publication_place": "Milano",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "source": "Un partecipante richiama Saba Sardi a3440,10s e, a3453,48s, il titolo nella forma ASR Natale a5.000anni. Il riferimento è collegato probabilmente a Il Natale ha5000anni di Francesco Saba Sardi. L’immagine mostra la copertina della copia Librodifaccia catalogata come Sugar1958: il titolo è leggibile, mentre autore, editore e anno provengono dalla scheda della stessa copia e dal riscontro bibliografico, non dai pixel. Edizione illustrativa distinta dalla successiva Bevivino; copia del video ignota. Non acquisiti frontespizio o colophon e non verificata l’affermazione del partecipante sulla messa all’Indice.",
+    "references": [
+      {
+        "label": "Biblioteca nazionale Braidense, record MOD0184207: Francesco Saba Sardi, Il Natale ha5000anni, Milano, Sugar, stampa1958; metadati catalografici indicizzati",
+        "url": "https://opac.bibliotecabraidense.org/opac_braidense/opaclib?brief=brief&db=solr_braidense&do_cmd=search_show_cmd&fname=none&format=unimarc&from=401&nentries=50&resultForward=opac%2Fbraidense%2Ffull.jsp&rpnlabel=+Codice+Classificazione+Dewey+%3D+232+&rpnquery=%40attrset+bib-1++%40attr+1%3D13+%40attr+4%3D1+%22232%22&searchForm=opac%2Fbraidense%2Ferror.jsp&select_db=solr_braidense&totalResult=446"
+      },
+      {
+        "label": "Librodifaccia su AbeBooks, copia31972339256: titolo, autore, Sugar1958 e fotografia della medesima copia",
+        "url": "https://www.abebooks.it/Natale-5000-anni-Saba-Sardi-Francesco/31972339256/bd"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/natale-cinquemila-anni-saba-sardi-1958.jpg",
+      "image_url": "https://pictures.abebooks.com/inventory/31972339256._SL300_.jpg",
+      "source_page": "https://www.abebooks.it/Natale-5000-anni-Saba-Sardi-Francesco/31972339256/bd",
+      "asset_sha256": "257f8e932a0ba9d3e5a85ad1ce2fae8440d95e34f304f1f93f71a44e69ea3e45",
+      "image_label": "Copertina fotografata (copia dichiarata Sugar1958)",
+      "edition_label": "Fotografia della copia Librodifaccia, scheda AbeBooks31972339256, dichiarata Sugar 1958. Autore, editore e anno sono dati della scheda della medesima copia, non iscrizioni leggibili nella foto.",
+      "edition_confirmed_in_video": false,
+      "cover_relation": "fotografia_copertina_copia_specifica",
+      "edition_note": "Edizione illustrativa dichiarata Sugar 1958; copia del video ignota. Non confusa con la successiva Bevivino o con altre edizioni, né con una raccolta diversa; nessuna fusione di ISBN o paginazioni. Autore e anno non visibili nell’immagine. Nessun frontespizio o colophon acquisito.",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-27T07:40:31.232412+00:00",
+        "width": 189,
+        "height": 300,
+        "bytes": 20140,
+        "format": "JPEG",
+        "Pillow_verify": true,
+        "Pillow_load": true,
+        "method": "Pillow.verify(), riapertura e Image.load(), hash della copia binaria."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-27T07:40:31.232412+00:00",
+        "method": "Visione personale dell’immagine intera con view_image, separata dalla verifica Pillow.",
+        "notes": "Vista interamente la copertina fotografata, con usura, bordi e abrasioni: titolo Il Natale ha 5000 anni nella fascia superiore, figure nimbate e ali su fondo rosso. Autore, editore e anno non sono leggibili nella fotografia; non attribuiti dalla sola immagine. Non è un segnaposto o una ricostruzione."
+      },
+      "alt": "Copertina fotografata di Il Natale ha5000anni, copia catalogata come Sugar1958",
+      "coordinator_visual_review": {
+        "checked_at": "2026-10-27T07:42:47.657264+00:00",
+        "status": "passed",
+        "whole_image_seen_by_coordinator": true,
+        "full_decode": true,
+        "width": 189,
+        "height": 300,
+        "sha256": "257f8e932a0ba9d3e5a85ad1ce2fae8440d95e34f304f1f93f71a44e69ea3e45",
+        "notes": "Intera fotografia personalmente vista: titolo Il Natale ha5000anni nella fascia superiore, figure nimbate e ali su fondo rosso, usura/bordi/abrasioni. Autore, editore eanno non leggibili nei pixel. Scheda della medesima copia dichiara FrancescoSabaSardi/Sugar/1958, dati confrontati con catalogoBraidense già noto. Nessun colophon o copia del video autenticati; nessuna ricomposizione/resize/crop."
+      }
+    },
+    "verified": false,
+    "human_audio_review": false,
+    "alternate_titles": [
+      "Il Natale ha cinquemila anni"
+    ],
+    "mentions": [
+      {
+        "video_id": "AhqU5Rzw5z8",
+        "seconds": 3453.48,
+        "title_seconds": 3453.48,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Nel cue 491 è richiamato Saba Sardi; il cue 493 contiene Natale a 5.000 anni. Titolo riconoscibile ma forma ASR imperfetta; il richiamo è del partecipante, senza anno, editore o ISBN pronunciati.",
+        "role": "riferimento",
+        "video_title": "Seminario tematico: l'industria culturale e le sue piaghe."
+      }
+    ]
   }
 ]
