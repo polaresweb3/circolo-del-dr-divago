@@ -767,11 +767,6 @@ async function start() {
       if (!canEmbedYouTube()) {
         button.querySelector('.sheet-play-label').textContent = 'Apri su YouTube' + (start ? ' da ' + VideoStart.clock(start) : '') + ' ↗';
         button.setAttribute('aria-label', 'Apri su YouTube' + (start ? ' da ' + VideoStart.clock(start) : '') + ': ' + document.querySelector('h1').textContent);
-        const notice = document.getElementById('player-privacy');
-        notice.textContent = 'Questa anteprima apre il video sul sito di YouTube, dove si applica l’informativa del servizio. ';
-        const link = node('a', '', 'Privacy');
-        link.href = siteUrl('privacy');
-        notice.append(link);
       }
       button.addEventListener('click', () => playInlineVideo(button));
     });

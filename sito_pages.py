@@ -199,8 +199,8 @@ def video_content(card, bibliography):
                    'Scheda basata sui fotogrammi indicati: campionamento parziale, senza ascolto del sonoro. '
                    'I sottotitoli visibili sono distinti dalle parole effettivamente pronunciate.'
                    if card.get('source_type') == 'analisi_fotogrammi_locali' else
-                   'Minutaggi ricavati da testi automatici, da riascoltare. '
-                   'Le identificazioni probabili sono segnalate accanto ai libri.')
+                   '')
+    source_note_html = f'<p class="source-note">{source_note}</p>' if source_note else ''
     def watch(seconds=None):
         return "https://www.youtube.com/watch?v=" + ident + ("&t=" + str(int(seconds)) if seconds is not None else "")
     passages = "".join(
@@ -236,17 +236,13 @@ def video_content(card, bibliography):
             f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">{books_heading}</h2>{"".join(books)}</section></div>'
             f'<aside class="sheet-passages" aria-labelledby="passaggi"><h2 id="passaggi">Passaggi</h2>'
             f'<ol>{passages}</ol></aside></div>'
-            f'<p class="source-note">{source_note}</p></article>')
+            f'{source_note_html}</article>')
 
 
 def video_player(ident, title):
-    return ('<div class="video-consent"><p class="player-privacy" id="player-privacy">'
-            'Il video usa un player esterno. Con “Accetta e riproduci” autorizzi il caricamento di YouTube, '
-            'che riceverà dati di navigazione e potrà usare cookie o memoria locale. '
-            '<a href="../privacy.html#youtube">Privacy del player</a>. '
-            'Puoi leggere la scheda senza attivarlo.</p>'
+    return ('<div class="video-consent">'
             f'<div class="sheet-player"><button class="sheet-play" data-play-video="{html.escape(ident)}" '
-            f'aria-describedby="player-privacy" aria-label="Accetta e riproduci: {html.escape(title, quote=True)}">'
+            f'aria-label="Accetta e riproduci: {html.escape(title, quote=True)}">'
             f'<img src="https://i.ytimg.com/vi/{html.escape(ident)}/hqdefault.jpg" alt="" width="480" height="270" decoding="async">'
             '<span class="sheet-play-label"><span aria-hidden="true">▶</span> Accetta e riproduci</span></button></div>'
             '<button type="button" class="text-link player-disable" hidden>Disattiva player YouTube</button></div>')

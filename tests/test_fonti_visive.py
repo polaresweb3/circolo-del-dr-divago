@@ -165,7 +165,7 @@ class VisualSourceTests(unittest.TestCase):
         self.assertIn('Il contenuto del filmato', html)
         self.assertNotIn('Minutaggi ricavati da testi automatici', html)
         card['source_type'] = 'riconoscimento_vocale_locale'
-        self.assertIn('Minutaggi ricavati da testi automatici', video_content(card, []))
+        self.assertNotIn('Minutaggi ricavati da testi automatici', video_content(card, []))
 
 
 if __name__ == '__main__':
