@@ -6,7 +6,7 @@ import posixpath
 import unittest
 from urllib.parse import urlsplit
 
-from sito_pages import PAGES, LEGAL_PAGES, offline_links
+from sito_pages import PAGES, LEGAL_PAGES, HIDDEN_PAGES, offline_links
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -53,12 +53,13 @@ class MultipageTests(unittest.TestCase):
                 page = Page((ROOT / 'sito/dist' / item['path']).read_text())
                 self.assertEqual(page.headings, 1)
                 self.assertEqual(len(page.ids), len(set(page.ids)))
-                self.assertEqual(len(page.nav), len(PAGES))
+                self.assertEqual(len(page.nav), len(set(PAGES) - HIDDEN_PAGES))
                 selected = [link for link in page.nav if link.get('aria-current') == 'page']
-                self.assertEqual(len(selected), 0 if item['page'] in LEGAL_PAGES else 1)
-                if item['page'] in LEGAL_PAGES:
-                    continue
                 expected = {'articolo': 'blog', 'scheda': 'video'}.get(item['page'], item['page'])
+                hidden = expected in HIDDEN_PAGES or item['page'] in LEGAL_PAGES
+                self.assertEqual(len(selected), 0 if hidden else 1)
+                if hidden:
+                    continue
                 self.assertTrue(selected[0]['href'].endswith(PAGES[expected][0]))
 
     def test_all_static_internal_links_resolve(self):

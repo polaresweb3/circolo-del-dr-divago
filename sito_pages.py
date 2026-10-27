@@ -15,6 +15,7 @@ from urllib.parse import urlsplit, urlunsplit
 from nomi_pubblici import public_html
 from blog_editoriale import published_articles, blog_index, home_latest, blog_article
 from home_conversazioni import home_conversations
+from home_proposte import render_home
 
 PAGES = {
     "home": ("index.html", "Home", "Le idee del passato per comprendere il presente e immaginare il futuro", ["catalogo.json", "libri.json", "schede.json"]),
@@ -314,17 +315,17 @@ def offline_links(page, filename, mapping):
     return re.sub(r'href="([^"]+)"', replace, page)
 
 
-def build_site(root, pages=None):
+def build_site(root, pages=None, *, home_template=None):
     root = Path(root)
     if not (root / 'sito/templates').exists():
         return
     # Anche il processo di archiviazione aggiorna i dati: serializziamo le generazioni.
     with (root / 'sito/.build.lock').open('a+') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
-        return _build_site(root, pages)
+        return _build_site(root, pages, home_template=home_template)
 
 
-def _build_site(root, pages=None):
+def _build_site(root, pages=None, *, home_template=None):
     pages = pages or PAGES
     source = root / "sito/dist"
     templates = root / "sito/templates"
@@ -345,7 +346,16 @@ def _build_site(root, pages=None):
     cards = data.get("schede.json", [])
     posts = published_articles(data.get("articoli-blog.json", []))
     for key, (filename, _, title, datasets) in all_pages.items():
-        main = (templates / (key + ".html")).read_text(encoding="utf-8")
+        template = templates / (key + ".html")
+        proposal_source = root / 'sorgenti/home.html'
+        if key == 'home' and (home_template is not None or proposal_source.is_file()):
+            main = home_template if home_template is not None else render_home(
+                proposal_source, bibliography, data.get('catalogo.json', {}), cards)
+            # La copia compilata viene sempre riallineata alla sorgente della proposta.
+            if not template.exists() or template.read_text(encoding='utf-8') != main:
+                template.write_text(main, encoding='utf-8')
+        else:
+            main = template.read_text(encoding="utf-8")
         main = main.replace("{{completed_count}}", str(len(cards)))
         main = main.replace("{{books_count}}", f"{len(bibliography):,}".replace(",", "."))
         if "{{home_conversations}}" in main:

@@ -688,6 +688,84 @@ dialog::backdrop { background: #172317b8; }
 }
 @media print { .library-discovery, .filter-preview-note { display: none !important; } }
 
+/* Ritmo editoriale: spazi condivisi fra pagine, schede e testi lunghi. */
+:root {
+  --section-space: clamp(3rem, 5.5vw, 5.25rem);
+  --space-block: clamp(1.5rem, 2.5vw, 2.5rem);
+  --space-panel: clamp(1.25rem, 2.5vw, 2.5rem);
+  --space-page-top: clamp(2.25rem, 4vw, 3.5rem);
+}
+.home-starters { padding-top: var(--section-space); }
+.home-starters + .home-featured-band { margin-block-start: var(--section-space); }
+.home-conversation { display: flex; flex-direction: column; }
+.home-conversation-description { flex: 1; }
+.home-conversation-actions { margin-top: 1.5rem; }
+.breadcrumb { padding-top: var(--space-block); }
+body:not([data-page='home']):not([data-page='salotto']) main > .section,
+body:not([data-page='home']):not([data-page='salotto']) .library-section > .section {
+  padding-top: var(--space-page-top);
+}
+.page-heading, .section-head { margin-bottom: var(--space-block); }
+.archive-tools, .library-tools { margin-top: var(--space-block); }
+.results-line { margin-block: 1.5rem 2rem; }
+.video-grid, .completed-grid {
+  column-gap: clamp(1.5rem, 2.5vw, 2.25rem);
+  row-gap: clamp(2.5rem, 4vw, 4rem);
+}
+.video-card { padding-bottom: 1.75rem; }
+.completed-card-copy { padding: var(--space-panel); }
+.library-intro { margin-block: var(--space-block); }
+.library-tools.library-discovery { gap: 1.25rem; }
+.book-selects { gap: 1rem; }
+#book-results { margin-block: 1.5rem 1rem; }
+.book-row { column-gap: clamp(1.25rem, 2.5vw, 2.5rem); row-gap: 1.5rem; padding-block: clamp(1.75rem, 3vw, 2.5rem); }
+.book-details[open] { margin-top: 1.25rem; }
+.book-bibliographic-sources { gap: .625rem; }
+.pagination { margin-top: var(--space-block); padding-block: .5rem; }
+.sheet-heading { margin-block: var(--space-block) clamp(2rem, 3.5vw, 3rem); }
+.sheet-layout { gap: clamp(2rem, 4vw, 4rem); }
+.sheet-summary { padding: var(--space-panel); border: 1px solid var(--rule); background: var(--surface); }
+.sheet-summary > p { max-width: 66ch; font-size: clamp(1.0625rem, 1.7vw, 1.1875rem); line-height: 1.85; white-space: pre-line; }
+.sheet-summary h2, .sheet-books > h2, .sheet-passages h2 { line-height: 1.25; margin-bottom: 1.25rem; }
+.sheet-actions { margin: var(--space-block) 0 0; gap: .875rem 1.5rem; }
+.sheet-books { margin-top: var(--space-block); padding-top: var(--space-block); }
+.sheet-passages { padding: var(--space-panel); }
+.sheet-passages li a > span { min-width: 0; overflow-wrap: anywhere; }
+.card-book { padding-block: var(--space-block); }
+.video-sheet > details.source-note { margin-top: var(--space-block); padding: 1.25rem 1.5rem; border: 1px solid var(--rule); background: var(--surface); }
+.video-sheet > details.source-note > summary { cursor: pointer; font-weight: 600; }
+.video-sheet > details.source-note ul { margin: 1rem 0 0; padding-left: 1.25rem; }
+.video-sheet > details.source-note li + li { margin-top: .625rem; }
+.video-sheet > details.source-note a { text-decoration: underline; text-underline-offset: .2em; overflow-wrap: anywhere; }
+.article-heading { margin-block: var(--space-block); }
+.article-body { max-width: 68ch; }
+.article-body p { font-size: clamp(1.0625rem, 1.4vw, 1.1875rem); line-height: 1.85; margin-bottom: 1.5rem; }
+.article-body :is(h2, h3) { margin-block: 2.75rem 1rem; }
+.article-body > :first-child { margin-top: 0; }
+.project-epigraph { margin-bottom: var(--section-space); }
+.project-catalog, .project-community { margin-top: var(--section-space); }
+.project-volumes { gap: clamp(2rem, 4vw, 4rem); }
+.project-volume-featured { padding: var(--space-panel); }
+.project-community { padding-top: var(--space-block); }
+.project-page > .hero-actions { margin-top: var(--space-block); }
+.event-card { padding-block: clamp(2.5rem, 4.5vw, 4rem); }
+.event-copy > p { max-width: 65ch; }
+.footer { padding-block: 2.5rem 3rem; gap: 1.5rem 2rem; }
+.footer-links { column-gap: clamp(1rem, 2vw, 1.5rem); }
+@media (max-width: 46rem) {
+  .sheet-summary, .sheet-passages { padding: 1.5rem; }
+  .sheet-layout { gap: 2rem; }
+  .sheet-heading { margin-block: 1.5rem 2rem; }
+  .video-grid, .completed-grid { row-gap: 2.5rem; }
+  .article-body :is(h2, h3) { margin-top: 2.25rem; }
+  .article-body > :first-child { margin-top: 0; }
+  .footer { padding-block: 2rem 2.5rem; }
+}
+@media print {
+  .section { padding-block: 1.5rem; }
+  .sheet-summary, .sheet-passages { padding: 1rem; }
+}
+
 }
 @layer proposta {
 /* Sala di lettura — terza proposta. Carta, inchiostro verde, incisioni in ottone.
@@ -959,6 +1037,84 @@ dialog { border-color: var(--rule); border-radius: 0; }
   .salon-hero-inner, .salon-publisher, .salon-reading-inner { display: block; }
   .salon-hero-foot { display: none; }
   .editorial-book-visual { background: white; }
+}
+
+/* I rimandi della biblioteca adottano il verde della Sala di lettura. */
+.book-youtube-link { background: var(--green); border-color: var(--green); color: var(--paper); }
+.book-youtube-link:hover { background: #264d42; border-color: #264d42; }
+/* Homepage: ingresso, numeri e percorsi condividono lo stesso ritmo. */
+.home-discovery { padding-block: clamp(2.75rem, 5vw, 4.5rem); background: transparent; color: var(--ink); }
+.home-discovery-heading {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, .85fr);
+  align-items: center;
+  gap: clamp(2rem, 4vw, 4rem);
+  margin-bottom: 0;
+}
+.home-welcome { min-width: 0; }
+.home-discovery-heading h1 { color: var(--ink); line-height: 1.1; letter-spacing: -.035em; }
+.home-discovery-heading h1 em { color: inherit; }
+.home-welcome .home-discovery-intro { max-width: 62ch; margin-top: 1.75rem; color: var(--muted); font-size: 1.125rem; line-height: 1.8; }
+.home-discovery-intro > p + p { margin-top: 1.25rem; }
+.home-discovery .home-channel-link { color: var(--green); text-decoration-color: currentColor; }
+.home-discovery .home-channel-link:hover { color: var(--accent-hover); }
+.home-discovery a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+.home-library-illustration {
+  margin: 0;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  background: transparent;
+  color: var(--green);
+  border: 1px solid transparent;
+}
+.home-library-illustration figcaption { gap: .75rem; letter-spacing: .16em; }
+.stats-band { background: #eeede2; }
+.stats { padding-block: 2rem; gap: 1.5rem 2rem; }
+.stats > div { flex-direction: column; align-items: flex-start; gap: .5rem; }
+.stats > div + div { border-left: 1px solid var(--rule); padding-left: 1.75rem; }
+.stats strong { font-size: 2.625rem; line-height: 1.05; }
+.stats span { max-width: 15rem; font-size: .75rem; line-height: 1.6; }
+.home-starters { padding-block: var(--section-space); }
+.home-starters-label { margin-bottom: 1.75rem; }
+.home-conversations { gap: clamp(2rem, 4vw, 3.5rem); }
+.home-conversation { display: flex; flex-direction: column; }
+.home-conversation-label { margin-block: 1.5rem .75rem; }
+.home-conversation h2 { font-size: clamp(1.6rem, 2.3vw, 2rem); line-height: 1.25; margin-bottom: 1rem; }
+.home-conversation-description { flex: 1; max-width: 58ch; line-height: 1.85; }
+.home-conversation-actions { margin-top: 1.5rem; }
+.salon-library { padding-block: 0 var(--section-space); }
+.salon-section-head { gap: 1.5rem; margin-bottom: 2.5rem; }
+.salon-book-grid { column-gap: clamp(1.5rem, 3vw, 2.75rem); row-gap: clamp(2.5rem, 4vw, 3.5rem); }
+.editorial-book-copy { padding-top: 1.25rem; }
+.editorial-book h3 { font-size: 1.6rem; line-height: 1.25; }
+.editorial-book-note { margin-block: .875rem 0; line-height: 1.85; }
+body[data-page='salotto'] .home-editorial { padding-block: var(--section-space); }
+@media (max-width: 74rem) and (min-width: 56.001rem) {
+  .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .stats > div + div { padding-left: 1.25rem; }
+}
+@media (max-width: 56rem) {
+  .home-discovery-heading { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
+  .home-library-illustration { max-width: 25rem; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 1.25rem; }
+  .stats > div:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .stats > div:nth-child(even) { padding-left: 1.25rem; }
+}
+@media (max-width: 46rem) {
+  .home-discovery { padding-block: 2.5rem 3rem; }
+  .home-welcome .home-discovery-intro { font-size: 1.0625rem; margin-top: 1.5rem; line-height: 1.8; }
+  .home-discovery-intro > p + p { margin-top: 1rem; }
+  .stats { padding-block: 1.75rem; }
+  .stats strong { font-size: 2.3rem; }
+  .home-conversations { gap: 3rem; }
+  .home-starters-label { margin-bottom: 1.5rem; }
+  .salon-section-head { margin-bottom: 2rem; }
+  .salon-book-grid { row-gap: 2rem; }
+}
+@media print {
+  .home-discovery-heading { display: block; }
+  .home-discovery { background: white; color: black; }
+  .home-discovery-heading h1, .home-discovery-heading h1 em,
+  .home-welcome .home-discovery-intro, .home-discovery .home-channel-link { color: black; }
+  .home-starters, .salon-library, body[data-page='salotto'] .home-editorial { padding-block: 1.5rem; }
 }
 
 }

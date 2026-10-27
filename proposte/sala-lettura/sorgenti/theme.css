@@ -268,3 +268,81 @@ dialog { border-color: var(--rule); border-radius: 0; }
   .salon-hero-foot { display: none; }
   .editorial-book-visual { background: white; }
 }
+
+/* I rimandi della biblioteca adottano il verde della Sala di lettura. */
+.book-youtube-link { background: var(--green); border-color: var(--green); color: var(--paper); }
+.book-youtube-link:hover { background: #264d42; border-color: #264d42; }
+/* Homepage: ingresso, numeri e percorsi condividono lo stesso ritmo. */
+.home-discovery { padding-block: clamp(2.75rem, 5vw, 4.5rem); background: transparent; color: var(--ink); }
+.home-discovery-heading {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, .85fr);
+  align-items: center;
+  gap: clamp(2rem, 4vw, 4rem);
+  margin-bottom: 0;
+}
+.home-welcome { min-width: 0; }
+.home-discovery-heading h1 { color: var(--ink); line-height: 1.1; letter-spacing: -.035em; }
+.home-discovery-heading h1 em { color: inherit; }
+.home-welcome .home-discovery-intro { max-width: 62ch; margin-top: 1.75rem; color: var(--muted); font-size: 1.125rem; line-height: 1.8; }
+.home-discovery-intro > p + p { margin-top: 1.25rem; }
+.home-discovery .home-channel-link { color: var(--green); text-decoration-color: currentColor; }
+.home-discovery .home-channel-link:hover { color: var(--accent-hover); }
+.home-discovery a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+.home-library-illustration {
+  margin: 0;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  background: transparent;
+  color: var(--green);
+  border: 1px solid transparent;
+}
+.home-library-illustration figcaption { gap: .75rem; letter-spacing: .16em; }
+.stats-band { background: #eeede2; }
+.stats { padding-block: 2rem; gap: 1.5rem 2rem; }
+.stats > div { flex-direction: column; align-items: flex-start; gap: .5rem; }
+.stats > div + div { border-left: 1px solid var(--rule); padding-left: 1.75rem; }
+.stats strong { font-size: 2.625rem; line-height: 1.05; }
+.stats span { max-width: 15rem; font-size: .75rem; line-height: 1.6; }
+.home-starters { padding-block: var(--section-space); }
+.home-starters-label { margin-bottom: 1.75rem; }
+.home-conversations { gap: clamp(2rem, 4vw, 3.5rem); }
+.home-conversation { display: flex; flex-direction: column; }
+.home-conversation-label { margin-block: 1.5rem .75rem; }
+.home-conversation h2 { font-size: clamp(1.6rem, 2.3vw, 2rem); line-height: 1.25; margin-bottom: 1rem; }
+.home-conversation-description { flex: 1; max-width: 58ch; line-height: 1.85; }
+.home-conversation-actions { margin-top: 1.5rem; }
+.salon-library { padding-block: 0 var(--section-space); }
+.salon-section-head { gap: 1.5rem; margin-bottom: 2.5rem; }
+.salon-book-grid { column-gap: clamp(1.5rem, 3vw, 2.75rem); row-gap: clamp(2.5rem, 4vw, 3.5rem); }
+.editorial-book-copy { padding-top: 1.25rem; }
+.editorial-book h3 { font-size: 1.6rem; line-height: 1.25; }
+.editorial-book-note { margin-block: .875rem 0; line-height: 1.85; }
+body[data-page='salotto'] .home-editorial { padding-block: var(--section-space); }
+@media (max-width: 74rem) and (min-width: 56.001rem) {
+  .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .stats > div + div { padding-left: 1.25rem; }
+}
+@media (max-width: 56rem) {
+  .home-discovery-heading { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
+  .home-library-illustration { max-width: 25rem; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 1.25rem; }
+  .stats > div:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .stats > div:nth-child(even) { padding-left: 1.25rem; }
+}
+@media (max-width: 46rem) {
+  .home-discovery { padding-block: 2.5rem 3rem; }
+  .home-welcome .home-discovery-intro { font-size: 1.0625rem; margin-top: 1.5rem; line-height: 1.8; }
+  .home-discovery-intro > p + p { margin-top: 1rem; }
+  .stats { padding-block: 1.75rem; }
+  .stats strong { font-size: 2.3rem; }
+  .home-conversations { gap: 3rem; }
+  .home-starters-label { margin-bottom: 1.5rem; }
+  .salon-section-head { margin-bottom: 2rem; }
+  .salon-book-grid { row-gap: 2rem; }
+}
+@media print {
+  .home-discovery-heading { display: block; }
+  .home-discovery { background: white; color: black; }
+  .home-discovery-heading h1, .home-discovery-heading h1 em,
+  .home-welcome .home-discovery-intro, .home-discovery .home-channel-link { color: black; }
+  .home-starters, .salon-library, body[data-page='salotto'] .home-editorial { padding-block: 1.5rem; }
+}

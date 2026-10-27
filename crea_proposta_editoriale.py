@@ -9,39 +9,11 @@ from urllib.parse import urlsplit
 import zipfile
 
 from sito_pages import PAGES, LEGAL_PAGES, HIDDEN_PAGES, build_site
+from home_proposte import FEATURED, book_cards, render_home
 
 ROOT = Path(__file__).resolve().parent
 PROPOSAL = ROOT / 'proposte/editoriale'
 SOURCE = PROPOSAL / 'sorgenti'
-FEATURED = [
-    ('sulla-stupidita-musil', 'Un invito a diffidare delle certezze, cominciando dalle proprie.'),
-    ('minima-moralia-adorno', 'Un percorso fra vita quotidiana, cultura e pensiero critico.'),
-    ('libri-della-mia-vita-salamov', 'Una biblioteca personale, una geografia della memoria.'),
-    ('saggio-sulla-liberta-mill', 'Libertà di pensiero, autonomia e responsabilità nel confronto.'),
-    ('avvenire-nostre-scuole-nietzsche', 'Che cosa chiediamo all’educazione e alla cultura?'),
-    ('nel-ventre-della-balena-orwell', 'Scrittura, esperienza e libertà dello sguardo.'),
-]
-
-
-def book_cards(books):
-    lookup = {b['id']: b for b in books}
-    result = []
-    for index, (ident, note) in enumerate(FEATURED):
-        book = lookup[ident]
-        cover = book['cover']
-        loading = 'eager' if index < 3 else 'lazy'
-        result.append(
-            '<article class="editorial-book">'
-            f'<a href="biblioteca.html#book-{escape(ident)}" class="editorial-book-link">'
-            f'<div class="editorial-book-visual tone-{index + 1}"><img src="{escape(cover["src"], quote=True)}" '
-            f'alt="" width="180" height="270" loading="{loading}" decoding="async"></div>'
-            '<div class="editorial-book-copy">'
-            f'<p class="editorial-book-author">{escape(book["author"])}</p><h3>{escape(book["title"])}</h3>'
-            f'<p class="editorial-book-note">{escape(note)}</p>'
-            '</div></a></article>')
-    return ''.join(result)
-
-
 class References(HTMLParser):
     def __init__(self, text):
         super().__init__()
@@ -94,10 +66,7 @@ def create(proposal=PROPOSAL, source=SOURCE, label='PROPOSTA EDITORIALE',
     books = json.loads((dist / 'data/libri.json').read_text())
     catalog = json.loads((dist / 'data/catalogo.json').read_text())
     cards = json.loads((dist / 'data/schede.json').read_text())
-    home = (source / 'home.html').read_text()
-    home = home.replace('{{editorial_books}}', book_renderer(books))
-    home = home.replace('{{books_count}}', str(len(books))).replace('{{videos_count}}', str(len(catalog['videos'])))
-    home = home.replace('{{cards_count}}', str(len(cards)))
+    home = render_home(source / 'home.html', books, catalog, cards, book_renderer=book_renderer)
     (templates / 'home.html').write_text(home)
     # La cascata è esplicita: componenti comuni nel primo livello, tema nel secondo.
     base = (ROOT / 'sito/dist/styles.css').read_text()
@@ -106,7 +75,7 @@ def create(proposal=PROPOSAL, source=SOURCE, label='PROPOSTA EDITORIALE',
                                     + '\n}\n@layer proposta {\n' + theme + '\n}\n')
     pages = {'home': ('index.html', 'Home', PAGES['home'][2], [])}
     pages.update({key: PAGES[key] for key in ('video', 'biblioteca', 'blog', 'eventi', 'progetto')})
-    manifest = build_site(proposal, pages=pages)
+    manifest = build_site(proposal, pages=pages, home_template=home)
     for item in manifest['pages']:
         for file in (dist / item['path'], proposal / 'sito' / item['preview']):
             html = file.read_text()
