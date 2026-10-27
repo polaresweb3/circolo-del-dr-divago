@@ -24,6 +24,8 @@ PAGES = {
     "progetto": ("progetto.html", "Progetto Editoriale", "Progetto Editoriale", []),
 }
 FEATURED_BOOKS = ["libri-della-mia-vita-salamov", "minima-moralia-adorno", "nel-ventre-della-balena-orwell"]
+# Sezioni conservate nei sorgenti, temporaneamente escluse dalla navigazione.
+HIDDEN_PAGES = {"blog"}
 LEGAL_PAGES = {
     "privacy": ("privacy.html", "Privacy", "Privacy", []),
     "crediti": ("crediti.html", "Crediti e diritti", "Crediti e diritti", []),
@@ -41,7 +43,7 @@ def document(title, current, main, prefix="", featured=(), pages=None):
         f'<a href="{prefix}{filename}"' + (' aria-current="page"' if key == current else "")
         + (' class="nav-featured"' if key == "completate" else "")
         + f'>{html.escape(label)}</a>'
-        for key, (filename, label, _, _) in pages.items())
+        for key, (filename, label, _, _) in pages.items() if key not in HIDDEN_PAGES)
     breadcrumb = "" if current == "home" else (
         f'<div class="breadcrumb wrap" aria-label="Percorso"><a href="{prefix}index.html">Home</a>'
         f'<span aria-hidden="true">/</span><span>{html.escape(labels[current][1])}</span></div>')
