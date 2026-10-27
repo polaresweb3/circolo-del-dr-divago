@@ -3,6 +3,7 @@ import base64
 import fcntl
 import hashlib
 from copy import deepcopy
+from dati_pubblici import public_dataset
 import html
 import json
 import mimetypes
@@ -223,6 +224,19 @@ def video_content(card, bibliography):
                      f'{status_note}{edition}<p>{esc(mention.get("evidence", ""))}</p>'
                      f'<a class="text-link" href="{esc(watch(moment), quote=True)}" target="_blank" rel="noopener noreferrer">'
                      f'Passaggio {timestamp(moment)} ↗</a> · <a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro ↗</a></div></article>')
+    sources = public_dataset('schede.json', [card])[0]
+    references = []
+    seen_urls = set()
+    for reference in (sources.get('references', []) + sources.get('contextual_verification_sources', [])
+                      + sources.get('verification_sources', [])):
+        if reference['url'] not in seen_urls:
+            seen_urls.add(reference['url'])
+            references.append(reference)
+    source_links = ''.join(
+        f'<li><a href="{esc(ref["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
+        f'{esc(ref["label"])} ↗</a></li>' for ref in references)
+    references_html = (f'<details class="source-note"><summary>Fonti e approfondimenti ({len(references)})</summary>'
+                       f'<ul>{source_links}</ul></details>') if references else ''
     return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
             f'<header class="sheet-heading"><p class="eyebrow">{timestamp(card["duration_seconds"])} · {len(books)} {"OPERA" if len(books) == 1 else "OPERE"}</p>'
             f'<h1>{esc(card["title"])}</h1></header>'
@@ -233,7 +247,7 @@ def video_content(card, bibliography):
             f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">{books_heading}</h2>{"".join(books)}</section></div>'
             f'<aside class="sheet-passages" aria-labelledby="passaggi"><h2 id="passaggi">Passaggi</h2>'
             f'<ol>{passages}</ol></aside></div>'
-            f'{source_note_html}</article>')
+            f'{source_note_html}{references_html}</article>')
 
 
 def video_player(ident, title):
@@ -385,7 +399,7 @@ def _build_site(root, pages=None):
         target = source / filename
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(page, encoding="utf-8")
-        embedded = {"data/" + name: deepcopy(data[name]) for name in datasets if name in data}
+        embedded = {"data/" + name: public_dataset(name, data[name]) for name in datasets if name in data}
         for book in embedded.get("data/libri.json", []):
             if key == "biblioteca" or (key == "home" and book["id"] in featured):
                 embed_cover(source, book.get("cover"))

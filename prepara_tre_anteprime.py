@@ -7,6 +7,7 @@ import shutil
 from crea_proposta_editoriale import create, book_cards
 from prepara_versione_online import prepare, References
 from verifica_copertine import verify_covers
+from dati_pubblici import export_directory
 
 ROOT = Path(__file__).resolve().parent
 
@@ -31,6 +32,7 @@ def main():
     for slug in ['sala-lettura']:
         shutil.copytree(ROOT / 'proposte' / slug / 'sito/dist', destination / slug,
                         ignore=shutil.ignore_patterns('.DS_Store'))
+    export_directory(destination / 'sala-lettura')
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'versioni.html')
     shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'index.html')
     images = destination / 'assets/anteprime'

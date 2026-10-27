@@ -8,6 +8,7 @@ from urllib.parse import urlsplit
 import zipfile
 
 from sito_pages import build_site
+from dati_pubblici import public_dataset
 
 ROOT = Path(__file__).resolve().parent
 
@@ -61,7 +62,7 @@ def prepare():
         else:
             shutil.copyfile(original, target)
     for name in datasets:
-        value = json.loads((source / 'data' / name).read_text(encoding='utf-8'))
+        value = public_dataset(name, json.loads((source / 'data' / name).read_text(encoding='utf-8')))
         if name == 'catalogo.json':
             for video in value['videos']:
                 video.pop('audio_file', None)
