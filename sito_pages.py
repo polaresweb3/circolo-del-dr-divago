@@ -16,6 +16,7 @@ from nomi_pubblici import public_html
 from blog_editoriale import published_articles, blog_index, home_latest, blog_article
 from home_conversazioni import home_conversations
 from home_proposte import render_home
+from indici_lettura import write_reading_indexes
 
 PAGES = {
     "home": ("index.html", "Home", "Le idee del passato per comprendere il presente e immaginare il futuro", ["catalogo.json", "libri.json", "schede.json"]),
@@ -384,6 +385,7 @@ def _build_site(root, pages=None, *, home_template=None):
     mapping = {filename: preview_name(key) for key, (filename, _, _, _) in all_pages.items()}
     documents = []
     cards = data.get("schede.json", [])
+    reading = write_reading_indexes(source, data.get('catalogo.json', {}), bibliography, cards)
     posts = published_articles(data.get("articoli-blog.json", []))
     for key, (filename, _, title, datasets) in all_pages.items():
         template = templates / (key + ".html")
@@ -444,6 +446,7 @@ def _build_site(root, pages=None, *, home_template=None):
     refinement_version = hashlib.sha256(refinement.encode('utf-8')).hexdigest()[:12]
     for key, filename, page, datasets in documents:
         prefix = "../" if key in ("articolo", "scheda") else ""
+        page = page.replace('<body ', '<body data-index-manifest="' + reading['manifest'] + '" ', 1)
         stylesheet = f'<link rel="stylesheet" href="{prefix}styles.css?v={style_version}">'
         page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', stylesheet)
         page = page.replace(f'href="{prefix}refinement.css"', f'href="{prefix}refinement.css?v={refinement_version}"')

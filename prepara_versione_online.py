@@ -40,6 +40,7 @@ def prepare():
     destination.mkdir(parents=True)
     files = [item['path'] for item in manifest['pages']]
     files += ['styles.css', 'refinement.css', 'app.js']
+    files += [path.relative_to(source).as_posix() for path in (source / 'data/indici').glob('*.json')]
     datasets = ['catalogo.json', 'libri.json', 'schede.json']
     if (source / 'data/articoli-blog.json').exists():
         datasets.append('articoli-blog.json')

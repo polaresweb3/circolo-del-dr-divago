@@ -58,7 +58,9 @@ class PreviewHandler(SimpleHTTPRequestHandler):
 
     def end_headers(self):
         self.send_header("Referrer-Policy", "strict-origin-when-cross-origin")
-        self.send_header("Cache-Control", "no-cache")
+        # I file con hash cambiano indirizzo ad ogni modifica, come nel sito pubblico.
+        immutable = re.search(r'/data/indici/[a-z-]+\.[a-f0-9]{20}\.json$', urlsplit(self.path).path)
+        self.send_header("Cache-Control", "public, max-age=31536000, immutable" if immutable else "no-cache")
         super().end_headers()
 
 

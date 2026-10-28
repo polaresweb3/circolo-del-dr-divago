@@ -145,6 +145,51 @@
   return {format, timeInWords, normalizeDocument};
 });
 
+/* Dati versionati nella cache HTTP; riferimenti completi solo per le opere visibili. */
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.ReadingData = api;
+})(typeof globalThis === 'object' ? globalThis : this, function () {
+  'use strict';
+  function create({root = '', manifestPath = '', fetch: request = globalThis.fetch, embedded = null} = {}) {
+    const pending = new Map();
+    const failed = new Set();
+    function json(path, versioned = true) {
+      if (!pending.has(path)) {
+        const promise = Promise.resolve().then(() => request(root + path, {cache: failed.has(path) ? 'reload' : versioned ? 'force-cache' : 'no-cache'}))
+          .then(response => {
+            if (!response.ok) throw new Error('Impossibile caricare ' + path);
+            return response.json();
+          }).then(value => { failed.delete(path); return value; })
+          .catch(error => { pending.delete(path); failed.add(path); throw error; });
+        pending.set(path, promise);
+      }
+      return pending.get(path);
+    }
+    async function load(path) {
+      if (embedded) {
+        if (!(path in embedded)) throw new Error('Dati mancanti: ' + path);
+        return embedded[path];
+      }
+      if (!manifestPath) return json(path, false); // Pagine precedenti e anteprime non rigenerate.
+      const manifest = await json(manifestPath);
+      if (manifest.schema !== 1 || !manifest.datasets[path]) throw new Error('Indice non disponibile: ' + path);
+      return json(manifest.datasets[path]);
+    }
+    async function hydrate(books) {
+      return Promise.all(books.map(async book => {
+        if (!book._details) return book; // L'anteprima offline incorpora già tutti i riferimenti.
+        const group = await json(book._details);
+        if (!group[book.id] || group[book.id].id !== book.id) throw new Error('Riferimenti non disponibili');
+        return group[book.id];
+      }));
+    }
+    return {load, hydrate};
+  }
+  return {create};
+});
+
 'use strict';
 /* Filtri della biblioteca. Nessuna modifica ai dati editoriali. */
 (function (root, factory) {
@@ -385,6 +430,9 @@ const $ = id => document.getElementById(id);
 const page = document.body.dataset.page || 'home';
 const offline = document.body.dataset.preview === 'true';
 const rootPath = document.body.dataset.root || '';
+const embeddedData = document.getElementById('embedded-data');
+const readingData = ReadingData.create({root: rootPath, manifestPath: document.body.dataset.indexManifest || '',
+  embedded: embeddedData ? JSON.parse(embeddedData.textContent) : null});
 function siteUrl(name) {
   const routes = {home: 'index.html', video: 'video.html', biblioteca: 'biblioteca.html', blog: 'blog.html', eventi: 'eventi.html', progetto: 'progetto.html', privacy: 'privacy.html', crediti: 'crediti.html'};
   if (!(name in routes)) throw new Error('Pagina sconosciuta');
@@ -546,7 +594,9 @@ function showBookCover(book) {
   const editionNote = book.cover.edition_note ? [node('p', 'dialog-description', book.cover.edition_note)] : [];
   showDialog([heading, image, caption, ...collection, ...editionNote, link]);
 }
-function renderBooks(books) {
+let libraryRender = 0;
+async function renderBooks(books) {
+  const request = ++libraryRender;
   const pages = Math.max(1, Math.ceil(books.length / state.bookPerPage));
   state.bookPage = Math.min(state.bookPage, pages - 1);
   const start = state.bookPage * state.bookPerPage;
@@ -554,7 +604,24 @@ function renderBooks(books) {
   $('book-page').textContent = `Pagina ${state.bookPage + 1} di ${pages}`;
   $('book-previous').disabled = state.bookPage === 0;
   $('book-next').disabled = state.bookPage >= pages - 1;
-  const rows = books.slice(start, start + state.bookPerPage).map(book => {
+  const container = $('books');
+  container.setAttribute('aria-busy', 'true');
+  if (!container.children.length) container.append(node('p', 'loading', 'Caricamento dei riferimenti…'));
+  let visible;
+  try {
+    visible = await readingData.hydrate(books.slice(start, start + state.bookPerPage));
+  } catch (error) {
+    if (request !== libraryRender) return false;
+    const message = node('p', 'empty', 'Impossibile caricare i riferimenti.');
+    message.setAttribute('role', 'status');
+    const retry = node('button', 'button', 'Riprova');
+    retry.type = 'button'; retry.addEventListener('click', () => filterBooks(false));
+    container.replaceChildren(message, retry);
+    container.setAttribute('aria-busy', 'false');
+    return false;
+  }
+  if (request !== libraryRender) return false;
+  const rows = visible.map(book => {
     const row = node('article', 'book-row');
     row.id = 'book-' + book.id;
     const cover = node('figure', 'book-cover');
@@ -630,12 +697,14 @@ function renderBooks(books) {
     return row;
   });
   $('books').replaceChildren(...(rows.length ? rows : [node('p', 'empty', 'Nessuna opera corrisponde ai filtri. Rimuovi un filtro o usa “Azzera filtri”.')]));
+  container.setAttribute('aria-busy', 'false');
+  return true;
 }
 function normalizeSearch(text) {
   return text.toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 let libraryExplorer;
-function filterBooks(reset = true, focusId = null) {
+async function filterBooks(reset = true, focusId = null) {
   if (!libraryExplorer) return;
   const filtered = libraryExplorer.select();
   if (reset) state.bookPage = 0;
@@ -643,7 +712,7 @@ function filterBooks(reset = true, focusId = null) {
     const index = filtered.findIndex(book => 'book-' + book.id === focusId);
     if (index >= 0) state.bookPage = Math.floor(index / state.bookPerPage);
   }
-  renderBooks(filtered);
+  if (!await renderBooks(filtered)) return;
   const themeId = libraryExplorer.criteria().theme;
   if (themeId !== 'all') {
     const pattern = LibraryFilters.themes.find(([id]) => id === themeId)?.[2];
@@ -673,24 +742,17 @@ on('close-dialog', 'click', () => $('detail').close());
 on('detail', 'click', e => { if (e.target === $('detail')) { const r = $('detail').getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) $('detail').close(); } });
 on('detail', 'close', () => { $('dialog-content').replaceChildren(); document.body.style.overflow = ''; });
 async function loadData(path) {
-  const embedded = document.getElementById('embedded-data');
-  if (embedded) {
-    const data = JSON.parse(embedded.textContent);
-    if (!(path in data)) throw new Error(`Dati mancanti: ${path}`);
-    return data[path];
-  }
-  const response = await fetch(rootPath + path, {cache: 'no-cache'});
-  if (!response.ok) throw new Error(`Impossibile caricare ${path}`);
-  return response.json();
+  return readingData.load(path);
 }
-function renderHome() {
+async function renderHome() {
   $('total-count').textContent = state.videos.length.toLocaleString('it-IT');
   $('hours-count').textContent = Math.round(state.videos.reduce((sum, video) => sum + (video.duration || 0), 0) / 3600).toLocaleString('it-IT');
   $('library-count').textContent = state.books.length.toLocaleString('it-IT');
   const starterIds = ['Qr7vi4Mgd_0', 'rtmt9_Mzdkw', 'WzF2KJ1swVE'];
   const starters = starterIds.map(id => state.videos.find(video => video.id === id)).filter(Boolean);
   $('home-videos')?.replaceChildren(...(starters.length ? starters : state.videos.slice(0, 3)).map(videoCard));
-  const featured = (document.body.dataset.featuredBooks || '').split(',').map(id => state.books.find(book => book.id === id)).filter(Boolean);
+  const selected = (document.body.dataset.featuredBooks || '').split(',').map(id => state.books.find(book => book.id === id)).filter(Boolean);
+  const featured = await readingData.hydrate(selected);
   $('home-books')?.replaceChildren(...featured.map(book => {
     const link = node('a', 'home-book');
     link.href = `${siteUrl('biblioteca')}#book-${encodeURIComponent(book.id)}`;
@@ -755,7 +817,7 @@ async function start() {
   state.videos = data['catalogo.json']?.videos || [];
   state.books = data['libri.json'] || [];
   state.cards = data['schede.json'] || [];
-  if (page === 'home') renderHome();
+  if (page === 'home') await renderHome();
   if (page === 'video') {
     if (data['catalogo.json']) {
       $('search').value = new URLSearchParams(window.location.search).get('q') || '';
@@ -776,7 +838,7 @@ async function start() {
       onChange: () => filterBooks()
     });
     setupLibraryDisclosure();
-    filterBooks(true, window.location.hash.slice(1));
+    await filterBooks(true, window.location.hash.slice(1));
   }
   if (page === 'scheda') {
     document.querySelectorAll('[data-play-video]').forEach(button => {
