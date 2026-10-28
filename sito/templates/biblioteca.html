@@ -1,6 +1,8 @@
 <section id="biblioteca" class="library-section"><div class="wrap section"><div class="section-head page-heading"><div><h1>La biblioteca <em>citata.</em></h1></div></div><div class="library-intro"><p>Libri, film e altre opere citate nei video, con i passaggi e le fonti.</p><span class="review-label" id="book-count"></span></div><div class="library-tools library-discovery">
   <label class="book-search"><span>Cerca nella biblioteca</span><input id="book-search" type="search" placeholder="Titolo, autore o titolo originale…"></label>
   <fieldset class="book-format-field"><legend>Che cosa cerchi?</legend><div id="book-formats" class="book-formats"></div></fieldset>
+  <details class="library-refine" id="library-refine" open>
+  <summary>Filtra e ordina <span id="book-refine-count"></span></summary>
   <div class="book-selects">
     <label class="select-label"><span>Tipo di opera</span><select id="book-kind"><option value="all">Tutti i tipi</option></select></label>
     <label class="select-label" for="book-author"><span id="book-author-label">Autore / creatore</span><select id="book-author"><option value="all">Tutti gli autori / creatori</option></select></label>
@@ -8,6 +10,7 @@
     <label class="select-label"><span>Ordina per</span><select id="book-sort"><option value="author">Autore A–Z</option><option value="title">Titolo A–Z</option><option value="mentions">Più citati nei video</option></select></label>
   </div>
   <p class="filter-note" id="book-theme-note">I temi raggruppano gli argomenti delle conversazioni in cui compare l’opera. Non sono una classificazione del suo contenuto.</p>
+  </details>
   <div class="book-filter-actions"><div id="book-active-filters" class="book-active-filters" aria-label="Filtri attivi"></div><button id="book-reset" type="button" class="filter-reset" hidden>Azzera filtri</button></div>
 </div>
 <p id="book-results" class="source-note" role="status" aria-live="polite"></p><div id="books"></div><div class="pagination"><button id="book-previous" class="small-button" disabled>← Precedenti</button><span id="book-page"></span><button id="book-next" class="small-button" disabled>Successivi →</button></div></div></section>

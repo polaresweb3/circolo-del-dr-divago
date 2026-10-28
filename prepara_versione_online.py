@@ -39,7 +39,7 @@ def prepare():
         shutil.rmtree(destination)
     destination.mkdir(parents=True)
     files = [item['path'] for item in manifest['pages']]
-    files += ['styles.css', 'app.js']
+    files += ['styles.css', 'refinement.css', 'app.js']
     datasets = ['catalogo.json', 'libri.json', 'schede.json']
     if (source / 'data/articoli-blog.json').exists():
         datasets.append('articoli-blog.json')

@@ -59,13 +59,15 @@ def document(title, current, main, prefix="", featured=(), pages=None):
   <meta name="color-scheme" content="light">
   <title>{html.escape(title)} — Circolo del Dr Divago</title>
   <link rel="stylesheet" href="{prefix}styles.css">
+  <link rel="stylesheet" href="{prefix}refinement.css">
   <script src="{prefix}app.js" defer></script>
 </head>
 <body id="inizio" data-page="{current}" data-root="{prefix}" data-featured-books="{html.escape(','.join(featured), quote=True)}">
   <a class="skip" href="#contenuto">Vai al contenuto</a>
   <header class="header wrap">
     <a class="wordmark" href="{prefix}index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE E IMMAGINARE IL FUTURO</span></a>
-    <nav aria-label="Navigazione principale">{nav}</nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="site-navigation" aria-label="Navigazione principale">{nav}</nav>
   </header>
   {breadcrumb}
   <main id="contenuto">{main}</main>
@@ -190,6 +192,40 @@ def completed_cards(cards, bibliography):
     return "".join(output)
 
 
+def sheet_index(*, summary=False, books=False, passages=False):
+    links = [('filmato', 'Video')]
+    if summary:
+        links.append(('sintesi', 'Sintesi'))
+    if books:
+        links.append(('libri', 'Libri'))
+    if passages:
+        links.append(('passaggi', 'Passaggi'))
+    return ('<nav class="sheet-index" aria-label="In questa scheda">'
+            + ''.join(f'<a href="#{ident}">{label}</a>' for ident, label in links) + '</nav>')
+
+
+def sheet_summary(text):
+    """Conserva la sintesi integrale e apre la lettura con un breve estratto."""
+    if len(text.split()) <= 150:
+        return f'<p>{html.escape(text)}</p>'
+    boundaries = [match.end() for match in re.finditer(r'(?<=[.!?])\s+', text)
+                  if 60 <= len(text[:match.start()].split()) <= 120]
+    if boundaries:
+        split = min(boundaries, key=lambda position: abs(len(text[:position].split()) - 90))
+    else:
+        split = list(re.finditer(r'\S+', text))[100].start()
+    return (f'<p>{html.escape(text[:split].rstrip())}</p>'
+            '<details class="sheet-summary-more"><summary>'
+            '<span class="when-closed">Leggi la sintesi completa</span>'
+            '<span class="when-open">Riduci la sintesi</span></summary>'
+            f'<p>{html.escape(text[split:].lstrip())}</p></details>')
+
+
+def book_reference_notes(content):
+    return ('<details class="card-book-details"><summary>Note sul riferimento</summary>'
+            + content + '</details>') if content else ''
+
+
 def video_content(card, bibliography):
     """Schede editoriali leggibili anche senza JavaScript o file sorgente integrale."""
     esc = html.escape
@@ -220,9 +256,11 @@ def video_content(card, bibliography):
         label = "Identificazione probabile" if status == "identificazione_probabile" else ""
         status_note = f'<p class="card-book-status">{esc(label)}</p>' if label else ""
         moment = mention.get("title_seconds") or mention.get("seconds")
+        evidence = f'<p>{esc(mention["evidence"])}</p>' if mention.get('evidence') else ''
+        notes = book_reference_notes(edition + evidence)
         books.append(f'<article class="card-book">{image}<div><h3><a href="../biblioteca.html#book-{esc(book["id"])}">'
                      f'{esc(book["title"])}</a></h3><p class="card-book-author">{esc(book["author"])}</p>'
-                     f'{status_note}{edition}<p>{esc(mention.get("evidence", ""))}</p>'
+                     f'{status_note}{notes}'
                      f'<a class="text-link" href="{esc(watch(moment), quote=True)}" target="_blank" rel="noopener noreferrer">'
                      f'Passaggio {timestamp(moment)} ↗</a> · <a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro ↗</a></div></article>')
     sources = public_dataset('schede.json', [card])[0]
@@ -241,8 +279,9 @@ def video_content(card, bibliography):
     return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
             f'<header class="sheet-heading"><p class="eyebrow">{timestamp(card["duration_seconds"])} · {len(books)} {"OPERA" if len(books) == 1 else "OPERE"}</p>'
             f'<h1>{esc(card["title"])}</h1></header>'
+            f'{sheet_index(summary=True, books=bool(books), passages=bool(card["passages"]))}'
             f'<div class="sheet-layout"><div>{video_player(ident, card["title"])}<section class="sheet-summary" aria-labelledby="sintesi"><h2 id="sintesi">{summary_heading}</h2>'
-            f'<p>{esc(card["summary"])}</p><div class="sheet-actions">'
+            f'{sheet_summary(card["summary"])}<div class="sheet-actions">'
             f'<a class="text-link" href="{esc(watch(), quote=True)}" target="_blank" rel="noopener noreferrer">Apri su YouTube ↗</a>'
             '<a class="text-link" href="#passaggi">Vai ai passaggi ↓</a></div></section>'
             f'<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">{books_heading}</h2>{"".join(books)}</section></div>'
@@ -252,7 +291,7 @@ def video_content(card, bibliography):
 
 
 def video_player(ident, title):
-    return ('<div class="video-consent">'
+    return ('<div class="video-consent" id="filmato">'
             f'<div class="sheet-player"><button class="sheet-play" data-play-video="{html.escape(ident)}" '
             f'aria-label="Accetta e riproduci: {html.escape(title, quote=True)}">'
             f'<img src="https://i.ytimg.com/vi/{html.escape(ident)}/hqdefault.jpg" alt="" width="480" height="270" decoding="async">'
@@ -281,12 +320,13 @@ def catalog_video_content(video, bibliography):
             else:
                 links.append('<p class="card-book-status">Riferimento nel titolo del video; contenuto da verificare.</p>')
         book_rows.append(f'<article class="card-book">{image}<div><h3><a href="../biblioteca.html#book-{esc(book["id"])}">{esc(book["title"])}</a></h3>'
-                         f'<p class="card-book-author">{esc(book["author"])}</p>{edition}{"".join(links)}'
+                         f'<p class="card-book-author">{esc(book["author"])}</p>{book_reference_notes(edition)}{"".join(links)}'
                          f'<a class="text-link" href="../biblioteca.html#book-{esc(book["id"])}">Fonti e libro →</a></div></article>')
     references = ('<section class="sheet-books" aria-labelledby="libri"><h2 id="libri">Riferimenti già collegati</h2>'
                   + ''.join(book_rows) + '</section>') if related else ''
     return (f'<article class="section wrap video-sheet"><a class="text-link" href="../video.html">← Tutti i video</a>'
             f'<header class="sheet-heading"><p class="eyebrow">DALL’ARCHIVIO DEL CANALE · {timestamp(video.get("duration"))}</p><h1>{esc(video["title"])}</h1></header>'
+            f'{sheet_index(books=bool(related))}'
             f'<div class="sheet-layout"><div>{video_player(ident, video["title"])}'
             f'<p class="sheet-original"><a class="text-link" href="https://www.youtube.com/watch?v={ident}" target="_blank" rel="noopener noreferrer">Apri il video su YouTube ↗</a></p>{references}</div>'
             '<aside class="sheet-work-state"><p class="source-note">Approfondimento in preparazione.</p></aside></div></article>')
@@ -397,13 +437,16 @@ def _build_site(root, pages=None, *, home_template=None):
         page = page.replace('data-page="video"', 'data-page="scheda"')
         documents.append(("scheda", filename, page, []))
     style = (source / "styles.css").read_text(encoding="utf-8")
+    refinement = (source / 'refinement.css').read_text(encoding='utf-8') if (source / 'refinement.css').exists() else ''
     style_version = hashlib.sha256(style.encode("utf-8")).hexdigest()[:12]
     script = (source / "app.js").read_text(encoding="utf-8")
     script_version = hashlib.sha256(script.encode("utf-8")).hexdigest()[:12]
+    refinement_version = hashlib.sha256(refinement.encode('utf-8')).hexdigest()[:12]
     for key, filename, page, datasets in documents:
         prefix = "../" if key in ("articolo", "scheda") else ""
         stylesheet = f'<link rel="stylesheet" href="{prefix}styles.css?v={style_version}">'
         page = page.replace(f'<link rel="stylesheet" href="{prefix}styles.css">', stylesheet)
+        page = page.replace(f'href="{prefix}refinement.css"', f'href="{prefix}refinement.css?v={refinement_version}"')
         script_tag = f'<script src="{prefix}app.js?v={script_version}" defer></script>'
         page = page.replace(f'<script src="{prefix}app.js" defer></script>', script_tag)
         target = source / filename
@@ -414,7 +457,8 @@ def _build_site(root, pages=None, *, home_template=None):
             if key == "biblioteca" or (key == "home" and book["id"] in featured):
                 embed_cover(source, book.get("cover"))
         safe_json = json.dumps(embedded, ensure_ascii=False).replace("<", "\\u003c")
-        page = page.replace(stylesheet, "<style>" + style + "</style>")
+        page = page.replace(stylesheet, "<style>" + style + '\n' + refinement + "</style>")
+        page = page.replace(f'<link rel="stylesheet" href="{prefix}refinement.css?v={refinement_version}">', '')
         page = page.replace(script_tag, "")
         page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
         page = offline_links(page, filename, mapping)

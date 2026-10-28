@@ -61,6 +61,7 @@ def create(proposal=PROPOSAL, source=SOURCE, label='PROPOSTA EDITORIALE',
     for retired_data in ('blog.json', 'ricerca.json'):
         (dist / 'data' / retired_data).unlink(missing_ok=True)
     shutil.copy2(ROOT / 'sito/dist/app.js', dist / 'app.js')
+    shutil.copy2(ROOT / 'sito/dist/refinement.css', dist / 'refinement.css')
     for original in (ROOT / 'sito/templates').glob('*.html'):
         shutil.copy2(original, templates / original.name)
     books = json.loads((dist / 'data/libri.json').read_text())

@@ -116,6 +116,7 @@ class EditorialCatalogueTests(unittest.TestCase):
         (self.source / 'index.html').write_text('<a href="progetto.html">Progetto</a>')
         (self.source / 'progetto.html').write_text(editorial_catalog([self.volume], self.source))
         (self.source / 'styles.css').write_text('')
+        (self.source / 'refinement.css').write_text('')
         (self.source / 'app.js').write_text('')
         manifest = {'pages': [{'path': 'index.html'}, {'path': 'progetto.html'}]}
         with patch.object(publication, 'ROOT', self.root), \
