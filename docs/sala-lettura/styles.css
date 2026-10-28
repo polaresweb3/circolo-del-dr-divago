@@ -1118,4 +1118,25 @@ body[data-page='salotto'] .home-editorial { padding-block: var(--section-space);
   .home-starters, .salon-library, body[data-page='salotto'] .home-editorial { padding-block: 1.5rem; }
 }
 
+/* Una luce da condividere: la citazione introduce le conversazioni. */
+.home-candle-quote {
+  margin: var(--section-space) auto 0;
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+  border-block: 1px solid var(--rule);
+  color: var(--green);
+  text-align: center;
+  scroll-margin-top: 2rem;
+}
+.candle-engraving { display: block; margin: 0 auto 1rem; }
+.candle-quote-heading { justify-content: center; color: var(--muted); margin: 0 0 1.5rem; }
+.home-candle-quote blockquote { max-width: 58rem; margin: 0 auto; padding: 0; border: 0; }
+.home-candle-quote blockquote p { margin: 0; font: 400 clamp(1.65rem, 2.8vw, 2.5rem)/1.5 var(--serif); letter-spacing: -.018em; text-wrap: balance; }
+.home-candle-quote blockquote em { font-weight: 400; }
+@media (max-width: 46rem) {
+  .home-candle-quote { padding-inline: .25rem; }
+  .candle-quote-break { display: none; }
+  .candle-quote-heading { margin-bottom: 1.25rem; }
+}
+@media print { .home-candle-quote { break-inside: avoid; } }
+
 }
