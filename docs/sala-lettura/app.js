@@ -312,6 +312,9 @@
     }
     function refresh() {
       const criteria = read();
+      const refineCount = ['kind', 'author', 'theme'].filter(key => criteria[key] !== 'all').length + Number(criteria.sort !== 'author');
+      const refineLabel = $('book-refine-count');
+      if (refineLabel) refineLabel.textContent = refineCount ? `· ${refineCount} ${refineCount === 1 ? 'attivo' : 'attivi'}` : '';
       $('book-author-label').textContent = activeFormat === 'film' ? 'Regista / autore' : 'Autore / creatore';
       $('book-author').options[0].textContent = activeFormat === 'film' ? 'Tutti i registi / autori' : 'Tutti gli autori / creatori';
       const formatCounts = counts(index, {...criteria, kind: 'all'}, 'format');
@@ -702,7 +705,40 @@ function renderHome() {
     link.append(visual, copy); return link;
   }));
 }
+function setupNavigation() {
+  const button = document.querySelector('.nav-toggle');
+  const navigation = document.getElementById('site-navigation');
+  if (!button || !navigation) return;
+  const header = button.closest('.header');
+  const setOpen = open => {
+    button.setAttribute('aria-expanded', String(open));
+    header.classList.toggle('nav-open', open);
+  };
+  button.hidden = false;
+  header.dataset.menuReady = 'true';
+  button.addEventListener('click', () => setOpen(button.getAttribute('aria-expanded') !== 'true'));
+  navigation.addEventListener('click', event => { if (event.target.closest('a')) setOpen(false); });
+  header.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+      setOpen(false); button.focus();
+    }
+  });
+}
+
+function setupLibraryDisclosure() {
+  const panel = document.getElementById('library-refine');
+  if (!panel) return;
+  const mobile = window.matchMedia('(max-width: 46rem)');
+  const update = () => {
+    const filtered = ['book-kind', 'book-author', 'book-theme'].some(id => $(id).value !== 'all') || $('book-sort').value !== 'author';
+    panel.open = !mobile.matches || filtered;
+  };
+  update();
+  mobile.addEventListener('change', update);
+}
+
 async function start() {
+  setupNavigation();
   PublicNames.observe(document.querySelector('main'));
   PublicNames.observe(document.getElementById('detail'));
   ReadableTimings.normalizeDocument(document.querySelector('main'));
@@ -740,6 +776,7 @@ async function start() {
       books: state.books, cards: state.cards,
       onChange: () => filterBooks()
     });
+    setupLibraryDisclosure();
     filterBooks(true, window.location.hash.slice(1));
   }
   if (page === 'scheda') {

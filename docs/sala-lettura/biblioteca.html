@@ -8,19 +8,23 @@
   <meta name="color-scheme" content="light">
   <title>La biblioteca citata — Circolo del Dr Divago</title>
   <link rel="stylesheet" href="styles.css?v=e7f414a183e0">
-  <script src="app.js?v=bdbabb206297" defer></script>
+  <link rel="stylesheet" href="refinement.css?v=3fb73ea7ec71">
+  <script src="app.js?v=91f97ff84341" defer></script>
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body id="inizio" data-page="biblioteca" data-root="" data-featured-books="libri-della-mia-vita-salamov,minima-moralia-adorno,nel-ventre-della-balena-orwell">
   <a class="skip" href="#contenuto">Vai al contenuto</a>
   <header class="header wrap">
     <a class="wordmark" href="index.html" aria-label="Circolo del Dr Divago, Home">Circolo del <em>Dr Divago</em><span>LE IDEE DEL PASSATO PER COMPRENDERE IL PRESENTE E IMMAGINARE IL FUTURO</span></a>
-    <nav aria-label="Navigazione principale"><a href="index.html">Home</a><a href="video.html">Video</a><a href="biblioteca.html" aria-current="page">Biblioteca</a><a href="eventi.html">Eventi</a><a href="progetto.html">Progetto Editoriale</a></nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="site-navigation" aria-label="Navigazione principale"><a href="index.html">Home</a><a href="video.html">Video</a><a href="biblioteca.html" aria-current="page">Biblioteca</a><a href="eventi.html">Eventi</a><a href="progetto.html">Progetto Editoriale</a></nav>
   </header>
   <div class="breadcrumb wrap" aria-label="Percorso"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Biblioteca</span></div>
   <main id="contenuto"><section id="biblioteca" class="library-section"><div class="wrap section"><div class="section-head page-heading"><div><h1>La biblioteca <em>citata.</em></h1></div></div><div class="library-intro"><p>Libri, film e altre opere citate nei video, con i passaggi e le fonti.</p><span class="review-label" id="book-count"></span></div><div class="library-tools library-discovery">
   <label class="book-search"><span>Cerca nella biblioteca</span><input id="book-search" type="search" placeholder="Titolo, autore o titolo originale…"></label>
   <fieldset class="book-format-field"><legend>Che cosa cerchi?</legend><div id="book-formats" class="book-formats"></div></fieldset>
+  <details class="library-refine" id="library-refine" open>
+  <summary>Filtra e ordina <span id="book-refine-count"></span></summary>
   <div class="book-selects">
     <label class="select-label"><span>Tipo di opera</span><select id="book-kind"><option value="all">Tutti i tipi</option></select></label>
     <label class="select-label" for="book-author"><span id="book-author-label">Autore / creatore</span><select id="book-author"><option value="all">Tutti gli autori / creatori</option></select></label>
@@ -28,10 +32,10 @@
     <label class="select-label"><span>Ordina per</span><select id="book-sort"><option value="author">Autore A–Z</option><option value="title">Titolo A–Z</option><option value="mentions">Più citati nei video</option></select></label>
   </div>
   <p class="filter-note" id="book-theme-note">I temi raggruppano gli argomenti delle conversazioni in cui compare l’opera. Non sono una classificazione del suo contenuto.</p>
+  </details>
   <div class="book-filter-actions"><div id="book-active-filters" class="book-active-filters" aria-label="Filtri attivi"></div><button id="book-reset" type="button" class="filter-reset" hidden>Azzera filtri</button></div>
 </div>
-<p id="book-results" class="source-note" role="status" aria-live="polite"></p><div id="books"></div><div class="pagination"><button id="book-previous" class="small-button" disabled>← Precedenti</button><span id="book-page"></span><button id="book-next" class="small-button" disabled>Successivi →</button></div></div></section>
-</main>
+<p id="book-results" class="source-note" role="status" aria-live="polite"></p><div id="books"></div><div class="pagination"><button id="book-previous" class="small-button" disabled>← Precedenti</button><span id="book-page"></span><button id="book-next" class="small-button" disabled>Successivi →</button></div></div></section></main>
   <footer class="wrap footer"><a class="footer-wordmark" href="index.html">Circolo del <em>Dr Divago</em></a><span>LIBRI, IDEE, CONVERSAZIONI.</span><div class="footer-links"><a href="privacy.html">Privacy</a><a href="crediti.html">Crediti e diritti</a><a href="https://www.youtube.com/@DrDivago" target="_blank" rel="noopener noreferrer">Il canale ↗</a><a href="#inizio">Torna su ↑</a></div></footer>
   <dialog id="detail" aria-labelledby="dialog-title"><div class="dialog-top"><span>CIRCOLO DEL DR DIVAGO</span><button id="close-dialog" aria-label="Chiudi finestra">✕</button></div><div id="dialog-content"></div></dialog>
 </body>

@@ -209,11 +209,11 @@ def sheet_summary(text):
     if len(text.split()) <= 150:
         return f'<p>{html.escape(text)}</p>'
     boundaries = [match.end() for match in re.finditer(r'(?<=[.!?])\s+', text)
-                  if 60 <= len(text[:match.start()].split()) <= 120]
+                  if 45 <= len(text[:match.start()].split()) <= 90]
     if boundaries:
-        split = min(boundaries, key=lambda position: abs(len(text[:position].split()) - 90))
+        split = min(boundaries, key=lambda position: abs(len(text[:position].split()) - 65))
     else:
-        split = list(re.finditer(r'\S+', text))[100].start()
+        split = list(re.finditer(r'\S+', text))[75].start()
     return (f'<p>{html.escape(text[:split].rstrip())}</p>'
             '<details class="sheet-summary-more"><summary>'
             '<span class="when-closed">Leggi la sintesi completa</span>'
