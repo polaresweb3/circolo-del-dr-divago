@@ -601,13 +601,12 @@ function renderBooks(books) {
     for (const mention of book.mentions) {
       const reference = node('div', 'book-mention');
       const moment = mention.title_seconds ?? mention.seconds;
-      const qualifier = mention.verification === 'identificazione_probabile' ? ' · probabile' : '';
       const link = sourceLink(mention.video_id, '', moment);
       link.className = 'book-youtube-link';
       const play = node('span', 'book-link-icon', '▶');
       play.setAttribute('aria-hidden', 'true');
-      link.append(play, node('span', '', Number.isFinite(moment) ? `YouTube · ${duration(moment)}${qualifier} ↗` : `Guarda su YouTube${qualifier} ↗`));
-      link.setAttribute('aria-label', `Guarda su YouTube: ${mention.video_title || book.title}${Number.isFinite(moment) ? `, passaggio ${duration(moment)}` : ''}${qualifier} (nuova scheda)`);
+      link.append(play, node('span', '', Number.isFinite(moment) ? `YouTube · ${duration(moment)} ↗` : `Guarda su YouTube ↗`));
+      link.setAttribute('aria-label', `Guarda su YouTube: ${mention.video_title || book.title}${Number.isFinite(moment) ? `, passaggio ${duration(moment)}` : ''} (nuova scheda)`);
       if (mention.note) link.title = ReadableTimings.format(mention.note);
       const context = node('a', 'text-link book-video-title', mention.video_title || 'Video e scheda →');
       context.href = videoPageUrl({id: mention.video_id});
