@@ -254,7 +254,7 @@ def video_content(card, bibliography):
         if cover.get('edition_note'):
             edition += f'<p class="card-book-edition">{esc(cover["edition_note"])}</p>'
         status = mention.get("confidence", "riscontro_testuale")
-        label = "Identificazione probabile" if status == "identificazione_probabile" else ""
+        label = {"identificazione_probabile": "Identificazione probabile", "riferimento_descrizione": "Nella descrizione del video"}.get(status, "")
         status_note = f'<p class="card-book-status">{esc(label)}</p>' if label else ""
         moment = mention.get("title_seconds") or mention.get("seconds")
         evidence = f'<p>{esc(mention["evidence"])}</p>' if mention.get('evidence') else ''
@@ -400,6 +400,8 @@ def _build_site(root, pages=None, *, home_template=None):
             main = template.read_text(encoding="utf-8")
         main = main.replace("{{completed_count}}", str(len(cards)))
         main = main.replace("{{books_count}}", f"{len(bibliography):,}".replace(",", "."))
+        main = main.replace("{{videos_count}}", str(len(data.get("catalogo.json", {}).get("videos", []))))
+        main = main.replace("{{hours_count}}", str(round(sum(video.get("duration") or 0 for video in data.get("catalogo.json", {}).get("videos", [])) / 3600)))
         if "{{home_conversations}}" in main:
             main = main.replace("{{home_conversations}}", home_conversations(data.get("catalogo.json", {}).get("videos", [])))
         main = main.replace("{{latest_divagation}}", home_latest(posts))
@@ -463,7 +465,7 @@ def _build_site(root, pages=None, *, home_template=None):
         page = page.replace(stylesheet, "<style>" + style + '\n' + refinement + "</style>")
         page = page.replace(f'<link rel="stylesheet" href="{prefix}refinement.css?v={refinement_version}">', '')
         page = page.replace(script_tag, "")
-        page = page.replace('<body id="inizio"', '<body data-preview="true" id="inizio"')
+        page = page.replace('<body ', '<body data-preview="true" ', 1)
         page = offline_links(page, filename, mapping)
         if key == "progetto":
             for volume in data.get("volumi.json", []):

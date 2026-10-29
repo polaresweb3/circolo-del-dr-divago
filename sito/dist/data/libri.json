@@ -11808,6 +11808,18 @@
         "note": "Corano nominato esplicitamente; nessun versetto o edizione determinati. Il rinvio alla raccolta degli hadith non viene confuso con il testo coranico.",
         "role": "riferimento",
         "video_title": "Is it really that difficult to understand?"
+      },
+      {
+        "video_id": "oDXS2Mz0-1g",
+        "seconds": 548,
+        "title_seconds": 548,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Richiamo esplicito al Corano e a formulazioni parafrasate nel corso della polemica. Non vengono forniti numeri di versetto né una traduzione identificabile.",
+        "role": "riferimento",
+        "video_title": "“...et mundus eum non cognovit...” (Giovanni 1:10)"
       }
     ],
     "work_type": "testo_religioso",
@@ -22235,6 +22247,18 @@
         "note": "Pilato e la domanda sulla verità (Gv 18:38); poi via, verità e vita (Gv 14:6). L’ipotesi di interpolazione attribuita a Gerolamo è del relatore, contraddetta dalla citazione in Ireneo IV 7,3 anteriore a Gerolamo; nessuna certezza sulle parole storicamente pronunciate da Gesù è dedotta.",
         "role": "riferimento",
         "video_title": "Seminari tematici (IIl): tramonto della verità."
+      },
+      {
+        "video_id": "oDXS2Mz0-1g",
+        "seconds": 269,
+        "title_seconds": 269,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il prologo di Giovanni è nominato e viene citato il versetto 1,10. Il passo latino inizia intorno a 284 secondi; la traduzione o edizione usata non è identificata.",
+        "role": "riferimento",
+        "video_title": "“...et mundus eum non cognovit...” (Giovanni 1:10)"
       }
     ],
     "cover": {
@@ -150238,5 +150262,298 @@
         "video_title": "Seminario tematico: l'industria culturale e le sue piaghe."
       }
     ]
+  },
+  {
+    "id": "nostra-aetate-concilio-1965",
+    "title": "Nostra aetate",
+    "author": "Concilio Vaticano II; promulgazione di Paolo VI",
+    "work_type": "dichiarazione conciliare",
+    "status": "citazione_esplicita",
+    "source": "Dichiarazione nominata nel discorso, con riferimento ripetuto al paragrafo 3. Testo e titolo confrontati con la fonte ufficiale del 28 ottobre 1965.",
+    "references": [
+      {
+        "label": "Santa Sede · testo italiano della dichiarazione, paragrafo 3",
+        "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_it.html"
+      },
+      {
+        "label": "EDUSC · sinossi e documentazione conciliare",
+        "url": "https://www.edusc.pub/nostra-aetate/"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/nostra-aetate-concilio.jpg",
+      "edition_label": "EDUSC, 2013 · sinossi della dichiarazione",
+      "source_page": "https://www.edusc.pub/nostra-aetate/",
+      "image_url": "https://www.edusc.pub/wp-content/uploads/2024/07/Cover_NOSTRA-AETATE-480x751.jpg",
+      "edition_confirmed_in_video": false,
+      "edition_note": "La voce riguarda la dichiarazione del 1965. L’immagine mostra la sinossi critica curata da Francisco Gil Hellín, con documentazione sul testo conciliare: è un volume di riferimento, non un’edizione mostrata o identificata nel video.",
+      "asset_sha256": "8cd77f46fc5eca40cf111c52a07419c83152f0781cec2dc64a721a38d5138dca",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-29T09:54:33.338923+00:00",
+        "width": 480,
+        "height": 751,
+        "method": "Decodifica completa con Pillow"
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-29T09:54:33.338923+00:00",
+        "method": "Controllo visivo assistito da IA della fonte autentica, senza ricostruzioni"
+      },
+      "image_label": "Volume di documentazione",
+      "container_title": "Concilii Vaticani II Synopsis: Nostra aetate",
+      "isbn": "9788883333064"
+    },
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "oDXS2Mz0-1g",
+        "seconds": 55,
+        "title_seconds": 55,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Dichiarazione nominata più volte, con riferimento esplicito al paragrafo 3; grafia del titolo normalizzata sul documento ufficiale.",
+        "role": "riferimento",
+        "video_title": "“...et mundus eum non cognovit...” (Giovanni 1:10)"
+      }
+    ],
+    "publication_year": 1965
+  },
+  {
+    "id": "maometto-carlomagno-pirenne",
+    "title": "Maometto e Carlomagno",
+    "author": "Henri Pirenne",
+    "work_type": "saggio storico",
+    "status": "identificazione_probabile",
+    "source": "Il titolo non viene pronunciato. Il richiamo alla fine dell’unità mediterranea e alle conquiste islamiche coincide con la tesi di Pirenne; il nome è poco chiaro nella fonte automatica. L’identificazione dell’opera resta probabile.",
+    "references": [
+      {
+        "label": "Luni Editrice · opera, autore e tesi del libro",
+        "url": "https://www.lunieditrice.com/product/maometto-e-carlomagno-henri-pirenne/"
+      },
+      {
+        "label": "Laterza · Peter Brown discute la tesi di Pirenne",
+        "url": "https://www.laterza.it/scheda-libro/?isbn=9788842079927"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/maometto-carlomagno-pirenne.jpg",
+      "edition_label": "Luni Editrice · traduzione di Anna Maria Martelli",
+      "source_page": "https://www.lunieditrice.com/product/maometto-e-carlomagno-henri-pirenne/",
+      "image_url": "https://www.lunieditrice.com/wp-content/uploads/2021/01/Maometto-e-Carlomagno.jpg",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica della scheda Luni Editrice. L’identificazione del riferimento è probabile; nessuna edizione o traduzione è attribuita al video.",
+      "asset_sha256": "0358085a77615db914f11d9c7275ede66ebe6eddb61c523a4ecfa7719c69c3dc",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-29T09:54:33.338923+00:00",
+        "width": 408,
+        "height": 600,
+        "method": "Decodifica completa con Pillow"
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-29T09:54:33.338923+00:00",
+        "method": "Controllo visivo assistito da IA della fonte autentica, senza ricostruzioni"
+      },
+      "isbn": "9788879845618"
+    },
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "oDXS2Mz0-1g",
+        "seconds": 715,
+        "title_seconds": 715,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il richiamo alla disgregazione dell’unità mediterranea per effetto delle conquiste islamiche coincide con la tesi di Pirenne. Nome poco chiaro nella fonte automatica e titolo non pronunciato: identificazione probabile.",
+        "role": "riferimento",
+        "video_title": "“...et mundus eum non cognovit...” (Giovanni 1:10)"
+      }
+    ],
+    "original_title": "Mahomet et Charlemagne",
+    "publication_year": 1937
+  },
+  {
+    "id": "gabriels-oboe-morricone",
+    "title": "Gabriel’s Oboe",
+    "author": "Ennio Morricone",
+    "work_type": "composizione musicale",
+    "status": "riferimento_descrizione",
+    "source": "Brano e compositore indicati nella descrizione del video musicale. L’identità dell’opera e il rapporto con The Mission sono confermati dal catalogo editoriale; l’interprete e l’arrangiamento del filmato non sono identificati.",
+    "references": [
+      {
+        "label": "Schott / Hal Leonard · spartito e autore",
+        "url": "https://www.schott-music.com/en/gabriel-s-oboe-no321743.html"
+      },
+      {
+        "label": "Scomegna · origine nella colonna sonora di The Mission",
+        "url": "https://scomegna.com/it/gabriel-s-oboe.html"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/gabriels-oboe-morricone.jpg",
+      "edition_label": "Hal Leonard · oboe e pianoforte o pianoforte solo",
+      "source_page": "https://www.schott-music.com/en/gabriel-s-oboe-no321743.html",
+      "image_url": "https://schott-production.s3.eu-central-1.amazonaws.com/media/catalog/product/cache/4e9c0b7090400674309c3cb2e230288d/H/L/HLE_90004684-Morricone_648_.jpg",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Copertina autentica della partitura HLE 90004684. È un’edizione di riferimento e non l’identificazione della partitura o dell’arrangiamento suonato nel filmato.",
+      "asset_sha256": "f764fbb93849698100b9053d53470580490a0da775bf6b6eab918b6b7ab23b9d",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-29T09:54:33.338923+00:00",
+        "width": 500,
+        "height": 500,
+        "method": "Decodifica completa con Pillow"
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-29T09:54:33.338923+00:00",
+        "method": "Controllo visivo assistito da IA della fonte autentica, senza ricostruzioni"
+      },
+      "image_label": "Copertina della partitura",
+      "isbn": "9781780389912"
+    },
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "_--H5np-Arc",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "analisi_fotogrammi_locali",
+        "verification": "riferimento_descrizione",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Brano e compositore indicati nella descrizione del canale; identità verificata nel catalogo editoriale. Il collegamento apre l’inizio dell’estratto musicale.",
+        "role": "riferimento",
+        "video_title": "Not all classical music is “classical...”"
+      }
+    ],
+    "publication_year": 1986
+  },
+  {
+    "id": "praise-my-soul-lyte-goss",
+    "title": "Praise, My Soul, the King of Heaven",
+    "author": "Henry Francis Lyte (testo); John Goss (melodia LAUDA ANIMA)",
+    "work_type": "inno",
+    "status": "riferimento_descrizione",
+    "source": "Inno menzionato nella descrizione del canale come termine di confronto con Morricone. Le fonti confermano titolo e autori, ma non dimostrano il rapporto di derivazione proposto dal curatore.",
+    "references": [
+      {
+        "label": "Hymnary · testo, autore e melodia",
+        "url": "https://hymnary.org/text/praise_my_soul_the_king_of_heaven"
+      },
+      {
+        "label": "Center for Church Music · spartito di pubblico dominio",
+        "url": "https://songsandhymns.org/pdf/sheet_music/praise-my-soul-the-king-of-heaven.pdf"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/praise-my-soul-lyte-goss.png",
+      "edition_label": "Center for Church Music · spartito di pubblico dominio",
+      "source_page": "https://songsandhymns.org/pdf/sheet_music/praise-my-soul-the-king-of-heaven.pdf",
+      "image_url": "https://songsandhymns.org/pdf/sheet_music/praise-my-soul-the-king-of-heaven.pdf",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Prima pagina dello spartito: testo di Henry F. Lyte, 1834, e melodia di John Goss, indicata 1869 nella fonte. L’inno è richiamato nella descrizione, non eseguito separatamente nel campione del video.",
+      "asset_sha256": "44e4f6204f951dd4e1dd9ce9070456d5bbf005ae593ec76bbc6769d7977c32f7",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-29T09:54:33.338923+00:00",
+        "width": 696,
+        "height": 900,
+        "method": "Decodifica completa con Pillow"
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-29T09:54:33.338923+00:00",
+        "method": "Controllo visivo assistito da IA della fonte autentica, senza ricostruzioni"
+      },
+      "image_label": "Pagina dello spartito",
+      "image_type": "pagina_spartito",
+      "license": "Public Domain"
+    },
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "_--H5np-Arc",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "analisi_fotogrammi_locali",
+        "verification": "riferimento_descrizione",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Inno nominato nella descrizione come confronto proposto dal curatore. Non è una citazione pronunciata e il nesso di derivazione con Morricone non è verificato.",
+        "role": "riferimento",
+        "video_title": "Not all classical music is “classical...”"
+      }
+    ],
+    "publication_year": 1834
+  },
+  {
+    "id": "the-mission-joffe-1986",
+    "title": "The Mission",
+    "author": "Roland Joffé (regia); Robert Bolt (sceneggiatura)",
+    "work_type": "film",
+    "status": "riferimento_descrizione",
+    "source": "Film indicato nella descrizione come origine di Gabriel’s Oboe. Il filmato pubblicato mostra un concerto: il riferimento alla pellicola è descrittivo e non identifica le immagini come scene del film.",
+    "references": [
+      {
+        "label": "British Film Institute · scheda del film",
+        "url": "https://www.bfi.org.uk/film/3bbc8702-db55-5d51-bd60-90953a18b0ce/the-mission"
+      },
+      {
+        "label": "BFI · la colonna sonora di Morricone",
+        "url": "https://www.bfi.org.uk/lists/ennio-morricone-10-scores"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/the-mission-joffe.jpg",
+      "edition_label": "British Film Institute · fotogramma di The Mission (1986)",
+      "source_page": "https://www.bfi.org.uk/lists/ennio-morricone-10-scores",
+      "image_url": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2020-10/mission-the-1986-robert-de-niro-bedraggled.jpg/600x0/mission-the-1986-robert-de-niro-bedraggled.jpg",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Fotogramma autentico pubblicato dal BFI come immagine del film: non è una locandina e non proviene dal concerto ripreso nel video di Dr Divago.",
+      "asset_sha256": "ccb7d805df471aca94838a11a9177a2c4f602d18f7c50fa5f1a2af8ed7e5aa58",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-10-29T09:54:33.338923+00:00",
+        "width": 600,
+        "height": 396,
+        "method": "Decodifica completa con Pillow"
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-10-29T09:54:33.338923+00:00",
+        "method": "Controllo visivo assistito da IA della fonte autentica, senza ricostruzioni"
+      },
+      "image_label": "Fotogramma del film",
+      "image_type": "fotogramma",
+      "credit": "British Film Institute · immagine dalla pagina sulla musica di Morricone"
+    },
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "_--H5np-Arc",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "analisi_fotogrammi_locali",
+        "verification": "riferimento_descrizione",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Film indicato nella descrizione come origine del tema di Morricone; il video mostra un concerto e non una sequenza cinematografica.",
+        "role": "riferimento",
+        "video_title": "Not all classical music is “classical...”"
+      }
+    ],
+    "publication_year": 1986
   }
 ]

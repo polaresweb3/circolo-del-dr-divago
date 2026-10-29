@@ -654,7 +654,7 @@ async function renderBooks(books) {
     text.append(node('p', 'book-author', book.author));
     const videoCount = new Set(book.mentions.map(mention => mention.video_id)).size;
     text.append(node('p', 'book-mentions-count', videoCount === 1 ? '1 video collegato' : `${videoCount} video collegati`));
-    const labels = {verificato: 'Riferimento verificato', citazione_esplicita: 'Riferimento nella trascrizione automatica', riscontro_audio_automatico: 'Riferimento nella trascrizione automatica', titolo_nella_trascrizione: 'Titolo nella trascrizione automatica', titolo_nel_video: 'Nel titolo del video', identificazione_probabile: 'Identificazione probabile', citazione_probabile: 'Identificazione probabile', da_riascoltare: 'Riferimento da confermare'};
+    const labels = {verificato: 'Riferimento verificato', citazione_esplicita: 'Riferimento nella trascrizione automatica', riscontro_audio_automatico: 'Riferimento nella trascrizione automatica', titolo_nella_trascrizione: 'Titolo nella trascrizione automatica', titolo_nel_video: 'Nel titolo del video', identificazione_probabile: 'Identificazione probabile', citazione_probabile: 'Identificazione probabile', da_riascoltare: 'Riferimento da confermare', riferimento_descrizione: 'Nella descrizione del video'};
     const notes = node('details', 'book-details');
     notes.append(node('summary', '', 'Note sul riferimento'), node('p', 'book-reference-status', labels[book.status] || 'Da verificare'));
     if (book.source) notes.append(node('p', 'book-source', book.source));

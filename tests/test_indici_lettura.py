@@ -81,6 +81,7 @@ class ReadingIndexTests(unittest.TestCase):
                 self.assertTrue((dist / path).is_file())
             offline = (root / 'sito/anteprima-biblioteca.html').read_text()
             self.assertIn('id="embedded-data"', offline)
+            self.assertIn('data-preview="true"', offline)
             self.assertIn('"data/libri.json": []', offline)
 
 

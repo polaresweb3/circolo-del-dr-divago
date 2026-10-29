@@ -90,7 +90,6 @@ class MultipageTests(unittest.TestCase):
         expected = {'video/' + video['id'] + '.html' for video in videos}
         actual = {item['path'] for item in self.manifest if item['page'] == 'scheda'}
         self.assertEqual(actual, expected)
-        self.assertEqual(len(actual), 869)
         for name in ['schede-completate.html', 'trascrizioni.html', 'casa-editrice.html']:
             self.assertFalse((ROOT / 'sito/dist' / name).exists())
         for item in self.manifest:

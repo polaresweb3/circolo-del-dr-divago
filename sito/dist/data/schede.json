@@ -258626,5 +258626,462 @@
       "Le affermazioni politiche, le attribuzioni a Hamas, le accuse di abusi e il paragone con gli Einsatzgruppen sono descritti come contenuti del montaggio. Le immagini e i sottotitoli non costituiscono da soli un’autenticazione delle persone, dei luoghi o dei singoli episodi. Nessuna identità viene dedotta dai volti.",
       "Il titolo dell’articolo visibile a45s è riscontrato nella pagina primaria del Times of Israel, firma Marissa Newman e AP,19ottobre2014. Data dell’articolo, pubblicazione del video16novembre2023 e dichiarazioni del montaggio sono livelli distinti. https://www.timesofisrael.com/hamas-leaders-daughter-said-to-receive-medical-care-in-israel/"
     ]
+  },
+  {
+    "video_id": "oDXS2Mz0-1g",
+    "title": "“...et mundus eum non cognovit...” (Giovanni 1:10)",
+    "duration_seconds": 1017,
+    "updated_at": "2026-10-29T09:54:33.350775+00:00",
+    "human_audio_review": false,
+    "source_type": "riconoscimento_vocale_locale",
+    "language": "it",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "summary": "Il versetto Giovanni 1,10 offre il punto di partenza per una riflessione sul rapporto tra esperienza religiosa e vita sociale. Caldarella si interroga sulla lettura del prologo giovanneo alla conclusione della messa tradizionale e interpreta il mancato riconoscimento di Cristo come un monito alla distanza critica dal mondo. Il discorso si apre con una polemica contro il paragrafo 3 di Nostra aetate e torna più volte al rapporto tra cristianesimo e islam, con richiami al Corano.\n\nNella seconda parte la discussione si allarga alla storia del Mediterraneo e alla fine dell’unità romana, richiamando una tesi riconducibile a Henri Pirenne. I giudizi sul dialogo interreligioso, sulle riforme liturgiche e sull’ideologia contemporanea esprimono la posizione del relatore. Il titolo del libro storico non è pronunciato: l’identificazione proposta resta probabile.",
+    "topics": [
+      "Teologia e mondo sociale",
+      "Nostra aetate e dialogo interreligioso",
+      "Vangelo di Giovanni e liturgia",
+      "Storia del Mediterraneo e interpretazioni di Pirenne",
+      "Lettura delle fonti e critica dell’ideologia"
+    ],
+    "passages": [
+      {
+        "seconds": 31,
+        "label": "Il concilio e Nostra aetate",
+        "description": "La polemica si concentra sul paragrafo 3 della dichiarazione conciliare e sulla lettura dei testi.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 230,
+        "label": "La conclusione della messa tradizionale",
+        "description": "Il relatore introduce la domanda sull’ultimo Vangelo e sul significato del congedo.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 269,
+        "label": "Giovanni 1,10",
+        "description": "La citazione del prologo giovanneo diventa un monito sul rapporto tra fede e mondo.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 393,
+        "label": "Cesare, Dio e la vita sociale",
+        "description": "Il discorso propone una separazione tra dimensione teologica e ordinamento terreno.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 534,
+        "label": "Il Corano nella polemica interreligiosa",
+        "description": "Ritornano richiami polemici al testo coranico, senza indicare una traduzione o versetti numerati.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 715,
+        "label": "Il Mediterraneo e la fine dell’unità romana",
+        "description": "Il controllo del mare e l’espansione islamica richiamano probabilmente la tesi di Pirenne.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 906,
+        "label": "La distanza critica dal mondo",
+        "description": "La conclusione insiste sulla lettura delle fonti e sulla resistenza alle semplificazioni ideologiche.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      }
+    ],
+    "books": [
+      {
+        "book_id": "nostra-aetate-concilio-1965",
+        "seconds": 55,
+        "title_seconds": 55,
+        "evidence": "Dichiarazione nominata più volte, con riferimento esplicito al paragrafo 3; grafia del titolo normalizzata sul documento ufficiale.",
+        "confidence": "riscontro_audio_automatico",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
+        "book_id": "vangelo-giovanni",
+        "seconds": 269,
+        "title_seconds": 269,
+        "evidence": "Il prologo di Giovanni è nominato e viene citato il versetto 1,10. Il passo latino inizia intorno a 284 secondi; la traduzione o edizione usata non è identificata.",
+        "confidence": "riscontro_audio_automatico",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
+        "book_id": "corano",
+        "seconds": 548,
+        "title_seconds": 548,
+        "evidence": "Richiamo esplicito al Corano e a formulazioni parafrasate nel corso della polemica. Non vengono forniti numeri di versetto né una traduzione identificabile.",
+        "confidence": "riscontro_audio_automatico",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
+        "book_id": "maometto-carlomagno-pirenne",
+        "seconds": 715,
+        "title_seconds": 715,
+        "evidence": "Il richiamo alla disgregazione dell’unità mediterranea per effetto delle conquiste islamiche coincide con la tesi di Pirenne. Nome poco chiaro nella fonte automatica e titolo non pronunciato: identificazione probabile.",
+        "confidence": "identificazione_probabile",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      }
+    ],
+    "source_coverage": {
+      "first_start": 0.34,
+      "last_end": 1016.48,
+      "duration_seconds": 1017,
+      "segments_read": 108,
+      "source_sha256": "a086594bdc4da0a41fb71c4ee2790f26dfba30b9b06abc1ce96cf41afa098dbc",
+      "source_hash_method": "SHA-256 del JSON UTF-8 dei segmenti normalizzati, ensure_ascii=False, sort_keys=True, separatori compatti.",
+      "scope": "Lettura integrale di tutti i segmenti disponibili; fonte automatica, ascolto umano da completare. Il riconoscimento locale ha elaborato l’intero audio, incluse le parti senza parlato rilevato.",
+      "audio_duration_analyzed": 1017.0
+    },
+    "analysis_notes": [
+      "Fonte automatica letta integralmente; ascolto umano da completare."
+    ],
+    "references": [
+      {
+        "label": "Santa Sede · Nostra aetate, testo ufficiale",
+        "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_it.html"
+      },
+      {
+        "label": "Bibbia EDU · Giovanni, capitolo 1",
+        "url": "https://www.bibbiaedu.it/CEI2008/nt/Gv/1/"
+      },
+      {
+        "label": "Luni Editrice · Maometto e Carlomagno",
+        "url": "https://www.lunieditrice.com/product/maometto-e-carlomagno-henri-pirenne/"
+      }
+    ]
+  },
+  {
+    "video_id": "a0aWcQ_2ua0",
+    "title": "Florida Surgeon General Dr. Joseph Ladapo delivered a masterclass response.",
+    "duration_seconds": 175,
+    "updated_at": "2026-10-29T09:54:33.352227+00:00",
+    "human_audio_review": false,
+    "source_type": "riconoscimento_vocale_locale",
+    "language": "en",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "summary": "Il filmato riprende uno scambio sulla proposta della Florida di modificare alcuni requisiti vaccinali per l’accesso a scuola e ai servizi per l’infanzia. Un’interlocutrice chiede come la proposta risponda ai compiti di tutela della salute pubblica e quali valutazioni ne sostengano gli effetti. Joseph Ladapo risponde collegando il coinvolgimento dei genitori alla salute dei figli e proponendo confronti con altri stati e paesi.\n\nIl titolo del canale esprime un giudizio favorevole sulla risposta; lo scambio permette invece di distinguere la domanda sulle prove dalla difesa di una scelta politica. Nell’estratto non sono nominati studi identificabili. La fonte ufficiale allegata descrive una proposta di modifica della regola 64D-3.046, non una dimostrazione dell’efficacia clinica delle vaccinazioni né l’abolizione di tutti gli obblighi.",
+    "topics": [
+      "Salute pubblica e responsabilità istituzionale",
+      "Obblighi vaccinali e scelta dei genitori",
+      "Domande sulle prove e confronto tra paesi"
+    ],
+    "passages": [
+      {
+        "seconds": 0,
+        "label": "Il compito del dipartimento della salute",
+        "description": "La domanda iniziale riguarda il rapporto tra tutela della salute e diritti dei genitori.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 23,
+        "label": "Il coinvolgimento dei genitori",
+        "description": "Ladapo lega le scelte familiari a alimentazione, esercizio e istruzione.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 62,
+        "label": "Quali valutazioni sostengono la proposta?",
+        "description": "L’interlocutrice torna sugli studi e sui possibili effetti della modifica.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 96,
+        "label": "Il confronto con altri ordinamenti",
+        "description": "La risposta richiama altri stati e paesi; nel brano non vengono citati studi identificabili.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      }
+    ],
+    "books": [],
+    "source_coverage": {
+      "first_start": 0.0,
+      "last_end": 174.42,
+      "duration_seconds": 175,
+      "segments_read": 40,
+      "source_sha256": "07be2d89856ab07c9bd6139c22faa69dfb119cc9da2cec57518a682fdec2e2ff",
+      "source_hash_method": "SHA-256 del JSON UTF-8 dei segmenti normalizzati, ensure_ascii=False, sort_keys=True, separatori compatti.",
+      "scope": "Lettura integrale di tutti i segmenti disponibili; fonte automatica, ascolto umano da completare. Il riconoscimento locale ha elaborato l’intero audio, incluse le parti senza parlato rilevato.",
+      "audio_duration_analyzed": 175.241
+    },
+    "analysis_notes": [
+      "Fonte automatica letta integralmente; ascolto umano da completare."
+    ],
+    "references": [
+      {
+        "label": "Florida Department of Health · proposta e audizione pubblica dell’8 ottobre 2026",
+        "url": "https://www.floridahealth.gov/2026/10/08/florida-department-of-health-holds-public-hearing-on-proposed-revisions-to-school-immunization-rule/"
+      }
+    ]
+  },
+  {
+    "video_id": "Ngk5S-tw0UI",
+    "title": "“Today, Israel has become the Jew among nations...”",
+    "duration_seconds": 63,
+    "updated_at": "2026-10-29T09:54:33.353510+00:00",
+    "human_audio_review": false,
+    "source_type": "riconoscimento_vocale_locale",
+    "language": "en",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "summary": "Un breve intervento della rappresentanza statunitense alle Nazioni Unite contesta la Commissione d’inchiesta su Israele e la descrive come parte di un trattamento discriminatorio. La posizione è sviluppata attraverso i richiami al mandato della commissione, alla Corte penale internazionale e all’ordine del giorno del Consiglio per i diritti umani.\n\nLa conclusione accosta l’isolamento di Israele alla storia della discriminazione antiebraica e invoca criteri di giudizio uguali per tutti gli stati. Si tratta della tesi politica espressa nell’intervento; il filmato non contiene l’esame dei rapporti contestati né consente di verificarne autonomamente le accuse. Non vengono identificati libri o titoli di documenti specifici.",
+    "topics": [
+      "Israele e Nazioni Unite",
+      "Antisemitismo e linguaggio diplomatico",
+      "Commissioni d’inchiesta e criteri di giudizio"
+    ],
+    "passages": [
+      {
+        "seconds": 0,
+        "label": "Il rigetto della commissione",
+        "description": "La rappresentanza statunitense contesta il mandato e le conclusioni dell’organismo d’inchiesta.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 24,
+        "label": "Rapporti, giustizia internazionale e discriminazione",
+        "description": "L’intervento collega commissione, Corte penale internazionale e agenda del Consiglio per i diritti umani.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 48,
+        "label": "Il paragone storico conclusivo",
+        "description": "Il discorso richiama la discriminazione antiebraica e chiede criteri di giustizia uniformi.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      }
+    ],
+    "books": [],
+    "source_coverage": {
+      "first_start": 0.05,
+      "last_end": 63.33,
+      "duration_seconds": 63,
+      "segments_read": 15,
+      "source_sha256": "1bd5d5b8f0f611221785165ea362ee90a30cd2adb2b98aad0277d976ca262ffd",
+      "source_hash_method": "SHA-256 del JSON UTF-8 dei segmenti normalizzati, ensure_ascii=False, sort_keys=True, separatori compatti.",
+      "scope": "Lettura integrale di tutti i segmenti disponibili; fonte automatica, ascolto umano da completare. Il riconoscimento locale ha elaborato l’intero audio, incluse le parti senza parlato rilevato.",
+      "audio_duration_analyzed": 63.36725
+    },
+    "analysis_notes": [
+      "Fonte automatica letta integralmente; ascolto umano da completare."
+    ],
+    "references": [
+      {
+        "label": "U.S. Mission to the UN · dichiarazione del 26 ottobre 2026",
+        "url": "https://x.com/USUN/status/2114844139263000967"
+      },
+      {
+        "label": "JNS · contesto e testo della dichiarazione",
+        "url": "https://www.jns.org/news/u-s-news/us-denounces-un-inquiry-into-israel-as-biased-illegitimate"
+      }
+    ]
+  },
+  {
+    "video_id": "_--H5np-Arc",
+    "title": "Not all classical music is “classical...”",
+    "duration_seconds": 29,
+    "updated_at": "2026-10-29T09:54:33.338923+00:00",
+    "human_audio_review": false,
+    "human_visual_review": false,
+    "source_type": "analisi_fotogrammi_locali",
+    "language": "it",
+    "partial_visual_sampling": true,
+    "editorial_status": "scheda_descrittiva_da_fotogrammi",
+    "summary": "Un breve estratto di concerto mostra un oboe solista con accompagnamento orchestrale. La descrizione del canale identifica Gabriel’s Oboe di Ennio Morricone, dalla colonna sonora di The Mission, e propone un accostamento all’inno Praise, My Soul, the King of Heaven.\n\nLe fonti editoriali confermano l’identità del brano, del film e dell’inno. Il rapporto di derivazione tra le due melodie rimane però una proposta del curatore, non una conclusione documentata dalle fonti allegate. L’interprete, l’orchestra e l’arrangiamento della registrazione non sono identificati. Il campione visivo e la descrizione sono distinti dal sonoro: non sono riportate parole cantate o pronunciate.",
+    "topics": [
+      "Musica per il cinema",
+      "Morricone e The Mission",
+      "Tradizioni musicali e accostamenti tra melodie"
+    ],
+    "passages": [
+      {
+        "seconds": 2,
+        "label": "L’oboe e l’orchestra",
+        "description": "Il campione mostra l’esecuzione concertistica; il titolo del brano è indicato nella descrizione del canale.",
+        "verification": "riscontro_visivo",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 26,
+        "label": "La continuità dell’esecuzione",
+        "description": "Il secondo fotogramma documenta lo stesso contesto concertistico; interpreti non identificati.",
+        "verification": "riscontro_visivo",
+        "human_audio_review": false
+      }
+    ],
+    "books": [
+      {
+        "book_id": "gabriels-oboe-morricone",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "Brano e compositore indicati nella descrizione del canale; identità verificata nel catalogo editoriale. Il collegamento apre l’inizio dell’estratto musicale.",
+        "confidence": "riferimento_descrizione",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
+        "book_id": "praise-my-soul-lyte-goss",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "Inno nominato nella descrizione come confronto proposto dal curatore. Non è una citazione pronunciata e il nesso di derivazione con Morricone non è verificato.",
+        "confidence": "riferimento_descrizione",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      },
+      {
+        "book_id": "the-mission-joffe-1986",
+        "seconds": 0,
+        "title_seconds": 0,
+        "evidence": "Film indicato nella descrizione come origine del tema di Morricone; il video mostra un concerto e non una sequenza cinematografica.",
+        "confidence": "riferimento_descrizione",
+        "role": "riferimento",
+        "human_audio_review": false,
+        "verified": false
+      }
+    ],
+    "source_coverage": {
+      "first_start": 2,
+      "last_end": 26,
+      "duration_seconds": 29,
+      "segments_read": 2,
+      "source_sha256": "0194236fcc6a22ffa0798434dfab46964a1d1216f1fc3132421e2cc56eaf7bd3",
+      "source_hash_method": "SHA-256 del file video locale originale verificato",
+      "scope": "Campione di due fotogrammi e lettura della descrizione pubblicata dal canale; nessuna visione continua o ascolto umano.",
+      "video_duration_seconds": 29,
+      "partial_visual_sampling": true,
+      "frames_reviewed": 2,
+      "frame_times_seconds": [
+        2,
+        26
+      ],
+      "source_video_sha256": "0194236fcc6a22ffa0798434dfab46964a1d1216f1fc3132421e2cc56eaf7bd3",
+      "description_sha256": "aa52313ea9dfe03cef16a761a01445774729f74c96383838a05bf04da2ea37b2",
+      "language_scope": "lingua_delle_osservazioni_non_del_sonoro"
+    },
+    "references": [
+      {
+        "label": "Schott / Hal Leonard · Gabriel’s Oboe",
+        "url": "https://www.schott-music.com/en/gabriel-s-oboe-no321743.html"
+      },
+      {
+        "label": "Hymnary · identità dell’inno",
+        "url": "https://hymnary.org/text/praise_my_soul_the_king_of_heaven"
+      },
+      {
+        "label": "British Film Institute · The Mission",
+        "url": "https://www.bfi.org.uk/film/3bbc8702-db55-5d51-bd60-90953a18b0ce/the-mission"
+      }
+    ],
+    "analysis_notes": [
+      "Campione visivo esaminato da IA; nessuna revisione umana dichiarata. Il riconoscimento automatico dell’intero audio non ha rilevato parlato."
+    ]
+  },
+  {
+    "video_id": "kn-o2TvZy10",
+    "title": "This is not a campaign ad; it is a wake-up call.",
+    "duration_seconds": 174,
+    "updated_at": "2026-10-29T09:54:33.356033+00:00",
+    "human_audio_review": false,
+    "source_type": "riconoscimento_vocale_locale",
+    "language": "en",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "summary": "Il montaggio costruisce un’immagine del Minnesota attraverso paesaggi, lavoro, luoghi di incontro e memoria locale. La ripetizione dell’idea di essere ancora presenti lega l’appartenenza al territorio a una critica delle istituzioni, accusate dalla voce narrante di avere smesso di rispondere ai cittadini.\n\nNel finale Tad Jude dichiara la propria candidatura a Secretary of State del Minnesota: il sito ufficiale della campagna consente di correggere il nome reso in modo impreciso dal riconoscimento vocale. Benché il titolo della ripubblicazione neghi la natura di spot, la candidatura esplicita e la corrispondenza con il sito della campagna ne chiariscono il contesto elettorale. Le accuse suggerite dal montaggio restano parte del suo messaggio; le immagini dei giornali non bastano a identificarne gli articoli o a provarne le affermazioni.",
+    "topics": [
+      "Appartenenza e paesaggio del Minnesota",
+      "Linguaggio e montaggio della comunicazione politica",
+      "Fiducia nelle istituzioni e campagna elettorale"
+    ],
+    "passages": [
+      {
+        "seconds": 2,
+        "label": "Un’identità costruita attraverso i luoghi",
+        "description": "Luoghi di lavoro, paesaggi e gesti quotidiani introducono l’appartenenza al Minnesota.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 68,
+        "label": "La svolta critica",
+        "description": "La voce contrappone la continuità della comunità alla percezione di un cambiamento imposto.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 109,
+        "label": "Fiducia e responsabilità istituzionale",
+        "description": "Il montaggio accompagna la critica alla gestione delle decisioni e dei registri pubblici.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      },
+      {
+        "seconds": 152,
+        "label": "La candidatura dichiarata",
+        "description": "Tad Jude si presenta come candidato a Secretary of State; è il contesto elettorale dell’estratto.",
+        "source_type": "riconoscimento_vocale_locale",
+        "verification": "riscontro_audio_automatico",
+        "human_audio_review": false
+      }
+    ],
+    "books": [],
+    "source_coverage": {
+      "first_start": 2.54,
+      "last_end": 168.44,
+      "duration_seconds": 174,
+      "segments_read": 36,
+      "source_sha256": "18936dcb4693637c31598eb3e014847472a0b1c589312ff1f77ecc3ca2de25fa",
+      "source_hash_method": "SHA-256 del JSON UTF-8 dei segmenti normalizzati, ensure_ascii=False, sort_keys=True, separatori compatti.",
+      "scope": "Lettura integrale di tutti i segmenti disponibili; fonte automatica, ascolto umano da completare. Il riconoscimento locale ha elaborato l’intero audio, incluse le parti senza parlato rilevato.",
+      "audio_duration_analyzed": 173.8245625
+    },
+    "analysis_notes": [
+      "Fonte automatica letta integralmente; ascolto umano da completare."
+    ],
+    "references": [
+      {
+        "label": "Tad Jude · sito ufficiale e video della campagna",
+        "url": "https://tadjude.com/"
+      },
+      {
+        "label": "Tad Jude · annuncio della candidatura",
+        "url": "https://tadjude.com/tad-jude-press-release/"
+      }
+    ]
   }
 ]

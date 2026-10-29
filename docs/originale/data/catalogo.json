@@ -1,10 +1,55 @@
 {
   "channel": "Dr Divago",
   "channel_url": "https://www.youtube.com/@DrDivago",
-  "updated_at": "2026-10-25T08:50:11.754355+00:00",
+  "updated_at": "2026-10-29T09:42:24.647730+00:00",
   "coverage": "Scheda Video; dirette e Shorts non ancora censiti.",
   "rights": "Autorizzazione per il riutilizzo da richiedere. File multimediali solo locali.",
   "videos": [
+    {
+      "id": "oDXS2Mz0-1g",
+      "title": "“...et mundus eum non cognovit...” (Giovanni 1:10)",
+      "url": "https://www.youtube.com/watch?v=oDXS2Mz0-1g",
+      "duration": 1017,
+      "upload_date": "2026-10-29",
+      "audio_saved": true,
+      "video_saved": true
+    },
+    {
+      "id": "a0aWcQ_2ua0",
+      "title": "Florida Surgeon General Dr. Joseph Ladapo delivered a masterclass response.",
+      "url": "https://www.youtube.com/watch?v=a0aWcQ_2ua0",
+      "duration": 175,
+      "upload_date": "2026-10-27",
+      "audio_saved": true,
+      "video_saved": true
+    },
+    {
+      "id": "Ngk5S-tw0UI",
+      "title": "“Today, Israel has become the Jew among nations...”",
+      "url": "https://www.youtube.com/watch?v=Ngk5S-tw0UI",
+      "duration": 63,
+      "upload_date": "2026-10-27",
+      "audio_saved": true,
+      "video_saved": true
+    },
+    {
+      "id": "_--H5np-Arc",
+      "title": "Not all classical music is “classical...”",
+      "url": "https://www.youtube.com/watch?v=_--H5np-Arc",
+      "duration": 29,
+      "upload_date": "2026-10-24",
+      "audio_saved": true,
+      "video_saved": true
+    },
+    {
+      "id": "kn-o2TvZy10",
+      "title": "This is not a campaign ad; it is a wake-up call.",
+      "url": "https://www.youtube.com/watch?v=kn-o2TvZy10",
+      "duration": 174,
+      "upload_date": "2026-10-21",
+      "audio_saved": true,
+      "video_saved": true
+    },
     {
       "id": "LqExtiXIf_Y",
       "title": "Arrival at one of NYC's airports.",
