@@ -65,11 +65,8 @@ class HomeConversationsTests(unittest.TestCase):
             self.assertLess(home.index('class="home-conversations"'), home.index('id="home-books"'))
             self.assertNotIn('class="home-mission"', home)
             self.assertNotIn('Il Circolo raccoglie video e libri', home)
-            # Preserve author introductions explicitly supplied by the current template.
-            template = (templates / 'home.html').read_text()
-            expected_author_mentions = template.count('Sergio Caldarella')
-            self.assertGreaterEqual(expected_author_mentions, 1)
-            self.assertEqual(home.count('Sergio Caldarella'), expected_author_mentions)
+            self.assertNotIn('Sergio Caldarella', home)
+            self.assertIn('le conversazioni del canale YouTube', home)
             self.assertNotIn('{{home_conversations}}', home)
             self.assertNotIn('id="home-videos"', home)
             offline = (root / 'sito/anteprima.html').read_text()
