@@ -27,6 +27,10 @@ class PublicSEOTests(unittest.TestCase):
         self.assertEqual(metadata(once, 'index.html'), once)
         self.assertEqual(once.count('rel="canonical"'), 1)
         self.assertEqual(once.count('property="og:image"'), 1)
+        self.assertIn('<title>Circolo del Dr Divago</title>', once)
+        self.assertIn('property="og:title" content="Circolo del Dr Divago"', once)
+        library = metadata(HTML, 'sala-lettura/biblioteca.html', indexable=False)
+        self.assertIn('<title>Biblioteca — Circolo del Dr Divago</title>', library)
 
     def test_sitemap_excludes_retired_paths_and_unpublished_blog(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -52,7 +56,12 @@ class PublicSEOTests(unittest.TestCase):
             self.assertEqual(result['canonical_pages'], 3)
             self.assertIn('noindex, follow', (root / 'sala-lettura/index.html').read_text())
             self.assertIn('noindex, nofollow', (root / 'blog.html').read_text())
-            self.assertEqual((root / 'originale/index.html').read_text(), HTML)
+            self.assertEqual((root / 'originale/index.html').read_text().split('<body>', 1)[1],
+                             HTML.split('<body>', 1)[1])
+            self.assertIn('href="../favicon.ico?v=', (root / 'video/abcdefghijk.html').read_text())
+            self.assertIn('href="../favicon.ico?v=', (root / 'sala-lettura/index.html').read_text())
+            self.assertEqual((root / 'favicon.ico').read_bytes(),
+                             (Path(__file__).resolve().parents[1] / 'assets/icons/favicon.ico').read_bytes())
             self.assertEqual(library.read_bytes(), before)
             self.assertEqual((root / 'assets/social/circolo-divago.png').read_bytes(), image.read_bytes())
             self.assertIn('Sitemap: https://circolodivago.it/sitemap.xml', (root / 'robots.txt').read_text())

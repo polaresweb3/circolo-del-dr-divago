@@ -56,7 +56,7 @@ def main():
                 raise ValueError(f'Collegamento mancante: {page} → {relative}')
     files = [p for p in destination.rglob('*') if p.is_file()]
     for path in files:
-        if (path.suffix not in {'.html', '.js', '.css', '.json', '.jpg', '.jpeg', '.webp', '.png', '.gif', '.svg'}
+        if (path.suffix not in {'.html', '.js', '.css', '.json', '.jpg', '.jpeg', '.webp', '.png', '.gif', '.svg', '.ico'}
                 and path.relative_to(destination).as_posix() not in {'robots.txt', 'sitemap.xml'}):
             raise ValueError('Tipo non pubblico: ' + str(path))
         if path.suffix in {'.html', '.js', '.css', '.json', '.svg'}:

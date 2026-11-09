@@ -17,6 +17,12 @@ copiata nella cartella pubblicata. Dati bibliografici e contenuti editoriali non
 sono modificati dalla preparazione SEO. L'indicizzazione effettiva dipende dai
 motori di ricerca e non è immediata né garantita.
 
+Il gufo dell'avatar del canale Dr Divago è usato come favicon nei formati ICO
+(16, 32 e 48 px), PNG (32 px) e icona Apple (180 px). Originale e provenienza sono
+conservati in `assets/icons/`; soltanto le tre icone sono copiate nel sito.
+Le pagine principali usano titoli brevi nelle schede del browser, mentre i
+singoli video conservano il proprio titolo.
+
 Sito statico del progetto culturale dedicato ai contributi del canale [Dr Divago](https://www.youtube.com/@DrDivago), con catalogo video, biblioteca dei libri citati e schede editoriali originali.
 
 Il repository contiene i sorgenti Python, i modelli HTML, CSS e JavaScript, i dati destinati alla consultazione pubblica e il progetto Sala di lettura. Audio, video scaricati, trascrizioni integrali e archivio privato restano fuori da GitHub. I video si consultano tramite YouTube. Le fonti automatiche e i minutaggi richiedono revisione; le copertine indicano edizioni di riferimento, senza attribuirle automaticamente ai video.
