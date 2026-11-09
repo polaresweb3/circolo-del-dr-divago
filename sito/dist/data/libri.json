@@ -13211,6 +13211,18 @@
         "note": "Dialettica dell’illuminismo, Adorno e Horkheimer e apertura sulla terra interamente illuminata espliciti.",
         "role": "riferimento",
         "video_title": "Seminari tematici: La distanza dalla verità."
+      },
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 3,
+        "title_seconds": 3,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il titolo Dialettica dell’illuminismo è pronunciato all’inizio; il seguito ne parafrasa l’apertura. I nomi degli autori sono deformati dal riconoscimento vocale. Nessuna edizione è identificata.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
       }
     ],
     "cover": {
@@ -17952,6 +17964,18 @@
         "note": "Libro VI della Repubblica nominato per la linea divisa e la dianoia; il giudizio sulla gerarchia del conoscere è la lettura del relatore, non una definizione contemporanea di tutte le scienze.",
         "role": "riferimento",
         "video_title": "Seminari tematici (IIl): tramonto della verità."
+      },
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 211,
+        "title_seconds": 211,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Allusione ai filosofi che governano o ai governanti che filosofano: confronto con Repubblica V, 473c–e. Il titolo dell’opera non è pronunciato, identificazione probabile.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
       }
     ],
     "cover": {
@@ -40135,6 +40159,18 @@
         "note": "Le Bon, l’anno 1895, Psicologia delle folle e il tema del prestigio sono espliciti.",
         "role": "riferimento",
         "video_title": "Seminario tematico: l'industria culturale e le sue piaghe."
+      },
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 386,
+        "title_seconds": 386,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Sono nominati Gustave Le Bon e Psicologia delle folle, con il tema del prestigio che paralizza la facoltà critica. Il passo corrisponde al libro II, capitolo III, sezione sul prestigio; edizione non identificata.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
       }
     ],
     "cover": {
@@ -51844,6 +51880,18 @@
         "note": "Il mezzo è il messaggio richiamato come formula, senza autore o libro pronunciati: collegamento probabile a Understanding Media, non assegnato al diverso The Medium Is the Massage.",
         "role": "riferimento",
         "video_title": "La lettera aperta di Stéphane Charbonnier. Da Charlie Hebdo all'attentato a Michael Stürzenberger."
+      },
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 260,
+        "title_seconds": 260,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "McLuhan e la formula The medium is the message sono richiamati; il titolo completo del libro non è letto. Collegamento probabile a Understanding Media, il cui primo capitolo riprende la formula; non è attribuito al diverso The Medium Is the Massage.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
       }
     ],
     "cover": {
@@ -106746,6 +106794,18 @@
         "note": "Quinta sinfonia esplicita e motivo iniziale riprodotto vocalmente; il motto Muss es sein appartiene invece ad altra opera.",
         "role": "riferimento",
         "video_title": "Le conseguenze del tramonto del significato nella modernità."
+      },
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 1143,
+        "title_seconds": 1143,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Si evoca una Quinta sinfonia e l’immagine della realtà che bussa alla porta, senza nominare il compositore. Associazione probabile alla Quinta di Beethoven; è un riferimento musicale, non un testo o una specifica registrazione.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
       }
     ],
     "cover": {
@@ -135071,6 +135131,18 @@
         "note": "CIG e ricorso sudafricano nominati senza data o lettura del dispositivo; contesto di fine gennaio 2024 coerente con l’ordinanza sulle misure provvisorie, identificazione probabile.",
         "role": "riferimento",
         "video_title": "Israel as a model of civil society."
+      },
+      {
+        "video_id": "S9LFtO23L7A",
+        "seconds": 205,
+        "title_seconds": 205,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Riferimento a una decisione della CIG sulle misure provvisorie nel caso Sudafrica contro Israele. La data non è pronunciata: l’associazione all’ordinanza del 26 gennaio 2024 resta probabile; non è una decisione di merito.",
+        "role": "riferimento",
+        "video_title": "About the “genocide” in Gaza..."
       }
     ],
     "cover": {
@@ -150555,5 +150627,142 @@
       }
     ],
     "publication_year": 1986
+  },
+  {
+    "id": "amnesty-subhuman-gaza-2024",
+    "title": "‘You Feel Like You Are Subhuman’: Israel’s Genocide Against Palestinians in Gaza",
+    "author": "Amnesty International",
+    "work_type": "rapporto",
+    "document_date": "2024-12-05",
+    "document_identifier": "MDE 15/8668/2024",
+    "publication_year": 2024,
+    "pages": 296,
+    "original_language": "en",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "S9LFtO23L7A",
+        "seconds": 289,
+        "title_seconds": 289,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il relatore menziona il rapporto di Amnesty International sul genocidio a Gaza. Il titolo completo non è letto: identificazione probabile del rapporto MDE 15/8668/2024 del 5 dicembre 2024. Le sue considerazioni non sostituiscono le conclusioni del rapporto.",
+        "role": "riferimento",
+        "video_title": "About the “genocide” in Gaza..."
+      }
+    ],
+    "source": "Identità, data e numero riscontrati nella pubblicazione ufficiale Amnesty. Il video menziona il rapporto di Amnesty sul genocidio a Gaza senza leggerne titolo completo o numero: associazione probabile. Controllati la pagina ufficiale e il frontespizio del PDF; non dichiarata lettura integrale delle 296 pagine.",
+    "references": [
+      {
+        "label": "Amnesty International · rapporto del 5 dicembre 2024, MDE 15/8668/2024",
+        "url": "https://www.amnesty.org/en/documents/mde15/8668/2024/en/"
+      },
+      {
+        "label": "PDF originale Amnesty International",
+        "url": "https://www.amnesty.org/en/wp-content/uploads/2024/12/MDE1586682024ENGLISH.pdf"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/amnesty-2024-prima-pagina.jpg",
+      "alt": "Frontespizio del rapporto Amnesty International del dicembre 2024",
+      "image_label": "Frontespizio",
+      "image_type": "frontespizio_documento",
+      "represents_frontispiece": true,
+      "source_pdf_page": 1,
+      "source_page": "https://www.amnesty.org/en/documents/mde15/8668/2024/en/",
+      "image_url": "https://www.amnesty.org/en/wp-content/uploads/2024/12/MDE1586682024ENGLISH.pdf",
+      "source_document_url": "https://www.amnesty.org/en/wp-content/uploads/2024/12/MDE1586682024ENGLISH.pdf",
+      "edition_label": "Rapporto originale in inglese, Amnesty International, 5 dicembre 2024, MDE 15/8668/2024, pagina 1.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Pagina originale del documento identificato. L’identificazione nel video è probabile; nessuna edizione materialmente mostrata è confermata.",
+      "credit_line": "© Amnesty International 2024; illustrazione di copertina “Eye of heaven” © Maisara Baroud.",
+      "asset_sha256": "0ff09ba042ddceb75f11be07d88e8e0abd4b4c50490a54d43e0a92d4cb547455",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-11-09T07:04:10.506019+00:00",
+        "width": 989,
+        "height": 1400,
+        "method": "Pillow: verifica strutturale, riapertura e decodifica completa."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-11-09T07:04:10.506019+00:00",
+        "method": "Ispezione dell’immagine completa del frontespizio originale con view_image."
+      }
+    }
+  },
+  {
+    "id": "fauci-senate-testimony-2026-07-29",
+    "title": "Testimony of Anthony Fauci — S. Hrg. 119-504 (29 July 2026)",
+    "author": "United States Senate, Committee on Homeland Security and Governmental Affairs",
+    "work_type": "documento parlamentare",
+    "document_date": "2026-07-29",
+    "document_identifier": "S. Hrg. 119-504; CHRG-119shrg64382",
+    "publication_year": 2026,
+    "original_language": "en",
+    "status": "identificazione_probabile",
+    "bibliographic_verified": true,
+    "edition_cited": null,
+    "mentions": [
+      {
+        "video_id": "jhVPoISdaMw",
+        "seconds": 733,
+        "title_seconds": 733,
+        "evidence": "riconoscimento_vocale_locale",
+        "verification": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "note": "Il riferimento all’audizione di Fauci, alle 111 invocazioni del Quinto emendamento e a documenti personali è coerente con l’audizione del 29 luglio 2026. Data e titolo non sono pronunciati: identificazione probabile, distinta dalle audizioni del 2024.",
+        "role": "riferimento",
+        "video_title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?"
+      }
+    ],
+    "source": "Titolo, commissione, data e identificativi verificati nel resoconto ufficiale GovInfo/GPO. L’associazione al video è probabile: il relatore non dice la data, ma cita l’audizione, le 111 invocazioni del Quinto emendamento e documenti personali. Controllati frontespizio, indice, apertura e riscontri pertinenti; non dichiarata lettura integrale degli allegati. Il richiamo non verifica le accuse del relatore.",
+    "references": [
+      {
+        "label": "GovInfo / U.S. Government Publishing Office · Testimony of Anthony Fauci, S. Hrg. 119-504",
+        "url": "https://www.govinfo.gov/app/details/CHRG-119shrg64382/context"
+      },
+      {
+        "label": "Resoconto ufficiale dell’audizione del 29 luglio 2026 · testo e indice degli allegati",
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg64382/html/CHRG-119shrg64382.htm"
+      },
+      {
+        "label": "Commissione del Senato · pagina ufficiale dell’audizione",
+        "url": "https://www.hsgac.senate.gov/hearings/testimony-of-anthony-fauci/"
+      }
+    ],
+    "cover": {
+      "src": "assets/copertine/fauci-senato-2026-prima-pagina.jpg",
+      "alt": "Frontespizio del resoconto ufficiale Testimony of Anthony Fauci, 29 luglio 2026",
+      "image_label": "Frontespizio",
+      "image_type": "frontespizio_documento",
+      "represents_frontispiece": true,
+      "source_pdf_page": 1,
+      "source_page": "https://www.govinfo.gov/app/details/CHRG-119shrg64382/context",
+      "image_url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg64382/pdf/CHRG-119shrg64382.pdf",
+      "source_document_url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg64382/pdf/CHRG-119shrg64382.pdf",
+      "edition_label": "Frontespizio del resoconto ufficiale S. Hrg. 119-504, 119th Congress, second session, U.S. Government Publishing Office, 2026.",
+      "edition_confirmed_in_video": false,
+      "edition_note": "Pagina originale del documento identificato. L’identificazione nel video è probabile; nessuna edizione materialmente mostrata è confermata.",
+      "credit_line": "U.S. Government Publishing Office / United States Senate, resoconto ufficiale.",
+      "asset_sha256": "0b2b23c6993992e835aa2aa8908edd542bc62b8d4a0e0add501671a70cc8a2bf",
+      "integrity_review": {
+        "decoded": true,
+        "checked_at": "2026-11-09T07:04:10.506019+00:00",
+        "width": 1082,
+        "height": 1400,
+        "method": "Pillow: verifica strutturale, riapertura e decodifica completa."
+      },
+      "visual_review": {
+        "status": "passed",
+        "reviewed_at": "2026-11-09T07:04:10.506019+00:00",
+        "method": "Ispezione dell’immagine completa del frontespizio originale con view_image."
+      }
+    }
   }
 ]

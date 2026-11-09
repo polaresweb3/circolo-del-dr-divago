@@ -259083,5 +259083,479 @@
         "url": "https://tadjude.com/tad-jude-press-release/"
       }
     ]
+  },
+  {
+    "video_id": "ceNq1hYC6-U",
+    "title": "Raymond Aron: “Ignorance and stupidity are major factors in history.”",
+    "duration_seconds": 53,
+    "language": "fr",
+    "updated_at": "2026-11-09T07:04:10.506019+00:00",
+    "source_type": "riconoscimento_vocale_locale",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "human_audio_review": false,
+    "verified": false,
+    "summary": "Raymond Aron propone di considerare ignoranza e stupidità fra i fattori della storia. Il riferimento alla Francia degli anni Trenta e al clima polemico del giornalismo introduce una domanda sul peso delle passioni collettive e sulla possibilità di discutere senza ridurre il confronto a ingiurie.\n\nIl libro sul ruolo della stupidità nella storia è presentato come un progetto che Aron vorrebbe scrivere: l’estratto non ne attesta la pubblicazione. Non viene quindi registrato come opera esistente. Le Spectateur engagé è indicato soltanto fra gli approfondimenti sul contesto dell’intervista; il suo titolo non è pronunciato nel filmato.",
+    "topics": [
+      "Ignoranza e stupidità nella storia",
+      "Passioni collettive e discussione pubblica"
+    ],
+    "passages": [
+      {
+        "seconds": 0,
+        "label": "Ignoranza e stupidità come fattori storici",
+        "description": "Aron introduce il tema e immagina un ultimo libro da scrivere.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 11,
+        "label": "Il ricordo degli anni Trenta",
+        "description": "L’ostilità politica offre un esempio del problema evocato.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 48,
+        "label": "Conversare oppure ingiuriare",
+        "description": "Il finale contrappone il dialogo a monologhi e insulti.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "books": [],
+    "references": [
+      {
+        "label": "Calmann-Lévy · Le Spectateur engagé, approfondimento non nominato nell’estratto",
+        "url": "https://www.calmann-levy.fr/livre/le-spectateur-engage-9782702186350/"
+      },
+      {
+        "label": "Dominique Wolton · ricordo dell’intervista e del libro rimasto un progetto",
+        "url": "https://www.lagrandeconversation.com/societe/le-role-de-la-betise-dans-lhistoire/"
+      }
+    ],
+    "source_coverage": {
+      "source_sha256": "13755221798bd5051d8fcc2e6e1b1f209fe2ff4d077852fbbd415c54a0dfff26",
+      "source_hash_method": "SHA-256 del file JSON completo della trascrizione locale.",
+      "source_video_sha256": "80658348b2db7b4899b31156a4035363f7fd0d3b19274944a81f002e02287cb3",
+      "segments_read": 22,
+      "first_start": 0.0,
+      "last_end": 53.43,
+      "audio_duration_analyzed": 53.452375,
+      "duration_seconds": 53,
+      "scope": "Lettura integrale di tutti i segmenti della trascrizione automatica locale; audio elaborato per l’intera durata. Ascolto umano da completare."
+    },
+    "analysis_notes": [
+      "Lettura integrale della fonte automatica; i minutaggi possono richiedere correzione dopo ascolto umano. Le identificazioni bibliografiche probabili sono distinte dai titoli pronunciati."
+    ]
+  },
+  {
+    "video_id": "NWROw1SOggk",
+    "title": "Ah, the clarity of thought and logical rigor of a Harvard professor! How wonderful!",
+    "duration_seconds": 82,
+    "language": "en",
+    "updated_at": "2026-11-09T07:04:10.506019+00:00",
+    "source_type": "riconoscimento_vocale_locale",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "human_audio_review": false,
+    "verified": false,
+    "summary": "Il breve dibattito riguarda la distinzione fra la condotta di singoli dipendenti dell’UNRWA e la responsabilità dell’istituzione. Un interlocutore richiama un’indagine a sostegno della propria tesi; l’altro chiede quale indagine e porta il confronto sul caso di Fathi Sharif e su un presunto provvedimento relativo a prestazioni ai familiari. Sono posizioni contrapposte dei partecipanti al dibattito.\n\nNon sono citati libri. L’indagine e il provvedimento del tribunale delle controversie UNRWA non sono accompagnati da titolo completo, data o numero: l’identificazione resta aperta. Il collegamento ONU fra gli approfondimenti chiarisce che la revisione indipendente guidata da Catherine Colonna e l’indagine OIOS sono procedimenti distinti; non prova quale dei due sia inteso nel filmato.",
+    "topics": [
+      "Responsabilità individuale e istituzionale",
+      "Neutralità dell’UNRWA e uso delle fonti"
+    ],
+    "passages": [
+      {
+        "seconds": 0,
+        "label": "Dipendenti e istituzione",
+        "description": "Si distingue fra responsabilità delle persone e valutazione dell’organizzazione.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 18,
+        "label": "Quale indagine?",
+        "description": "Il richiamo generico a un’indagine viene contestato senza che ne emerga un titolo preciso.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 66,
+        "label": "Un provvedimento da identificare",
+        "description": "Si menziona un’opinione del tribunale UNRWA sulle prestazioni legate a Fathi Sharif; mancano data e numero.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "books": [],
+    "references": [
+      {
+        "label": "ONU · istituzione della revisione indipendente e distinzione dall’indagine OIOS, fonte di contesto",
+        "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2024-02-05/independent-review-group-assess-united-nations-relief-agency-for-palestine-refugees-%28unrwa%29-led-ms-catherine-colonna-of-france"
+      }
+    ],
+    "source_coverage": {
+      "source_sha256": "157574552d585dce69d27edad61c02b693c8e883be35baa4bd692e1096dd8867",
+      "source_hash_method": "SHA-256 del file JSON completo della trascrizione locale.",
+      "source_video_sha256": "3d98fa2019bb2c7c21ce96106770634da9a1bfb04c7042e471129c985ddd1367",
+      "segments_read": 25,
+      "first_start": 0.0,
+      "last_end": 79.42,
+      "audio_duration_analyzed": 81.472,
+      "duration_seconds": 82,
+      "scope": "Lettura integrale di tutti i segmenti della trascrizione automatica locale; audio elaborato per l’intera durata. Ascolto umano da completare."
+    },
+    "analysis_notes": [
+      "Lettura integrale della fonte automatica; i minutaggi possono richiedere correzione dopo ascolto umano. Le identificazioni bibliografiche probabili sono distinte dai titoli pronunciati."
+    ]
+  },
+  {
+    "video_id": "S9LFtO23L7A",
+    "title": "About the “genocide” in Gaza...",
+    "duration_seconds": 359,
+    "language": "en",
+    "updated_at": "2026-11-09T07:04:10.506019+00:00",
+    "source_type": "riconoscimento_vocale_locale",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "human_audio_review": false,
+    "verified": false,
+    "summary": "Haviv Rettig Gur propone una propria interpretazione della strategia israeliana a Gaza e contesta l’accusa di genocidio. Il discorso passa dalla condotta militare alla definizione giuridica del termine, richiamando il procedimento Sudafrica contro Israele, il caso Gambia contro Myanmar e un rapporto di Amnesty International. Le valutazioni dei documenti e le affermazioni sui procedimenti sono quelle del relatore.\n\nI due documenti collegati sono identificazioni probabili: vengono nominati Amnesty e una decisione sulle misure provvisorie della Corte internazionale di giustizia, ma non sono letti titolo completo e data. Il rapporto Amnesty del 5 dicembre 2024 e l’ordinanza CIG del 26 gennaio 2024 sono disponibili nelle rispettive fonti ufficiali. Un provvedimento sulle misure provvisorie va distinto da una sentenza di merito; l’interpretazione proposta nel video va confrontata con il testo dei documenti. Gli altri atti evocati senza estremi non vengono trasformati in citazioni bibliografiche precise.",
+    "topics": [
+      "Gaza e interpretazione della strategia militare",
+      "Definizione di genocidio",
+      "Rapporti e procedimenti internazionali"
+    ],
+    "passages": [
+      {
+        "seconds": 0,
+        "label": "Una lettura della strategia",
+        "description": "Il relatore interpreta obiettivi e condotta militare.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 102,
+        "label": "La definizione giuridica",
+        "description": "La discussione si sposta sul significato attribuito all’accusa di genocidio.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 205,
+        "label": "Le misure provvisorie della CIG",
+        "description": "Si richiama il procedimento promosso dal Sudafrica, senza leggere data e dispositivo.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 235,
+        "label": "Il confronto con il Myanmar",
+        "description": "Il caso Gambia contro Myanmar viene utilizzato come termine di paragone.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 289,
+        "label": "Il rapporto di Amnesty",
+        "description": "È menzionato un rapporto sull’accusa di genocidio a Gaza; il titolo completo non viene letto.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 329,
+        "label": "La conclusione polemica",
+        "description": "Il finale riassume la critica del relatore all’impiego del termine.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "books": [
+      {
+        "book_id": "south-africa-israel-provisional-order-2024-01-26",
+        "seconds": 205,
+        "title_seconds": 205,
+        "evidence": "Riferimento a una decisione della CIG sulle misure provvisorie nel caso Sudafrica contro Israele. La data non è pronunciata: l’associazione all’ordinanza del 26 gennaio 2024 resta probabile; non è una decisione di merito.",
+        "note": "Riferimento a una decisione della CIG sulle misure provvisorie nel caso Sudafrica contro Israele. La data non è pronunciata: l’associazione all’ordinanza del 26 gennaio 2024 resta probabile; non è una decisione di merito.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": [
+          {
+            "label": "ONU · ordinanza sulle misure provvisorie del 26 gennaio 2024, Sudafrica contro Israele",
+            "url": "https://www.un.org/unispal/document/icj-southafricavsisrael-provisional-measures-26jan2024/"
+          }
+        ]
+      },
+      {
+        "book_id": "amnesty-subhuman-gaza-2024",
+        "seconds": 289,
+        "title_seconds": 289,
+        "evidence": "Il relatore menziona il rapporto di Amnesty International sul genocidio a Gaza. Il titolo completo non è letto: identificazione probabile del rapporto MDE 15/8668/2024 del 5 dicembre 2024. Le sue considerazioni non sostituiscono le conclusioni del rapporto.",
+        "note": "Il relatore menziona il rapporto di Amnesty International sul genocidio a Gaza. Il titolo completo non è letto: identificazione probabile del rapporto MDE 15/8668/2024 del 5 dicembre 2024. Le sue considerazioni non sostituiscono le conclusioni del rapporto.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": [
+          {
+            "label": "Amnesty International · rapporto del 5 dicembre 2024, MDE 15/8668/2024",
+            "url": "https://www.amnesty.org/en/documents/mde15/8668/2024/en/"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "ONU · ordinanza sulle misure provvisorie del 26 gennaio 2024, Sudafrica contro Israele",
+        "url": "https://www.un.org/unispal/document/icj-southafricavsisrael-provisional-measures-26jan2024/"
+      },
+      {
+        "label": "Amnesty International · rapporto del 5 dicembre 2024, MDE 15/8668/2024",
+        "url": "https://www.amnesty.org/en/documents/mde15/8668/2024/en/"
+      },
+      {
+        "label": "IIMM · il procedimento Gambia contro Myanmar, fonte di contesto",
+        "url": "https://iimm.un.org/icj-gambia-v-myanmar"
+      }
+    ],
+    "source_coverage": {
+      "source_sha256": "b88d41f7289f9aa87e8fc51cecd1c80849727214e61194291a8518fe5567f83a",
+      "source_hash_method": "SHA-256 del file JSON completo della trascrizione locale.",
+      "source_video_sha256": "19901ba8061b25caf6f8ba40de42eac29c866980f6728a0669a26808fc6820ec",
+      "segments_read": 101,
+      "first_start": 0.0,
+      "last_end": 359.14,
+      "audio_duration_analyzed": 359.2106875,
+      "duration_seconds": 359,
+      "scope": "Lettura integrale di tutti i segmenti della trascrizione automatica locale; audio elaborato per l’intera durata. Ascolto umano da completare."
+    },
+    "analysis_notes": [
+      "Lettura integrale della fonte automatica; i minutaggi possono richiedere correzione dopo ascolto umano. Le identificazioni bibliografiche probabili sono distinte dai titoli pronunciati."
+    ]
+  },
+  {
+    "video_id": "jhVPoISdaMw",
+    "title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?",
+    "duration_seconds": 1493,
+    "language": "it",
+    "updated_at": "2026-11-09T07:04:10.506019+00:00",
+    "source_type": "riconoscimento_vocale_locale",
+    "editorial_status": "scheda_redatta_da_fonte_automatica",
+    "human_audio_review": false,
+    "verified": false,
+    "summary": "La conversazione si apre con Dialettica dell’illuminismo e sviluppa una critica delle contraddizioni fra progresso della conoscenza e capacità di giudizio. Il richiamo platonico ai filosofi al governo introduce il rapporto fra sapere e potere; la formula di McLuhan sul medium sposta l’attenzione sulle condizioni della comunicazione. Psicologia delle folle di Gustave Le Bon viene poi richiamata per discutere come il prestigio possa sospendere il giudizio critico.\n\nNella seconda parte questi temi sono applicati polemicamente alla comunicazione politica e scientifica contemporanea. Il relatore menziona un’audizione di Anthony Fauci, documenti personali e il ricorso al Quinto emendamento: sono argomenti della sua critica, da distinguere da una verifica delle accuse. Il resoconto del Senato del 29 luglio 2026 è collegato come identificazione probabile, sulla base dei dettagli evocati. Il finale insiste sulla resistenza della realtà agli schemi attraverso cui la si interpreta.\n\nDialettica dell’illuminismo e Psicologia delle folle sono titoli espliciti nella fonte automatica. I collegamenti alla Repubblica, a Understanding Media e alla Quinta sinfonia di Beethoven ricostruiscono invece allusioni riconoscibili: nel filmato non viene precisata un’edizione. I nomi di Ortega y Gasset e Wilhelm Marr, il richiamo a un film e altri autori non bastano a identificare ulteriori testi. L’aforisma attribuito a Jean Cocteau nella descrizione del video resta senza una fonte libraria accertata.",
+    "topics": [
+      "Illuminismo e contraddizioni del progresso",
+      "Sapere, autorità e giudizio",
+      "Media e prestigio collettivo",
+      "Comunicazione politica e scientifica"
+    ],
+    "passages": [
+      {
+        "seconds": 3,
+        "label": "Dialettica dell’illuminismo",
+        "description": "Il titolo introduce il problema del progresso e delle sue contraddizioni.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 211,
+        "label": "Sapere e governo",
+        "description": "Il richiamo ai filosofi al potere rinvia probabilmente alla Repubblica di Platone.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 260,
+        "label": "Il medium e il messaggio",
+        "description": "La formula attribuita a McLuhan è discussa nel rapporto fra comunicazione e contenuto.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 386,
+        "label": "Le Bon e il prestigio",
+        "description": "Psicologia delle folle è nominato per il rapporto fra prestigio e facoltà critica.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 733,
+        "label": "Un’audizione come esempio polemico",
+        "description": "Il relatore richiama Fauci e il Quinto emendamento; l’associazione al resoconto del luglio 2026 è probabile.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 1143,
+        "label": "La Quinta e la realtà che bussa",
+        "description": "Il riferimento musicale non specifica compositore o esecuzione: l’identificazione con Beethoven è probabile.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 1400,
+        "label": "La realtà e gli schemi interpretativi",
+        "description": "Il finale torna sulla difficoltà di riconoscere le contraddizioni del presente.",
+        "verification": "riscontro_audio_automatico",
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "books": [
+      {
+        "book_id": "dialettica-illuminismo-horkheimer-adorno",
+        "seconds": 3,
+        "title_seconds": 3,
+        "evidence": "Il titolo Dialettica dell’illuminismo è pronunciato all’inizio; il seguito ne parafrasa l’apertura. I nomi degli autori sono deformati dal riconoscimento vocale. Nessuna edizione è identificata.",
+        "note": "Il titolo Dialettica dell’illuminismo è pronunciato all’inizio; il seguito ne parafrasa l’apertura. I nomi degli autori sono deformati dal riconoscimento vocale. Nessuna edizione è identificata.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "references": []
+      },
+      {
+        "book_id": "repubblica-platone",
+        "seconds": 211,
+        "title_seconds": 211,
+        "evidence": "Allusione ai filosofi che governano o ai governanti che filosofano: confronto con Repubblica V, 473c–e. Il titolo dell’opera non è pronunciato, identificazione probabile.",
+        "note": "Allusione ai filosofi che governano o ai governanti che filosofano: confronto con Repubblica V, 473c–e. Il titolo dell’opera non è pronunciato, identificazione probabile.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": []
+      },
+      {
+        "book_id": "understanding-media-mcluhan",
+        "seconds": 260,
+        "title_seconds": 260,
+        "evidence": "McLuhan e la formula The medium is the message sono richiamati; il titolo completo del libro non è letto. Collegamento probabile a Understanding Media, il cui primo capitolo riprende la formula; non è attribuito al diverso The Medium Is the Massage.",
+        "note": "McLuhan e la formula The medium is the message sono richiamati; il titolo completo del libro non è letto. Collegamento probabile a Understanding Media, il cui primo capitolo riprende la formula; non è attribuito al diverso The Medium Is the Massage.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": [
+          {
+            "label": "MIT Press · Understanding Media: The Extensions of Man",
+            "url": "https://mitpress.mit.edu/9780262631594/understanding-media/"
+          }
+        ]
+      },
+      {
+        "book_id": "psicologia-folle-lebon",
+        "seconds": 386,
+        "title_seconds": 386,
+        "evidence": "Sono nominati Gustave Le Bon e Psicologia delle folle, con il tema del prestigio che paralizza la facoltà critica. Il passo corrisponde al libro II, capitolo III, sezione sul prestigio; edizione non identificata.",
+        "note": "Sono nominati Gustave Le Bon e Psicologia delle folle, con il tema del prestigio che paralizza la facoltà critica. Il passo corrisponde al libro II, capitolo III, sezione sul prestigio; edizione non identificata.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false,
+        "references": [
+          {
+            "label": "Gustave Le Bon · The Crowd, testo dell’opera, libro II, capitolo III, sezione sul prestigio",
+            "url": "https://www.gutenberg.org/cache/epub/445/pg445.html"
+          }
+        ]
+      },
+      {
+        "book_id": "fauci-senate-testimony-2026-07-29",
+        "seconds": 733,
+        "title_seconds": 733,
+        "evidence": "Il riferimento all’audizione di Fauci, alle 111 invocazioni del Quinto emendamento e a documenti personali è coerente con l’audizione del 29 luglio 2026. Data e titolo non sono pronunciati: identificazione probabile, distinta dalle audizioni del 2024.",
+        "note": "Il riferimento all’audizione di Fauci, alle 111 invocazioni del Quinto emendamento e a documenti personali è coerente con l’audizione del 29 luglio 2026. Data e titolo non sono pronunciati: identificazione probabile, distinta dalle audizioni del 2024.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": [
+          {
+            "label": "GovInfo / U.S. Government Publishing Office · Testimony of Anthony Fauci, S. Hrg. 119-504",
+            "url": "https://www.govinfo.gov/app/details/CHRG-119shrg64382/context"
+          },
+          {
+            "label": "Resoconto ufficiale dell’audizione del 29 luglio 2026 · testo e indice degli allegati",
+            "url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg64382/html/CHRG-119shrg64382.htm"
+          }
+        ]
+      },
+      {
+        "book_id": "sinfonia-quinta-beethoven",
+        "seconds": 1143,
+        "title_seconds": 1143,
+        "evidence": "Si evoca una Quinta sinfonia e l’immagine della realtà che bussa alla porta, senza nominare il compositore. Associazione probabile alla Quinta di Beethoven; è un riferimento musicale, non un testo o una specifica registrazione.",
+        "note": "Si evoca una Quinta sinfonia e l’immagine della realtà che bussa alla porta, senza nominare il compositore. Associazione probabile alla Quinta di Beethoven; è un riferimento musicale, non un testo o una specifica registrazione.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verified": false,
+        "human_audio_review": false,
+        "references": []
+      }
+    ],
+    "references": [
+      {
+        "label": "MIT Press · Understanding Media: The Extensions of Man",
+        "url": "https://mitpress.mit.edu/9780262631594/understanding-media/"
+      },
+      {
+        "label": "Gustave Le Bon · The Crowd, testo dell’opera, libro II, capitolo III, sezione sul prestigio",
+        "url": "https://www.gutenberg.org/cache/epub/445/pg445.html"
+      },
+      {
+        "label": "GovInfo / U.S. Government Publishing Office · Testimony of Anthony Fauci, S. Hrg. 119-504",
+        "url": "https://www.govinfo.gov/app/details/CHRG-119shrg64382/context"
+      },
+      {
+        "label": "Resoconto ufficiale dell’audizione del 29 luglio 2026 · testo e indice degli allegati",
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg64382/html/CHRG-119shrg64382.htm"
+      },
+      {
+        "label": "Senato USA · pagina dell’audizione del 29 luglio 2026",
+        "url": "https://www.hsgac.senate.gov/hearings/testimony-of-anthony-fauci/"
+      },
+      {
+        "label": "Rand Paul · comunicato del 29 agosto 2026 che menziona le 111 invocazioni, fonte per il confronto",
+        "url": "https://www.paul.senate.gov/readingroom/"
+      },
+      {
+        "label": "Henle · Beethoven, Sinfonia n. 5 in do minore op. 67",
+        "url": "https://www.henle.de/de/Symphonie-Nr.-5-c-moll-op.-67/HN-9813"
+      }
+    ],
+    "source_coverage": {
+      "source_sha256": "05b16cd3e52869605c6a8467071037f303fc3c7c2e671598d0392d714b59b94a",
+      "source_hash_method": "SHA-256 del file JSON completo della trascrizione locale.",
+      "source_video_sha256": "b0ac1df64a8a599abc07dc73eeba2fdb98793e795dd4f07fe8d67edf86756c1a",
+      "segments_read": 195,
+      "first_start": 3.86,
+      "last_end": 1492.64,
+      "audio_duration_analyzed": 1493.3973125,
+      "duration_seconds": 1493,
+      "scope": "Lettura integrale di tutti i segmenti della trascrizione automatica locale; audio elaborato per l’intera durata. Ascolto umano da completare."
+    },
+    "analysis_notes": [
+      "Lettura integrale della fonte automatica; i minutaggi possono richiedere correzione dopo ascolto umano. Le identificazioni bibliografiche probabili sono distinte dai titoli pronunciati."
+    ]
   }
 ]
