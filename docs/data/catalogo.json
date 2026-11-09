@@ -1,10 +1,46 @@
 {
   "channel": "Dr Divago",
   "channel_url": "https://www.youtube.com/@DrDivago",
-  "updated_at": "2026-10-29T09:42:24.647730+00:00",
+  "updated_at": "2026-11-09T06:46:12.848217+00:00",
   "coverage": "Scheda Video; dirette e Shorts non ancora censiti.",
   "rights": "Autorizzazione per il riutilizzo da richiedere. File multimediali solo locali.",
   "videos": [
+    {
+      "id": "ceNq1hYC6-U",
+      "title": "Raymond Aron: “Ignorance and stupidity are major factors in history.”",
+      "url": "https://www.youtube.com/watch?v=ceNq1hYC6-U",
+      "duration": 53,
+      "upload_date": "2026-11-08",
+      "audio_saved": false,
+      "video_saved": true
+    },
+    {
+      "id": "S9LFtO23L7A",
+      "title": "About the “genocide” in Gaza...",
+      "url": "https://www.youtube.com/watch?v=S9LFtO23L7A",
+      "duration": 359,
+      "upload_date": "2026-11-08",
+      "audio_saved": false,
+      "video_saved": true
+    },
+    {
+      "id": "jhVPoISdaMw",
+      "title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?",
+      "url": "https://www.youtube.com/watch?v=jhVPoISdaMw",
+      "duration": 1493,
+      "upload_date": "2026-11-06",
+      "audio_saved": false,
+      "video_saved": true
+    },
+    {
+      "id": "NWROw1SOggk",
+      "title": "Ah, the clarity of thought and logical rigor of a Harvard professor! How wonderful!",
+      "url": "https://www.youtube.com/watch?v=NWROw1SOggk",
+      "duration": 82,
+      "upload_date": "2026-10-31",
+      "audio_saved": false,
+      "video_saved": true
+    },
     {
       "id": "oDXS2Mz0-1g",
       "title": "“...et mundus eum non cognovit...” (Giovanni 1:10)",
