@@ -1,5 +1,22 @@
 # Circolo del Dr Divago
 
+## Visibilità e condivisione su circolodivago.it
+
+La versione pubblica usa `https://circolodivago.it` come dominio principale.
+`seo_pubblico.py` applica metadati canonici, Open Graph e Twitter alle pagine
+attuali e genera `sitemap.xml` e `robots.txt`. Il preparatore della pubblicazione
+lo esegue automaticamente; `prepara_github_pages.py` conserva anche `docs/CNAME`.
+
+La sitemap include soltanto le pagine principali e i video pubblicati. Le copie
+esistenti sotto `/sala-lettura/` restano escluse dall'indice e rimandano al dominio
+principale nei metadati; `/originale/` non viene ricreato. Il Blog vuoto e la pagina
+di compatibilità `versioni.html` conservano `noindex`.
+
+L'immagine di condivisione è `assets/social/circolo-divago.png` (1200 × 630),
+copiata nella cartella pubblicata. Dati bibliografici e contenuti editoriali non
+sono modificati dalla preparazione SEO. L'indicizzazione effettiva dipende dai
+motori di ricerca e non è immediata né garantita.
+
 Sito statico del progetto culturale dedicato ai contributi del canale [Dr Divago](https://www.youtube.com/@DrDivago), con catalogo video, biblioteca dei libri citati e schede editoriali originali.
 
 Il repository contiene i sorgenti Python, i modelli HTML, CSS e JavaScript, i dati destinati alla consultazione pubblica e il progetto Sala di lettura. Audio, video scaricati, trascrizioni integrali e archivio privato restano fuori da GitHub. I video si consultano tramite YouTube. Le fonti automatiche e i minutaggi richiedono revisione; le copertine indicano edizioni di riferimento, senza attribuirle automaticamente ai video.

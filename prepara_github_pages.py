@@ -3,6 +3,8 @@
 from pathlib import Path
 import shutil
 from prepara_tre_anteprime import main
+from seo_pubblico import SITE_ORIGIN
+from urllib.parse import urlsplit
 
 
 def prepare():
@@ -14,6 +16,7 @@ def prepare():
         shutil.rmtree(destination)
     shutil.copytree(source, destination)
     (destination / '.nojekyll').touch()
+    (destination / 'CNAME').write_text(urlsplit(SITE_ORIGIN).hostname + '\n', encoding='utf-8')
     print('GitHub Pages pronto in docs/. Nessuna pubblicazione effettuata.')
 
 

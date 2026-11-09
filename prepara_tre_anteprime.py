@@ -8,6 +8,7 @@ from crea_proposta_editoriale import create, book_cards
 from prepara_versione_online import prepare, References
 from verifica_copertine import verify_covers
 from dati_pubblici import export_directory
+from seo_pubblico import apply_public_seo
 
 ROOT = Path(__file__).resolve().parent
 
@@ -44,20 +45,19 @@ def main():
     source = salon / 'sito/dist'
     export_directory(source)
     publish_salon(source, destination)
+    seo = apply_public_seo(destination)
     for metadata in destination.rglob('.DS_Store'):
         metadata.unlink()
     for page in destination.rglob('*.html'):
         text = page.read_text()
-        if '<meta name="robots"' not in text:
-            text = text.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n</head>')
-            page.write_text(text)
         for relative in References(text).paths:
             target = (page.parent / relative).resolve()
             if not target.is_relative_to(destination.resolve()) or not target.is_file():
                 raise ValueError(f'Collegamento mancante: {page} → {relative}')
     files = [p for p in destination.rglob('*') if p.is_file()]
     for path in files:
-        if path.suffix not in {'.html', '.js', '.css', '.json', '.jpg', '.jpeg', '.webp', '.png', '.gif', '.svg'}:
+        if (path.suffix not in {'.html', '.js', '.css', '.json', '.jpg', '.jpeg', '.webp', '.png', '.gif', '.svg'}
+                and path.relative_to(destination).as_posix() not in {'robots.txt', 'sitemap.xml'}):
             raise ValueError('Tipo non pubblico: ' + str(path))
         if path.suffix in {'.html', '.js', '.css', '.json', '.svg'}:
             text = path.read_text()
@@ -68,7 +68,7 @@ def main():
               'entry_point': 'index.html', 'versions': ['index.html'],
               'legacy_path': 'sala-lettura/index.html', 'removed_version': 'originale',
               'internal_links_checked': True, 'local_media_included': False,
-              'full_transcripts_included': False, 'covers': covers}
+              'full_transcripts_included': False, 'covers': covers, 'seo': seo}
     (destination.parent / 'tre-anteprime.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
