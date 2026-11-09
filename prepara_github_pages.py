@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rigenera le tre proposte e prepara docs/; non pubblica nulla."""
+"""Rigenera la Sala di lettura e prepara docs/; non pubblica nulla."""
 from pathlib import Path
 import shutil
 from prepara_tre_anteprime import main

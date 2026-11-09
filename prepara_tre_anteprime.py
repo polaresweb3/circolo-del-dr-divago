@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepara le tre proposte pubblicabili sotto lo stesso sito, senza deploy."""
+"""Prepara la Sala di lettura come unico sito pubblico, senza deploy."""
 import json
 from pathlib import Path
 import shutil
@@ -12,33 +12,38 @@ from dati_pubblici import export_directory
 ROOT = Path(__file__).resolve().parent
 
 
+def publish_salon(source, destination):
+    """Usa la Sala in radice e mantiene i collegamenti /sala-lettura/."""
+    shutil.copytree(source, destination, dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns('.DS_Store'))
+    legacy = destination / 'sala-lettura'
+    if source.resolve() != legacy.resolve():
+        shutil.copytree(source, legacy, dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns('.DS_Store'))
+    for retired in (destination / 'originale', destination / 'assets/anteprime'):
+        if retired.exists():
+            shutil.rmtree(retired)
+    (destination / 'versioni.html').write_text(
+        '<!doctype html>\n<html lang="it"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        '<meta http-equiv="refresh" content="0; url=index.html">'
+        '<meta name="robots" content="noindex, nofollow">'
+        '<title>Circolo del Dr Divago</title></head><body>'
+        '<p><a href="index.html">Entra nel Circolo del Dr Divago</a></p>'
+        '</body></html>\n', encoding='utf-8')
+
+
 def main():
     covers = verify_covers(ROOT / 'sito/dist')
     print('Copertine locali verificate:', covers['works_checked'])
     destination = prepare()
-    # Mantiene funzionanti anche i collegamenti alle pagine del sito precedente.
-    originals = [p for p in destination.iterdir() if p.name != '.DS_Store']
-    original = destination / 'originale'
-    original.mkdir()
-    for path in originals:
-        if path.is_dir():
-            shutil.copytree(path, original / path.name, ignore=shutil.ignore_patterns('.DS_Store'))
-        else:
-            shutil.copyfile(path, original / path.name)
     salon = ROOT / 'proposte/sala-lettura'
     create(proposal=salon, source=salon / 'sorgenti', label='SALA DI LETTURA',
            slug='sala-lettura', reference='Biblioteche storiche e circoli letterari',
            book_renderer=book_cards, home_page='salotto')
-    for slug in ['sala-lettura']:
-        shutil.copytree(ROOT / 'proposte' / slug / 'sito/dist', destination / slug,
-                        ignore=shutil.ignore_patterns('.DS_Store'))
-    export_directory(destination / 'sala-lettura')
-    shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'versioni.html')
-    shutil.copyfile(ROOT / 'sito/confronto-versioni.html', destination / 'index.html')
-    images = destination / 'assets/anteprime'
-    images.mkdir(exist_ok=True)
-    for slug in ['originale', 'sala-lettura']:
-        shutil.copyfile(ROOT / 'sito/anteprime-stili' / (slug + '.jpg'), images / (slug + '.jpg'))
+    source = salon / 'sito/dist'
+    export_directory(source)
+    publish_salon(source, destination)
     for metadata in destination.rglob('.DS_Store'):
         metadata.unlink()
     for page in destination.rglob('*.html'):
@@ -60,7 +65,8 @@ def main():
                 raise ValueError('Percorso privato: ' + str(path))
     report = {'status': 'prepared_not_published', 'pages': len(list(destination.rglob('*.html'))),
               'files': len(files), 'bytes': sum(p.stat().st_size for p in files),
-              'comparison': 'index.html', 'versions': ['originale/index.html', 'sala-lettura/index.html'],
+              'entry_point': 'index.html', 'versions': ['index.html'],
+              'legacy_path': 'sala-lettura/index.html', 'removed_version': 'originale',
               'internal_links_checked': True, 'local_media_included': False,
               'full_transcripts_included': False, 'covers': covers}
     (destination.parent / 'tre-anteprime.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')

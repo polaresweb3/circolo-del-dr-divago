@@ -2,7 +2,7 @@
 
 Sito statico del progetto culturale dedicato ai contributi del canale [Dr Divago](https://www.youtube.com/@DrDivago), con catalogo video, biblioteca dei libri citati e schede editoriali originali.
 
-Il repository contiene i sorgenti Python, i modelli HTML, CSS e JavaScript, i dati destinati alla consultazione pubblica e le tre proposte grafiche. Audio, video scaricati, trascrizioni integrali e archivio privato restano fuori da GitHub. I video si consultano tramite YouTube. Le fonti automatiche e i minutaggi richiedono revisione; le copertine indicano edizioni di riferimento, senza attribuirle automaticamente ai video.
+Il repository contiene i sorgenti Python, i modelli HTML, CSS e JavaScript, i dati destinati alla consultazione pubblica e il progetto Sala di lettura. Audio, video scaricati, trascrizioni integrali e archivio privato restano fuori da GitHub. I video si consultano tramite YouTube. Le fonti automatiche e i minutaggi richiedono revisione; le copertine indicano edizioni di riferimento, senza attribuirle automaticamente ai video.
 
 ## Consultazione locale
 
@@ -10,7 +10,7 @@ Il repository contiene i sorgenti Python, i modelli HTML, CSS e JavaScript, i da
 python3 -m http.server 8765 --directory docs --bind 127.0.0.1
 ```
 
-Aprire http://127.0.0.1:8765/. La pagina iniziale permette di scegliere tra Originale, Editoriale e Sala di lettura.
+Aprire http://127.0.0.1:8765/. La pagina iniziale apre direttamente la Sala di lettura. I precedenti collegamenti sotto `sala-lettura/` restano disponibili; `versioni.html` rimanda alla nuova Home. La proposta Originale è stata rimossa dalla pubblicazione.
 
 ## Modifiche e generazione
 
@@ -19,7 +19,7 @@ Richiede Python 3.9 o successivo su macOS o Linux. La generazione del sito usa l
 - Modelli delle pagine: `sito/templates/`.
 - Stile e interazioni: `sito/dist/styles.css`, `sito/dist/app.js`.
 - Dati pubblici: `sito/dist/data/`.
-- Varianti grafiche: `proposte/editoriale/sorgenti/` e `proposte/sala-lettura/sorgenti/`.
+- Tema Sala di lettura: `proposte/sala-lettura/sorgenti/`.
 
 ```sh
 python3 -B prepara_github_pages.py
