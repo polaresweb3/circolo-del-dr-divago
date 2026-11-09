@@ -29,7 +29,7 @@ Il comando rigenera le pagine, controlla collegamenti e riferimenti ai file priv
 
 ## GitHub Pages
 
-GitHub Pages pubblica la cartella `docs/` del branch `main` sul [sito del Circolo](https://polaresweb3.github.io/circolo-del-dr-divago/). Un push su `main` aggiorna anche il sito pubblico. Gli aggiornamenti richiedono la conferma specifica descritta in `AGENTS.md`.
+GitHub Pages pubblica la cartella `docs/` del branch `main` sul [sito del Circolo](https://polaresweb3.github.io/circolo-del-dr-divago/). Un push su `main` aggiorna anche il sito pubblico. Per questo repository le richieste di modifica al sito autorizzano anche commit, push su `main` e aggiornamento di GitHub Pages senza ulteriori conferme, come descritto in `AGENTS.md`.
 
 ## Attribuzioni
 
