@@ -45,6 +45,8 @@ def entries(data):
 
 def export_catalog(archive):
     data = read_catalog(archive)
+    from selezione_video import excluded_video_ids
+    excluded = excluded_video_ids(ROOT)
     from video_dates import normalize_publication_date, publication_dates
     date_index = publication_dates(archive, ROOT / "sito/dist/data/catalogo.json")
     audio = scan_media(archive / "audio", {".mp3"})
@@ -52,6 +54,8 @@ def export_catalog(archive):
     videos = []
     for item in entries(data):
         ident = item["id"]
+        if ident in excluded:
+            continue
         videos.append({
             "id": ident, "title": item.get("title", ident),
             "url": "https://www.youtube.com/watch?v=" + ident,

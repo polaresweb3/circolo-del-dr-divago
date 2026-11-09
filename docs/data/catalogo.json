@@ -1,28 +1,10 @@
 {
   "channel": "Dr Divago",
   "channel_url": "https://www.youtube.com/@DrDivago",
-  "updated_at": "2026-11-09T06:46:12.848217+00:00",
-  "coverage": "Scheda Video; dirette e Shorts non ancora censiti.",
+  "updated_at": "2026-11-09T09:40:17.661806+00:00",
+  "coverage": "Selezione dei contributi del canale per Sala di lettura.",
   "rights": "Autorizzazione per il riutilizzo da richiedere. File multimediali solo locali.",
   "videos": [
-    {
-      "id": "ceNq1hYC6-U",
-      "title": "Raymond Aron: “Ignorance and stupidity are major factors in history.”",
-      "url": "https://www.youtube.com/watch?v=ceNq1hYC6-U",
-      "duration": 53,
-      "upload_date": "2026-11-08",
-      "audio_saved": false,
-      "video_saved": true
-    },
-    {
-      "id": "S9LFtO23L7A",
-      "title": "About the “genocide” in Gaza...",
-      "url": "https://www.youtube.com/watch?v=S9LFtO23L7A",
-      "duration": 359,
-      "upload_date": "2026-11-08",
-      "audio_saved": false,
-      "video_saved": true
-    },
     {
       "id": "jhVPoISdaMw",
       "title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?",
@@ -33,58 +15,13 @@
       "video_saved": true
     },
     {
-      "id": "NWROw1SOggk",
-      "title": "Ah, the clarity of thought and logical rigor of a Harvard professor! How wonderful!",
-      "url": "https://www.youtube.com/watch?v=NWROw1SOggk",
-      "duration": 82,
-      "upload_date": "2026-10-31",
-      "audio_saved": false,
-      "video_saved": true
-    },
-    {
       "id": "oDXS2Mz0-1g",
       "title": "“...et mundus eum non cognovit...” (Giovanni 1:10)",
       "url": "https://www.youtube.com/watch?v=oDXS2Mz0-1g",
       "duration": 1017,
-      "upload_date": "2026-10-29",
       "audio_saved": true,
-      "video_saved": true
-    },
-    {
-      "id": "a0aWcQ_2ua0",
-      "title": "Florida Surgeon General Dr. Joseph Ladapo delivered a masterclass response.",
-      "url": "https://www.youtube.com/watch?v=a0aWcQ_2ua0",
-      "duration": 175,
-      "upload_date": "2026-10-27",
-      "audio_saved": true,
-      "video_saved": true
-    },
-    {
-      "id": "Ngk5S-tw0UI",
-      "title": "“Today, Israel has become the Jew among nations...”",
-      "url": "https://www.youtube.com/watch?v=Ngk5S-tw0UI",
-      "duration": 63,
-      "upload_date": "2026-10-27",
-      "audio_saved": true,
-      "video_saved": true
-    },
-    {
-      "id": "_--H5np-Arc",
-      "title": "Not all classical music is “classical...”",
-      "url": "https://www.youtube.com/watch?v=_--H5np-Arc",
-      "duration": 29,
-      "upload_date": "2026-10-24",
-      "audio_saved": true,
-      "video_saved": true
-    },
-    {
-      "id": "kn-o2TvZy10",
-      "title": "This is not a campaign ad; it is a wake-up call.",
-      "url": "https://www.youtube.com/watch?v=kn-o2TvZy10",
-      "duration": 174,
-      "upload_date": "2026-10-21",
-      "audio_saved": true,
-      "video_saved": true
+      "video_saved": true,
+      "upload_date": "2026-10-29"
     },
     {
       "id": "LqExtiXIf_Y",
@@ -96,33 +33,6 @@
       "upload_date": "2026-10-20"
     },
     {
-      "id": "ZiEA4hNu6vM",
-      "title": "In the end, beauty will win again.",
-      "url": "https://www.youtube.com/watch?v=ZiEA4hNu6vM",
-      "duration": 96,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-10-18"
-    },
-    {
-      "id": "6fxkWxcxDuQ",
-      "title": "The most plausible explanation is always money...",
-      "url": "https://www.youtube.com/watch?v=6fxkWxcxDuQ",
-      "duration": 308,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-10-18"
-    },
-    {
-      "id": "BVoFhVSyh4o",
-      "title": "It is the same old story of the Trojan Horse, this time through the means of ideology.",
-      "url": "https://www.youtube.com/watch?v=BVoFhVSyh4o",
-      "duration": 116,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-10-18"
-    },
-    {
       "id": "rtmt9_Mzdkw",
       "title": "Una chiacchierata su cultura e libri alla Buchmesse di Francoforte.",
       "url": "https://www.youtube.com/watch?v=rtmt9_Mzdkw",
@@ -130,15 +40,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2026-10-11"
-    },
-    {
-      "id": "bcjZdrAct5U",
-      "title": "Anne Carson: recipient of the 2026 Nobel Prize in Literature.",
-      "url": "https://www.youtube.com/watch?v=bcjZdrAct5U",
-      "duration": 301,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-10-09"
     },
     {
       "id": "naPocS7MPiE",
@@ -204,15 +105,6 @@
       "upload_date": "2026-10-02"
     },
     {
-      "id": "VS-J5yXSdmM",
-      "title": "The Death of Politics and Reason right before our eyes.",
-      "url": "https://www.youtube.com/watch?v=VS-J5yXSdmM",
-      "duration": 149,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-10-02"
-    },
-    {
       "id": "5awkA8CS_DE",
       "title": "Politica e individuo.",
       "url": "https://www.youtube.com/watch?v=5awkA8CS_DE",
@@ -231,33 +123,6 @@
       "upload_date": "2026-09-28"
     },
     {
-      "id": "WF4SATj2odo",
-      "title": "Vivaldi’s Summer. Real music nourishes the mind and soul.",
-      "url": "https://www.youtube.com/watch?v=WF4SATj2odo",
-      "duration": 651,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-27"
-    },
-    {
-      "id": "hJPlfQnNrok",
-      "title": "The silence between the notes: Chopin's Nocturne in C-sharp minor.",
-      "url": "https://www.youtube.com/watch?v=hJPlfQnNrok",
-      "duration": 266,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-27"
-    },
-    {
-      "id": "7Fpp10TgHXo",
-      "title": "See for yourself how easily most people go along with the dishonesty of power.",
-      "url": "https://www.youtube.com/watch?v=7Fpp10TgHXo",
-      "duration": 42,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-27"
-    },
-    {
       "id": "vJAKnswOVp8",
       "title": "Salus ex Judaeis est.",
       "url": "https://www.youtube.com/watch?v=vJAKnswOVp8",
@@ -265,15 +130,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2026-09-27"
-    },
-    {
-      "id": "WgCZLWz0Fqg",
-      "title": "L'affaire Thélyson Orélien. Le nouveau scandale de l'industrie culturelle.",
-      "url": "https://www.youtube.com/watch?v=WgCZLWz0Fqg",
-      "duration": 226,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-26"
     },
     {
       "id": "ta2Mm7JBKPU",
@@ -294,15 +150,6 @@
       "upload_date": "2026-09-23"
     },
     {
-      "id": "YX875RhjpOc",
-      "title": "To speak of Daniel Barenboim and Mozart jointly is like another way of saying “civilization.”",
-      "url": "https://www.youtube.com/watch?v=YX875RhjpOc",
-      "duration": 488,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-20"
-    },
-    {
       "id": "D0vuu3EweIk",
       "title": "Il gazaismo ha già raggiunto obiettivi non trascurabili.",
       "url": "https://www.youtube.com/watch?v=D0vuu3EweIk",
@@ -321,15 +168,6 @@
       "upload_date": "2026-09-12"
     },
     {
-      "id": "x4rhsvNCFNo",
-      "title": "The eternal struggle of books against proud ignorance and its twin, barbarism.",
-      "url": "https://www.youtube.com/watch?v=x4rhsvNCFNo",
-      "duration": 157,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-09-10"
-    },
-    {
       "id": "GuBTdbhT3E0",
       "title": "La dimensione naturale.",
       "url": "https://www.youtube.com/watch?v=GuBTdbhT3E0",
@@ -337,15 +175,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2026-08-31"
-    },
-    {
-      "id": "RoFO6hI6uq8",
-      "title": "A clear sign of a civilization's decline is the fading of self-evident truths.",
-      "url": "https://www.youtube.com/watch?v=RoFO6hI6uq8",
-      "duration": 140,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-08-26"
     },
     {
       "id": "o19he0dyCl4",
@@ -357,33 +186,6 @@
       "upload_date": "2026-08-21"
     },
     {
-      "id": "jc2I9sOFzq0",
-      "title": "The Chancellor of the University of California, San Francisco, testifying under oath.",
-      "url": "https://www.youtube.com/watch?v=jc2I9sOFzq0",
-      "duration": 24,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-07-15"
-    },
-    {
-      "id": "2iBO74pT8p8",
-      "title": "Ladies and gentlemen, university education in the 21st century.",
-      "url": "https://www.youtube.com/watch?v=2iBO74pT8p8",
-      "duration": 314,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-07-06"
-    },
-    {
-      "id": "_GbHx0ZP96w",
-      "title": "A member of the U.S. Congress doesn't even know who was president during World War I.",
-      "url": "https://www.youtube.com/watch?v=_GbHx0ZP96w",
-      "duration": 93,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-06-05"
-    },
-    {
       "id": "W_NUbjtu1YY",
       "title": "Cani stupratori oppure totale perdita di controllo sulla realtà?",
       "url": "https://www.youtube.com/watch?v=W_NUbjtu1YY",
@@ -393,15 +195,6 @@
       "upload_date": "2026-06-05"
     },
     {
-      "id": "37fDRKw3c80",
-      "title": "The Reign of Criminality. A scene from Fritz Lang's 1933 film “The Testament of Dr. Mabuse.”",
-      "url": "https://www.youtube.com/watch?v=37fDRKw3c80",
-      "duration": 187,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-05-27"
-    },
-    {
       "id": "JSBAJxI4ywM",
       "title": "Limite o illimite?",
       "url": "https://www.youtube.com/watch?v=JSBAJxI4ywM",
@@ -409,15 +202,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2026-05-25"
-    },
-    {
-      "id": "0KY5lB8Tw4A",
-      "title": "The year is 1971, the debate is intelligent and calm, and the audience understands it well.",
-      "url": "https://www.youtube.com/watch?v=0KY5lB8Tw4A",
-      "duration": 148,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-05-13"
     },
     {
       "id": "xIgn6TiR7uc",
@@ -445,24 +229,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2026-03-27"
-    },
-    {
-      "id": "JEWH5ZD9bMU",
-      "title": "Here's the highly esteemed historian Eric Hobsbawm...",
-      "url": "https://www.youtube.com/watch?v=JEWH5ZD9bMU",
-      "duration": 135,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-03-23"
-    },
-    {
-      "id": "rQunni--qN0",
-      "title": "A teacher who has truly not studied the history of both World Wars.",
-      "url": "https://www.youtube.com/watch?v=rQunni--qN0",
-      "duration": 252,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2026-03-22"
     },
     {
       "id": "KZAsr8rI748",
@@ -717,267 +483,6 @@
       "upload_date": "2025-11-09"
     },
     {
-      "id": "qXvlX5bg2lY",
-      "title": "Yuri Bezmenov explains (in the 1980s) Mamdani's victory in NYC and the “Free Balestine” movement.",
-      "url": "https://www.youtube.com/watch?v=qXvlX5bg2lY",
-      "duration": 299,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-11-06"
-    },
-    {
-      "id": "F0QP5igtQTQ",
-      "title": "Look at me: “You don't see what you see, you don't know what you know.”",
-      "url": "https://www.youtube.com/watch?v=F0QP5igtQTQ",
-      "duration": 78,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-11"
-    },
-    {
-      "id": "QxtbAH3nrWM",
-      "title": "The EU strikes again, and almost no one cares.",
-      "url": "https://www.youtube.com/watch?v=QxtbAH3nrWM",
-      "duration": 94,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-10"
-    },
-    {
-      "id": "Y8Z7uP4kR1A",
-      "title": "The unjustified influence through money on universities.",
-      "url": "https://www.youtube.com/watch?v=Y8Z7uP4kR1A",
-      "duration": 820,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-09"
-    },
-    {
-      "id": "wCGhAYUXxco",
-      "title": "Muslim Brotherhood leader in a new interview: If one listens, it is not difficult to understand.",
-      "url": "https://www.youtube.com/watch?v=wCGhAYUXxco",
-      "duration": 255,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-08"
-    },
-    {
-      "id": "Rya1OGcrnLY",
-      "title": "Straight from the horse's mouth.",
-      "url": "https://www.youtube.com/watch?v=Rya1OGcrnLY",
-      "duration": 41,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-07"
-    },
-    {
-      "id": "UqV8qt780qs",
-      "title": "Did you know they arrived in outer space before aliens? 😂😂🤣😂🤣",
-      "url": "https://www.youtube.com/watch?v=UqV8qt780qs",
-      "duration": 38,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-06"
-    },
-    {
-      "id": "SgWrNMQ8QMg",
-      "title": "Rational discourse and simple facts vs the narrative on the war in Gaza.",
-      "url": "https://www.youtube.com/watch?v=SgWrNMQ8QMg",
-      "duration": 71,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-05"
-    },
-    {
-      "id": "xoKJTWx4J9w",
-      "title": "Senator Kennedy reports on how taxpayers' money is squandered (this is not just an American issue).",
-      "url": "https://www.youtube.com/watch?v=xoKJTWx4J9w",
-      "duration": 153,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-04"
-    },
-    {
-      "id": "0JNfz9ZEkg4",
-      "title": "So it begins, but just a few people are concerned about it.",
-      "url": "https://www.youtube.com/watch?v=0JNfz9ZEkg4",
-      "duration": 94,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-03"
-    },
-    {
-      "id": "w_s9-ES6Mhw",
-      "title": "Objections to “language” only when truth is spoken: Natasha Hausdorff speaking at the UN.",
-      "url": "https://www.youtube.com/watch?v=w_s9-ES6Mhw",
-      "duration": 173,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-10-02"
-    },
-    {
-      "id": "6-E1UVVOPHQ",
-      "title": "Women's rights in the 21st century: A call into the moral and intellectual void of this time.",
-      "url": "https://www.youtube.com/watch?v=6-E1UVVOPHQ",
-      "duration": 141,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-27"
-    },
-    {
-      "id": "fq7aq_WFtdo",
-      "title": "Honor (ἀρετή) is not just a word. It means doing the right thing, no matter what...",
-      "url": "https://www.youtube.com/watch?v=fq7aq_WFtdo",
-      "duration": 241,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-27"
-    },
-    {
-      "id": "2I03KPjYQ6M",
-      "title": "How Sweden's Multicultural Dream Went Fatally Wrong.",
-      "url": "https://www.youtube.com/watch?v=2I03KPjYQ6M",
-      "duration": 1224,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-27"
-    },
-    {
-      "id": "EGtq0VLUObA",
-      "title": "What is worrisome is that many people would find all this “cool.”",
-      "url": "https://www.youtube.com/watch?v=EGtq0VLUObA",
-      "duration": 30,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-22"
-    },
-    {
-      "id": "YnnBXDUtkuA",
-      "title": "Congresswoman Ilhan Omar's attack against Charlie Kirk. Let's put the words into context.",
-      "url": "https://www.youtube.com/watch?v=YnnBXDUtkuA",
-      "duration": 620,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-21"
-    },
-    {
-      "id": "KqL4sYPpsM0",
-      "title": "“That's it!” Great democratic moments in the European Parliament.",
-      "url": "https://www.youtube.com/watch?v=KqL4sYPpsM0",
-      "duration": 55,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-21"
-    },
-    {
-      "id": "wiWX-zmPdR8",
-      "title": "Chaos erupts as Rashida Tlaib goes berserk after insulting a Congressman.",
-      "url": "https://www.youtube.com/watch?v=wiWX-zmPdR8",
-      "duration": 62,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-19"
-    },
-    {
-      "id": "pwR7JL5xRbE",
-      "title": "Beni Rae Harmony has been suspended for airing a non-partisan tribute to Charlie Kirk.",
-      "url": "https://www.youtube.com/watch?v=pwR7JL5xRbE",
-      "duration": 77,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-16"
-    },
-    {
-      "id": "hvszbYnRj30",
-      "title": "US Secretary of State Marco Rubio slams Macron.",
-      "url": "https://www.youtube.com/watch?v=hvszbYnRj30",
-      "duration": 28,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-16"
-    },
-    {
-      "id": "5-ZHxV6bN-8",
-      "title": "Ladies and gentlemen, the “free press!”",
-      "url": "https://www.youtube.com/watch?v=5-ZHxV6bN-8",
-      "duration": 234,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-15"
-    },
-    {
-      "id": "PT_pZxZmvCw",
-      "title": "Singapore's Prime Minister addressed concerns about foreign interference in domestic affairs.",
-      "url": "https://www.youtube.com/watch?v=PT_pZxZmvCw",
-      "duration": 428,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-15"
-    },
-    {
-      "id": "1NO2CoyzdhU",
-      "title": "An analysis of Charlie Kirk's assassination: The facts versus the media.",
-      "url": "https://www.youtube.com/watch?v=1NO2CoyzdhU",
-      "duration": 1908,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-14"
-    },
-    {
-      "id": "rxCmalAZLSA",
-      "title": "An easy question about who is the fascist.",
-      "url": "https://www.youtube.com/watch?v=rxCmalAZLSA",
-      "duration": 14,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-13"
-    },
-    {
-      "id": "BCbWVswRh9w",
-      "title": "UK Lawyer Issues Chilling Warning About Free Speech In Europe.",
-      "url": "https://www.youtube.com/watch?v=BCbWVswRh9w",
-      "duration": 312,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-12"
-    },
-    {
-      "id": "TpN0IWSwQF0",
-      "title": "Gad Saad remembers Charlie Kirk on the day of his assassination.",
-      "url": "https://www.youtube.com/watch?v=TpN0IWSwQF0",
-      "duration": 217,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-11"
-    },
-    {
-      "id": "RdHJD5p4aFs",
-      "title": "An articulate history lesson about Israel.",
-      "url": "https://www.youtube.com/watch?v=RdHJD5p4aFs",
-      "duration": 186,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-10"
-    },
-    {
-      "id": "ognmk5aJDMg",
-      "title": "September 9, 2025. Sweden's newly appointed Health Minister fainted during a press conference.",
-      "url": "https://www.youtube.com/watch?v=ognmk5aJDMg",
-      "duration": 16,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-09"
-    },
-    {
-      "id": "mzkFe0IZN3c",
-      "title": "A strong and clear message to all antisemites who hate Israel—and I hope you don't miss the subtext.",
-      "url": "https://www.youtube.com/watch?v=mzkFe0IZN3c",
-      "duration": 92,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-09"
-    },
-    {
       "id": "1CQUzP-GyCQ",
       "title": "Credevate davvero che sarebbero tornati con la croce uncinata?",
       "url": "https://www.youtube.com/watch?v=1CQUzP-GyCQ",
@@ -985,141 +490,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-09-06"
-    },
-    {
-      "id": "0LEXREN0aRo",
-      "title": "Yaakov Katz comments on the libel that Israel is committing genocide in Gaza.",
-      "url": "https://www.youtube.com/watch?v=0LEXREN0aRo",
-      "duration": 133,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-05"
-    },
-    {
-      "id": "vGdNKDaJrUQ",
-      "title": "Despotism (1946).",
-      "url": "https://www.youtube.com/watch?v=vGdNKDaJrUQ",
-      "duration": 597,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-05"
-    },
-    {
-      "id": "tlEGGo2_wT8",
-      "title": "Watch how the house of cards of the fake “genocide” collapses…",
-      "url": "https://www.youtube.com/watch?v=tlEGGo2_wT8",
-      "duration": 24,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-03"
-    },
-    {
-      "id": "BuPE4ZVi77k",
-      "title": "A portrait of Albert Einstein.",
-      "url": "https://www.youtube.com/watch?v=BuPE4ZVi77k",
-      "duration": 3534,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-03"
-    },
-    {
-      "id": "kI7EuPgeOl4",
-      "title": "UCLA assistant professor Loubna Qutami calls Gaza the “Compass” of Revolution.",
-      "url": "https://www.youtube.com/watch?v=kI7EuPgeOl4",
-      "duration": 107,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-02"
-    },
-    {
-      "id": "rGBEvCmPGRI",
-      "title": "March 2021. CNN breaks the news that the inoculation is 100% effective.",
-      "url": "https://www.youtube.com/watch?v=rGBEvCmPGRI",
-      "duration": 57,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-02"
-    },
-    {
-      "id": "yF8ls_nmlWQ",
-      "title": "Nobel laureate Elie Wiesel discusses the resurgence of antisemitism.",
-      "url": "https://www.youtube.com/watch?v=yF8ls_nmlWQ",
-      "duration": 1736,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-09-01"
-    },
-    {
-      "id": "2t_8k0tJQ4U",
-      "title": "The chimeras of the 21st century.",
-      "url": "https://www.youtube.com/watch?v=2t_8k0tJQ4U",
-      "duration": 136,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-31"
-    },
-    {
-      "id": "DV1zj0B_lZE",
-      "title": "US Ambassador Mike Huckabee explains antisemitism in theological ways.",
-      "url": "https://www.youtube.com/watch?v=DV1zj0B_lZE",
-      "duration": 33,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-25"
-    },
-    {
-      "id": "D1MqrVHi7sA",
-      "title": "Prime Minister Netanyahu explains what the cry “Free Fakestine” really means.",
-      "url": "https://www.youtube.com/watch?v=D1MqrVHi7sA",
-      "duration": 91,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-24"
-    },
-    {
-      "id": "3agyKG4CM7I",
-      "title": "Facts are just facts: “I'm not on any team. This is just what happened.”",
-      "url": "https://www.youtube.com/watch?v=3agyKG4CM7I",
-      "duration": 85,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-19"
-    },
-    {
-      "id": "CIkOCNqu63g",
-      "title": "The role of “non-elected officials.” Tulsi Gabbard Confirms Fauci Under Investigation for Perjury.",
-      "url": "https://www.youtube.com/watch?v=CIkOCNqu63g",
-      "duration": 334,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-16"
-    },
-    {
-      "id": "3c0wj91L_7M",
-      "title": "Does all this seem normal? Not even a little concern or uneasiness?",
-      "url": "https://www.youtube.com/watch?v=3c0wj91L_7M",
-      "duration": 119,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-13"
-    },
-    {
-      "id": "_Bi0eoe6T_A",
-      "title": "A San Francisco company has unveiled salmon that was grown entirely in a lab.",
-      "url": "https://www.youtube.com/watch?v=_Bi0eoe6T_A",
-      "duration": 236,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-11"
-    },
-    {
-      "id": "3YuIkQuadio",
-      "title": "Carbon-based butter or “coal butter”. Making food from non-food ingredients.",
-      "url": "https://www.youtube.com/watch?v=3YuIkQuadio",
-      "duration": 227,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-09"
     },
     {
       "id": "B9GztjaA4no",
@@ -1131,15 +501,6 @@
       "upload_date": "2025-08-09"
     },
     {
-      "id": "UTkOJec5S1c",
-      "title": "U.S. Ambassador to Israel Mike Huckabee on the situation in Gaza and in the Western media.",
-      "url": "https://www.youtube.com/watch?v=UTkOJec5S1c",
-      "duration": 279,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-03"
-    },
-    {
       "id": "tK9p0c13Vv4",
       "title": "Cristo è oggi sepolto a Gaza?",
       "url": "https://www.youtube.com/watch?v=tK9p0c13Vv4",
@@ -1147,15 +508,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-08-02"
-    },
-    {
-      "id": "3MZdr7BuMn4",
-      "title": "Canada just recognized the fake “State of Palestine.”",
-      "url": "https://www.youtube.com/watch?v=3MZdr7BuMn4",
-      "duration": 88,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-08-01"
     },
     {
       "id": "O07YtlAffTw",
@@ -1167,33 +519,6 @@
       "upload_date": "2025-07-30"
     },
     {
-      "id": "k8JQ-Afhbp0",
-      "title": "Aggressione in autogrill a Milano: non gridano più ukbar, ma Free Fakestine.",
-      "url": "https://www.youtube.com/watch?v=k8JQ-Afhbp0",
-      "duration": 120,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-30"
-    },
-    {
-      "id": "MTBz3GrrWvs",
-      "title": "Albert Einstein (Teil 2): Eine Formel Explodiert.",
-      "url": "https://www.youtube.com/watch?v=MTBz3GrrWvs",
-      "duration": 4834,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-27"
-    },
-    {
-      "id": "SGoxV61-PWw",
-      "title": "Albert Einstein (Teil 1): Der Letzte Sommer.",
-      "url": "https://www.youtube.com/watch?v=SGoxV61-PWw",
-      "duration": 4469,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-27"
-    },
-    {
       "id": "hJirx4mZ3FU",
       "title": "Metodologia e prassi: insegnamento e istruzione verso una scuola umanista.",
       "url": "https://www.youtube.com/watch?v=hJirx4mZ3FU",
@@ -1201,15 +526,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-07-27"
-    },
-    {
-      "id": "b493oYiIb_0",
-      "title": "Wittgensteinianisms with John Cleese & Jonathan Miller.",
-      "url": "https://www.youtube.com/watch?v=b493oYiIb_0",
-      "duration": 331,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-23"
     },
     {
       "id": "0lPkNE22wOo",
@@ -1230,123 +546,6 @@
       "upload_date": "2025-07-21"
     },
     {
-      "id": "MRsOpNFuSz8",
-      "title": "“We will not revoke the medal...”",
-      "url": "https://www.youtube.com/watch?v=MRsOpNFuSz8",
-      "duration": 335,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-21"
-    },
-    {
-      "id": "raNPqApjyVc",
-      "title": "“This hatred we see in our country is coming from our universities.”",
-      "url": "https://www.youtube.com/watch?v=raNPqApjyVc",
-      "duration": 335,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-21"
-    },
-    {
-      "id": "I0cZCVbao8Y",
-      "title": "“Is This The First You're Hearing About These Two Professors?”",
-      "url": "https://www.youtube.com/watch?v=I0cZCVbao8Y",
-      "duration": 329,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-21"
-    },
-    {
-      "id": "5U58_0oDuTQ",
-      "title": "“Did Qatar Approach Georgetown Or Vice Versa?”",
-      "url": "https://www.youtube.com/watch?v=5U58_0oDuTQ",
-      "duration": 322,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-21"
-    },
-    {
-      "id": "JgVEl2KwI4M",
-      "title": "Michael Baumgartner Questions College President At Hearing On Antisemitism On Campus.",
-      "url": "https://www.youtube.com/watch?v=JgVEl2KwI4M",
-      "duration": 343,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-21"
-    },
-    {
-      "id": "Cbj3Fm5xj2I",
-      "title": "Happy birthday, Moon landing!",
-      "url": "https://www.youtube.com/watch?v=Cbj3Fm5xj2I",
-      "duration": 79,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-20"
-    },
-    {
-      "id": "wUj8nJWJsb8",
-      "title": "A time traveler attempts to kill the Nazi dictator only to discover instead...",
-      "url": "https://www.youtube.com/watch?v=wUj8nJWJsb8",
-      "duration": 276,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-19"
-    },
-    {
-      "id": "QOgMjhZzzGI",
-      "title": "Tensions during the Congressional Hearing on Antisemitism in Higher Education.",
-      "url": "https://www.youtube.com/watch?v=QOgMjhZzzGI",
-      "duration": 666,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-18"
-    },
-    {
-      "id": "8y6WEtr7hgk",
-      "title": "“Does CUNY Have Any Antisemitic Faculty?”",
-      "url": "https://www.youtube.com/watch?v=8y6WEtr7hgk",
-      "duration": 356,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-18"
-    },
-    {
-      "id": "yJlQiN7LvyQ",
-      "title": "Why College Campuses are Hotbeds of Antisemitism?",
-      "url": "https://www.youtube.com/watch?v=yJlQiN7LvyQ",
-      "duration": 383,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-18"
-    },
-    {
-      "id": "8gypiRk3zTc",
-      "title": "Berkeley Chancellor says prof's tweet is “Celebration” of Oct. 7, but he is a “fine scholar.”",
-      "url": "https://www.youtube.com/watch?v=8gypiRk3zTc",
-      "duration": 360,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-18"
-    },
-    {
-      "id": "YnktHBdLLmI",
-      "title": "City University of New York Chancellor confronted over nazi symbols & antisemitism in the campus.",
-      "url": "https://www.youtube.com/watch?v=YnktHBdLLmI",
-      "duration": 359,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-18"
-    },
-    {
-      "id": "izvnorDzA7w",
-      "title": "Heavenly organ music.",
-      "url": "https://www.youtube.com/watch?v=izvnorDzA7w",
-      "duration": 292,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-17"
-    },
-    {
       "id": "UsmaYrQy2IY",
       "title": "Updates from Israel with Chaim Noll.",
       "url": "https://www.youtube.com/watch?v=UsmaYrQy2IY",
@@ -1365,15 +564,6 @@
       "upload_date": "2025-07-15"
     },
     {
-      "id": "vt83HUxJ2R8",
-      "title": "Professor, Dr., and Director of the Program in Latino Studies at Princeton University.",
-      "url": "https://www.youtube.com/watch?v=vt83HUxJ2R8",
-      "duration": 134,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-09"
-    },
-    {
       "id": "lmQzhVvbpKc",
       "title": "Quello che non si vede anche dopo averlo visto.",
       "url": "https://www.youtube.com/watch?v=lmQzhVvbpKc",
@@ -1381,51 +571,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-07-09"
-    },
-    {
-      "id": "6NsnGDOhMxM",
-      "title": "Debunking, in a few seconds, Ms. Albanese's falsities and propaganda.",
-      "url": "https://www.youtube.com/watch?v=6NsnGDOhMxM",
-      "duration": 174,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-09"
-    },
-    {
-      "id": "qXbVPaQYs4Y",
-      "title": "The power of democracy: “You let one ant stand up, then they all might stand up...”",
-      "url": "https://www.youtube.com/watch?v=qXbVPaQYs4Y",
-      "duration": 74,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-07-02"
-    },
-    {
-      "id": "lB8_aVrXnqM",
-      "title": "What will your verse be?",
-      "url": "https://www.youtube.com/watch?v=lB8_aVrXnqM",
-      "duration": 78,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-29"
-    },
-    {
-      "id": "OMHVHSbPx9Q",
-      "title": "The way the media reports the Gaza casualties.",
-      "url": "https://www.youtube.com/watch?v=OMHVHSbPx9Q",
-      "duration": 123,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-16"
-    },
-    {
-      "id": "oeGnnJXmQsw",
-      "title": "The Fakestinians cult seems to attract many mentally disturbed people.",
-      "url": "https://www.youtube.com/watch?v=oeGnnJXmQsw",
-      "duration": 32,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-14"
     },
     {
       "id": "gM3L-R3Iies",
@@ -1437,42 +582,6 @@
       "upload_date": "2025-06-14"
     },
     {
-      "id": "p7alvJYi_BY",
-      "title": "Jon (the Man) Conricus refuted a clown who was spreading antisemitic propaganda on a trash TV show.",
-      "url": "https://www.youtube.com/watch?v=p7alvJYi_BY",
-      "duration": 130,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-13"
-    },
-    {
-      "id": "O1kRtP6N-_Y",
-      "title": "The goals are chaos and social division: divide et impera.",
-      "url": "https://www.youtube.com/watch?v=O1kRtP6N-_Y",
-      "duration": 212,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-12"
-    },
-    {
-      "id": "IKcCYt9pxaA",
-      "title": "Living in \"an upside-down universe.\" This is an example of moral and mental clarity in journalism.",
-      "url": "https://www.youtube.com/watch?v=IKcCYt9pxaA",
-      "duration": 837,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-10"
-    },
-    {
-      "id": "yr_7RYn4G6Y",
-      "title": "Dire Warning to the West: “If Jerusalem falls, then Athens, Paris, and Amsterdam are next.”",
-      "url": "https://www.youtube.com/watch?v=yr_7RYn4G6Y",
-      "duration": 133,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-06-08"
-    },
-    {
       "id": "9h1SKURPkcs",
       "title": "L'irraggiungibilità dell'antisemitismo. Il dilemma di Wiesel ed i terrapiattisti contro Israele.",
       "url": "https://www.youtube.com/watch?v=9h1SKURPkcs",
@@ -1480,15 +589,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-06-08"
-    },
-    {
-      "id": "mV8yFg1gBd4",
-      "title": "Charlie Chaplin's first monologue, against tyranny: \"Let us fight for a world of reason.\"",
-      "url": "https://www.youtube.com/watch?v=mV8yFg1gBd4",
-      "duration": 211,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-05-20"
     },
     {
       "id": "1QaVGT-FYTw",
@@ -1500,51 +600,6 @@
       "upload_date": "2025-05-10"
     },
     {
-      "id": "-pxnGHHcKqk",
-      "title": "Basic behavior modification techniques.",
-      "url": "https://www.youtube.com/watch?v=-pxnGHHcKqk",
-      "duration": 220,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-27"
-    },
-    {
-      "id": "gPXNvJHmEYY",
-      "title": "Goodness is beautiful, honorable, and true. He who sows good reaps good.",
-      "url": "https://www.youtube.com/watch?v=gPXNvJHmEYY",
-      "duration": 104,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-25"
-    },
-    {
-      "id": "Dw7EGNOSWN4",
-      "title": "Dennis Prager explains the entire Middle East conflict in five minutes.",
-      "url": "https://www.youtube.com/watch?v=Dw7EGNOSWN4",
-      "duration": 328,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-20"
-    },
-    {
-      "id": "psV1tzYV2OM",
-      "title": "The Grand Mufti Amin al-Husseini (Arafat's relative) and the SS Division \"Handschar.\"",
-      "url": "https://www.youtube.com/watch?v=psV1tzYV2OM",
-      "duration": 406,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-20"
-    },
-    {
-      "id": "WqrpPr3jqCY",
-      "title": "The elephant in the room: the anti-Semitism that has taken over in the universities.",
-      "url": "https://www.youtube.com/watch?v=WqrpPr3jqCY",
-      "duration": 5719,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-20"
-    },
-    {
       "id": "iMuudB0VLpI",
       "title": "Nathan Greppi, La cultura dell’odio. Media, università e artisti contro Israele.",
       "url": "https://www.youtube.com/watch?v=iMuudB0VLpI",
@@ -1552,33 +607,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-04-18"
-    },
-    {
-      "id": "wGxI2nAtx6U",
-      "title": "Albert Einstein with David Ben-Gurion in Princeton, N.J., May 13, 1951.",
-      "url": "https://www.youtube.com/watch?v=wGxI2nAtx6U",
-      "duration": 30,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-08"
-    },
-    {
-      "id": "0Ye38XNOnC4",
-      "title": "L'autocolonna del Cancelliere tedesco (Scholz) a Berlino.",
-      "url": "https://www.youtube.com/watch?v=0Ye38XNOnC4",
-      "duration": 16,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-06"
-    },
-    {
-      "id": "75kwh3a73NA",
-      "title": "Lo Sceicco Beige: quando la vanità crede di argomentare.",
-      "url": "https://www.youtube.com/watch?v=75kwh3a73NA",
-      "duration": 356,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-04-06"
     },
     {
       "id": "15FhRCOA4Zw",
@@ -1606,15 +634,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-03-23"
-    },
-    {
-      "id": "ECnOqvaZ-e4",
-      "title": "The Grand Mufti Amin al-Husseini and the Nazis.",
-      "url": "https://www.youtube.com/watch?v=ECnOqvaZ-e4",
-      "duration": 400,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-03-13"
     },
     {
       "id": "l6wkJsMrHAM",
@@ -1653,87 +672,6 @@
       "upload_date": "2025-02-15"
     },
     {
-      "id": "Iv3t9P9K0-0",
-      "title": "\"Auditing spending is what government should do...\"",
-      "url": "https://www.youtube.com/watch?v=Iv3t9P9K0-0",
-      "duration": 373,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-14"
-    },
-    {
-      "id": "fbsZNre-hbY",
-      "title": "Lee Zelding on the handling of public money. Shouldn't this what every law-abiding citizen wants?",
-      "url": "https://www.youtube.com/watch?v=fbsZNre-hbY",
-      "duration": 216,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-13"
-    },
-    {
-      "id": "LiX9LKydPHE",
-      "title": "Is it really that difficult to understand?",
-      "url": "https://www.youtube.com/watch?v=LiX9LKydPHE",
-      "duration": 326,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-13"
-    },
-    {
-      "id": "t0mBamsdSQo",
-      "title": "How bad is it to try to restore democracy?",
-      "url": "https://www.youtube.com/watch?v=t0mBamsdSQo",
-      "duration": 165,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-12"
-    },
-    {
-      "id": "oD3OI4S_zp0",
-      "title": "Alon Ohel is chained in a Gazan tunnel. Shame on all those who support Hamas. Shame on all of you!",
-      "url": "https://www.youtube.com/watch?v=oD3OI4S_zp0",
-      "duration": 49,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-11"
-    },
-    {
-      "id": "0NIeSFX698Q",
-      "title": "The International Court of Justice did NOT find that there was a genocide in Gaza.",
-      "url": "https://www.youtube.com/watch?v=0NIeSFX698Q",
-      "duration": 89,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-10"
-    },
-    {
-      "id": "qxtiEYSERGI",
-      "title": "And if you still haven't figured out the last two videos, here's a 3rd with the Egyptian president.",
-      "url": "https://www.youtube.com/watch?v=qxtiEYSERGI",
-      "duration": 253,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-08"
-    },
-    {
-      "id": "hcBEX_JygI4",
-      "title": "And if you don't understand the previous video, here's Gaddafi exposing the \"Palestinian\" lie.",
-      "url": "https://www.youtube.com/watch?v=hcBEX_JygI4",
-      "duration": 132,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-08"
-    },
-    {
-      "id": "7mernR4RwVw",
-      "title": "The simple facts about the Palestinian arab nation.",
-      "url": "https://www.youtube.com/watch?v=7mernR4RwVw",
-      "duration": 48,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-08"
-    },
-    {
       "id": "Ci3L7OVZxQs",
       "title": "Il terremoto politico che sta avvenendo negli USA ed il controllo di massa attraverso l'opinione.",
       "url": "https://www.youtube.com/watch?v=Ci3L7OVZxQs",
@@ -1741,24 +679,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-02-08"
-    },
-    {
-      "id": "5uzVEeCXTfk",
-      "title": "Ladies and gentlemen: the media! Judge for yourselves.",
-      "url": "https://www.youtube.com/watch?v=5uzVEeCXTfk",
-      "duration": 99,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-07"
-    },
-    {
-      "id": "vvlpkEwEc9E",
-      "title": "Press Secretary Leavitt calls out Politico to their face.",
-      "url": "https://www.youtube.com/watch?v=vvlpkEwEc9E",
-      "duration": 54,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-07"
     },
     {
       "id": "kfGvE7P_9Yw",
@@ -1774,15 +694,6 @@
       "title": "Su un comunicato dell'Associazione americana dei professori universitari.",
       "url": "https://www.youtube.com/watch?v=dY00aaMB-hc",
       "duration": 2313,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-02-05"
-    },
-    {
-      "id": "B-endceSsEk",
-      "title": "Humanoid Robot Makes Its Debut at the Spring Festival Gala.",
-      "url": "https://www.youtube.com/watch?v=B-endceSsEk",
-      "duration": 79,
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-02-05"
@@ -1806,33 +717,6 @@
       "upload_date": "2025-01-27"
     },
     {
-      "id": "RZnA88uWl-w",
-      "title": "Elise Stefanik, at confirmation hearing for US Ambassador at the UN.",
-      "url": "https://www.youtube.com/watch?v=RZnA88uWl-w",
-      "duration": 90,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-01-26"
-    },
-    {
-      "id": "PVtFz6NFWs4",
-      "title": "Democracy fights back. The reinstatement of free speech.",
-      "url": "https://www.youtube.com/watch?v=PVtFz6NFWs4",
-      "duration": 31,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-01-24"
-    },
-    {
-      "id": "i683nKAGFt0",
-      "title": "David Brog, author of \"Reclaiming Israel's History,\" debunks the three biggest lies against Israel.",
-      "url": "https://www.youtube.com/watch?v=i683nKAGFt0",
-      "duration": 2184,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-01-23"
-    },
-    {
       "id": "HI0ymQpRkI4",
       "title": "Seminari tematici (IIl): tramonto della verità.",
       "url": "https://www.youtube.com/watch?v=HI0ymQpRkI4",
@@ -1849,15 +733,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2025-01-13"
-    },
-    {
-      "id": "NLjcdjllOuA",
-      "title": "Happy New Year 2025! Buon Anno a Tutti!",
-      "url": "https://www.youtube.com/watch?v=NLjcdjllOuA",
-      "duration": 53,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2025-01-01"
     },
     {
       "id": "fif4SD1gvxc",
@@ -1894,15 +769,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2024-12-25"
-    },
-    {
-      "id": "y5qkWoQvGBM",
-      "title": "Merry Christmas to All!",
-      "url": "https://www.youtube.com/watch?v=y5qkWoQvGBM",
-      "duration": 133,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-12-24"
     },
     {
       "id": "p0c3kVIdakc",
@@ -1950,24 +816,6 @@
       "upload_date": "2024-11-25"
     },
     {
-      "id": "kx8Z8RtEXlI",
-      "title": "Holocaust survivor vs. young deniers: who is responsible for the ignorance of these young people?",
-      "url": "https://www.youtube.com/watch?v=kx8Z8RtEXlI",
-      "duration": 351,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-11-21"
-    },
-    {
-      "id": "CNCpB4f8Ck8",
-      "title": "Debunking myths about the \"Palestinians.\" A beam of truth in a sea of lies.",
-      "url": "https://www.youtube.com/watch?v=CNCpB4f8Ck8",
-      "duration": 2130,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-11-19"
-    },
-    {
       "id": "PQxiGYda9Ck",
       "title": "L'intricata vicenda delle elezioni presidenziali americane.",
       "url": "https://www.youtube.com/watch?v=PQxiGYda9Ck",
@@ -1977,15 +825,6 @@
       "upload_date": "2024-11-18"
     },
     {
-      "id": "vOchgcLbSow",
-      "title": "The risk the entire world took today was huge. Goodbye Kamala. 👋",
-      "url": "https://www.youtube.com/watch?v=vOchgcLbSow",
-      "duration": 21,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-11-06"
-    },
-    {
       "id": "zV0DtU_yJlg",
       "title": "Seminari tematici: incontro introduttivo.",
       "url": "https://www.youtube.com/watch?v=zV0DtU_yJlg",
@@ -1993,24 +832,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2024-11-04"
-    },
-    {
-      "id": "0oSUTTYI3pQ",
-      "title": "“The Pro-Palestine people are supporting monsters. They need to go to a mental asylum.\"",
-      "url": "https://www.youtube.com/watch?v=0oSUTTYI3pQ",
-      "duration": 65,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-11-03"
-    },
-    {
-      "id": "lJHGadfNr-I",
-      "title": "Pasolini, nell'anno della sua morte, descrive la manipolazione e distruzione delle coscienze.",
-      "url": "https://www.youtube.com/watch?v=lJHGadfNr-I",
-      "duration": 65,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-11-02"
     },
     {
       "id": "tSY-82nyPiQ",
@@ -2040,15 +861,6 @@
       "upload_date": "2024-10-20"
     },
     {
-      "id": "PMuDMfsA-uo",
-      "title": "E qui uno di quei tanti discorsi che si tengono quando si dovrebbe parlare di un libro.",
-      "url": "https://www.youtube.com/watch?v=PMuDMfsA-uo",
-      "duration": 16,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-10-16"
-    },
-    {
       "id": "Pe-V_EoG5dg",
       "title": "Uno sguardo al padiglione italiano alla Buchmesse di Francoforte.",
       "url": "https://www.youtube.com/watch?v=Pe-V_EoG5dg",
@@ -2065,15 +877,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2024-10-16"
-    },
-    {
-      "id": "O_mE0H0M37Y",
-      "title": "Too many seem (or prefer) to forget: Douglas Murray speaking about the Nova Music Festival.",
-      "url": "https://www.youtube.com/watch?v=O_mE0H0M37Y",
-      "duration": 285,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-10-14"
     },
     {
       "id": "lA7CrmdYDCg",
@@ -2193,15 +996,6 @@
       "upload_date": "2024-06-14"
     },
     {
-      "id": "sH3vxGm-MZA",
-      "title": "La \"scienzia\" inumana in cui mostri a due gambe torturano angeli a quattro zampe.",
-      "url": "https://www.youtube.com/watch?v=sH3vxGm-MZA",
-      "duration": 117,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-06-05"
-    },
-    {
       "id": "j25GwiTkpU8",
       "title": "Propaganda e manipolazione del linguaggio.",
       "url": "https://www.youtube.com/watch?v=j25GwiTkpU8",
@@ -2215,15 +1009,6 @@
       "title": "La lettera aperta di Stéphane Charbonnier. Da Charlie Hebdo all'attentato a Michael Stürzenberger.",
       "url": "https://www.youtube.com/watch?v=MATvwHta2Ww",
       "duration": 4495,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2024-06-02"
-    },
-    {
-      "id": "5-i_eXJT6eM",
-      "title": "A world that wants to be deceived.",
-      "url": "https://www.youtube.com/watch?v=5-i_eXJT6eM",
-      "duration": 553,
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2024-06-02"
@@ -2544,33 +1329,6 @@
       "upload_date": "2023-12-04"
     },
     {
-      "id": "9u28KK23pDM",
-      "title": "Luai Ahmed: \"European politicians and journalists have failed Europe.\"",
-      "url": "https://www.youtube.com/watch?v=9u28KK23pDM",
-      "duration": 127,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-12-02"
-    },
-    {
-      "id": "cHnRdEYNXvo",
-      "title": "Know the facts: Why do (the Palestinians) give birth to so many children?",
-      "url": "https://www.youtube.com/watch?v=cHnRdEYNXvo",
-      "duration": 80,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-12-02"
-    },
-    {
-      "id": "lSoOMzkr0_g",
-      "title": "Know the facts: This speech is so vulgar and grotesque at the same time....",
-      "url": "https://www.youtube.com/watch?v=lSoOMzkr0_g",
-      "duration": 138,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-12-02"
-    },
-    {
       "id": "SWQYvYWepdk",
       "title": "Considerazioni sulla diretta di ieri: un esperimento riuscito?",
       "url": "https://www.youtube.com/watch?v=SWQYvYWepdk",
@@ -2578,15 +1336,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-11-28"
-    },
-    {
-      "id": "-gzNVkGDtNY",
-      "title": "How the BBC prepares the news",
-      "url": "https://www.youtube.com/watch?v=-gzNVkGDtNY",
-      "duration": 67,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-27"
     },
     {
       "id": "miOeT4c1shE",
@@ -2616,15 +1365,6 @@
       "upload_date": "2023-11-25"
     },
     {
-      "id": "6QwvjPn6EOA",
-      "title": "Know the facts: The Palestinian narrative vs. history.",
-      "url": "https://www.youtube.com/watch?v=6QwvjPn6EOA",
-      "duration": 1288,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-24"
-    },
-    {
       "id": "aM__FrK29H8",
       "title": "Il Giorno del Ringraziamento (Thanksgiving)!",
       "url": "https://www.youtube.com/watch?v=aM__FrK29H8",
@@ -2641,42 +1381,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-11-22"
-    },
-    {
-      "id": "SuWfOsHteLE",
-      "title": "The THREE questions the BBC NEVER asks the Palestinians.",
-      "url": "https://www.youtube.com/watch?v=SuWfOsHteLE",
-      "duration": 310,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-22"
-    },
-    {
-      "id": "9CLn0JboYCc",
-      "title": "Know the facts: \"This is the teaching of Islam\" - Straight from the lion's mouth.",
-      "url": "https://www.youtube.com/watch?v=9CLn0JboYCc",
-      "duration": 140,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-22"
-    },
-    {
-      "id": "dP6GRM2VqcA",
-      "title": "Provate ad immaginare se questa fosse la vostra realtà. Cosa fareste?",
-      "url": "https://www.youtube.com/watch?v=dP6GRM2VqcA",
-      "duration": 91,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-21"
-    },
-    {
-      "id": "8EB2Dgzkqwk",
-      "title": "Foreign Affairs Committee questions US officials about the 10,000 \"civilians\" killed in Gaza.",
-      "url": "https://www.youtube.com/watch?v=8EB2Dgzkqwk",
-      "duration": 136,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-20"
     },
     {
       "id": "_jBioc8sWaI",
@@ -2697,15 +1401,6 @@
       "upload_date": "2023-11-18"
     },
     {
-      "id": "A3bXBQjVL3s",
-      "title": "Luai Ahmed: A Letter to TikTok (traduzione nella descrizione).",
-      "url": "https://www.youtube.com/watch?v=A3bXBQjVL3s",
-      "duration": 96,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-18"
-    },
-    {
       "id": "zUl-ISs2MKg",
       "title": "La necessità dell'acculturazione in Europa.",
       "url": "https://www.youtube.com/watch?v=zUl-ISs2MKg",
@@ -2713,123 +1408,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-11-17"
-    },
-    {
-      "id": "ZH0_XZl81lQ",
-      "title": "Rape is not resistance (Lo stupro non è resistenza).",
-      "url": "https://www.youtube.com/watch?v=ZH0_XZl81lQ",
-      "duration": 85,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-17"
-    },
-    {
-      "id": "RumBzgYdCb0",
-      "title": "The Israel and Palestine double standard with Douglas Murray.",
-      "url": "https://www.youtube.com/watch?v=RumBzgYdCb0",
-      "duration": 237,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-17"
-    },
-    {
-      "id": "euH6fVIqSFU",
-      "title": "Sheikh Abdulla Bin Zayed Al Nahyan talking about Islamism in Europe.",
-      "url": "https://www.youtube.com/watch?v=euH6fVIqSFU",
-      "duration": 45,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-16"
-    },
-    {
-      "id": "MJ2Zx9aBO3o",
-      "title": "How to get super viral on social media! A guide to making a viral \"Free Palestine\" video.",
-      "url": "https://www.youtube.com/watch?v=MJ2Zx9aBO3o",
-      "duration": 102,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-16"
-    },
-    {
-      "id": "vzsp0Cg6foY",
-      "title": "Hamas spokesman Ghazi Hamad: “We will repeat the October 7 attack time and again...”",
-      "url": "https://www.youtube.com/watch?v=vzsp0Cg6foY",
-      "duration": 81,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-16"
-    },
-    {
-      "id": "XaOl98PyHNQ",
-      "title": "Know the facts: The choice to look at reality is a moral choice.",
-      "url": "https://www.youtube.com/watch?v=XaOl98PyHNQ",
-      "duration": 200,
-      "audio_saved": false,
-      "video_saved": false,
-      "upload_date": "2023-11-16"
-    },
-    {
-      "id": "6IbNO0W9-MY",
-      "title": "A father's ethical teaching: Hitler represents evil and the evil will never be right.",
-      "url": "https://www.youtube.com/watch?v=6IbNO0W9-MY",
-      "duration": 61,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-15"
-    },
-    {
-      "id": "TgP8J4H-H9o",
-      "title": "A BBC parody that reveals so much truth.",
-      "url": "https://www.youtube.com/watch?v=TgP8J4H-H9o",
-      "duration": 203,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-15"
-    },
-    {
-      "id": "LWgFXXgyKSk",
-      "title": "Hamas sta perdendo persino il controllo mediatico all'interno di Gaza.",
-      "url": "https://www.youtube.com/watch?v=LWgFXXgyKSk",
-      "duration": 12,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-15"
-    },
-    {
-      "id": "XZLsYdqwhEM",
-      "title": "Know the facts: Stop believing and spreading the terrorists’ propaganda!",
-      "url": "https://www.youtube.com/watch?v=XZLsYdqwhEM",
-      "duration": 69,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-15"
-    },
-    {
-      "id": "qII6zo4E-qo",
-      "title": "Know the facts: While Hamas used them as human shields, this is how the Israeli military treats them",
-      "url": "https://www.youtube.com/watch?v=qII6zo4E-qo",
-      "duration": 71,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-13"
-    },
-    {
-      "id": "Jw4ckdkjWlY",
-      "title": "Know the facts: The truth coming from the mouth of a little girl in Gaza!",
-      "url": "https://www.youtube.com/watch?v=Jw4ckdkjWlY",
-      "duration": 20,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-13"
-    },
-    {
-      "id": "2jVvIG-sHAA",
-      "title": "Il discorso di Luai Ahmed sulla vergogna che l'Europa dovrebbe provare ma non prova.",
-      "url": "https://www.youtube.com/watch?v=2jVvIG-sHAA",
-      "duration": 87,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-13"
     },
     {
       "id": "CRtyKT95uXI",
@@ -2841,60 +1419,6 @@
       "upload_date": "2023-11-13"
     },
     {
-      "id": "24tGM_M2B4A",
-      "title": "Nonna palestinese pronta a sacrificare tutti i suoi 17 figli e 65 nipoti.",
-      "url": "https://www.youtube.com/watch?v=24tGM_M2B4A",
-      "duration": 35,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-13"
-    },
-    {
-      "id": "f7mAEbFDr9s",
-      "title": "You're the ones with the tiki torches now...",
-      "url": "https://www.youtube.com/watch?v=f7mAEbFDr9s",
-      "duration": 69,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-10"
-    },
-    {
-      "id": "kOCx_wWoBXc",
-      "title": "Know the facts: \"ignorant to the facts and ignorant to the history.\"",
-      "url": "https://www.youtube.com/watch?v=kOCx_wWoBXc",
-      "duration": 97,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-10"
-    },
-    {
-      "id": "kqvnj0jw-Hk",
-      "title": "Know the facts: Why Won't The Jews Just Let Themselves Be Killed?",
-      "url": "https://www.youtube.com/watch?v=kqvnj0jw-Hk",
-      "duration": 3330,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-09"
-    },
-    {
-      "id": "J_1PFkchyH8",
-      "title": "Know the facts: The Reason Muhammad Hated Jews and Preached Genocide.",
-      "url": "https://www.youtube.com/watch?v=J_1PFkchyH8",
-      "duration": 2013,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-08"
-    },
-    {
-      "id": "D6XVc9dX-vg",
-      "title": "Carro armato israeliano PROTEGGE i civili palestinesi.",
-      "url": "https://www.youtube.com/watch?v=D6XVc9dX-vg",
-      "duration": 18,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-07"
-    },
-    {
       "id": "ZDtgJotMSxA",
       "title": "Is anti-Semitism making a comeback starting from college campuses? A conversation with Chaim Noll.",
       "url": "https://www.youtube.com/watch?v=ZDtgJotMSxA",
@@ -2902,51 +1426,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-11-06"
-    },
-    {
-      "id": "wIbQWyasFEI",
-      "title": "L'IDF presenta le prove sull'uso di Hamas di strutture mediche e civili per fini terroristici.",
-      "url": "https://www.youtube.com/watch?v=wIbQWyasFEI",
-      "duration": 1266,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-05"
-    },
-    {
-      "id": "QMLfKomCufY",
-      "title": "Studiosa islamica giustifica lo stupro.",
-      "url": "https://www.youtube.com/watch?v=QMLfKomCufY",
-      "duration": 105,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-05"
-    },
-    {
-      "id": "zbQICg0IsAw",
-      "title": "Terroristi di Hamas sparano un razzo anticarro contro un'ambulanza il 7 ottobre 2023.",
-      "url": "https://www.youtube.com/watch?v=zbQICg0IsAw",
-      "duration": 32,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-05"
-    },
-    {
-      "id": "YckeNY1Sdjw",
-      "title": "Abitanti di Gaza il 7 ottobre portano in parata il corpo inerte di una ragazza israeliana.",
-      "url": "https://www.youtube.com/watch?v=YckeNY1Sdjw",
-      "duration": 12,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-05"
-    },
-    {
-      "id": "nsjoAWx-CiU",
-      "title": "Lettera di Luai Ahmed al mondo musulmano (traduzione nella descrizione).",
-      "url": "https://www.youtube.com/watch?v=nsjoAWx-CiU",
-      "duration": 114,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-11-05"
     },
     {
       "id": "6BU-nGuyIuc",
@@ -2965,42 +1444,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-10-30"
-    },
-    {
-      "id": "oxgrkOcY9gI",
-      "title": "Persino il mondo arabo è più lucido su Hamas che non l'Europa contemporanea!",
-      "url": "https://www.youtube.com/watch?v=oxgrkOcY9gI",
-      "duration": 150,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-29"
-    },
-    {
-      "id": "hu4jpSv_j8o",
-      "title": "Da dove vengono i soldi dei leader di Hamas?",
-      "url": "https://www.youtube.com/watch?v=hu4jpSv_j8o",
-      "duration": 66,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-29"
-    },
-    {
-      "id": "JXAgkIrrGdA",
-      "title": "Chi può mai stare dalla parte di chi gioisce in tal modo dell'assassinio?",
-      "url": "https://www.youtube.com/watch?v=JXAgkIrrGdA",
-      "duration": 27,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-29"
-    },
-    {
-      "id": "2HVIcGp01ms",
-      "title": "Quando un cartone animato dice più di mille commentatori...",
-      "url": "https://www.youtube.com/watch?v=2HVIcGp01ms",
-      "duration": 47,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-29"
     },
     {
       "id": "oK0VvjuOivo",
@@ -3030,15 +1473,6 @@
       "upload_date": "2023-10-22"
     },
     {
-      "id": "qRDkLXpATKI",
-      "title": "Perché non c'è uno Stato palestinese?",
-      "url": "https://www.youtube.com/watch?v=qRDkLXpATKI",
-      "duration": 335,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-21"
-    },
-    {
       "id": "H40duzbtWH0",
       "title": "Esiste sempre una distinzione tra il bene e il male.",
       "url": "https://www.youtube.com/watch?v=H40duzbtWH0",
@@ -3046,15 +1480,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-10-19"
-    },
-    {
-      "id": "C05Yl4EKXDQ",
-      "title": "Una madre israeliana parla di Hamas.",
-      "url": "https://www.youtube.com/watch?v=C05Yl4EKXDQ",
-      "duration": 313,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-10-16"
     },
     {
       "id": "q7n-Y6K5KPI",
@@ -3156,24 +1581,6 @@
       "upload_date": "2023-08-03"
     },
     {
-      "id": "VQvrq9Xnq48",
-      "title": "Il leader Repubblicano al senato Mitch McConnell incapace di parlare durante una conferenza stampa.",
-      "url": "https://www.youtube.com/watch?v=VQvrq9Xnq48",
-      "duration": 64,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-08-02"
-    },
-    {
-      "id": "2MHQo-bf_N4",
-      "title": "Milton Friedman: elogio del capitalismo e della diffidenza in nome della mancanza di alternative.",
-      "url": "https://www.youtube.com/watch?v=2MHQo-bf_N4",
-      "duration": 45,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-08-01"
-    },
-    {
       "id": "oG77W1-eZcw",
       "title": "L'uso dell'atomica. Provare a riflettere sull'orrore della guerra nucleare.",
       "url": "https://www.youtube.com/watch?v=oG77W1-eZcw",
@@ -3253,15 +1660,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-05-28"
-    },
-    {
-      "id": "HNCDCZRuKd4",
-      "title": "Il Prof. Sucharit Bhakdi, uno degli eroi del nostro tempo, riceve un commovente applauso a Kiel.",
-      "url": "https://www.youtube.com/watch?v=HNCDCZRuKd4",
-      "duration": 68,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-05-21"
     },
     {
       "id": "aZeGL5mqRyc",
@@ -3345,15 +1743,6 @@
       "upload_date": "2023-04-29"
     },
     {
-      "id": "iygh-gJvadM",
-      "title": "A portrait of Albert Einstein on the anniversary of his death (April 18, 1955).",
-      "url": "https://www.youtube.com/watch?v=iygh-gJvadM",
-      "duration": 3534,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-04-18"
-    },
-    {
       "id": "j0xnys0IrSI",
       "title": "L'autonomia dell'individuo in tempi di narrative collettive.",
       "url": "https://www.youtube.com/watch?v=j0xnys0IrSI",
@@ -3435,15 +1824,6 @@
       "upload_date": "2023-03-19"
     },
     {
-      "id": "K-a0_7LKGZA",
-      "title": "Gemini XII Mission. NASA File.",
-      "url": "https://www.youtube.com/watch?v=K-a0_7LKGZA",
-      "duration": 1539,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-03-19"
-    },
-    {
       "id": "ElfZHpsFbMg",
       "title": "Finalmente svelato il colpevole dell’attacco al gasdotto Nord Stream.",
       "url": "https://www.youtube.com/watch?v=ElfZHpsFbMg",
@@ -3460,15 +1840,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2023-03-11"
-    },
-    {
-      "id": "7GqutOINFG4",
-      "title": "Uno tra gli eroi della libertà di pensiero nei nostri tempi.",
-      "url": "https://www.youtube.com/watch?v=7GqutOINFG4",
-      "duration": 57,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2023-03-10"
     },
     {
       "id": "NbZkmIvannY",
@@ -4182,15 +2553,6 @@
       "upload_date": "2022-06-25"
     },
     {
-      "id": "EKE4zYV3RWM",
-      "title": "Proteste in America contro la decisione della Corte Suprema sull'aborto.",
-      "url": "https://www.youtube.com/watch?v=EKE4zYV3RWM",
-      "duration": 574,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2022-06-25"
-    },
-    {
       "id": "t8Hbw2qLWHk",
       "title": "la ragione trionfa sempre.",
       "url": "https://www.youtube.com/watch?v=t8Hbw2qLWHk",
@@ -4578,15 +2940,6 @@
       "upload_date": "2021-12-27"
     },
     {
-      "id": "Ndg77uDU-SE",
-      "title": "Marian Turski, sopravvissuto ad Auschwitz-Birkenau, propone un monito.",
-      "url": "https://www.youtube.com/watch?v=Ndg77uDU-SE",
-      "duration": 130,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2021-12-26"
-    },
-    {
       "id": "IcD6kIMOcD0",
       "title": "La dimensione del discorso politico.",
       "url": "https://www.youtube.com/watch?v=IcD6kIMOcD0",
@@ -4630,15 +2983,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2021-12-05"
-    },
-    {
-      "id": "uN0q3meBhgM",
-      "title": "Il mito della caverna.",
-      "url": "https://www.youtube.com/watch?v=uN0q3meBhgM",
-      "duration": 529,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2021-11-28"
     },
     {
       "id": "oEb59do-tLA",
@@ -5163,15 +3507,6 @@
       "upload_date": "2021-07-17"
     },
     {
-      "id": "LHn3bmrG4jc",
-      "title": "Tasso di sopravvivenza per fascia d'età...",
-      "url": "https://www.youtube.com/watch?v=LHn3bmrG4jc",
-      "duration": 34,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2021-07-14"
-    },
-    {
       "id": "BBosaNcxNng",
       "title": "L'antidemocrazia contro l'individuo.",
       "url": "https://www.youtube.com/watch?v=BBosaNcxNng",
@@ -5478,15 +3813,6 @@
       "upload_date": "2021-03-06"
     },
     {
-      "id": "w5xo8DJNz6s",
-      "title": "La deputata Manon Aubry sull'assenza di autonomia dell'UE davanti alle corporation farmaceutiche.",
-      "url": "https://www.youtube.com/watch?v=w5xo8DJNz6s",
-      "duration": 241,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2021-03-06"
-    },
-    {
       "id": "Ba9EfFC7yz4",
       "title": "Ciao Lawrence.",
       "url": "https://www.youtube.com/watch?v=Ba9EfFC7yz4",
@@ -5667,15 +3993,6 @@
       "upload_date": "2020-12-25"
     },
     {
-      "id": "M-vg-2MNSxs",
-      "title": "Merry Christmas! Buon Natale a tutti!",
-      "url": "https://www.youtube.com/watch?v=M-vg-2MNSxs",
-      "duration": 145,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-12-24"
-    },
-    {
       "id": "24LF5sstEso",
       "title": "Perché sta avvenendo tutto questo?",
       "url": "https://www.youtube.com/watch?v=24LF5sstEso",
@@ -5701,24 +4018,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-12-19"
-    },
-    {
-      "id": "VwsS3PlJYxI",
-      "title": "Mascherata al Dipartimento di Giustizia americano.",
-      "url": "https://www.youtube.com/watch?v=VwsS3PlJYxI",
-      "duration": 18,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-12-13"
-    },
-    {
-      "id": "VYWnhxp9ZCQ",
-      "title": "Anthony Fauci parla dell'importanza delle maschere.",
-      "url": "https://www.youtube.com/watch?v=VYWnhxp9ZCQ",
-      "duration": 105,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-12-13"
     },
     {
       "id": "R6ETUFkr8kE",
@@ -5847,15 +4146,6 @@
       "upload_date": "2020-11-06"
     },
     {
-      "id": "Pz7MRQQi1rk",
-      "title": "L'arresto di un cieco a Wuppertal",
-      "url": "https://www.youtube.com/watch?v=Pz7MRQQi1rk",
-      "duration": 163,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-10-30"
-    },
-    {
       "id": "j6fVUEQhnjI",
       "title": "Lettera dal futuro.",
       "url": "https://www.youtube.com/watch?v=j6fVUEQhnjI",
@@ -5910,15 +4200,6 @@
       "upload_date": "2020-10-20"
     },
     {
-      "id": "PhHIiy84d3E",
-      "title": "Infrastrutture stradali in New Jersey.",
-      "url": "https://www.youtube.com/watch?v=PhHIiy84d3E",
-      "duration": 50,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-10-19"
-    },
-    {
       "id": "v39tkE4ckyk",
       "title": "Come impostare la programmazione dei media?",
       "url": "https://www.youtube.com/watch?v=v39tkE4ckyk",
@@ -5926,15 +4207,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-10-16"
-    },
-    {
-      "id": "XBwu7wth7CU",
-      "title": "Scrittura e sentimento.",
-      "url": "https://www.youtube.com/watch?v=XBwu7wth7CU",
-      "duration": 80,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-10-15"
     },
     {
       "id": "JEWaWSleLOs",
@@ -6135,24 +4407,6 @@
       "upload_date": "2020-07-12"
     },
     {
-      "id": "nkSt0WSERzk",
-      "title": "The Madman is Driving.",
-      "url": "https://www.youtube.com/watch?v=nkSt0WSERzk",
-      "duration": 277,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-07-12"
-    },
-    {
-      "id": "56jXjTN8r_s",
-      "title": "Il fantastico mondo dei libri.",
-      "url": "https://www.youtube.com/watch?v=56jXjTN8r_s",
-      "duration": 907,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-07-06"
-    },
-    {
       "id": "XkRqiFMLuWE",
       "title": "Nadine Gordimer: Scrivere ed essere.",
       "url": "https://www.youtube.com/watch?v=XkRqiFMLuWE",
@@ -6180,15 +4434,6 @@
       "upload_date": "2020-06-28"
     },
     {
-      "id": "8AMqaZboZSM",
-      "title": "Charles Bukowski, Il genio della massa.",
-      "url": "https://www.youtube.com/watch?v=8AMqaZboZSM",
-      "duration": 190,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-06-25"
-    },
-    {
       "id": "JK9p0qnirUk",
       "title": "Wilhelm Reich, Ascolta piccolo uomo.",
       "url": "https://www.youtube.com/watch?v=JK9p0qnirUk",
@@ -6205,15 +4450,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-06-21"
-    },
-    {
-      "id": "PHVYxTHkMrQ",
-      "title": "Gad Saad, Società libere, dignità individuale e cultura dell’annullamento.",
-      "url": "https://www.youtube.com/watch?v=PHVYxTHkMrQ",
-      "duration": 397,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-06-20"
     },
     {
       "id": "L8Kjtziq0u8",
@@ -6259,15 +4495,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-06-07"
-    },
-    {
-      "id": "q6okxjkDKhQ",
-      "title": "Il potere spiegato a Winston Smith in 1984.",
-      "url": "https://www.youtube.com/watch?v=q6okxjkDKhQ",
-      "duration": 176,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-05-31"
     },
     {
       "id": "LULtspXF2PY",
@@ -6337,15 +4564,6 @@
       "title": "Erich Fromm: La disobbedienza come problema psicologico e morale (versione italiana).",
       "url": "https://www.youtube.com/watch?v=9DTPti7JDxU",
       "duration": 1269,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-04-05"
-    },
-    {
-      "id": "1nBRxySZbY8",
-      "title": "Erich Fromm: Disobbedienza come problema morale o psicologico.",
-      "url": "https://www.youtube.com/watch?v=1nBRxySZbY8",
-      "duration": 4508,
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-04-05"
@@ -6441,24 +4659,6 @@
       "upload_date": "2020-02-23"
     },
     {
-      "id": "9eHcCpXrgKw",
-      "title": "I cinque filtri della macchina dei mass media.",
-      "url": "https://www.youtube.com/watch?v=9eHcCpXrgKw",
-      "duration": 287,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-02-21"
-    },
-    {
-      "id": "RUouSPb-O2Q",
-      "title": "The end of Europe.",
-      "url": "https://www.youtube.com/watch?v=RUouSPb-O2Q",
-      "duration": 301,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2020-01-26"
-    },
-    {
       "id": "6LVYHCG3ED8",
       "title": "Fernando Pessoa: per una teoresi della sconfitta.",
       "url": "https://www.youtube.com/watch?v=6LVYHCG3ED8",
@@ -6520,15 +4720,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2020-01-02"
-    },
-    {
-      "id": "a5jNNg5V04A",
-      "title": "Cos'è la poesia? Conferenza di Jorge Luis Borges del 1977.",
-      "url": "https://www.youtube.com/watch?v=a5jNNg5V04A",
-      "duration": 3082,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2019-12-29"
     },
     {
       "id": "rHCsNLPQ1ko",
@@ -7384,15 +5575,6 @@
       "audio_saved": true,
       "video_saved": true,
       "upload_date": "2018-04-22"
-    },
-    {
-      "id": "yPIwhZ1v8Co",
-      "title": "Il cielo sopra New York city",
-      "url": "https://www.youtube.com/watch?v=yPIwhZ1v8Co",
-      "duration": 15,
-      "audio_saved": true,
-      "video_saved": true,
-      "upload_date": "2018-04-15"
     },
     {
       "id": "3w7jNu-QcDw",

@@ -376,6 +376,11 @@ def _build_site(root, pages=None, *, home_template=None):
     data = {name: json.loads((source / "data" / name).read_text(encoding="utf-8"))
             for name in ("catalogo.json", "libri.json", "blog.json", "ricerca.json", "schede.json", "volumi.json", "articoli-blog.json")
             if (source / "data" / name).exists()}
+    from selezione_video import excluded_video_ids, apply_to_directory
+    excluded = excluded_video_ids(root)
+    if excluded:
+        catalog, books, cards = apply_to_directory(source, excluded)
+        data.update({'catalogo.json': catalog, 'libri.json': books, 'schede.json': cards})
     bibliography = data.get("libri.json", [])
     ids = [book["id"] for book in bibliography]
     featured = [ident for ident in FEATURED_BOOKS if ident in ids]
