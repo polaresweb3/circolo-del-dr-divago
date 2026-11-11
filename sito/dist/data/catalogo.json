@@ -1,10 +1,19 @@
 {
   "channel": "Dr Divago",
   "channel_url": "https://www.youtube.com/@DrDivago",
-  "updated_at": "2026-11-09T09:40:17.661806+00:00",
+  "updated_at": "2026-11-11T08:32:12.015569+00:00",
   "coverage": "Selezione dei contributi del canale per Sala di lettura.",
   "rights": "Autorizzazione per il riutilizzo da richiedere. File multimediali solo locali.",
   "videos": [
+    {
+      "id": "SyYeErKOXLs",
+      "title": "Cognizione e validità. Disagreement, Judgment and Reality.",
+      "url": "https://www.youtube.com/watch?v=SyYeErKOXLs",
+      "duration": 8713,
+      "upload_date": "2026-11-11",
+      "audio_saved": false,
+      "video_saved": true
+    },
     {
       "id": "jhVPoISdaMw",
       "title": "Fin quando sarà ancora possibile continuare ad ignorare le contraddizioni di quest'epoca?",
