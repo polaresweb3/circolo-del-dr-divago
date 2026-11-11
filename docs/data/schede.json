@@ -1,5 +1,844 @@
 [
   {
+    "video_id": "SyYeErKOXLs",
+    "title": "Cognizione e validità. Disagreement, Judgment and Reality.",
+    "duration_seconds": 8713,
+    "language": "it",
+    "source_type": "sottotitoli_automatici_youtube",
+    "verified": false,
+    "human_audio_review": false,
+    "summary": "Da che cosa dipende la validità di un giudizio quando persone competenti, di fronte agli stessi elementi, giungono a conclusioni diverse? La conversazione parte da una traccia preparatoria e dalla linea divisa della Repubblica di Platone. Il disegno distingue quattro modi del conoscere: congettura o immaginazione, credenza, ragionamento per ipotesi e intellezione. Il bastone che appare spezzato nell’acqua e il triangolo pensato senza disegnarlo mostrano perché percepire, spiegare e astrarre siano operazioni diverse. Il posto del Bene nella gerarchia platonica apre una domanda che attraversa l’intero incontro: che rapporto c’è tra conoscere e agire bene?\n\nCon Kant, il giudizio diventa un modo di collegare concetti e interrogare le ragioni dell’assenso. La discussione passa al disaccordo tra pari: chi può essere considerato un pari quando i criteri di valutazione sono diversi? L’esempio della revisione tra pari mette a fuoco il peso delle istituzioni; Pinocchio e Il vento tra i salici fanno emergere la differenza tra stabilire un fatto e valutare un’opera. Un passo delle Enneadi di Plotino torna due volte come immagine dell’apprendimento: l’insegnamento può indicare una via, mentre il percorso richiede un atto di chi apprende.\n\nIl programma di Hilbert, il saggio di Gödel e i riferimenti a Turing e Cohen introducono limiti distinti: incompletezza in sistemi formali, limiti della computabilità e indipendenza dell’ipotesi del continuo. La dimostrazione di Wiles del teorema di Fermat offre un esempio di come strumenti nuovi possano dare accesso a un problema antico. Il dialogo usa questi risultati anche per discutere l’intelligenza artificiale e il pensiero. La loro estensione alla capacità di pensare delle macchine è una tesi della conversazione; gli articoli citati riguardano problemi formali circoscritti.\n\nNelle domande finali il problema si sposta dai criteri del giudizio alle scelte. Gli smeraldi di Goodman introducono il problema dell’induzione; Mentire con le statistiche di Darrell Huff accompagna il confronto su che cosa un dato possa dire di una decisione morale. L’imperativo categorico, il dissenso e la difesa della diversità si intrecciano con «Zinco» di Primo Levi. Nel finale un interlocutore chiede se anche una persona arrogante possa formulare un giudizio valido. La domanda riapre il confronto tra correttezza di un’asserzione, disposizione a rivedere il proprio giudizio e responsabilità delle proprie azioni.\n\nI minutaggi derivano dai sottotitoli automatici italiani. I riferimenti bibliografici distinguono i titoli citati dalle allusioni ricostruite. La traccia preparatoria è discussa nel video e la sua provenienza editoriale non è indicata.",
+    "topics": [
+      "Platone e i gradi della conoscenza",
+      "Giudizio e disaccordo tra pari",
+      "Evidenza e autorità",
+      "Incompletezza e computabilità",
+      "Induzione e statistica",
+      "Pensiero e responsabilità morale",
+      "Libertà di dissenso"
+    ],
+    "passages": [
+      {
+        "seconds": 89,
+        "label": "La linea divisa di Platone",
+        "description": "Quattro modi del conoscere, dal mondo visibile agli intelligibili. La caverna e il Bene situano la distinzione fra opinione e conoscenza.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 1136,
+        "label": "Percezione, realtà e simulazione",
+        "description": "Il dubbio sulla realtà di ciò che si percepisce viene accostato alle esperienze virtuali e al problema delle forme.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 1314,
+        "label": "Giudizi in conflitto",
+        "description": "La traccia del seminario pone il problema della validità del proprio giudizio quando altri valutano diversamente lo stesso stato di cose.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 1671,
+        "label": "Il disaccordo tra pari",
+        "description": "Dalla revisione accademica alla lettura di un’opera. Si discute quando un criterio comune consenta di dirimere un disaccordo.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 2666,
+        "label": "Quando mancano criteri condivisi",
+        "description": "La discussione chiede come riconoscere la competenza e quale peso attribuire a maggioranza, autorità ed evidenza.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 3261,
+        "label": "La forza del giudizio",
+        "description": "La forza dell’assenso viene ricondotta alla relazione tra i concetti e alla qualità delle ragioni offerte, a partire da Kant.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 3781,
+        "label": "Hilbert e Gödel",
+        "description": "La conversazione introduce la distinzione tra verità e dimostrabilità e ricorre al caso Fermat–Wiles per ragionare sulle vie di una prova.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 4374,
+        "label": "Plotino e la via dell’apprendimento",
+        "description": "La lettura dalle Enneadi mette in rapporto l’indicazione di una via e l’esperienza di chi intende percorrerla.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 4454,
+        "label": "Computabilità e ipotesi del continuo",
+        "description": "I rimandi a Gödel, Turing e Cohen presentano tre problemi diversi. Segue una discussione su calcolo, comprensione e risposte automatiche.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 5223,
+        "label": "Domande sul Bene e sulle forme",
+        "description": "La discussione riparte dal posto del Bene nella linea, passa alla ragion sufficiente di Leibniz e arriva all’induzione di Goodman.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 5813,
+        "label": "Che cosa dicono i dati sulle scelte?",
+        "description": "Una domanda sul rapporto fra evidenza statistica e bene apre il confronto sui criteri con cui si formulano e valutano le decisioni.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 6484,
+        "label": "Universalizzare una regola",
+        "description": "L’imperativo categorico viene messo alla prova attraverso il dovere di dire la verità e il caso socratico della restituzione di un’arma.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 6784,
+        "label": "Dissenso e diversità",
+        "description": "Il passo di Plotino viene ripreso per discutere la convivenza di posizioni diverse. Più avanti il dialogo richiama Il sistema periodico di Levi.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 7474,
+        "label": "La fantascienza e l’immagine del futuro",
+        "description": "Asimov, Anderson, Wells e Hoyle accompagnano una digressione su tecnologia, società e immaginazione del futuro.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 7656,
+        "label": "Validità e arroganza",
+        "description": "L’ultima domanda riprende la traccia iniziale e distingue l’esattezza di una risposta, l’esercizio del pensiero e il suo rapporto con l’etica.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "seconds": 8100,
+        "label": "Giudicare sotto costrizione",
+        "description": "Il confronto passa dalla coscienza morale alla responsabilità, alla coercizione e ai limiti del giudizio su esperienze storiche estreme.",
+        "verification": "riscontro_testuale",
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "books": [
+      {
+        "book_id": "repubblica-platone",
+        "seconds": 90,
+        "title_seconds": 90,
+        "evidence": "La linea divisa rimanda al libro VI, 509d–511e, e la caverna al libro VII. Il caso dell’arma da restituire a chi non è in sé, ripreso a 1:51:20, corrisponde al libro I, 331c–d.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Platone, Repubblica VI, 509d–511e · il testo della linea divisa",
+            "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0059.tlg030.perseus-eng2:6.509/"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          324,
+          6680
+        ]
+      },
+      {
+        "book_id": "momo-ende",
+        "seconds": 292,
+        "title_seconds": 292,
+        "evidence": "Momo e i ladri di tempo sono evocati per distinguere l’immaginazione narrativa dall’eikasía platonica.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Michael Ende, Momo, edizione Puffin · Penguin",
+            "url": "https://www.penguin.co.uk/books/1109/momo-by-michael-ende-trans-j-maxwell-brownjohn/9780140317534"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "meditazioni-metafisiche-cartesio",
+        "seconds": 1165,
+        "title_seconds": 1165,
+        "evidence": "Cartesio è richiamato nel discorso sul dubbio e sulla simulazione. Il rinvio alle Meditazioni riguarda il dubbio della prima meditazione. L’esempio moderno dei cervelli in una vasca è menzionato separatamente.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "process-reality-whitehead",
+        "seconds": 1239,
+        "title_seconds": 1239,
+        "evidence": "Il richiamo alle note a piè di pagina a Platone rimanda alla formula di Whitehead in Process and Reality, parte II, cap. I, § I. Il titolo non viene enunciato.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "ragion-pura-kant",
+        "seconds": 1357,
+        "title_seconds": 1357,
+        "evidence": "Il riferimento al pensare come giudicare e ai giudizi analitici e sintetici è coerente con la Critica della ragione pura. Il discorso torna sulla funzione del giudizio a 55:05.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          3305
+        ]
+      },
+      {
+        "book_id": "avventure-pinocchio-collodi",
+        "seconds": 1874,
+        "title_seconds": 1874,
+        "evidence": "Pinocchio è accostato a Il vento tra i salici come esempio di giudizio letterario. Più avanti il Grillo parlante viene richiamato come immagine della coscienza.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          8146
+        ]
+      },
+      {
+        "book_id": "vento-salici-grahame",
+        "seconds": 1877,
+        "title_seconds": 1877,
+        "evidence": "Il titolo è pronunciato nel confronto fra due opere per l’infanzia e serve a discutere la misurabilità di un giudizio estetico.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "dead-poets-society-film",
+        "seconds": 1906,
+        "title_seconds": 1906,
+        "evidence": "Il film e la scena sulla misurazione della poesia sono citati a proposito dei criteri del giudizio estetico.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "vangelo-giovanni",
+        "seconds": 2977,
+        "title_seconds": 2977,
+        "evidence": "La frase sulla prima pietra corrisponde a Giovanni 8,7.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Vangelo secondo Giovanni 8,7 · CEI",
+            "url": "https://www.bibbiaedu.it/CEI2008/nt/Gv/8/"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "apologia-socrate-platone",
+        "seconds": 3076,
+        "title_seconds": 3076,
+        "evidence": "Il richiamo a Socrate e alla consapevolezza di non sapere è accostato all’Apologia, 21d.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "genesi",
+        "seconds": 3511,
+        "title_seconds": 3511,
+        "evidence": "Il racconto della creazione e il giudizio sul creato rimandano a Genesi 1. Il relatore li mette in relazione con la libertà di scelta e richiama poi Caino e Abele, Genesi 4.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Genesi 1 · CEI",
+            "url": "https://www.bibbiaedu.it/CEI2008/at/Gen/1/"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          6185
+        ]
+      },
+      {
+        "book_id": "ginestra-leopardi",
+        "seconds": 3597,
+        "title_seconds": 3597,
+        "evidence": "Il richiamo a Leopardi e all’immagine delle formiche sembra rinviare alla similitudine del frutto che schiaccia un formicaio nella Ginestra, vv. 202–212.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "fermat-wiles",
+        "seconds": 4064,
+        "title_seconds": 4064,
+        "evidence": "La dimostrazione di Andrew Wiles dell’ultimo teorema di Fermat è descritta attraverso il risultato. L’articolo del 1995 e il lavoro complementare con Richard Taylor documentano la prova.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Andrew Wiles, articolo del 1995 · Annals of Mathematics",
+            "url": "https://annals.math.princeton.edu/1995/141-3/p01"
+          },
+          {
+            "label": "Richard Taylor e Andrew Wiles, articolo complementare · Annals of Mathematics",
+            "url": "https://annals.math.princeton.edu/1995/141-3/p02"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "enneadi-plotino",
+        "seconds": 4376,
+        "title_seconds": 4376,
+        "evidence": "Autore e raccolta sono nominati. La formulazione sulla via e sulla visione si ritrova in Enneadi VI.9.4, «Sul Bene o sull’Uno». Il passo viene ripreso nel dialogo.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Plotino, Enneadi VI.9.4 · il passo sull’insegnamento e la visione",
+            "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_5/Ennead_6.9"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          6787
+        ]
+      },
+      {
+        "book_id": "proposizioni-indecidibili-godel",
+        "seconds": 4457,
+        "title_seconds": 4457,
+        "evidence": "Il saggio sull’incompletezza è richiamato attraverso autore, tema e data del 1931. Il riferimento emerge già nell’introduzione al programma di Hilbert.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Kurt Gödel, articolo originale del 1931 · Springer",
+            "url": "https://link.springer.com/article/10.1007/BF01700692"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          3781
+        ]
+      },
+      {
+        "book_id": "computable-numbers-turing",
+        "seconds": 4468,
+        "title_seconds": 4468,
+        "evidence": "Il riferimento ai limiti della computabilità nel 1936 identifica con buona probabilità il lavoro pubblicato nel 1937. Il successivo cenno alla dissertazione di Princeton riguarda Systems of Logic Based on Ordinals.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Alan Turing, On Computable Numbers · Proceedings of the London Mathematical Society",
+            "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/plms/s2-42.1.230"
+          },
+          {
+            "label": "Alan Turing, Systems of Logic Based on Ordinals · estratto conservato al King’s College",
+            "url": "https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-15"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          4511
+        ]
+      },
+      {
+        "book_id": "independence-continuum-cohen",
+        "seconds": 4581,
+        "title_seconds": 4581,
+        "evidence": "La menzione di Cohen, del 1963 e dell’indipendenza dell’ipotesi del continuo rinvia agli articoli del 1963 e 1964. L’esito riguarda l’indipendenza dagli assiomi della teoria degli insiemi, non una prova dell’ipotesi.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Paul J. Cohen, The Independence of the Continuum Hypothesis · PNAS",
+            "url": "https://www.pnas.org/doi/10.1073/pnas.50.6.1143"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "kassandra-schiller",
+        "seconds": 4943,
+        "title_seconds": 4943,
+        "evidence": "La ballata Kassandra di Schiller è nominata come esempio di un testo che una risposta automatica aveva negato di riconoscere.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Friedrich Schiller, Gedichte, vol. II, p. 45 · ETH-Bibliothek Zürich, Rar 38541",
+            "url": "https://doi.org/10.3931/e-rara-85341"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "chi-e-uomo-heschel",
+        "seconds": 5050,
+        "title_seconds": 5050,
+        "evidence": "Il nome di Heschel e la domanda in inglese rinviano a Who Is Man?. Il titolo inglese è normalizzato rispetto alla formulazione orale.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "occhio-mosca-hodierna",
+        "seconds": 5074,
+        "title_seconds": 5074,
+        "evidence": "Il riferimento a Hodierna e allo studio seicentesco dell’occhio della mosca coincide con il terzo degli Opuscoli del 1644.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Giovanni Battista Hodierna, Opuscoli, Palermo 1644 · Wellcome Collection",
+            "url": "https://wellcomecollection.org/works/kn9pyspj"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "cosi-parlo-zarathustra-nietzsche",
+        "seconds": 5084,
+        "title_seconds": 5084,
+        "evidence": "Zarathustra e l’uomo che studia le sanguisughe rinviano al capitolo «La sanguisuga» nella quarta parte dell’opera.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "sofista-platone",
+        "seconds": 5389,
+        "title_seconds": 5389,
+        "evidence": "Il «parricidio» di Parmenide richiama il Sofista, 241d, nel passaggio sul rapporto fra essere e non essere.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "principi-natura-grazia-leibniz",
+        "seconds": 5507,
+        "title_seconds": 5507,
+        "evidence": "La domanda sul perché esista qualcosa e la ragion sufficiente rinviano ai Principi della natura e della grazia, § 7. Il titolo non è pronunciato.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "fact-fiction-forecast-goodman",
+        "seconds": 5680,
+        "title_seconds": 5680,
+        "evidence": "Goodman e l’esempio degli smeraldi «blerdi» rinviano al problema dell’induzione discusso in Fact, Fiction, and Forecast. La questione è introdotta a 1:33:32.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Nelson Goodman, Fact, Fiction, and Forecast · Harvard University Press",
+            "url": "https://www.hup.harvard.edu/books/9780674290716"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          5612
+        ]
+      },
+      {
+        "book_id": "mentire-statistiche-huff",
+        "seconds": 6017,
+        "title_seconds": 6017,
+        "evidence": "Il titolo inglese How to Lie with Statistics viene enunciato nel confronto sui limiti dei dati in etica.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Darrell Huff, How to Lie with Statistics · W. W. Norton",
+            "url": "https://wwnorton.com/books/9780393310726"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "essay-human-understanding-locke",
+        "seconds": 6231,
+        "title_seconds": 6231,
+        "evidence": "Il riferimento alla tabula rasa è accostato al Saggio sull’intelletto umano, II, 1, § 2, dove Locke usa l’immagine della carta bianca.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "fauci-senate-testimony-2026-07-29",
+        "seconds": 6357,
+        "title_seconds": 6357,
+        "evidence": "Il richiamo all’audizione e al Quinto emendamento è compatibile con il resoconto del Senato del 29 luglio 2026. La data non è detta. Il documento permette di distinguere il verbale dalla lettura polemica del relatore.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "costituzione-stati-uniti",
+        "seconds": 6387,
+        "title_seconds": 6387,
+        "evidence": "L’incipit del preambolo della Costituzione statunitense è richiamato a proposito del rapporto tra popolo e governo.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "testimoniare-ultimo-klemperer",
+        "seconds": 6417,
+        "title_seconds": 6417,
+        "evidence": "Si citano i diari di Klemperer senza pronunciarne il titolo editoriale o delimitarne il periodo. Il rinvio propone i diari del 1933–1945.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "lti-klemperer",
+        "seconds": 6421,
+        "title_seconds": 6421,
+        "evidence": "Si richiama la lingua del Terzo Reich e il lavoro di Victor Klemperer.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "propagandes-ellul",
+        "seconds": 6429,
+        "title_seconds": 6429,
+        "evidence": "Ellul e Propaganda vengono richiamati come lettura da affiancare a Klemperer. Il titolo originale è Propagandes.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "fondazione-metafisica-costumi-kant",
+        "seconds": 6590,
+        "title_seconds": 6590,
+        "evidence": "La formulazione dell’imperativo categorico in termini di principio universale rimanda alla Fondazione, Akademie IV, 421. Il titolo non è pronunciato.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "supposed-right-lie-kant",
+        "seconds": 6642,
+        "title_seconds": 6642,
+        "evidence": "Il caso dell’assassino che chiede dove si trovi la persona ricercata permette di individuare il saggio del 1797 sul presunto diritto di mentire.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [
+          {
+            "label": "Kant, Su un presunto diritto di mentire per amore dell’umanità · Cambridge University Press",
+            "url": "https://www.cambridge.org/core/books/abs/practical-philosophy/on-a-supposed-right-to-lie-from-philanthropy-1797/D16F283E22DE7203B7E8ACCAA007DBE6"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "sistema-periodico-levi",
+        "seconds": 7092,
+        "title_seconds": 7092,
+        "evidence": "Il volume è nominato. Il passaggio sulla diversità e sull’uniformità imposta dal fascismo riprende il racconto «Zinco».",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Primo Levi, «Zinco» · Centro Internazionale di Studi Primo Levi",
+            "url": "https://www.primolevi.it/it/lelogio-dellimpurezza-racconto-zinco-sistema-periodico"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "minima-moralia-adorno",
+        "seconds": 7436,
+        "title_seconds": 7436,
+        "evidence": "La «vita danneggiata» allude con buona probabilità al sottotitolo di Minima moralia.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "trilogia-fondazione-asimov",
+        "seconds": 7525,
+        "title_seconds": 7525,
+        "evidence": "La Fondazione di Asimov è evocata nella digressione sulla fantascienza; il discorso non precisa il volume o l’episodio del ciclo.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "time-patrol-anderson",
+        "seconds": 7544,
+        "title_seconds": 7544,
+        "evidence": "La pattuglia del tempo è menzionata nella digressione sulla fantascienza. Il riferimento riguarda il ciclo narrativo, senza precisare un singolo racconto o l’edizione.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [
+          {
+            "label": "Poul Anderson, Time Patrol, edizione Baen · Simon & Schuster",
+            "url": "https://www.simonandschuster.com/books/Time-Patrol/Poul-Anderson/9781416509356"
+          }
+        ],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "macchina-del-tempo-wells",
+        "seconds": 7557,
+        "title_seconds": 7557,
+        "evidence": "L’allusione al classico di Wells con i Morlock identifica La macchina del tempo. Il titolo non è pronunciato.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "storia-vera-luciano",
+        "seconds": 7580,
+        "title_seconds": 7580,
+        "evidence": "Luciano di Samosata e il viaggio sulla Luna rimandano alla Storia vera, evocata come antecedente fantastico.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "nuvola-nera-hoyle",
+        "seconds": 7605,
+        "title_seconds": 7605,
+        "evidence": "Romanzo e autore sono nominati nella digressione sui rapporti tra ricerca scientifica e fantascienza.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "che-cosa-significa-pensare-heidegger",
+        "seconds": 7774,
+        "title_seconds": 7774,
+        "evidence": "Si pronuncia Was heißt Denken? e se ne parafrasa l’avvio, a partire da ciò che dà da pensare.",
+        "role": "riferimento",
+        "confidence": "riscontro_testuale",
+        "verification": "riscontro_testuale",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      },
+      {
+        "book_id": "banalita-male-arendt",
+        "seconds": 7909,
+        "title_seconds": 7909,
+        "evidence": "Il riferimento a Eichmann e all’incapacità di pensare è accostato al resoconto di Arendt sul processo. La lettura critica espressa nel seminario è attribuita alla discussione.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false,
+        "additional_reference_seconds": [
+          8184
+        ]
+      },
+      {
+        "book_id": "eclisse-ragione-horkheimer",
+        "seconds": 7947,
+        "title_seconds": 7947,
+        "evidence": "Horkheimer e la ragione strumentale sono richiamati nel confronto con Arendt. Eclisse della ragione è un rinvio tematico, poiché il titolo non è enunciato.",
+        "role": "riferimento",
+        "confidence": "identificazione_probabile",
+        "verification": "identificazione_probabile",
+        "references": [],
+        "verified": false,
+        "human_audio_review": false
+      }
+    ],
+    "references": [
+      {
+        "label": "Platone, Repubblica VI, 509d–511e · il testo della linea divisa",
+        "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0059.tlg030.perseus-eng2:6.509/"
+      },
+      {
+        "label": "Plotino, Enneadi VI.9.4 · il passo sull’insegnamento e la visione",
+        "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_5/Ennead_6.9"
+      },
+      {
+        "label": "Kurt Gödel, articolo originale del 1931 · Springer",
+        "url": "https://link.springer.com/article/10.1007/BF01700692"
+      },
+      {
+        "label": "Alan Turing, On Computable Numbers · Proceedings of the London Mathematical Society",
+        "url": "https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/plms/s2-42.1.230"
+      },
+      {
+        "label": "Alan Turing, Systems of Logic Based on Ordinals · estratto conservato al King’s College",
+        "url": "https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-15"
+      },
+      {
+        "label": "Paul J. Cohen, The Independence of the Continuum Hypothesis · PNAS",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.50.6.1143"
+      },
+      {
+        "label": "Andrew Wiles, articolo del 1995 · Annals of Mathematics",
+        "url": "https://annals.math.princeton.edu/1995/141-3/p01"
+      },
+      {
+        "label": "Richard Taylor e Andrew Wiles, articolo complementare · Annals of Mathematics",
+        "url": "https://annals.math.princeton.edu/1995/141-3/p02"
+      },
+      {
+        "label": "Nelson Goodman, Fact, Fiction, and Forecast · Harvard University Press",
+        "url": "https://www.hup.harvard.edu/books/9780674290716"
+      },
+      {
+        "label": "Darrell Huff, How to Lie with Statistics · W. W. Norton",
+        "url": "https://wwnorton.com/books/9780393310726"
+      },
+      {
+        "label": "Primo Levi, «Zinco» · Centro Internazionale di Studi Primo Levi",
+        "url": "https://www.primolevi.it/it/lelogio-dellimpurezza-racconto-zinco-sistema-periodico"
+      }
+    ],
+    "contextual_verification_sources": [
+      {
+        "label": "Porfirio, Isagoge · edizione storica digitalizzata dalla Bayerische Staatsbibliothek",
+        "url": "https://digitale-sammlungen.de/de/details/bsb11111621"
+      },
+      {
+        "label": "Evelyn Beatrice Hall, The Friends of Voltaire · fonte della formula sulla libertà di parola",
+        "url": "https://www.gutenberg.org/cache/epub/56618/pg56618-images.html"
+      }
+    ]
+  },
+  {
     "video_id": "Qr7vi4Mgd_0",
     "title": "Conversazione su alcuni temi del libro: \"L'ideologia del lupo\".",
     "summary": "Una conversazione con Sergio Caldarella sul rapporto fra potere, educazione e autonomia personale, a partire da L’ideologia del lupo. La figura del lupo, affiancata a quella del pastore, introduce la critica dell’autore alle gerarchie e alla riduzione delle persone a strumenti. Il confronto attraversa le definizioni del potere nella psicologia dei gruppi, il linguaggio della propaganda e le letture di Orwell. Con Arno Gruen e Adorno, gli interlocutori discutono il disagio dell’individuo e il ruolo dell’educazione; con Caraco, la difficoltà di far circolare un pensiero indipendente. Nell’ultima parte la lettura di Kierkegaard apre il tema del dialogo interiore, mentre il richiamo a Kant riporta alla responsabilità del giudizio. La chiusura presenta il libro come invito a costruire una propria comprensione del mondo. Le interpretazioni storiche e politiche espresse appartengono agli interlocutori.",
