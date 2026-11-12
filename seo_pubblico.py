@@ -10,6 +10,8 @@ from urllib.parse import quote, urlsplit
 import xml.etree.ElementTree as ET
 
 SITE_ORIGIN = 'https://circolodivago.it'
+# Prova pubblica di proprietà per Google Search Console.
+GOOGLE_SITE_VERIFICATION = 'uda7cv_6cjSaMFiUmDnf36ECi9DgrLvrnXo3SeFF0io'
 SITE_NAME = 'Circolo del Dr Divago'
 SHARE_IMAGE = 'assets/social/circolo-divago.png'
 SHARE_ALT = 'Circolo del Dr Divago — Libri, idee, conversazioni.'
@@ -82,10 +84,16 @@ def metadata(source, path, *, origin=SITE_ORIGIN, indexable=True):
     title = ''.join(head.title_parts).strip() or SITE_NAME
     description = head.description or 'Libri, idee e conversazioni del Circolo del Dr Divago.'
 
+    url = canonical_url(path, origin)
+    verification_home = Path(path).as_posix() == 'index.html' and url == SITE_ORIGIN + '/'
+
     def clean_meta(match):
         attrs = Head(match[0]).attrs
         name = attrs.get('name', '').lower()
         prop = attrs.get('property', '').lower()
+        if (verification_home and name == 'google-site-verification'
+                and attrs.get('content') == GOOGLE_SITE_VERIFICATION):
+            return ''
         return '' if name == 'robots' or name.startswith('twitter:') or prop.startswith('og:') else match[0]
 
     def clean_link(match):
@@ -94,7 +102,6 @@ def metadata(source, path, *, origin=SITE_ORIGIN, indexable=True):
 
     source = META_TAG.sub(clean_meta, source)
     source = LINK_TAG.sub(clean_link, source)
-    url = canonical_url(path, origin)
     image = normalized_origin(origin) + '/' + SHARE_IMAGE
     tags = [f'<link rel="canonical" href="{escape(url, quote=True)}">']
     values = [('name', 'robots', 'index, follow, max-image-preview:large' if indexable else 'noindex, follow'),
@@ -106,6 +113,8 @@ def metadata(source, path, *, origin=SITE_ORIGIN, indexable=True):
               ('property', 'og:image:alt', SHARE_ALT), ('name', 'twitter:card', 'summary_large_image'),
               ('name', 'twitter:title', title), ('name', 'twitter:description', description),
               ('name', 'twitter:image', image), ('name', 'twitter:image:alt', SHARE_ALT)]
+    if verification_home:
+        values.append(('name', 'google-site-verification', GOOGLE_SITE_VERIFICATION))
     tags += [f'<meta {attr}="{name}" content="{escape(value, quote=True)}">'
              for attr, name, value in values]
     # Elimina solo righe vuote dell'head lasciate dalla precedente applicazione.
