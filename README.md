@@ -18,8 +18,9 @@ sono modificati dalla preparazione SEO. L'indicizzazione effettiva dipende dai
 motori di ricerca e non è immediata né garantita.
 
 Il gufo dell'avatar del canale Dr Divago è usato come favicon nei formati ICO
-(16, 32 e 48 px), PNG (32 px) e icona Apple (180 px). Originale e provenienza sono
-conservati in `assets/icons/`; soltanto le tre icone sono copiate nel sito.
+(16, 32 e 48 px), PNG (32 e 96 px) e icona Apple (180 px). La home indica
+il PNG da 96 px con l’indirizzo stabile `/favicon-96x96.png` per Google Search.
+L’originale e la provenienza sono in `assets/icons/`.
 Le pagine principali usano titoli brevi nelle schede del browser, mentre i
 singoli video conservano il proprio titolo.
 

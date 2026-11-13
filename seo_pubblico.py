@@ -21,6 +21,7 @@ PAGE_TITLES = {'index.html': SITE_NAME, 'video.html': 'Video',
                'biblioteca.html': 'Biblioteca', 'eventi.html': 'Eventi',
                'progetto.html': 'Progetto editoriale', 'privacy.html': 'Privacy',
                'crediti.html': 'Crediti', 'blog.html': 'Blog'}
+SEARCH_FAVICON = 'favicon-96x96.png'
 ICON_FILES = {'favicon.ico': ('icon', 'image/x-icon', None),
               'favicon-32x32.png': ('icon', 'image/png', '32x32'),
               'apple-touch-icon.png': ('apple-touch-icon', None, '180x180')}
@@ -131,7 +132,12 @@ def favicon_links(source, path, versions):
         return '' if 'icon' in rel or 'apple-touch-icon' in rel else match[0]
     before = LINK_TAG.sub(clean, before)
     tags = []
+    home = Path(path).as_posix() == 'index.html'
+    if home:
+        tags.append(f'<link rel="icon" href="/{SEARCH_FAVICON}" type="image/png" sizes="96x96">')
     for name, (rel, mime, size) in ICON_FILES.items():
+        if home and rel == 'icon':
+            continue
         href = posixpath.relpath(name, posixpath.dirname(Path(path).as_posix()) or '.')
         tag = f'<link rel="{rel}" href="{href}?v={versions[name]}"'
         if mime:
@@ -155,6 +161,7 @@ def apply_public_seo(destination, *, origin=SITE_ORIGIN, image_source=None, icon
     if image_source.resolve() != image_target.resolve():
         shutil.copyfile(image_source, image_target)
     icon_source = Path(icon_source) if icon_source else Path(__file__).resolve().parent / 'assets/icons'
+    shutil.copyfile(icon_source / SEARCH_FAVICON, destination / SEARCH_FAVICON)
     versions = {}
     for name in ICON_FILES:
         data = (icon_source / name).read_bytes()
