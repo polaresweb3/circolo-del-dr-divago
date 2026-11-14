@@ -7215,6 +7215,18 @@
     ],
     "books": [
       {
+        "book_id": "che-fare-lenin",
+        "title": "Che fare? Problemi scottanti del nostro movimento",
+        "author": "Vladimir Il’ič Lenin",
+        "seconds": 33,
+        "title_seconds": 33,
+        "role": "riferimento",
+        "verified": false,
+        "human_audio_review": false,
+        "evidence": "All’inizio del video il relatore richiama il titolo Che fare? di Lenin nel riferire una domanda su che cosa fare in politica.",
+        "confidence": "titolo_nella_trascrizione"
+      },
+      {
         "book_id": "bibbia",
         "title": "Bibbia",
         "author": "Autori vari",

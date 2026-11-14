@@ -9310,7 +9310,7 @@
     "video_id": "9VkMmxgiT2g",
     "title": "La gramigna e la politica",
     "duration_seconds": 303,
-    "updated_at": "2026-10-23T07:54:34.248Z",
+    "updated_at": "2026-11-14T14:15:50.395934+00:00",
     "human_audio_review": false,
     "source_type": "riconoscimento_vocale_locale",
     "language": "it",
@@ -9365,6 +9365,19 @@
     ],
     "books": [
       {
+        "book_id": "che-fare-lenin",
+        "title": "Che fare? Problemi scottanti del nostro movimento",
+        "author": "Vladimir Il’ič Lenin",
+        "seconds": 33,
+        "title_seconds": 33,
+        "role": "riferimento",
+        "verified": false,
+        "human_audio_review": false,
+        "evidence": "All’inizio del video il relatore richiama il titolo Che fare? di Lenin nel riferire una domanda su che cosa fare in politica.",
+        "confidence": "titolo_nella_trascrizione",
+        "reason": "Il titolo è riscontrato nella trascrizione automatica a 33,56 secondi; l’attribuzione a Lenin è confermata dalla segnalazione del lettore."
+      },
+      {
         "book_id": "bibbia",
         "title": "Bibbia",
         "author": "Autori vari",
@@ -9390,7 +9403,7 @@
     "analysis_notes": [
       "Lettura integrale dei segmenti del riconoscimento vocale locale sull’intero audio. Nessun ascolto umano.",
       "Le ricostruzioni storiche, gli esempi naturalistici e le valutazioni sulla democrazia sono argomenti del parlante, senza verifica autonoma.",
-      "Che fare è richiamato come titolo in apertura, ma il nome collegato è fortemente deformato. Non è stata scelta fra le diverse opere omonime e non viene creato un record bibliografico incerto nell’identità.",
+      "Il titolo Che fare? è riscontrabile a 33,56 secondi della trascrizione automatica; il nome è deformato dal riconoscimento. La segnalazione del lettore identifica l’opera di Lenin.",
       "Il richiamo a Eraclito e a una sua frase non identifica da solo una particolare opera o raccolta."
     ]
   },

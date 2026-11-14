@@ -53197,8 +53197,8 @@
     "title": "Che fare? Problemi scottanti del nostro movimento",
     "author": "Vladimir Il’ič Lenin",
     "work_type": "saggio",
-    "status": "identificazione_probabile",
-    "source": "Il relatore collega la domanda Che fare? al famoso invito di Lenin. Rimando probabile al libro del 1902; non è identificata un’edizione né un passo particolare e la domanda può avere anche uso corrente.",
+    "status": "titolo_nella_trascrizione",
+    "source": "Il titolo è richiamato in apertura di «La gramigna e la politica». L’opera, pubblicata nel 1902, è inoltre collegata in via probabile alla domanda evocata nell’altro video.",
     "references": [
       {
         "label": "Editori Riuniti, edizione e indice",
@@ -53219,6 +53219,18 @@
         "note": "Che fare? collegato a Lenin; titolo della specifica pubblicazione ed edizione non mostrati.",
         "role": "riferimento",
         "video_title": "Ha senso provare a comunicare con un'epoca che ha perso la parola?"
+      },
+      {
+        "video_id": "9VkMmxgiT2g",
+        "seconds": 33,
+        "title_seconds": 33,
+        "role": "riferimento",
+        "verified": false,
+        "human_audio_review": false,
+        "verification": "titolo_nella_trascrizione",
+        "note": "All’inizio del video il relatore richiama il titolo Che fare? di Lenin nel riferire una domanda su che cosa fare in politica.",
+        "video_title": "La gramigna e la politica",
+        "evidence": "riconoscimento_vocale_locale"
       }
     ],
     "cover": {
