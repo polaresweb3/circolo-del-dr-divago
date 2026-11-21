@@ -97,7 +97,25 @@
     return yearMatches && (!criteria.long || (Number.isFinite(video.duration) && video.duration > 1200))
       && normalize(`${video.title || ''} ${details}`).includes(normalize(criteria.query || '').trim());
   }
-  return {yearOf, years, matches};
+  function fromUrl(url) {
+    const params = url.searchParams;
+    const pageNumber = Number(params.get('pagina'));
+    return {
+      query: params.get('q') || '',
+      year: params.get('anno') || 'all',
+      long: params.get('durata') === 'long',
+      page: Number.isSafeInteger(pageNumber) && pageNumber > 0 ? pageNumber - 1 : 0
+    };
+  }
+  function updateUrl(url, {query, year, long, page}) {
+    const values = {q: query, anno: year === 'all' ? '' : year, durata: long ? 'long' : '', pagina: page > 0 ? String(page + 1) : ''};
+    for (const [key, value] of Object.entries(values)) {
+      if (value) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
+    }
+    return url;
+  }
+  return {yearOf, years, matches, fromUrl, updateUrl};
 });
 
 'use strict';
@@ -548,6 +566,12 @@ function renderVideos() {
   $('page-label').textContent = `Pagina ${state.page + 1} di ${pages}`;
   $('previous').disabled = state.page === 0;
   $('next').disabled = state.page >= pages - 1;
+  const url = VideoFilters.updateUrl(new URL(window.location.href), {
+    query: $('search').value, year: $('video-year').value, long: $('filter').value === 'long', page: state.page
+  });
+  if (url.href !== window.location.href) {
+    try { history.replaceState(history.state, '', url); } catch (_) { /* L’anteprima file: può limitare la cronologia. */ }
+  }
 }
 function populateVideoYears() {
   const select = $('video-year');
@@ -557,14 +581,14 @@ function populateVideoYears() {
   if (missingYears) options.push(['unknown', `Anno non disponibile (${missingYears})`]);
   select.replaceChildren(...options.map(([value, label]) => { const option = node('option', '', label); option.value = value; return option; }));
 }
-function filterVideos() {
+function filterVideos(pageIndex = 0) {
   const query = $('search').value.trim();
   const year = $('video-year')?.value || 'all';
   const long = $('filter').value === 'long';
   state.perPage = 9;
   const details = new Map(state.cards.map(card => [card.video_id, [card.title, ...card.topics, ...card.books.map(book => `${book.title} ${book.author}`)].join(' ')]));
   state.filtered = state.videos.filter(video => VideoFilters.matches(video, {query, year, long}, details.get(video.id) || ''));
-  state.page = 0;
+  state.page = pageIndex;
   renderVideos();
 }
 function coverAlt(book) {
@@ -727,9 +751,6 @@ async function filterBooks(reset = true, focusId = null) {
   }
   if (focusId) $(focusId)?.scrollIntoView({block: 'start'});
 }
-on('search', 'input', filterVideos);
-on('filter', 'change', filterVideos);
-on('video-year', 'change', filterVideos);
 on('book-search', 'input', () => filterBooks());
 on('book-sort', 'change', () => filterBooks());
 for (const [id, delta] of [['book-previous', -1], ['book-next', 1]]) {
@@ -820,13 +841,21 @@ async function start() {
   if (page === 'home') await renderHome();
   if (page === 'video') {
     if (data['catalogo.json']) {
-      $('search').value = new URLSearchParams(window.location.search).get('q') || '';
       populateVideoYears();
-      const params = new URLSearchParams(window.location.search);
-      const year = params.get('anno');
-      if (year && [...$('video-year').options].some(option => option.value === year)) $('video-year').value = year;
-      if (params.get('durata') === 'long') $('filter').value = 'long';
-      filterVideos();
+      const saved = VideoFilters.fromUrl(new URL(window.location.href));
+      $('search').value = saved.query;
+      $('video-year').value = [...$('video-year').options].some(option => option.value === saved.year) ? saved.year : 'all';
+      $('filter').value = saved.long ? 'long' : 'all';
+      filterVideos(saved.page);
+      for (const [id, event] of [['search', 'input'], ['filter', 'change'], ['video-year', 'change']]) {
+        on(id, event, () => filterVideos());
+      }
+      if (Number.isFinite(history.state?.videoScrollY)) {
+        window.scrollTo({top: history.state.videoScrollY, behavior: 'instant'});
+      }
+      window.addEventListener('pagehide', () => {
+        try { history.replaceState({...history.state, videoScrollY: window.scrollY}, ''); } catch (_) { /* Cronologia indisponibile. */ }
+      });
     } else $('results').textContent = 'Catalogo momentaneamente non disponibile. Ricarica la pagina.';
   }
   if (page === 'biblioteca') {
@@ -841,6 +870,12 @@ async function start() {
     await filterBooks(true, window.location.hash.slice(1));
   }
   if (page === 'scheda') {
+    const backLink = document.querySelector('.video-sheet > a.text-link');
+    if (backLink && document.referrer) {
+      const from = new URL(document.referrer);
+      const archive = new URL(backLink.href);
+      if (from.origin === archive.origin && from.pathname === archive.pathname) backLink.search = from.search;
+    }
     document.querySelectorAll('[data-play-video]').forEach(button => {
       const start = VideoStart.fromPage(window.location);
       if (start > 0 && canEmbedYouTube()) {

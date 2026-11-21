@@ -22,5 +22,23 @@
     return yearMatches && (!criteria.long || (Number.isFinite(video.duration) && video.duration > 1200))
       && normalize(`${video.title || ''} ${details}`).includes(normalize(criteria.query || '').trim());
   }
-  return {yearOf, years, matches};
+  function fromUrl(url) {
+    const params = url.searchParams;
+    const pageNumber = Number(params.get('pagina'));
+    return {
+      query: params.get('q') || '',
+      year: params.get('anno') || 'all',
+      long: params.get('durata') === 'long',
+      page: Number.isSafeInteger(pageNumber) && pageNumber > 0 ? pageNumber - 1 : 0
+    };
+  }
+  function updateUrl(url, {query, year, long, page}) {
+    const values = {q: query, anno: year === 'all' ? '' : year, durata: long ? 'long' : '', pagina: page > 0 ? String(page + 1) : ''};
+    for (const [key, value] of Object.entries(values)) {
+      if (value) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
+    }
+    return url;
+  }
+  return {yearOf, years, matches, fromUrl, updateUrl};
 });
